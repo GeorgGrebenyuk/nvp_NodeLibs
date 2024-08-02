@@ -2,493 +2,493 @@
 
 namespace nanoCAD.nanoCADPlotCustomParams 
 {
-		[NodeInput("dynamic", typeof(object))]
-		public class nanoCADPlotCustomParams_Constructor : INode 
-		{
+	[NodeInput("dynamic", typeof(object))]
+	public class nanoCADPlotCustomParams_Constructor : INode 
+	{
 		public nanoCAD.InanoCADPlotCustomParams _i;
-			public NodeResult Execute(INVPData context, List<NodeResult> inputs)
-			{
-				dynamic _input0 = inputs[0].Value;
-				this._i = _input0 as nanoCAD.InanoCADPlotCustomParams;
-				if (this._i == null) throw new Exception("Invalid casting");
-				return new NodeResult(this);
-			}
-		}
-		[NodeInput("dynamic", typeof(object))]
-		public class nanoCADPlotCustomParams_ConstructorCast : INode 
+		public NodeResult Execute(INVPData context, List<NodeResult> inputs)
 		{
+			dynamic _input0 = inputs[0].Value;
+			this._i = _input0 as nanoCAD.InanoCADPlotCustomParams;
+			if (this._i == null) throw new Exception("Invalid casting");
+			return new NodeResult(this);
+		}
+	}
+	[NodeInput("dynamic", typeof(object))]
+	public class nanoCADPlotCustomParams_ConstructorCast : INode 
+	{
 		public nanoCAD.InanoCADPlotCustomParams _i;
-			public NodeResult Execute(INVPData context, List<NodeResult> inputs)
-			{
-				dynamic _input0 = inputs[0].Value;
-				this._i = _input0._i as nanoCAD.InanoCADPlotCustomParams;
-				if (this._i == null) throw new Exception("Invalid casting");
-				return new NodeResult(this);
-			}
-		}
-
-
-		///<summary>
-		///value
-		///</summary>
-		[NodeInput("nanoCADPlotCustomParams", typeof(object))]
-		public class Params : INode
+		public NodeResult Execute(INVPData context, List<NodeResult> inputs)
 		{
-			public NodeResult Execute(INVPData context, List<NodeResult> inputs)
-			{
-				dynamic _input0 = inputs[0].Value;
-				return new NodeResult(_input0._i.Params);
-
-			}
+			dynamic _input0 = inputs[0].Value;
+			this._i = _input0._i as nanoCAD.InanoCADPlotCustomParams;
+			if (this._i == null) throw new Exception("Invalid casting");
+			return new NodeResult(this);
 		}
+	}
 
 
-		///<summary>
-		///value
-		///</summary>
-		[NodeInput("nanoCADPlotCustomParams", typeof(object))]
-		[NodeInput("param", typeof(System.Object))]
-		public class Set_Params : INode
+	///<summary>
+	///value
+	///</summary>
+	[NodeInput("nanoCADPlotCustomParams", typeof(object))]
+	public class Params : INode
+	{
+		public NodeResult Execute(INVPData context, List<NodeResult> inputs)
 		{
-			public NodeResult Execute(INVPData context, List<NodeResult> inputs)
-			{
-				dynamic _input0 = inputs[0].Value;
-				_input0._i.Params = inputs[1];
-				return null;
-			}
+			dynamic _input0 = inputs[0].Value;
+			return new NodeResult(_input0._i.Params);
+
 		}
+	}
 
 
-		///<summary>
-		///value
-		///</summary>
-		[NodeInput("nanoCADPlotCustomParams", typeof(object))]
-		[NodeInput("param", typeof(System.Object))]
-		public class Put_Params : INode
+	///<summary>
+	///value
+	///</summary>
+	[NodeInput("nanoCADPlotCustomParams", typeof(object))]
+	[NodeInput("param", typeof(System.Object))]
+	public class Set_Params : INode
+	{
+		public NodeResult Execute(INVPData context, List<NodeResult> inputs)
 		{
-			public NodeResult Execute(INVPData context, List<NodeResult> inputs)
-			{
-				dynamic _input0 = inputs[0].Value;
-				_input0._i.Params = inputs[1];
-				return null;
-			}
+			dynamic _input0 = inputs[0].Value;
+			_input0._i.Params = inputs[1];
+			return null;
 		}
+	}
 
 
-		///<summary>
-		///Retrieves color mode value
-		///</summary>
-		[NodeInput("nanoCADPlotCustomParams", typeof(object))]
-		public class ColorMode : INode
+	///<summary>
+	///value
+	///</summary>
+	[NodeInput("nanoCADPlotCustomParams", typeof(object))]
+	[NodeInput("param", typeof(System.Object))]
+	public class Put_Params : INode
+	{
+		public NodeResult Execute(INVPData context, List<NodeResult> inputs)
 		{
-			public NodeResult Execute(INVPData context, List<NodeResult> inputs)
-			{
-				dynamic _input0 = inputs[0].Value;
-				return new NodeResult(_input0._i.ColorMode);
-
-			}
+			dynamic _input0 = inputs[0].Value;
+			_input0._i.Params = inputs[1];
+			return null;
 		}
+	}
 
 
-		///<summary>
-		///Retrieves color mode value
-		///</summary>
-		[NodeInput("nanoCADPlotCustomParams", typeof(object))]
-		[NodeInput("val", typeof(System.Object))]
-		public class Set_ColorMode : INode
+	///<summary>
+	///Retrieves color mode value
+	///</summary>
+	[NodeInput("nanoCADPlotCustomParams", typeof(object))]
+	public class ColorMode : INode
+	{
+		public NodeResult Execute(INVPData context, List<NodeResult> inputs)
 		{
-			public NodeResult Execute(INVPData context, List<NodeResult> inputs)
-			{
-				dynamic _input0 = inputs[0].Value;
-				_input0._i.ColorMode = inputs[1];
-				return null;
-			}
+			dynamic _input0 = inputs[0].Value;
+			return new NodeResult(_input0._i.ColorMode);
+
 		}
+	}
 
 
-		///<summary>
-		///Retrieves PrinterDPI value
-		///</summary>
-		[NodeInput("nanoCADPlotCustomParams", typeof(object))]
-		public class PrinterDPI : INode
+	///<summary>
+	///Retrieves color mode value
+	///</summary>
+	[NodeInput("nanoCADPlotCustomParams", typeof(object))]
+	[NodeInput("val", typeof(System.Object))]
+	public class Set_ColorMode : INode
+	{
+		public NodeResult Execute(INVPData context, List<NodeResult> inputs)
 		{
-			public NodeResult Execute(INVPData context, List<NodeResult> inputs)
-			{
-				dynamic _input0 = inputs[0].Value;
-				return new NodeResult(_input0._i.PrinterDPI);
-
-			}
+			dynamic _input0 = inputs[0].Value;
+			_input0._i.ColorMode = inputs[1];
+			return null;
 		}
+	}
 
 
-		///<summary>
-		///Retrieves PrinterDPI value
-		///</summary>
-		[NodeInput("nanoCADPlotCustomParams", typeof(object))]
-		[NodeInput("val", typeof(System.Object))]
-		public class Set_PrinterDPI : INode
+	///<summary>
+	///Retrieves PrinterDPI value
+	///</summary>
+	[NodeInput("nanoCADPlotCustomParams", typeof(object))]
+	public class PrinterDPI : INode
+	{
+		public NodeResult Execute(INVPData context, List<NodeResult> inputs)
 		{
-			public NodeResult Execute(INVPData context, List<NodeResult> inputs)
-			{
-				dynamic _input0 = inputs[0].Value;
-				_input0._i.PrinterDPI = inputs[1];
-				return null;
-			}
+			dynamic _input0 = inputs[0].Value;
+			return new NodeResult(_input0._i.PrinterDPI);
+
 		}
+	}
 
 
-		///<summary>
-		///Retrieves UsePrefinedNames value
-		///</summary>
-		[NodeInput("nanoCADPlotCustomParams", typeof(object))]
-		public class UsePrefinedNames : INode
+	///<summary>
+	///Retrieves PrinterDPI value
+	///</summary>
+	[NodeInput("nanoCADPlotCustomParams", typeof(object))]
+	[NodeInput("val", typeof(System.Object))]
+	public class Set_PrinterDPI : INode
+	{
+		public NodeResult Execute(INVPData context, List<NodeResult> inputs)
 		{
-			public NodeResult Execute(INVPData context, List<NodeResult> inputs)
-			{
-				dynamic _input0 = inputs[0].Value;
-				return new NodeResult(_input0._i.UsePrefinedNames);
-
-			}
+			dynamic _input0 = inputs[0].Value;
+			_input0._i.PrinterDPI = inputs[1];
+			return null;
 		}
+	}
 
 
-		///<summary>
-		///Retrieves UsePrefinedNames value
-		///</summary>
-		[NodeInput("nanoCADPlotCustomParams", typeof(object))]
-		[NodeInput("val", typeof(System.Object))]
-		public class Set_UsePrefinedNames : INode
+	///<summary>
+	///Retrieves UsePrefinedNames value
+	///</summary>
+	[NodeInput("nanoCADPlotCustomParams", typeof(object))]
+	public class UsePrefinedNames : INode
+	{
+		public NodeResult Execute(INVPData context, List<NodeResult> inputs)
 		{
-			public NodeResult Execute(INVPData context, List<NodeResult> inputs)
-			{
-				dynamic _input0 = inputs[0].Value;
-				_input0._i.UsePrefinedNames = inputs[1];
-				return null;
-			}
+			dynamic _input0 = inputs[0].Value;
+			return new NodeResult(_input0._i.UsePrefinedNames);
+
 		}
+	}
 
 
-		///<summary>
-		///Retrieves IfFileExist value
-		///</summary>
-		[NodeInput("nanoCADPlotCustomParams", typeof(object))]
-		public class IfFileExist : INode
+	///<summary>
+	///Retrieves UsePrefinedNames value
+	///</summary>
+	[NodeInput("nanoCADPlotCustomParams", typeof(object))]
+	[NodeInput("val", typeof(System.Object))]
+	public class Set_UsePrefinedNames : INode
+	{
+		public NodeResult Execute(INVPData context, List<NodeResult> inputs)
 		{
-			public NodeResult Execute(INVPData context, List<NodeResult> inputs)
-			{
-				dynamic _input0 = inputs[0].Value;
-				return new NodeResult(_input0._i.IfFileExist);
-
-			}
+			dynamic _input0 = inputs[0].Value;
+			_input0._i.UsePrefinedNames = inputs[1];
+			return null;
 		}
+	}
 
 
-		///<summary>
-		///Retrieves IfFileExist value
-		///</summary>
-		[NodeInput("nanoCADPlotCustomParams", typeof(object))]
-		[NodeInput("val", typeof(System.Object))]
-		public class Set_IfFileExist : INode
+	///<summary>
+	///Retrieves IfFileExist value
+	///</summary>
+	[NodeInput("nanoCADPlotCustomParams", typeof(object))]
+	public class IfFileExist : INode
+	{
+		public NodeResult Execute(INVPData context, List<NodeResult> inputs)
 		{
-			public NodeResult Execute(INVPData context, List<NodeResult> inputs)
-			{
-				dynamic _input0 = inputs[0].Value;
-				_input0._i.IfFileExist = inputs[1];
-				return null;
-			}
+			dynamic _input0 = inputs[0].Value;
+			return new NodeResult(_input0._i.IfFileExist);
+
 		}
+	}
 
 
-		///<summary>
-		///Retrieves RunPDFApp value
-		///</summary>
-		[NodeInput("nanoCADPlotCustomParams", typeof(object))]
-		public class RunPDFApp : INode
+	///<summary>
+	///Retrieves IfFileExist value
+	///</summary>
+	[NodeInput("nanoCADPlotCustomParams", typeof(object))]
+	[NodeInput("val", typeof(System.Object))]
+	public class Set_IfFileExist : INode
+	{
+		public NodeResult Execute(INVPData context, List<NodeResult> inputs)
 		{
-			public NodeResult Execute(INVPData context, List<NodeResult> inputs)
-			{
-				dynamic _input0 = inputs[0].Value;
-				return new NodeResult(_input0._i.RunPDFApp);
-
-			}
+			dynamic _input0 = inputs[0].Value;
+			_input0._i.IfFileExist = inputs[1];
+			return null;
 		}
+	}
 
 
-		///<summary>
-		///Retrieves RunPDFApp value
-		///</summary>
-		[NodeInput("nanoCADPlotCustomParams", typeof(object))]
-		[NodeInput("val", typeof(System.Object))]
-		public class Set_RunPDFApp : INode
+	///<summary>
+	///Retrieves RunPDFApp value
+	///</summary>
+	[NodeInput("nanoCADPlotCustomParams", typeof(object))]
+	public class RunPDFApp : INode
+	{
+		public NodeResult Execute(INVPData context, List<NodeResult> inputs)
 		{
-			public NodeResult Execute(INVPData context, List<NodeResult> inputs)
-			{
-				dynamic _input0 = inputs[0].Value;
-				_input0._i.RunPDFApp = inputs[1];
-				return null;
-			}
+			dynamic _input0 = inputs[0].Value;
+			return new NodeResult(_input0._i.RunPDFApp);
+
 		}
+	}
 
 
-		///<summary>
-		///Retrieves UseDWGPath value
-		///</summary>
-		[NodeInput("nanoCADPlotCustomParams", typeof(object))]
-		public class UseDWGPath : INode
+	///<summary>
+	///Retrieves RunPDFApp value
+	///</summary>
+	[NodeInput("nanoCADPlotCustomParams", typeof(object))]
+	[NodeInput("val", typeof(System.Object))]
+	public class Set_RunPDFApp : INode
+	{
+		public NodeResult Execute(INVPData context, List<NodeResult> inputs)
 		{
-			public NodeResult Execute(INVPData context, List<NodeResult> inputs)
-			{
-				dynamic _input0 = inputs[0].Value;
-				return new NodeResult(_input0._i.UseDWGPath);
-
-			}
+			dynamic _input0 = inputs[0].Value;
+			_input0._i.RunPDFApp = inputs[1];
+			return null;
 		}
+	}
 
 
-		///<summary>
-		///Retrieves UseDWGPath value
-		///</summary>
-		[NodeInput("nanoCADPlotCustomParams", typeof(object))]
-		[NodeInput("val", typeof(System.Object))]
-		public class Set_UseDWGPath : INode
+	///<summary>
+	///Retrieves UseDWGPath value
+	///</summary>
+	[NodeInput("nanoCADPlotCustomParams", typeof(object))]
+	public class UseDWGPath : INode
+	{
+		public NodeResult Execute(INVPData context, List<NodeResult> inputs)
 		{
-			public NodeResult Execute(INVPData context, List<NodeResult> inputs)
-			{
-				dynamic _input0 = inputs[0].Value;
-				_input0._i.UseDWGPath = inputs[1];
-				return null;
-			}
+			dynamic _input0 = inputs[0].Value;
+			return new NodeResult(_input0._i.UseDWGPath);
+
 		}
+	}
 
 
-		///<summary>
-		///Retrieves FileFolder value
-		///</summary>
-		[NodeInput("nanoCADPlotCustomParams", typeof(object))]
-		public class FileFolder : INode
+	///<summary>
+	///Retrieves UseDWGPath value
+	///</summary>
+	[NodeInput("nanoCADPlotCustomParams", typeof(object))]
+	[NodeInput("val", typeof(System.Object))]
+	public class Set_UseDWGPath : INode
+	{
+		public NodeResult Execute(INVPData context, List<NodeResult> inputs)
 		{
-			public NodeResult Execute(INVPData context, List<NodeResult> inputs)
-			{
-				dynamic _input0 = inputs[0].Value;
-				return new NodeResult(_input0._i.FileFolder);
-
-			}
+			dynamic _input0 = inputs[0].Value;
+			_input0._i.UseDWGPath = inputs[1];
+			return null;
 		}
+	}
 
 
-		///<summary>
-		///Retrieves FileFolder value
-		///</summary>
-		[NodeInput("nanoCADPlotCustomParams", typeof(object))]
-		[NodeInput("val", typeof(System.String))]
-		public class Set_FileFolder : INode
+	///<summary>
+	///Retrieves FileFolder value
+	///</summary>
+	[NodeInput("nanoCADPlotCustomParams", typeof(object))]
+	public class FileFolder : INode
+	{
+		public NodeResult Execute(INVPData context, List<NodeResult> inputs)
 		{
-			public NodeResult Execute(INVPData context, List<NodeResult> inputs)
-			{
-				dynamic _input0 = inputs[0].Value;
-				_input0._i.FileFolder = inputs[1];
-				return null;
-			}
+			dynamic _input0 = inputs[0].Value;
+			return new NodeResult(_input0._i.FileFolder);
+
 		}
+	}
 
 
-		///<summary>
-		///Retrieves FileMask value
-		///</summary>
-		[NodeInput("nanoCADPlotCustomParams", typeof(object))]
-		public class FileMask : INode
+	///<summary>
+	///Retrieves FileFolder value
+	///</summary>
+	[NodeInput("nanoCADPlotCustomParams", typeof(object))]
+	[NodeInput("val", typeof(System.String))]
+	public class Set_FileFolder : INode
+	{
+		public NodeResult Execute(INVPData context, List<NodeResult> inputs)
 		{
-			public NodeResult Execute(INVPData context, List<NodeResult> inputs)
-			{
-				dynamic _input0 = inputs[0].Value;
-				return new NodeResult(_input0._i.FileMask);
-
-			}
+			dynamic _input0 = inputs[0].Value;
+			_input0._i.FileFolder = inputs[1];
+			return null;
 		}
+	}
 
 
-		///<summary>
-		///Retrieves FileMask value
-		///</summary>
-		[NodeInput("nanoCADPlotCustomParams", typeof(object))]
-		[NodeInput("val", typeof(System.String))]
-		public class Set_FileMask : INode
+	///<summary>
+	///Retrieves FileMask value
+	///</summary>
+	[NodeInput("nanoCADPlotCustomParams", typeof(object))]
+	public class FileMask : INode
+	{
+		public NodeResult Execute(INVPData context, List<NodeResult> inputs)
 		{
-			public NodeResult Execute(INVPData context, List<NodeResult> inputs)
-			{
-				dynamic _input0 = inputs[0].Value;
-				_input0._i.FileMask = inputs[1];
-				return null;
-			}
+			dynamic _input0 = inputs[0].Value;
+			return new NodeResult(_input0._i.FileMask);
+
 		}
+	}
 
 
-		///<summary>
-		///Retrieves PlotToFile value
-		///</summary>
-		[NodeInput("nanoCADPlotCustomParams", typeof(object))]
-		public class PlotToFile : INode
+	///<summary>
+	///Retrieves FileMask value
+	///</summary>
+	[NodeInput("nanoCADPlotCustomParams", typeof(object))]
+	[NodeInput("val", typeof(System.String))]
+	public class Set_FileMask : INode
+	{
+		public NodeResult Execute(INVPData context, List<NodeResult> inputs)
 		{
-			public NodeResult Execute(INVPData context, List<NodeResult> inputs)
-			{
-				dynamic _input0 = inputs[0].Value;
-				return new NodeResult(_input0._i.PlotToFile);
-
-			}
+			dynamic _input0 = inputs[0].Value;
+			_input0._i.FileMask = inputs[1];
+			return null;
 		}
+	}
 
 
-		///<summary>
-		///Retrieves PlotToFile value
-		///</summary>
-		[NodeInput("nanoCADPlotCustomParams", typeof(object))]
-		[NodeInput("val", typeof(System.Object))]
-		public class Set_PlotToFile : INode
+	///<summary>
+	///Retrieves PlotToFile value
+	///</summary>
+	[NodeInput("nanoCADPlotCustomParams", typeof(object))]
+	public class PlotToFile : INode
+	{
+		public NodeResult Execute(INVPData context, List<NodeResult> inputs)
 		{
-			public NodeResult Execute(INVPData context, List<NodeResult> inputs)
-			{
-				dynamic _input0 = inputs[0].Value;
-				_input0._i.PlotToFile = inputs[1];
-				return null;
-			}
+			dynamic _input0 = inputs[0].Value;
+			return new NodeResult(_input0._i.PlotToFile);
+
 		}
+	}
 
 
-		///<summary>
-		///Retrieves Multipage value
-		///</summary>
-		[NodeInput("nanoCADPlotCustomParams", typeof(object))]
-		public class Multipage : INode
+	///<summary>
+	///Retrieves PlotToFile value
+	///</summary>
+	[NodeInput("nanoCADPlotCustomParams", typeof(object))]
+	[NodeInput("val", typeof(System.Object))]
+	public class Set_PlotToFile : INode
+	{
+		public NodeResult Execute(INVPData context, List<NodeResult> inputs)
 		{
-			public NodeResult Execute(INVPData context, List<NodeResult> inputs)
-			{
-				dynamic _input0 = inputs[0].Value;
-				return new NodeResult(_input0._i.Multipage);
-
-			}
+			dynamic _input0 = inputs[0].Value;
+			_input0._i.PlotToFile = inputs[1];
+			return null;
 		}
+	}
 
 
-		///<summary>
-		///Retrieves Multipage value
-		///</summary>
-		[NodeInput("nanoCADPlotCustomParams", typeof(object))]
-		[NodeInput("val", typeof(System.Object))]
-		public class Set_Multipage : INode
+	///<summary>
+	///Retrieves Multipage value
+	///</summary>
+	[NodeInput("nanoCADPlotCustomParams", typeof(object))]
+	public class Multipage : INode
+	{
+		public NodeResult Execute(INVPData context, List<NodeResult> inputs)
 		{
-			public NodeResult Execute(INVPData context, List<NodeResult> inputs)
-			{
-				dynamic _input0 = inputs[0].Value;
-				_input0._i.Multipage = inputs[1];
-				return null;
-			}
+			dynamic _input0 = inputs[0].Value;
+			return new NodeResult(_input0._i.Multipage);
+
 		}
+	}
 
 
-		///<summary>
-		///Retrieves InflateWidth value
-		///</summary>
-		[NodeInput("nanoCADPlotCustomParams", typeof(object))]
-		public class InflateWidth : INode
+	///<summary>
+	///Retrieves Multipage value
+	///</summary>
+	[NodeInput("nanoCADPlotCustomParams", typeof(object))]
+	[NodeInput("val", typeof(System.Object))]
+	public class Set_Multipage : INode
+	{
+		public NodeResult Execute(INVPData context, List<NodeResult> inputs)
 		{
-			public NodeResult Execute(INVPData context, List<NodeResult> inputs)
-			{
-				dynamic _input0 = inputs[0].Value;
-				return new NodeResult(_input0._i.InflateWidth);
-
-			}
+			dynamic _input0 = inputs[0].Value;
+			_input0._i.Multipage = inputs[1];
+			return null;
 		}
+	}
 
 
-		///<summary>
-		///Retrieves InflateWidth value
-		///</summary>
-		[NodeInput("nanoCADPlotCustomParams", typeof(object))]
-		[NodeInput("val", typeof(System.Double))]
-		public class Set_InflateWidth : INode
+	///<summary>
+	///Retrieves InflateWidth value
+	///</summary>
+	[NodeInput("nanoCADPlotCustomParams", typeof(object))]
+	public class InflateWidth : INode
+	{
+		public NodeResult Execute(INVPData context, List<NodeResult> inputs)
 		{
-			public NodeResult Execute(INVPData context, List<NodeResult> inputs)
-			{
-				dynamic _input0 = inputs[0].Value;
-				_input0._i.InflateWidth = inputs[1];
-				return null;
-			}
+			dynamic _input0 = inputs[0].Value;
+			return new NodeResult(_input0._i.InflateWidth);
+
 		}
+	}
 
 
-		///<summary>
-		///Retrieves Alignment value
-		///</summary>
-		[NodeInput("nanoCADPlotCustomParams", typeof(object))]
-		public class Alignment : INode
+	///<summary>
+	///Retrieves InflateWidth value
+	///</summary>
+	[NodeInput("nanoCADPlotCustomParams", typeof(object))]
+	[NodeInput("val", typeof(System.Double))]
+	public class Set_InflateWidth : INode
+	{
+		public NodeResult Execute(INVPData context, List<NodeResult> inputs)
 		{
-			public NodeResult Execute(INVPData context, List<NodeResult> inputs)
-			{
-				dynamic _input0 = inputs[0].Value;
-				return new NodeResult(_input0._i.Alignment);
-
-			}
+			dynamic _input0 = inputs[0].Value;
+			_input0._i.InflateWidth = inputs[1];
+			return null;
 		}
+	}
 
 
-		///<summary>
-		///Retrieves Alignment value
-		///</summary>
-		[NodeInput("nanoCADPlotCustomParams", typeof(object))]
-		[NodeInput("val", typeof(System.Object))]
-		public class Set_Alignment : INode
+	///<summary>
+	///Retrieves Alignment value
+	///</summary>
+	[NodeInput("nanoCADPlotCustomParams", typeof(object))]
+	public class Alignment : INode
+	{
+		public NodeResult Execute(INVPData context, List<NodeResult> inputs)
 		{
-			public NodeResult Execute(INVPData context, List<NodeResult> inputs)
-			{
-				dynamic _input0 = inputs[0].Value;
-				_input0._i.Alignment = inputs[1];
-				return null;
-			}
+			dynamic _input0 = inputs[0].Value;
+			return new NodeResult(_input0._i.Alignment);
+
 		}
+	}
 
 
-		///<summary>
-		///Retrieves PaperOutMargins value
-		///</summary>
-		[NodeInput("nanoCADPlotCustomParams", typeof(object))]
-		public class PaperOutMargins : INode
+	///<summary>
+	///Retrieves Alignment value
+	///</summary>
+	[NodeInput("nanoCADPlotCustomParams", typeof(object))]
+	[NodeInput("val", typeof(System.Object))]
+	public class Set_Alignment : INode
+	{
+		public NodeResult Execute(INVPData context, List<NodeResult> inputs)
 		{
-			public NodeResult Execute(INVPData context, List<NodeResult> inputs)
-			{
-				dynamic _input0 = inputs[0].Value;
-				return new NodeResult(_input0._i.PaperOutMargins);
-
-			}
+			dynamic _input0 = inputs[0].Value;
+			_input0._i.Alignment = inputs[1];
+			return null;
 		}
+	}
 
 
-		///<summary>
-		///Retrieves PaperOutMargins value
-		///</summary>
-		[NodeInput("nanoCADPlotCustomParams", typeof(object))]
-		[NodeInput("val", typeof(System.Object))]
-		public class Set_PaperOutMargins : INode
+	///<summary>
+	///Retrieves PaperOutMargins value
+	///</summary>
+	[NodeInput("nanoCADPlotCustomParams", typeof(object))]
+	public class PaperOutMargins : INode
+	{
+		public NodeResult Execute(INVPData context, List<NodeResult> inputs)
 		{
-			public NodeResult Execute(INVPData context, List<NodeResult> inputs)
-			{
-				dynamic _input0 = inputs[0].Value;
-				_input0._i.PaperOutMargins = inputs[1];
-				return null;
-			}
+			dynamic _input0 = inputs[0].Value;
+			return new NodeResult(_input0._i.PaperOutMargins);
+
 		}
+	}
 
 
-		///<summary>
-		///Retrieves Plot Areas
-		///</summary>
-		[NodeInput("nanoCADPlotCustomParams", typeof(object))]
-		public class PlotAreas : INode
+	///<summary>
+	///Retrieves PaperOutMargins value
+	///</summary>
+	[NodeInput("nanoCADPlotCustomParams", typeof(object))]
+	[NodeInput("val", typeof(System.Object))]
+	public class Set_PaperOutMargins : INode
+	{
+		public NodeResult Execute(INVPData context, List<NodeResult> inputs)
 		{
-			public NodeResult Execute(INVPData context, List<NodeResult> inputs)
-			{
-				dynamic _input0 = inputs[0].Value;
-				return new NodeResult(_input0._i.PlotAreas);
-
-			}
+			dynamic _input0 = inputs[0].Value;
+			_input0._i.PaperOutMargins = inputs[1];
+			return null;
 		}
+	}
+
+
+	///<summary>
+	///Retrieves Plot Areas
+	///</summary>
+	[NodeInput("nanoCADPlotCustomParams", typeof(object))]
+	public class PlotAreas : INode
+	{
+		public NodeResult Execute(INVPData context, List<NodeResult> inputs)
+		{
+			dynamic _input0 = inputs[0].Value;
+			return new NodeResult(_input0._i.PlotAreas);
+
+		}
+	}
 }

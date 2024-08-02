@@ -7,6 +7,7 @@ using System.Security;
 using System.Text;
 using System.Runtime.CompilerServices;
 using System.Diagnostics;
+using NVP_Manifest_Creator;
 
 namespace NVP_COM_Common
 {
@@ -14,6 +15,7 @@ namespace NVP_COM_Common
     /// Get _i object (COM-interface)
     /// </summary>
     [NodeInput("dynamic", typeof(object))]
+    [NVP_Manifest(Id = "foo bar")]
     public class NVP_COM_GetInterface : INode
     {
         public NodeResult Execute(INVPData context, List<NodeResult> inputs)
