@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "NVP_COM_Common": {
+      "commandName": "Project"
+    },
+    "NVP_APP": {
+      "commandName": "Executable",
+      "executablePath": "D:\\PROCESSING\\other\\nvp\\net6.0\\NVP.Core.Program.App.exe"
+    }
+  }
+}

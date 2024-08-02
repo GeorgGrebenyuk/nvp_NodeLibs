@@ -1,0 +1,3928 @@
+{
+  "items": [
+    {
+      "Name": "Renga.UI.UI_Constructor",
+      "Id": "CEF0B172-5D04-43C8-99F4-012A6FEDEFF9"
+    },
+    {
+      "Name": "Renga.UI.UI_ConstructorCast",
+      "Id": "10F0A44D-591A-4B18-8ED8-AA98F49478E4"
+    },
+    {
+      "Name": "Renga.UI.CreateAction",
+      "Id": "24D9E8AB-AF2A-4EC9-87ED-5ED3D842925B"
+    },
+    {
+      "Name": "Renga.UI.CreateActionWithId",
+      "Id": "2658C282-ACD3-4F98-A669-191309060B6D"
+    },
+    {
+      "Name": "Renga.UI.GetAction",
+      "Id": "38AE6C58-135B-48E2-9D19-D82149F31E9C"
+    },
+    {
+      "Name": "Renga.UI.AddExtensionToPrimaryPanel",
+      "Id": "7B43AE96-E6C2-4C85-BB62-32AE97416F6B"
+    },
+    {
+      "Name": "Renga.UI.AddExtensionToActionsPanel",
+      "Id": "4C11D85D-FDC8-4386-A85C-6C823977278B"
+    },
+    {
+      "Name": "Renga.UI.AddToolButtonToActionsPanel",
+      "Id": "4260B715-9B15-4878-88C2-A3C622808A3A"
+    },
+    {
+      "Name": "Renga.UI.CreateUIPanelExtension",
+      "Id": "BD180D7A-ED5B-4A39-B86D-B9808FF84669"
+    },
+    {
+      "Name": "Renga.UI.CreateSplitButton",
+      "Id": "9A2973B4-9370-4E02-99A3-1356D2365E0D"
+    },
+    {
+      "Name": "Renga.UI.CreateDropDownButton",
+      "Id": "03F25B5B-1E65-40E4-AF8B-CD77DFC136DF"
+    },
+    {
+      "Name": "Renga.UI.AddContextMenu",
+      "Id": "1CE60817-2E7C-438D-84B6-189391684E77"
+    },
+    {
+      "Name": "Renga.UI.ShowMessageBox",
+      "Id": "57EF394B-0550-482D-8CFF-59EEC336FB02"
+    },
+    {
+      "Name": "Renga.UI.ShowSaveFileDialog",
+      "Id": "02E67468-E5C4-439C-BAA9-041215F95084"
+    },
+    {
+      "Name": "Renga.UI.ShowOpenFileDialog",
+      "Id": "80ED65CD-681D-48E8-B964-EDD2329E6368"
+    },
+    {
+      "Name": "Renga.UI.CreateImage",
+      "Id": "F80F8CA6-5801-4A1A-916B-98462E1DECBA"
+    },
+    {
+      "Name": "Renga.UI.CreateContextMenu",
+      "Id": "1C3544C7-57F7-427B-BB4D-9F6D104EB92E"
+    },
+    {
+      "Name": "Renga.UI.AddExportAction",
+      "Id": "626B6353-6262-4AC2-847F-B8F29E8EB49F"
+    },
+    {
+      "Name": "Renga.UI.AddContextMenuS",
+      "Id": "6482E376-2DC3-4880-B5A4-1BF32AC11DED"
+    },
+    {
+      "Name": "Renga.UI.GetControlVisibility",
+      "Id": "1BCB6148-4EE7-4F01-B19A-46D6B2725858"
+    },
+    {
+      "Name": "Renga.UI.SetControlVisibility",
+      "Id": "F9FF7A31-5946-44B5-9DD6-7FC46DE42A26"
+    },
+    {
+      "Name": "Renga.UI.GetControlVisibilityS",
+      "Id": "346BF72A-F4AA-41BC-AC99-BD5CF44B408D"
+    },
+    {
+      "Name": "Renga.UI.SetControlVisibilityS",
+      "Id": "7F2B0F57-C2E9-44F5-A5A6-E1498FD73D6D"
+    },
+    {
+      "Name": "Renga.UI.CreateToolButton",
+      "Id": "8DC67229-4B93-4A0F-91A1-9EFCB79506EB"
+    },
+    {
+      "Name": "Renga.UI.CreateToolButtonWithId",
+      "Id": "56F68154-FC42-4952-8731-D953EEB46B45"
+    },
+    {
+      "Name": "Renga.UI.CreateSplitButtonWithId",
+      "Id": "018E86F8-25ED-44DD-B1F1-2F17E2AFA42D"
+    },
+    {
+      "Name": "Renga.UI.CreateDropDownButtonWithId",
+      "Id": "3B8BA1A9-65D6-483D-9C82-33AE99245711"
+    },
+    {
+      "Name": "Renga.UI.CreateToolButtonWithIdS",
+      "Id": "815489B6-0DE2-4424-809A-842B5BC0D712"
+    },
+    {
+      "Name": "Renga.UI.CreateSplitButtonWithIdS",
+      "Id": "9309AE22-8D03-481B-96C1-19E78EFC68C3"
+    },
+    {
+      "Name": "Renga.UI.CreateDropDownButtonWithIdS",
+      "Id": "B2B8D382-3B14-4284-93DB-9EB7D2E5E885"
+    },
+    {
+      "Name": "Renga.Action.Action_Constructor",
+      "Id": "72163192-4DCE-4E4D-819C-5BC527215FC3"
+    },
+    {
+      "Name": "Renga.Action.Action_ConstructorCast",
+      "Id": "FC9C22B3-1EE2-4B7F-B6F4-D3FE374E69AE"
+    },
+    {
+      "Name": "Renga.Action.Id",
+      "Id": "BBE3CF73-4E7B-4CC6-9755-22DACFEDC0B8"
+    },
+    {
+      "Name": "Renga.Action.DisplayName",
+      "Id": "A61F910F-8AB1-4D48-BE37-6B770DF164FF"
+    },
+    {
+      "Name": "Renga.Action.Set_DisplayName",
+      "Id": "D1C77670-6304-43A7-B00B-431907B8940C"
+    },
+    {
+      "Name": "Renga.Action.ToolTip",
+      "Id": "08E9652F-2F7D-40B0-A5CB-4A0CF307BC13"
+    },
+    {
+      "Name": "Renga.Action.Set_ToolTip",
+      "Id": "9781A466-30F4-44C8-92C7-126ED2E77857"
+    },
+    {
+      "Name": "Renga.Action.Enabled",
+      "Id": "22CA6828-9E2A-4B66-9B60-BACA212681D0"
+    },
+    {
+      "Name": "Renga.Action.Set_Enabled",
+      "Id": "5B9E941F-01A2-44A4-828F-838784D67A43"
+    },
+    {
+      "Name": "Renga.Action.Checkable",
+      "Id": "5D19B7A1-4D07-4327-B668-D2A173CB0313"
+    },
+    {
+      "Name": "Renga.Action.Set_Checkable",
+      "Id": "60F4CEAE-23F4-4B5F-82E6-D83D7F082D0E"
+    },
+    {
+      "Name": "Renga.Action.Checked",
+      "Id": "78F36BB7-5F40-42D4-AE89-F33D7DEFD605"
+    },
+    {
+      "Name": "Renga.Action.Set_Checked",
+      "Id": "E9E5CC7F-FBFA-4310-A91C-0680BAADFA88"
+    },
+    {
+      "Name": "Renga.Action.Set_Icon",
+      "Id": "5B7C23C9-5417-4F99-A7D0-147D0EE8A0DA"
+    },
+    {
+      "Name": "Renga.Action.Visible",
+      "Id": "C0B89E7A-C1A4-485E-AFD9-D79E8C97DAEF"
+    },
+    {
+      "Name": "Renga.Action.Set_Visible",
+      "Id": "E606AE43-4F81-4B7F-BCC8-C81F9290DF59"
+    },
+    {
+      "Name": "Renga.Image.Image_Constructor",
+      "Id": "4A059385-E4A3-4171-8985-9B1AA34055CB"
+    },
+    {
+      "Name": "Renga.Image.Image_ConstructorCast",
+      "Id": "6CFBB99E-0B99-4C02-9B7D-943A9C366A60"
+    },
+    {
+      "Name": "Renga.Image.LoadFromData",
+      "Id": "C8A35D61-4C2F-4B34-83E0-99E18F9D2630"
+    },
+    {
+      "Name": "Renga.Image.LoadFromFile",
+      "Id": "04F19019-F8D3-4A0A-AE19-3C63ED3845D4"
+    },
+    {
+      "Name": "Renga.Image.SaveToFile",
+      "Id": "C6E3B0A6-F60D-4BC8-8454-CA596CD3643D"
+    },
+    {
+      "Name": "Renga.Image.SaveToData",
+      "Id": "65B513CA-F5F7-400B-BFE1-A22FE4235094"
+    },
+    {
+      "Name": "Renga.UIPanelExtension.UIPanelExtension_Constructor",
+      "Id": "876F87FA-A8FE-4A93-8432-EC5556148237"
+    },
+    {
+      "Name": "Renga.UIPanelExtension.UIPanelExtension_ConstructorCast",
+      "Id": "34D47A7C-F9C2-4450-95F7-126D9F43DA79"
+    },
+    {
+      "Name": "Renga.UIPanelExtension.AddToolButton",
+      "Id": "19865E8D-967C-44D2-B397-1930548C3092"
+    },
+    {
+      "Name": "Renga.UIPanelExtension.AddSplitButton",
+      "Id": "7142BCC2-66E4-41BA-A529-7341318A60CE"
+    },
+    {
+      "Name": "Renga.UIPanelExtension.AddDropDownButton",
+      "Id": "357D4D05-0471-4A58-8F49-7C0768A199DB"
+    },
+    {
+      "Name": "Renga.UIPanelExtension.AddToolButton2",
+      "Id": "57B82D42-4254-437D-9699-3DF0ECC1D67E"
+    },
+    {
+      "Name": "Renga.SplitButton.SplitButton_Constructor",
+      "Id": "3B238FA5-F1FF-4378-99CD-5E5FE2F9E459"
+    },
+    {
+      "Name": "Renga.SplitButton.SplitButton_ConstructorCast",
+      "Id": "5123AA96-DF96-4A8E-9446-E368ACE676C7"
+    },
+    {
+      "Name": "Renga.SplitButton.AddAction",
+      "Id": "941CBA42-90F2-4C5D-A756-C6943CF6D0D9"
+    },
+    {
+      "Name": "Renga.SplitButton.AddSeparator",
+      "Id": "EC487DBD-429E-4BD8-A16D-EB8E50EDF0FE"
+    },
+    {
+      "Name": "Renga.SplitButton.Id",
+      "Id": "8FDA0E59-E8AE-48CA-8F1C-CC8AD1FBDE98"
+    },
+    {
+      "Name": "Renga.SplitButton.IdS",
+      "Id": "76AF1EA4-57AC-43D3-815D-39E8468BA30F"
+    },
+    {
+      "Name": "Renga.DropDownButton.DropDownButton_Constructor",
+      "Id": "FB3A1D7E-D73B-42A3-9CA5-B96AADB9270F"
+    },
+    {
+      "Name": "Renga.DropDownButton.DropDownButton_ConstructorCast",
+      "Id": "3C30F8BA-5702-4AE9-93FD-06D49224D47F"
+    },
+    {
+      "Name": "Renga.DropDownButton.AddAction",
+      "Id": "3627D23C-696D-40BB-86DC-A486365081DE"
+    },
+    {
+      "Name": "Renga.DropDownButton.AddSeparator",
+      "Id": "288296E7-CD30-4122-B16E-5A0B533CA2F5"
+    },
+    {
+      "Name": "Renga.DropDownButton.Set_Icon",
+      "Id": "D8C3AE9B-C84F-4709-8203-C540E2879BF4"
+    },
+    {
+      "Name": "Renga.DropDownButton.Set_ToolTip",
+      "Id": "B2AFA0AA-E21D-467E-8A6A-0C600C8BF598"
+    },
+    {
+      "Name": "Renga.DropDownButton.ToolTip",
+      "Id": "F88FD59F-5511-454E-8D47-F624E8F429EB"
+    },
+    {
+      "Name": "Renga.DropDownButton.Id",
+      "Id": "4C1B235C-EC22-4038-B69F-F2E8F3059F27"
+    },
+    {
+      "Name": "Renga.DropDownButton.IdS",
+      "Id": "48CEF2CB-0C8A-4071-9C4A-A2E4A700D1FE"
+    },
+    {
+      "Name": "Renga.ToolButton.ToolButton_Constructor",
+      "Id": "4162D17D-4BD0-4D08-B01B-2BD87F8FCB38"
+    },
+    {
+      "Name": "Renga.ToolButton.ToolButton_ConstructorCast",
+      "Id": "DCB3B845-DAC0-42C9-8BA9-E5375088BE1B"
+    },
+    {
+      "Name": "Renga.ToolButton.Action",
+      "Id": "2C83793E-9E7C-41F2-A84A-06C3AFC57E98"
+    },
+    {
+      "Name": "Renga.ToolButton.Set_Action",
+      "Id": "8CC13AF7-ACFD-406E-A5B9-9C1FA2829304"
+    },
+    {
+      "Name": "Renga.ToolButton.Id",
+      "Id": "D3FBA57E-CEC9-46B3-A91F-112F42E57B5D"
+    },
+    {
+      "Name": "Renga.ToolButton.IdS",
+      "Id": "3DECF2EF-46C4-4526-A960-B26BA5199463"
+    },
+    {
+      "Name": "Renga.ContextMenu.ContextMenu_Constructor",
+      "Id": "72EDFB3D-23FD-43AB-A5F8-365483548307"
+    },
+    {
+      "Name": "Renga.ContextMenu.ContextMenu_ConstructorCast",
+      "Id": "90F7F608-3A56-41B1-9D73-F89594D3DB64"
+    },
+    {
+      "Name": "Renga.ContextMenu.AddActionItem",
+      "Id": "8430DB22-9E6F-4494-B0E3-E917DE964547"
+    },
+    {
+      "Name": "Renga.ContextMenu.AddNodeItem",
+      "Id": "6981B9C5-04DC-4A20-B232-57B373C7E319"
+    },
+    {
+      "Name": "Renga.ContextMenu.AddSeparator",
+      "Id": "94924BDE-D109-4E89-8279-5C46E9498706"
+    },
+    {
+      "Name": "Renga.ContextMenuItem.ContextMenuItem_Constructor",
+      "Id": "E3469915-0712-4909-8AE7-0F57F08E1017"
+    },
+    {
+      "Name": "Renga.ContextMenuItem.ContextMenuItem_ConstructorCast",
+      "Id": "1480136A-5251-4A68-854A-12079164DAC9"
+    },
+    {
+      "Name": "Renga.ContextMenuNodeItem.ContextMenuNodeItem_Constructor",
+      "Id": "159787FE-9E3E-4654-80FF-E076D36FA78A"
+    },
+    {
+      "Name": "Renga.ContextMenuNodeItem.ContextMenuNodeItem_ConstructorCast",
+      "Id": "F0F1D1FA-31B1-481F-AB26-DD715F993C27"
+    },
+    {
+      "Name": "Renga.ContextMenuNodeItem.Set_DisplayName",
+      "Id": "3A939C1D-15FD-4739-99A5-85D6882F0C12"
+    },
+    {
+      "Name": "Renga.ContextMenuNodeItem.AddActionItem",
+      "Id": "2A10ACF6-37F4-43AF-89F6-926069289401"
+    },
+    {
+      "Name": "Renga.ContextMenuNodeItem.AddNodeItem",
+      "Id": "83259D5A-23C9-47A9-8407-C5E4BAC18084"
+    },
+    {
+      "Name": "Renga.ContextMenuNodeItem.AddSeparator",
+      "Id": "626F7B2D-6719-47D0-A275-3394FB3F600C"
+    },
+    {
+      "Name": "Renga.ContextMenuNodeItem.DisplayName",
+      "Id": "163155AA-D1DD-4442-9589-B1E65509CD9D"
+    },
+    {
+      "Name": "Renga.Operation.Operation_Constructor",
+      "Id": "CC12645B-ADFB-4CD3-8F66-497403DD74CB"
+    },
+    {
+      "Name": "Renga.Operation.Operation_ConstructorCast",
+      "Id": "F0B7F9AA-0959-42F3-9046-F360A710D333"
+    },
+    {
+      "Name": "Renga.Operation.Start",
+      "Id": "72657EC5-ED40-4849-A36A-344AB0F465B5"
+    },
+    {
+      "Name": "Renga.Operation.Apply",
+      "Id": "DF9C1AF5-1846-4592-863A-DE6F8E33AA63"
+    },
+    {
+      "Name": "Renga.Operation.Rollback",
+      "Id": "C20076FC-BA99-46C9-AAB6-92AC27D4AA35"
+    },
+    {
+      "Name": "Renga.Property.Property_Constructor",
+      "Id": "2A5D2937-82B2-417C-8AB9-794D591AF4EC"
+    },
+    {
+      "Name": "Renga.Property.Property_ConstructorCast",
+      "Id": "8638242D-7F9C-4791-9176-92A1AC012D28"
+    },
+    {
+      "Name": "Renga.Property.SetDoubleValue",
+      "Id": "9CE9EB25-3A28-48DB-BD29-9AC74213B4F1"
+    },
+    {
+      "Name": "Renga.Property.SetStringValue",
+      "Id": "9086D1C6-C58B-483D-B0B4-4A6D17ED6E69"
+    },
+    {
+      "Name": "Renga.Property.GetDoubleValue",
+      "Id": "E4631C06-9359-439B-94C8-8F9623B382F2"
+    },
+    {
+      "Name": "Renga.Property.GetStringValue",
+      "Id": "5952FBDF-16F5-4CCE-8876-9F14465D425A"
+    },
+    {
+      "Name": "Renga.Property.Type",
+      "Id": "28CEADA0-2FED-47D2-B070-F444A6F14E93"
+    },
+    {
+      "Name": "Renga.Property.ResetValue",
+      "Id": "AAAED43E-099C-4AF5-9221-48E7D6167C84"
+    },
+    {
+      "Name": "Renga.Property.HasValue",
+      "Id": "DA2E3D11-E1EE-42F1-A79D-0E82A9366434"
+    },
+    {
+      "Name": "Renga.Property.Id",
+      "Id": "B310F72B-1404-4F5E-9287-9DEAEB2C943D"
+    },
+    {
+      "Name": "Renga.Property.IdS",
+      "Id": "09E36C19-31DB-45F8-8B57-74B5DF5CC717"
+    },
+    {
+      "Name": "Renga.Property.Name",
+      "Id": "31FE8962-7C9C-490E-8482-80AA77ACDBE8"
+    },
+    {
+      "Name": "Renga.Property.SetAngleValue",
+      "Id": "5935D1E8-E5D9-46EF-8FAB-BF8CADD7002C"
+    },
+    {
+      "Name": "Renga.Property.SetAreaValue",
+      "Id": "74E934D2-D8AF-486D-BAFF-94C853317D23"
+    },
+    {
+      "Name": "Renga.Property.SetBooleanValue",
+      "Id": "F2E8A32D-191A-4590-89F7-FA7C633DB83F"
+    },
+    {
+      "Name": "Renga.Property.SetEnumerationValue",
+      "Id": "AA705809-DEBC-4088-9A46-5CCF8CDF313B"
+    },
+    {
+      "Name": "Renga.Property.SetIntegerValue",
+      "Id": "8D5053A7-789F-486D-8047-11A1CA44636B"
+    },
+    {
+      "Name": "Renga.Property.SetLengthValue",
+      "Id": "25284993-9775-45F6-BB15-BEDD476FFA30"
+    },
+    {
+      "Name": "Renga.Property.SetLogicalValue",
+      "Id": "71D50443-3EC4-45A8-9D3F-C54FCAA3445F"
+    },
+    {
+      "Name": "Renga.Property.SetMassValue",
+      "Id": "EBEEE124-AD29-4326-A229-7917F3916FBE"
+    },
+    {
+      "Name": "Renga.Property.SetVolumeValue",
+      "Id": "07ED5DAF-DEE6-4187-B9D6-3FF25208DE45"
+    },
+    {
+      "Name": "Renga.Property.GetAngleValue",
+      "Id": "AB470B00-B5A1-4A2D-B504-6FB382991247"
+    },
+    {
+      "Name": "Renga.Property.GetAreaValue",
+      "Id": "4BAE8FBE-7F89-45D9-B147-DB75D22D2F8F"
+    },
+    {
+      "Name": "Renga.Property.GetBooleanValue",
+      "Id": "A997A8EB-14F0-4C69-A354-67E0A511C7FB"
+    },
+    {
+      "Name": "Renga.Property.GetEnumerationValue",
+      "Id": "32B8BA09-B3E6-4D53-848A-708CD95238A0"
+    },
+    {
+      "Name": "Renga.Property.GetIntegerValue",
+      "Id": "35B9ACCC-4536-4F88-B2F8-8D76A7C64F18"
+    },
+    {
+      "Name": "Renga.Property.GetLengthValue",
+      "Id": "F5154767-0B59-4539-991B-EC8D29C269BA"
+    },
+    {
+      "Name": "Renga.Property.GetLogicalValue",
+      "Id": "712E34F9-E8DE-4682-B39B-BB96580618B2"
+    },
+    {
+      "Name": "Renga.Property.GetMassValue",
+      "Id": "F499D6FC-8082-436D-BAFB-9C04B4CCF841"
+    },
+    {
+      "Name": "Renga.Property.GetVolumeValue",
+      "Id": "F8EC4180-17B5-4B53-9A3E-64EFB6923F2C"
+    },
+    {
+      "Name": "Renga.PropertyContainer.PropertyContainer_Constructor",
+      "Id": "1E9E3260-0E2E-4101-8924-3BA7988048EC"
+    },
+    {
+      "Name": "Renga.PropertyContainer.PropertyContainer_ConstructorCast",
+      "Id": "2254BB6E-CB64-4E86-9907-2F2ACEF09308"
+    },
+    {
+      "Name": "Renga.PropertyContainer.Get",
+      "Id": "6ED80E2D-0C81-43A5-9FB5-AAC0934C32CD"
+    },
+    {
+      "Name": "Renga.PropertyContainer.Contains",
+      "Id": "0F502C9E-6755-46A2-A6F7-81170E601422"
+    },
+    {
+      "Name": "Renga.PropertyContainer.GetS",
+      "Id": "D33F10CD-B8F9-49D4-B68E-50A2CFF2C467"
+    },
+    {
+      "Name": "Renga.PropertyContainer.ContainsS",
+      "Id": "0AC3102C-2ACA-4333-96CD-1E9A79D1B592"
+    },
+    {
+      "Name": "Renga.PropertyContainer.GetIds",
+      "Id": "FE8B89F6-A98E-4032-8C15-67BB59F181E5"
+    },
+    {
+      "Name": "Renga.GuidCollection.GuidCollection_Constructor",
+      "Id": "C663E0A6-C1D9-4CC7-868E-58A2BC4C73FE"
+    },
+    {
+      "Name": "Renga.GuidCollection.GuidCollection_ConstructorCast",
+      "Id": "4C3FD7A2-F658-4519-BF08-B72B01166F5C"
+    },
+    {
+      "Name": "Renga.GuidCollection.Count",
+      "Id": "765FD0A0-4F8F-4252-9D7C-7346485B7698"
+    },
+    {
+      "Name": "Renga.GuidCollection.Get",
+      "Id": "C064DBAF-90BD-43CB-8D7E-78C93964D128"
+    },
+    {
+      "Name": "Renga.GuidCollection.GetS",
+      "Id": "64BB8E87-743F-4F4D-824F-0FDCCC4C1764"
+    },
+    {
+      "Name": "Renga.PropertyManager.PropertyManager_Constructor",
+      "Id": "43300F92-8D6A-4B78-9183-ED3FF4825BDC"
+    },
+    {
+      "Name": "Renga.PropertyManager.PropertyManager_ConstructorCast",
+      "Id": "F6E4AD31-7ECA-4202-BCC5-95055BE4E770"
+    },
+    {
+      "Name": "Renga.PropertyManager.RegisterProperty",
+      "Id": "DDFBB639-6148-46B3-B209-8793408C56AB"
+    },
+    {
+      "Name": "Renga.PropertyManager.UnregisterProperty",
+      "Id": "9FDBFFBD-D404-41A8-9604-5D7C5E947375"
+    },
+    {
+      "Name": "Renga.PropertyManager.PropertyCount",
+      "Id": "8D184FC3-606C-4C01-980B-9CE037C7FA2F"
+    },
+    {
+      "Name": "Renga.PropertyManager.GetPropertyId",
+      "Id": "9F51D54A-292D-4100-ABB6-BDC03651B175"
+    },
+    {
+      "Name": "Renga.PropertyManager.GetPropertyDescription",
+      "Id": "73CC901D-6A2C-435E-BDCB-FC62726E5BBB"
+    },
+    {
+      "Name": "Renga.PropertyManager.IsPropertyRegistered",
+      "Id": "73C60D43-5A7D-4B8C-8246-253D53BF78AC"
+    },
+    {
+      "Name": "Renga.PropertyManager.AssignPropertyToType",
+      "Id": "E9BDD7C1-2FB3-4D88-B848-ECE9A3676537"
+    },
+    {
+      "Name": "Renga.PropertyManager.UnassignPropertyFromType",
+      "Id": "6CDA6887-5EE2-4C28-AFC8-FCEBF0DB240C"
+    },
+    {
+      "Name": "Renga.PropertyManager.IsPropertyAssignedToType",
+      "Id": "182F717C-12FF-413B-9017-777C730D7708"
+    },
+    {
+      "Name": "Renga.PropertyManager.RegisterPropertyS",
+      "Id": "AF527F79-56E7-4BFE-B6FE-A5A04044EB4D"
+    },
+    {
+      "Name": "Renga.PropertyManager.UnregisterPropertyS",
+      "Id": "2E7799B5-F858-433F-ACBE-CC32BFD89B0D"
+    },
+    {
+      "Name": "Renga.PropertyManager.GetPropertyIdS",
+      "Id": "D8055AE6-03E1-4AFD-8D3F-E363B19E1583"
+    },
+    {
+      "Name": "Renga.PropertyManager.GetPropertyNameS",
+      "Id": "F8901DEC-F425-45AA-9392-27A4E9B28E75"
+    },
+    {
+      "Name": "Renga.PropertyManager.GetPropertyTypeS",
+      "Id": "C88FDA2B-1464-403B-9BD9-CFCE777DBFE4"
+    },
+    {
+      "Name": "Renga.PropertyManager.IsPropertyRegisteredS",
+      "Id": "EAB41E20-B76F-4073-8EE4-AE73B7A53F64"
+    },
+    {
+      "Name": "Renga.PropertyManager.AssignPropertyToTypeS",
+      "Id": "CEC9B775-4D9A-41B8-AB82-75E6C56AAD1B"
+    },
+    {
+      "Name": "Renga.PropertyManager.UnassignPropertyFromTypeS",
+      "Id": "2197CA88-D969-4795-A4BC-E2BE0D520133"
+    },
+    {
+      "Name": "Renga.PropertyManager.IsPropertyAssignedToTypeS",
+      "Id": "51CB3281-2A9A-4ACC-940D-4C4A59C175A7"
+    },
+    {
+      "Name": "Renga.PropertyManager.GetPropertyName",
+      "Id": "7BE6391C-CFE4-46AB-93D8-0C198B3750F4"
+    },
+    {
+      "Name": "Renga.PropertyManager.GetPropertyType",
+      "Id": "FD272CDD-F27C-454B-B73F-4235508868C7"
+    },
+    {
+      "Name": "Renga.PropertyManager.CreatePropertyDescription",
+      "Id": "F1FF1FA6-3BF8-4834-9459-FD1274F96452"
+    },
+    {
+      "Name": "Renga.PropertyManager.RegisterProperty2",
+      "Id": "748D3DA6-764B-46D0-A45C-DE410B1DF63F"
+    },
+    {
+      "Name": "Renga.PropertyManager.RegisterPropertyS2",
+      "Id": "6300829D-3C07-4A03-82BA-04B3043894C2"
+    },
+    {
+      "Name": "Renga.PropertyManager.GetPropertyDescription2",
+      "Id": "8B27A848-BCE5-4B0F-B4AE-38DCF0D79004"
+    },
+    {
+      "Name": "Renga.PropertyManager.GetPropertyDescription2S",
+      "Id": "4BB292F8-0E42-4EA9-99CB-F0D28D35216E"
+    },
+    {
+      "Name": "Renga.PropertyManager.UpdateEnumValues",
+      "Id": "C3FBC41D-B9F7-46E9-9416-2B409EDB44F4"
+    },
+    {
+      "Name": "Renga.PropertyManager.SetPropertyName",
+      "Id": "478A3DE2-75DA-44BD-B367-CC0940B77B2C"
+    },
+    {
+      "Name": "Renga.PropertyDescription.PropertyDescription_Constructor",
+      "Id": "79BF7F51-A8D0-47BB-8791-D38FF31A6572"
+    },
+    {
+      "Name": "Renga.PropertyDescription.PropertyDescription_ConstructorCast",
+      "Id": "29755DCF-DEF1-487F-8D4F-146C362B04F6"
+    },
+    {
+      "Name": "Renga.PropertyDescription.Name",
+      "Id": "B2592353-EAD0-436B-B124-536A63523587"
+    },
+    {
+      "Name": "Renga.PropertyDescription.Type",
+      "Id": "084185C0-4696-468E-BD82-CB3ED969D728"
+    },
+    {
+      "Name": "Renga.PropertyDescription.SetEnumerationItems",
+      "Id": "A4015717-0E8C-417C-B1C9-C4936A9D193F"
+    },
+    {
+      "Name": "Renga.PropertyDescription.GetEnumerationItems",
+      "Id": "9552BC12-5AFA-407D-9BFC-907CAD230E07"
+    },
+    {
+      "Name": "Renga.Parameter.Parameter_Constructor",
+      "Id": "18DFE71B-9D3B-48EE-861B-457D195CCC24"
+    },
+    {
+      "Name": "Renga.Parameter.Parameter_ConstructorCast",
+      "Id": "F40C5355-5740-44D5-8910-68E3F0C72BB1"
+    },
+    {
+      "Name": "Renga.Parameter.ValueType",
+      "Id": "A7D8F75C-A5FD-4222-8548-75D0D4B73A37"
+    },
+    {
+      "Name": "Renga.Parameter.Definition",
+      "Id": "3A578937-8E88-4795-AF72-0A3D3D61D6E8"
+    },
+    {
+      "Name": "Renga.Parameter.GetBoolValue",
+      "Id": "EEAA98FC-5B18-4229-B152-51A648235200"
+    },
+    {
+      "Name": "Renga.Parameter.SetBoolValue",
+      "Id": "99A08893-5A94-4750-8BD2-9EC71A7C98AB"
+    },
+    {
+      "Name": "Renga.Parameter.GetIntValue",
+      "Id": "815155CF-C42D-4CDB-936D-5A8525D132FF"
+    },
+    {
+      "Name": "Renga.Parameter.SetIntValue",
+      "Id": "53248033-131D-4556-8053-D43126F972DE"
+    },
+    {
+      "Name": "Renga.Parameter.GetDoubleValue",
+      "Id": "14D9B72C-81F3-4D33-9B6B-46C7359D4216"
+    },
+    {
+      "Name": "Renga.Parameter.SetDoubleValue",
+      "Id": "D6A6F5E1-8AC5-4D5B-A574-9E780FE93F5E"
+    },
+    {
+      "Name": "Renga.Parameter.GetStringValue",
+      "Id": "4B5B322C-BEF1-46F0-8D3D-367C23C4DD92"
+    },
+    {
+      "Name": "Renga.Parameter.SetStringValue",
+      "Id": "98074546-E9B4-4DC4-BCF9-3CB2C574DE85"
+    },
+    {
+      "Name": "Renga.Parameter.Id",
+      "Id": "4E9EC632-47E7-4474-8520-B40B75B83731"
+    },
+    {
+      "Name": "Renga.Parameter.IdS",
+      "Id": "6D8F49A9-10E6-45E7-B276-A4DED25B3383"
+    },
+    {
+      "Name": "Renga.Parameter.HasValue",
+      "Id": "A53D0B5C-FA05-463D-AAF3-99E5E7964F27"
+    },
+    {
+      "Name": "Renga.ParameterDefinition.ParameterDefinition_Constructor",
+      "Id": "FD43147E-C63F-40D2-B709-854E4DA8D9F0"
+    },
+    {
+      "Name": "Renga.ParameterDefinition.ParameterDefinition_ConstructorCast",
+      "Id": "A65A2ACB-7F0E-47CB-8591-7CF7844F7AA9"
+    },
+    {
+      "Name": "Renga.ParameterDefinition.ParameterType",
+      "Id": "6FABC570-0C20-4064-8941-0D8E1CF206C0"
+    },
+    {
+      "Name": "Renga.ParameterDefinition.Name",
+      "Id": "759A0944-356B-4839-9108-9D120049DB6E"
+    },
+    {
+      "Name": "Renga.ParameterContainer.ParameterContainer_Constructor",
+      "Id": "6403D8F4-F1F3-4C94-B8F5-E52C070F9238"
+    },
+    {
+      "Name": "Renga.ParameterContainer.ParameterContainer_ConstructorCast",
+      "Id": "F049A6D5-66FF-4630-8581-4CE2701535D7"
+    },
+    {
+      "Name": "Renga.ParameterContainer.GetIds",
+      "Id": "A83F1E25-3B58-4CAE-9354-55318F3B474D"
+    },
+    {
+      "Name": "Renga.ParameterContainer.Contains",
+      "Id": "6FF0F5AA-C997-4F2A-B6B9-B9744AB21FFA"
+    },
+    {
+      "Name": "Renga.ParameterContainer.Get",
+      "Id": "3B5C56D3-4ECC-4CD3-8689-8B8441572C7F"
+    },
+    {
+      "Name": "Renga.ParameterContainer.ContainsS",
+      "Id": "996FE039-B7ED-4020-8335-782176F644D0"
+    },
+    {
+      "Name": "Renga.ParameterContainer.GetS",
+      "Id": "5A59B499-72AF-465E-BD21-FA297712862E"
+    },
+    {
+      "Name": "Renga.ModelObject.ModelObject_Constructor",
+      "Id": "66E472A8-6229-4876-9300-BA615ACC6903"
+    },
+    {
+      "Name": "Renga.ModelObject.ModelObject_ConstructorCast",
+      "Id": "8C7926F3-4785-4D98-BA9B-DCB22D76A05B"
+    },
+    {
+      "Name": "Renga.ModelObject.ObjectType",
+      "Id": "71FCE53D-566E-4A55-AB7A-53E781948EDC"
+    },
+    {
+      "Name": "Renga.ModelObject.Id",
+      "Id": "7BE18C54-00EC-4D22-BDAA-F48280E9DE94"
+    },
+    {
+      "Name": "Renga.ModelObject.Name",
+      "Id": "A800B902-BC53-4CCD-AA1E-305839A65E7B"
+    },
+    {
+      "Name": "Renga.ModelObject.GetProperties",
+      "Id": "560B0C93-C9BA-462D-A6A8-119989B7724C"
+    },
+    {
+      "Name": "Renga.ModelObject.GetQuantities",
+      "Id": "F3503B3D-9558-45D9-9686-153F85FDE869"
+    },
+    {
+      "Name": "Renga.ModelObject.ObjectTypeS",
+      "Id": "601984C4-0395-42FB-A398-D0C537D1CA8A"
+    },
+    {
+      "Name": "Renga.BSTR.BSTR_Constructor",
+      "Id": "DB523A55-57EC-440D-B9DD-A9A20AD9F23D"
+    },
+    {
+      "Name": "Renga.BSTR.BSTR_ConstructorCast",
+      "Id": "ABDA106C-80C8-49C8-A199-40169BCB8C37"
+    },
+    {
+      "Name": "Renga.BSTR.GetParameters",
+      "Id": "2A58FA34-35FA-485B-BB2A-E111AD846470"
+    },
+    {
+      "Name": "Renga.BSTR.UniqueId",
+      "Id": "D63AE6CF-0104-458C-A42E-2B6881893617"
+    },
+    {
+      "Name": "Renga.BSTR.UniqueIdS",
+      "Id": "9588F219-01E4-498C-BE94-308ECF786B79"
+    },
+    {
+      "Name": "Renga.QuantityContainer.QuantityContainer_Constructor",
+      "Id": "7EB31ABF-651F-490F-900E-854E19F4CFB0"
+    },
+    {
+      "Name": "Renga.QuantityContainer.QuantityContainer_ConstructorCast",
+      "Id": "02CE3BFD-2EBD-4B06-97E8-E18B40CCFA73"
+    },
+    {
+      "Name": "Renga.QuantityContainer.Contains",
+      "Id": "12E21A1E-1CF9-43DB-9C13-8AFA72503B50"
+    },
+    {
+      "Name": "Renga.QuantityContainer.Get",
+      "Id": "CEE5BF64-E752-4EF9-B1BD-4A2B3CD9C041"
+    },
+    {
+      "Name": "Renga.QuantityContainer.ContainsS",
+      "Id": "45A1D455-28A6-4F33-B2F4-9785A07CD7A9"
+    },
+    {
+      "Name": "Renga.QuantityContainer.GetS",
+      "Id": "77C5E740-4A53-4A8A-9335-ABB08838E07F"
+    },
+    {
+      "Name": "Renga.Quantity.Quantity_Constructor",
+      "Id": "3F017C98-4721-4C9A-B3F3-CB13ECDE3DA4"
+    },
+    {
+      "Name": "Renga.Quantity.Quantity_ConstructorCast",
+      "Id": "26AA36FE-B4A6-4A14-977C-0B6562CCDB54"
+    },
+    {
+      "Name": "Renga.Quantity.HasValue",
+      "Id": "FEECF535-111B-48A3-B733-8D98583701E0"
+    },
+    {
+      "Name": "Renga.Quantity.Type",
+      "Id": "93B14341-D93E-40A9-A3DE-B853CBE374A1"
+    },
+    {
+      "Name": "Renga.Quantity.AsCount",
+      "Id": "5CC83F6B-ED42-4262-A38C-24388DC9FC83"
+    },
+    {
+      "Name": "Renga.Quantity.AsLength",
+      "Id": "A722534A-6796-46F9-ACD1-AE693BBFBA91"
+    },
+    {
+      "Name": "Renga.Quantity.AsArea",
+      "Id": "420236C3-0465-408F-B779-F0F6432BE9D4"
+    },
+    {
+      "Name": "Renga.Quantity.AsVolume",
+      "Id": "4779ECBB-ED0C-4155-A336-D6C676C576E1"
+    },
+    {
+      "Name": "Renga.Quantity.AsMass",
+      "Id": "C9CF0127-7137-4958-80BD-0E3A02C03F81"
+    },
+    {
+      "Name": "Renga.Level.Level_Constructor",
+      "Id": "92CF4532-7F1B-439A-9A40-214F749D48E9"
+    },
+    {
+      "Name": "Renga.Level.Level_ConstructorCast",
+      "Id": "03FB70CB-F04A-4EB1-B440-5F8E747E03FE"
+    },
+    {
+      "Name": "Renga.Level.Elevation",
+      "Id": "E6C88C33-2863-4EDD-9F1C-383C77BC2041"
+    },
+    {
+      "Name": "Renga.Level.LevelName",
+      "Id": "A3BD200E-1559-483B-B65A-28FEA7B1B5F0"
+    },
+    {
+      "Name": "Renga.Level.Placement",
+      "Id": "CAE5D64E-AB44-4840-BEE0-B90F588A41AC"
+    },
+    {
+      "Name": "Renga.Placement3D.Placement3D_Constructor",
+      "Id": "EDD323FA-BD80-4259-902F-99D80EF663E9"
+    },
+    {
+      "Name": "Renga.Placement3D.Placement3D_ConstructorCast",
+      "Id": "1BF1ABA3-CD3B-44BE-8FB5-4331749E2891"
+    },
+    {
+      "Name": "Renga.Placement3D.Origin",
+      "Id": "F75E88EC-2C7D-40F6-A725-91258B8CB299"
+    },
+    {
+      "Name": "Renga.Placement3D.AxisX",
+      "Id": "60A015A3-FF01-4536-8866-549E9DE7A951"
+    },
+    {
+      "Name": "Renga.Placement3D.AxisY",
+      "Id": "E8E9B687-495E-4915-A90C-47599F272AF1"
+    },
+    {
+      "Name": "Renga.Placement3D.AxisZ",
+      "Id": "307ADCEF-E28B-4B32-BDA3-5AAC99405596"
+    },
+    {
+      "Name": "Renga.Placement3D.IsOrthogonal",
+      "Id": "1F02E968-6FC8-4BEF-AA7B-2DD0FBC608A5"
+    },
+    {
+      "Name": "Renga.Placement3D.IsNormal",
+      "Id": "7A573357-088D-433E-A7AF-A88DA0A3A8EF"
+    },
+    {
+      "Name": "Renga.Placement3D.IsLeft",
+      "Id": "BC95ED24-C83F-410A-A873-4360E12C5B8A"
+    },
+    {
+      "Name": "Renga.Placement3D.GetTransformFrom",
+      "Id": "B26F5392-8D24-4C58-8710-C88C48B6C905"
+    },
+    {
+      "Name": "Renga.Placement3D.GetTransformInto",
+      "Id": "6C3CA2B5-8734-457F-94F4-CF0191D62717"
+    },
+    {
+      "Name": "Renga.Placement3D.Move",
+      "Id": "5D15D99C-A993-4010-AC49-694EF3F4BC5F"
+    },
+    {
+      "Name": "Renga.Placement3D.Rotate",
+      "Id": "2DBAE79C-D5E0-4419-9107-BE333F58986A"
+    },
+    {
+      "Name": "Renga.Placement3D.Transform",
+      "Id": "0B14D5A4-0318-4C8E-B616-644703E0AE76"
+    },
+    {
+      "Name": "Renga.Placement3D.GetCopy",
+      "Id": "C7B321D0-B31C-462B-925D-F38091CD40B3"
+    },
+    {
+      "Name": "Renga.Transform3D.Transform3D_Constructor",
+      "Id": "0924935D-89DE-479A-AFC7-4282EEE21A80"
+    },
+    {
+      "Name": "Renga.Transform3D.Transform3D_ConstructorCast",
+      "Id": "F5769645-E71D-4B14-96FC-A71A57A853F0"
+    },
+    {
+      "Name": "Renga.Transform3D.GetElement",
+      "Id": "3964D7D9-F027-4D3E-936F-1621A488EF96"
+    },
+    {
+      "Name": "Renga.Transform3D.SetElement",
+      "Id": "1993AB53-5ECB-4511-98BE-0AD1F27E244D"
+    },
+    {
+      "Name": "Renga.Transform3D.AddTranslation",
+      "Id": "4617988A-4B17-41BD-959F-6E9C388985D9"
+    },
+    {
+      "Name": "Renga.Transform3D.AddRotation",
+      "Id": "25FB8B85-15B0-4074-9DF4-6DB73CFF5781"
+    },
+    {
+      "Name": "Renga.Transform3D.GetCopy",
+      "Id": "ACABC939-0B3A-4F21-BAB4-EFABCB557E11"
+    },
+    {
+      "Name": "Renga.Transform3D.GetMultiplied",
+      "Id": "07BA11F7-0F91-449E-8D77-E2036617246D"
+    },
+    {
+      "Name": "Renga.Transform3D.TransformPoint",
+      "Id": "1E62190F-6823-47EA-89B8-B7639DE6B5A4"
+    },
+    {
+      "Name": "Renga.Transform3D.TransformVector",
+      "Id": "9E223A10-ADD9-4A8F-960A-E8ED00F4527F"
+    },
+    {
+      "Name": "Renga.Room.Room_Constructor",
+      "Id": "9B281D18-B40C-4863-9E35-6587F019FB51"
+    },
+    {
+      "Name": "Renga.Room.Room_ConstructorCast",
+      "Id": "57F93977-9FCF-4489-9E2A-E59796E59E4A"
+    },
+    {
+      "Name": "Renga.Room.RoomName",
+      "Id": "06128718-7E52-40F9-A39F-F6CECD0A72A1"
+    },
+    {
+      "Name": "Renga.Room.RoomNumber",
+      "Id": "E8358FC4-F073-4A39-8C6B-2DB5F1FC7C43"
+    },
+    {
+      "Name": "Renga.Room.MarkerPosition",
+      "Id": "DD819AF7-EF71-4BA2-8796-B140547F331E"
+    },
+    {
+      "Name": "Renga.ObjectWithPorts.ObjectWithPorts_Constructor",
+      "Id": "97AB94E1-B1F4-4D61-9E4E-5FF1B0AAF15E"
+    },
+    {
+      "Name": "Renga.ObjectWithPorts.ObjectWithPorts_ConstructorCast",
+      "Id": "AADBF573-8E2F-4276-A1A9-AAF9DEC12664"
+    },
+    {
+      "Name": "Renga.ObjectWithPorts.Count",
+      "Id": "3ECED132-FFD6-42D2-A9A9-8102888B0A64"
+    },
+    {
+      "Name": "Renga.ObjectWithPorts.GetByIndex",
+      "Id": "44BE1F1A-75BF-426C-9EAF-076D8D8CB4AA"
+    },
+    {
+      "Name": "Renga.Port.Port_Constructor",
+      "Id": "5C59398C-3C7D-4172-BBCC-C109444C9204"
+    },
+    {
+      "Name": "Renga.Port.Port_ConstructorCast",
+      "Id": "90F2F8E9-ABBB-47AB-89F6-D6EB1700C658"
+    },
+    {
+      "Name": "Renga.Port.Name",
+      "Id": "8A1E9754-BB2A-49B4-9F22-8E0D9B980240"
+    },
+    {
+      "Name": "Renga.Port.FlowDirection",
+      "Id": "5F530E81-108E-44FB-8159-C7843E726922"
+    },
+    {
+      "Name": "Renga.Port.AvailableSystemCategories",
+      "Id": "703B3C44-3FBD-4222-91AC-AF66BCCB818A"
+    },
+    {
+      "Name": "Renga.Port.PortConnectionParams",
+      "Id": "08FEFC36-CFD2-4335-A1D0-82717A82124D"
+    },
+    {
+      "Name": "Renga.ObjectWithMaterial.ObjectWithMaterial_Constructor",
+      "Id": "0DD1137B-0F1A-4D5E-B8FB-DE0BEF23E0A1"
+    },
+    {
+      "Name": "Renga.ObjectWithMaterial.ObjectWithMaterial_ConstructorCast",
+      "Id": "260B73C5-48A2-4C4F-B503-8F6DCD9945DB"
+    },
+    {
+      "Name": "Renga.ObjectWithMaterial.MaterialId",
+      "Id": "0DED777E-4C4D-4692-A7FB-803A750483B8"
+    },
+    {
+      "Name": "Renga.ObjectWithMaterial.HasMaterial",
+      "Id": "C891550C-3AF2-48B2-A808-427AD5CFC79C"
+    },
+    {
+      "Name": "Renga.ObjectWithLayeredMaterial.ObjectWithLayeredMaterial_Constructor",
+      "Id": "13F67451-A921-4F40-AACB-B5D8C6F556BC"
+    },
+    {
+      "Name": "Renga.ObjectWithLayeredMaterial.ObjectWithLayeredMaterial_ConstructorCast",
+      "Id": "08429363-0DFE-4A3A-98BB-D464EE1150DB"
+    },
+    {
+      "Name": "Renga.ObjectWithLayeredMaterial.GetLayeredMaterialIdGroupPair",
+      "Id": "F6867AE5-BCE6-4173-BC38-B780F3C19AFC"
+    },
+    {
+      "Name": "Renga.ObjectWithLayeredMaterial.HasLayeredMaterial",
+      "Id": "BA6A2EB7-5ECF-415A-81CF-17EE3223B567"
+    },
+    {
+      "Name": "Renga.ObjectWithLayeredMaterial.GetLayers",
+      "Id": "DDEFB9D5-DDCF-4346-99A7-90344219FF21"
+    },
+    {
+      "Name": "Renga.ObjectWithLayeredMaterial.LayeredMaterialId",
+      "Id": "6F36594D-8AF7-43CF-ABC0-3DE1462D9290"
+    },
+    {
+      "Name": "Renga.LayerCollection.LayerCollection_Constructor",
+      "Id": "BEBB8AF0-E3E5-4DD4-85FC-FA78057AD537"
+    },
+    {
+      "Name": "Renga.LayerCollection.LayerCollection_ConstructorCast",
+      "Id": "B5C500C9-F855-43B6-94CC-729F4595FB84"
+    },
+    {
+      "Name": "Renga.LayerCollection.Count",
+      "Id": "B6E02BE0-3FF6-4A52-8770-11B30490B167"
+    },
+    {
+      "Name": "Renga.LayerCollection.Get",
+      "Id": "02EA0B24-4C39-499D-8870-27A183E6247D"
+    },
+    {
+      "Name": "Renga.Layer.Layer_Constructor",
+      "Id": "8F846B74-B599-494C-8939-DDEF262BBF46"
+    },
+    {
+      "Name": "Renga.Layer.Layer_ConstructorCast",
+      "Id": "F43867A3-EBBB-476A-9CC8-900CF4208141"
+    },
+    {
+      "Name": "Renga.Layer.MaterialId",
+      "Id": "C1C00CD6-63C9-4106-B38D-69BE6F3946F4"
+    },
+    {
+      "Name": "Renga.Layer.GetQuantities",
+      "Id": "DAEDB8F1-53EC-465E-ACA3-50C869341A14"
+    },
+    {
+      "Name": "Renga.LevelObject.LevelObject_Constructor",
+      "Id": "A91D7186-9CD0-414C-9FB2-7ED3E94ACF8D"
+    },
+    {
+      "Name": "Renga.LevelObject.LevelObject_ConstructorCast",
+      "Id": "8DD2CB54-973D-45AE-9466-C5EDC5ECD981"
+    },
+    {
+      "Name": "Renga.LevelObject.LevelId",
+      "Id": "6C11D466-4D8D-4F4B-A3F6-BDD9F8992D29"
+    },
+    {
+      "Name": "Renga.LevelObject.VerticalOffset",
+      "Id": "38D0F2A2-246F-4DDE-A5C7-0184F2A7FE11"
+    },
+    {
+      "Name": "Renga.LevelObject.PlacementElevation",
+      "Id": "549277FD-94D4-4763-BF68-C229F1775CEA"
+    },
+    {
+      "Name": "Renga.LevelObject.ElevationAboveLevel",
+      "Id": "EEF2FB88-911F-40B8-BED7-2638EB1ADFC2"
+    },
+    {
+      "Name": "Renga.ObjectWithMark.ObjectWithMark_Constructor",
+      "Id": "CE21DD1C-FCDF-4D5C-9351-A600977A90CE"
+    },
+    {
+      "Name": "Renga.ObjectWithMark.ObjectWithMark_ConstructorCast",
+      "Id": "C3B611E9-F7FB-43FB-BDFA-E76206E93300"
+    },
+    {
+      "Name": "Renga.ObjectWithMark.Mark",
+      "Id": "14219BFD-FD5F-4B28-BA13-0980B018E1AB"
+    },
+    {
+      "Name": "Renga.ObjectReinforcementModel.ObjectReinforcementModel_Constructor",
+      "Id": "857F566F-1D62-4F1C-BFBD-803C0DE4E40E"
+    },
+    {
+      "Name": "Renga.ObjectReinforcementModel.ObjectReinforcementModel_ConstructorCast",
+      "Id": "9C2F5E12-DFA3-48AB-98A9-0EF114858290"
+    },
+    {
+      "Name": "Renga.ObjectReinforcementModel.GetRebarUsages",
+      "Id": "25FB56B4-7224-4274-BF13-2AB3B4858CCD"
+    },
+    {
+      "Name": "Renga.ObjectReinforcementModel.GetReinforcementUnitUsages",
+      "Id": "157FFB6D-47E1-4FB7-912E-BC56A8C1FDC3"
+    },
+    {
+      "Name": "Renga.RebarUsageCollection.RebarUsageCollection_Constructor",
+      "Id": "7A718098-4721-4FD0-81E0-3FEE268E5357"
+    },
+    {
+      "Name": "Renga.RebarUsageCollection.RebarUsageCollection_ConstructorCast",
+      "Id": "613AFEC4-389F-4AD5-9407-412E51DE5ACF"
+    },
+    {
+      "Name": "Renga.RebarUsageCollection.Count",
+      "Id": "53664C12-AFF9-4257-98FA-017D21EF4FF7"
+    },
+    {
+      "Name": "Renga.RebarUsageCollection.Get",
+      "Id": "AC53006F-DD0D-4101-8FCB-4E878E804482"
+    },
+    {
+      "Name": "Renga.RebarUsage.RebarUsage_Constructor",
+      "Id": "05CF1F49-9997-4CC1-BA45-D6ACCB421358"
+    },
+    {
+      "Name": "Renga.RebarUsage.RebarUsage_ConstructorCast",
+      "Id": "38D78E53-9D31-4B68-A081-0F9F56A04842"
+    },
+    {
+      "Name": "Renga.RebarUsage.StyleId",
+      "Id": "A209C736-5410-498B-A5A7-79FDE80E3D95"
+    },
+    {
+      "Name": "Renga.RebarUsage.GetQuantities",
+      "Id": "25578C8F-4715-4C56-8C26-E75A91706C2A"
+    },
+    {
+      "Name": "Renga.RebarUsage.GetRebarGeometry",
+      "Id": "73D87513-420F-4F65-BF9A-C5933AFBA4C9"
+    },
+    {
+      "Name": "Renga.RebarUsage.GetPlacements",
+      "Id": "7E6BDAB8-F63D-4767-89AF-9A65F49225AC"
+    },
+    {
+      "Name": "Renga.Curve3D.Curve3D_Constructor",
+      "Id": "2EF877DF-D26C-489E-9CF4-8E3E5687A7E3"
+    },
+    {
+      "Name": "Renga.Curve3D.Curve3D_ConstructorCast",
+      "Id": "997F8810-266D-47BF-9EDA-F821363D8D0F"
+    },
+    {
+      "Name": "Renga.Curve3D.Curve3DType",
+      "Id": "A8C78FFE-6AFC-4ADC-B562-2AA113D9D30A"
+    },
+    {
+      "Name": "Renga.Curve3D.GetCopy",
+      "Id": "20C41509-7667-43B6-8F78-C2E12B2A6393"
+    },
+    {
+      "Name": "Renga.Curve3D.GetBeginPoint",
+      "Id": "EA2F23F3-3892-4122-8B82-24221756C237"
+    },
+    {
+      "Name": "Renga.Curve3D.GetEndPoint",
+      "Id": "3D5F12B1-9296-4DE9-AC66-470AEC720C6E"
+    },
+    {
+      "Name": "Renga.Curve3D.GetPointOn",
+      "Id": "BC1518C3-962E-4A58-B6E8-33EE740FF83A"
+    },
+    {
+      "Name": "Renga.Curve3D.MinParameter",
+      "Id": "D272438B-AA20-486C-BBE4-4C0128F7E6A2"
+    },
+    {
+      "Name": "Renga.Curve3D.MaxParameter",
+      "Id": "0D9BEC7B-C53A-4B14-920B-CB6BADDBA887"
+    },
+    {
+      "Name": "Renga.Curve3D.GetLength",
+      "Id": "E1E31155-7D61-47E6-9B9F-33C20ED8B9D2"
+    },
+    {
+      "Name": "Renga.Curve3D.GetGabarit",
+      "Id": "21F6C66E-3B37-4A22-8756-BCA23AC022FA"
+    },
+    {
+      "Name": "Renga.Curve3D.IsClosed",
+      "Id": "A85B2B87-B754-4DDA-9A77-0373101D9BB3"
+    },
+    {
+      "Name": "Renga.Curve3D.GetParameterAtDistance",
+      "Id": "5A6CD6BA-52A9-4CD0-90F9-FFCEBDD08CF9"
+    },
+    {
+      "Name": "Renga.Curve3D.GetTrimmed",
+      "Id": "EFE77735-1D69-4207-9553-870FD0A20A25"
+    },
+    {
+      "Name": "Renga.Curve3D.PointProjection",
+      "Id": "6D6F2A24-D155-4B50-8E99-34712D585EAF"
+    },
+    {
+      "Name": "Renga.BSTR.GetTransformed",
+      "Id": "F571F96B-7412-4E05-A604-0112968D21DE"
+    },
+    {
+      "Name": "Renga.BSTR.GetOffseted",
+      "Id": "3E3FA94D-8E02-4B52-A782-515E36423F0F"
+    },
+    {
+      "Name": "Renga.Placement3DCollection.Placement3DCollection_Constructor",
+      "Id": "9430C0EF-0435-4091-8FB1-F8486F182A2E"
+    },
+    {
+      "Name": "Renga.Placement3DCollection.Placement3DCollection_ConstructorCast",
+      "Id": "4F47DC9F-8101-4515-BAF0-35F21FFC9209"
+    },
+    {
+      "Name": "Renga.Placement3DCollection.Count",
+      "Id": "C8C223E1-3F3B-4D85-BA0E-4729AF74ADC7"
+    },
+    {
+      "Name": "Renga.Placement3DCollection.Get",
+      "Id": "FCC9BFE9-B503-44EF-966E-B150D8E212C1"
+    },
+    {
+      "Name": "Renga.ReinforcementUnitUsageCollection.ReinforcementUnitUsageCollection_Constructor",
+      "Id": "935F1156-A1D4-4299-9E5A-88EFB1F6F5FD"
+    },
+    {
+      "Name": "Renga.ReinforcementUnitUsageCollection.ReinforcementUnitUsageCollection_ConstructorCast",
+      "Id": "FC49C45D-C8CD-48E9-9FDD-919E0CA9A612"
+    },
+    {
+      "Name": "Renga.ReinforcementUnitUsageCollection.Count",
+      "Id": "687B85DA-6AE3-4399-BC81-8DF65C7CF33B"
+    },
+    {
+      "Name": "Renga.ReinforcementUnitUsageCollection.Get",
+      "Id": "AB876DD9-3AD0-4E50-9037-22353BBC6D6A"
+    },
+    {
+      "Name": "Renga.ReinforcementUnitUsage.ReinforcementUnitUsage_Constructor",
+      "Id": "73DFBAA1-7077-45B9-8415-5CABBA927115"
+    },
+    {
+      "Name": "Renga.ReinforcementUnitUsage.ReinforcementUnitUsage_ConstructorCast",
+      "Id": "4BE72210-1E22-43BA-8303-BD1B92961CCE"
+    },
+    {
+      "Name": "Renga.ReinforcementUnitUsage.StyleId",
+      "Id": "FFC5BBC4-6F49-4400-82FD-BECCB1B3D428"
+    },
+    {
+      "Name": "Renga.ReinforcementUnitUsage.GetQuantities",
+      "Id": "EA9E6FAC-C0E3-47B6-9A12-DEA9AAA4B621"
+    },
+    {
+      "Name": "Renga.ReinforcementUnitUsage.GetPlacements",
+      "Id": "C1C80B64-F867-4250-92CD-949731526A6C"
+    },
+    {
+      "Name": "Renga.Grid.Grid_Constructor",
+      "Id": "524C6197-83D5-40C8-B343-299CB2B57760"
+    },
+    {
+      "Name": "Renga.Grid.Grid_ConstructorCast",
+      "Id": "BBE20413-2B46-41B4-BF98-B6142F8B04BA"
+    },
+    {
+      "Name": "Renga.Grid.TriangleCount",
+      "Id": "C5FA8A4F-59E2-482F-B538-34511B53C83E"
+    },
+    {
+      "Name": "Renga.Grid.GetTriangle",
+      "Id": "3D708B67-0183-4336-9678-0AB59C359D94"
+    },
+    {
+      "Name": "Renga.Grid.VertexCount",
+      "Id": "D6DA0949-F4E1-42F7-959A-8E2DBAF95954"
+    },
+    {
+      "Name": "Renga.Grid.GetVertex",
+      "Id": "71DA94AC-00A4-4DA6-84B1-CA543DFB27D5"
+    },
+    {
+      "Name": "Renga.Grid.NormalCount",
+      "Id": "E163BCC1-F3C4-471C-9836-D63C516A6FF6"
+    },
+    {
+      "Name": "Renga.Grid.GetNormal",
+      "Id": "EB1970DF-158E-4DAE-977C-77B20814E703"
+    },
+    {
+      "Name": "Renga.Grid.TextureCoordinateCount",
+      "Id": "8A0A0701-DE25-4385-9B36-63044D98C47B"
+    },
+    {
+      "Name": "Renga.Grid.GetTextureCoordinate",
+      "Id": "4878D336-B2E2-491E-8BFD-72BE1C7A215B"
+    },
+    {
+      "Name": "Renga.Grid.GridType",
+      "Id": "4E86285A-8B63-4610-BB80-03FE446B17AA"
+    },
+    {
+      "Name": "Renga.Grid.DoubleSided",
+      "Id": "30D7DBB6-A88E-4997-A589-9AD6D6293315"
+    },
+    {
+      "Name": "Renga.Grid.GetTriangleComponents",
+      "Id": "23890F38-E950-4624-95F3-22E387B07B01"
+    },
+    {
+      "Name": "Renga.Grid.GetVertexComponents",
+      "Id": "33DD0D7C-DB97-4DF1-BA84-D1D9A7CBD5ED"
+    },
+    {
+      "Name": "Renga.Grid.GetNormalComponents",
+      "Id": "1E8DDB2A-2CB9-4C6C-BD7C-BF486F4BFB52"
+    },
+    {
+      "Name": "Renga.Grid.GetTextureCoordinateComponents",
+      "Id": "A32FA38F-DDBE-478D-9C8C-5BE105E209B4"
+    },
+    {
+      "Name": "Renga.Mesh.Mesh_Constructor",
+      "Id": "521C568C-3307-4EBB-8F7A-16690F9BA3CA"
+    },
+    {
+      "Name": "Renga.Mesh.Mesh_ConstructorCast",
+      "Id": "6DD0EDDA-B45A-492D-BCA3-4724BF147A1A"
+    },
+    {
+      "Name": "Renga.Mesh.GridCount",
+      "Id": "72ED898C-B090-4543-ADC8-21F7702CC8D6"
+    },
+    {
+      "Name": "Renga.Mesh.GetGrid",
+      "Id": "B6FFB600-09F4-4B46-8409-B4AC4E4AE550"
+    },
+    {
+      "Name": "Renga.Mesh.MeshType",
+      "Id": "8ABCE59D-FBE6-418D-AED6-5F957FE7BADA"
+    },
+    {
+      "Name": "Renga.Mesh.MeshTypeS",
+      "Id": "5388CF7B-D8E1-487A-89F3-3C1136757B47"
+    },
+    {
+      "Name": "Renga.ExportedObject3D.ExportedObject3D_Constructor",
+      "Id": "BC603F7B-1170-43F0-9D65-B5A64C33464E"
+    },
+    {
+      "Name": "Renga.ExportedObject3D.ExportedObject3D_ConstructorCast",
+      "Id": "C4C7D6C6-D27E-44E4-985A-C6D6BE9B5263"
+    },
+    {
+      "Name": "Renga.ExportedObject3D.ModelObjectId",
+      "Id": "73BF4A07-DD23-4144-8EBD-CDB79BFCF7C2"
+    },
+    {
+      "Name": "Renga.ExportedObject3D.MeshCount",
+      "Id": "8A06B6DE-AA2C-487D-9BB4-E3A4737A7F9E"
+    },
+    {
+      "Name": "Renga.ExportedObject3D.GetMesh",
+      "Id": "11922FF5-F6F0-43FD-8404-0893B5EB03B2"
+    },
+    {
+      "Name": "Renga.ExportedObject3D.ModelObjectType",
+      "Id": "ED30BDE5-3B16-441A-9ECE-7FFD1807E2E8"
+    },
+    {
+      "Name": "Renga.ExportedObject3D.ModelObjectTypeS",
+      "Id": "97814406-3770-444D-8A30-884D3A25F916"
+    },
+    {
+      "Name": "Renga.ExportedObject3DCollection.ExportedObject3DCollection_Constructor",
+      "Id": "91FC881A-8A54-4E17-965B-DA40F7BB0DF8"
+    },
+    {
+      "Name": "Renga.ExportedObject3DCollection.ExportedObject3DCollection_ConstructorCast",
+      "Id": "CB2CD30A-A314-4F74-B194-D0FEF6E679B8"
+    },
+    {
+      "Name": "Renga.ExportedObject3DCollection.Get",
+      "Id": "491570B8-EA0C-4C3F-B90C-0E5BF0E78739"
+    },
+    {
+      "Name": "Renga.ExportedObject3DCollection.Count",
+      "Id": "2549FA27-89D2-4FC1-9943-FE074586A342"
+    },
+    {
+      "Name": "Renga.GridWithMaterialCollection.GridWithMaterialCollection_Constructor",
+      "Id": "F2B852AA-8DDB-49E9-8C49-370823B56243"
+    },
+    {
+      "Name": "Renga.GridWithMaterialCollection.GridWithMaterialCollection_ConstructorCast",
+      "Id": "4D8E2460-BAD7-4EF5-9B37-0795022424A4"
+    },
+    {
+      "Name": "Renga.GridWithMaterialCollection.Get",
+      "Id": "9DA3BB20-6FC7-4957-B146-55CDD26E9834"
+    },
+    {
+      "Name": "Renga.GridWithMaterialCollection.Count",
+      "Id": "D8769E19-1414-4CD1-853B-63FBDF554372"
+    },
+    {
+      "Name": "Renga.GridWithMaterial.GridWithMaterial_Constructor",
+      "Id": "59883BCD-8D61-4B66-889D-4E5270A52593"
+    },
+    {
+      "Name": "Renga.GridWithMaterial.GridWithMaterial_ConstructorCast",
+      "Id": "96830155-18E0-476D-9330-89F1FEAF6408"
+    },
+    {
+      "Name": "Renga.GridWithMaterial.Grid",
+      "Id": "E58FB895-DDD3-49C9-B48D-2B2869ECAE27"
+    },
+    {
+      "Name": "Renga.GridWithMaterial.Material",
+      "Id": "57232A5E-5E1B-4A7B-BDB0-32F5FC3942DA"
+    },
+    {
+      "Name": "Renga.GridMaterial.GridMaterial_Constructor",
+      "Id": "6900B2CF-B6F7-4971-AFEA-0475BC0856DD"
+    },
+    {
+      "Name": "Renga.GridMaterial.GridMaterial_ConstructorCast",
+      "Id": "5D315A6C-DD5D-42C9-B7D4-61FF87D11B25"
+    },
+    {
+      "Name": "Renga.GridMaterial.Id",
+      "Id": "0ED8E34D-423A-43D0-8118-3122BAA3A784"
+    },
+    {
+      "Name": "Renga.GridMaterial.Color",
+      "Id": "E5ADE5A0-7638-460E-A294-C96966257572"
+    },
+    {
+      "Name": "Renga.GridMaterial.GetColorComponents",
+      "Id": "7EF68E7A-E567-4B2F-A98B-823203BD1A56"
+    },
+    {
+      "Name": "Renga.DataExporter.DataExporter_Constructor",
+      "Id": "EDC243A9-82BF-448E-BC6E-BAD0D5A90DC2"
+    },
+    {
+      "Name": "Renga.DataExporter.DataExporter_ConstructorCast",
+      "Id": "735B605D-1A71-48C2-96BF-E0B97FDA4F8C"
+    },
+    {
+      "Name": "Renga.DataExporter.GetObjects3D",
+      "Id": "04415ECE-92D0-4B38-9745-AE431596C7A7"
+    },
+    {
+      "Name": "Renga.DataExporter.GetGrids",
+      "Id": "DDCCE686-D296-46D1-9C67-BAA639D2324D"
+    },
+    {
+      "Name": "Renga.Material.Material_Constructor",
+      "Id": "F37E2ADD-E54D-452F-B9C8-BC6F3F330AAC"
+    },
+    {
+      "Name": "Renga.Material.Material_ConstructorCast",
+      "Id": "2D6139AD-DB88-4393-89F3-878891504249"
+    },
+    {
+      "Name": "Renga.Material.Id",
+      "Id": "0BD63E3A-E52E-4F1F-B803-FA4B0BDF2DB6"
+    },
+    {
+      "Name": "Renga.Material.Name",
+      "Id": "0CAEB326-320A-4A10-91DC-0DB6317C189E"
+    },
+    {
+      "Name": "Renga.Material.Density",
+      "Id": "B1A92D68-4D56-4374-AC2D-B018B454AF81"
+    },
+    {
+      "Name": "Renga.Material.Color",
+      "Id": "82D427FA-0F7E-4D30-B4BD-87C2531CD5F5"
+    },
+    {
+      "Name": "Renga.LayeredMaterial.LayeredMaterial_Constructor",
+      "Id": "5759E376-E4FB-4CDE-9CE4-F974F7851747"
+    },
+    {
+      "Name": "Renga.LayeredMaterial.LayeredMaterial_ConstructorCast",
+      "Id": "382530C8-ADCD-4506-BC0C-C5D4A768957C"
+    },
+    {
+      "Name": "Renga.LayeredMaterial.GetIdGroupPair",
+      "Id": "C7D5B185-4F60-4B7A-8E23-27BACC05FE5A"
+    },
+    {
+      "Name": "Renga.LayeredMaterial.Name",
+      "Id": "B413BC49-8172-4558-817C-1D3642BB8404"
+    },
+    {
+      "Name": "Renga.LayeredMaterial.Layers",
+      "Id": "8FF42908-5DC4-46AD-AE8A-937236F8617D"
+    },
+    {
+      "Name": "Renga.LayeredMaterial.GetBaseLayer",
+      "Id": "46B76BE3-1049-4D16-8DF3-9AB7AE4931F3"
+    },
+    {
+      "Name": "Renga.LayeredMaterial.BaseLayerIndex",
+      "Id": "823C941B-A8AF-4E58-B6AC-B011578B278D"
+    },
+    {
+      "Name": "Renga.LayeredMaterial.Id",
+      "Id": "3276BC26-3AB0-42E8-85BB-243C8E1B2674"
+    },
+    {
+      "Name": "Renga.MaterialLayerCollection.MaterialLayerCollection_Constructor",
+      "Id": "3D84B147-4147-4687-AE35-E4F98AD9F67F"
+    },
+    {
+      "Name": "Renga.MaterialLayerCollection.MaterialLayerCollection_ConstructorCast",
+      "Id": "9FF3C303-8D97-48EE-B141-530D94939AC5"
+    },
+    {
+      "Name": "Renga.MaterialLayerCollection.Get",
+      "Id": "81A0206C-B827-4F6E-9C19-263D868CBEE6"
+    },
+    {
+      "Name": "Renga.MaterialLayerCollection.Count",
+      "Id": "1E9237E3-ECF2-4659-A11A-9B674B48B91E"
+    },
+    {
+      "Name": "Renga.MaterialLayer.MaterialLayer_Constructor",
+      "Id": "F9E569C3-FCCF-456E-AC58-EF2CCD631FE7"
+    },
+    {
+      "Name": "Renga.MaterialLayer.MaterialLayer_ConstructorCast",
+      "Id": "8DBB0B36-09DF-4C11-824F-3CA6B712BFF4"
+    },
+    {
+      "Name": "Renga.MaterialLayer.Id",
+      "Id": "800AEAD6-391B-4AA5-B4E0-90B5304354C1"
+    },
+    {
+      "Name": "Renga.MaterialLayer.Thickness",
+      "Id": "E3282609-F16D-4ABD-8099-21BDD7630CDD"
+    },
+    {
+      "Name": "Renga.MaterialLayer.Material",
+      "Id": "82869C06-F42B-4C0D-B442-EAD1BA847742"
+    },
+    {
+      "Name": "Renga.MaterialManager.MaterialManager_Constructor",
+      "Id": "6A751D16-7B60-4623-8220-E029085CBFBE"
+    },
+    {
+      "Name": "Renga.MaterialManager.MaterialManager_ConstructorCast",
+      "Id": "E8518289-A9E0-4D7D-9446-4270EB8C0CEE"
+    },
+    {
+      "Name": "Renga.MaterialManager.GetMaterial",
+      "Id": "44F7AA02-0E75-4E58-85FC-756BEC439455"
+    },
+    {
+      "Name": "Renga.LayeredMaterialManager.LayeredMaterialManager_Constructor",
+      "Id": "A4820F81-4CFC-450B-B8B9-2400F498046F"
+    },
+    {
+      "Name": "Renga.LayeredMaterialManager.LayeredMaterialManager_ConstructorCast",
+      "Id": "45C8E04C-5B16-4CCA-9189-4F1873F11102"
+    },
+    {
+      "Name": "Renga.LayeredMaterialManager.GetLayeredMaterialByIdGroupPair",
+      "Id": "50B396D2-D456-45F1-8617-BEE64D217A99"
+    },
+    {
+      "Name": "Renga.LayeredMaterialManager.GetLayeredMaterial",
+      "Id": "76344762-9FDB-4D66-8B75-C7F5817FBAD1"
+    },
+    {
+      "Name": "Renga.Camera3D.Camera3D_Constructor",
+      "Id": "CEB4F0A3-947D-4963-A45E-1FE6B057C3A2"
+    },
+    {
+      "Name": "Renga.Camera3D.Camera3D_ConstructorCast",
+      "Id": "AF7FE139-6228-4294-87A9-B9A0D66ACB22"
+    },
+    {
+      "Name": "Renga.Camera3D.Position",
+      "Id": "80C0BD5F-C4BB-4F30-84EC-C74D33B2670F"
+    },
+    {
+      "Name": "Renga.Camera3D.FocusPoint",
+      "Id": "3532D9FF-712C-4556-969E-E173E652B98A"
+    },
+    {
+      "Name": "Renga.Camera3D.FovHorizontal",
+      "Id": "D0DDB920-B220-44ED-814B-9456155DFB58"
+    },
+    {
+      "Name": "Renga.Camera3D.FovVertical",
+      "Id": "34A133BD-8B86-4347-9239-8854805C5A2C"
+    },
+    {
+      "Name": "Renga.Camera3D.LookAt",
+      "Id": "C30FCAE0-16E8-4FC5-B766-53B4AA36941E"
+    },
+    {
+      "Name": "Renga.Camera3D.UpVector",
+      "Id": "F2EE2511-1655-48BB-87AA-3C1F51C88847"
+    },
+    {
+      "Name": "Renga.Project.Project_Constructor",
+      "Id": "F3CA0960-3366-4979-AA31-79031D9AEA51"
+    },
+    {
+      "Name": "Renga.Project.Project_ConstructorCast",
+      "Id": "E79AD639-BCE5-4D7D-A761-C8C2BFE75461"
+    },
+    {
+      "Name": "Renga.Project.FilePath",
+      "Id": "63877CCA-3555-4FFA-8A4F-8437253B8D84"
+    },
+    {
+      "Name": "Renga.Project.HasFile",
+      "Id": "905B3E37-DD26-4707-971E-68718E2C2C21"
+    },
+    {
+      "Name": "Renga.Project.Model",
+      "Id": "DD667BD5-A3FE-4E0D-84ED-2C4255C187F7"
+    },
+    {
+      "Name": "Renga.Project.PropertyManager",
+      "Id": "98A53621-CDE8-4E1E-BA6C-214EA7310DD5"
+    },
+    {
+      "Name": "Renga.Project.MaterialManager",
+      "Id": "10CD998B-821C-4933-A925-84791A506640"
+    },
+    {
+      "Name": "Renga.Project.LayeredMaterialManager",
+      "Id": "E33D893D-7D5B-4B9B-8AA5-2784CE3B0074"
+    },
+    {
+      "Name": "Renga.Project.DataExporter",
+      "Id": "425F55F8-BBA8-4E2D-A48D-164E805B115B"
+    },
+    {
+      "Name": "Renga.Project.ReinforcementUnitStyleManager",
+      "Id": "DA50FDDB-81D0-4067-91F8-D5C477F1D606"
+    },
+    {
+      "Name": "Renga.Project.ProjectType",
+      "Id": "3AAD83CC-639F-4380-966C-A3DD8EBCD7BD"
+    },
+    {
+      "Name": "Renga.Project.Drawings",
+      "Id": "C722C5F9-57C2-45B0-BF5B-453EBC45F705"
+    },
+    {
+      "Name": "Renga.Project.HasUnsavedChanges",
+      "Id": "AAD6C6AF-A3D2-4FC4-9AB9-E875BBCA8B7B"
+    },
+    {
+      "Name": "Renga.Project.Save",
+      "Id": "79989CAF-A8D6-4EB7-A751-79A98EC4B3C2"
+    },
+    {
+      "Name": "Renga.Project.SaveAs",
+      "Id": "9D487EF7-4FCB-41F0-91A6-2CBF911E920B"
+    },
+    {
+      "Name": "Renga.Project.ExportToIfc",
+      "Id": "0A11D54C-FF89-4348-9A8E-63679163EA90"
+    },
+    {
+      "Name": "Renga.Project.ProfileDescriptionManager",
+      "Id": "1643410C-13B5-4E13-9026-7D0F4701D48A"
+    },
+    {
+      "Name": "Renga.Project.BeamStyleManager",
+      "Id": "3653E529-C6CC-4034-B841-CAA135D5045D"
+    },
+    {
+      "Name": "Renga.Project.ColumnStyleManager",
+      "Id": "B6C7123E-4D2E-4520-A870-45FF8E73E299"
+    },
+    {
+      "Name": "Renga.Project.ExportToCsv",
+      "Id": "69C89961-E002-4495-9121-EF88C06C989C"
+    },
+    {
+      "Name": "Renga.Project.ExportDrawingsToPdf",
+      "Id": "97BD1962-F55B-4706-B97F-0C6CFECC37FB"
+    },
+    {
+      "Name": "Renga.Project.SystemStyleManager",
+      "Id": "D55BFC94-F37F-4166-887B-806357638D24"
+    },
+    {
+      "Name": "Renga.Project.PlumbingFixtureStyleManager",
+      "Id": "24FE6288-A200-4BE5-8216-F07C7335D190"
+    },
+    {
+      "Name": "Renga.Project.EquipmentStyleManager",
+      "Id": "EA53EFF7-BBA8-474B-9129-53DEB5DE3424"
+    },
+    {
+      "Name": "Renga.Project.ExportToIfc2",
+      "Id": "A6BA1499-986C-4959-8E5C-7A5F3C50CD7E"
+    },
+    {
+      "Name": "Renga.Project.ProjectInfo",
+      "Id": "541F6CAE-B697-4F9D-82D7-4455AAF001D9"
+    },
+    {
+      "Name": "Renga.Project.BuildingInfo",
+      "Id": "8A05692A-02D5-40DE-888F-DDCEFDEDDE29"
+    },
+    {
+      "Name": "Renga.Project.LandPlotInfo",
+      "Id": "047E0361-F8AF-42F6-AFB0-532323BA311C"
+    },
+    {
+      "Name": "Renga.Project.PipeAccessoryStyles",
+      "Id": "459A6119-8F2F-4634-B13A-1BDC4DCE4A11"
+    },
+    {
+      "Name": "Renga.Project.PipeStyles",
+      "Id": "6F2D4DC1-D744-4F4E-92A5-EC17F2A472F6"
+    },
+    {
+      "Name": "Renga.Project.PipeFittingStyles",
+      "Id": "C4250C8C-0641-4226-9BD1-1E71A2315F88"
+    },
+    {
+      "Name": "Renga.Project.MechanicalEquipmentStyles",
+      "Id": "30565662-40F2-4D8E-9BCE-5BE355727285"
+    },
+    {
+      "Name": "Renga.Project.DuctStyles",
+      "Id": "82014A01-064F-4B83-ACEE-6DFE44CE06C3"
+    },
+    {
+      "Name": "Renga.Project.DuctFittingStyles",
+      "Id": "6EB39744-6210-483E-9911-9812CF798A1E"
+    },
+    {
+      "Name": "Renga.Project.DuctAccessoryStyles",
+      "Id": "E2514696-9A30-48FD-AFF2-09DE5E7EFAFF"
+    },
+    {
+      "Name": "Renga.Project.LightFixtureStyles",
+      "Id": "EEB2181D-98C5-4634-9B8C-4BD68DFA939E"
+    },
+    {
+      "Name": "Renga.Project.WiringAccessoryStyles",
+      "Id": "2B54F0A1-2A91-45F3-95A0-81CAA530C18E"
+    },
+    {
+      "Name": "Renga.Project.ElectricDistributionBoardStyles",
+      "Id": "31C14142-8C18-41BD-92A1-8E63BC6CBD07"
+    },
+    {
+      "Name": "Renga.Project.ElectricalConductorStyles",
+      "Id": "57CDA014-408A-4BB1-B403-61353DA21FD9"
+    },
+    {
+      "Name": "Renga.Project.ElectricalCircuitLineStyles",
+      "Id": "62B11A8B-864F-44FF-A9A3-BE2C14A4887B"
+    },
+    {
+      "Name": "Renga.Project.SystemStyles",
+      "Id": "826E2C05-A44C-4822-8614-49D0847DB91E"
+    },
+    {
+      "Name": "Renga.Project.PlumbingFixtureStyles",
+      "Id": "FC9CA0F4-E18C-42F7-974D-D78C8B217443"
+    },
+    {
+      "Name": "Renga.Project.EquipmentStyles",
+      "Id": "EF7AA08C-7EF0-408E-A4EA-8CC91287B4EA"
+    },
+    {
+      "Name": "Renga.Project.Assemblies",
+      "Id": "272B4BC6-D403-43AA-86AB-8927607F0BB3"
+    },
+    {
+      "Name": "Renga.Project.ExportDrawingsToPdfS",
+      "Id": "BA1E45E5-4BE0-43A8-9B32-7E3DD0D62773"
+    },
+    {
+      "Name": "Renga.Project.ExportDrawingsToOpenXpsS",
+      "Id": "C4F0B5DE-97F0-46A7-9B3C-B7B558BC3E3B"
+    },
+    {
+      "Name": "Renga.Project.Drawings2",
+      "Id": "55C333F6-8CE2-4614-AA76-DC78CD3DD7F6"
+    },
+    {
+      "Name": "Renga.Project.ElementStyles",
+      "Id": "C00E2C62-1765-4E43-9F25-41C0E1B24815"
+    },
+    {
+      "Name": "Renga.Project.BeamStyles",
+      "Id": "2AC41794-0F81-411A-91AF-735AAE25790B"
+    },
+    {
+      "Name": "Renga.Project.ColumnStyles",
+      "Id": "698AAA4B-2B1B-445C-898A-F82D72F50F7C"
+    },
+    {
+      "Name": "Renga.Project.PlateStyles",
+      "Id": "E8D86735-7BE4-403E-9422-51A48007611D"
+    },
+    {
+      "Name": "Renga.Project.Materials",
+      "Id": "D1FCD3D5-AD97-4364-88D5-312A2FD6C0C6"
+    },
+    {
+      "Name": "Renga.Project.WindowStyles",
+      "Id": "53B21A00-20CF-4089-BC24-0AEDAAD7613B"
+    },
+    {
+      "Name": "Renga.Project.DoorStyles",
+      "Id": "D8630847-9304-413E-AF37-BAD7EC42F6B3"
+    },
+    {
+      "Name": "Renga.Project.LayeredMaterials",
+      "Id": "88E508A8-915D-47CF-A01B-1BCA13A6436D"
+    },
+    {
+      "Name": "Renga.Project.Profiles",
+      "Id": "9E5EA0AF-5D08-41A6-8A4D-6DAF8F699152"
+    },
+    {
+      "Name": "Renga.Project.CreateOperation",
+      "Id": "548DF505-EF35-45E8-AA85-34761F500F58"
+    },
+    {
+      "Name": "Renga.Project.Topics",
+      "Id": "A5E18299-3BD5-4AAD-9C93-184D53B989C7"
+    },
+    {
+      "Name": "Renga.Project.LayoutStyles",
+      "Id": "20F5F086-7176-4194-AAE0-AD353AE0DB56"
+    },
+    {
+      "Name": "Renga.Project.PageFormatStyles",
+      "Id": "B8AD342D-90E1-458A-81C8-9007A9FEE684"
+    },
+    {
+      "Name": "Renga.Project.GetEntityNumberInTopic",
+      "Id": "EB33A842-384A-44DB-B70A-DDB993D3E195"
+    },
+    {
+      "Name": "Renga.Project.GetEntityNumberInTopicS",
+      "Id": "95806A8B-65CC-47B0-9CAC-CE31A53E7A48"
+    },
+    {
+      "Name": "Renga.Project.JournalPath",
+      "Id": "F88EE143-4546-4DF0-AFE5-FF8CCD09D4A1"
+    },
+    {
+      "Name": "Renga.Project.HasActiveOperation",
+      "Id": "27ED2D8F-0CB1-4D2B-9E7C-740599CBEF9E"
+    },
+    {
+      "Name": "Renga.Project.CreateOperationWithUndo",
+      "Id": "A883A22B-A43E-47EB-828F-74F960BC0F77"
+    },
+    {
+      "Name": "Renga.Project.GetUndoStack",
+      "Id": "F51F6A35-D530-4B5B-A4FC-4CB629E5F654"
+    },
+    {
+      "Name": "Renga.Project.DuctAccessoryCategories",
+      "Id": "8EEC3AFB-AD51-435E-8796-BAE105B827FA"
+    },
+    {
+      "Name": "Renga.Project.PipeAccessoryCategories",
+      "Id": "F6FAFAD8-950B-43F0-9D54-A19C79EE9F15"
+    },
+    {
+      "Name": "Renga.Project.DuctFittingCategories",
+      "Id": "75B42653-4728-464B-8141-8B5AAF299495"
+    },
+    {
+      "Name": "Renga.Project.PipeFittingCategories",
+      "Id": "45A57EBE-E2C4-4327-91D5-7FAD101246EC"
+    },
+    {
+      "Name": "Renga.Project.MechanicalEquipmentCategories",
+      "Id": "42DFEC22-46FD-4E61-8315-5A456473747A"
+    },
+    {
+      "Name": "Renga.Project.EquipmentCategories",
+      "Id": "F2DAE6A3-A52D-45C6-A252-63927F836376"
+    },
+    {
+      "Name": "Renga.Project.PlumbingFixtureCategories",
+      "Id": "3F2FEB2E-3458-4DB5-A0F4-548D49F86822"
+    },
+    {
+      "Name": "Renga.Project.ElectricDistributionBoardCategories",
+      "Id": "68D580A4-B70E-4993-A5AD-1D396285E678"
+    },
+    {
+      "Name": "Renga.Project.WiringAccessoryCategories",
+      "Id": "05DD20EC-66C6-4F88-B59C-A8DB549CE853"
+    },
+    {
+      "Name": "Renga.Project.LightningFixtureCategories",
+      "Id": "90C25E37-5145-4300-944B-E94903B7E589"
+    },
+    {
+      "Name": "Renga.Model.Model_Constructor",
+      "Id": "271CFB15-704F-4DB3-A837-9B995657E1AE"
+    },
+    {
+      "Name": "Renga.Model.Model_ConstructorCast",
+      "Id": "BF9EAAB6-77BE-4060-BA60-CDFB584AC156"
+    },
+    {
+      "Name": "Renga.Model.GetObjects",
+      "Id": "A47DE1D0-4FA8-48CA-AC5C-C42F1BE97F88"
+    },
+    {
+      "Name": "Renga.Model.CreateOperation",
+      "Id": "F2CA62B5-71BA-4B1B-8797-E1EB0FD3FFBA"
+    },
+    {
+      "Name": "Renga.Model.GetIdFromUniqueId",
+      "Id": "C9FC844E-E385-4EFD-8D7A-9112657825BA"
+    },
+    {
+      "Name": "Renga.Model.GetIdFromUniqueIdS",
+      "Id": "A64C77E2-3653-473D-92E6-58E4658A12E4"
+    },
+    {
+      "Name": "Renga.Model.GetUniqueIdFromId",
+      "Id": "E073B991-C308-49BC-AC0F-967968B04D79"
+    },
+    {
+      "Name": "Renga.Model.GetUniqueIdFromIdS",
+      "Id": "AE4874B5-B35B-46D5-94AD-79A0D6CE8A1A"
+    },
+    {
+      "Name": "Renga.Model.Id",
+      "Id": "DB29FFD0-F6A9-4934-9810-FD3E95D8B07C"
+    },
+    {
+      "Name": "Renga.ModelObjectCollection.ModelObjectCollection_Constructor",
+      "Id": "BE46A04B-5B64-4C7C-A8DF-F6EB21352170"
+    },
+    {
+      "Name": "Renga.ModelObjectCollection.ModelObjectCollection_ConstructorCast",
+      "Id": "EA7F3F99-E022-4A20-B65A-19A154CCD229"
+    },
+    {
+      "Name": "Renga.ModelObjectCollection.Count",
+      "Id": "482A2D49-638D-442D-8EF5-C2F768451345"
+    },
+    {
+      "Name": "Renga.ModelObjectCollection.GetByIndex",
+      "Id": "2F24F737-886C-475A-98A9-4F04D72A26AC"
+    },
+    {
+      "Name": "Renga.ModelObjectCollection.GetById",
+      "Id": "409A2E7B-A007-4089-A040-13EA9C628F88"
+    },
+    {
+      "Name": "Renga.ModelObjectCollection.GetIds",
+      "Id": "A7D0635C-87CB-458C-8B6E-6A71B1C74342"
+    },
+    {
+      "Name": "Renga.ReinforcementUnitStyleManager.ReinforcementUnitStyleManager_Constructor",
+      "Id": "2575B0AE-968A-48A1-B3A8-6036B1A8530D"
+    },
+    {
+      "Name": "Renga.ReinforcementUnitStyleManager.ReinforcementUnitStyleManager_ConstructorCast",
+      "Id": "AFB1A6E7-640D-4333-A8D1-FAC7806ACDFD"
+    },
+    {
+      "Name": "Renga.ReinforcementUnitStyleManager.GetRebarStyle",
+      "Id": "5FF0A7F6-C868-44BF-A194-70C0463A0EC9"
+    },
+    {
+      "Name": "Renga.ReinforcementUnitStyleManager.GetRebarStyleIds",
+      "Id": "661A1142-2519-40F0-8C76-E7D91C721B90"
+    },
+    {
+      "Name": "Renga.ReinforcementUnitStyleManager.RebarStyleExists",
+      "Id": "1080E408-4526-4303-9C07-33766DD803B7"
+    },
+    {
+      "Name": "Renga.ReinforcementUnitStyleManager.GetUnitStyle",
+      "Id": "2A0CEFD9-EF8A-4B63-B357-B0340DED7688"
+    },
+    {
+      "Name": "Renga.ReinforcementUnitStyleManager.UnitStyleExists",
+      "Id": "BB3D4B4F-6BC4-4DC1-A1E2-F72BFA7AEA8E"
+    },
+    {
+      "Name": "Renga.ReinforcementUnitStyleManager.GetReinforcementUnitStyleIds",
+      "Id": "77807932-FAE0-45DC-9543-0B4F84AC1871"
+    },
+    {
+      "Name": "Renga.RebarStyle.RebarStyle_Constructor",
+      "Id": "BBB6232A-D1C7-499A-A2B4-8DE3E19A4002"
+    },
+    {
+      "Name": "Renga.RebarStyle.RebarStyle_ConstructorCast",
+      "Id": "EBF02B01-6FAC-49A8-843C-85BF39C0DC97"
+    },
+    {
+      "Name": "Renga.RebarStyle.Id",
+      "Id": "1C9BA356-3C50-4DB9-AA89-A5B970A2920A"
+    },
+    {
+      "Name": "Renga.RebarStyle.Name",
+      "Id": "C8AEE541-BC1B-4FA2-A476-C30728F91D91"
+    },
+    {
+      "Name": "Renga.RebarStyle.GradeName",
+      "Id": "127594D2-D837-4D6E-AD65-EDB8D42F5C92"
+    },
+    {
+      "Name": "Renga.RebarStyle.Diameter",
+      "Id": "A9F30665-D61E-48BD-ABE8-A16422AE9806"
+    },
+    {
+      "Name": "Renga.RebarStyle.MaterialId",
+      "Id": "682F596A-00A7-460B-AB4E-A9B746C69ACC"
+    },
+    {
+      "Name": "Renga.RebarStyle.GradeTensileStrength",
+      "Id": "B536468F-0755-42E3-A2C2-F869AAFB4AEB"
+    },
+    {
+      "Name": "Renga.ReinforcementUnitStyle.ReinforcementUnitStyle_Constructor",
+      "Id": "931B20BF-31B9-4AD9-8FE3-586145B8FBED"
+    },
+    {
+      "Name": "Renga.ReinforcementUnitStyle.ReinforcementUnitStyle_ConstructorCast",
+      "Id": "57DB1321-688B-4992-99BD-9FCBDFA21229"
+    },
+    {
+      "Name": "Renga.ReinforcementUnitStyle.Id",
+      "Id": "9973CF3F-D30D-431D-B7CB-6CBDBF107F1D"
+    },
+    {
+      "Name": "Renga.ReinforcementUnitStyle.Name",
+      "Id": "A398E905-F99B-425C-B856-D8A14DC67F07"
+    },
+    {
+      "Name": "Renga.ReinforcementUnitStyle.GetRebarUsages",
+      "Id": "C7D2A9D1-AEDA-4325-80E3-1D6D4E3F0993"
+    },
+    {
+      "Name": "Renga.ReinforcementUnitStyle.UnitType",
+      "Id": "6A0DFF70-7F3F-4EE0-9B73-B081D15B3DD6"
+    },
+    {
+      "Name": "Renga.DrawingCollection.DrawingCollection_Constructor",
+      "Id": "C2E5AA11-198B-47C9-A9DC-BD54859237BD"
+    },
+    {
+      "Name": "Renga.DrawingCollection.DrawingCollection_ConstructorCast",
+      "Id": "0408F29D-A96B-41E6-BB1E-184FE27BA612"
+    },
+    {
+      "Name": "Renga.DrawingCollection.Count",
+      "Id": "DD434364-B561-4F0E-A2F4-C2FDDF64B588"
+    },
+    {
+      "Name": "Renga.DrawingCollection.Get",
+      "Id": "4413452C-4EB6-4A91-B79A-9526E08A0462"
+    },
+    {
+      "Name": "Renga.Drawing.Drawing_Constructor",
+      "Id": "0CE4B655-163F-46C9-9710-4CBDBBB56BD9"
+    },
+    {
+      "Name": "Renga.Drawing.Drawing_ConstructorCast",
+      "Id": "4E2DB7AB-0892-4A73-9C05-70DEE47C267C"
+    },
+    {
+      "Name": "Renga.Drawing.Name",
+      "Id": "BB6FF0ED-7BFE-4FFA-BF49-97D2DEDDC2DA"
+    },
+    {
+      "Name": "Renga.Drawing.ExportToDxf",
+      "Id": "4A121387-5978-491F-B0CF-E0404897B367"
+    },
+    {
+      "Name": "Renga.Drawing.ExportToDwg",
+      "Id": "E79CCE4B-F82F-4076-BF66-ABF113D3FF0C"
+    },
+    {
+      "Name": "Renga.Drawing.Id",
+      "Id": "89A6EE3E-70B9-4C60-B846-A6D5F6FCE107"
+    },
+    {
+      "Name": "Renga.Drawing.IdS",
+      "Id": "76128FF9-BF1D-423C-9AD1-F813A1DB45BC"
+    },
+    {
+      "Name": "Renga.Drawing.ExportToPdf",
+      "Id": "97D9AB63-B70D-444B-9B37-95493191D620"
+    },
+    {
+      "Name": "Renga.Drawing.ExportToOpenXps",
+      "Id": "CCCFFD86-663C-4ACF-9B4E-B962C7393A9B"
+    },
+    {
+      "Name": "Renga.Drawing.TitleBlockInstanceCount",
+      "Id": "EDD1B678-D16A-4FFC-AA71-DCDCABD91DDE"
+    },
+    {
+      "Name": "Renga.Drawing.GetTitleBlockInstance",
+      "Id": "9FF75A44-7D89-4402-90F7-03F8EA70B316"
+    },
+    {
+      "Name": "Renga.TitleBlockInstance.TitleBlockInstance_Constructor",
+      "Id": "C3919400-483F-4E1A-BDC3-16D2DD5705EA"
+    },
+    {
+      "Name": "Renga.TitleBlockInstance.TitleBlockInstance_ConstructorCast",
+      "Id": "5E0CCFD9-A334-4467-BDB4-6F6E17E27FB7"
+    },
+    {
+      "Name": "Renga.TitleBlockInstance.Name",
+      "Id": "E654EB8E-FB8C-4735-917F-E79C3DA21832"
+    },
+    {
+      "Name": "Renga.TitleBlockInstance.RowCount",
+      "Id": "9C860076-A45A-4F45-A46D-0B4A12DA5242"
+    },
+    {
+      "Name": "Renga.TitleBlockInstance.ColumnCount",
+      "Id": "EDFE06CA-D2AA-4AA2-81E3-C81F2E4AF268"
+    },
+    {
+      "Name": "Renga.TitleBlockInstance.GetCellValue",
+      "Id": "B948A04C-D4F6-4C68-9CB9-3C7315B38FE1"
+    },
+    {
+      "Name": "Renga.ProfileDescriptionManager.ProfileDescriptionManager_Constructor",
+      "Id": "900B528E-1BCC-4872-A99B-033561ECA7BA"
+    },
+    {
+      "Name": "Renga.ProfileDescriptionManager.ProfileDescriptionManager_ConstructorCast",
+      "Id": "EBADA0CF-B105-4C9C-9205-146FBFFFB041"
+    },
+    {
+      "Name": "Renga.ProfileDescriptionManager.GetIds",
+      "Id": "2628021B-10B3-48DD-A137-BBCE25D48A9D"
+    },
+    {
+      "Name": "Renga.ProfileDescriptionManager.Contains",
+      "Id": "03F69C60-F46D-428A-AAB2-2C54F645225E"
+    },
+    {
+      "Name": "Renga.ProfileDescriptionManager.GetProfileDescription",
+      "Id": "5B52FC70-7032-4A60-8CC4-09E7F4620344"
+    },
+    {
+      "Name": "Renga.ProfileDescription.ProfileDescription_Constructor",
+      "Id": "813B7C97-AD8A-4941-AC71-ED05707546B1"
+    },
+    {
+      "Name": "Renga.ProfileDescription.ProfileDescription_ConstructorCast",
+      "Id": "30F14D13-4371-4CDC-B69E-4E385E5F879E"
+    },
+    {
+      "Name": "Renga.ProfileDescription.Name",
+      "Id": "9E618273-F275-496F-B30D-480D0CDBCECB"
+    },
+    {
+      "Name": "Renga.ProfileDescription.Id",
+      "Id": "EF6C79AE-3E9A-4AC4-9135-1EB4E9410910"
+    },
+    {
+      "Name": "Renga.BeamStyleManager.BeamStyleManager_Constructor",
+      "Id": "E4FA3A00-F6BB-4CA7-B506-BFDA1FEA3577"
+    },
+    {
+      "Name": "Renga.BeamStyleManager.BeamStyleManager_ConstructorCast",
+      "Id": "5DC650EA-B61B-4176-B706-A0E459D9A128"
+    },
+    {
+      "Name": "Renga.BeamStyleManager.GetIds",
+      "Id": "B8380391-B948-4F68-A490-071891CBE529"
+    },
+    {
+      "Name": "Renga.BeamStyleManager.Contains",
+      "Id": "C24F01BC-D060-43BE-8503-9546407AB0AE"
+    },
+    {
+      "Name": "Renga.BeamStyleManager.GetBeamStyle",
+      "Id": "ECBDDF53-74A4-4051-93FB-5E30DBAE051F"
+    },
+    {
+      "Name": "Renga.BeamStyle.BeamStyle_Constructor",
+      "Id": "6E1E545D-D287-4035-9B5D-33BC972FA1DD"
+    },
+    {
+      "Name": "Renga.BeamStyle.BeamStyle_ConstructorCast",
+      "Id": "66256C9B-DCE3-4584-8443-B1573C0AD215"
+    },
+    {
+      "Name": "Renga.BeamStyle.Id",
+      "Id": "47986818-2CDF-4104-A0E1-886F402CA76E"
+    },
+    {
+      "Name": "Renga.BeamStyle.Name",
+      "Id": "2E078333-35FB-4C95-B5F7-3894507264A8"
+    },
+    {
+      "Name": "Renga.BeamStyle.Profile",
+      "Id": "9A5E7CD7-6C07-4E2D-B3B6-5D0EB9392686"
+    },
+    {
+      "Name": "Renga.Profile.Profile_Constructor",
+      "Id": "7ED177A5-B7D1-49B4-9ABC-986E4E0FE392"
+    },
+    {
+      "Name": "Renga.Profile.Profile_ConstructorCast",
+      "Id": "A9B56D67-9F2C-459D-A445-48826D40099A"
+    },
+    {
+      "Name": "Renga.Profile.DescriptionId",
+      "Id": "9A02B535-9664-4887-A6B8-BB7936506535"
+    },
+    {
+      "Name": "Renga.Profile.Regions",
+      "Id": "E3A2E6AC-5FF1-4174-A169-CF502368EEC1"
+    },
+    {
+      "Name": "Renga.Profile.GetCenterOfMass",
+      "Id": "E77E9B9B-89DF-4B8F-B32B-4C4AF94BBC3C"
+    },
+    {
+      "Name": "Renga.Profile.Parameters",
+      "Id": "08D4C797-A6E4-4F53-8F33-CFA8D01130A4"
+    },
+    {
+      "Name": "Renga.Region2DCollection.Region2DCollection_Constructor",
+      "Id": "0C0419F6-BEAD-4F81-A551-B1CF693085A1"
+    },
+    {
+      "Name": "Renga.Region2DCollection.Region2DCollection_ConstructorCast",
+      "Id": "2F45C486-C7DA-42E1-8568-A413BD09D189"
+    },
+    {
+      "Name": "Renga.Region2DCollection.Count",
+      "Id": "CF222DCC-5409-4098-84D6-D634551FFDE5"
+    },
+    {
+      "Name": "Renga.Region2DCollection.Get",
+      "Id": "103D60A7-34BE-4DD3-B1D9-0510ED05DEBD"
+    },
+    {
+      "Name": "Renga.Region2D.Region2D_Constructor",
+      "Id": "76E1DA4F-8970-4EFC-8657-1AD2321E2BE3"
+    },
+    {
+      "Name": "Renga.Region2D.Region2D_ConstructorCast",
+      "Id": "1B0087C8-33FC-488A-9581-0538EAD5E87D"
+    },
+    {
+      "Name": "Renga.Region2D.GetContourCount",
+      "Id": "6BBA2A67-ACA1-4A63-BDFD-9C3B3C64F491"
+    },
+    {
+      "Name": "Renga.Region2D.GetContour",
+      "Id": "5857E9ED-5007-414E-9664-38C2C4565092"
+    },
+    {
+      "Name": "Renga.Region2D.GetOuterContour",
+      "Id": "4207281E-6BCA-4F6E-97FF-B8C15CABDCB1"
+    },
+    {
+      "Name": "Renga.Curve2D.Curve2D_Constructor",
+      "Id": "BD09201B-99FD-4C35-8491-42D4D44E9DD7"
+    },
+    {
+      "Name": "Renga.Curve2D.Curve2D_ConstructorCast",
+      "Id": "FD61EAEA-F82E-427C-8BC2-8A67FCD827F6"
+    },
+    {
+      "Name": "Renga.Curve2D.Curve2DType",
+      "Id": "034DE531-1748-4E84-B601-28FF57A397F0"
+    },
+    {
+      "Name": "Renga.Curve2D.GetCopy",
+      "Id": "6270BC72-F81D-43AA-9C6D-94C45B40A705"
+    },
+    {
+      "Name": "Renga.Curve2D.GetBeginPoint",
+      "Id": "5D861C71-FFFA-4292-B8D1-3EBBD2C9FA02"
+    },
+    {
+      "Name": "Renga.Curve2D.GetEndPoint",
+      "Id": "5AE548A4-C95B-45C4-8948-B5B162D1DB95"
+    },
+    {
+      "Name": "Renga.Curve2D.GetPointOn",
+      "Id": "AEF99018-A2A6-4D97-9C20-A598AE4D23CD"
+    },
+    {
+      "Name": "Renga.Curve2D.MinParameter",
+      "Id": "2038AC52-4AC8-4C8E-98A7-E674BF00DBFF"
+    },
+    {
+      "Name": "Renga.Curve2D.MaxParameter",
+      "Id": "FAFC1563-7786-499C-B8E9-EB5FEE2237C1"
+    },
+    {
+      "Name": "Renga.Curve2D.GetLength",
+      "Id": "56D5171E-9551-4270-A8A6-E8B3028E7452"
+    },
+    {
+      "Name": "Renga.Curve2D.GetGabarit",
+      "Id": "F3DE3B48-8998-4FC4-A497-24FFA1FF204C"
+    },
+    {
+      "Name": "Renga.Curve2D.IsClosed",
+      "Id": "9938C9E6-452F-4473-930F-B727EE9797B8"
+    },
+    {
+      "Name": "Renga.Curve2D.GetParameterAtDistance",
+      "Id": "B9F1DA8F-69AA-4B14-AF8D-9EEE54FE1F85"
+    },
+    {
+      "Name": "Renga.Curve2D.GetTrimmed",
+      "Id": "09877BF3-F3EF-4C7B-8239-D56ADC3603E6"
+    },
+    {
+      "Name": "Renga.Curve2D.PointProjection",
+      "Id": "36226A48-5B12-44E9-8F6A-B37C1EE81CFF"
+    },
+    {
+      "Name": "Renga.BSTR.CreateCurve3D",
+      "Id": "22F4F1C0-A424-4BD1-BAEA-3D63EAC253EB"
+    },
+    {
+      "Name": "Renga.Transform2D.Transform2D_Constructor",
+      "Id": "12726861-1437-4954-9F11-2369BA0D9C85"
+    },
+    {
+      "Name": "Renga.Transform2D.Transform2D_ConstructorCast",
+      "Id": "359D208C-6A07-41E1-AE25-BC615A554EA3"
+    },
+    {
+      "Name": "Renga.Transform2D.GetElement",
+      "Id": "4FB884B5-2602-4687-BB33-C30634A666E8"
+    },
+    {
+      "Name": "Renga.Transform2D.SetElement",
+      "Id": "365200E1-E2DE-4E6F-91AB-DDF8635A35DA"
+    },
+    {
+      "Name": "Renga.Transform2D.AddTranslation",
+      "Id": "1AE21B4C-2CA4-42AB-8004-C5DBFD0D57B5"
+    },
+    {
+      "Name": "Renga.Transform2D.AddRotation",
+      "Id": "7C90D1AC-F899-4BDF-BF1A-680D62D60507"
+    },
+    {
+      "Name": "Renga.Transform2D.GetCopy",
+      "Id": "DFB1DB3A-083F-4790-B879-1FF668A2B70F"
+    },
+    {
+      "Name": "Renga.Transform2D.TransformPoint",
+      "Id": "681CE12B-AFE0-4948-938E-9733377FB5A8"
+    },
+    {
+      "Name": "Renga.Transform2D.TransformVector",
+      "Id": "6D909766-7431-4485-85A3-9B43A083F7F3"
+    },
+    {
+      "Name": "Renga.Transform2D.CreateTransform3D",
+      "Id": "2BC7BB03-1360-489E-9E4F-1A7EC5DFE9FE"
+    },
+    {
+      "Name": "Renga.ColumnStyleManager.ColumnStyleManager_Constructor",
+      "Id": "6F16E114-D687-408A-91F7-7D3425C1AD15"
+    },
+    {
+      "Name": "Renga.ColumnStyleManager.ColumnStyleManager_ConstructorCast",
+      "Id": "928CF55B-1DF5-4C06-86A5-08F611BABB1C"
+    },
+    {
+      "Name": "Renga.ColumnStyleManager.GetIds",
+      "Id": "1F9464B4-F031-4F3A-88F0-BCD959CB7339"
+    },
+    {
+      "Name": "Renga.ColumnStyleManager.Contains",
+      "Id": "B57934BC-9670-4738-8789-E48CABFDDE66"
+    },
+    {
+      "Name": "Renga.ColumnStyleManager.GetColumnStyle",
+      "Id": "BC706C48-1BE7-4E0F-A136-A0458D815D25"
+    },
+    {
+      "Name": "Renga.ColumnStyle.ColumnStyle_Constructor",
+      "Id": "DEC77A24-EC8B-43DA-A178-547A58A744C8"
+    },
+    {
+      "Name": "Renga.ColumnStyle.ColumnStyle_ConstructorCast",
+      "Id": "092397A8-09F9-4A29-975C-C5D0D288CBBE"
+    },
+    {
+      "Name": "Renga.ColumnStyle.Id",
+      "Id": "6F4CB5D2-E2E7-45D2-B29A-8201718C4CB7"
+    },
+    {
+      "Name": "Renga.ColumnStyle.Name",
+      "Id": "0CB3DD8B-659A-4AB5-B3BB-DE43D6560EE9"
+    },
+    {
+      "Name": "Renga.ColumnStyle.Profile",
+      "Id": "ACC8286D-D5CA-4CF5-A639-25783B7CC8AB"
+    },
+    {
+      "Name": "Renga.SystemStyleManager.SystemStyleManager_Constructor",
+      "Id": "40DB9E4A-4710-4A59-9C82-AE3FFC1FEE57"
+    },
+    {
+      "Name": "Renga.SystemStyleManager.SystemStyleManager_ConstructorCast",
+      "Id": "8CE60B5C-1C5D-4389-9137-FD79B95CB2C3"
+    },
+    {
+      "Name": "Renga.SystemStyleManager.GetIds",
+      "Id": "0E32C096-F2FB-4C42-8821-3BDF4AF2E549"
+    },
+    {
+      "Name": "Renga.SystemStyleManager.Contains",
+      "Id": "349D75BC-677A-499D-88FA-CC31C2D32C63"
+    },
+    {
+      "Name": "Renga.SystemStyleManager.GetSystemStyle",
+      "Id": "DB6BFAF5-9F99-46C2-AC15-F28F7E41EE80"
+    },
+    {
+      "Name": "Renga.SystemStyle.SystemStyle_Constructor",
+      "Id": "AAA3ABC5-74CD-427A-96C2-408F40909DE7"
+    },
+    {
+      "Name": "Renga.SystemStyle.SystemStyle_ConstructorCast",
+      "Id": "6CBED759-6583-4E41-9456-77F3D535BC9A"
+    },
+    {
+      "Name": "Renga.SystemStyle.SystemCategory",
+      "Id": "13F7DF6F-5620-498F-BD0C-BFC798BDE513"
+    },
+    {
+      "Name": "Renga.SystemStyle.Designation",
+      "Id": "747ADC22-8203-415C-B1A8-18DCF3947177"
+    },
+    {
+      "Name": "Renga.SystemStyle.Id",
+      "Id": "888DCC46-66BC-485E-B54B-B579522FDC3A"
+    },
+    {
+      "Name": "Renga.SystemStyle.Name",
+      "Id": "1DE6BB5A-3C61-4A3A-97B3-F1FB8BE2BA53"
+    },
+    {
+      "Name": "Renga.SystemStyle.Color",
+      "Id": "78D58D93-B427-4CAF-8A7D-3C901D663D0E"
+    },
+    {
+      "Name": "Renga.PlumbingFixtureStyleManager.PlumbingFixtureStyleManager_Constructor",
+      "Id": "1D62732C-84C7-48D7-B296-00F229D4758D"
+    },
+    {
+      "Name": "Renga.PlumbingFixtureStyleManager.PlumbingFixtureStyleManager_ConstructorCast",
+      "Id": "25C07639-9731-454C-ADAA-8BD8708CF51E"
+    },
+    {
+      "Name": "Renga.PlumbingFixtureStyleManager.GetIds",
+      "Id": "0E832C91-FC0B-4AB1-BE63-5FBFD44071D5"
+    },
+    {
+      "Name": "Renga.PlumbingFixtureStyleManager.Contains",
+      "Id": "FE73B65F-C196-4FD0-9471-DB8382CDE14D"
+    },
+    {
+      "Name": "Renga.PlumbingFixtureStyleManager.GetPlumbingFixtureStyle",
+      "Id": "D95D64A9-08D6-402A-9419-A1EA1FCDE32E"
+    },
+    {
+      "Name": "Renga.PlumbingFixtureStyle.PlumbingFixtureStyle_Constructor",
+      "Id": "A75A4B21-5B77-4F8E-B085-722349A2C3D1"
+    },
+    {
+      "Name": "Renga.PlumbingFixtureStyle.PlumbingFixtureStyle_ConstructorCast",
+      "Id": "CCE36206-8710-4316-81EC-E924BD6C412A"
+    },
+    {
+      "Name": "Renga.PlumbingFixtureStyle.Name",
+      "Id": "248D8E89-DDD5-4C5F-A8D7-6CE51AE4D640"
+    },
+    {
+      "Name": "Renga.PlumbingFixtureStyle.Category",
+      "Id": "81268660-88A4-495F-A0F7-B9FFAAE3ED65"
+    },
+    {
+      "Name": "Renga.EquipmentStyleManager.EquipmentStyleManager_Constructor",
+      "Id": "56A99930-1936-4127-82C1-045605C015B3"
+    },
+    {
+      "Name": "Renga.EquipmentStyleManager.EquipmentStyleManager_ConstructorCast",
+      "Id": "CB133064-67C4-436C-835A-03FA8579DCF9"
+    },
+    {
+      "Name": "Renga.EquipmentStyleManager.GetIds",
+      "Id": "8E83A31D-F9F5-4763-B0E0-449128AFE611"
+    },
+    {
+      "Name": "Renga.EquipmentStyleManager.Contains",
+      "Id": "6D19534C-D711-47AA-8F63-1BE1C4CD9701"
+    },
+    {
+      "Name": "Renga.EquipmentStyleManager.GetEquipmentStyle",
+      "Id": "091A60A9-D29C-408F-AFC3-5375001FB964"
+    },
+    {
+      "Name": "Renga.EquipmentStyle.EquipmentStyle_Constructor",
+      "Id": "3CB3520B-9E22-497E-98DC-473A36B28F32"
+    },
+    {
+      "Name": "Renga.EquipmentStyle.EquipmentStyle_ConstructorCast",
+      "Id": "F202A3F4-0172-4D11-86A8-750D9749E2EB"
+    },
+    {
+      "Name": "Renga.EquipmentStyle.Name",
+      "Id": "B2D4C0D7-E2C1-4A4C-BA08-38E227CDD3FE"
+    },
+    {
+      "Name": "Renga.EquipmentStyle.Category",
+      "Id": "5D1E0F8C-BC1D-4E64-9BB7-CB0CD17E94D7"
+    },
+    {
+      "Name": "Renga.IfcExportSettings.IfcExportSettings_Constructor",
+      "Id": "C39CE7A6-483E-4B4B-AB98-716960AF2D56"
+    },
+    {
+      "Name": "Renga.IfcExportSettings.IfcExportSettings_ConstructorCast",
+      "Id": "FADBBFA6-025D-43B8-9C49-EF4C806177D2"
+    },
+    {
+      "Name": "Renga.IfcExportSettings.Set_ValueMappingFilePath",
+      "Id": "99C90D89-8652-4777-9708-251CE270C535"
+    },
+    {
+      "Name": "Renga.IfcExportSettings.ValueMappingFilePath",
+      "Id": "ACFEE46B-339D-4C83-BF38-71EEF8FD0320"
+    },
+    {
+      "Name": "Renga.IfcExportSettings.Set_Version",
+      "Id": "3B21648D-A92E-40C9-B0F4-DA0C78C8BDF8"
+    },
+    {
+      "Name": "Renga.IfcExportSettings.Version",
+      "Id": "D8B4E447-6708-4DA5-99BB-DE100E38ABF4"
+    },
+    {
+      "Name": "Renga.IfcExportSettings.Set_EntityTypeMappingFilePath",
+      "Id": "33FAB9F6-5BCC-4D09-B11D-E64E36C77494"
+    },
+    {
+      "Name": "Renga.IfcExportSettings.EntityTypeMappingFilePath",
+      "Id": "D10CF00A-C04F-4C8D-BC2C-B98BE7D969C1"
+    },
+    {
+      "Name": "Renga.IfcExportSettings.Set_LayerMappingFilePath",
+      "Id": "BB18CFEF-CFA6-4D9C-BECC-37234C5F58C6"
+    },
+    {
+      "Name": "Renga.IfcExportSettings.LayerMappingFilePath",
+      "Id": "A42AC737-886F-4A3C-B101-546D65A53F6F"
+    },
+    {
+      "Name": "Renga.IfcExportSettings.Set_ApproximateCurves",
+      "Id": "95CEF12E-A8E1-4B75-8E1A-21583320BFF8"
+    },
+    {
+      "Name": "Renga.IfcExportSettings.ApproximateCurves",
+      "Id": "32FC8E71-3500-4A16-B4B9-6280D01FC380"
+    },
+    {
+      "Name": "Renga.IfcExportSettings.Set_VoidsAsReference",
+      "Id": "0B519A64-040C-49B1-B0C2-1811A21B4646"
+    },
+    {
+      "Name": "Renga.IfcExportSettings.VoidsAsReference",
+      "Id": "5AE3C5DA-ADBD-472E-B0FC-A13C81F37E89"
+    },
+    {
+      "Name": "Renga.IfcExportSettings.Set_SplitObjectsWithLayeredMaterialIntoParts",
+      "Id": "2BCEB027-7ABA-4D98-A2DE-7A7BDB41F71E"
+    },
+    {
+      "Name": "Renga.IfcExportSettings.SplitObjectsWithLayeredMaterialIntoParts",
+      "Id": "DF4D532E-399F-442B-9E06-41624C98FB2F"
+    },
+    {
+      "Name": "Renga.IfcExportSettings.Set_GeometricRepresentationWithoutCutting",
+      "Id": "E60E0EF2-A6DF-4D33-90A9-27A4BB4C810A"
+    },
+    {
+      "Name": "Renga.IfcExportSettings.GeometricRepresentationWithoutCutting",
+      "Id": "976B4557-6CA4-4699-AFA1-FC0E953828B0"
+    },
+    {
+      "Name": "Renga.ProjectInfo.ProjectInfo_Constructor",
+      "Id": "D8815F3F-96AC-4FC5-9077-9C1B405A3617"
+    },
+    {
+      "Name": "Renga.ProjectInfo.ProjectInfo_ConstructorCast",
+      "Id": "2030A333-199C-44D5-BA21-73021E1854DA"
+    },
+    {
+      "Name": "Renga.ProjectInfo.Code",
+      "Id": "25EB5A01-5C69-4B11-ABBC-612F1605E77E"
+    },
+    {
+      "Name": "Renga.ProjectInfo.Set_Code",
+      "Id": "852D8007-4CB7-424D-B0AA-E34E445A343E"
+    },
+    {
+      "Name": "Renga.ProjectInfo.Name",
+      "Id": "CC76B832-A8A4-4D07-BA25-034F58A97998"
+    },
+    {
+      "Name": "Renga.ProjectInfo.Set_Name",
+      "Id": "C714B013-1F66-487B-8A59-8240CAC85DDE"
+    },
+    {
+      "Name": "Renga.ProjectInfo.Stage",
+      "Id": "671B7E37-EA58-450A-A566-BD38E66B0951"
+    },
+    {
+      "Name": "Renga.ProjectInfo.Set_Stage",
+      "Id": "01EE2078-4628-4CBE-9D9C-5301E231E276"
+    },
+    {
+      "Name": "Renga.ProjectInfo.Description",
+      "Id": "B8A74220-573E-409F-AC17-CF7BB3A91247"
+    },
+    {
+      "Name": "Renga.ProjectInfo.Set_Description",
+      "Id": "F890D9F1-27DE-4BB0-9402-CCA7E803AC5E"
+    },
+    {
+      "Name": "Renga.ProjectInfo.GetProperties",
+      "Id": "0418B560-C42D-4D42-BC27-E4E381BEC710"
+    },
+    {
+      "Name": "Renga.ProjectInfo.UniqueId",
+      "Id": "A402FD50-BE69-4F42-879D-1FC0062F1382"
+    },
+    {
+      "Name": "Renga.ProjectInfo.UniqueIdS",
+      "Id": "6243282B-6696-4288-8393-98FBA43576E2"
+    },
+    {
+      "Name": "Renga.BuildingInfo.BuildingInfo_Constructor",
+      "Id": "E9B7B81E-6888-4181-A309-14BC6DF7F005"
+    },
+    {
+      "Name": "Renga.BuildingInfo.BuildingInfo_ConstructorCast",
+      "Id": "A1A17B95-5D25-405B-A476-5485141D8AFE"
+    },
+    {
+      "Name": "Renga.BuildingInfo.Number",
+      "Id": "644F48BE-0E37-41D4-B073-0A0864F5C4A9"
+    },
+    {
+      "Name": "Renga.BuildingInfo.Set_Number",
+      "Id": "0EF9C8C4-BC1F-480B-8B62-B34D1696B02E"
+    },
+    {
+      "Name": "Renga.BuildingInfo.Name",
+      "Id": "F678FB6F-6C9A-4865-955A-04D1C04BCD2C"
+    },
+    {
+      "Name": "Renga.BuildingInfo.Set_Name",
+      "Id": "A22E6267-5FA3-460A-AFEB-01FF0467A466"
+    },
+    {
+      "Name": "Renga.BuildingInfo.Description",
+      "Id": "5F853221-F795-4BC8-9785-3D0C0761632E"
+    },
+    {
+      "Name": "Renga.BuildingInfo.Set_Description",
+      "Id": "3129BA23-4D58-4C5F-B7C6-9528B15ED1CA"
+    },
+    {
+      "Name": "Renga.BuildingInfo.GetAddress",
+      "Id": "EADB4925-2E2F-4AFC-9259-2053D3EB13AB"
+    },
+    {
+      "Name": "Renga.BuildingInfo.GetProperties",
+      "Id": "2BB1857A-A752-403A-9DF8-846EC62F74FB"
+    },
+    {
+      "Name": "Renga.BuildingInfo.UniqueId",
+      "Id": "2030C3FD-4D2A-4236-9C15-630EBEAD4391"
+    },
+    {
+      "Name": "Renga.BuildingInfo.UniqueIdS",
+      "Id": "D7DA239E-E43A-41C6-98E2-0284AA80B9FA"
+    },
+    {
+      "Name": "Renga.PostalAddress.PostalAddress_Constructor",
+      "Id": "5030A89F-7AB9-4DFE-A0B8-F0CD1DA67D7F"
+    },
+    {
+      "Name": "Renga.PostalAddress.PostalAddress_ConstructorCast",
+      "Id": "4CFA73C3-B806-4CE8-AB20-91812D61E978"
+    },
+    {
+      "Name": "Renga.PostalAddress.Addressee",
+      "Id": "7310A7C6-77EB-41C4-B48B-DEF33F67890D"
+    },
+    {
+      "Name": "Renga.PostalAddress.Set_Addressee",
+      "Id": "58F06E36-CF35-4280-9382-CEC23DBE95B0"
+    },
+    {
+      "Name": "Renga.PostalAddress.AddressLines",
+      "Id": "D3940BBE-0C72-4E24-B1C6-8F16C3E57988"
+    },
+    {
+      "Name": "Renga.PostalAddress.Set_AddressLines",
+      "Id": "64F1B8B7-4746-44FB-BED0-A0AEEDB1F396"
+    },
+    {
+      "Name": "Renga.PostalAddress.PostalBox",
+      "Id": "68728A7C-8389-4F4B-9AAB-718A4157331E"
+    },
+    {
+      "Name": "Renga.PostalAddress.Set_PostalBox",
+      "Id": "19DCF374-36C7-467C-9B90-96E392EBE253"
+    },
+    {
+      "Name": "Renga.PostalAddress.Town",
+      "Id": "785E2441-1E74-4E88-8D7D-F072346392A8"
+    },
+    {
+      "Name": "Renga.PostalAddress.Set_Town",
+      "Id": "A53342CF-B959-41C2-9BAF-7D320B67C477"
+    },
+    {
+      "Name": "Renga.PostalAddress.Region",
+      "Id": "80B90678-7C4A-43A2-A59D-749497D72312"
+    },
+    {
+      "Name": "Renga.PostalAddress.Set_Region",
+      "Id": "CE76B0B3-0D7E-44F9-8CDB-604EA7CC6938"
+    },
+    {
+      "Name": "Renga.PostalAddress.Postcode",
+      "Id": "81D0A2D3-2F80-480E-9CCE-6B1490C89F7C"
+    },
+    {
+      "Name": "Renga.PostalAddress.Set_Postcode",
+      "Id": "6C2767BA-F204-441E-AD88-3156C61279B9"
+    },
+    {
+      "Name": "Renga.PostalAddress.Country",
+      "Id": "52DE55CD-012B-4FD3-A92C-524CCA70E5CB"
+    },
+    {
+      "Name": "Renga.PostalAddress.Set_Country",
+      "Id": "D79672F3-B178-446F-A4A4-07C8ED7476BA"
+    },
+    {
+      "Name": "Renga.LandPlotInfo.LandPlotInfo_Constructor",
+      "Id": "D5A4AAD5-C76B-48BD-AC49-3CAFAB6E56A9"
+    },
+    {
+      "Name": "Renga.LandPlotInfo.LandPlotInfo_ConstructorCast",
+      "Id": "BEF89684-84CA-4A47-A1D3-B9F08222823E"
+    },
+    {
+      "Name": "Renga.LandPlotInfo.Number",
+      "Id": "2EBBA17B-73B3-4B33-BF51-2A336096C86B"
+    },
+    {
+      "Name": "Renga.LandPlotInfo.Set_Number",
+      "Id": "3AB85467-0F7D-43ED-ACA5-5B976695D62A"
+    },
+    {
+      "Name": "Renga.LandPlotInfo.Name",
+      "Id": "61750B52-0FD2-449D-AAEE-B7DA7BB29C32"
+    },
+    {
+      "Name": "Renga.LandPlotInfo.Set_Name",
+      "Id": "398BEC0A-2FB7-44C5-9B87-AA885827B910"
+    },
+    {
+      "Name": "Renga.LandPlotInfo.Description",
+      "Id": "5D1C8B03-FF1D-43BB-BBB1-C9834A9F1AE5"
+    },
+    {
+      "Name": "Renga.LandPlotInfo.Set_Description",
+      "Id": "21B3331F-FEDD-4A13-B8EA-E3B8608F3D78"
+    },
+    {
+      "Name": "Renga.LandPlotInfo.GetAddress",
+      "Id": "8F15782B-70D8-45A4-8B43-9671240860E6"
+    },
+    {
+      "Name": "Renga.LandPlotInfo.GetProperties",
+      "Id": "512C86EA-9C52-4828-A84C-A35035D867AD"
+    },
+    {
+      "Name": "Renga.LandPlotInfo.UniqueId",
+      "Id": "F7B86ADB-059C-4294-BB1C-741E73538831"
+    },
+    {
+      "Name": "Renga.LandPlotInfo.UniqueIdS",
+      "Id": "9FC86CAC-C8AF-4F65-8A95-B65D386D4E6C"
+    },
+    {
+      "Name": "Renga.EntityCollection.EntityCollection_Constructor",
+      "Id": "6F7084E7-49F5-4DDB-B52A-F91D5F777718"
+    },
+    {
+      "Name": "Renga.EntityCollection.EntityCollection_ConstructorCast",
+      "Id": "11009118-BFD8-45EC-863C-B16CAC90F388"
+    },
+    {
+      "Name": "Renga.EntityCollection.GetById",
+      "Id": "3F43E501-B602-4796-9AB6-4724D399E9CC"
+    },
+    {
+      "Name": "Renga.EntityCollection.GetIds",
+      "Id": "59D5445C-1794-4069-B46F-57A1F2F50E3B"
+    },
+    {
+      "Name": "Renga.Entity.Entity_Constructor",
+      "Id": "3AB7C988-7086-4FF6-B66F-AE1F9D2D8282"
+    },
+    {
+      "Name": "Renga.Entity.Entity_ConstructorCast",
+      "Id": "8A60DBD5-E127-4CFD-BA1C-06188265CC6C"
+    },
+    {
+      "Name": "Renga.Entity.Id",
+      "Id": "131D4BAE-4382-409F-972F-D892C3AF5AD4"
+    },
+    {
+      "Name": "Renga.Entity.Name",
+      "Id": "865A0860-30D4-493E-9B82-B67644913183"
+    },
+    {
+      "Name": "Renga.Entity.UniqueId",
+      "Id": "F91B7413-FA2E-4D26-8C44-F3539D550158"
+    },
+    {
+      "Name": "Renga.Entity.UniqueIdS",
+      "Id": "36CD250C-F506-493C-A155-63605351FEA1"
+    },
+    {
+      "Name": "Renga.Entity.TypeId",
+      "Id": "B3EC2E24-0480-4BC9-A9F0-333BC30D721A"
+    },
+    {
+      "Name": "Renga.Entity.TypeIdS",
+      "Id": "9F97C665-0A3F-459F-AC95-E9A34DF27ED8"
+    },
+    {
+      "Name": "Renga.UndoStack.UndoStack_Constructor",
+      "Id": "6CFCB100-288D-43C3-86B9-573CF5120EE3"
+    },
+    {
+      "Name": "Renga.UndoStack.UndoStack_ConstructorCast",
+      "Id": "DFAEE42A-106C-4D62-9072-7E51B386B829"
+    },
+    {
+      "Name": "Renga.UndoStack.Undo",
+      "Id": "9BDEB29E-3A73-482C-A90B-467B42DD112F"
+    },
+    {
+      "Name": "Renga.UndoStack.Redo",
+      "Id": "EB0F8B1C-0B66-4161-A6FA-D8B28742F8D9"
+    },
+    {
+      "Name": "Renga.UndoStack.HasUndo",
+      "Id": "2377BA11-C149-470C-80A4-89F05F027FC6"
+    },
+    {
+      "Name": "Renga.UndoStack.HasRedo",
+      "Id": "814F3A1A-B095-4B45-B666-6F700548C76A"
+    },
+    {
+      "Name": "Renga.View.View_Constructor",
+      "Id": "DAFDD0C6-297F-49B9-ADA1-815250CB5FF3"
+    },
+    {
+      "Name": "Renga.View.View_ConstructorCast",
+      "Id": "8416B6D8-C97D-4EE7-A6D9-E677EDFEB36F"
+    },
+    {
+      "Name": "Renga.View.Id",
+      "Id": "02CA81CA-1C67-4E55-ADBE-25ACF5CF9648"
+    },
+    {
+      "Name": "Renga.View.Type",
+      "Id": "9C7E0B4C-4DEA-4154-8104-7377F24D0C0D"
+    },
+    {
+      "Name": "Renga.ModelView.ModelView_Constructor",
+      "Id": "8AA87BC2-858B-4678-B0F1-FDEC99FD0E88"
+    },
+    {
+      "Name": "Renga.ModelView.ModelView_ConstructorCast",
+      "Id": "9698DDF4-B306-4198-87D8-E5819D2A560A"
+    },
+    {
+      "Name": "Renga.ModelView.SetObjectsVisibility",
+      "Id": "C60E4300-4333-4FAA-A016-39E9FFE8D309"
+    },
+    {
+      "Name": "Renga.ModelView.IsObjectVisible",
+      "Id": "C37E7683-C7CC-4F3A-8853-0716F2340D31"
+    },
+    {
+      "Name": "Renga.ModelView.SetObjectsVisualStyle",
+      "Id": "BE8415FF-6965-4F57-9468-630FA37D29C3"
+    },
+    {
+      "Name": "Renga.ModelView.GetObjectVisualStyle",
+      "Id": "C3EC6476-9720-4D7E-8460-ABEC1F2138CF"
+    },
+    {
+      "Name": "Renga.ModelView.Set_VisualStyle",
+      "Id": "7EADEBAA-3ED4-4FA5-83A7-32FEC1016A5A"
+    },
+    {
+      "Name": "Renga.ModelView.VisualStyle",
+      "Id": "BB433E62-5DD5-4F63-BD41-BDD5523020DD"
+    },
+    {
+      "Name": "Renga.ModelView.ShowObjects",
+      "Id": "5BABA8C2-CFC1-4996-B752-47C931AE2C29"
+    },
+    {
+      "Name": "Renga.View3DParams.View3DParams_Constructor",
+      "Id": "1E8C3828-3EAC-4503-813F-F8B2FD94D8A5"
+    },
+    {
+      "Name": "Renga.View3DParams.View3DParams_ConstructorCast",
+      "Id": "82514584-D63A-4271-BA74-D9E0AD3CF47C"
+    },
+    {
+      "Name": "Renga.View3DParams.Camera",
+      "Id": "C8CC9C9F-EDCE-4571-A0B1-0D125C190DB1"
+    },
+    {
+      "Name": "Renga.LevelViewParams.LevelViewParams_Constructor",
+      "Id": "5D7151AB-370B-4426-8A16-AB39F277F876"
+    },
+    {
+      "Name": "Renga.LevelViewParams.LevelViewParams_ConstructorCast",
+      "Id": "75A53C7E-D03F-417D-9B3D-470FB62E00D9"
+    },
+    {
+      "Name": "Renga.LevelViewParams.LevelId",
+      "Id": "99F542B1-7DA7-494A-89D2-85C7B763CC7A"
+    },
+    {
+      "Name": "Renga.Event.Event_Constructor",
+      "Id": "561A12EA-EBD6-40E5-8D98-65A288DD3EBC"
+    },
+    {
+      "Name": "Renga.Event.Event_ConstructorCast",
+      "Id": "80F0A70C-FA5A-44F5-937F-1B02E54CD4E9"
+    },
+    {
+      "Name": "Renga.Event.GetEventType",
+      "Id": "46FBB1B0-CABD-4070-8CA4-B0F5A8536825"
+    },
+    {
+      "Name": "Renga.ApplicationCloseEvent.ApplicationCloseEvent_Constructor",
+      "Id": "30CAEEDA-BC8D-4F76-8C5A-10D937A40540"
+    },
+    {
+      "Name": "Renga.ApplicationCloseEvent.ApplicationCloseEvent_ConstructorCast",
+      "Id": "61921E1B-708A-4DE4-A499-10D5130FC2A8"
+    },
+    {
+      "Name": "Renga.ApplicationCloseEvent.Prevent",
+      "Id": "2FB13335-540B-4CEB-ACB6-C509386BA6C7"
+    },
+    {
+      "Name": "Renga.ProjectCloseEvent.ProjectCloseEvent_Constructor",
+      "Id": "12048B1B-1B26-424E-9936-550ED93E905C"
+    },
+    {
+      "Name": "Renga.ProjectCloseEvent.ProjectCloseEvent_ConstructorCast",
+      "Id": "996B2813-B101-41A8-9B25-5C7BDAC8B69F"
+    },
+    {
+      "Name": "Renga.ProjectCloseEvent.Prevent",
+      "Id": "52191BEC-BBB5-4DBC-BA20-9FD29CD66C96"
+    },
+    {
+      "Name": "Renga.Placement2D.Placement2D_Constructor",
+      "Id": "C270E655-273B-43B8-8FF1-5C74F9A01CD4"
+    },
+    {
+      "Name": "Renga.Placement2D.Placement2D_ConstructorCast",
+      "Id": "929C48D0-F9DA-41EF-9AE0-D900F2AEFAAF"
+    },
+    {
+      "Name": "Renga.Placement2D.Origin",
+      "Id": "48DF5BCE-6506-425B-9FEE-8EC61E180AE7"
+    },
+    {
+      "Name": "Renga.Placement2D.AxisX",
+      "Id": "382C48CE-B265-4CE6-9D62-D01AAE8A9060"
+    },
+    {
+      "Name": "Renga.Placement2D.AxisY",
+      "Id": "6878C509-5265-4254-8B16-FA16C1BE23DC"
+    },
+    {
+      "Name": "Renga.Placement2D.IsOrthogonal",
+      "Id": "4A5F34A7-136E-4BC8-BD27-234C6FDC817F"
+    },
+    {
+      "Name": "Renga.Placement2D.IsNormal",
+      "Id": "940D25DC-A402-46C6-B875-6510A0A11D0F"
+    },
+    {
+      "Name": "Renga.Placement2D.IsLeft",
+      "Id": "E7394AAD-8FD9-455E-9011-F792634431F7"
+    },
+    {
+      "Name": "Renga.Placement2D.GetTransformFrom",
+      "Id": "633F02CE-8848-494A-AACB-F578834D31FF"
+    },
+    {
+      "Name": "Renga.Placement2D.GetTransformInto",
+      "Id": "E8CEF034-7AB0-4D78-8DD6-D045328DFF93"
+    },
+    {
+      "Name": "Renga.Placement2D.GetCopy",
+      "Id": "260AE5BF-F3FE-462D-9139-5E12FB4C8926"
+    },
+    {
+      "Name": "Renga.Arc2D.Arc2D_Constructor",
+      "Id": "20348846-C7ED-40D8-B109-42A1E9E6CB36"
+    },
+    {
+      "Name": "Renga.Arc2D.Arc2D_ConstructorCast",
+      "Id": "A10CBBF7-0DBF-46E2-A68E-2DDC533D3B72"
+    },
+    {
+      "Name": "Renga.Arc2D.GetPlacement",
+      "Id": "A340EF1C-ECEF-4EE2-957A-A6482E24F170"
+    },
+    {
+      "Name": "Renga.Arc2D.GetRadius",
+      "Id": "389E9707-F994-4CCC-8B4B-2E3044D27272"
+    },
+    {
+      "Name": "Renga.Arc2D.GetRadiusA",
+      "Id": "69937403-7634-4CE9-9D88-F8253AC666F8"
+    },
+    {
+      "Name": "Renga.Arc2D.GetRadiusB",
+      "Id": "487B2E00-4D84-45D6-AC3A-435D5D244252"
+    },
+    {
+      "Name": "Renga.Arc2D.GetBeginAngle",
+      "Id": "EBBCB166-52B0-4331-8348-8B17298609DD"
+    },
+    {
+      "Name": "Renga.Arc2D.GetEndAngle",
+      "Id": "A8092348-1B57-4043-8F04-1EFB3508B5F1"
+    },
+    {
+      "Name": "Renga.Arc2D.GetBeginGlobalAngle",
+      "Id": "668A7459-3C83-4592-8F8C-B6384D7F9A57"
+    },
+    {
+      "Name": "Renga.Arc2D.GetEndGlobalAngle",
+      "Id": "D03479C6-0C88-4E70-B304-539A29944B84"
+    },
+    {
+      "Name": "Renga.Arc2D.IsCircular",
+      "Id": "CE80F934-2CCD-4779-86CB-2D109EB0DF41"
+    },
+    {
+      "Name": "Renga.Arc2D.IsClockwise",
+      "Id": "DEBD7602-6DF5-4752-9FA4-AEAE8DFA29B1"
+    },
+    {
+      "Name": "Renga.Arc2D.GetCenter",
+      "Id": "DFBA046B-3767-494D-8CBE-5558ADCD00CA"
+    },
+    {
+      "Name": "Renga.PolyCurve2D.PolyCurve2D_Constructor",
+      "Id": "175E2485-6D39-4784-B53F-7EBFB9AC201A"
+    },
+    {
+      "Name": "Renga.PolyCurve2D.PolyCurve2D_ConstructorCast",
+      "Id": "50230BAF-08FC-44DC-A1A7-D5F2053BF45A"
+    },
+    {
+      "Name": "Renga.PolyCurve2D.GetSegmentCount",
+      "Id": "ECC68F99-C36C-4798-A290-F217984AD66B"
+    },
+    {
+      "Name": "Renga.PolyCurve2D.GetSegment",
+      "Id": "1E424A81-2C7B-45D0-9B7B-57473D64D7D8"
+    },
+    {
+      "Name": "Renga.Curve2DCollection.Curve2DCollection_Constructor",
+      "Id": "D8B65DA5-F173-42D5-ADBA-FEA9FCA597F2"
+    },
+    {
+      "Name": "Renga.Curve2DCollection.Curve2DCollection_ConstructorCast",
+      "Id": "17720431-3CC2-42E5-A55B-8B717578E28A"
+    },
+    {
+      "Name": "Renga.Curve2DCollection.Count",
+      "Id": "6C632751-B2FA-42BE-9A0D-B77E8D51584D"
+    },
+    {
+      "Name": "Renga.Curve2DCollection.Get",
+      "Id": "354E0272-1E6F-41C3-81B6-0AD73AD0AA64"
+    },
+    {
+      "Name": "Renga.Arc3D.Arc3D_Constructor",
+      "Id": "CBAED661-3176-4D6D-9545-27F1CD9033CE"
+    },
+    {
+      "Name": "Renga.Arc3D.Arc3D_ConstructorCast",
+      "Id": "5BAE51FD-BCE9-45F7-AA52-20E4594ACDEF"
+    },
+    {
+      "Name": "Renga.Arc3D.GetPlacement",
+      "Id": "CE420031-443A-4D65-A37A-F60C08D26650"
+    },
+    {
+      "Name": "Renga.Arc3D.GetRadius",
+      "Id": "CE269642-EC11-4D57-B604-3B941FEA02D4"
+    },
+    {
+      "Name": "Renga.Arc3D.GetRadiusA",
+      "Id": "8BD01239-49FC-417E-86F3-3B8DAE993E09"
+    },
+    {
+      "Name": "Renga.Arc3D.GetRadiusB",
+      "Id": "E3D1A41B-D17D-4ED4-B0C8-539EBDF98B77"
+    },
+    {
+      "Name": "Renga.Arc3D.GetBeginAngle",
+      "Id": "D822A4DB-4583-4F4C-B261-068262200654"
+    },
+    {
+      "Name": "Renga.Arc3D.GetEndAngle",
+      "Id": "C89493E3-BB85-4B49-B10D-8C9DF12263B3"
+    },
+    {
+      "Name": "Renga.Arc3D.GetCenter",
+      "Id": "BFD612DD-777C-4004-BFF9-0941ED1BB68A"
+    },
+    {
+      "Name": "Renga.Arc3D.IsCircular",
+      "Id": "3975E131-E60D-493C-962C-162A9560F803"
+    },
+    {
+      "Name": "Renga.PolyCurve3D.PolyCurve3D_Constructor",
+      "Id": "CE0BF417-4179-417D-9B91-4632089DF7E7"
+    },
+    {
+      "Name": "Renga.PolyCurve3D.PolyCurve3D_ConstructorCast",
+      "Id": "CCE7ACB9-D566-4B1F-9522-CC31660A5D3C"
+    },
+    {
+      "Name": "Renga.PolyCurve3D.GetSegmentCount",
+      "Id": "8D5F5DCE-3358-44AF-91F0-318B54BA3D20"
+    },
+    {
+      "Name": "Renga.PolyCurve3D.GetSegment",
+      "Id": "24CB0E9B-A32A-4373-8D7D-AE34020F985C"
+    },
+    {
+      "Name": "Renga.BeamParams.BeamParams_Constructor",
+      "Id": "7A5A7973-8478-446F-B65C-37D7C2593404"
+    },
+    {
+      "Name": "Renga.BeamParams.BeamParams_ConstructorCast",
+      "Id": "C839B73A-45A0-4276-A009-E3F42F9AE384"
+    },
+    {
+      "Name": "Renga.BeamParams.GetBaseline",
+      "Id": "2C5DDCAE-8560-4E69-A51B-4218ECDCA9AF"
+    },
+    {
+      "Name": "Renga.BeamParams.StyleId",
+      "Id": "07A7F531-AF12-43C7-A3CE-CF9171F04AD3"
+    },
+    {
+      "Name": "Renga.BeamParams.GetProfilePlacement",
+      "Id": "0286E1A0-FB5C-4497-93E6-E1ED31DE7548"
+    },
+    {
+      "Name": "Renga.BeamParams.GetProfilePlacementOnBaseline",
+      "Id": "8F297AA3-4A42-4D2C-86F3-50D10C8C468C"
+    },
+    {
+      "Name": "Renga.BeamParams.VerticalOffset",
+      "Id": "E7FCDBAF-F976-4605-BE75-EE971DDB57B2"
+    },
+    {
+      "Name": "Renga.ColumnParams.ColumnParams_Constructor",
+      "Id": "AEBB5A75-8FE2-4C3D-A8A8-64026D98E241"
+    },
+    {
+      "Name": "Renga.ColumnParams.ColumnParams_ConstructorCast",
+      "Id": "5DC9A7C5-511F-47A4-9684-CA939E6447F5"
+    },
+    {
+      "Name": "Renga.ColumnParams.Height",
+      "Id": "60EB1649-525A-4F43-BFB3-9AF866FF6846"
+    },
+    {
+      "Name": "Renga.ColumnParams.StyleId",
+      "Id": "9352F6B1-1ED2-400E-9901-EB258D8D6383"
+    },
+    {
+      "Name": "Renga.ColumnParams.GetProfilePlacement",
+      "Id": "50DD6388-FD35-465E-ADBB-A46A5179A6DE"
+    },
+    {
+      "Name": "Renga.ColumnParams.Position",
+      "Id": "DCCCA2C5-434E-41C9-945F-840D39A250E1"
+    },
+    {
+      "Name": "Renga.ColumnParams.VerticalOffset",
+      "Id": "C71080E2-0B67-4BC5-B5F5-1171C621FAF9"
+    },
+    {
+      "Name": "Renga.FloorParams.FloorParams_Constructor",
+      "Id": "680C5023-F9AE-4A7F-BEF9-B6F645A21ED2"
+    },
+    {
+      "Name": "Renga.FloorParams.FloorParams_ConstructorCast",
+      "Id": "58BFE7B5-E930-43F5-84E4-37BCD5224C4B"
+    },
+    {
+      "Name": "Renga.FloorParams.GetContour",
+      "Id": "1C782445-A9FE-4906-82AF-F00FDE3A6E6E"
+    },
+    {
+      "Name": "Renga.FloorParams.Thickness",
+      "Id": "55FEFEB7-6C5C-40D3-B13B-38B01AAB63C8"
+    },
+    {
+      "Name": "Renga.FloorParams.VerticalOffset",
+      "Id": "80625B31-099B-44FD-8A31-2C8478D4A48B"
+    },
+    {
+      "Name": "Renga.FloorParams.GetDependentObjectIds",
+      "Id": "31AE4675-F8EF-48DA-B09B-360FD240126B"
+    },
+    {
+      "Name": "Renga.WallParams.WallParams_Constructor",
+      "Id": "644504C6-2AB3-423D-8714-9BD442924E19"
+    },
+    {
+      "Name": "Renga.WallParams.WallParams_ConstructorCast",
+      "Id": "31601C54-920E-46F1-BA0A-F63C7628E05A"
+    },
+    {
+      "Name": "Renga.WallParams.GetContour",
+      "Id": "CC75DFB2-5EAC-42BB-9780-3E16D78BC1C9"
+    },
+    {
+      "Name": "Renga.WallParams.Height",
+      "Id": "60A2DB6C-E32A-44BE-830E-43637EBE6109"
+    },
+    {
+      "Name": "Renga.WallParams.Thickness",
+      "Id": "F6D44BB5-F938-4364-B9ED-02B7B7F332A2"
+    },
+    {
+      "Name": "Renga.WallParams.VerticalOffset",
+      "Id": "2B3D9C4E-CE98-4A24-89B6-ACB5D16DABD0"
+    },
+    {
+      "Name": "Renga.WallParams.GetDependentObjectIds",
+      "Id": "0FED149D-56E1-4EBE-B88B-C2E39285FDE3"
+    },
+    {
+      "Name": "Renga.WallContour.WallContour_Constructor",
+      "Id": "DF22925B-7E7E-4E9B-9398-98F564D15C06"
+    },
+    {
+      "Name": "Renga.WallContour.WallContour_ConstructorCast",
+      "Id": "F18E3499-0CC2-4395-9527-9C6DBB5C509D"
+    },
+    {
+      "Name": "Renga.WallContour.GetCenterLine",
+      "Id": "98D26EAC-A8AB-4B6B-B22B-B23872A3E507"
+    },
+    {
+      "Name": "Renga.WallContour.GetBaseline",
+      "Id": "C5A00CE3-D14A-48B0-BADA-519963CD6A64"
+    },
+    {
+      "Name": "Renga.WallContour.GetLeftCurve",
+      "Id": "750799DB-9279-4DBF-B577-EE1F43F10967"
+    },
+    {
+      "Name": "Renga.WallContour.GetRightCurve",
+      "Id": "F6DFF1BE-30AB-4FD3-A12B-2BF1C628C231"
+    },
+    {
+      "Name": "Renga.WallContour.GetBeginCurve",
+      "Id": "931B1B08-0253-4BEE-995D-E10E18B5C70B"
+    },
+    {
+      "Name": "Renga.WallContour.GetEndCurve",
+      "Id": "7CC6600C-96CB-40BB-AB11-E1534D59B04C"
+    },
+    {
+      "Name": "Renga.WallContour.GetContour",
+      "Id": "A7BD8225-BAA4-4351-85A0-D9654F95BFAC"
+    },
+    {
+      "Name": "Renga.WindowParams.WindowParams_Constructor",
+      "Id": "7C0B0FB5-712D-4E3D-8E37-D35DF6D5E985"
+    },
+    {
+      "Name": "Renga.WindowParams.WindowParams_ConstructorCast",
+      "Id": "B52713DD-E762-409B-9FD3-38B94B7CDC5D"
+    },
+    {
+      "Name": "Renga.WindowParams.Position",
+      "Id": "276AC288-5CFB-49D0-B8BC-7CE308CBD2B2"
+    },
+    {
+      "Name": "Renga.WindowParams.Width",
+      "Id": "D611136A-8F0B-45C7-B878-10BC8AA09CBE"
+    },
+    {
+      "Name": "Renga.WindowParams.Height",
+      "Id": "59F6E442-FCF1-42B4-AC43-FE88244944BB"
+    },
+    {
+      "Name": "Renga.WindowParams.VerticalOffset",
+      "Id": "A9C96ACF-3262-4470-B85B-C78F9983BF38"
+    },
+    {
+      "Name": "Renga.WindowParams.GetAffectedObjectIds",
+      "Id": "A1499E64-42A9-4E90-943E-E35A469D313A"
+    },
+    {
+      "Name": "Renga.WindowParams.CalculateProjection",
+      "Id": "08BFCFB1-B632-4387-A48A-289746F1A1B3"
+    },
+    {
+      "Name": "Renga.DoorParams.DoorParams_Constructor",
+      "Id": "4F4C663D-01AC-4B12-AEC3-F9DFEC13A446"
+    },
+    {
+      "Name": "Renga.DoorParams.DoorParams_ConstructorCast",
+      "Id": "24B46BE7-2726-4C4D-A556-4788CF1F6850"
+    },
+    {
+      "Name": "Renga.DoorParams.Position",
+      "Id": "2E9C5B38-90B4-4441-837B-84ABD8570781"
+    },
+    {
+      "Name": "Renga.DoorParams.Width",
+      "Id": "889209C8-29FF-4731-BAD5-3C10C270A8B3"
+    },
+    {
+      "Name": "Renga.DoorParams.Height",
+      "Id": "168371B0-D9D0-44EC-ABD6-6B4DACFA7A84"
+    },
+    {
+      "Name": "Renga.DoorParams.VerticalOffset",
+      "Id": "8C22FB60-1A75-4CDC-B307-F112E38DD3A0"
+    },
+    {
+      "Name": "Renga.DoorParams.GetAffectedObjectIds",
+      "Id": "D7C2DED4-5D50-4F56-9141-1FBCE32D5F39"
+    },
+    {
+      "Name": "Renga.DoorParams.CalculateProjection",
+      "Id": "B715190F-4315-4F38-8E72-8096E4E3D550"
+    },
+    {
+      "Name": "Renga.Line3DParams.Line3DParams_Constructor",
+      "Id": "7C598632-7AF0-463A-900D-B30461D6B3FD"
+    },
+    {
+      "Name": "Renga.Line3DParams.Line3DParams_ConstructorCast",
+      "Id": "3D804F77-A8FF-4BD7-B3BB-2E4305D9C945"
+    },
+    {
+      "Name": "Renga.Line3DParams.GetBaseline",
+      "Id": "5108F7C9-29B0-4FBD-BE61-6259BE6A8CFC"
+    },
+    {
+      "Name": "Renga.Line3DParams.VerticalOffset",
+      "Id": "60096B39-D632-4E73-8F83-815BD66E9CE7"
+    },
+    {
+      "Name": "Renga.Line3DParams.Color",
+      "Id": "48CE40C2-61F5-45BB-93A7-4C8C6766CCD7"
+    },
+    {
+      "Name": "Renga.Line3DParams.Style",
+      "Id": "93DB7213-9178-4242-B384-76ABC02612BB"
+    },
+    {
+      "Name": "Renga.OpeningParams.OpeningParams_Constructor",
+      "Id": "7F56B2AA-5DBE-4C00-9BE6-BBE61C4D730F"
+    },
+    {
+      "Name": "Renga.OpeningParams.OpeningParams_ConstructorCast",
+      "Id": "12F89AF4-F0C5-4D54-88BE-F5F1AC6355DC"
+    },
+    {
+      "Name": "Renga.OpeningParams.GetContour",
+      "Id": "DD7195B9-647F-4741-86DF-B8E0D5DF0539"
+    },
+    {
+      "Name": "Renga.OpeningParams.Thickness",
+      "Id": "ED59C1ED-EC96-4BB0-81DA-33B26AE889B8"
+    },
+    {
+      "Name": "Renga.OpeningParams.VerticalOffset",
+      "Id": "DE9AD99B-47C3-4191-92F2-2A04430624A1"
+    },
+    {
+      "Name": "Renga.OpeningParams.GetAffectedObjectIds",
+      "Id": "549E7A8B-26C1-46D3-97B6-C8BCC45BC542"
+    },
+    {
+      "Name": "Renga.RouteParams.RouteParams_Constructor",
+      "Id": "18E74BAC-34CB-4945-886B-F7FE320A7CC8"
+    },
+    {
+      "Name": "Renga.RouteParams.RouteParams_ConstructorCast",
+      "Id": "63D2EB36-A4E1-4CE4-B78E-DEF3B0DEDD86"
+    },
+    {
+      "Name": "Renga.RouteParams.GetContour",
+      "Id": "8790CA31-8507-4D30-9BCE-66DCEBFC7EE2"
+    },
+    {
+      "Name": "Renga.RouteParams.SourceModelObjectId",
+      "Id": "E657BF53-1723-454F-B93F-44A438217C9C"
+    },
+    {
+      "Name": "Renga.RouteParams.TargetModelObjectId",
+      "Id": "2C198355-432C-4E2E-801D-5846336CB95F"
+    },
+    {
+      "Name": "Renga.RouteParams.SystemStyleId",
+      "Id": "264617F8-91C5-42B3-961A-C647600E60EC"
+    },
+    {
+      "Name": "Renga.RouteParams.GetJointCount",
+      "Id": "B2C40031-E89B-4914-9386-C95DBE9DD61F"
+    },
+    {
+      "Name": "Renga.RouteParams.GetJointParams",
+      "Id": "3BF62F81-D1C6-48D5-830C-47B49E096924"
+    },
+    {
+      "Name": "Renga.RouteParams.GetObjectOnRouteCount",
+      "Id": "82C07D83-22E6-40A3-8F21-12A22AF71DBA"
+    },
+    {
+      "Name": "Renga.RouteParams.GetObjectOnRoutePlacement",
+      "Id": "73EA3AD3-182B-42DF-93C1-537954C95CD5"
+    },
+    {
+      "Name": "Renga.RouteParams.GetFlowSegmentCount",
+      "Id": "F9FCB980-3835-4322-9944-5DBFBAA7CE13"
+    },
+    {
+      "Name": "Renga.RouteParams.GetFlowSegmentPlacement",
+      "Id": "DD65957F-5012-4C0B-9458-CD9C80DBF2FD"
+    },
+    {
+      "Name": "Renga.ObjectOnRoutePlacement.ObjectOnRoutePlacement_Constructor",
+      "Id": "70FB43F3-C9AB-4FF5-83BF-58A95B0ACB0B"
+    },
+    {
+      "Name": "Renga.ObjectOnRoutePlacement.ObjectOnRoutePlacement_ConstructorCast",
+      "Id": "334102A5-7B94-45C6-9751-632E4A66DA3A"
+    },
+    {
+      "Name": "Renga.ObjectOnRoutePlacement.Id",
+      "Id": "85C08467-4A3B-4F2C-8064-FBC7F2A7176E"
+    },
+    {
+      "Name": "Renga.ObjectOnRoutePlacement.parameter",
+      "Id": "685B7C4F-ED04-4C8A-AD33-6B106A433653"
+    },
+    {
+      "Name": "Renga.FlowSegmentPlacement.FlowSegmentPlacement_Constructor",
+      "Id": "9ADC8619-2A55-4E66-A2C3-7FE616E8DDBE"
+    },
+    {
+      "Name": "Renga.FlowSegmentPlacement.FlowSegmentPlacement_ConstructorCast",
+      "Id": "041184BD-AC13-4FD8-9155-B1CD62882C92"
+    },
+    {
+      "Name": "Renga.FlowSegmentPlacement.Id",
+      "Id": "A779CD5A-887A-42BB-B428-20B2E7E250E3"
+    },
+    {
+      "Name": "Renga.FlowSegmentPlacement.GetBaseline",
+      "Id": "71A2CCC6-1F02-4273-A924-B004A2528448"
+    },
+    {
+      "Name": "Renga.ScreenshotSettings.ScreenshotSettings_Constructor",
+      "Id": "AA0807AF-1854-4149-BE21-32A26322DD98"
+    },
+    {
+      "Name": "Renga.ScreenshotSettings.ScreenshotSettings_ConstructorCast",
+      "Id": "37B3EE59-1ACE-44E7-A318-EEA8E9026302"
+    },
+    {
+      "Name": "Renga.ScreenshotSettings.Set_Width",
+      "Id": "4F791C00-5A9C-4558-BCA3-FEA9F95BBCD9"
+    },
+    {
+      "Name": "Renga.ScreenshotSettings.Width",
+      "Id": "D7E39C48-08B1-491F-9291-D6EAB082FFCD"
+    },
+    {
+      "Name": "Renga.ScreenshotSettings.Set_Height",
+      "Id": "3246D8AD-5690-4DD4-8BAC-40E866E4C725"
+    },
+    {
+      "Name": "Renga.ScreenshotSettings.Height",
+      "Id": "B63FAB34-9C3C-4A5F-90B4-A4D788734BA5"
+    },
+    {
+      "Name": "Renga.ScreenshotService.ScreenshotService_Constructor",
+      "Id": "550CCD44-DFD7-4CE2-8F47-A81A512DED99"
+    },
+    {
+      "Name": "Renga.ScreenshotService.ScreenshotService_ConstructorCast",
+      "Id": "3EB44110-DBE6-4072-AFEA-8F12831C5A71"
+    },
+    {
+      "Name": "Renga.ScreenshotService.MakeScreenshot",
+      "Id": "DA6D43BF-F0A1-4F04-A7DE-FC03F375FA9B"
+    },
+    {
+      "Name": "Renga.ScreenshotService.CreateSettings",
+      "Id": "7DDDFC53-58B2-4BBB-9027-2124A536872C"
+    },
+    {
+      "Name": "Renga.PortPipeParams.PortPipeParams_Constructor",
+      "Id": "65942ED8-DA37-473D-893D-317633EC1F1E"
+    },
+    {
+      "Name": "Renga.PortPipeParams.PortPipeParams_ConstructorCast",
+      "Id": "52F47098-B02F-4101-B0AA-526518DB21CC"
+    },
+    {
+      "Name": "Renga.PortPipeParams.ConnectionType",
+      "Id": "96E6749E-2F73-4245-96AE-419BF27E7E28"
+    },
+    {
+      "Name": "Renga.PortPipeParams.NominalDiameter",
+      "Id": "FD78C88C-01A2-4B03-BF72-C2C50527DE63"
+    },
+    {
+      "Name": "Renga.PortDuctParams.PortDuctParams_Constructor",
+      "Id": "224DFFCD-D085-44E0-9D44-8E69E69EFFEB"
+    },
+    {
+      "Name": "Renga.PortDuctParams.PortDuctParams_ConstructorCast",
+      "Id": "7EBFE532-1BD5-4377-AF0C-A1463A42F3DC"
+    },
+    {
+      "Name": "Renga.PortDuctParams.ConnectionType",
+      "Id": "77A49B3C-D933-4BB1-B1C5-6D4E2DE147CE"
+    },
+    {
+      "Name": "Renga.PortDuctParams.DuctFormType",
+      "Id": "2FAA8A2D-B8D1-49C9-931A-FFF0CABABC29"
+    },
+    {
+      "Name": "Renga.PortDuctParams.NominalDiameter",
+      "Id": "80D41C1D-D3E5-4B6C-959B-FF7061E311C1"
+    },
+    {
+      "Name": "Renga.PortDuctParams.NominalWidth",
+      "Id": "D9A68868-208D-4F93-AD7F-4C0E6C9B4E60"
+    },
+    {
+      "Name": "Renga.PortDuctParams.NominalHeight",
+      "Id": "6179F372-1189-4B82-9F32-0C0C8D6D7220"
+    },
+    {
+      "Name": "Renga._ISelectionEvents._ISelectionEvents_Constructor",
+      "Id": "264F82D5-F479-4EAC-89B6-DFDA69FF6DAB"
+    },
+    {
+      "Name": "Renga._ISelectionEvents._ISelectionEvents_ConstructorCast",
+      "Id": "7084863E-86E9-4D59-97E4-E4D8F4B547B0"
+    },
+    {
+      "Name": "Renga._ISelectionEvents.OnModelSelectionChanged",
+      "Id": "D89762E3-7179-4725-B2D6-24809DBAB933"
+    },
+    {
+      "Name": "Renga._IApplicationEvents._IApplicationEvents_Constructor",
+      "Id": "14C765C4-3D68-42FD-9798-349868F313DE"
+    },
+    {
+      "Name": "Renga._IApplicationEvents._IApplicationEvents_ConstructorCast",
+      "Id": "E3F578D4-AFE0-4805-BF3D-710D7DC7F714"
+    },
+    {
+      "Name": "Renga._IApplicationEvents.OnBeforeApplicationClose",
+      "Id": "D238DC64-7E90-49AC-8F07-CC99CAA49091"
+    },
+    {
+      "Name": "Renga._IApplicationEvents.OnBeforeProjectClose",
+      "Id": "BDC702B1-1861-458F-9812-23E45E15EF58"
+    },
+    {
+      "Name": "Renga._IApplicationEvents.OnProjectCreated",
+      "Id": "DB31551A-87E0-4FF7-B7E4-FD52B154DC3F"
+    },
+    {
+      "Name": "Renga._IApplicationEvents.OnProjectOpened",
+      "Id": "3DBB8378-3D6C-4B2C-ACFF-A7757EA25655"
+    },
+    {
+      "Name": "Renga._IApplicationEvents.OnProjectSaved",
+      "Id": "04DE4283-9F19-4F30-8799-376FE719D6A3"
+    },
+    {
+      "Name": "Renga._IApplicationEvents.OnProjectClosed",
+      "Id": "E3EAABF0-CCC9-49BA-B1A3-350899682AB3"
+    },
+    {
+      "Name": "Renga._IActionEvents._IActionEvents_Constructor",
+      "Id": "FAE91006-2D13-48AE-8F59-0551E09C298F"
+    },
+    {
+      "Name": "Renga._IActionEvents._IActionEvents_ConstructorCast",
+      "Id": "021C029A-313C-451D-92D9-AA114B7B14C5"
+    },
+    {
+      "Name": "Renga._IActionEvents.OnTriggered",
+      "Id": "88C9A1F0-3C00-4C4B-BDD0-366B9D7C2713"
+    },
+    {
+      "Name": "Renga._IActionEvents.OnToggled",
+      "Id": "458B57E3-48BE-4CA9-BFA5-88618498C008"
+    },
+    {
+      "Name": "Renga.interface.interface_Constructor",
+      "Id": "57EC0D74-0BB9-4E4C-898E-197D42C2C67A"
+    },
+    {
+      "Name": "Renga.interface.interface_ConstructorCast",
+      "Id": "F7142DA4-5A2D-41F8-AD89-0981CA8A09AC"
+    },
+    {
+      "Name": "Renga.ExternalConnection;.ExternalConnection;_Constructor",
+      "Id": "413F231A-90F8-4DEF-A95C-D7E443338A0C"
+    },
+    {
+      "Name": "Renga.ExternalConnection;.ExternalConnection;_ConstructorCast",
+      "Id": "32062D69-38B0-41E5-959E-E4F5E1F2A40B"
+    },
+    {
+      "Name": "Renga.Application.Application_Constructor",
+      "Id": "5F078AC4-6A60-417B-87B6-5096DF14CBDE"
+    },
+    {
+      "Name": "Renga.Application.Application_ConstructorCast",
+      "Id": "CB54B4E5-09CF-4E87-BB45-374B636EFDB6"
+    },
+    {
+      "Name": "Renga.Application.Enable",
+      "Id": "712D39FF-CF0E-4BBF-969A-FBDF325DDD61"
+    },
+    {
+      "Name": "Renga.Application.Disable",
+      "Id": "1E7D4B4E-0F81-4F92-9768-7DC36EAEAFA1"
+    },
+    {
+      "Name": "Renga.Application.Set_Enabled",
+      "Id": "949FC523-761C-4D72-88DF-54621C14B749"
+    },
+    {
+      "Name": "Renga.Application.Enabled",
+      "Id": "552A6352-75DF-4745-9AE0-D21C578ABBF7"
+    },
+    {
+      "Name": "Renga.Application.GetMainWindowHandle",
+      "Id": "E4D139DF-3655-4ABB-9ECF-FD7634E119B3"
+    },
+    {
+      "Name": "Renga.Application.ActiveView",
+      "Id": "8AD7BFD1-D8BC-48EE-82EA-3E891DBEAB0C"
+    },
+    {
+      "Name": "Renga.Application.UI",
+      "Id": "54A4ED6C-818E-41F4-88AB-0B6D4A909351"
+    },
+    {
+      "Name": "Renga.Application.HasProject",
+      "Id": "D4FEB59F-CFDD-47F6-86C1-B3A4ABC5ED78"
+    },
+    {
+      "Name": "Renga.Application.Project",
+      "Id": "C4F2EDD8-EA0D-45D5-9ECE-454CA4724918"
+    },
+    {
+      "Name": "Renga.Application.Selection",
+      "Id": "89439D2E-E3B2-455C-AB43-C8DF2204729C"
+    },
+    {
+      "Name": "Renga.Application.GetCurrentLocale",
+      "Id": "B6704CA2-05C5-4CAB-8692-7B22625A4C47"
+    },
+    {
+      "Name": "Renga.Application.CreateProject",
+      "Id": "02C2932E-9ACD-4277-B167-87ED159F4C35"
+    },
+    {
+      "Name": "Renga.Application.CreateProjectFromTemplate",
+      "Id": "AF05BA93-A3C3-4E79-BBC2-032F4A07ECAE"
+    },
+    {
+      "Name": "Renga.Application.ImportIfcProject",
+      "Id": "A5D84424-639E-4CFD-80FF-9AF9B10F22E6"
+    },
+    {
+      "Name": "Renga.Application.OpenProject",
+      "Id": "5775559B-82D1-423D-A16F-E47BCD75A850"
+    },
+    {
+      "Name": "Renga.Application.CloseProject",
+      "Id": "A82D4696-CC07-4183-939E-92BA5BC5674B"
+    },
+    {
+      "Name": "Renga.Application.Quit",
+      "Id": "220072E0-4D41-448C-BEC8-D85A8C2444CB"
+    },
+    {
+      "Name": "Renga.Application.Visible",
+      "Id": "05641778-428D-4E8F-A2C1-01AAD0D44894"
+    },
+    {
+      "Name": "Renga.Application.Set_Visible",
+      "Id": "1D4F32B9-4E0A-47DC-BE05-A1D6195426F3"
+    },
+    {
+      "Name": "Renga.Application.CreateIfcExportSettings",
+      "Id": "6F3022C3-007B-4623-A3D4-3898B30A6E5A"
+    },
+    {
+      "Name": "Renga.Application.Version",
+      "Id": "F0F4F336-3BEB-41AC-AA0C-6A811A3464F5"
+    },
+    {
+      "Name": "Renga.Selection.Selection_Constructor",
+      "Id": "93518F1B-1804-4B4B-9C5E-C39CB286B636"
+    },
+    {
+      "Name": "Renga.Selection.Selection_ConstructorCast",
+      "Id": "08978AB9-5D75-464D-9311-012033B1D59C"
+    },
+    {
+      "Name": "Renga.Selection.GetSelectedObjects",
+      "Id": "7BFF490B-6068-450D-A052-71B91C042A40"
+    },
+    {
+      "Name": "Renga.Selection.SetSelectedObjects",
+      "Id": "192C4152-9BC2-48A9-8215-E6749C917B94"
+    }
+  ]
+}

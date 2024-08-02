@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "NVP_nanoCAD": {
+      "commandName": "Project"
+    },
+    "NVP_App": {
+      "commandName": "Executable",
+      "executablePath": "D:\\PROCESSING\\other\\nvp\\net6.0\\NVP.Core.Program.App.exe"
+    }
+  }
+}

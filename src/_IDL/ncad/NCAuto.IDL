@@ -1,0 +1,2941 @@
+// Generated .IDL file (by the OLE/COM Object Viewer)
+// 
+// typelib filename: NCAuto.dll
+
+[
+  uuid(00FA1B17-5455-4C60-BB2A-6492A95D7A68),
+  version(23.0),
+  helpstring("nanoCAD x64 Type Library"),
+  custom(DE77BA64-517C-11D1-A2DA-0000F8773CE9, 134283886),
+  custom(DE77BA63-517C-11D1-A2DA-0000F8773CE9, 2147483647),
+  custom(DE77BA65-517C-11D1-A2DA-0000F8773CE9, "Created by MIDL version 8.01.0622 at Tue Jan 19 06:14:07 2038
+")
+
+]
+library nanoCAD
+{
+    // TLib : OdaX 23.2 (x64) Type Library : {0DFA2554-8A2B-44D0-BE8F-85EEB803AEE9}
+    importlib("OdaX_csd.dll");
+    // TLib : OLE Automation : {00020430-0000-0000-C000-000000000046}
+    importlib("stdole2.tlb");
+
+    // Forward declare all types defined in this typelib
+    interface InanoCADApplication;
+    interface InanoCADDocument;
+    interface InanoCADSelectionSets;
+    interface InanoCADSelectionSet;
+    interface InanoCADUtility;
+    interface InanoCADDocuments;
+    interface InanoCADServices;
+    interface IParams;
+    interface IArguments;
+    interface InanoCADPreferences;
+    interface InanoCADPreferencesFiles;
+    interface InanoCADPreferencesDisplay;
+    interface InanoCADPreferencesOpenSave;
+    interface InanoCADPreferencesOutput;
+    interface InanoCADPreferencesSystem;
+    interface InanoCADPreferencesUser;
+    interface InanoCADPreferencesDrafting;
+    interface InanoCADPreferencesSelection;
+    interface InanoCADPreferencesProfiles;
+    interface InanoCADMenuGroups;
+    interface InanoCADMenuGroup;
+    interface InanoCADPopupMenus;
+    interface InanoCADPopupMenu;
+    interface InanoCADPopupMenuItem;
+    interface InanoCADToolbars;
+    interface InanoCADToolbar;
+    interface InanoCADToolbarItem;
+    interface InanoCADMenuBar;
+    interface InanoCADPlotArea;
+    interface InanoCADPlotArea2;
+    interface InanoCADPlotAreas;
+    interface InanoCADPlotCustomParams;
+    interface InanoCADState;
+    interface InanoCADPlot;
+    dispinterface _DnanoCADPlotEvents;
+    interface InanoCADPlotCustomParamsEx;
+    dispinterface _DnanoCADDocumentEvents;
+    dispinterface _DnanoCADApplicationEvents;
+    interface IACommand;
+    interface IAHelper;
+    interface IALoader;
+    interface IAxDbDocument;
+    interface IEnuVal;
+
+    typedef [uuid(87178DA6-D8A9-4023-8275-F9E0D7E00CF7)]
+    struct tagNCAPPID {
+                
+short nil;
+    } NCAPPID;
+
+    typedef [uuid(D613D239-FA62-4EFA-ABEC-E221E583347A)]
+    struct tagCATID_NCAUTO {
+                
+short nil;
+    } CATID_NCAUTO;
+
+    [
+      odl,
+      uuid(131B04FD-1ABF-4105-A809-713789256353),
+      helpstring("Application interface"),
+      hidden,
+      dual,
+      oleautomation
+    ]
+    interface InanoCADApplication : IDispatch {
+        [id(0x00000001), propget, helpstring("Specifies the visibility of an object or the application")]
+        HRESULT Visible([out, retval] VARIANT_BOOL* Visible);
+        [id(0x00000001), propput, helpstring("Specifies the visibility of an object or the application")]
+        HRESULT Visible([in] VARIANT_BOOL Visible);
+        [id(0x00000002), propget, helpstring("Specifies the name of the object")]
+        HRESULT Name([out, retval] BSTR* pAppName);
+        [id(0x00000003), propput, helpstring("Sets the text that the user sees displayed for the application or a menu item")]
+        HRESULT Caption([in] BSTR bstrCaption);
+        [id(0x00000003), propget, helpstring("Sets the text that the user sees displayed for the application or a menu item")]
+        HRESULT Caption([out, retval] BSTR* bstrCaption);
+        [id(0x00000004), propget, helpstring("Gets the Application object")]
+        HRESULT Application([out, retval] InanoCADApplication** pAppObj);
+        [id(0x00000005), propget, helpstring("Specifies the active document (drawing file)")]
+        HRESULT ActiveDocument([out, retval] InanoCADDocument** pActiveDoc);
+        [id(0x00000005), propput, helpstring("Specifies the active document (drawing file)")]
+        HRESULT ActiveDocument([in] InanoCADDocument* pActiveDoc);
+        [id(0x00000006), propget, helpstring("Gets the name of the application or document, including the path")]
+        HRESULT FullName([out, retval] BSTR* FullName);
+        [id(0x00000007), propget, helpstring("Height of the attribute, shape, text, or view toolbar or the main application window")]
+        HRESULT Height([out, retval] int* Height);
+        [id(0x00000007), propput, helpstring("Height of the attribute, shape, text, or view toolbar or the main application window")]
+        HRESULT Height([in] int Height);
+        [id(0x00000008), propget, helpstring("Specifies the left edge of the application window")]
+        HRESULT WindowLeft([out, retval] int* left);
+        [id(0x00000008), propput, helpstring("Specifies the left edge of the application window")]
+        HRESULT WindowLeft([in] int left);
+        [id(0x00000009), propget, helpstring("Gets the path of the document, application, or external reference")]
+        HRESULT Path([out, retval] BSTR* bstrPath);
+        [id(0x0000000a), propget, helpstring("Gets the locale ID of the current session")]
+        HRESULT LocaleId([out, retval] long* lcid);
+        [id(0x0000000b), propget, helpstring("Specifies the top edge of the application window")]
+        HRESULT WindowTop([out, retval] int* top);
+        [id(0x0000000b), propput, helpstring("Specifies the top edge of the application window")]
+        HRESULT WindowTop([in] int top);
+        [id(0x0000000c), propget, helpstring("Gets the version of the application you are using")]
+        HRESULT Version([out, retval] BSTR* bstrVer);
+        [id(0x0000000d), propget, helpstring("Specifies the width of the text boundary, view, image, toolbar, or main application window")]
+        HRESULT Width([out, retval] int* Width);
+        [id(0x0000000d), propput, helpstring("Specifies the width of the text boundary, view, image, toolbar, or main application window")]
+        HRESULT Width([in] int Width);
+        [id(0x00000011), propget, helpstring("Gets the current active status of the viewport")]
+        HRESULT StatusId(
+                        [in] IDispatch* VportObj, 
+                        [out, retval] VARIANT_BOOL* bStatus);
+        [id(0x00000018), helpstring("Updates the object to the drawing screen")]
+        HRESULT Update();
+        [id(0x00000019), helpstring("Closes the drawing file and exits the application")]
+        HRESULT Quit();
+        [id(0x00000020), propget, helpstring("Returns the documents collection.")]
+        HRESULT Documents([out, retval] InanoCADDocuments** pDocuments);
+        [id(0x00000022), propget, helpstring("Specifies the state of the application or document window")]
+        HRESULT WindowState([out, retval] AcWindowState* eWinState);
+        [id(0x00000022), propput, helpstring("Specifies the state of the application or document window")]
+        HRESULT WindowState([in] AcWindowState eWinState);
+        [id(0x00000024), helpstring("Zooms the current viewport to the drawing extents")]
+        HRESULT ZoomExtents();
+        [id(0x00000025), helpstring("Zooms the current viewport to display the entire drawing")]
+        HRESULT ZoomAll();
+        [id(0x00000026), helpstring("Zooms the current viewport to a specified center point and magnification")]
+        HRESULT ZoomCenter(
+                        [in] VARIANT Center, 
+                        [in] double Magnify);
+        [id(0x00000027), helpstring("Zooms the current viewport to given scale factor")]
+        HRESULT ZoomScaled(
+                        [in] double scale, 
+                        [in] AcZoomScaleType ScaleType);
+        [id(0x00000028), helpstring("Zooms the current viewport to the area specified by two opposite corners of a rectangle")]
+        HRESULT ZoomWindow(
+                        [in] VARIANT LowerLeft, 
+                        [in] VARIANT UpperRight);
+        [id(0x00000029), helpstring("Zooms the current viewport to a window defined by points picked on the screen")]
+        HRESULT ZoomPickWindow();
+        [id(0x0000002a), helpstring("Retrieves an AcadState object.")]
+        HRESULT GetState([out, retval] IDispatch** pVal);
+        [id(0x0000002b), helpstring("Zooms the current viewport to its previous extents")]
+        HRESULT ZoomPrevious();
+        [id(0x0000002c), propget, helpstring("Gets the window handle of the application window frame")]
+        HRESULT HWND([out, retval] LONG_PTR* HWND);
+        [id(0x0000002d), propget, helpstring("Gets the Utility object for the application")]
+        HRESULT Utility([out, retval] InanoCADUtility** pUtil);
+        [id(0x0000002e), helpstring("Sends a command string from a VB or VBA application to the document for processing")]
+        HRESULT SendCommand([in] BSTR Command);
+        [id(0x0000002f), propget, helpstring("Returns sevices collection")]
+        HRESULT Services([out, retval] InanoCADServices** Services);
+        [id(0x00000030), propget, helpstring("Returns the AllUsersAppData")]
+        HRESULT AllUsersAppData([out, retval] BSTR* Path);
+        [id(0x00000031), propget, helpstring("Returns the CurUserAppData")]
+        HRESULT CurUserAppData([out, retval] BSTR* Path);
+        [id(0x00000032), propget, helpstring("Returns the root Profile section")]
+        HRESULT Profile([out, retval] IParams** Section);
+        [id(0x00000033), helpstring("Invokes help with topic")]
+        HRESULT Help([in] BSTR topic);
+        [id(0x00000034), helpstring("Creates tepmorary param structure")]
+        HRESULT NewParam([out, retval] IParams** param);
+        [id(0x00000035), helpstring("Loads the specified application")]
+        HRESULT LoadModule([in] BSTR Path);
+        [id(0x00000036), helpstring("Unloads the specified application")]
+        HRESULT UnloadModule([in] BSTR Name);
+        [id(0x00000037), propget, helpstring("Gets the currently loaded applications")]
+        HRESULT ListModules([out, retval] VARIANT* pVal);
+        [id(0x00000038), helpstring("Loads the specified NRX application")]
+        HRESULT LoadArx([in] BSTR Path);
+        [id(0x00000039), helpstring("Unloads the specified NRX application")]
+        HRESULT UnloadArx([in] BSTR Name);
+        [id(0x00000040), propget, helpstring("Gets the currently loaded NRX applications")]
+        HRESULT ListArx([out, retval] VARIANT* pVal);
+        [id(0x00000005), propputref, helpstring("Specifies the active document (drawing file)")]
+        HRESULT ActiveDocument([in] InanoCADDocument* pActiveDoc);
+        [id(0x0000000e), propget, helpstring("Returns the Preferences object.")]
+        HRESULT Preferences([out, retval] InanoCADPreferences** pPreferences);
+        [id(0x0000001c), propget, helpstring("Returns the current MenuGroups collection.")]
+        HRESULT MenuGroups([out, retval] InanoCADMenuGroups** pMenuGroups);
+        [id(0x0000001d), propget, helpstring("Returns the current MenuBar object.")]
+        HRESULT MenuBar([out, retval] InanoCADMenuBar** pMenuBar);
+        [id(0x00000023), helpstring("Runs a VBA macro from the Application object")]
+        HRESULT RunMacro([in] BSTR MacroPath);
+        [id(0x00000041), helpstring("Apply profile changes")]
+        HRESULT ApplyProfile();
+        [id(0x00000014), helpstring("Loads an object using its program ID.")]
+        HRESULT GetInterfaceObject(
+                        [in] BSTR ProgID, 
+                        [out, retval] IDispatch** pObj);
+    };
+
+    [
+      odl,
+      uuid(3E65DD1F-5315-4FEA-A098-543975128D49),
+      helpstring("A drawing"),
+      dual,
+      oleautomation
+    ]
+    interface InanoCADDocument : IAcadDatabase {
+        [id(0x00000017), propget, helpstring("Gets the Plot object for the document")]
+        HRESULT Plot([out, retval] IDispatch** pPlot);
+        [id(0x00000018), propget, helpstring("Specifies the active layer")]
+        HRESULT ActiveLayer([out, retval] IAcadLayer** pActLayer);
+        [id(0x00000018), propput, helpstring("Specifies the active layer")]
+        HRESULT ActiveLayer([in] IAcadLayer* pActLayer);
+        [id(0x00000019), propget, helpstring("Specifies the active linetype for the drawing")]
+        HRESULT ActiveLinetype([out, retval] IAcadLineType** pActLinetype);
+        [id(0x00000019), propput, helpstring("Specifies the active linetype for the drawing")]
+        HRESULT ActiveLinetype([in] IAcadLineType* pActLinetype);
+        [id(0x0000001a), propget, helpstring("Specifies the active dimension style")]
+        HRESULT ActiveDimStyle([out, retval] IAcadDimStyle** pActDimStyle);
+        [id(0x0000001a), propput, helpstring("Specifies the active dimension style")]
+        HRESULT ActiveDimStyle([in] IAcadDimStyle* pActDimStyle);
+        [id(0x0000001b), propget, helpstring("Specifies the active text style for the drawing")]
+        HRESULT ActiveTextStyle([out, retval] IAcadTextStyle** pActTextStyle);
+        [id(0x0000001b), propput, helpstring("Specifies the active text style for the drawing")]
+        HRESULT ActiveTextStyle([in] IAcadTextStyle* pActTextStyle);
+        [id(0x0000001c), propget, helpstring("Specifies the active UCS for the drawing")]
+        HRESULT ActiveUCS([out, retval] IAcadUCS** pActUCS);
+        [id(0x0000001c), propput, helpstring("Specifies the active UCS for the drawing")]
+        HRESULT ActiveUCS([in] IAcadUCS* pActUCS);
+        [id(0x0000001d), propget, helpstring("Specifies the active viewport for the drawing")]
+        HRESULT ActiveViewport([out, retval] IAcadViewport** pActView);
+        [id(0x0000001d), propput, helpstring("Specifies the active viewport for the drawing")]
+        HRESULT ActiveViewport([in] IAcadViewport* pActView);
+        [id(0x0000001e), propget, helpstring("Specifies the active paper space viewport for the drawing")]
+        HRESULT ActivePViewport([out, retval] IAcadPViewport** pActView);
+        [id(0x0000001e), propput, helpstring("Specifies the active paper space viewport for the drawing")]
+        HRESULT ActivePViewport([in] IAcadPViewport* pActView);
+        [id(0x0000001f), propget, helpstring("Toggles the active space between paper space and model space")]
+        HRESULT ActiveSpace([out, retval] AcActiveSpace* ActSpace);
+        [id(0x0000001f), propput, helpstring("Toggles the active space between paper space and model space")]
+        HRESULT ActiveSpace([in] AcActiveSpace ActSpace);
+        [id(0x00000020), propget, helpstring("Gets the SelectionSets collection for the document")]
+        HRESULT SelectionSets([out, retval] InanoCADSelectionSets** pSelSets);
+        [id(0x00000021), propget, helpstring("Gets the active selection set for the drawing")]
+        HRESULT ActiveSelectionSet([out, retval] InanoCADSelectionSet** pSelSet);
+        [id(0x00000022), propget, helpstring("Gets the name of the application or document, including the path")]
+        HRESULT FullName([out, retval] BSTR* FullName);
+        [id(0x00000023), propget, helpstring("Specifies the name of the object")]
+        HRESULT Name([out, retval] BSTR* Name);
+        [id(0x00000024), propget, helpstring("Gets the path of the document, application, or external reference")]
+        HRESULT Path([out, retval] BSTR* Path);
+        [id(0x00000025), propget, helpstring("Specifies the setting of the object snap mode")]
+        HRESULT ObjectSnapMode([out, retval] VARIANT_BOOL* fSnapMode);
+        [id(0x00000025), propput, helpstring("Specifies the setting of the object snap mode")]
+        HRESULT ObjectSnapMode([in] VARIANT_BOOL fSnapMode);
+        [id(0x00000026), propget, helpstring("Specifies if the document is read-only or read-write")]
+        HRESULT ReadOnly([out, retval] VARIANT_BOOL* bReadOnly);
+        [id(0x00000027), propget, helpstring("Specifies if the document has any unsaved changes")]
+        HRESULT Saved([out, retval] VARIANT_BOOL* bSaved);
+        [id(0x00000028), propget, helpstring("Allows editing of the model from floating paper space viewports")]
+        HRESULT MSpace([out, retval] VARIANT_BOOL* Mode);
+        [id(0x00000028), propput, helpstring("Allows editing of the model from floating paper space viewports")]
+        HRESULT MSpace([in] VARIANT_BOOL Mode);
+        [id(0x00000029), propget, helpstring("Gets the Utility object for the document")]
+        HRESULT Utility([out, retval] InanoCADUtility** pUtil);
+        [id(0x0000002a), helpstring("Opens an existing drawing file (DWG) and makes it the active document")]
+        HRESULT Open(
+                        [in] BSTR FullName, 
+                        [in, optional] VARIANT Password, 
+                        [out, retval] InanoCADDocument** pDocObj);
+        [id(0x0000002b), helpstring("Evaluates the integrity of the drawing")]
+        HRESULT AuditInfo([in] VARIANT_BOOL FixErr);
+        [id(0x0000002c), helpstring("Imports a drawing file in SAT, EPS, DXF, or WMF format")]
+        HRESULT Import(
+                        [in] BSTR FileName, 
+                        [in] VARIANT InsertionPoint, 
+                        [in] double ScaleFactor, 
+                        [out, retval] IDispatch** pObj);
+        [id(0x0000002d), helpstring("Exports the drawing to a WMF, SAT, EPS, DXF, or BMP format")]
+        HRESULT Export(
+                        [in] BSTR FileName, 
+                        [in] BSTR Extension, 
+                        [in] InanoCADSelectionSet* SelectionSet);
+        [id(0x0000002e), helpstring("Creates a new document in SDI mode")]
+        HRESULT New(
+                        [in] BSTR TemplateFileName, 
+                        [out, retval] InanoCADDocument** pDocObj);
+        [id(0x0000002f), helpstring("Saves the document or menu group")]
+        HRESULT Save();
+        [id(0x00000030), helpstring("Saves the document or menu group to a specified file")]
+        HRESULT SaveAs(
+                        [in] BSTR FullFileName, 
+                        [in, optional] VARIANT SaveAsType, 
+                        [in, optional] VARIANT vSecurityParams);
+        [id(0x00000031), helpstring("Writes out the given selection set as a new drawing file")]
+        HRESULT Wblock(
+                        [in] BSTR FileName, 
+                        [in] InanoCADSelectionSet* SelectionSet);
+        [id(0x00000032), helpstring("Removes unused named references such as unused blocks or layers from the document")]
+        HRESULT PurgeAll();
+        [id(0x00000033), helpstring("Gets the current setting of a system variable")]
+        HRESULT GetVariable(
+                        [in] BSTR Name, 
+                        [out, retval] VARIANT* Value);
+        [id(0x00000034), helpstring("Sets the value of a system variable")]
+        HRESULT SetVariable(
+                        [in] BSTR Name, 
+                        [in] VARIANT Value);
+        [id(0x00000036), helpstring("Regenerates the entire drawing and recomputes the screen coordinates and view resolution for all objects")]
+        HRESULT Regen([in] AcRegenType WhichViewports);
+        [id(0x00000037), propget, helpstring("Gets the pickfirst selection set")]
+        HRESULT PickfirstSelectionSet([out, retval] IDispatch** pSelSet);
+        [id(0x00000038), propget, helpstring("Determines if the document is the active document for the session")]
+        HRESULT Active([out, retval] VARIANT_BOOL* pvbActive);
+        [id(0x00000039), helpstring("Makes the specified drawing active")]
+        HRESULT Activate();
+        [id(0x0000003a), helpstring("Closes the specified drawing, or all open drawings")]
+        HRESULT Close(
+                        [in, optional] VARIANT SaveChanges, 
+                        [in, optional] VARIANT FileName);
+        [id(0x0000003b), propput, helpstring("Specifies the state of the application or document window")]
+        HRESULT WindowState([in] AcWindowState pWinState);
+        [id(0x0000003b), propget, helpstring("Specifies the state of the application or document window")]
+        HRESULT WindowState([out, retval] AcWindowState* pWinState);
+        [id(0x0000003c), propput, helpstring("Specifies the width of the text boundary, view, image, toolbar, or main application window")]
+        HRESULT Width([in] int pWidth);
+        [id(0x0000003c), propget, helpstring("Specifies the width of the text boundary, view, image, toolbar, or main application window")]
+        HRESULT Width([out, retval] int* pWidth);
+        [id(0x0000003d), propput, helpstring("Height of the attribute, shape, text, or view toolbar or the main application window")]
+        HRESULT Height([in] int pHeight);
+        [id(0x0000003d), propget, helpstring("Height of the attribute, shape, text, or view toolbar or the main application window")]
+        HRESULT Height([out, retval] int* pHeight);
+        [id(0x0000003e), propput, helpstring("Specifies the active layout")]
+        HRESULT ActiveLayout([in] IAcadLayout* pLayout);
+        [id(0x0000003e), propget, helpstring("Specifies the active layout")]
+        HRESULT ActiveLayout([out, retval] IAcadLayout** pLayout);
+        [id(0x0000003f), helpstring("Sends a command string from a VB or VBA application to the document for processing")]
+        HRESULT SendCommand([in] BSTR Command);
+        [id(0x00000040), propget, helpstring("Gets the window handle of the document window frame")]
+        HRESULT HWND([out, retval] LONG_PTR* HWND);
+        [id(0x00000041), propget, helpstring("Gets the title of the document window")]
+        HRESULT WindowTitle([out, retval] BSTR* title);
+        [id(0x00000041), propput, helpstring("Gets the title of the document window")]
+        HRESULT WindowTitle(BSTR title);
+        [id(0x00000042), propget, helpstring("Gets the Application object")]
+        HRESULT Application([out, retval] InanoCADApplication** pAppObj);
+        [id(0x00000043), propget, helpstring("Gets the database in which the object belongs")]
+        HRESULT Database([out, retval] IAcadDatabase** pDatabase);
+        [id(0x00000044), helpstring("Marks the beginning of a block of operations")]
+        HRESULT StartUndoMark();
+        [id(0x00000045), helpstring("Marks the end of a block of operations")]
+        HRESULT EndUndoMark();
+        [id(0x00000075), helpstring("add custom object to block")]
+        HRESULT AddCustomObjectToBlock(
+                        [in] BSTR rxClass, 
+                        [in] IDispatch* blk, 
+                        [out, retval] IDispatch** ent);
+        [id(0x0000001b), propputref, helpstring("Specifies the active text style for the drawing")]
+        HRESULT ActiveTextStyle([in] IAcadTextStyle* pActTextStyle);
+        [id(0x00000018), propputref, helpstring("Specifies the active layer")]
+        HRESULT ActiveLayer([in] IAcadLayer* pActLayer);
+        [id(0x00000019), propputref, helpstring("Specifies the active linetype for the drawing")]
+        HRESULT ActiveLinetype([in] IAcadLineType* pActLinetype);
+        [id(0x0000001a), propputref, helpstring("Specifies the active dimension style")]
+        HRESULT ActiveDimStyle([in] IAcadDimStyle* pActDimStyle);
+        [id(0x0000001c), propputref, helpstring("Specifies the active UCS for the drawing")]
+        HRESULT ActiveUCS([in] IAcadUCS* pActUCS);
+        [id(0x0000001d), propputref, helpstring("Specifies the active viewport for the drawing")]
+        HRESULT ActiveViewport([in] IAcadViewport* pActView);
+        [id(0x0000001e), propputref, helpstring("Specifies the active paper space viewport for the drawing")]
+        HRESULT ActivePViewport([in] IAcadPViewport* pActView);
+        [id(0x0000003e), propputref, helpstring("Specifies the active layout")]
+        HRESULT ActiveLayout([in] IAcadLayout* pLayout);
+    };
+
+    
+    
+        
+        
+    
+
+    [
+      odl,
+      uuid(3F01626A-96CC-4FAD-ADAA-9FA7E0986FF3),
+      helpstring("The collection of all selection sets in the drawing"),
+      dual,
+      oleautomation
+    ]
+    interface InanoCADSelectionSets : IDispatch {
+        [id(0xfffffffc), propget, restricted]
+        HRESULT _NewEnum([out, retval] IUnknown** pVal);
+        [id(00000000), propget, helpstring("Gets the member object at a given index in a collection, group, or selection set")]
+        HRESULT Item(
+                        [in] VARIANT Index, 
+                        [out, retval] InanoCADSelectionSet** pItem);
+        [id(0x00000001), propget, helpstring("Gets the number of items in the collection, dictionary, group, or selection set")]
+        HRESULT Count([out, retval] long* pVal);
+        [id(0x00000002), helpstring("Creates a member object and adds it to the appropriate collection")]
+        HRESULT Add(
+                        [in] BSTR Name, 
+                        [out, retval] InanoCADSelectionSet** pSet);
+        [id(0x60020003), propget, helpstring("Gets the Application object")]
+        HRESULT Application([out, retval] InanoCADApplication** pAppObj);
+    };
+
+    [
+      odl,
+      uuid(35B2128F-F1AC-4536-97C5-B57CA4DC3043),
+      helpstring("A group of one or more objects specified for processing as a single unit"),
+      dual,
+      oleautomation
+    ]
+    interface InanoCADSelectionSet : IDispatch {
+        [id(00000000), propget, helpstring("Gets the member object at a given index in a collection, group, or selection set")]
+        HRESULT Item(
+                        [in] VARIANT Index, 
+                        [out, retval] IAcadEntity** pEntity);
+        [id(0x00000001), propget, helpstring("Gets the number of items in the collection, dictionary, group, or selection set")]
+        HRESULT Count([out, retval] long* pVal);
+        [id(0xfffffffc), propget, restricted, hidden]
+        HRESULT _NewEnum([out, retval] IUnknown** pVal);
+        [id(0x00000002), propget, helpstring("Specifies the name of the object")]
+        HRESULT Name([out, retval] BSTR* bstrName);
+        [id(0x00000003), helpstring("Sets the highlight status for the given object, or for all objects in a given selection set")]
+        HRESULT Highlight([in] VARIANT_BOOL bFlag);
+        [id(0x00000004), helpstring("Erases all the objects in a selection set")]
+        HRESULT Erase();
+        [id(0x00000005), helpstring("Updates the object to the drawing screen")]
+        HRESULT Update();
+        [id(0x00000006), propget, helpstring("Gets the Application object")]
+        HRESULT Application([out, retval] InanoCADApplication** pAppObj);
+        [id(0x00000007), helpstring("Adds one or more objects to the specified selection set")]
+        HRESULT AddItems([in] VARIANT pSelSet);
+        [id(0x00000008), helpstring("Removes specified items from the group or selection set")]
+        HRESULT RemoveItems([in] VARIANT Objects);
+        [id(0x00000009), helpstring("Clears the specified selection set of all items")]
+        HRESULT Clear();
+        [id(0x0000000a), helpstring("Selects objects and places them into a selection set")]
+        HRESULT Select(
+                        [in] AcSelect Mode, 
+                        [in, optional] VARIANT Point1, 
+                        [in, optional] VARIANT Point2, 
+                        [in, optional] VARIANT FilterType, 
+                        [in, optional] VARIANT FilterData);
+        [id(0x0000000b), helpstring("Selects an object passing through a given point and places it into a selection set")]
+        HRESULT SelectAtPoint(
+                        [in] VARIANT Point, 
+                        [in, optional] VARIANT FilterType, 
+                        [in, optional] VARIANT FilterData);
+        [id(0x0000000c), helpstring("Selects entities within a fence and adds them to the selection set")]
+        HRESULT SelectByPolygon(
+                        [in] AcSelect Mode, 
+                        [in] VARIANT PointsList, 
+                        [in, optional] VARIANT FilterType, 
+                        [in, optional] VARIANT FilterData);
+        [id(0x0000000d), helpstring("Prompts the user to pick an object from the screen")]
+        HRESULT SelectOnScreen(
+                        [in, optional] VARIANT FilterType, 
+                        [in, optional] VARIANT FilterData);
+        [id(0x0000000e), helpstring("Deletes a specified object")]
+        HRESULT Delete();
+        [id(0x0000000f), helpstring("Calculates the bounding box of selection")]
+        HRESULT GetBoundingBox(
+                        [out] VARIANT* MinPoint, 
+                        [out] VARIANT* MaxPoint);
+    };
+
+    
+    
+        
+        
+        
+        
+        
+        
+        
+        
+    
+
+    [
+      odl,
+      uuid(AE21AEC0-F2BF-4419-B455-9E13A58CE45B),
+      helpstring("A series of methods provided for utility purposes"),
+      dual,
+      oleautomation
+    ]
+    interface InanoCADUtility : IDispatch {
+        [id(0x60020000), helpstring("Converts an angle as a string to a real (double) value")]
+        HRESULT AngleToReal(
+                        [in] BSTR Angle, 
+                        [in] AcAngleUnits Unit, 
+                        [out, retval] double* Value);
+        [id(0x60020001), helpstring("Converts an angle from a real (double) value to a string")]
+        HRESULT AngleToString(
+                        [in] double Angle, 
+                        [in] AcAngleUnits Unit, 
+                        [in] int precision, 
+                        [out, retval] BSTR* bstrValue);
+        [id(0x60020002), helpstring("Converts a distance from a string to a real (double) value")]
+        HRESULT DistanceToReal(
+                        [in] BSTR Distance, 
+                        [in] AcUnits Unit, 
+                        [out, retval] double* Value);
+        [id(0x60020003), helpstring("Converts a real (double) value to a string")]
+        HRESULT RealToString(
+                        [in] double Value, 
+                        [in] AcUnits Unit, 
+                        [in] int precision, 
+                        [out, retval] BSTR* bstrValue);
+        [id(0x60020004), helpstring("Translates a point from one coordinate system to another coordinate system")]
+        HRESULT TranslateCoordinates(
+                        [in] VARIANT Point, 
+                        [in] AcCoordinateSystem FromCoordSystem, 
+                        [in] AcCoordinateSystem ToCoordSystem, 
+                        [in] int Displacement, 
+                        [in, optional] VARIANT OCSNormal, 
+                        [out, retval] VARIANT* transPt);
+        [id(0x60020005), helpstring("Initializes the GetKeyword method")]
+        HRESULT InitializeUserInput(
+                        [in] int Bits, 
+                        [in, optional] VARIANT KeyWordList);
+        [id(0x60020006), helpstring("Gets an integer value from the user")]
+        HRESULT GetInteger(
+                        [in, optional] VARIANT Prompt, 
+                        [out, retval] int* Value);
+        [id(0x60020007), helpstring("Gets a real (double) value from the user")]
+        HRESULT GetReal(
+                        [in, optional] VARIANT Prompt, 
+                        [out, retval] double* Value);
+        [id(0x60020008), helpstring("Converts an input string from the user into a keyword index")]
+        HRESULT GetInput([out, retval] BSTR* Value);
+        [id(0x60020009), helpstring("Gets a keyword string from the user")]
+        HRESULT GetKeyword(
+                        [in, optional] VARIANT Prompt, 
+                        [out, retval] BSTR* bstrKeyword);
+        [id(0x6002000a), helpstring("Gets a string from the user")]
+        HRESULT GetString(
+                        [in] int HasSpaces, 
+                        [in, optional] VARIANT Prompt, 
+                        [out, retval] BSTR* bstrValue);
+        [id(0x6002000b), helpstring("Gets the angle specified. Considers the setting of the ANGBASE system variable")]
+        HRESULT GetAngle(
+                        [in, optional] VARIANT Point, 
+                        [in, optional] VARIANT Prompt, 
+                        [out, retval] double* Angle);
+        [id(0x6002000c), helpstring("Gets the angle of a line from the X axis")]
+        HRESULT AngleFromXAxis(
+                        [in] VARIANT StartPoint, 
+                        [in] VARIANT EndPoint, 
+                        [out, retval] double* Angle);
+        [id(0x6002000d), helpstring("Gets a corner of a rectangle")]
+        HRESULT GetCorner(
+                        [in] VARIANT Point, 
+                        [in, optional] VARIANT Prompt, 
+                        [out, retval] VARIANT* corner);
+        [id(0x6002000e), helpstring("Gets the distance from the prompt line or a selected set of points on the screen")]
+        HRESULT GetDistance(
+                        [in, optional] VARIANT Point, 
+                        [in, optional] VARIANT Prompt, 
+                        [out, retval] double* dist);
+        [id(0x6002000f), helpstring("Gets the angle specified. Ignores the setting of the ANGBASE system variable")]
+        HRESULT GetOrientation(
+                        [in, optional] VARIANT Point, 
+                        [in, optional] VARIANT Prompt, 
+                        [out, retval] double* Angle);
+        [id(0x60020010), helpstring("Gets the point selected")]
+        HRESULT GetPoint(
+                        [in, optional] VARIANT Point, 
+                        [in, optional] VARIANT Prompt, 
+                        [out, retval] VARIANT* inputPoint);
+        [id(0x60020011), helpstring("Gets the point at a specified angle and distance from a given point")]
+        HRESULT PolarPoint(
+                        [in] VARIANT Point, 
+                        [in] double Angle, 
+                        [in] double Distance, 
+                        [out, retval] VARIANT* inputPoint);
+        [id(0x60020012), vararg, helpstring("Creates a variant that contains an array of typed arguments")]
+        HRESULT CreateTypedArray(
+                        [out] VARIANT* varArr, 
+                        [in] int Type, 
+                        [in] SAFEARRAY(VARIANT) inArgs);
+        [id(0x60020013), helpstring("Gets an object interactively")]
+        HRESULT GetEntity(
+                        [in, out] VARIANT* Object, 
+                        [in, out] VARIANT* PickedPoint, 
+                        [in, optional] VARIANT Prompt);
+        [id(0x60020014), helpstring("Posts a prompt to the command line")]
+        HRESULT Prompt([in] BSTR Message);
+        [id(0x60020015), helpstring("Gets an object or subentity interactively")]
+        HRESULT GetSubEntity(
+                        [in, out] VARIANT* Object, 
+                        [in, out] VARIANT* PickedPoint, 
+                        [in, out] VARIANT* transMatrix, 
+                        [in, out] VARIANT* ContextData, 
+                        [in, optional] VARIANT Prompt);
+        [id(0x60020016), helpstring("Validates a given URL")]
+        HRESULT IsURL(
+                        [in] BSTR URL, 
+                        [out, retval] VARIANT_BOOL* IsValidURL);
+        [id(0x60020017), helpstring("Downloads the file specified by a URL")]
+        HRESULT GetRemoteFile(
+                        [in] BSTR URL, 
+                        [out] BSTR* LocalFile, 
+                        [in] VARIANT_BOOL IgnoreCache);
+        [id(0x60020018), helpstring("Uploads a file to a remote location specified by a URL")]
+        HRESULT PutRemoteFile(
+                        [in] BSTR URL, 
+                        [in] BSTR LocalFile);
+        [id(0x60020019), helpstring("Returns the URL that a remote file was downloaded from")]
+        HRESULT IsRemoteFile(
+                        [in] BSTR LocalFile, 
+                        [in, out] VARIANT* URL, 
+                        [out, retval] VARIANT_BOOL* IsDownloadedFile);
+        [id(0x6002001a), helpstring("Launches the Web Browser dialog that allows the user to navigate to any URL and select a URL")]
+        HRESULT LaunchBrowserDialog(
+                        [out] BSTR* SelectedURL, 
+                        [in] BSTR DialogTitle, 
+                        [in] BSTR OpenButtonCaption, 
+                        [in] BSTR StartPageURL, 
+                        [in] BSTR RegistryRootKey, 
+                        [in] VARIANT_BOOL OpenButtonAlwaysEnabled, 
+                        [out, retval] VARIANT_BOOL* success);
+        [id(0x6002001b), helpstring("Creates a safearray from variant")]
+        HRESULT CreateSafeArrayFromVector(
+                        [in] VARIANT varVec, 
+                        [out, retval] SAFEARRAY(VARIANT)* outArray);
+        [id(0x6002001c), helpstring("Creates a safearray from variant")]
+        HRESULT CreateTypedArrayFromJSArray(
+                        [in] int Type, 
+                        [in] VARIANT varJSArray, 
+                        [out, retval] VARIANT* outVect);
+        [id(0x6002001e), helpstring("Analyze an ent")]
+        HRESULT AnalyzeEnt([in] IDispatch* ent);
+        [id(0x6002001f), helpstring("Analyze an ent")]
+        HRESULT GetPolyline(
+                        [in, optional] VARIANT Prompt, 
+                        [in, optional] VARIANT secondPrompt, 
+                        [in, optional, defaultvalue(-1)] VARIANT_BOOL closed, 
+                        [out, retval] VARIANT* inputPoly);
+        [id(0x60020020), helpstring("Create Matrix - safe array")]
+        HRESULT Matrix4x4(
+                        [in] BSTR str, 
+                        [out, retval] VARIANT* arrayMatrix);
+        [id(0x60020021), helpstring("Translates string")]
+        HRESULT TranslateString(
+                        [in] BSTR inStr, 
+                        [out, retval] BSTR* outStr);
+        [id(0x60020022), helpstring("Displays ChooseFile dialog")]
+        HRESULT ChooseFile(
+                        [in, optional] BSTR title, 
+                        [in, optional] BSTR format, 
+                        [in, optional, defaultvalue(12)] long flags, 
+                        [in, optional] BSTR folder, 
+                        [out, retval] BSTR* file);
+        [id(0x60020023), helpstring("Displays ChooseFolder dialog")]
+        HRESULT ChooseFolder(
+                        [in, optional] BSTR title, 
+                        [in, optional] BSTR inifolder, 
+                        [out, retval] BSTR* folder);
+        [id(0x60020024), helpstring("ShellExec")]
+        HRESULT ShellExec(
+                        [in] BSTR op, 
+                        [in] BSTR file, 
+                        [in, optional] BSTR param, 
+                        [in, optional] BSTR dir, 
+                        [in, optional, defaultvalue(1)] long flags);
+        [id(0x60020025), helpstring("Create new empty database")]
+        HRESULT NewDatabase([out, retval] IAcadDatabase** pDatabase);
+        [id(0x60020026), helpstring("Open database")]
+        HRESULT OpenDatabase(
+                        [in] BSTR Name, 
+                        [out, retval] IAcadDatabase** pDatabase);
+        [id(0x60020027), helpstring("Save database")]
+        HRESULT SaveDatabase(
+                        IAcadDatabase* pDatabase, 
+                        [in] BSTR FullFileName, 
+                        [in, optional] VARIANT SaveAsType, 
+                        [in, optional] VARIANT vSecurityParams);
+        [id(0x60020028), helpstring("Show menu")]
+        HRESULT ShowMenu(
+                        [in] VARIANT menu, 
+                        [in] VARIANT x, 
+                        [in] VARIANT y, 
+                        [out, retval] VARIANT* result);
+        [id(0x60020029), helpstring("hostGetWinNum")]
+        HRESULT GetWinNum(
+                        [in] VARIANT Point, 
+                        [out, retval] long* num);
+        [id(0x60020030), helpstring("hostCoordFromPixelToWorld")]
+        HRESULT CoordFromPixelToWorld(
+                        [in] long num, 
+                        [in] VARIANT Point, 
+                        [out, retval] VARIANT* ptOut);
+        [id(0x60020031), helpstring("hostCoordFromWorldToPixel")]
+        HRESULT CoordFromWorldToPixel(
+                        [in] long num, 
+                        [in] VARIANT Point, 
+                        [out, retval] VARIANT* ptOut);
+        [id(0x60020032), helpstring("Converts ObjectId to string")]
+        HRESULT GetObjectIdString(
+                        [in] IDispatch* Object, 
+                        [in] VARIANT_BOOL asHex, 
+                        [out, retval] BSTR* string);
+    };
+
+    
+    
+        
+        
+        
+        
+        
+        
+    
+
+    
+    
+        
+        
+        
+        
+        
+    
+
+    
+    
+        
+        
+    
+
+    
+    
+        
+        
+        
+    
+
+    [
+      odl,
+      uuid(9B01B0F7-AE77-4066-BEB0-666DB80F3C61),
+      helpstring("The collection of all drawings open in the current session"),
+      dual,
+      oleautomation
+    ]
+    interface InanoCADDocuments : IDispatch {
+        [id(00000000), propget, helpstring("Gets the member object at a given index in a collection, group, or selection set")]
+        HRESULT Item(
+                        [in] VARIANT Index, 
+                        [out, retval] InanoCADDocument** pItem);
+        [id(0xfffffffc), propget, restricted, hidden]
+        HRESULT _NewEnum([out, retval] IUnknown** pEnumVariant);
+        [id(0x60020002), propget, helpstring("Gets the number of items in the collection, dictionary, group, or selection set")]
+        HRESULT Count([out, retval] long* Count);
+        [id(0x60020003), propget, helpstring("Gets the Application object")]
+        HRESULT Application([out, retval] InanoCADApplication** pAppObj);
+        [id(0x60020004), helpstring("Creates a member object and adds it to the appropriate collection")]
+        HRESULT Add(
+                        [in, optional] VARIANT TemplateName, 
+                        [out, retval] InanoCADDocument** pDispDoc);
+        [id(0x60020005), helpstring("Opens an existing drawing file (DWG) and makes it the active document")]
+        HRESULT Open(
+                        [in] BSTR Name, 
+                        [in, optional] VARIANT ReadOnly, 
+                        [in, optional] VARIANT Password, 
+                        [out, retval] InanoCADDocument** pDispDoc);
+        [id(0x60020006), helpstring("Closes all open documents and empties the documents collection.")]
+        HRESULT Close();
+    };
+
+    
+    
+        
+        
+        
+    
+
+    [
+      odl,
+      uuid(D1CAECC1-39E7-4186-BE1B-A519BB0082C7),
+      helpstring("application specific services collection"),
+      dual,
+      oleautomation
+    ]
+    interface InanoCADServices : IDispatch {
+        [id(0xfffffffc), propget, restricted]
+        HRESULT _NewEnum([out, retval] IUnknown** pVal);
+        [id(00000000), propget, helpstring("Gets the member object at a given index in a collection, group, or selection set")]
+        HRESULT Item(
+                        [in] VARIANT Index, 
+                        [out, retval] IDispatch** service);
+        [id(0x00000001), propget, helpstring("Gets the number of items in the collection, dictionary, group, or selection set")]
+        HRESULT Count([out, retval] long* pVal);
+        [id(0x00000002), helpstring("Adds new service to the appropriate collection")]
+        HRESULT Add(
+                        [in] BSTR Name, 
+                        [in] IDispatch* service);
+        [id(0x00000003), helpstring("Removes services from collection")]
+        HRESULT Remove([in] BSTR Name);
+        [id(0x00000004), helpstring("Removes all services from collection")]
+        HRESULT RemoveAll();
+        [id(0x60020003), propget, helpstring("Gets the Application object")]
+        HRESULT Application([out, retval] InanoCADApplication** pAppObj);
+    };
+
+    [
+      odl,
+      uuid(FA8BB9B2-01CA-4CEC-9FC2-375AC4324DF7),
+      helpstring("Params wrapper"),
+      dual,
+      oleautomation
+    ]
+    interface IParams : IDispatch {
+        [id(0x00000002), propput, helpstring("Sets new section")]
+        HRESULT Section(
+                        [in] BSTR Path, 
+                        [in, optional, defaultvalue(-1)] VARIANT_BOOL create, 
+                        [in] IParams* Section);
+        [id(0x00000002), propget, helpstring("Sets new section")]
+        HRESULT Section(
+                        [in] BSTR Path, 
+                        [in, optional, defaultvalue(-1)] VARIANT_BOOL create, 
+                        [out, retval] IParams** Section);
+        [id(0x00000003), propget, helpstring("Returns the subsections names enumerator")]
+        HRESULT Sections([out, retval] IArguments** val);
+        [id(00000000), propget, helpstring("Returns the value of named value")]
+        HRESULT Value(
+                        [in] BSTR Name, 
+                        [in, optional, defaultvalue(13)] ValueType Type, 
+                        [out, retval] VARIANT* pValue);
+        [id(00000000), propput, helpstring("Returns the value of named value")]
+        HRESULT Value(
+                        [in] BSTR Name, 
+                        [in, optional, defaultvalue(13)] ValueType Type, 
+                        [in] VARIANT pValue);
+        [id(0x00000004), propget, helpstring("Returns the values names enumerator")]
+        HRESULT Values([out, retval] IArguments** val);
+        [id(0x00000005), propget, helpstring("Retrieves text")]
+        HRESULT Text(
+                        [in, optional, defaultvalue(0)] SerializationFormat format, 
+                        [out, retval] BSTR* Text);
+        [id(0x00000005), propput, helpstring("Retrieves text")]
+        HRESULT Text(
+                        [in, optional, defaultvalue(0)] SerializationFormat format, 
+                        [in] BSTR Text);
+    };
+
+    [
+      odl,
+      uuid(87CA1C73-4228-4B46-9173-CB34AD939716),
+      helpstring("Strings container"),
+      dual,
+      oleautomation
+    ]
+    interface IArguments : IDispatch {
+        [id(00000000), propget, helpstring("Retrieves the string from container")]
+        HRESULT Item(
+                        [in] long idx, 
+                        [out, retval] BSTR* str);
+        [id(00000000), propput, helpstring("Retrieves the string from container")]
+        HRESULT Item(
+                        [in] long idx, 
+                        [in] BSTR str);
+        [id(0x00000001), propget, helpstring("Gets the number of commands in assembly")]
+        HRESULT Count([out, retval] long* pVal);
+        [id(0xfffffffc), propget, restricted, hidden]
+        HRESULT _NewEnum([out, retval] IUnknown** pVal);
+        [id(0x00000002)]
+        HRESULT Append(BSTR str);
+    };
+
+    
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    
+
+    
+    
+        
+        
+        
+    
+
+    [
+      odl,
+      uuid(A38E1530-1648-45C7-B0ED-7ADC5F8CD7F0),
+      dual,
+      oleautomation
+    ]
+    interface InanoCADPreferences : IDispatch {
+        [id(0x60020000), propget, helpstring("Returns the Application object.")]
+        HRESULT Application([out, retval] InanoCADApplication** pAppObj);
+        [id(0x60020001), propget, helpstring("Returns the PreferencesFiles object.")]
+        HRESULT Files([out, retval] InanoCADPreferencesFiles** pObj);
+        [id(0x60020002), propget, helpstring("Returns the PreferencesDisplay object.")]
+        HRESULT Display([out, retval] InanoCADPreferencesDisplay** pObj);
+        [id(0x60020003), propget, helpstring("Returns the PreferencesOpenSave object.")]
+        HRESULT OpenSave([out, retval] InanoCADPreferencesOpenSave** pObj);
+        [id(0x60020004), propget, helpstring("Returns the PreferencesOutput object.")]
+        HRESULT Output([out, retval] InanoCADPreferencesOutput** pObj);
+        [id(0x60020005), propget, helpstring("Returns the PreferencesSystem object.")]
+        HRESULT System([out, retval] InanoCADPreferencesSystem** pObj);
+        [id(0x60020006), propget, helpstring("Returns the PreferencesUser object.")]
+        HRESULT User([out, retval] InanoCADPreferencesUser** pObj);
+        [id(0x60020007), propget, helpstring("Returns the PreferencesDrafting object.")]
+        HRESULT Drafting([out, retval] InanoCADPreferencesDrafting** pObj);
+        [id(0x60020008), propget, helpstring("Returns the PreferencesSelection object.")]
+        HRESULT Selection([out, retval] InanoCADPreferencesSelection** pObj);
+        [id(0x60020009), propget, helpstring("Returns the PreferencesProfiles object.")]
+        HRESULT Profiles([out, retval] InanoCADPreferencesProfiles** pObj);
+    };
+
+    [
+      odl,
+      uuid(B8AE0EE0-2198-40B3-8045-AF450DECC58B),
+      helpstring("Specifies the settings that affect the use of various external files."),
+      dual,
+      oleautomation
+    ]
+    interface InanoCADPreferencesFiles : IDispatch {
+        [id(0x60020000), propget, helpstring("Returns the Application object.")]
+        HRESULT Application([out, retval] InanoCADApplication** pAppObj);
+        [id(00000000), propput, helpstring("Specifies or returns the paths where the application searches for extra support files.")]
+        HRESULT SupportPath([in] BSTR orient);
+        [id(00000000), propget, helpstring("Specifies or returns the paths where the application searches for extra support files.")]
+        HRESULT SupportPath([out, retval] BSTR* orient);
+        [id(0x60020003), propput, helpstring("Specifies or returns the paths where the application searches for drivers.")]
+        HRESULT DriversPath([in] BSTR Path);
+        [id(0x60020003), propget, helpstring("Specifies or returns the paths where the application searches for drivers.")]
+        HRESULT DriversPath([out, retval] BSTR* Path);
+        [id(0x60020005), propput, helpstring("Specifies or returns the paths where the application searches for menu files.")]
+        HRESULT MenuFile([in] BSTR Path);
+        [id(0x60020005), propget, helpstring("Specifies or returns the paths where the application searches for menu files.")]
+        HRESULT MenuFile([out, retval] BSTR* Path);
+        [id(0x60020007), propput, helpstring("Specifies or returns the paths where the application searches for help files.")]
+        HRESULT HelpFilePath([in] BSTR Path);
+        [id(0x60020007), propget, helpstring("Specifies or returns the paths where the application searches for help files.")]
+        HRESULT HelpFilePath([out, retval] BSTR* Path);
+        [id(0x60020009), propput, helpstring("Specifies or returns the paths where the application searches for the default Internet address.")]
+        HRESULT DefaultInternetURL([in] BSTR Path);
+        [id(0x60020009), propget, helpstring("Specifies or returns the paths where the application searches for the default Internet address.")]
+        HRESULT DefaultInternetURL([out, retval] BSTR* Path);
+        [id(0x6002000b), propget, helpstring("Returns the path of the configuration file.")]
+        HRESULT ConfigFile([out, retval] BSTR* ConfigFile);
+        [id(0x6002000c), propget, hidden, helpstring("Returns a list of servers available for use by the network license manager.")]
+        HRESULT LicenseServer([out, retval] BSTR* Path);
+        [id(0x6002000d), propput, helpstring("Specifies or returns the path and name of the text editor used for multiline text.")]
+        HRESULT TextEditor([in] BSTR Path);
+        [id(0x6002000d), propget, helpstring("Specifies or returns the path and name of the text editor used for multiline text.")]
+        HRESULT TextEditor([out, retval] BSTR* Path);
+        [id(0x6002000f), propput, helpstring("Specifies or returns the path and name of the dictionary to use with spell checking.")]
+        HRESULT MainDictionary([in] BSTR Path);
+        [id(0x6002000f), propget, helpstring("Specifies or returns the path and name of the dictionary to use with spell checking.")]
+        HRESULT MainDictionary([out, retval] BSTR* Path);
+        [id(0x60020011), propput, helpstring("Specifies or returns the path and name of the custom dictionary to use when checking the spelling of text.")]
+        HRESULT CustomDictionary([in] BSTR Path);
+        [id(0x60020011), propget, helpstring("Specifies or returns the path and name of the custom dictionary to use when checking the spelling of text.")]
+        HRESULT CustomDictionary([out, retval] BSTR* Path);
+        [id(0x60020013), propput, helpstring("Specifies or returns the path and name of an alternate font file.")]
+        HRESULT AltFontFile([in] BSTR fontFile);
+        [id(0x60020013), propget, helpstring("Specifies or returns the path and name of an alternate font file.")]
+        HRESULT AltFontFile([out, retval] BSTR* fontFile);
+        [id(0x60020015), propput, helpstring("Specifies or returns the path and name of a font map file.")]
+        HRESULT FontFileMap([in] BSTR Path);
+        [id(0x60020015), propget, helpstring("Specifies or returns the path and name of a font map file.")]
+        HRESULT FontFileMap([out, retval] BSTR* Path);
+        [id(0x60020017), propput, helpstring("Specifies or returns the temporary print file name that is used when printing drawings.")]
+        HRESULT PrintFile([in] BSTR Path);
+        [id(0x60020017), propget, helpstring("Specifies or returns the temporary print file name that is used when printing drawings.")]
+        HRESULT PrintFile([out, retval] BSTR* Path);
+        [id(0x60020019), propput, helpstring("Specifies or returns the path and name of the application used for print spooling.")]
+        HRESULT PrintSpoolExecutable([in] BSTR Path);
+        [id(0x60020019), propget, helpstring("Specifies or returns the path and name of the application used for print spooling.")]
+        HRESULT PrintSpoolExecutable([out, retval] BSTR* Path);
+        [id(0x6002001b), propput, helpstring("Specifies or returns the name of the prolog section used when printing to a PostScript file.")]
+        HRESULT PostScriptPrologFile([in] BSTR Path);
+        [id(0x6002001b), propget, helpstring("Specifies or returns the name of the prolog section used when printing to a PostScript file.")]
+        HRESULT PostScriptPrologFile([out, retval] BSTR* Path);
+        [id(0x6002001d), propput, helpstring("Specifies or returns the path used for print spool output when printing drawings.")]
+        HRESULT PrintSpoolerPath([in] BSTR Path);
+        [id(0x6002001d), propget, helpstring("Specifies or returns the path used for print spool output when printing drawings.")]
+        HRESULT PrintSpoolerPath([out, retval] BSTR* Path);
+        [id(0x6002001f), propput, helpstring("Specifies or returns the path for the file saved when saving a drawing automatically.")]
+        HRESULT AutoSavePath([in] BSTR AutoSavePath);
+        [id(0x6002001f), propget, helpstring("Specifies or returns the path for the file saved when saving a drawing automatically.")]
+        HRESULT AutoSavePath([out, retval] BSTR* AutoSavePath);
+        [id(0x60020021), propput, helpstring("Specifies or returns the paths where the application searches for template files when using a new drawing wizard.")]
+        HRESULT TemplateDwgPath([in] BSTR Path);
+        [id(0x60020021), propget, helpstring("Specifies or returns the paths where the application searches for template files when using a new drawing wizard.")]
+        HRESULT TemplateDwgPath([out, retval] BSTR* Path);
+        [id(0x60020023), propput, helpstring("Specifies or returns the path and name of the log file.")]
+        HRESULT LogFilePath([in] BSTR Path);
+        [id(0x60020023), propget, helpstring("Specifies or returns the path and name of the log file.")]
+        HRESULT LogFilePath([out, retval] BSTR* Path);
+        [id(0x60020025), propput, helpstring("Specifies or returns the path where the application stores temporary files.")]
+        HRESULT TempFilePath([in] BSTR Path);
+        [id(0x60020025), propget, helpstring("Specifies or returns the path where the application stores temporary files.")]
+        HRESULT TempFilePath([out, retval] BSTR* Path);
+        [id(0x60020027), propput, helpstring("Specifies or returns the path where the application stores external reference files that are loaded on demand.")]
+        HRESULT TempXrefPath([in] BSTR Path);
+        [id(0x60020027), propget, helpstring("Specifies or returns the path where the application stores external reference files that are loaded on demand.")]
+        HRESULT TempXrefPath([out, retval] BSTR* Path);
+        [id(0x60020029), propput, helpstring("Specifies or returns the path for texture maps used for rendering.")]
+        HRESULT TextureMapPath([in] BSTR Path);
+        [id(0x60020029), propget, helpstring("Specifies or returns the path for texture maps used for rendering.")]
+        HRESULT TextureMapPath([out, retval] BSTR* Path);
+        [id(0x6002002b), propput, helpstring("Specifies or returns the path for an alternate menu to replace the tablet menu.")]
+        HRESULT AltTabletMenuFile([in] BSTR MenuFile);
+        [id(0x6002002b), propget, helpstring("Specifies or returns the path for an alternate menu to replace the tablet menu.")]
+        HRESULT AltTabletMenuFile([out, retval] BSTR* MenuFile);
+        [id(0x6002002d), helpstring("Specifies or returns the path where the application searches for external reference files.")]
+        HRESULT SetProjectFilePath(
+                        [in] BSTR ProjectName, 
+                        [in] BSTR ProjectFilePath);
+        [id(0x6002002e), helpstring("Specifies or returns the path where the application searches for external reference files.")]
+        HRESULT GetProjectFilePath(
+                        [in] BSTR ProjectName, 
+                        [out, retval] BSTR* Path);
+        [id(0x6002002f), propput, helpstring("Specifies or returns the path for configuration files used for printing.")]
+        HRESULT PrinterConfigPath([in] BSTR Path);
+        [id(0x6002002f), propget, helpstring("Specifies or returns the path for configuration files used for printing.")]
+        HRESULT PrinterConfigPath([out, retval] BSTR* Path);
+        [id(0x60020031), propput, helpstring("Specifies or returns the path for description files used for printing.")]
+        HRESULT PrinterDescPath([in] BSTR Path);
+        [id(0x60020031), propget, helpstring("Specifies or returns the path for description files used for printing.")]
+        HRESULT PrinterDescPath([out, retval] BSTR* Path);
+        [id(0x60020033), propput, helpstring("Specifies or returns the path for style sheets used for printing.")]
+        HRESULT PrinterStyleSheetPath([in] BSTR Path);
+        [id(0x60020033), propget, helpstring("Specifies or returns the path for style sheets used for printing.")]
+        HRESULT PrinterStyleSheetPath([out, retval] BSTR* Path);
+        [id(0x60020035), propput, helpstring("Specifies or returns the path for workspace files.")]
+        HRESULT WorkspacePath([in] BSTR Path);
+        [id(0x60020035), propget, helpstring("Specifies or returns the path for workspace files.")]
+        HRESULT WorkspacePath([out, retval] BSTR* Path);
+        [id(0x60020037), propput, hidden, helpstring("Specifies or returns the path for TX applications.")]
+        HRESULT ObjectARXPath([in] BSTR Path);
+        [id(0x60020037), propget, hidden, helpstring("Specifies or returns the path for TX applications.")]
+        HRESULT ObjectARXPath([out, retval] BSTR* Path);
+        [id(0x60020039), propput, helpstring("Specifies or returns the path for color books.")]
+        HRESULT ColorBookPath([in] BSTR Path);
+        [id(0x60020039), propget, helpstring("Specifies or returns the path for color books.")]
+        HRESULT ColorBookPath([out, retval] BSTR* Path);
+        [id(0x6002003b), propput, helpstring("Specifies or returns the path for tool palettes.")]
+        HRESULT ToolPalettePath([in] BSTR Path);
+        [id(0x6002003b), propget, helpstring("Specifies or returns the path for tool palettes.")]
+        HRESULT ToolPalettePath([out, retval] BSTR* Path);
+    };
+
+    [
+      odl,
+      uuid(7F5BB426-7FEF-4E28-9F94-4239486AA032),
+      helpstring("Specifies display settings."),
+      dual,
+      oleautomation
+    ]
+    interface InanoCADPreferencesDisplay : IDispatch {
+        [id(0x60020000), propget, helpstring("Returns the Application object.")]
+        HRESULT Application([out, retval] InanoCADApplication** pAppObj);
+        [id(0x60020001), propput, helpstring("Specifies or returns whether margins display in layouts.")]
+        HRESULT LayoutDisplayMargins([in] VARIANT_BOOL Path);
+        [id(0x60020001), propget, helpstring("Specifies or returns whether margins display in layouts.")]
+        HRESULT LayoutDisplayMargins([out, retval] VARIANT_BOOL* Path);
+        [id(0x60020003), propput, helpstring("Specifies or returns whether a paper background displays in layouts.")]
+        HRESULT LayoutDisplayPaper([in] VARIANT_BOOL Path);
+        [id(0x60020003), propget, helpstring("Specifies or returns whether a paper background displays in layouts.")]
+        HRESULT LayoutDisplayPaper([out, retval] VARIANT_BOOL* Path);
+        [id(0x60020005), propput, helpstring("Specifies or returns whether a paper background shadow displays in layouts.")]
+        HRESULT LayoutDisplayPaperShadow([in] VARIANT_BOOL Path);
+        [id(0x60020005), propget, helpstring("Specifies or returns whether a paper background shadow displays in layouts.")]
+        HRESULT LayoutDisplayPaperShadow([out, retval] VARIANT_BOOL* Path);
+        [id(0x60020007), propput, helpstring("Specifies or returns whether the application prompts for print settings whenever a new layout is created.")]
+        HRESULT LayoutShowPlotSetup([in] VARIANT_BOOL Path);
+        [id(0x60020007), propget, helpstring("Specifies or returns whether the application prompts for print settings whenever a new layout is created.")]
+        HRESULT LayoutShowPlotSetup([out, retval] VARIANT_BOOL* Path);
+        [id(0x60020009), propput, helpstring("Specifies or returns whether a viewport is created automatically for each new layout.")]
+        HRESULT LayoutCreateViewport([in] VARIANT_BOOL Path);
+        [id(0x60020009), propget, helpstring("Specifies or returns whether a viewport is created automatically for each new layout.")]
+        HRESULT LayoutCreateViewport([out, retval] VARIANT_BOOL* Path);
+        [id(0x6002000b), propput, helpstring("Specifies or returns whether scroll bars display in the drawing window.")]
+        HRESULT DisplayScrollBars([in] VARIANT_BOOL Path);
+        [id(0x6002000b), propget, helpstring("Specifies or returns whether scroll bars display in the drawing window.")]
+        HRESULT DisplayScrollBars([out, retval] VARIANT_BOOL* Path);
+        [id(0x6002000d), propput, helpstring("Specifies or returns whether a screen menu displays in the drawing window.")]
+        HRESULT DisplayScreenMenu([in] VARIANT_BOOL Path);
+        [id(0x6002000d), propget, helpstring("Specifies or returns whether a screen menu displays in the drawing window.")]
+        HRESULT DisplayScreenMenu([out, retval] VARIANT_BOOL* Path);
+        [id(0x6002000f), propput, helpstring("Specifies or returns the size of the crosshair cursor as a percentage of the total screen size.")]
+        HRESULT CursorSize([in] int Path);
+        [id(0x6002000f), propget, helpstring("Specifies or returns the size of the crosshair cursor as a percentage of the total screen size.")]
+        HRESULT CursorSize([out, retval] int* Path);
+        [id(0x60020011), propput, helpstring("Specifies or returns the number of text lines to display in the command window.")]
+        HRESULT DockedVisibleLines([in] int Path);
+        [id(0x60020011), propget, helpstring("Specifies or returns the number of text lines to display in the command window.")]
+        HRESULT DockedVisibleLines([out, retval] int* Path);
+        [id(0x60020013), propput, helpstring("Specifies or returns whether raster images display when using real-time zoom and pan.")]
+        HRESULT ShowRasterImage([in] VARIANT_BOOL Path);
+        [id(0x60020013), propget, helpstring("Specifies or returns whether raster images display when using real-time zoom and pan.")]
+        HRESULT ShowRasterImage([out, retval] VARIANT_BOOL* Path);
+        [id(0x60020015), propput, helpstring("Specifies or returns the background color of the drawing window when in modelspace.")]
+        HRESULT GraphicsWinModelBackgrndColor([in] OLE_COLOR color);
+        [id(0x60020015), propget, helpstring("Specifies or returns the background color of the drawing window when in modelspace.")]
+        HRESULT GraphicsWinModelBackgrndColor([out, retval] OLE_COLOR* color);
+        [id(0x60020017), propput, helpstring("Specifies or returns the color of the crosshair cursor when in modelspace.")]
+        HRESULT ModelCrosshairColor([in] OLE_COLOR crossHairColor);
+        [id(0x60020017), propget, helpstring("Specifies or returns the color of the crosshair cursor when in modelspace.")]
+        HRESULT ModelCrosshairColor([out, retval] OLE_COLOR* crossHairColor);
+        [id(0x60020019), propput, helpstring("Specifies or returns the background color when in paperspace.")]
+        HRESULT GraphicsWinLayoutBackgrndColor([in] OLE_COLOR color);
+        [id(0x60020019), propget, helpstring("Specifies or returns the background color when in paperspace.")]
+        HRESULT GraphicsWinLayoutBackgrndColor([out, retval] OLE_COLOR* color);
+        [id(0x6002001b), propput, helpstring("Specifies or returns the background color of the text window.")]
+        HRESULT TextWinBackgrndColor([in] OLE_COLOR Path);
+        [id(0x6002001b), propget, helpstring("Specifies or returns the background color of the text window.")]
+        HRESULT TextWinBackgrndColor([out, retval] OLE_COLOR* Path);
+        [id(0x6002001d), propput, helpstring("Specifies or returns the color of text that displays in the text window.")]
+        HRESULT TextWinTextColor([in] OLE_COLOR Path);
+        [id(0x6002001d), propget, helpstring("Specifies or returns the color of text that displays in the text window.")]
+        HRESULT TextWinTextColor([out, retval] OLE_COLOR* Path);
+        [id(0x6002001f), propput, helpstring("Specifies or returns the color of the crosshair cursor when in paperspace.")]
+        HRESULT LayoutCrosshairColor([in] OLE_COLOR crossHairColor);
+        [id(0x6002001f), propget, helpstring("Specifies or returns the color of the crosshair cursor when in paperspace.")]
+        HRESULT LayoutCrosshairColor([out, retval] OLE_COLOR* crossHairColor);
+        [id(0x60020021), propput, helpstring("Specifies or returns the color of the auto-tracking vector.")]
+        HRESULT AutoTrackingVecColor([in] OLE_COLOR AutoTrackingVecColor);
+        [id(0x60020021), propget, helpstring("Specifies or returns the color of the auto-tracking vector.")]
+        HRESULT AutoTrackingVecColor([out, retval] OLE_COLOR* AutoTrackingVecColor);
+        [id(0x60020023), propput, helpstring("Specifies or returns the current font assigned to new text.")]
+        HRESULT TextFont([in] BSTR Path);
+        [id(0x60020023), propget, helpstring("Specifies or returns the current font assigned to new text.")]
+        HRESULT TextFont([out, retval] BSTR* Path);
+        [id(0x60020025), propput, helpstring("Specifies or returns the current font style assigned to new text.")]
+        HRESULT TextFontStyle([in] AcTextFontStyle Path);
+        [id(0x60020025), propget, helpstring("Specifies or returns the current font style assigned to new text.")]
+        HRESULT TextFontStyle([out, retval] AcTextFontStyle* Path);
+        [id(0x60020027), propput, helpstring("Specifies or returns the current font size assigned to new text.")]
+        HRESULT TextFontSize([in] int Path);
+        [id(0x60020027), propget, helpstring("Specifies or returns the current font size assigned to new text.")]
+        HRESULT TextFontSize([out, retval] int* Path);
+        [id(0x60020029), propput, helpstring("Specifies or returns the number of text lines to keep in memory from the text window.")]
+        HRESULT HistoryLines([in] int Path);
+        [id(0x60020029), propget, helpstring("Specifies or returns the number of text lines to keep in memory from the text window.")]
+        HRESULT HistoryLines([out, retval] int* Path);
+        [id(0x6002002b), propput, helpstring("Specifies or returns whether the application displays in the whole screen area when the application starts.")]
+        HRESULT MaxWindow([in] VARIANT_BOOL Path);
+        [id(0x6002002b), propget, helpstring("Specifies or returns whether the application displays in the whole screen area when the application starts.")]
+        HRESULT MaxWindow([out, retval] VARIANT_BOOL* Path);
+        [id(0x6002002d), propput, helpstring("Specifies or returns whether Model and Layout tabs display in the drawing window.")]
+        HRESULT DisplayLayoutTabs([in] VARIANT_BOOL Path);
+        [id(0x6002002d), propget, helpstring("Specifies or returns whether Model and Layout tabs display in the drawing window.")]
+        HRESULT DisplayLayoutTabs([out, retval] VARIANT_BOOL* Path);
+        [id(0x6002002f), propput, helpstring("Specifies or returns whether raster images or their frames display when selecting entities.")]
+        HRESULT ImageFrameHighlight([in] VARIANT_BOOL Path);
+        [id(0x6002002f), propget, helpstring("Specifies or returns whether raster images or their frames display when selecting entities.")]
+        HRESULT ImageFrameHighlight([out, retval] VARIANT_BOOL* Path);
+        [id(0x60020031), propput, helpstring("Specifies or returns whether raster and render images display with the highest level of color capability.")]
+        HRESULT TrueColorImages([in] VARIANT_BOOL Path);
+        [id(0x60020031), propget, helpstring("Specifies or returns whether raster and render images display with the highest level of color capability.")]
+        HRESULT TrueColorImages([out, retval] VARIANT_BOOL* Path);
+        [id(0x60020033), propput, helpstring("Specifies the fade percentage level used for external reference files.")]
+        HRESULT XRefFadeIntensity([in] long Path);
+        [id(0x60020033), propget, helpstring("Specifies the fade percentage level used for external reference files.")]
+        HRESULT XRefFadeIntensity([out, retval] long* Path);
+    };
+
+    
+    
+        
+        
+        
+        
+    
+
+    [
+      odl,
+      uuid(BC76DD28-BBB7-4FEC-8974-9E7AAFDA5425),
+      helpstring("Specifies open and save settings."),
+      dual,
+      oleautomation
+    ]
+    interface InanoCADPreferencesOpenSave : IDispatch {
+        [id(0x60020000), propget, helpstring("Gets the Application object.")]
+        HRESULT Application([out, retval] InanoCADApplication** pAppObj);
+        [id(0x60020001), propput, helpstring("Specifies or returns whether thumbnail preview images are saved with drawings.")]
+        HRESULT SavePreviewThumbnail([in] VARIANT_BOOL Path);
+        [id(0x60020001), propget, helpstring("Specifies or returns whether thumbnail preview images are saved with drawings.")]
+        HRESULT SavePreviewThumbnail([out, retval] VARIANT_BOOL* Path);
+        [id(0x60020003), propput, helpstring("Specifies or returns when a full save is performed instead of an incremental save.")]
+        HRESULT IncrementalSavePercent([in] int Path);
+        [id(0x60020003), propget, helpstring("Specifies or returns when a full save is performed instead of an incremental save.")]
+        HRESULT IncrementalSavePercent([out, retval] int* Path);
+        [id(0x60020005), propput, helpstring("Specifies or returns how often drawings are saved automatically.")]
+        HRESULT AutoSaveInterval([in] int Path);
+        [id(0x60020005), propget, helpstring("Specifies or returns how often drawings are saved automatically.")]
+        HRESULT AutoSaveInterval([out, retval] int* Path);
+        [id(0x60020007), propput, helpstring("Specifies or returns whether backup files are saved.")]
+        HRESULT CreateBackup([in] VARIANT_BOOL CreateBackup);
+        [id(0x60020007), propget, helpstring("Specifies or returns whether backup files are saved.")]
+        HRESULT CreateBackup([out, retval] VARIANT_BOOL* CreateBackup);
+        [id(0x60020009), propput, helpstring("Specifies or returns whether checking is turned on when hardware or software errors are suspected.")]
+        HRESULT FullCRCValidation([in] VARIANT_BOOL Path);
+        [id(0x60020009), propget, helpstring("Specifies or returns whether checking is turned on when hardware or software errors are suspected.")]
+        HRESULT FullCRCValidation([out, retval] VARIANT_BOOL* Path);
+        [id(0x6002000b), propput, helpstring("Specifies or returns whether a log file is saved to capture text window contents.")]
+        HRESULT LogFileOn([in] VARIANT_BOOL Path);
+        [id(0x6002000b), propget, helpstring("Specifies or returns whether a log file is saved to capture text window contents.")]
+        HRESULT LogFileOn([out, retval] VARIANT_BOOL* Path);
+        [id(0x6002000d), propput, helpstring("Specifies or returns the file extension used for temporary files.")]
+        HRESULT TempFileExtension([in] BSTR Path);
+        [id(0x6002000d), propget, helpstring("Specifies or returns the file extension used for temporary files.")]
+        HRESULT TempFileExtension([out, retval] BSTR* Path);
+        [id(0x6002000f), propput, helpstring("Specifies or returns how external references are loaded.")]
+        HRESULT XrefDemandLoad([in] AcXRefDemandLoad Path);
+        [id(0x6002000f), propget, helpstring("Specifies or returns how external references are loaded.")]
+        HRESULT XrefDemandLoad([out, retval] AcXRefDemandLoad* Path);
+        [id(0x60020011), propput, helpstring("Specifies or returns how third-party applications are loaded if a drawing contains custom objects created in that application.")]
+        HRESULT DemandLoadARXApp([in] AcARXDemandLoad Path);
+        [id(0x60020011), propget, helpstring("Specifies or returns how third-party applications are loaded if a drawing contains custom objects created in that application.")]
+        HRESULT DemandLoadARXApp([out, retval] AcARXDemandLoad* Path);
+        [id(0x60020013), propput, helpstring("Specifies or returns how objects that were created in a third-party application display in a drawing.")]
+        HRESULT ProxyImage([in] AcProxyImage Path);
+        [id(0x60020013), propget, helpstring("Specifies or returns how objects that were created in a third-party application display in a drawing.")]
+        HRESULT ProxyImage([out, retval] AcProxyImage* Path);
+        [id(0x60020015), propput, helpstring("Specifies or returns whether a warning displays when opening a drawing that contains custom objects.")]
+        HRESULT ShowProxyDialogBox([in] VARIANT_BOOL Path);
+        [id(0x60020015), propget, helpstring("Specifies or returns whether a warning displays when opening a drawing that contains custom objects.")]
+        HRESULT ShowProxyDialogBox([out, retval] VARIANT_BOOL* Path);
+        [id(0x60020017), propput, helpstring("Specifies or returns whether an audit is performed after you render a DXFIN or DXBIN interchange command.")]
+        HRESULT AutoAudit([in] VARIANT_BOOL bAudit);
+        [id(0x60020017), propget, helpstring("Specifies or returns whether an audit is performed after you render a DXFIN or DXBIN interchange command.")]
+        HRESULT AutoAudit([out, retval] VARIANT_BOOL* bAudit);
+        [id(0x60020019), propput, helpstring("Specifies or returns the default drawing type used for saving drawings.")]
+        HRESULT SaveAsType([in] AcSaveAsType Path);
+        [id(0x60020019), propget, helpstring("Specifies or returns the default drawing type used for saving drawings.")]
+        HRESULT SaveAsType([out, retval] AcSaveAsType* Path);
+        [id(0x6002001b), propget, helpstring("Specifies the number of recent files to track on the File menu.")]
+        HRESULT MRUNumber([out, retval] long* Path);
+    };
+
+    
+    
+        
+        
+        
+    
+
+    
+    
+        
+        
+        
+    
+
+    
+    
+        
+        
+        
+    
+
+    
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    
+
+    [
+      odl,
+      uuid(A6CF6B5D-88CB-418B-A810-331121823163),
+      helpstring("Specifies output settings."),
+      dual,
+      oleautomation
+    ]
+    interface InanoCADPreferencesOutput : IDispatch {
+        [id(0x60020000), propget, helpstring("Returns the Application object.")]
+        HRESULT Application([out, retval] InanoCADApplication** pAppObj);
+        [id(0x60020001), propput, helpstring("Specifies or returns the default printer for new layouts and modelspace.")]
+        HRESULT DefaultOutputDevice([in] BSTR Path);
+        [id(0x60020001), propget, helpstring("Specifies or returns the default printer for new layouts and modelspace.")]
+        HRESULT DefaultOutputDevice([out, retval] BSTR* Path);
+        [id(0x60020003), propput, helpstring("Specifies or returns whether to display a warning when printing must be spooled.")]
+        HRESULT PrinterSpoolAlert([in] AcPrinterSpoolAlert Path);
+        [id(0x60020003), propget, helpstring("Specifies or returns whether to display a warning when printing must be spooled.")]
+        HRESULT PrinterSpoolAlert([out, retval] AcPrinterSpoolAlert* Path);
+        [id(0x60020005), propput, helpstring("Specifies or returns whether to display a warning when there is a conflict with the specified paper size.")]
+        HRESULT PrinterPaperSizeAlert([in] VARIANT_BOOL Path);
+        [id(0x60020005), propget, helpstring("Specifies or returns whether to display a warning when there is a conflict with the specified paper size.")]
+        HRESULT PrinterPaperSizeAlert([out, retval] VARIANT_BOOL* Path);
+        [id(0x60020007), propput, helpstring("Specifies or returns whether older print scripts can be used.")]
+        HRESULT PlotLegacy([in] VARIANT_BOOL Path);
+        [id(0x60020007), propget, helpstring("Specifies or returns whether older print scripts can be used.")]
+        HRESULT PlotLegacy([out, retval] VARIANT_BOOL* Path);
+        [id(0x60020009), propput, helpstring("Specifies or returns the print quality of OLE objects.")]
+        HRESULT OLEQuality([in] AcOleQuality Path);
+        [id(0x60020009), propget, helpstring("Specifies or returns the print quality of OLE objects.")]
+        HRESULT OLEQuality([out, retval] AcOleQuality* Path);
+        [id(0x6002000b), propput, helpstring("Specifies or returns whether the print settings are used from the previous successful print job.")]
+        HRESULT UseLastPlotSettings([in] VARIANT_BOOL Path);
+        [id(0x6002000b), propget, helpstring("Specifies or returns whether the print settings are used from the previous successful print job.")]
+        HRESULT UseLastPlotSettings([out, retval] VARIANT_BOOL* Path);
+        [id(0x6002000d), propput, helpstring("Specifies or returns whether color-dependent plot style tables are used for new drawings.")]
+        HRESULT PlotPolicy([in] AcPlotPolicy Path);
+        [id(0x6002000d), propget, helpstring("Specifies or returns whether color-dependent plot style tables are used for new drawings.")]
+        HRESULT PlotPolicy([out, retval] AcPlotPolicy* Path);
+        [id(0x6002000f), propput, helpstring("Specifies or returns the default plot style table.")]
+        HRESULT DefaultPlotStyleTable([in] BSTR Path);
+        [id(0x6002000f), propget, helpstring("Specifies or returns the default plot style table.")]
+        HRESULT DefaultPlotStyleTable([out, retval] BSTR* Path);
+        [id(0x60020011), propput, helpstring("Specifies or returns the default print style table for new drawings.")]
+        HRESULT DefaultPlotStyleForObjects([in] BSTR Path);
+        [id(0x60020011), propget, helpstring("Specifies or returns the default print style table for new drawings.")]
+        HRESULT DefaultPlotStyleForObjects([out, retval] BSTR* Path);
+        [id(0x60020013), propput, helpstring("Specifies or returns the default print style for new drawings.")]
+        HRESULT DefaultPlotStyleForLayer([in] BSTR Path);
+        [id(0x60020013), propget, helpstring("Specifies or returns the default print style for new drawings.")]
+        HRESULT DefaultPlotStyleForLayer([out, retval] BSTR* Path);
+    };
+
+    
+    
+        
+        
+        
+        
+    
+
+    
+    
+        
+        
+        
+        
+        
+    
+
+    
+    
+        
+        
+    
+
+    [
+      odl,
+      uuid(D5CF27D1-DDE4-4B5C-92F1-FD03FFA21B10),
+      helpstring("Specifies system settings."),
+      dual,
+      oleautomation
+    ]
+    interface InanoCADPreferencesSystem : IDispatch {
+        [id(0x60020000), propget, helpstring("Returns the Application object.")]
+        HRESULT Application([out, retval] InanoCADApplication** pAppObj);
+        [id(0x60020001), propput, helpstring("Specifies or returns whether single or multiple drawings can be open at the same time.")]
+        HRESULT SingleDocumentMode([in] VARIANT_BOOL Path);
+        [id(0x60020001), propget, helpstring("Specifies or returns whether single or multiple drawings can be open at the same time.")]
+        HRESULT SingleDocumentMode([out, retval] VARIANT_BOOL* Path);
+        [id(0x60020003), propput, helpstring("Specifies or returns whether the user is prompted to scale OLE objects when adding OLE objects to a drawing.")]
+        HRESULT DisplayOLEScale([in] VARIANT_BOOL Path);
+        [id(0x60020003), propget, helpstring("Specifies or returns whether the user is prompted to scale OLE objects when adding OLE objects to a drawing.")]
+        HRESULT DisplayOLEScale([out, retval] VARIANT_BOOL* Path);
+        [id(0x60020005), propput, helpstring("Specifies or returns whether the SQL index is stored in drawings.")]
+        HRESULT StoreSQLIndex([in] VARIANT_BOOL Path);
+        [id(0x60020005), propget, helpstring("Specifies or returns whether the SQL index is stored in drawings.")]
+        HRESULT StoreSQLIndex([out, retval] VARIANT_BOOL* Path);
+        [id(0x60020007), propput, helpstring("Specifies or returns whether to database tables are read-only.")]
+        HRESULT TablesReadOnly([in] VARIANT_BOOL Path);
+        [id(0x60020007), propget, helpstring("Specifies or returns whether to database tables are read-only.")]
+        HRESULT TablesReadOnly([out, retval] VARIANT_BOOL* Path);
+        [id(0x60020009), propput, helpstring("Specifies or returns whether a Startup dialog box displays automatically when the application starts.")]
+        HRESULT EnableStartupDialog([in] VARIANT_BOOL Path);
+        [id(0x60020009), propget, helpstring("Specifies or returns whether a Startup dialog box displays automatically when the application starts.")]
+        HRESULT EnableStartupDialog([out, retval] VARIANT_BOOL* Path);
+        [id(0x6002000b), propput, helpstring("Specifies or returns whether a beep sounds automatically when user input results in an error.")]
+        HRESULT BeepOnError([in] VARIANT_BOOL BeepOnError);
+        [id(0x6002000b), propget, helpstring("Specifies or returns whether a beep sounds automatically when user input results in an error.")]
+        HRESULT BeepOnError([out, retval] VARIANT_BOOL* BeepOnError);
+        [id(0x6002000d), propput, helpstring("Specifies or returns whether all warning dialog boxes display.")]
+        HRESULT ShowWarningMessages([in] VARIANT_BOOL Path);
+        [id(0x6002000d), propget, helpstring("Specifies or returns whether all warning dialog boxes display.")]
+        HRESULT ShowWarningMessages([out, retval] VARIANT_BOOL* Path);
+        [id(0x6002000f), propput, helpstring("Not implemented.")]
+        HRESULT LoadAcadLspInAllDocuments([in] VARIANT_BOOL pALID);
+        [id(0x6002000f), propget, helpstring("Not implemented.")]
+        HRESULT LoadAcadLspInAllDocuments([out, retval] VARIANT_BOOL* pALID);
+    };
+
+    [
+      odl,
+      uuid(596952FF-2FEE-44E9-946E-B25F6F325DF4),
+      helpstring("Specifies user settings."),
+      dual,
+      oleautomation
+    ]
+    interface InanoCADPreferencesUser : IDispatch {
+        [id(0x60020000), propget, helpstring("Returns the Application object.")]
+        HRESULT Application([out, retval] InanoCADApplication** pAppObj);
+        [id(0x60020001), propput, helpstring("Specifies or returns which keyboard configuration is used.")]
+        HRESULT KeyboardAccelerator([in] AcKeyboardAccelerator Path);
+        [id(0x60020001), propget, helpstring("Specifies or returns which keyboard configuration is used.")]
+        HRESULT KeyboardAccelerator([out, retval] AcKeyboardAccelerator* Path);
+        [id(0x60020003), propput, helpstring("Specifies or returns how to obtain coordinate input.")]
+        HRESULT KeyboardPriority([in] AcKeyboardPriority Path);
+        [id(0x60020003), propget, helpstring("Specifies or returns how to obtain coordinate input.")]
+        HRESULT KeyboardPriority([out, retval] AcKeyboardPriority* Path);
+        [id(0x60020005), propput, helpstring("Specifies or returns wherther a hyperlink cursor displays when the pointer is over an object that has an assigned hyperlink.")]
+        HRESULT HyperlinkDisplayCursor([in] VARIANT_BOOL Path);
+        [id(0x60020005), propget, helpstring("Specifies or returns wherther a hyperlink cursor displays when the pointer is over an object that has an assigned hyperlink.")]
+        HRESULT HyperlinkDisplayCursor([out, retval] VARIANT_BOOL* Path);
+        [id(0x60020007), propput, helpstring("Specifies or returns whether hyperlink tooltips display when the pointer is over an object that contains a hyperlink.")]
+        HRESULT HyperlinkDisplayTooltip([in] VARIANT_BOOL Path);
+        [id(0x60020007), propget, helpstring("Specifies or returns whether hyperlink tooltips display when the pointer is over an object that contains a hyperlink.")]
+        HRESULT HyperlinkDisplayTooltip([out, retval] VARIANT_BOOL* Path);
+        [id(0x60020009), propput, helpstring("Specifies or returns the units for objects that are from a drawing without insert units assigned.")]
+        HRESULT ADCInsertUnitsDefaultSource([in] AcInsertUnits pIU);
+        [id(0x60020009), propget, helpstring("Specifies or returns the units for objects that are from a drawing without insert units assigned.")]
+        HRESULT ADCInsertUnitsDefaultSource([out, retval] AcInsertUnits* pIU);
+        [id(0x6002000b), propput, helpstring("Specifies or returns the units for objects that are meant for a drawing without insert units assigned.")]
+        HRESULT ADCInsertUnitsDefaultTarget([in] AcInsertUnits pSUunits);
+        [id(0x6002000b), propget, helpstring("Specifies or returns the units for objects that are meant for a drawing without insert units assigned.")]
+        HRESULT ADCInsertUnitsDefaultTarget([out, retval] AcInsertUnits* pSUunits);
+        [id(0x6002000d), propput, helpstring("Specifies or returns whether a shortcut menu displays when right-clicking in a drawing.")]
+        HRESULT ShortCutMenuDisplay([in] VARIANT_BOOL pSCM);
+        [id(0x6002000d), propget, helpstring("Specifies or returns whether a shortcut menu displays when right-clicking in a drawing.")]
+        HRESULT ShortCutMenuDisplay([out, retval] VARIANT_BOOL* pSCM);
+        [id(0x6002000f), propput, helpstring("Specifies or returns the action to take if a right-click occurs when no objects are selected and no commands are active.")]
+        HRESULT SCMDefaultMode([in] AcDrawingAreaSCMDefault pSCM);
+        [id(0x6002000f), propget, helpstring("Specifies or returns the action to take if a right-click occurs when no objects are selected and no commands are active.")]
+        HRESULT SCMDefaultMode([out, retval] AcDrawingAreaSCMDefault* pSCM);
+        [id(0x60020011), propput, helpstring("Specifies or returns the action to take if a right-click occurs when objects are selected and no commands are active.")]
+        HRESULT SCMEditMode([in] AcDrawingAreaSCMEdit pSCM);
+        [id(0x60020011), propget, helpstring("Specifies or returns the action to take if a right-click occurs when objects are selected and no commands are active.")]
+        HRESULT SCMEditMode([out, retval] AcDrawingAreaSCMEdit* pSCM);
+        [id(0x60020013), propput, helpstring("Specifies or returns the action to take if a right-click occurs when a command is active.")]
+        HRESULT SCMCommandMode([in] AcDrawingAreaSCMCommand pSCM);
+        [id(0x60020013), propget, helpstring("Specifies or returns the action to take if a right-click occurs when a command is active.")]
+        HRESULT SCMCommandMode([out, retval] AcDrawingAreaSCMCommand* pSCM);
+        [id(0x60020015), propput, helpstring("Specifies or returns whether a short right-click initiates Enter and a long right-click initiates a shortcut menu.")]
+        HRESULT SCMTimeMode([in] VARIANT_BOOL time);
+        [id(0x60020015), propget, helpstring("Specifies or returns whether a short right-click initiates Enter and a long right-click initiates a shortcut menu.")]
+        HRESULT SCMTimeMode([out, retval] VARIANT_BOOL* time);
+        [id(0x60020017), propput, helpstring("Specifies or returns the time for SCMTimeMode.")]
+        HRESULT SCMTimeValue([in] int time);
+        [id(0x60020017), propget, helpstring("Specifies or returns the time for SCMTimeMode.")]
+        HRESULT SCMTimeValue([out, retval] int* time);
+    };
+
+    
+    
+        
+        
+    
+
+    
+    
+        
+        
+        
+    
+
+    
+    
+        
+        
+    
+
+    
+    
+        
+        
+    
+
+    
+    
+        
+        
+        
+    
+
+    [
+      odl,
+      uuid(D8DC6B6A-F03F-490B-BE96-CC6506999D0E),
+      helpstring("Specifies drafting settings."),
+      dual,
+      oleautomation
+    ]
+    interface InanoCADPreferencesDrafting : IDispatch {
+        [id(0x60020000), propget, helpstring("Returns the Application object.")]
+        HRESULT Application([out, retval] InanoCADApplication** pAppObj);
+        [id(0x60020001), propput, helpstring("Specifies or returns whether the snap marker displays for snap locations.")]
+        HRESULT AutoSnapMarker([in] VARIANT_BOOL Path);
+        [id(0x60020001), propget, helpstring("Specifies or returns whether the snap marker displays for snap locations.")]
+        HRESULT AutoSnapMarker([out, retval] VARIANT_BOOL* Path);
+        [id(0x60020003), propput, helpstring("Specifies or returns whether the snap magnet is turned on.")]
+        HRESULT AutoSnapMagnet([in] VARIANT_BOOL Path);
+        [id(0x60020003), propget, helpstring("Specifies or returns whether the snap magnet is turned on.")]
+        HRESULT AutoSnapMagnet([out, retval] VARIANT_BOOL* Path);
+        [id(0x60020005), propput, helpstring("Specifies or returns whether snap tooltips are turned on.")]
+        HRESULT AutoSnapTooltip([in] VARIANT_BOOL Path);
+        [id(0x60020005), propget, helpstring("Specifies or returns whether snap tooltips are turned on.")]
+        HRESULT AutoSnapTooltip([out, retval] VARIANT_BOOL* Path);
+        [id(0x60020007), propput, helpstring("Specifies or returns whether the aperture cursor displays.")]
+        HRESULT AutoSnapAperture([in] VARIANT_BOOL Path);
+        [id(0x60020007), propget, helpstring("Specifies or returns whether the aperture cursor displays.")]
+        HRESULT AutoSnapAperture([out, retval] VARIANT_BOOL* Path);
+        [id(0x60020009), propput, helpstring("Specifies or returns the aperture cursor size.")]
+        HRESULT AutoSnapApertureSize([in] long Path);
+        [id(0x60020009), propget, helpstring("Specifies or returns the aperture cursor size.")]
+        HRESULT AutoSnapApertureSize([out, retval] long* Path);
+        [id(0x6002000b), propput, helpstring("Specifies or returns the snap marker color.")]
+        HRESULT AutoSnapMarkerColor([in] AcColor Path);
+        [id(0x6002000b), propget, helpstring("Specifies or returns the snap marker color.")]
+        HRESULT AutoSnapMarkerColor([out, retval] AcColor* Path);
+        [id(0x6002000d), propput, helpstring("Specifies or returns the snap marker size in pixels.")]
+        HRESULT AutoSnapMarkerSize([in] long Path);
+        [id(0x6002000d), propget, helpstring("Specifies or returns the snap marker size in pixels.")]
+        HRESULT AutoSnapMarkerSize([out, retval] long* Path);
+        [id(0x6002000f), propput, helpstring("Specifies or returns whether polar tracking is turned on.")]
+        HRESULT PolarTrackingVector([in] VARIANT_BOOL Path);
+        [id(0x6002000f), propget, helpstring("Specifies or returns whether polar tracking is turned on.")]
+        HRESULT PolarTrackingVector([out, retval] VARIANT_BOOL* Path);
+        [id(0x60020011), propput, helpstring("Specifies or returns whether full-screen tracking is turned on.")]
+        HRESULT FullScreenTrackingVector([in] VARIANT_BOOL Path);
+        [id(0x60020011), propget, helpstring("Specifies or returns whether full-screen tracking is turned on.")]
+        HRESULT FullScreenTrackingVector([out, retval] VARIANT_BOOL* Path);
+        [id(0x60020013), propput, helpstring("Specifies or returns whether AutoTrack tooltips are turned on.")]
+        HRESULT AutoTrackTooltip([in] VARIANT_BOOL Path);
+        [id(0x60020013), propget, helpstring("Specifies or returns whether AutoTrack tooltips are turned on.")]
+        HRESULT AutoTrackTooltip([out, retval] VARIANT_BOOL* Path);
+        [id(0x60020015), propput, helpstring("Specifies or returns how AutoAlignment points are obtained.")]
+        HRESULT AlignmentPointAcquisition([in] AcAlignmentPointAcquisition Path);
+        [id(0x60020015), propget, helpstring("Specifies or returns how AutoAlignment points are obtained.")]
+        HRESULT AlignmentPointAcquisition([out, retval] AcAlignmentPointAcquisition* Path);
+    };
+
+    
+    
+        
+        
+    
+
+    [
+      odl,
+      uuid(99B76B84-0F4C-4B0F-A041-FC7DD48DF86F),
+      helpstring("Specifies selection settings."),
+      dual,
+      oleautomation
+    ]
+    interface InanoCADPreferencesSelection : IDispatch {
+        [id(0x60020000), propget, helpstring("Returns the Application object.")]
+        HRESULT Application([out, retval] InanoCADApplication** pAppObj);
+        [id(0x60020001), propput, helpstring("Specifies or returns whether you select objects before or after calling a command.")]
+        HRESULT PickFirst([in] VARIANT_BOOL Path);
+        [id(0x60020001), propget, helpstring("Specifies or returns whether you select objects before or after calling a command.")]
+        HRESULT PickFirst([out, retval] VARIANT_BOOL* Path);
+        [id(0x60020003), propput, helpstring("Specifies or returns whether objects can be added to a selection set using the Shift key.")]
+        HRESULT PickAdd([in] VARIANT_BOOL Path);
+        [id(0x60020003), propget, helpstring("Specifies or returns whether objects can be added to a selection set using the Shift key.")]
+        HRESULT PickAdd([out, retval] VARIANT_BOOL* Path);
+        [id(0x60020005), propput, helpstring("Specifies or returns how a selection window is defined.")]
+        HRESULT PickDrag([in] VARIANT_BOOL Path);
+        [id(0x60020005), propget, helpstring("Specifies or returns how a selection window is defined.")]
+        HRESULT PickDrag([out, retval] VARIANT_BOOL* Path);
+        [id(0x60020007), propput, helpstring("Specifies or returns use of the selection window when selecting objects.")]
+        HRESULT PickAuto([in] VARIANT_BOOL Path);
+        [id(0x60020007), propget, helpstring("Specifies or returns use of the selection window when selecting objects.")]
+        HRESULT PickAuto([out, retval] VARIANT_BOOL* Path);
+        [id(0x60020009), propput, helpstring("Specifies or returns the target height of object selection.")]
+        HRESULT PickBoxSize([in] long Path);
+        [id(0x60020009), propget, helpstring("Specifies or returns the target height of object selection.")]
+        HRESULT PickBoxSize([out, retval] long* Path);
+        [id(0x6002000b), propput, helpstring("Specifies or returns whether selection set grips display.")]
+        HRESULT DisplayGrips([in] VARIANT_BOOL Path);
+        [id(0x6002000b), propget, helpstring("Specifies or returns whether selection set grips display.")]
+        HRESULT DisplayGrips([out, retval] VARIANT_BOOL* Path);
+        [id(0x6002000d), propput, helpstring("Specifies or returns whether grips display for the objects in a block when the block is selected.")]
+        HRESULT DisplayGripsWithinBlocks([in] VARIANT_BOOL Path);
+        [id(0x6002000d), propget, helpstring("Specifies or returns whether grips display for the objects in a block when the block is selected.")]
+        HRESULT DisplayGripsWithinBlocks([out, retval] VARIANT_BOOL* Path);
+        [id(0x6002000f), propput, helpstring("Specifies or returns the color of selected grips.")]
+        HRESULT GripColorSelected([in] AcColor Path);
+        [id(0x6002000f), propget, helpstring("Specifies or returns the color of selected grips.")]
+        HRESULT GripColorSelected([out, retval] AcColor* Path);
+        [id(0x60020011), propput, helpstring("Specifies or returns the color of unselected grips.")]
+        HRESULT GripColorUnselected([in] AcColor Path);
+        [id(0x60020011), propget, helpstring("Specifies or returns the color of unselected grips.")]
+        HRESULT GripColorUnselected([out, retval] AcColor* Path);
+        [id(0x60020013), propput, helpstring("Specifies or returns the size of grips.")]
+        HRESULT GripSize([in] long Path);
+        [id(0x60020013), propget, helpstring("Specifies or returns the size of grips.")]
+        HRESULT GripSize([out, retval] long* Path);
+        [id(0x60020015), propput, helpstring("Specifies or returns whether selecting an object in a group selects the whole group.")]
+        HRESULT PickGroup([in] VARIANT_BOOL pick);
+        [id(0x60020015), propget, helpstring("Specifies or returns whether selecting an object in a group selects the whole group.")]
+        HRESULT PickGroup([out, retval] VARIANT_BOOL* pick);
+    };
+
+    [
+      odl,
+      uuid(C43642BE-4D1E-4C46-AEA1-80504DCF16BC),
+      helpstring("Specifies profile settings."),
+      helpcontext(0x00010908),
+      dual,
+      oleautomation
+    ]
+    interface InanoCADPreferencesProfiles : IDispatch {
+        [id(0x60020000), propget, helpstring("Gets the Application object")]
+        HRESULT Application([out, retval] InanoCADApplication** pAppObj);
+        [id(0x60020001), propput, helpstring("Specifies or returns the current profile.")]
+        HRESULT ActiveProfile([in] BSTR Path);
+        [id(0x60020001), propget, helpstring("Specifies or returns the current profile.")]
+        HRESULT ActiveProfile([out, retval] BSTR* Path);
+        [id(0x60020003), helpstring("Imports a profile.")]
+        HRESULT ImportProfile(
+                        [in] BSTR ProfileName, 
+                        [in] BSTR RegFile, 
+                        [in] VARIANT_BOOL IncludePathInfo);
+        [id(0x60020004), helpstring("Exports the current profile.")]
+        HRESULT ExportProfile(
+                        [in] BSTR ProfileName, 
+                        [in] BSTR RegFile);
+        [id(0x60020005), helpstring("Deletes a profile.")]
+        HRESULT DeleteProfile([in] BSTR ProfileName);
+        [id(0x60020006), helpstring("Resets profile values to their default values.")]
+        HRESULT ResetProfile([in] BSTR Profile);
+        [id(0x60020007), helpstring("Renames a profile.")]
+        HRESULT RenameProfile(
+                        [in] BSTR origProfileName, 
+                        [in] BSTR newProfileName);
+        [id(0x60020008), helpstring("Copies a profile.")]
+        HRESULT CopyProfile(
+                        [in] BSTR oldProfileName, 
+                        [in] BSTR newProfileName);
+        [id(0x60020009), helpstring("Gets all available profiles for the system")]
+        HRESULT GetAllProfileNames([out] VARIANT* pNames);
+    };
+
+    [
+      odl,
+      uuid(A51795BA-B7B1-4BBA-BE05-95D9837EB6D4),
+      helpstring("A collection of MenuGroup objects representing all the menu groups loaded in the current session"),
+      dual,
+      oleautomation
+    ]
+    interface InanoCADMenuGroups : IDispatch {
+        [id(00000000), helpstring("Gets the member object at a given index in a collection, group, or selection set")]
+        HRESULT Item(
+                        [in] VARIANT Index, 
+                        [out, retval] InanoCADMenuGroup** pItem);
+        [id(0xfffffffc), propget, restricted, hidden]
+        HRESULT _NewEnum([out, retval] IUnknown** pEnumVariant);
+        [id(0x60020002), propget, helpstring("Gets the number of items in the collection, dictionary, group, or selection set")]
+        HRESULT Count([out, retval] long* Count);
+        [id(0x60020003), propget, helpstring("Gets the Application object")]
+        HRESULT Application([out, retval] InanoCADApplication** pAppObj);
+        [id(0x60020004), propget, helpstring("Gets the parent of the object")]
+        HRESULT Parent([out, retval] InanoCADApplication** pParent);
+        [id(0x60020005), helpstring("Loads a menu group from a menu file")]
+        HRESULT Load(
+                        [in] BSTR MenuFileName, 
+                        [in, optional] VARIANT BaseMenu, 
+                        [out, retval] InanoCADMenuGroup** pMenuGroup);
+    };
+
+    [
+      odl,
+      uuid(CB911746-FAE9-4BB2-8033-38CCA84EB9CE),
+      helpstring("Menu group"),
+      dual,
+      oleautomation
+    ]
+    interface InanoCADMenuGroup : IDispatch {
+        [id(0x60020000), propget, helpstring("Gets the Application object")]
+        HRESULT Application([out, retval] InanoCADApplication** pAppObj);
+        [id(0x60020001), propget, helpstring("Gets the parent of the object")]
+        HRESULT Parent([out, retval] InanoCADMenuGroups** pParent);
+        [id(0x60020002), propget, helpstring("Specifies the name of the object")]
+        HRESULT Name([out, retval] BSTR* Name);
+        [id(0x60020003), propget, helpstring("Specifies type of a Leader, MenuGroup, PopupMenuItem, ToolbarItem, Polyline, or PolygonMesh object")]
+        HRESULT Type([out, retval] AcMenuGroupType* menuType);
+        [id(0x60020004), propget, helpstring("Gets the menu file name where the menu group is located")]
+        HRESULT MenuFileName([out, retval] BSTR* Name);
+        [id(0x60020005), propget, helpstring("Gets the PopupMenus collection")]
+        HRESULT Menus([out, retval] InanoCADPopupMenus** pMenus);
+        [id(0x60020006), propget, helpstring("Gets the Toolbars collection")]
+        HRESULT Toolbars([out, retval] InanoCADToolbars** pToolbars);
+        [id(0x60020007), helpstring("Unloads the menu group or external reference")]
+        HRESULT Unload();
+        [id(0x60020008), helpstring("Saves the document or menu group")]
+        HRESULT Save([in] AcMenuFileType MenuFileType);
+        [id(0x60020009), helpstring("Saves the document or menu group to a specified file")]
+        HRESULT SaveAs(
+                        [in] BSTR MenuFileName, 
+                        [in] AcMenuFileType MenuFileType);
+    };
+
+    
+    
+        
+        
+    
+
+    [
+      odl,
+      uuid(B30328DF-EE49-4861-9C7E-78E00333E272),
+      helpstring("A collection of PopupMenu objects representing all the popup menus loaded in the MenuGroup"),
+      dual,
+      oleautomation
+    ]
+    interface InanoCADPopupMenus : IDispatch {
+        [id(00000000), helpstring("Gets the member object at a given index in a collection, group, or selection set")]
+        HRESULT Item(
+                        [in] VARIANT Index, 
+                        [out, retval] InanoCADPopupMenu** pItem);
+        [id(0xfffffffc), propget, restricted, hidden]
+        HRESULT _NewEnum([out, retval] IUnknown** pEnumVariant);
+        [id(0x60020002), propget, helpstring("Gets the number of items in the collection, dictionary, group, or selection set")]
+        HRESULT Count([out, retval] long* Count);
+        [id(0x60020003), propget, helpstring("Gets the Application object")]
+        HRESULT Application([out, retval] InanoCADApplication** pAppObj);
+        [id(0x60020004), propget, helpstring("Gets the parent of the object")]
+        HRESULT Parent([out, retval] InanoCADMenuGroup** pParent);
+        [id(0x60020005), helpstring("Creates a member object and adds it to the appropriate collection")]
+        HRESULT Add(
+                        [in] BSTR MenuName, 
+                        [out, retval] InanoCADPopupMenu** pMenu);
+        [id(0x60020006), helpstring("Inserts a menu into the menu bar")]
+        HRESULT InsertMenuInMenuBar(
+                        [in] BSTR MenuName, 
+                        [in] VARIANT Index);
+        [id(0x60020007), helpstring("Removes the popup menu, as specified from the collection, from the menu bar")]
+        HRESULT RemoveMenuFromMenuBar([in] VARIANT Index);
+    };
+
+    [
+      odl,
+      uuid(57CA6ED4-E195-4B5D-A028-06BC31BE6088),
+      helpstring("Cascading menu"),
+      dual,
+      oleautomation
+    ]
+    interface InanoCADPopupMenu : IDispatch {
+        [id(00000000), helpstring("Gets the member object at a given index in a collection, group, or selection set")]
+        HRESULT Item(
+                        [in] VARIANT Index, 
+                        [out, retval] InanoCADPopupMenuItem** pItem);
+        [id(0xfffffffc), propget, restricted, hidden]
+        HRESULT _NewEnum([out, retval] IUnknown** pEnumVariant);
+        [id(0x60020002), propget, helpstring("Gets the number of items in the collection, dictionary, group, or selection set")]
+        HRESULT Count([out, retval] long* Count);
+        [id(0x60020003), propget, helpstring("Gets the Application object")]
+        HRESULT Application([out, retval] InanoCADApplication** pAppObj);
+        [id(0x60020004), propget, helpstring("Gets the parent of the object")]
+        HRESULT Parent([out, retval] IDispatch** pParent);
+        [id(0x60020005), propget, helpstring("Specifies the name of the object")]
+        HRESULT Name([out, retval] BSTR* bstrName);
+        [id(0x60020005), propput, helpstring("Specifies the name of the object")]
+        HRESULT Name([in] BSTR bstrName);
+        [id(0x60020007), propget, helpstring("Specifies the name of the object")]
+        HRESULT NameNoMnemonic([out, retval] BSTR* bstrName);
+        [id(0x60020008), propget, helpstring("Determines if the specified popup menu is the shortcut menu")]
+        HRESULT ShortcutMenu([out, retval] VARIANT_BOOL* bFlag);
+        [id(0x60020009), propget, helpstring("Determines if the specified popup menu is on the menu bar")]
+        HRESULT OnMenuBar([out, retval] VARIANT_BOOL* bFlag);
+        [id(0x6002000a), helpstring("Adds a popup menu item to a popup menu")]
+        HRESULT AddMenuItem(
+                        [in] VARIANT Index, 
+                        [in] BSTR Label, 
+                        [in] BSTR Macro, 
+                        [out, retval] InanoCADPopupMenuItem** pItem);
+        [id(0x6002000b), helpstring("Adds a submenu to an existing menu")]
+        HRESULT AddSubMenu(
+                        [in] VARIANT Index, 
+                        [in] BSTR Label, 
+                        [out, retval] InanoCADPopupMenu** pMenu);
+        [id(0x6002000c), helpstring("Adds a separator to an existing menu or toolbar")]
+        HRESULT AddSeparator(
+                        [in] VARIANT Index, 
+                        [out, retval] InanoCADPopupMenuItem** pItem);
+        [id(0x6002000d), helpstring("Inserts the popup menu into the menu bar at a specified location")]
+        HRESULT InsertInMenuBar([in] VARIANT Index);
+        [id(0x6002000e), helpstring("Removes the popup menu from the menu bar")]
+        HRESULT RemoveFromMenuBar();
+        [id(0x6002000f), propget, helpstring("Specifies the tag string of the object")]
+        HRESULT TagString([out, retval] BSTR* bstrTag);
+    };
+
+    [
+      odl,
+      uuid(E784059E-1149-414F-9F68-44B01896DA30),
+      helpstring("A single menu item on an pull-down menu"),
+      dual,
+      oleautomation
+    ]
+    interface InanoCADPopupMenuItem : IDispatch {
+        [id(0x60020000), propget, helpstring("Gets the Application object")]
+        HRESULT Application([out, retval] InanoCADApplication** pAppObj);
+        [id(0x60020001), propget, helpstring("Gets the parent of the object")]
+        HRESULT Parent([out, retval] InanoCADPopupMenu** pParent);
+        [id(0x60020002), propget, helpstring("Specifies the content and formatting of menu items as they appear to the user")]
+        HRESULT Label([out, retval] BSTR* bstrLabel);
+        [id(0x60020002), propput, helpstring("Specifies the content and formatting of menu items as they appear to the user")]
+        HRESULT Label([in] BSTR bstrLabel);
+        [id(0x60020004), propget, helpstring("Specifies the tag string of the object")]
+        HRESULT TagString([out, retval] BSTR* bstrTag);
+        [id(0x60020004), propput, helpstring("Specifies the tag string of the object")]
+        HRESULT TagString([in] BSTR bstrTag);
+        [id(0x60020006), propget, helpstring("Enables the popup menu or toolbar item")]
+        HRESULT Enable([out, retval] VARIANT_BOOL* bFlag);
+        [id(0x60020006), propput, helpstring("Enables the popup menu or toolbar item")]
+        HRESULT Enable([in] VARIANT_BOOL bFlag);
+        [id(0x60020008), propget, helpstring("Specifies the check status for the popup menu item")]
+        HRESULT Check([out, retval] VARIANT_BOOL* bFlag);
+        [id(0x60020008), propput, helpstring("Specifies the check status for the popup menu item")]
+        HRESULT Check([in] VARIANT_BOOL bFlag);
+        [id(0x6002000a), propget, helpstring("Specifies type of a Leader, MenuGroup, PopupMenuItem, ToolbarItem, Polyline, or PolygonMesh object")]
+        HRESULT Type([out, retval] AcMenuItemType* itemType);
+        [id(0x6002000b), propget, helpstring("Gets the popup menu associated with a sub menu")]
+        HRESULT SubMenu([out, retval] InanoCADPopupMenu** pMenu);
+        [id(0x6002000c), propget, helpstring("Specifies the macro for the menu or toolbar item")]
+        HRESULT Macro([out, retval] BSTR* bstrMacro);
+        [id(0x6002000c), propput, helpstring("Specifies the macro for the menu or toolbar item")]
+        HRESULT Macro([in] BSTR bstrMacro);
+        [id(0x6002000e), propget, helpstring("Specifies the index of the menu or toolbar item")]
+        HRESULT Index([out, retval] int* nIndex);
+        [id(0x6002000f), propget, helpstring("Gets the text that the user sees displayed for the application or a menu item")]
+        HRESULT Caption([out, retval] BSTR* bstrCaption);
+        [id(0x60020010), propget, helpstring("Specifies the help string for the toolbar, toolbar item, or menu item")]
+        HRESULT HelpString([out, retval] BSTR* bstrHelp);
+        [id(0x60020010), propput, helpstring("Specifies the help string for the toolbar, toolbar item, or menu item")]
+        HRESULT HelpString([in] BSTR bstrHelp);
+        [id(0x60020012), helpstring("Deletes a specified object")]
+        HRESULT Delete();
+        [id(0x60020013), propget, helpstring("Specifies the submenu level for the menu item")]
+        HRESULT EndSubMenuLevel([out, retval] int* level);
+        [id(0x60020013), propput, helpstring("Specifies the submenu level for the menu item")]
+        HRESULT EndSubMenuLevel([in] int level);
+    };
+
+    
+    
+        
+        
+        
+    
+
+    [
+      odl,
+      uuid(0B59AA50-8E12-471B-AA2A-40B1910B5DB7),
+      helpstring("A collection of Toolbar objects representing all the toolbars loaded in the current session"),
+      dual,
+      oleautomation
+    ]
+    interface InanoCADToolbars : IDispatch {
+        [id(00000000), helpstring("Gets the member object at a given index in a collection, group, or selection set")]
+        HRESULT Item(
+                        [in] VARIANT Index, 
+                        [out, retval] InanoCADToolbar** pItem);
+        [id(0xfffffffc), propget, restricted, hidden]
+        HRESULT _NewEnum([out, retval] IUnknown** pEnumVariant);
+        [id(0x60020002), propget, helpstring("Gets the number of items in the collection, dictionary, group, or selection set")]
+        HRESULT Count([out, retval] long* Count);
+        [id(0x60020003), propget, helpstring("Gets the Application object")]
+        HRESULT Application([out, retval] InanoCADApplication** pAppObj);
+        [id(0x60020004), propget, helpstring("Gets the parent of the object")]
+        HRESULT Parent([out, retval] InanoCADMenuGroup** pParent);
+        [id(0x60020005), propget, helpstring("Specifies if the toolbar button is large or small")]
+        HRESULT LargeButtons([out, retval] VARIANT_BOOL* bFlag);
+        [id(0x60020005), propput, helpstring("Specifies if the toolbar button is large or small")]
+        HRESULT LargeButtons([in] VARIANT_BOOL bFlag);
+        [id(0x60020007), helpstring("Creates a member object and adds it to the appropriate collection")]
+        HRESULT Add(
+                        [in] BSTR ToolbarName, 
+                        [out, retval] InanoCADToolbar** pTlbar);
+    };
+
+    [
+      odl,
+      uuid(650D6A34-59A7-42EB-B9E3-4D1171BEA3C1),
+      helpstring("An toolbar"),
+      dual,
+      oleautomation
+    ]
+    interface InanoCADToolbar : IDispatch {
+        [id(00000000), helpstring("Gets the member object at a given index in a collection, group, or selection set")]
+        HRESULT Item(
+                        [in] VARIANT Index, 
+                        [out, retval] InanoCADToolbarItem** pItem);
+        [id(0xfffffffc), propget, restricted, hidden]
+        HRESULT _NewEnum([out, retval] IUnknown** pEnumVariant);
+        [id(0x60020002), propget, helpstring("Gets the number of items in the collection, dictionary, group, or selection set")]
+        HRESULT Count([out, retval] long* Count);
+        [id(0x60020003), propget, helpstring("Gets the Application object")]
+        HRESULT Application([out, retval] InanoCADApplication** pAppObj);
+        [id(0x60020004), propget, helpstring("Gets the parent of the object")]
+        HRESULT Parent([out, retval] IDispatch** pParent);
+        [id(0x60020005), propget, helpstring("Specifies the name of the object")]
+        HRESULT Name([out, retval] BSTR* bstrName);
+        [id(0x60020005), propput, helpstring("Specifies the name of the object")]
+        HRESULT Name([in] BSTR bstrName);
+        [id(0x60020007), propget, helpstring("Specifies the visibility of an object or the application")]
+        HRESULT Visible([out, retval] VARIANT_BOOL* bFlag);
+        [id(0x60020007), propput, helpstring("Specifies the visibility of an object or the application")]
+        HRESULT Visible([in] VARIANT_BOOL bFlag);
+        [id(0x60020009), propget, helpstring("Specifies if the toolbar is docked or floating")]
+        HRESULT DockStatus([out, retval] AcToolbarDockStatus* nStatus);
+        [id(0x6002000a), propget, helpstring("Specifies if the toolbar button is large or small")]
+        HRESULT LargeButtons([out, retval] VARIANT_BOOL* bFlag);
+        [id(0x6002000b), propget, helpstring("Specifies the left edge of a toolbar")]
+        HRESULT left([out, retval] int* nLeft);
+        [id(0x6002000b), propput, helpstring("Specifies the left edge of a toolbar")]
+        HRESULT left([in] int nLeft);
+        [id(0x6002000d), propget, helpstring("Specifies the top edge of a toolbar")]
+        HRESULT top([out, retval] int* nTop);
+        [id(0x6002000d), propput, helpstring("Specifies the top edge of a toolbar")]
+        HRESULT top([in] int nTop);
+        [id(0x6002000f), propget, helpstring("Specifies the width of the text boundary, view, image, toolbar, or main application window")]
+        HRESULT Width([out, retval] int* nWidth);
+        [id(0x60020010), propget, helpstring("Height of the attribute, shape, text, or view toolbar or the main application window")]
+        HRESULT Height([out, retval] int* nHeight);
+        [id(0x60020011), propget, helpstring("Specifies the number of rows for a floating toolbar")]
+        HRESULT FloatingRows([out, retval] int* nRows);
+        [id(0x60020011), propput, helpstring("Specifies the number of rows for a floating toolbar")]
+        HRESULT FloatingRows([in] int nRows);
+        [id(0x60020013), propget, helpstring("Specifies the help string for the toolbar, toolbar item, or menu item")]
+        HRESULT HelpString([out, retval] BSTR* bstrHelp);
+        [id(0x60020013), propput, helpstring("Specifies the help string for the toolbar, toolbar item, or menu item")]
+        HRESULT HelpString([in] BSTR bstrHelp);
+        [id(0x60020015), helpstring("Adds a toolbar item to a toolbar at a specified position")]
+        HRESULT AddToolbarButton(
+                        [in] VARIANT Index, 
+                        [in] BSTR Name, 
+                        [in] BSTR HelpString, 
+                        [in] BSTR Macro, 
+                        [in, optional] VARIANT FlyoutButton, 
+                        [out, retval] InanoCADToolbarItem** pItem);
+        [id(0x60020016), helpstring("Adds a separator to an existing menu or toolbar")]
+        HRESULT AddSeparator(
+                        [in] VARIANT Index, 
+                        [out, retval] InanoCADToolbarItem** pItem);
+        [id(0x60020017), helpstring("Docks the toolbar to the owning frame window")]
+        HRESULT Dock([in] AcToolbarDockStatus Side);
+        [id(0x60020018), helpstring("Floats the toolbar")]
+        HRESULT Float(
+                        [in] int top, 
+                        [in] int left, 
+                        [in] int NumberFloatRows);
+        [id(0x60020019), helpstring("Deletes a specified object")]
+        HRESULT Delete();
+        [id(0x6002001a), propget, helpstring("Specifies the tag string of the object")]
+        HRESULT TagString([out, retval] BSTR* bstrTag);
+    };
+
+    [
+      odl,
+      uuid(4C09DCAF-308D-4ABA-8E4E-2A5D2772FDC7),
+      helpstring("A single button item on an toolbar"),
+      dual,
+      oleautomation
+    ]
+    interface InanoCADToolbarItem : IDispatch {
+        [id(0x60020000), propget, helpstring("Gets the Application object")]
+        HRESULT Application([out, retval] InanoCADApplication** pAppObj);
+        [id(0x60020001), propget, helpstring("Gets the parent of the object")]
+        HRESULT Parent([out, retval] InanoCADToolbar** pParent);
+        [id(0x60020002), propget, helpstring("Specifies the name of the object")]
+        HRESULT Name([out, retval] BSTR* bstrName);
+        [id(0x60020002), propput, helpstring("Specifies the name of the object")]
+        HRESULT Name([in] BSTR bstrName);
+        [id(0x60020004), propget, helpstring("Specifies the tag string of the object")]
+        HRESULT TagString([out, retval] BSTR* bstrTag);
+        [id(0x60020004), propput, helpstring("Specifies the tag string of the object")]
+        HRESULT TagString([in] BSTR bstrTag);
+        [id(0x60020006), propget, helpstring("Specifies type of a Leader, MenuGroup, PopupMenuItem, ToolbarItem, Polyline, or PolygonMesh object")]
+        HRESULT Type([out, retval] AcToolbarItemType* itemType);
+        [id(0x60020007), propget, helpstring("Gets the toolbar associated with a flyout toolbar item")]
+        HRESULT Flyout([out, retval] InanoCADToolbar** pTlbar);
+        [id(0x60020008), propget, helpstring("Specifies the macro for the menu or toolbar item")]
+        HRESULT Macro([out, retval] BSTR* bstrMacro);
+        [id(0x60020008), propput, helpstring("Specifies the macro for the menu or toolbar item")]
+        HRESULT Macro([in] BSTR bstrMacro);
+        [id(0x6002000a), propget, helpstring("Specifies the index of the menu or toolbar item")]
+        HRESULT Index([out, retval] int* nIndex);
+        [id(0x6002000b), propget, helpstring("Specifies the help string for the toolbar, toolbar item, or menu item")]
+        HRESULT HelpString([out, retval] BSTR* bstrHelp);
+        [id(0x6002000b), propput, helpstring("Specifies the help string for the toolbar, toolbar item, or menu item")]
+        HRESULT HelpString([in] BSTR bstrHelp);
+        [id(0x6002000d), helpstring("Gets the large and small bitmaps used as icons for the toolbar item")]
+        HRESULT GetBitmaps(
+                        [out] BSTR* SmallIconName, 
+                        [out] BSTR* LargeIconName);
+        [id(0x6002000e), helpstring("Sets the large and small bitmaps used as icons for the toolbar item")]
+        HRESULT SetBitmaps(
+                        [in] BSTR SmallIconName, 
+                        [in] BSTR LargeIconName);
+        [id(0x6002000f), helpstring("Attaches a toolbar to a toolbar button defined as a flyout")]
+        HRESULT AttachToolbarToFlyout(
+                        [in] BSTR MenuGroupName, 
+                        [in] BSTR ToolbarName);
+        [id(0x60020010), helpstring("Deletes a specified object")]
+        HRESULT Delete();
+        [id(0x60020011), propget]
+        HRESULT CommandDisplayName([out, retval] BSTR* Name);
+        [id(0x60020011), propput]
+        HRESULT CommandDisplayName([in] BSTR Name);
+    };
+
+    
+    
+        
+        
+        
+        
+    
+
+    
+    
+        
+        
+        
+        
+        
+    
+
+    
+    
+        
+        
+    
+
+    [
+      odl,
+      uuid(4CF095BC-83C4-4057-91A7-28678F698AE9),
+      helpstring("A collection of PopupMenu objects representing the current menu bar"),
+      dual,
+      oleautomation
+    ]
+    interface InanoCADMenuBar : IDispatch {
+        [id(00000000), helpstring("Gets the member object at a given index in a collection, group, or selection set")]
+        HRESULT Item(
+                        [in] VARIANT Index, 
+                        [out, retval] InanoCADPopupMenu** pItem);
+        [id(0xfffffffc), propget, restricted, hidden]
+        HRESULT _NewEnum([out, retval] IUnknown** pEnumVariant);
+        [id(0x60020002), propget, helpstring("Gets the number of items in the collection, dictionary, group, or selection set")]
+        HRESULT Count([out, retval] long* Count);
+        [id(0x60020003), propget, helpstring("Gets the Application object")]
+        HRESULT Application([out, retval] InanoCADApplication** pAppObj);
+        [id(0x60020004), propget, helpstring("Gets the parent of the object")]
+        HRESULT Parent([out, retval] InanoCADApplication** pParent);
+    };
+
+    [
+      odl,
+      uuid(B9D0149C-39A7-4EA7-9A4A-B9B3695DDD65),
+      helpstring("The set of methods and properties used for plotting layouts"),
+      dual,
+      oleautomation
+    ]
+    interface InanoCADPlotArea : IDispatch {
+        [id(0x00000001), propget, helpstring("Retrieves offset val")]
+        HRESULT Offset([out, retval] VARIANT* val);
+        [id(0x00000001), propput, helpstring("Retrieves offset val")]
+        HRESULT Offset([in] VARIANT val);
+        [id(0x00000002), propget, helpstring("Retrieves ptMin val")]
+        HRESULT ptMin([out, retval] VARIANT* val);
+        [id(0x00000002), propput, helpstring("Retrieves ptMin val")]
+        HRESULT ptMin([in] VARIANT val);
+        [id(0x00000003), propget, helpstring("Retrieves ptMax val")]
+        HRESULT ptMax([out, retval] VARIANT* val);
+        [id(0x00000003), propput, helpstring("Retrieves ptMax val")]
+        HRESULT ptMax([in] VARIANT val);
+    };
+
+    [
+      odl,
+      uuid(2A6F0556-BCE2-441A-9BD3-E4808AFB3E31),
+      helpstring("The set of methods and properties used for plotting layouts"),
+      dual,
+      oleautomation
+    ]
+    interface InanoCADPlotArea2 : InanoCADPlotArea {
+        [id(0x00000004), propget, helpstring("Retrieves position val")]
+        HRESULT Position([out, retval] VARIANT* val);
+        [id(0x00000004), propput, helpstring("Retrieves position val")]
+        HRESULT Position([in] VARIANT val);
+        [id(0x00000005), propget, helpstring("Retrieves target val")]
+        HRESULT Target([out, retval] VARIANT* val);
+        [id(0x00000005), propput, helpstring("Retrieves target val")]
+        HRESULT Target([in] VARIANT val);
+        [id(0x00000006), propget, helpstring("Retrieves upVector val")]
+        HRESULT UpVector([out, retval] VARIANT* val);
+        [id(0x00000006), propput, helpstring("Retrieves upVector val")]
+        HRESULT UpVector([in] VARIANT val);
+        [id(0x00000007), propget, helpstring("Retrieves field val")]
+        HRESULT Field([out, retval] VARIANT* val);
+        [id(0x00000007), propput, helpstring("Retrieves field val")]
+        HRESULT Field([in] VARIANT val);
+        [id(0x00000008), propget, helpstring("Retrieves Perspective val")]
+        HRESULT Perspective([out, retval] VARIANT_BOOL* val);
+        [id(0x00000008), propput, helpstring("Retrieves Perspective val")]
+        HRESULT Perspective([in] VARIANT_BOOL val);
+        [id(0x00000009), propget, helpstring("Retrieves lensLength val")]
+        HRESULT LensLength([out, retval] double* val);
+        [id(0x00000009), propput, helpstring("Retrieves lensLength val")]
+        HRESULT LensLength([in] double val);
+        [id(0x0000000a), propget, helpstring("Retrieves elevation val")]
+        HRESULT Elevation([out, retval] double* val);
+        [id(0x0000000a), propput, helpstring("Retrieves elevation val")]
+        HRESULT Elevation([in] double val);
+        [id(0x0000000b), propget, helpstring("Retrieves viewOffset val")]
+        HRESULT ViewOffset([out, retval] VARIANT* val);
+        [id(0x0000000b), propput, helpstring("Retrieves viewOffset val")]
+        HRESULT ViewOffset([in] VARIANT val);
+        [id(0x0000000c), propget, helpstring("Retrieves ptWindow1 val")]
+        HRESULT ptWindow1([out, retval] VARIANT* val);
+        [id(0x0000000c), propput, helpstring("Retrieves ptWindow1 val")]
+        HRESULT ptWindow1([in] VARIANT val);
+        [id(0x0000000d), propget, helpstring("Retrieves ptWindow2 val")]
+        HRESULT ptWindow2([out, retval] VARIANT* val);
+        [id(0x0000000d), propput, helpstring("Retrieves ptWindow2 val")]
+        HRESULT ptWindow2([in] VARIANT val);
+    };
+
+    [
+      odl,
+      uuid(EC8292AB-2D18-4382-81AA-D0ADE8125868),
+      helpstring("The set of methods and properties used for plotting layouts"),
+      dual,
+      oleautomation
+    ]
+    interface InanoCADPlotAreas : IDispatch {
+        [id(00000000), propget, helpstring("Returns plot area by index")]
+        HRESULT Item(
+                        [in] long idx, 
+                        [out, retval] InanoCADPlotArea** val);
+        [id(0x00000001), propget, helpstring("Returns count of plot areas")]
+        HRESULT Count([out, retval] long* val);
+        [id(0x00000002), helpstring("Create new plot area")]
+        HRESULT Add(
+                        VARIANT ptMin, 
+                        VARIANT ptMax, 
+                        [out, retval] InanoCADPlotArea** area);
+        [id(0x00000003), helpstring("clears all plot areas")]
+        HRESULT Clear();
+        [id(0xfffffffc), propget, restricted]
+        HRESULT _NewEnum([out, retval] IUnknown** pVal);
+    };
+
+    [
+      odl,
+      uuid(7F6A2837-6F25-4556-A68C-9E01D1033ECE),
+      helpstring("The set of methods and properties used for plotting layouts"),
+      dual,
+      oleautomation
+    ]
+    interface InanoCADPlotCustomParams : IDispatch {
+        [id(00000000), propget, helpstring("value")]
+        HRESULT Params([out, retval] IParams** param);
+        [id(00000000), propput, helpstring("value")]
+        HRESULT Params([in] IParams* param);
+        [id(00000000), propputref, helpstring("value")]
+        HRESULT Params([in] IParams* param);
+        [id(0x60020100), propget, helpstring("Retrieves color mode value")]
+        HRESULT ColorMode([out, retval] VARIANT_BOOL* val);
+        [id(0x60020100), propput, helpstring("Retrieves color mode value")]
+        HRESULT ColorMode([in] VARIANT_BOOL val);
+        [id(0x60020101), propget, helpstring("Retrieves PrinterDPI value")]
+        HRESULT PrinterDPI([out, retval] long* val);
+        [id(0x60020101), propput, helpstring("Retrieves PrinterDPI value")]
+        HRESULT PrinterDPI([in] long val);
+        [id(0x60020102), propget, helpstring("Retrieves UsePrefinedNames value")]
+        HRESULT UsePrefinedNames([out, retval] VARIANT_BOOL* val);
+        [id(0x60020102), propput, helpstring("Retrieves UsePrefinedNames value")]
+        HRESULT UsePrefinedNames([in] VARIANT_BOOL val);
+        [id(0x60020103), propget, helpstring("Retrieves IfFileExist value")]
+        HRESULT IfFileExist([out, retval] FileExistAction* val);
+        [id(0x60020103), propput, helpstring("Retrieves IfFileExist value")]
+        HRESULT IfFileExist([in] FileExistAction val);
+        [id(0x60020104), propget, helpstring("Retrieves RunPDFApp value")]
+        HRESULT RunPDFApp([out, retval] VARIANT_BOOL* val);
+        [id(0x60020104), propput, helpstring("Retrieves RunPDFApp value")]
+        HRESULT RunPDFApp([in] VARIANT_BOOL val);
+        [id(0x60020105), propget, helpstring("Retrieves UseDWGPath value")]
+        HRESULT UseDWGPath([out, retval] VARIANT_BOOL* val);
+        [id(0x60020105), propput, helpstring("Retrieves UseDWGPath value")]
+        HRESULT UseDWGPath([in] VARIANT_BOOL val);
+        [id(0x60020106), propget, helpstring("Retrieves FileFolder value")]
+        HRESULT FileFolder([out, retval] BSTR* val);
+        [id(0x60020106), propput, helpstring("Retrieves FileFolder value")]
+        HRESULT FileFolder([in] BSTR val);
+        [id(0x60020107), propget, helpstring("Retrieves FileMask value")]
+        HRESULT FileMask([out, retval] BSTR* val);
+        [id(0x60020107), propput, helpstring("Retrieves FileMask value")]
+        HRESULT FileMask([in] BSTR val);
+        [id(0x60020108), propget, helpstring("Retrieves PlotToFile value")]
+        HRESULT PlotToFile([out, retval] VARIANT_BOOL* val);
+        [id(0x60020108), propput, helpstring("Retrieves PlotToFile value")]
+        HRESULT PlotToFile([in] VARIANT_BOOL val);
+        [id(0x60020109), propget, helpstring("Retrieves Multipage value")]
+        HRESULT Multipage([out, retval] VARIANT_BOOL* val);
+        [id(0x60020109), propput, helpstring("Retrieves Multipage value")]
+        HRESULT Multipage([in] VARIANT_BOOL val);
+        [id(0x6002010a), propget, helpstring("Retrieves InflateWidth value")]
+        HRESULT InflateWidth([out, retval] double* val);
+        [id(0x6002010a), propput, helpstring("Retrieves InflateWidth value")]
+        HRESULT InflateWidth([in] double val);
+        [id(0x6002010b), propget, helpstring("Retrieves Alignment value")]
+        HRESULT Alignment([out, retval] long* val);
+        [id(0x6002010b), propput, helpstring("Retrieves Alignment value")]
+        HRESULT Alignment([in] long val);
+        [id(0x6002010c), propget, helpstring("Retrieves PaperOutMargins value")]
+        HRESULT PaperOutMargins([out, retval] long* val);
+        [id(0x6002010c), propput, helpstring("Retrieves PaperOutMargins value")]
+        HRESULT PaperOutMargins([in] long val);
+        [id(0x6002010d), propget, helpstring("Retrieves Plot Areas")]
+        HRESULT PlotAreas([out, retval] InanoCADPlotAreas** val);
+    };
+
+    
+    
+        
+        
+        
+        
+    
+
+    
+    __MIDL___MIDL_itf_NCAuto_0000_0000_0001 OdSaveAsType;
+
+    typedef 
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    
+
+    [
+      odl,
+      uuid(A5FC1C8A-5FC6-4901-9C52-5793CC4FDA1D),
+      helpstring("A special object to use in monitoring the state of App from out-of-process applications."),
+      dual,
+      oleautomation
+    ]
+    interface InanoCADState : IDispatch {
+        [id(0x00000001), propget, helpstring("Checks whether App is idle and ready to accept automation calls from out-of-process applications")]
+        HRESULT IsQuiescent([out, retval] VARIANT_BOOL* pVal);
+        [id(0x00000002), propget, helpstring("Gets the Application object")]
+        HRESULT Application([out, retval] InanoCADApplication** pAppObj);
+    };
+
+    [
+      odl,
+      uuid(EAEA6290-3772-49E4-A08C-3A36AB965F39),
+      helpstring("The set of methods and properties used for plotting layouts"),
+      dual,
+      oleautomation
+    ]
+    interface InanoCADPlot : IDispatch {
+        [id(0x60020000), propget, helpstring("Gets the Application object")]
+        HRESULT Application([out, retval] InanoCADApplication** pAppObj);
+        [id(0x60020001), propget, helpstring("Toggles the quiet error mode for plot error reporting")]
+        HRESULT QuietErrorMode([out, retval] VARIANT_BOOL* bErrorMode);
+        [id(0x60020001), propput, helpstring("Toggles the quiet error mode for plot error reporting")]
+        HRESULT QuietErrorMode([in] VARIANT_BOOL bErrorMode);
+        [id(0x60020003), propget, helpstring("Specifies the number of copies to plot")]
+        HRESULT NumberOfCopies([out, retval] long* numCopies);
+        [id(0x60020003), propput, helpstring("Specifies the number of copies to plot")]
+        HRESULT NumberOfCopies([in] long numCopies);
+        [id(0x60020005), propget, helpstring("Gets the current status of the batch plot, or terminates the batch plot")]
+        HRESULT BatchPlotProgress([out, retval] VARIANT_BOOL* bProgressStatus);
+        [id(0x60020005), propput, helpstring("Gets the current status of the batch plot, or terminates the batch plot")]
+        HRESULT BatchPlotProgress([in] VARIANT_BOOL bProgressStatus);
+        [id(0x60020007), helpstring("Displays the Plot Preview dialog box with the specified partial or full view preview")]
+        HRESULT DisplayPlotPreview([in] AcPreviewMode Preview);
+        [id(0x60020008), helpstring("Plots a layout to the specified file")]
+        HRESULT PlotToFile(
+                        [in] BSTR plotFile, 
+                        [in, optional] VARIANT plotConfig, 
+                        [out, retval] VARIANT_BOOL* success);
+        [id(0x60020009), helpstring("Plots a layout to a device")]
+        HRESULT PlotToDevice(
+                        [in, optional] VARIANT plotConfig, 
+                        [out, retval] VARIANT_BOOL* success);
+        [id(0x6002000a), helpstring("Specifies the layout or layouts to plot")]
+        HRESULT SetLayoutsToPlot([in] VARIANT layoutList);
+        [id(0x6002000b), helpstring("Invokes batchmode printing")]
+        HRESULT StartBatchMode([in] long entryCount);
+        [id(0x6002000c), propget, helpstring("Retrieves custom plot settings")]
+        HRESULT CustomPlotSettings(
+                        [in] VARIANT config, 
+                        [out, retval] InanoCADPlotCustomParams** param);
+        [id(0x6002000c), propput, helpstring("Retrieves custom plot settings")]
+        HRESULT CustomPlotSettings(
+                        [in] VARIANT config, 
+                        [in] InanoCADPlotCustomParams* param);
+        [id(0x6002000c), propputref, helpstring("Retrieves custom plot settings")]
+        HRESULT CustomPlotSettings(
+                        [in] VARIANT config, 
+                        [in] InanoCADPlotCustomParams* param);
+    };
+
+    
+    
+        
+        
+    
+
+    [
+      uuid(D8C943CB-423C-4E03-8FD6-E84465BE3D9C),
+      helpstring("Event interface for Plot"),
+      hidden
+    ]
+    dispinterface _DnanoCADPlotEvents {
+        properties:
+        methods:
+            [id(0x00000001), helpstring("Triggered before page beging printing")]
+            HRESULT BeginPage([in] BSTR TODOName);
+            [id(0x00000002), helpstring("Triggered just after page has been plotted")]
+            HRESULT EndPage([in, out] VARIANT_BOOL* Cancel);
+    };
+
+    [
+      odl,
+      uuid(996AFFC0-E71D-479A-9826-41F4DA8DA1C6),
+      helpstring("The set of methods and properties used for plotting layouts"),
+      dual,
+      oleautomation
+    ]
+    interface InanoCADPlotCustomParamsEx : InanoCADPlotCustomParams {
+        [id(0x60020201), propget, helpstring("Retrieves RunPDFAppEx value")]
+        HRESULT RunPDFAppEx([out, retval] long* val);
+        [id(0x60020201), propput, helpstring("Retrieves RunPDFAppEx value")]
+        HRESULT RunPDFAppEx([in] long val);
+    };
+
+    [
+      uuid(821D4E07-102B-4F78-8B26-E5BC0A18A96B),
+      helpstring("Event interface for ThisDrawing"),
+      hidden
+    ]
+    dispinterface _DnanoCADDocumentEvents {
+        properties:
+        methods:
+            [id(0x00000001), helpstring("Occurs when a drawing is requested to be saved.")]
+            HRESULT BeginSave([in] BSTR FileName);
+            [id(0x00000002), helpstring("Occurs when the application has finished saving a drawing.")]
+            HRESULT EndSave([in] BSTR FileName);
+            [id(0x00000006), helpstring("Occurs immediately after a command is called.")]
+            HRESULT BeginCommand([in] BSTR CommandName);
+            [id(0x00000007), helpstring("Occurs immediately after a command is completed.")]
+            HRESULT EndCommand([in] BSTR CommandName);
+            [id(0x0000000b), helpstring("Occurs when a change takes place to the current selection set.")]
+            HRESULT SelectionChanged();
+            [id(0x0000000c), helpstring("Occurs when a drawing window is activated.")]
+            HRESULT Activate();
+            [id(0x0000000d), helpstring("Occurs when a drawing window is deactivated.")]
+            HRESULT Deactivate();
+            [id(0x0000000e), helpstring("Occurs when a right-click takes place in a drawing.")]
+            HRESULT BeginRightClick([in] VARIANT PickPoint);
+            [id(0x0000000f), helpstring("Occurs when a right-click takes place in a drawing and before a default shortcut menu appears.")]
+            HRESULT BeginShortcutMenuDefault([out] IDispatch** ShortcutMenu);
+            [id(0x00000010), helpstring("Occurs when a right-click takes place in a drawing and before an edit shortcut menu appears.")]
+            HRESULT BeginShortcutMenuEdit(
+                            [out] IDispatch** ShortcutMenu, 
+                            [out] IDispatch** SelectionSet);
+            [id(0x00000011), helpstring("Occurs when a right-click takes place in a drawing and before a command shortcut menu appears.")]
+            HRESULT BeginShortcutMenuCommand(
+                            [out] IDispatch** ShortcutMenu, 
+                            [in] BSTR Command);
+            [id(0x00000012), helpstring("Occurs when a right-click takes place in a drawing and before a grip shortcut menu appears.")]
+            HRESULT BeginShortcutMenuGrip([out] IDispatch** ShortcutMenu);
+            [id(0x00000013), helpstring("Occurs when a right-click takes place in a drawing and before a snap shortcut menu appears.")]
+            HRESULT BeginShortcutMenuOsnap([out] IDispatch** ShortcutMenu);
+            [id(0x0000001e), helpstring("Occurs after a shortcut menu displays.")]
+            HRESULT EndShortcutMenu([out] IDispatch** ShortcutMenu);
+            [id(0x00000014), helpstring("Occurs after a double-click takes place in a drawing.")]
+            HRESULT BeginDoubleClick([in] VARIANT PickPoint);
+            [id(0x00000015), helpstring("Occurs when an object is added to a drawing.")]
+            HRESULT ObjectAdded([in] IDispatch* Object);
+            [id(0x00000016), helpstring("Occurs when an object is deleted from a drawing.")]
+            HRESULT ObjectErased([in] LONG_PTR ObjectID);
+            [id(0x00000017), helpstring("Occurs when an object is modified in a drawing.")]
+            HRESULT ObjectModified([in] IDispatch* Object);
+            [id(0x00000018), helpstring("Occurs when a drawing is requested to be printed.")]
+            HRESULT BeginPlot([in] BSTR DrawingName);
+            [id(0x00000019), helpstring("Occurs when the application has finished printing a drawing.")]
+            HRESULT EndPlot([in] BSTR DrawingName);
+            [id(0x0000001d), helpstring("Occurs when the drawing window is moved or resized.")]
+            HRESULT WindowMovedOrResized(
+                            [in] LONG_PTR HWNDFrame, 
+                            [in] VARIANT_BOOL bMoved);
+            [id(0x0000001f), helpstring("Occurs after switching to a different layout.")]
+            HRESULT LayoutSwitched([in] BSTR LayoutName);
+            [id(0x00000020), helpstring("Occurs when a change is made to the state of an application, document, or workspace window.")]
+            HRESULT WindowChanged([in] AcWindowState WindowState);
+            [id(0x00000021), helpstring("Occurs when a drawing is requested to be closed.")]
+            HRESULT BeginClose();
+            [id(0x00000022), helpstring("Occurs just before the BeginClose event, providing a chance to cancel the close process.")]
+            HRESULT BeginDocClose([in, out] VARIANT_BOOL* Cancel);
+    };
+
+    [
+      uuid(1FC13137-AFB2-4995-9CAE-D5A51F58CD5C),
+      helpstring("Event interface for AcadApplication"),
+      hidden
+    ]
+    dispinterface _DnanoCADApplicationEvents {
+        properties:
+        methods:
+            [id(0x00000001), helpstring("Triggered when the value of a system variable is changed")]
+            HRESULT SysVarChanged(
+                            [in] BSTR SysvarName, 
+                            [in] VARIANT newVal);
+            [id(0x00000002), helpstring("Triggered just before a new drawing is created")]
+            HRESULT NewDrawing();
+            [id(0x00000003), helpstring("Triggered just before the main application window is activated")]
+            HRESULT AppActivate();
+            [id(0x00000004), helpstring("Triggered just before the main application window is deactivated")]
+            HRESULT AppDeactivate();
+            [id(0x00000005), helpstring("Happens when the main frame window is moved or resized")]
+            HRESULT WindowMovedOrResized(
+                            [in] LONG_PTR HWNDFrame, 
+                            [in] VARIANT_BOOL bMoved);
+            [id(0x00000006), helpstring("Triggered just before a modal dialog is displayed")]
+            HRESULT BeginModal();
+            [id(0x00000007), helpstring("Triggered just after a modal dialog is dismissed")]
+            HRESULT EndModal();
+            [id(0x00000008), helpstring("Triggered just before an session ends or a document closes")]
+            HRESULT BeginQuit([in] VARIANT_BOOL* Cancel);
+            [id(0x0000000a), helpstring("Triggered when a file is dropped on the main application window")]
+            HRESULT BeginFileDrop(
+                            [in] BSTR FileName, 
+                            [in] VARIANT_BOOL* Cancel);
+            [id(0x0000000d), helpstring("Triggered immediately after receives a request to print a drawing")]
+            HRESULT BeginPlot([in] BSTR DrawingName);
+            [id(0x0000000e), helpstring("Triggered after a document has been sent to the printer")]
+            HRESULT EndPlot([in] BSTR DrawingName);
+            [id(0x00000013), helpstring("Triggered immediately after app receives a request to save the drawing")]
+            HRESULT BeginSave([in] BSTR FileName);
+            [id(0x00000014), helpstring("Triggered when App has finished saving the drawing")]
+            HRESULT EndSave([in] BSTR FileName);
+            [id(0x00000015), helpstring("Triggered immediately after App receives a request to open an existing drawing")]
+            HRESULT BeginOpen([in] BSTR FileName);
+            [id(0x00000016), helpstring("Triggered immediately after App finishes opening an existing drawing")]
+            HRESULT EndOpen([in] BSTR FileName);
+            [id(0x00000011), helpstring("Triggered immediately after a command is issued, but before it completes")]
+            HRESULT BeginCommand([in] BSTR CommandName);
+            [id(0x00000012), helpstring("Triggered immediately after a command completes")]
+            HRESULT EndCommand([in] BSTR CommandName);
+            [id(0x00000019), helpstring("Triggered when there is a change to the application or document windows")]
+            HRESULT WindowChanged([in] AcWindowState WindowState);
+    };
+
+    [
+      odl,
+      uuid(4BC8C0E6-7530-441D-81AC-35022A806DF0),
+      helpstring("Assembly command"),
+      dual,
+      oleautomation
+    ]
+    interface IACommand : IDispatch {
+        [id(00000000), propget, helpstring("command type")]
+        HRESULT Type([out, retval] long* Type);
+        [id(0x00000001), propget, helpstring("command type")]
+        HRESULT ID([out, retval] long* ID);
+        [id(0x00000001), propput, helpstring("command type")]
+        HRESULT ID([in] long ID);
+        [id(0x00000002), propget, helpstring("internal name")]
+        HRESULT InternalName([out, retval] BSTR* Name);
+        [id(0x00000003), propget, helpstring("disp name")]
+        HRESULT DispName([out, retval] BSTR* Name);
+        [id(0x00000004), propget, helpstring("weight")]
+        HRESULT Weight([out, retval] long* Weight);
+        [id(0x00000005), propget, helpstring("launch weight")]
+        HRESULT LaunchWeight([out, retval] long* Weight);
+        [id(0x00000006), propget, helpstring("StatusString")]
+        HRESULT StatusString([out, retval] BSTR* str);
+        [id(0x00000007), propget, helpstring("tooltip string")]
+        HRESULT ToolTip([out, retval] BSTR* str);
+        [id(0x00000008), propget, helpstring("caps")]
+        HRESULT Caps([out, retval] long* Caps);
+        [id(0x00000009), propget, helpstring("menu string")]
+        HRESULT MenuText([out, retval] BSTR* str);
+        [id(0x0000000a), propget, helpstring("menu group")]
+        HRESULT MenuGroup([out, retval] BSTR* str);
+        [id(0x0000000b), helpstring("Run command")]
+        HRESULT Run([in] IAHelper* helper);
+    };
+
+    [
+      odl,
+      uuid(39EAB340-CB64-43E0-8F99-9A222DDA7B93),
+      helpstring("Assembly command helper"),
+      dual,
+      oleautomation
+    ]
+    interface IAHelper : IDispatch {
+        [id(00000000), propget, helpstring("Retrieves the command item from assembly")]
+        HRESULT Item(
+                        [in] BSTR Name, 
+                        [out, retval] IDispatch** cmd);
+        [id(0x00000001), propget, helpstring("Gets the number of commands in assembly")]
+        HRESULT Count([out, retval] long* pVal);
+        [id(0xfffffffc), propget, restricted, hidden]
+        HRESULT _NewEnum([out, retval] IUnknown** pVal);
+    };
+
+    [
+      odl,
+      uuid(542E621F-57B6-4E80-A0EC-5C7DA6840A5D),
+      helpstring("Assembly loader"),
+      dual,
+      oleautomation
+    ]
+    interface IALoader : IDispatch {
+        [id(00000000), propget, helpstring("Retrieves the command item from assembly")]
+        HRESULT Item(
+                        [in] BSTR Name, 
+                        [out, retval] IACommand** cmd);
+        [id(0x00000001), propget, helpstring("Gets the number of commands in assembly")]
+        HRESULT Count([out, retval] long* pVal);
+        [id(0xfffffffc), propget, restricted, hidden]
+        HRESULT _NewEnum([out, retval] IUnknown** pVal);
+        [id(0x00000002), helpstring("Loads the assembly")]
+        HRESULT Load([in] BSTR Path);
+        [id(0x00000003), helpstring("unLoads the assembly")]
+        HRESULT Unload();
+    };
+
+    [
+      uuid(D6461EF4-3DE2-4A9A-8269-539C229D2626),
+      helpstring("Assembly loader class")
+    ]
+    coclass ALoader {
+        [default] interface IALoader;
+    };
+
+    [
+      uuid(AF42A40D-9E57-4B39-89A7-704C7BCE605D),
+      helpstring("Assembly command helper class")
+    ]
+    coclass AHelper {
+        [default] interface IAHelper;
+    };
+
+    [
+      uuid(DA67E44B-BDAA-423B-98FA-BFCE4F029F1E),
+      helpstring("Arguments - string collection class"),
+      noncreatable
+    ]
+    coclass Arguments {
+        [default] interface IArguments;
+    };
+
+    [
+      uuid(9C728935-C8AC-4721-B8EF-ED0B48F85735),
+      helpstring("Param - the Iparam wrapper class"),
+      noncreatable
+    ]
+    coclass Params {
+        [default] interface IParams;
+    };
+
+    [
+      odl,
+      uuid(C653FDF6-3593-4717-9AA2-DF38531B4365),
+      helpstring("Provides access to database without document."),
+      dual,
+      oleautomation
+    ]
+    interface IAxDbDocument : IAcadDatabase {
+        [id(0x00000017), propget, helpstring("Specifies the name of the document")]
+        HRESULT Name([out, retval] BSTR* Name);
+        [id(0x00000017), propput, helpstring("Specifies the name of the document")]
+        HRESULT Name([in] BSTR Name);
+        [id(0x00000018), helpstring("Opens document.")]
+        HRESULT Open(
+                        [in] BSTR FileName, 
+                        [in, optional] VARIANT Password);
+        [id(0x00000019), helpstring("Saves document.")]
+        HRESULT Save();
+        [id(0x0000001a), helpstring("Saves document with new name.")]
+        HRESULT SaveAs(
+                        [in] BSTR FileName, 
+                        [in, optional] VARIANT vSecurityParams);
+        [id(0x0000001b), helpstring("DxfIn.")]
+        HRESULT DxfIn(
+                        [in] BSTR FileName, 
+                        [in, optional] VARIANT LogFileName);
+        [id(0x0000001c), helpstring("DxfOut.")]
+        HRESULT DxfOut(
+                        [in] BSTR FileName, 
+                        [in, optional] VARIANT precision, 
+                        [in, optional] VARIANT SaveThumbnailImage);
+        [id(0x0000001d), propget, helpstring("Retrieves an Application object")]
+        HRESULT Application([out, retval] InanoCADApplication** pAppObj);
+        [id(0x0000001e), propget, helpstring("Retrieves an database object")]
+        HRESULT Database([out, retval] IAcadDatabase** Database);
+    };
+
+    [
+      uuid(DD1D46BD-450D-45DF-A29D-3ED9D32C864F),
+      helpstring("nanoCAD Application Class")
+    ]
+    coclass Application {
+        [default] interface InanoCADApplication;
+        interface InanoCADDocuments;
+        [default, source] dispinterface _DnanoCADApplicationEvents;
+    };
+
+    [
+      uuid(7D894B5B-D182-4AB4-B73A-0516D450BAB2),
+      helpstring("Services class"),
+      noncreatable
+    ]
+    coclass Services {
+        [default] interface InanoCADServices;
+    };
+
+    [
+      uuid(59A5150D-50C5-4C7E-B380-439C23B4751F),
+      helpstring("Utility Class"),
+      noncreatable
+    ]
+    coclass Utility {
+        [default] interface InanoCADUtility;
+    };
+
+    [
+      uuid(8D7F238A-C964-423C-B159-C15CA031AD60),
+      helpstring("Documents Class"),
+      noncreatable
+    ]
+    coclass Documents {
+        [default] interface InanoCADDocuments;
+    };
+
+    [
+      uuid(7B99FE27-7A12-44A7-A76B-C9772DE52713),
+      helpstring("Document Class"),
+      noncreatable
+    ]
+    coclass Document {
+        [default] interface InanoCADDocument;
+        [default, source] dispinterface _DnanoCADDocumentEvents;
+    };
+
+    [
+      uuid(3A5AADB5-EE77-46F5-9C18-DDC86DA781D2),
+      helpstring("AxDbDocument Class"),
+      noncreatable
+    ]
+    coclass AxDbDocument {
+        [default] interface IAxDbDocument;
+    };
+
+    [
+      uuid(A05BCD04-3F16-453A-8532-D640BEA766D2),
+      helpstring("Plot service Class"),
+      noncreatable
+    ]
+    coclass Plot {
+        [default] interface InanoCADPlot;
+        [default, source] dispinterface _DnanoCADPlotEvents;
+    };
+
+    [
+      uuid(97CF9B83-F6CF-4112-A0C3-922A8F6A93DD),
+      helpstring("Plot Area class"),
+      noncreatable
+    ]
+    coclass PlotArea {
+        [default] interface InanoCADPlotArea;
+    };
+
+    [
+      uuid(1DB4C0E2-AE2D-402C-982E-6353DEF790DC),
+      helpstring("Plot Areas class"),
+      noncreatable
+    ]
+    coclass PlotAreas {
+        [default] interface InanoCADPlotAreas;
+    };
+
+    [
+      uuid(B7EA05FA-5D1A-4E9B-9D7C-C2EFFD5B0652),
+      helpstring("Plot Custom params class"),
+      noncreatable
+    ]
+    coclass PlotCustomParams {
+        [default] interface InanoCADPlotCustomParamsEx;
+    };
+
+    [
+      uuid(D7B2BAC2-C552-4624-97AA-26380630D6F8),
+      helpstring("SelectionSets Class"),
+      noncreatable
+    ]
+    coclass SelectionSets {
+        [default] interface InanoCADSelectionSets;
+    };
+
+    [
+      uuid(F4BE43A3-BCC4-458F-AB83-60E62B0A435E),
+      helpstring("SelectionSet Class"),
+      noncreatable
+    ]
+    coclass SelectionSet {
+        [default] interface InanoCADSelectionSet;
+    };
+
+    [
+      uuid(8AAFA3A8-1404-46A5-8371-60DA4093067B),
+      helpstring("AppState Class"),
+      noncreatable
+    ]
+    coclass State {
+        [default] interface InanoCADState;
+    };
+
+    [
+      odl,
+      uuid(ACE692E1-A2DA-4613-B7D8-993465BA4FAD),
+      helpstring("Enum value helper"),
+      dual,
+      oleautomation
+    ]
+    interface IEnuVal : IDispatch {
+        [id(00000000), propget, helpstring("Retrieves the enum name value")]
+        HRESULT Item([out, retval] VARIANT* val);
+    };
+
+    [
+      uuid(95DFCA00-FD29-429A-9B20-E5C512096936),
+      helpstring("EnuVal"),
+      noncreatable
+    ]
+    coclass EnuVal {
+        [default] interface IEnuVal;
+    };
+
+    [
+      uuid(19E55113-F52B-44A6-BC66-718D79C34EB6),
+      helpstring("MenuGroups"),
+      noncreatable
+    ]
+    coclass MenuGroups {
+        [default] interface InanoCADMenuGroups;
+    };
+
+    [
+      uuid(DC0AD3BE-002D-4C7C-947D-B2A10505B0F6),
+      helpstring("MenuGroup"),
+      noncreatable
+    ]
+    coclass MenuGroup {
+        [default] interface InanoCADMenuGroup;
+    };
+
+    [
+      uuid(F2E2809A-D687-4BAE-8B05-196F51246043),
+      helpstring("Toolbars"),
+      noncreatable
+    ]
+    coclass Toolbars {
+        [default] interface InanoCADToolbars;
+    };
+
+    [
+      uuid(80A949E6-B292-4C8A-95CB-D1ABF828B178),
+      helpstring("Toolbar"),
+      noncreatable
+    ]
+    coclass Toolbar {
+        [default] interface InanoCADToolbar;
+    };
+
+    [
+      uuid(A049FE20-E780-45FA-B4C1-E94D8CA66A85),
+      helpstring("ToolbarItem"),
+      noncreatable
+    ]
+    coclass ToolbarItem {
+        [default] interface InanoCADToolbarItem;
+    };
+
+    [
+      uuid(7B76C8DB-98BC-4055-A20F-08B1580742FA),
+      helpstring("MenuBar"),
+      noncreatable
+    ]
+    coclass MenuBar {
+        [default] interface InanoCADMenuBar;
+    };
+
+    [
+      uuid(B5D31740-154C-4484-95FD-96C1F234D31A),
+      helpstring("PopupMenu"),
+      noncreatable
+    ]
+    coclass PopupMenu {
+        [default] interface InanoCADPopupMenu;
+    };
+
+    [
+      uuid(E11CC80A-997D-48C6-A61B-BD14BACE6CC4),
+      helpstring("PopupMenus"),
+      noncreatable
+    ]
+    coclass PopupMenus {
+        [default] interface InanoCADPopupMenus;
+    };
+
+    [
+      uuid(567D9E1B-334E-4207-96B2-564D0BE87758),
+      helpstring("PopupMenuItem"),
+      noncreatable
+    ]
+    coclass PopupMenuItem {
+        [default] interface InanoCADPopupMenuItem;
+    };
+
+    [
+      uuid(8E3AAA05-6A68-4572-89BE-159FD869D8FF),
+      helpstring("Preferences Class"),
+      noncreatable
+    ]
+    coclass Preferences {
+        [default] interface InanoCADPreferences;
+    };
+
+    [
+      uuid(2C9C432E-43ED-468B-B544-E2C31709281C),
+      helpstring("PreferencesFiles Class"),
+      noncreatable
+    ]
+    coclass PreferencesFiles {
+        [default] interface InanoCADPreferencesFiles;
+    };
+
+    [
+      uuid(94AFED4B-B503-4106-A633-F37930D645B9),
+      helpstring("PreferencesDisplay Class"),
+      noncreatable
+    ]
+    coclass PreferencesDisplay {
+        [default] interface InanoCADPreferencesDisplay;
+    };
+
+    [
+      uuid(9853E0DB-9B3E-4E11-A38B-35DEC52CBF66),
+      helpstring("PreferencesProfiles Class"),
+      noncreatable
+    ]
+    coclass PreferencesProfiles {
+        [default] interface InanoCADPreferencesProfiles;
+    };
+
+    [
+      uuid(5A5D546C-293C-45CA-A01D-774D0E5CB014),
+      helpstring("PreferencesSelection Class"),
+      noncreatable
+    ]
+    coclass PreferencesSelection {
+        [default] interface InanoCADPreferencesSelection;
+    };
+};
