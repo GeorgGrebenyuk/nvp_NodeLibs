@@ -1,0 +1,213 @@
+﻿// Generated .IDL file (by the OLE/COM Object Viewer)
+// 
+// typelib filename: csMSStormCom.nrx
+
+[
+  uuid(21AB607E-30A2-4779-9C1B-6EEDC77A8E0E),
+  version(1.0),
+  helpstring("Model Studio STORM Objects 1.0 Type Library"),
+  custom(DE77BA64-517C-11D1-A2DA-0000F8773CE9, 134283886),
+  custom(DE77BA63-517C-11D1-A2DA-0000F8773CE9, 2147483647),
+  custom(DE77BA65-517C-11D1-A2DA-0000F8773CE9, "Created by MIDL version 8.01.0622 at Tue Jan 19 06:14:07 2038
+")
+
+]
+library CSMSStormComLib
+{
+    // TLib : OLE Automation : {00020430-0000-0000-C000-000000000046}
+    importlib("stdole2.tlb");
+    // TLib : OdaX 21.8 (x64) Type Library : {0DFA2554-8A2B-44D0-BE8F-85EEB803AEE9}
+    importlib("OdaX_csd.dll");
+
+    // Forward declare all types defined in this typelib
+    interface IcsLightningProtectionWrp;
+    interface IcsLightOPMPropDlg;
+
+    [
+      odl,
+      uuid(2EE87D9C-5A81-4BC8-8723-CAEE95890C8C),
+      helpstring("IcsLightningProtectionWrp Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IcsLightningProtectionWrp : IAcadEntity {
+        [id(0x00000005), propget, helpstring("property ZoneType")]
+        HRESULT ZoneType([out, retval] short* pVal);
+        [id(0x00000006), propget, helpstring("property Element")]
+        HRESULT Element([out, retval] VARIANT* pVal);
+        [id(0x00000006), propput, helpstring("property Element")]
+        HRESULT Element([in] VARIANT pVal);
+        [id(0x00000007), propget, helpstring("property Reliability")]
+        HRESULT Reliability([out, retval] short* pVal);
+        [id(0x0000000f), propget, helpstring("property SingleRodName")]
+        HRESULT SingleRodName([out, retval] short* pVal);
+        [id(0x0000000f), propput, helpstring("property SingleRodName")]
+        HRESULT SingleRodName([in] short pVal);
+        [id(0x00000010), propget, helpstring("property SingleRodHeight")]
+        HRESULT SingleRodHeight([out, retval] double* pVal);
+        [id(0x00000011), propget, helpstring("property SingleRodHeight0")]
+        HRESULT SingleRodHeight0([out, retval] double* pVal);
+        [id(0x00000012), propget, helpstring("property SingleRodRadius0")]
+        HRESULT SingleRodRadius0([out, retval] double* pVal);
+        [id(0x00000013), propget, helpstring("property SingleRodRadiusX")]
+        HRESULT SingleRodRadiusX([out, retval] double* pVal);
+        [id(0x00000014), propget, helpstring("property DoubleRodName")]
+        HRESULT DoubleRodName([out, retval] short* pVal);
+        [id(0x00000014), propput, helpstring("property DoubleRodName")]
+        HRESULT DoubleRodName([in] short pVal);
+        [id(0x00000015), propget, helpstring("property DoubleRodL")]
+        HRESULT DoubleRodL([out, retval] double* pVal);
+        [id(0x00000016), propget, helpstring("property DoubleRodLMax1")]
+        HRESULT DoubleRodLMax1([out, retval] double* pVal);
+        [id(0x0000001a), propget, helpstring("property DoubleRodLMax2")]
+        HRESULT DoubleRodLMax2([out, retval] double* pVal);
+        [id(0x00000017), propget, helpstring("property DoubleRodLC1")]
+        HRESULT DoubleRodLC1([out, retval] double* pVal);
+        [id(0x0000001b), propget, helpstring("property DoubleRodLC2")]
+        HRESULT DoubleRodLC2([out, retval] double* pVal);
+        [id(0x0000001e), propget, helpstring("property DoubleRodHeightC")]
+        HRESULT DoubleRodHeightC([out, retval] double* pVal);
+        [id(0x00000018), propget, helpstring("property DoubleRodHeightC1")]
+        HRESULT DoubleRodHeightC1([out, retval] double* pVal);
+        [id(0x0000001c), propget, helpstring("property DoubleRodHeightC2")]
+        HRESULT DoubleRodHeightC2([out, retval] double* pVal);
+        [id(0x00000046), propget, helpstring("property DoubleRodRadiusC")]
+        HRESULT DoubleRodRadiusC([out, retval] double* pVal);
+        [id(0x0000001f), propget, helpstring("property DoubleRodRadiusCX")]
+        HRESULT DoubleRodRadiusCX([out, retval] double* pVal);
+        [id(0x00000019), propget, helpstring("property DoubleRodLX1")]
+        HRESULT DoubleRodLX1([out, retval] double* pVal);
+        [id(0x0000001d), propget, helpstring("property DoubleRodLX2")]
+        HRESULT DoubleRodLX2([out, retval] double* pVal);
+        [id(0x00000020), propget, helpstring("property SingleTrosName")]
+        HRESULT SingleTrosName([out, retval] short* pVal);
+        [id(0x00000020), propput, helpstring("property SingleTrosName")]
+        HRESULT SingleTrosName([in] short pVal);
+        [id(0x00000021), propget, helpstring("property SingleTrosL")]
+        HRESULT SingleTrosL([out, retval] double* pVal);
+        [id(0x00000022), propget, helpstring("property SingleTrosMinHeight")]
+        HRESULT SingleTrosMinHeight([out, retval] double* pVal);
+        [id(0x00000023), propget, helpstring("property SingleTrosHeight0")]
+        HRESULT SingleTrosHeight0([out, retval] double* pVal);
+        [id(0x00000024), propget, helpstring("property SingleTrosRadius0")]
+        HRESULT SingleTrosRadius0([out, retval] double* pVal);
+        [id(0x00000025), propget, helpstring("property SingleTrosRadiusX")]
+        HRESULT SingleTrosRadiusX([out, retval] double* pVal);
+        [id(0x00000026), propget, helpstring("property DoubleTrosName")]
+        HRESULT DoubleTrosName([out, retval] short* pVal);
+        [id(0x00000026), propput, helpstring("property DoubleTrosName")]
+        HRESULT DoubleTrosName([in] short pVal);
+        [id(0x00000027), propget, helpstring("property DoubleTrosL")]
+        HRESULT DoubleTrosL([out, retval] double* pVal);
+        [id(0x00000028), propget, helpstring("property DoubleTrosLmax")]
+        HRESULT DoubleTrosLmax([out, retval] double* pVal);
+        [id(0x00000029), propget, helpstring("property DoubleTrosLmax1")]
+        HRESULT DoubleTrosLmax1([out, retval] double* pVal);
+        [id(0x0000002a), propget, helpstring("property DoubleTrosLc")]
+        HRESULT DoubleTrosLc([out, retval] double* pVal);
+        [id(0x0000002b), propget, helpstring("property DoubleTrosMinHeight")]
+        HRESULT DoubleTrosMinHeight([out, retval] double* pVal);
+        [id(0x0000002c), propget, helpstring("property DoubleTrosMinHeight1")]
+        HRESULT DoubleTrosMinHeight1([out, retval] double* pVal);
+        [id(0x0000002d), propget, helpstring("property DoubleTrosHeight0")]
+        HRESULT DoubleTrosHeight0([out, retval] double* pVal);
+        [id(0x0000002e), propget, helpstring("property DoubleTrosHeight01")]
+        HRESULT DoubleTrosHeight01([out, retval] double* pVal);
+        [id(0x0000002f), propget, helpstring("property DoubleTrosRadius0")]
+        HRESULT DoubleTrosRadius0([out, retval] double* pVal);
+        [id(0x00000030), propget, helpstring("property DoubleTrosRadius01")]
+        HRESULT DoubleTrosRadius01([out, retval] double* pVal);
+        [id(0x00000031), propget, helpstring("property DoubleTrosRadiusX")]
+        HRESULT DoubleTrosRadiusX([out, retval] double* pVal);
+        [id(0x00000032), propget, helpstring("property DoubleTrosRadiusX1")]
+        HRESULT DoubleTrosRadiusX1([out, retval] double* pVal);
+        [id(0x00000033), propget, helpstring("property DoubleTrosLx")]
+        HRESULT DoubleTrosLx([out, retval] double* pVal);
+        [id(0x00000034), propget, helpstring("property DoubleTrosLx1")]
+        HRESULT DoubleTrosLx1([out, retval] double* pVal);
+        [id(0x00000035), propget, helpstring("property DoubleTrosLmax2")]
+        HRESULT DoubleTrosLmax2([out, retval] double* pVal);
+        [id(0x00000036), propget, helpstring("property DoubleTrosMinHeight2")]
+        HRESULT DoubleTrosMinHeight2([out, retval] double* pVal);
+        [id(0x00000037), propget, helpstring("property DoubleTrosHeight02")]
+        HRESULT DoubleTrosHeight02([out, retval] double* pVal);
+        [id(0x00000038), propget, helpstring("property DoubleTrosRadius02")]
+        HRESULT DoubleTrosRadius02([out, retval] double* pVal);
+        [id(0x00000039), propget, helpstring("property DoubleTrosRadiusX2")]
+        HRESULT DoubleTrosRadiusX2([out, retval] double* pVal);
+        [id(0x0000003a), propget, helpstring("property DoubleTrosLx2")]
+        HRESULT DoubleTrosLx2([out, retval] double* pVal);
+        [id(0x0000003b), propget, helpstring("property DoubleTrosHeightC")]
+        HRESULT DoubleTrosHeightC([out, retval] double* pVal);
+        [id(0x0000003c), propget, helpstring("property DoubleTrosRadiusC")]
+        HRESULT DoubleTrosRadiusC([out, retval] double* pVal);
+        [id(0x0000003d), propget, helpstring("property DoubleTrosRadiusCX")]
+        HRESULT DoubleTrosRadiusCX([out, retval] double* pVal);
+        [id(0x0000003e), propget, helpstring("property ClosedTrosName")]
+        HRESULT ClosedTrosName([out, retval] short* pVal);
+        [id(0x0000003e), propput, helpstring("property ClosedTrosName")]
+        HRESULT ClosedTrosName([in] short pVal);
+        [id(0x0000003f), propget, helpstring("property ClosedTrosMinHeight")]
+        HRESULT ClosedTrosMinHeight([out, retval] double* pVal);
+        [id(0x00000040), propget, helpstring("property ClosedTrosHeight0")]
+        HRESULT ClosedTrosHeight0([out, retval] double* pVal);
+        [id(0x00000041), propget, helpstring("property ClosedTrosD")]
+        HRESULT ClosedTrosD([out, retval] double* pVal);
+        [id(0x00000041), propput, helpstring("property ClosedTrosD")]
+        HRESULT ClosedTrosD([in] double pVal);
+        [id(0x00000042), propget, helpstring("property ClosedTrosS0")]
+        HRESULT ClosedTrosS0([out, retval] double* pVal);
+        [id(0x00000043), propget, helpstring("property ClosedTrosA")]
+        HRESULT ClosedTrosA([out, retval] double* pVal);
+        [id(0x00000044), propget, helpstring("property ClosedTrosB")]
+        HRESULT ClosedTrosB([out, retval] double* pVal);
+        [id(0x00000045), propget, helpstring("property MultyRodName")]
+        HRESULT MultyRodName([out, retval] short* pVal);
+        [id(0x00000045), propput, helpstring("property MultyRodName")]
+        HRESULT MultyRodName([in] short pVal);
+        [id(0x00000048), propget, helpstring("property HeigthX")]
+        HRESULT HeigthX([out, retval] double* pVal);
+        [id(0x00000048), propput, helpstring("property HeigthX")]
+        HRESULT HeigthX([in] double pVal);
+        [id(0x00000049), propget, helpstring("property SectionEnabled")]
+        HRESULT SectionEnabled([out, retval] VARIANT_BOOL* pVal);
+        [id(0x00000049), propput, helpstring("property SectionEnabled")]
+        HRESULT SectionEnabled([in] VARIANT_BOOL pVal);
+        [id(0x0000004a), helpstring("method ConductorParameterCalc")]
+        HRESULT ConductorParameterCalc(
+                        [in] BSTR nameParam, 
+                        [in] long nConductor, 
+                        [in] long nMethod, 
+                        [in] double fReliability, 
+                        [out, retval] double* pVal);
+    };
+
+    [
+      uuid(343D118C-8FD8-475C-85F4-0B5E2F0FE210),
+      helpstring("csLightningProtectionWrp Class")
+    ]
+    coclass csLightningProtectionWrp {
+        [default] interface IcsLightningProtectionWrp;
+        [default, source] interface IAcadObjectEvents;
+    };
+
+    [
+      uuid(F3A5B920-F0AD-4C47-91A0-58C8876DC4FD),
+      helpstring("csLightOPMPropDlg Class")
+    ]
+    coclass csLightOPMPropDlg {
+        [default] interface IcsLightOPMPropDlg;
+    };
+
+    [
+      odl,
+      uuid(704D08B4-E54B-4141-B2B8-D4F5CEEE158C),
+      helpstring("IcsLightOPMPropDlg Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IcsLightOPMPropDlg : IUnknown {
+    };
+};

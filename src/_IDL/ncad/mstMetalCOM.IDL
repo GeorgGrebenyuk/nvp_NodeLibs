@@ -1,0 +1,185 @@
+﻿// Generated .IDL file (by the OLE/COM Object Viewer)
+// 
+// typelib filename: mstMetalCOM.nrx
+
+[
+  uuid(DABD1F91-8747-4606-BDBE-EE5EE247CC38),
+  version(1.0),
+  helpstring("Model Studio Cable 1.0 Type Library"),
+  custom(DE77BA64-517C-11D1-A2DA-0000F8773CE9, 134283890),
+  custom(DE77BA63-517C-11D1-A2DA-0000F8773CE9, 2147483647),
+  custom(DE77BA65-517C-11D1-A2DA-0000F8773CE9, "Created by MIDL version 8.01.0626 at Tue Jan 19 06:14:07 2038
+")
+
+]
+library mdsMetalLib
+{
+    // TLib : OLE Automation : {00020430-0000-0000-C000-000000000046}
+    importlib("stdole2.tlb");
+    // TLib : OdaX 23.2 (x64) Type Library : {0DFA2554-8A2B-44D0-BE8F-85EEB803AEE9}
+    importlib("OdaX_csd.dll");
+
+    // Forward declare all types defined in this typelib
+    interface IMDSCable;
+    interface IMDSCableJournal;
+    interface IMDSMetalParamsDlg;
+    interface IMDSSectionDef;
+    interface IMDSFASZone;
+
+    [
+      odl,
+      uuid(A95C08FF-1034-4110-9730-274CA715ED8F),
+      helpstring("IMDSCable Interface"),
+      dual,
+      oleautomation
+    ]
+    interface IMDSCable : IAcadEntity {
+        [id(0x00000001), propget, helpstring("Описание кабеля")]
+        HRESULT Name([out, retval] BSTR* pVal);
+        [id(0x00000001), propput, helpstring("Описание кабеля")]
+        HRESULT Name([in] BSTR pVal);
+        [id(0x00000002), propget, helpstring("Длина в метрах")]
+        HRESULT Length([out, retval] double* pVal);
+        [id(0x0000000d), propget, helpstring("Длина текущего участка в метрах")]
+        HRESULT SegmentLength([out, retval] double* pVal);
+        [id(0x00000009), propget, helpstring("Диаметр в мм")]
+        HRESULT Diameter([out, retval] double* pVal);
+        [id(0x0000000a), propget, helpstring("Группа")]
+        HRESULT Group([out, retval] BSTR* pVal);
+        [id(0x00000003), propget, helpstring("Начальная точка")]
+        HRESULT StartDesc([out, retval] BSTR* pVal);
+        [id(0x00000004), propget, helpstring("Конечная точка")]
+        HRESULT EndDesc([out, retval] BSTR* pVal);
+        [id(0x00000005), propget, helpstring("Параметры")]
+        HRESULT Element([out, retval] IDispatch** pVal);
+        [id(0x00000005), propput, helpstring("Параметры")]
+        HRESULT Element([in] IDispatch* pVal);
+        [id(0x00000006), propget, helpstring("Начало")]
+        HRESULT NodeStart([out, retval] IDispatch** pVal);
+        [id(0x00000007), propget, helpstring("Конец")]
+        HRESULT NodeEnd([out, retval] IDispatch** pVal);
+        [id(0x00000008), propget, helpstring("Режим эскиза")]
+        HRESULT SketchMode([out, retval] VARIANT_BOOL* pVal);
+        [id(0x00000008), propput, helpstring("Режим эскиза")]
+        HRESULT SketchMode([in] VARIANT_BOOL pVal);
+        [id(0x0000000b), helpstring("Вычисление длины кабеля между высотными отметками")]
+        HRESULT GetLengthOnLevel(
+                        [in] double LevelMin, 
+                        [in] double LevelMax, 
+                        [out, retval] double* Length);
+        [id(0x0000000c), propget, helpstring("Кабельный журнал")]
+        HRESULT Journal([out, retval] IDispatch** pVal);
+    };
+
+    [
+      odl,
+      uuid(52435A00-8771-4343-8827-450AEE4F833C),
+      helpstring("IMDSCableJournal Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IMDSCableJournal : IDispatch {
+        [id(0x00000001), propget, helpstring("Параметры")]
+        HRESULT Element([out, retval] IDispatch** pVal);
+        [id(0x0000000b), helpstring("Вычисление длины кабеля, проходящего по заданной конструкции")]
+        HRESULT GetLengthByConstruction(
+                        [in] BSTR ConstructionParam, 
+                        [in] BSTR ConstructionType, 
+                        [out, retval] double* Length);
+    };
+
+    [
+      uuid(D2FBFBC8-E12D-4C46-B735-F5879E268B1F),
+      helpstring("MDSCable Class")
+    ]
+    coclass MDSCable {
+        [default] interface IMDSCable;
+        [default, source] interface IAcadObjectEvents;
+    };
+
+    [
+      uuid(50B947AD-B6D9-437A-B3DB-57A36B10B745),
+      helpstring("MDSMetalParamsDlg Class")
+    ]
+    coclass MDSMetalParamsDlg {
+        [default] interface IMDSMetalParamsDlg;
+    };
+
+    [
+      odl,
+      uuid(D69F8875-BCC7-4022-AE4C-B6398940CBF5),
+      helpstring("IMDSMetalParamsDlg Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IMDSMetalParamsDlg : IDispatch {
+    };
+
+    [
+      uuid(755E8167-04A7-4877-99CD-810EB7D31558),
+      helpstring("WrSectionDef Class")
+    ]
+    coclass MDSSectionDef {
+        [default] interface IMDSSectionDef;
+        [default, source] interface IAcadObjectEvents;
+    };
+
+    [
+      odl,
+      uuid(718BF066-369C-4474-88E6-2E512E3A34CD),
+      helpstring("IMDSSectionDef Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IMDSSectionDef : IAcadEntity {
+        [id(0x00000001), propget, helpstring("property Name")]
+        HRESULT Name([out, retval] BSTR* pVal);
+        [id(0x00000001), propput, helpstring("property Name")]
+        HRESULT Name([in] BSTR pVal);
+        [id(0x00000004), propget, helpstring("property TextStyleName")]
+        HRESULT TextStyleName([out, retval] BSTR* pVal);
+        [id(0x00000004), propput, helpstring("property TextStyleName")]
+        HRESULT TextStyleName([in] BSTR pVal);
+        [id(0x00000005), propget, helpstring("property TextHeight")]
+        HRESULT TextHeight([out, retval] double* pVal);
+        [id(0x00000005), propput, helpstring("property TextHeight")]
+        HRESULT TextHeight([in] double pVal);
+        [id(0x00000006), propget, helpstring("property StrokeLng")]
+        HRESULT StrokeLng([out, retval] double* pVal);
+        [id(0x00000006), propput, helpstring("property StrokeLng")]
+        HRESULT StrokeLng([in] double pVal);
+    };
+
+    [
+      uuid(340B43A1-211C-478F-9464-0F45C26F91DF),
+      helpstring("MDSCableJournal Class")
+    ]
+    coclass MDSCableJournal {
+        [default] interface IMDSCableJournal;
+    };
+
+    [
+      uuid(33CF4EDA-087D-4745-B8E2-45463895EEB7),
+      helpstring("MDSFASZone Class")
+    ]
+    coclass MDSFASZone {
+        [default] interface IMDSFASZone;
+        [default, source] interface IAcadObjectEvents;
+    };
+
+    [
+      odl,
+      uuid(77EF8BE8-718E-47D2-AD81-D8516BDEB4C2),
+      helpstring("IMDSFASZone Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IMDSFASZone : IAcadEntity {
+        [id(0x00000001), propget, helpstring("property Name")]
+        HRESULT Name([out, retval] BSTR* pVal);
+    };
+};

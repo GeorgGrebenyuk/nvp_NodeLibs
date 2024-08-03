@@ -1,0 +1,208 @@
+﻿// Generated .IDL file (by the OLE/COM Object Viewer)
+// 
+// typelib filename: mstRouteCOM.nrx
+
+[
+  uuid(B491E8A1-16A1-4FDC-A4F5-15313C547E72),
+  version(1.0),
+  helpstring("mstRouteCOM 1.0 Type Library"),
+  custom(DE77BA64-517C-11D1-A2DA-0000F8773CE9, 134283890),
+  custom(DE77BA63-517C-11D1-A2DA-0000F8773CE9, 2147483647),
+  custom(DE77BA65-517C-11D1-A2DA-0000F8773CE9, "Created by MIDL version 8.01.0626 at Tue Jan 19 06:14:07 2038
+")
+
+]
+library mstRouteCOMLib
+{
+    // TLib : Model Studio Objects 1.0 Type Library : {1AE1985C-5D87-4E89-8E67-068628FC3CD6}
+    importlib("UnitsCSCom.nrx");
+    // TLib : OdaX 23.2 (x64) Type Library : {0DFA2554-8A2B-44D0-BE8F-85EEB803AEE9}
+    importlib("OdaX_csd.dll");
+    // TLib : OLE Automation : {00020430-0000-0000-C000-000000000046}
+    importlib("stdole2.tlb");
+
+    // Forward declare all types defined in this typelib
+    interface ImstRouteShelf;
+    interface ImstRouteShelves;
+    interface IPropsDiaWrap;
+    interface IPropsDiaShelf;
+    interface ImstRoutePrototype;
+
+    [
+      odl,
+      uuid(1D5CB976-8777-438C-9269-566A87823E17),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface ImstRouteShelf : IDispatch {
+        [id(0x00000001), propget, helpstring("Параметры полки")]
+        HRESULT Element([out, retval] IElement** pVal);
+        [id(0x00000002), propget, helpstring("Номер полки")]
+        HRESULT Id([out, retval] long* pVal);
+        [id(0x00000007), propget, helpstring("Ширина")]
+        HRESULT Width([out, retval] double* pVal);
+        [id(0x00000007), propput, helpstring("Ширина")]
+        HRESULT Width([in] double pVal);
+        [id(0x00000008), propget, helpstring("Высота")]
+        HRESULT Height([out, retval] double* pVal);
+        [id(0x00000008), propput, helpstring("Высота")]
+        HRESULT Height([in] double pVal);
+        [id(0x00000003), propget, helpstring("Смещение от оси вправо-влево")]
+        HRESULT Offset([out, retval] double* pVal);
+        [id(0x00000003), propput, helpstring("Смещение от оси вправо-влево")]
+        HRESULT Offset([in] double pVal);
+        [id(0x00000004), propget, helpstring("Смещение от оси вверх-вниз")]
+        HRESULT Elevation([out, retval] double* pVal);
+        [id(0x00000004), propput, helpstring("Смещение от оси вверх-вниз")]
+        HRESULT Elevation([in] double pVal);
+        [id(0x00000005), propget, helpstring("Резерв")]
+        HRESULT Reserve([out, retval] double* pVal);
+        [id(0x00000005), propput, helpstring("Резерв")]
+        HRESULT Reserve([in] double pVal);
+        [id(0x00000006), propget, helpstring("Подсветка")]
+        HRESULT Hilite([out, retval] VARIANT_BOOL* pVal);
+        [id(0x00000006), propput, helpstring("Подсветка")]
+        HRESULT Hilite([in] VARIANT_BOOL pVal);
+    };
+
+    [
+      odl,
+      uuid(28FDFA4E-4BE8-403B-A588-CC33FF42A480),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface ImstRouteShelves : IDispatch {
+        [id(0xfffffffc), propget, hidden, helpstring("property _NewEnum")]
+        HRESULT _NewEnum([out, retval] IUnknown** ppEnumVariant);
+        [id(00000000), helpstring("method Item")]
+        HRESULT Item(
+                        long Index, 
+                        [out, retval] ImstRouteShelf** pVal);
+        [id(0x00000001), propget, helpstring("property Count")]
+        HRESULT Count([out, retval] long* pVal);
+        [id(0x00000002), helpstring("method Add")]
+        HRESULT Add(
+                        [in] BSTR Name, 
+                        [in] double Width, 
+                        [in] double Height, 
+                        [in] double Offset, 
+                        [in] double Elevation, 
+                        [out, retval] ImstRouteShelf** pShelf);
+        [id(0x00000003), helpstring("method Remove")]
+        HRESULT Remove([in] VARIANT Index);
+    };
+
+    [
+      odl,
+      uuid(16A76BEF-8358-4908-8F3D-6B38AE8F27E5),
+      helpstring("IPropsDiaWrap Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IPropsDiaWrap : IUnknown {
+    };
+
+    [
+      odl,
+      uuid(BF4585E4-F924-4964-B7DD-3EB1185D7123),
+      helpstring("IPropsDiaShelf Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IPropsDiaShelf : IUnknown {
+    };
+
+    [
+      odl,
+      uuid(7A136EF8-DC43-49B1-8DB8-751D5A823ECE),
+      helpstring("ImstRoutePrototype Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface ImstRoutePrototype : IAcadEntity {
+        [id(0x00000002), propget, helpstring("StartPoint")]
+        HRESULT StartPosition([out, retval] VARIANT* pVal);
+        [id(0x00000002), propput, helpstring("StartPoint")]
+        HRESULT StartPosition([in] VARIANT pVal);
+        [id(0x00000003), propget, helpstring("EndPoint")]
+        HRESULT EndPosition([out, retval] VARIANT* pVal);
+        [id(0x00000003), propput, helpstring("EndPoint")]
+        HRESULT EndPosition([in] VARIANT pVal);
+        [id(0x00000004), propget, helpstring("Параметры")]
+        HRESULT Element([out, retval] IElement** pVal);
+        [id(0x00000004), propput, helpstring("Параметры")]
+        HRESULT Element([in] IElement* pVal);
+        [id(0x00000005), propget, helpstring("Полки")]
+        HRESULT Shelves([out, retval] ImstRouteShelves** pVal);
+        [id(0x00000005), propput, helpstring("Полки")]
+        HRESULT Shelves([in] ImstRouteShelves* pVal);
+        [id(0x00000006), propget, helpstring("Normal")]
+        HRESULT Normal([out, retval] VARIANT* pVal);
+        [id(0x00000006), propput, helpstring("Normal")]
+        HRESULT Normal([in] VARIANT pVal);
+        [id(0x00000007), propget, helpstring("Длина")]
+        HRESULT Length([out, retval] double* pVal);
+        [id(0x00000007), propput, helpstring("Длина")]
+        HRESULT Length([in] double pVal);
+        [id(0x00000008), propget, helpstring("Радиус")]
+        HRESULT Radius([out, retval] double* pVal);
+        [id(0x00000008), propput, helpstring("Радиус")]
+        HRESULT Radius([in] double pVal);
+        [id(0x00000009), propget, helpstring("Тип профиля")]
+        HRESULT ProfileType([out, retval] short* pVal);
+        [id(0x00000009), propput, helpstring("Тип профиля")]
+        HRESULT ProfileType([in] short pVal);
+        [id(0x0000000a), propget, helpstring("Плоскость изгиба")]
+        HRESULT BendType([out, retval] short* pVal);
+        [id(0x0000000a), propput, helpstring("Плоскость изгиба")]
+        HRESULT BendType([in] short pVal);
+        [id(0x0000000b), propget, helpstring("Показывать направление")]
+        HRESULT ShowDir([out, retval] short* pVal);
+        [id(0x0000000b), propput, helpstring("Показывать направление")]
+        HRESULT ShowDir([in] short pVal);
+    };
+
+    [
+      uuid(979590EF-E6D6-4F08-99EE-4C08411DDD4A),
+      helpstring("mstRoutePrototype Class")
+    ]
+    coclass mstRoutePrototype {
+        [default] interface ImstRoutePrototype;
+        [default, source] interface IAcadObjectEvents;
+    };
+
+    [
+      uuid(12BD3718-6246-4FE1-A0CD-88A63B6A9B37),
+      helpstring("PropsDiaWrap Class")
+    ]
+    coclass PropsDiaWrap {
+        [default] interface IPropsDiaWrap;
+    };
+
+    [
+      uuid(B937AABC-A269-4B61-AF5B-6376E124F103),
+      helpstring("PropsDiaShelf Class")
+    ]
+    coclass PropsDiaShelf {
+        [default] interface IPropsDiaShelf;
+    };
+
+    [
+      uuid(0C4602CA-1F54-49FB-A9C9-6FF1E97A1D58)
+    ]
+    coclass mstRouteShelves {
+        [default] interface ImstRouteShelves;
+    };
+
+    [
+      uuid(1A9AA0A8-0BBB-4EA5-8430-2DCDD9658DBD)
+    ]
+    coclass mstRouteShelf {
+        [default] interface ImstRouteShelf;
+    };
+};

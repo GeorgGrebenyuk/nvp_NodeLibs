@@ -1,0 +1,19 @@
+﻿// Generated .IDL file (by the OLE/COM Object Viewer)
+// 
+// typelib filename: msCABCom.nrx
+
+[
+  uuid(81D3F477-6153-4C9E-9497-FE20C1D4C7FC),
+  version(1.0),
+  helpstring("msCABCom 1.0 Type Library"),
+  custom(DE77BA64-517C-11D1-A2DA-0000F8773CE9, 134283886),
+  custom(DE77BA63-517C-11D1-A2DA-0000F8773CE9, 2147483647),
+  custom(DE77BA65-517C-11D1-A2DA-0000F8773CE9, "Created by MIDL version 8.01.0622 at Tue Jan 19 06:14:07 2038
+")
+
+]
+library msCABComLib
+{
+    // Forward declare all types defined in this typelib
+
+};

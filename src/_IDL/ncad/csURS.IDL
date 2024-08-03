@@ -1,0 +1,431 @@
+﻿// Generated .IDL file (by the OLE/COM Object Viewer)
+// 
+// typelib filename: csURS.nrx
+
+[
+  uuid(70A33123-81A3-4C4B-8A90-CFEDD3A35994),
+  version(1.0),
+  helpstring("Model Studio Unified Reporting Service 1.0 Type Library"),
+  custom(DE77BA64-517C-11D1-A2DA-0000F8773CE9, 134283890),
+  custom(DE77BA63-517C-11D1-A2DA-0000F8773CE9, 2147483647),
+  custom(DE77BA65-517C-11D1-A2DA-0000F8773CE9, "Created by MIDL version 8.01.0626 at Tue Jan 19 06:14:07 2038
+")
+
+]
+library mdsURSLib
+{
+    // TLib : OdaX 23.2 (x64) Type Library : {0DFA2554-8A2B-44D0-BE8F-85EEB803AEE9}
+    importlib("OdaX_csd.dll");
+    // TLib : OLE Automation : {00020430-0000-0000-C000-000000000046}
+    importlib("stdole2.tlb");
+
+    // Forward declare all types defined in this typelib
+    interface IURSApplication;
+    dispinterface _IURSApplicationEvents;
+    interface IDataLink;
+    interface IDataLinkArg;
+    dispinterface _IGraphicsLinkEvents;
+    interface IGraphicsLink;
+    dispinterface _ILocalHolePropEvents;
+    interface ILocalHoleProp;
+    interface IMDSLevelMark;
+    interface IMDSAxis;
+    interface IMDSSectionMark;
+    interface IOwnershipLink;
+    interface IMDSAxisDlg;
+
+    typedef [public]
+    __MIDL___MIDL_itf_URS_0000_0006_0001 DestApplications;
+
+    typedef enum {
+        appCustom = 0,
+        appMSWord = 1,
+        appMSExcel = 2
+    } __MIDL___MIDL_itf_URS_0000_0006_0001;
+
+    typedef [public]
+    __MIDL___MIDL_itf_URS_0000_0006_0002 GraphicsBinding;
+
+    typedef enum {
+        grBindNone = 0,
+        grBindX = 1,
+        grBindY = 2,
+        grBindZ = 4,
+        grBindAll = 7
+    } __MIDL___MIDL_itf_URS_0000_0006_0002;
+
+    [
+      odl,
+      uuid(F7CD1A7F-7AC2-473B-89EF-63A5404AF37D),
+      helpstring("IURSApplication Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IURSApplication : IDispatch {
+        [id(0x00000001), helpstring("method CreateReport")]
+        HRESULT CreateReport(
+                        [in, optional] VARIANT Profile, 
+                        [out, retval] IDispatch** ppXML);
+        [id(0x00000002), helpstring("method BindData")]
+        HRESULT BindData(
+                        [in] IDispatch* DataSource, 
+                        [in] IDispatch* DataOutputObject, 
+                        BSTR Query, 
+                        [in, optional] VARIANT GraphicsBinding);
+        [id(0x00000003), helpstring("method Query")]
+        HRESULT Query(
+                        [in] IDispatch* pDataSource, 
+                        [in] BSTR Query, 
+                        [out, retval] BSTR* Result);
+        [id(0x00000004), helpstring("method BindAttributeData")]
+        HRESULT BindAttributeData(
+                        [in] IDispatch* DataSource, 
+                        [in] IDispatch* BlockReference, 
+                        [in] BSTR AttrName, 
+                        [in] BSTR Query, 
+                        [in, optional] VARIANT GraphicsBinding);
+    };
+
+    [
+      uuid(6A3BB078-4283-4578-850D-A048F68724B3),
+      helpstring("_IURSApplicationEvents Interface")
+    ]
+    dispinterface _IURSApplicationEvents {
+        properties:
+        methods:
+            [id(0x00000001), helpstring("method OnRegisterReportConsumer")]
+            void OnRegisterReportConsumer(
+                            [out] BSTR* ConsumerName, 
+                            [out] VARIANT* ReportsInterested);
+            [id(0x00000002), helpstring("method OnReportComplete")]
+            void OnReportComplete(
+                            [in] BSTR ReportName, 
+                            [in] IDispatch* pReportXML);
+    };
+
+    [
+      uuid(1D67BE63-FC02-4508-90BD-D8CC0DAAFCF8),
+      helpstring("URSApplication Class")
+    ]
+    coclass URSApplication {
+        [default] interface IURSApplication;
+        [default, source] dispinterface _IURSApplicationEvents;
+    };
+
+    [
+      uuid(E8BCBB63-C71A-487D-960B-A58FCE70DA40),
+      helpstring("DataLink Class")
+    ]
+    coclass DataLink {
+        [default] interface IDataLink;
+    };
+
+    [
+      odl,
+      uuid(C99EF7B3-F1D3-4D43-B575-367C37CFCE22),
+      helpstring("IDataLink Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IDataLink : IDispatch {
+    };
+
+    [
+      uuid(4356559B-98D5-40FA-AF47-98B5E3025C0C),
+      helpstring("DataLinkArg Class")
+    ]
+    coclass DataLinkArg {
+        [default] interface IDataLinkArg;
+    };
+
+    [
+      odl,
+      uuid(7F56DBDC-621F-486B-B4D0-DA0BB55119D7),
+      helpstring("IDataLink Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IDataLinkArg : IDispatch {
+    };
+
+    [
+      uuid(C523ECA8-A18E-4DBA-81E5-7276EA94E4DA),
+      helpstring("_IGraphicsLinkEvents Interface")
+    ]
+    dispinterface _IGraphicsLinkEvents {
+        properties:
+        methods:
+    };
+
+    [
+      uuid(FDDA1995-C193-49B0-84A5-1A4EC8AD905F),
+      helpstring("GraphicsLink Class")
+    ]
+    coclass GraphicsLink {
+        [default] interface IGraphicsLink;
+        [default, source] dispinterface _IGraphicsLinkEvents;
+    };
+
+    [
+      odl,
+      uuid(D6C96448-1A85-4A95-8716-72518C4D0B60),
+      helpstring("IGraphicsLink Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IGraphicsLink : IDispatch {
+    };
+
+    [
+      uuid(E51A5841-026A-49C5-871D-9141BDF7986D),
+      helpstring("_LocalHolePropEvents Interface")
+    ]
+    dispinterface _ILocalHolePropEvents {
+        properties:
+        methods:
+    };
+
+    [
+      uuid(0057A958-4AFC-4074-B012-7DA1B012C6FE),
+      helpstring("LocalHoleProp Class")
+    ]
+    coclass LocalHoleProp {
+        [default] interface ILocalHoleProp;
+        [default, source] dispinterface _ILocalHolePropEvents;
+    };
+
+    [
+      odl,
+      uuid(E0387400-EC82-454D-AFE4-94786C68AB98),
+      helpstring("ILocalHoleProp Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface ILocalHoleProp : IDispatch {
+    };
+
+    [
+      odl,
+      uuid(931BA536-45A7-488A-A73C-044CC7B5E3CC),
+      helpstring("IMDSLevelMark Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IMDSLevelMark : IAcadEntity {
+        [id(0x00000001), propget, helpstring("property Location")]
+        HRESULT Location([out, retval] VARIANT* pVal);
+        [id(0x00000001), propput, helpstring("property Location")]
+        HRESULT Location([in] VARIANT pVal);
+        [id(0x00000002), propget, helpstring("property Value")]
+        HRESULT Value([out, retval] BSTR* pVal);
+        [id(0x00000002), propput, helpstring("property Value")]
+        HRESULT Value([in] BSTR pVal);
+        [id(0x00000003), propget, helpstring("property IsCustom")]
+        HRESULT IsCustom([out, retval] VARIANT_BOOL* pVal);
+        [id(0x00000003), propput, helpstring("property IsCustom")]
+        HRESULT IsCustom([in] VARIANT_BOOL pVal);
+        [id(0x00000004), propget, helpstring("property Scale")]
+        HRESULT Scale([out, retval] double* pVal);
+        [id(0x00000004), propput, helpstring("property Scale")]
+        HRESULT Scale([in] double pVal);
+        [id(0x00000005), propget, helpstring("property Base")]
+        HRESULT Base([out, retval] double* pVal);
+        [id(0x00000005), propput, helpstring("property Base")]
+        HRESULT Base([in] double pVal);
+        [id(0x00000006), propget, helpstring("property CoordinateId")]
+        HRESULT CoordinateId([out, retval] short* pVal);
+        [id(0x00000006), propput, helpstring("property CoordinateId")]
+        HRESULT CoordinateId([in] short pVal);
+        [id(0x00000007), propget, helpstring("property Precision")]
+        HRESULT Precision([out, retval] short* pVal);
+        [id(0x00000007), propput, helpstring("property Precision")]
+        HRESULT Precision([in] short pVal);
+        [id(0x00000010), propget, helpstring("property SignedPositive")]
+        HRESULT SignedPositive([out, retval] VARIANT_BOOL* pVal);
+        [id(0x00000010), propput, helpstring("property SignedPositive")]
+        HRESULT SignedPositive([in] VARIANT_BOOL pVal);
+        [id(0x00000008), propget, helpstring("property TextStyle")]
+        HRESULT TextStyle([out, retval] BSTR* pVal);
+        [id(0x00000008), propput, helpstring("property TextStyle")]
+        HRESULT TextStyle([in] BSTR pVal);
+        [id(0x00000009), propget, helpstring("property TextHeight")]
+        HRESULT TextHeight([out, retval] double* pVal);
+        [id(0x00000009), propput, helpstring("property TextHeight")]
+        HRESULT TextHeight([in] double pVal);
+        [id(0x0000000a), propget, helpstring("property ArrowHeight")]
+        HRESULT ArrowHeight([out, retval] double* pVal);
+        [id(0x0000000a), propput, helpstring("property ArrowHeight")]
+        HRESULT ArrowHeight([in] double pVal);
+        [id(0x0000000b), propget, helpstring("property ShelfWidth")]
+        HRESULT ShelfWidth([out, retval] double* pVal);
+        [id(0x0000000b), propput, helpstring("property ShelfWidth")]
+        HRESULT ShelfWidth([in] double pVal);
+        [id(0x0000000c), propget, helpstring("property ArrowSize")]
+        HRESULT ArrowSize([out, retval] double* pVal);
+        [id(0x0000000c), propput, helpstring("property ArrowSize")]
+        HRESULT ArrowSize([in] double pVal);
+        [id(0x0000000d), propget, helpstring("property ArrowLineWidth")]
+        HRESULT ArrowLineWidth([out, retval] double* pVal);
+        [id(0x0000000d), propput, helpstring("property ArrowLineWidth")]
+        HRESULT ArrowLineWidth([in] double pVal);
+        [id(0x0000000e), propget, helpstring("property ShelfOffset")]
+        HRESULT ShelfOffset([out, retval] double* pVal);
+        [id(0x0000000e), propput, helpstring("property ShelfOffset")]
+        HRESULT ShelfOffset([in] double pVal);
+        [id(0x0000000f), propget, helpstring("property OffsetX")]
+        HRESULT OffsetX([out, retval] double* pVal);
+        [id(0x0000000f), propput, helpstring("property OffsetX")]
+        HRESULT OffsetX([in] double pVal);
+        [id(0x00000011), propget, helpstring("property Bottom String")]
+        HRESULT BottomStrValue([out, retval] BSTR* pVal);
+        [id(0x00000011), propput, helpstring("property Bottom String")]
+        HRESULT BottomStrValue([in] BSTR pVal);
+        [id(0x00000012), propget, helpstring("property textGap")]
+        HRESULT TextGap([out, retval] double* pVal);
+        [id(0x00000012), propput, helpstring("property textGap")]
+        HRESULT TextGap([in] double pVal);
+        [id(0x00000013), propget, helpstring("property freemarklocation")]
+        HRESULT FreeMarkLocation([out, retval] VARIANT_BOOL* pVal);
+        [id(0x00000013), propput, helpstring("property freemarklocation")]
+        HRESULT FreeMarkLocation([in] VARIANT_BOOL pVal);
+    };
+
+    [
+      odl,
+      uuid(E40E9E63-196F-4934-BC58-6E3A68AD7F84),
+      helpstring("IMDSAxis Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IMDSAxis : IAcadEntity {
+        [id(0x00000001), propget, helpstring("Наименование сетки")]
+        HRESULT Name([out, retval] BSTR* pVal);
+        [id(0x00000001), propput, helpstring("Наименование сетки")]
+        HRESULT Name([in] BSTR pVal);
+        [id(0x00000002), propget, helpstring("Параметры сетки")]
+        HRESULT Parameters([out, retval] VARIANT* pVal);
+        [id(0x00000002), propput, helpstring("Параметры сетки")]
+        HRESULT Parameters([in] VARIANT pVal);
+        [id(0x00000003), propget, helpstring("Начало координат")]
+        HRESULT Origin([out, retval] VARIANT* pVal);
+        [id(0x00000003), propput, helpstring("Начало координат")]
+        HRESULT Origin([in] VARIANT pVal);
+        [id(0x00000004), propget, helpstring("Стиль текста")]
+        HRESULT TextStyle([out, retval] BSTR* pVal);
+        [id(0x00000004), propput, helpstring("Стиль текста")]
+        HRESULT TextStyle([in] BSTR pVal);
+        [id(0x00000005), propget, helpstring("Размер текста")]
+        HRESULT TextHeight([out, retval] double* pVal);
+        [id(0x00000005), propput, helpstring("Размер текста")]
+        HRESULT TextHeight([in] double pVal);
+    };
+
+    [
+      odl,
+      uuid(06099DDC-A158-4D4B-B706-00CDB05AF3EF),
+      helpstring("IMDSSectionMark Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IMDSSectionMark : IAcadEntity {
+        [id(0x00000001), propget, helpstring("Номер разреза")]
+        HRESULT SectNumber([out, retval] BSTR* pVal);
+        [id(0x00000001), propput, helpstring("Номер разреза")]
+        HRESULT SectNumber([in] BSTR pVal);
+        [id(0x00000002), propget, helpstring("Номер листа")]
+        HRESULT PageNumber([out, retval] BSTR* pv);
+        [id(0x00000002), propput, helpstring("Номер листа")]
+        HRESULT PageNumber([in] BSTR pv);
+        [id(0x00000007), propget, helpstring("Тип")]
+        HRESULT ViewportType([out, retval] long* pVal);
+        [id(0x00000003), propget, helpstring("Стиль текста")]
+        HRESULT TextStyle([out, retval] BSTR* pv);
+        [id(0x00000003), propput, helpstring("Стиль текста")]
+        HRESULT TextStyle([in] BSTR pv);
+        [id(0x00000004), propget, helpstring("Высота номера разреза")]
+        HRESULT NumbTxtHght([out, retval] double* pv);
+        [id(0x00000004), propput, helpstring("Высота номера разреза")]
+        HRESULT NumbTxtHght([in] double pv);
+        [id(0x00000005), propget, helpstring("Высота номера листа")]
+        HRESULT PageTxtHght([out, retval] double* pv);
+        [id(0x00000005), propput, helpstring("Высота номера листа")]
+        HRESULT PageTxtHght([in] double pv);
+        [id(0x00000006), propget, helpstring("Длина штриха")]
+        HRESULT StrokeLng([out, retval] double* pv);
+        [id(0x00000006), propput, helpstring("Длина штриха")]
+        HRESULT StrokeLng([in] double pv);
+    };
+
+    [
+      uuid(74AF7A9C-42FE-4492-9E9F-FDE001995E27),
+      helpstring("MDSLevelMark Class")
+    ]
+    coclass MDSLevelMark {
+        [default] interface IMDSLevelMark;
+        [default, source] interface IAcadObjectEvents;
+    };
+
+    [
+      uuid(EFB109F3-AF2D-41E6-8675-6DA0CE8ADEF2),
+      helpstring("OwnershipLink Class")
+    ]
+    coclass OwnershipLink {
+        [default] interface IOwnershipLink;
+    };
+
+    [
+      odl,
+      uuid(E799209F-A02E-49A5-95D8-496EBC56C530),
+      helpstring("IOwnershipLink Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IOwnershipLink : IDispatch {
+    };
+
+    [
+      uuid(D57B8C95-65DC-47FF-876A-9D51714BA54D),
+      helpstring("MDSAxis Class")
+    ]
+    coclass MDSAxis {
+        [default] interface IMDSAxis;
+        [default, source] interface IAcadObjectEvents;
+    };
+
+    [
+      uuid(7436EE73-F436-458D-9B2A-80615502FE1F),
+      helpstring("MDSAxisDlg Class")
+    ]
+    coclass MDSAxisDlg {
+        [default] interface IMDSAxisDlg;
+    };
+
+    [
+      odl,
+      uuid(5A0BD908-0551-4656-872D-C7AB7D104289),
+      helpstring("IMDSAxisDlg Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IMDSAxisDlg : IDispatch {
+    };
+
+    [
+      uuid(79C1EEF6-3DE5-4001-900F-083FBD20A1F1),
+      helpstring("MDSSectionMark Class")
+    ]
+    coclass MDSSectionMark {
+        [default] interface IMDSSectionMark;
+        [default, source] interface IAcadObjectEvents;
+    };
+};

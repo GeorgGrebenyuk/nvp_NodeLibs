@@ -1,0 +1,1297 @@
+﻿// Generated .IDL file (by the OLE/COM Object Viewer)
+// 
+// typelib filename: ProfileViewCOM.nrx
+
+[
+  uuid(CEC0A97B-2CAF-4592-8F9E-05AA1A046A04),
+  version(1.0),
+  helpstring("Model Studio LINE Objects 1.0 Type Library"),
+  custom(DE77BA64-517C-11D1-A2DA-0000F8773CE9, 134283886),
+  custom(DE77BA63-517C-11D1-A2DA-0000F8773CE9, 2147483647),
+  custom(DE77BA65-517C-11D1-A2DA-0000F8773CE9, "Created by MIDL version 8.01.0622 at Tue Jan 19 06:14:07 2038
+")
+
+]
+library mdsLINEComLib
+{
+    // TLib : OdaX 21.8 (x64) Type Library : {0DFA2554-8A2B-44D0-BE8F-85EEB803AEE9}
+    importlib("OdaX_csd.dll");
+    // TLib : OLE Automation : {00020430-0000-0000-C000-000000000046}
+    importlib("stdole2.tlb");
+
+    // Forward declare all types defined in this typelib
+    interface IMDSLPropertyDialogWrap;
+    interface IMDSLAngleDialogWrap;
+    interface IWireBreakDlgWrapper;
+    interface IMDSLObjects;
+    interface IMDSLProfile;
+    interface IElement;
+    interface IParameters;
+    interface IParameter;
+    interface IElements;
+    interface IMDSLLinkData;
+    interface IMDSLTowerData;
+    interface IMDSLAncerSketch;
+    interface IMDSLIntermSketch;
+    interface IMDSLLinkSketchMode;
+    interface IMDSLWireSketch;
+    interface IMDSNodes;
+    interface IMDSLLinkSketchPropWrapper;
+    interface IMDSLEarth;
+    interface IMDSLCros;
+    interface IMDSLTower;
+
+    [
+      odl,
+      uuid(02DFD1B6-3906-4F51-B1A6-4D37CE41E73E),
+      helpstring("IMDSLPropertyDialogWrap Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IMDSLPropertyDialogWrap : IUnknown {
+    };
+
+    [
+      odl,
+      uuid(CDA3B91F-38BC-46D7-A31A-160D9404E490),
+      helpstring("IMDSLAngleDialogWrap Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IMDSLAngleDialogWrap : IUnknown {
+    };
+
+    [
+      odl,
+      uuid(A2B5FED7-E7D9-48AF-B9E7-49060D622BDB),
+      helpstring("IWireBreakDlgWrapper Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IWireBreakDlgWrapper : IUnknown {
+    };
+
+    [
+      odl,
+      uuid(9CE20AE6-38A2-4DA7-8238-1879442622E1),
+      helpstring("Коллекция объектов"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IMDSLObjects : IDispatch {
+        [id(0xfffffffc), propget, hidden, helpstring("property _NewEnum")]
+        HRESULT _NewEnum([out, retval] IUnknown** ppEnumVariant);
+        [id(00000000), propget, helpstring("property Item")]
+        HRESULT Item(
+                        VARIANT Index, 
+                        [out, retval] IDispatch** pVal);
+        [id(0x00000001), propget, helpstring("property Count")]
+        HRESULT Count([out, retval] long* pVal);
+    };
+
+    typedef [public]
+    __MIDL___MIDL_itf_ProfileViewCOM_0001_0079_0001 EPicketMode;
+
+    typedef enum {
+        pmPrefix = 1,
+        pmStation = 2,
+        pmMeters = 4,
+        pmFractal = 8
+    } __MIDL___MIDL_itf_ProfileViewCOM_0001_0079_0001;
+
+    [
+      odl,
+      uuid(3B3CC2E4-7988-4123-B21E-9942CEDE42E3),
+      helpstring("IMDSLProfile Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IMDSLProfile : IAcadEntity {
+        [id(0x00000001), propget, helpstring("property HorizontalScaleListBox")]
+        HRESULT HorizontalScaleListBox([out, retval] int* pVal);
+        [id(0x00000001), propput, helpstring("property HorizontalScaleListBox")]
+        HRESULT HorizontalScaleListBox([in] int pVal);
+        [id(0x00000002), propget, helpstring("property HorizontalScale")]
+        HRESULT HorizontalScale([out, retval] double* pVal);
+        [id(0x00000002), propput, helpstring("property HorizontalScale")]
+        HRESULT HorizontalScale([in] double pVal);
+        [id(0x00000003), propget, helpstring("property VerticalScaleListBox")]
+        HRESULT VerticalScaleListBox([out, retval] int* pVal);
+        [id(0x00000003), propput, helpstring("property VerticalScaleListBox")]
+        HRESULT VerticalScaleListBox([in] int pVal);
+        [id(0x00000004), propget, helpstring("property VerticalScale")]
+        HRESULT VerticalScale([out, retval] double* pVal);
+        [id(0x00000004), propput, helpstring("property VerticalScale")]
+        HRESULT VerticalScale([in] double pVal);
+        [id(0x00000005), propget, helpstring("property BasePoint")]
+        HRESULT BasePoint([out, retval] VARIANT* pVal);
+        [id(0x00000005), propput, helpstring("property BasePoint")]
+        HRESULT BasePoint([in] VARIANT pVal);
+        [id(0x00000006), propget, helpstring("property Element")]
+        HRESULT Element([out, retval] IElement** pVal);
+        [id(0x00000006), propput, helpstring("property Element")]
+        HRESULT Element([in] IElement* pVal);
+        [id(0x00000007), propget, helpstring("property MinLevel")]
+        HRESULT MinLevel([out, retval] double* pVal);
+        [id(0x00000007), propput, helpstring("property MinLevel")]
+        HRESULT MinLevel([in] double pVal);
+        [id(0x00000008), propget, helpstring("property Supports")]
+        HRESULT Supports([out, retval] IMDSLObjects** pVal);
+        [id(0x00000009), propget, helpstring("property GroundLines")]
+        HRESULT GroundLines([out, retval] IMDSLObjects** pVal);
+        [id(0x0000000a), propget, helpstring("property MinDistance")]
+        HRESULT MinDistance([out, retval] double* pVal);
+        [id(0x0000000a), propput, helpstring("property MinDistance")]
+        HRESULT MinDistance([in] double pVal);
+        [id(0x0000000b), helpstring("method GetScreenDistance")]
+        HRESULT GetScreenDistance(
+                        [in] double RealDistance, 
+                        [out, retval] double* Result);
+        [id(0x0000000c), helpstring("method GetScreenDistance")]
+        HRESULT GetScreenHeight(
+                        [in] double RealHeight, 
+                        [out, retval] double* Result);
+        [id(0x0000000d), helpstring("method GetScreenDistance")]
+        HRESULT GetRealDistance(
+                        [in] double ScreenDistance, 
+                        [out, retval] double* Result);
+        [id(0x0000000e), helpstring("method GetScreenDistance")]
+        HRESULT GetRealHeight(
+                        [in] double ScreenHeight, 
+                        [out, retval] double* Result);
+        [id(0x0000000f), helpstring("method GetStation")]
+        HRESULT GetStation(
+                        [in] double Distance, 
+                        [in] unsigned short Flags, 
+                        [out, retval] BSTR* Value);
+        [id(0x00000010), propget, helpstring("property LineName")]
+        HRESULT LineName([out, retval] BSTR* pVal);
+        [id(0x00000010), propput, helpstring("property LineName")]
+        HRESULT LineName([in] BSTR pVal);
+        [id(0x00000011), helpstring("method climateData")]
+        HRESULT climateData([out, retval] IDispatch** pVal);
+    };
+
+    [
+      odl,
+      uuid(32D3F761-7B49-4D57-AC6C-0D0879AC9A75),
+      helpstring("IElement Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IElement : IDispatch {
+        [id(0x00000001), propget, helpstring("Имя элемента")]
+        HRESULT Name([out, retval] BSTR* pVal);
+        [id(0x00000001), propput, helpstring("Имя элемента")]
+        HRESULT Name([in] BSTR pVal);
+        [id(0x00000002), propget, helpstring("Параметры")]
+        HRESULT Parameters([out, retval] IParameters*** pVal);
+        [id(0x00000003), propget, helpstring("Родительский элемент")]
+        HRESULT Parent([out, retval] IElement** pVal);
+        [id(0x00000003), propput, helpstring("Родительский элемент")]
+        HRESULT Parent([in] IElement* pVal);
+        [id(0x00000004), propget, helpstring("Подчиненные элементы")]
+        HRESULT SubElements([out, retval] IElements*** pVal);
+        [id(0x00000005), propget, helpstring("Подчиненные элементы")]
+        HRESULT Description([out, retval] BSTR* pVal);
+        [id(0x00000006), propget, helpstring("Действительный ли элемент")]
+        HRESULT IsValid([out, retval] VARIANT_BOOL* pVal);
+        [id(0x00000007), propget, helpstring("Уникальный номер")]
+        HRESULT ElementId([out, retval] long* pVal);
+        [id(0x00000008), propget, helpstring("Идентификатор объекта")]
+        HRESULT ObjectId([out, retval] long* pVal);
+        [id(0x00000009), propget, hidden, helpstring("property Implementation")]
+        HRESULT Implementation([out, retval] VARIANT* pVal);
+        [id(0x0000000a), helpstring("Копировать данные")]
+        HRESULT CopyFrom([in] IElement* pSrc);
+        [id(0x0000000b), helpstring("Путь до текущего элемента")]
+        HRESULT GetPath(
+                        [in] BSTR divider, 
+                        [out, retval] BSTR* pResult);
+        [id(0x0000000c), helpstring("Путь до текущего элемента")]
+        HRESULT GetParentByLevel(
+                        [in] long level, 
+                        [out, retval] IElement** pVal);
+        [id(0x0000000d), helpstring("Значение параметра")]
+        HRESULT GetValue(
+                        [in] BSTR parameter, 
+                        [out, retval] BSTR* pResult);
+        [id(0x0000000e), helpstring("Комментарий к значению параметра")]
+        HRESULT GetValueComment(
+                        [in] BSTR parameter, 
+                        [out, retval] BSTR* pResult);
+        [id(0x0000000f), helpstring("Добавить подчиненный элемент")]
+        HRESULT AddChild(
+                        [in] BSTR Name, 
+                        [out, retval] IElement** pSrc);
+        [id(0x00000010), propget, helpstring("Имеется ли валидный родитель")]
+        HRESULT HasParent([out, retval] VARIANT_BOOL* pVal);
+    };
+
+    [
+      odl,
+      uuid(8A6EB6C1-813B-4B17-941C-2B05D5D1C499),
+      helpstring("IParameters Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IParameters : IDispatch {
+        [id(0xfffffffc), propget, hidden, helpstring("property _NewEnum")]
+        HRESULT _NewEnum([out, retval] IUnknown** ppEnumVariant);
+        [id(00000000), helpstring("method Item")]
+        HRESULT Item(
+                        VARIANT Index, 
+                        [out, retval] IParameter** pVal);
+        [id(0x00000001), propget, helpstring("property Count")]
+        HRESULT Count([out, retval] long* pVal);
+        [id(0x00000002), helpstring("method SetParameter")]
+        HRESULT SetParameter(
+                        [in] BSTR Name, 
+                        [in] BSTR Value, 
+                        [optional] VARIANT Comment, 
+                        [optional] VARIANT ValueComment);
+        [id(0x00000003), helpstring("method DeleteParameter")]
+        HRESULT DeleteParameter([in] BSTR Name);
+        [id(0x00000004), helpstring("method DeleteAll")]
+        HRESULT DeleteAll();
+        [id(0x00000005), helpstring("method Has")]
+        HRESULT Has(
+                        [in] VARIANT Index, 
+                        [out, retval] VARIANT_BOOL* pResult);
+    };
+
+    [
+      odl,
+      uuid(D353DEF9-2B51-4F21-BEA3-6B666F4BA568),
+      helpstring("IParameter Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IParameter : IDispatch {
+        [id(0x00000001), propget, helpstring("property Name")]
+        HRESULT Name([out, retval] BSTR* pVal);
+        [id(00000000), propget, helpstring("property Value")]
+        HRESULT Value([out, retval] BSTR* pVal);
+        [id(00000000), propput, helpstring("property Value")]
+        HRESULT Value([in] BSTR pVal);
+        [id(0x00000003), propget, helpstring("property Comment")]
+        HRESULT Comment([out, retval] BSTR* pVal);
+        [id(0x00000003), propput, helpstring("property Comment")]
+        HRESULT Comment([in] BSTR pVal);
+        [id(0x00000004), propget, helpstring("property ValueComment")]
+        HRESULT ValueComment([out, retval] BSTR* pVal);
+        [id(0x00000004), propput, helpstring("property ValueComment")]
+        HRESULT ValueComment([in] BSTR pVal);
+    };
+
+    [
+      odl,
+      uuid(A266B17A-3A03-417A-BFE8-9F5B10C1849B),
+      helpstring("IElements Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IElements : IDispatch {
+        [id(0xfffffffc), propget, hidden, helpstring("property _NewEnum")]
+        HRESULT _NewEnum([out, retval] IUnknown** ppEnumVariant);
+        [id(00000000), helpstring("method Item")]
+        HRESULT Item(
+                        VARIANT Index, 
+                        [out, retval] IElement** pVal);
+        [id(0x00000001), propget, helpstring("property Count")]
+        HRESULT Count([out, retval] long* pVal);
+        [id(0x00000002), helpstring("method Add")]
+        HRESULT Add([in] VARIANT Item);
+        [id(0x00000003), helpstring("method Remove")]
+        HRESULT Remove([in] VARIANT Index);
+    };
+
+    [
+      uuid(91D9019F-6CB4-46D3-BF8F-E9B8955A9B62),
+      helpstring("MDSLProfile Class")
+    ]
+    coclass MDSLProfile {
+        [default] interface IMDSLProfile;
+        [default, source] interface IAcadObjectEvents;
+    };
+
+    [
+      odl,
+      uuid(966EFD0F-B6A6-4006-979A-E87BCC19C277),
+      helpstring("LinkData Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IMDSLLinkData : IDispatch {
+        [id(0x00000002), propget, helpstring("property DataRoot")]
+        HRESULT DataRoot([out, retval] IElement** pVal);
+        [id(0x00000001), propget, helpstring("property WireLength")]
+        HRESULT WireLength([out, retval] double* pVal);
+    };
+
+    [
+      uuid(B6ECAA35-B442-4AE8-809F-88A36609C48A),
+      helpstring("LinkData Class")
+    ]
+    coclass MDSLLinkData {
+        [default] interface IMDSLLinkData;
+    };
+
+    [
+      odl,
+      uuid(9E3C0F2A-5968-41F6-A112-783BB19F7715),
+      helpstring("TowerData Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IMDSLTowerData : IDispatch {
+        [id(0x00000001), propget, helpstring("property TowerName")]
+        HRESULT TowerName([out, retval] BSTR* pVal);
+        [id(0x00000002), propget, helpstring("property DataRoot")]
+        HRESULT DataRoot([out, retval] IElement** pVal);
+        [id(0x00000003), helpstring("method LinkData")]
+        HRESULT LinkData(
+                        [in] BSTR phaseName, 
+                        [in] short bLeft, 
+                        [out, retval] IMDSLLinkData** ppResult);
+        [id(0x00000004), helpstring("method ClimateData")]
+        HRESULT climateData([out, retval] IDispatch** pVal);
+    };
+
+    [
+      uuid(C6CD94AB-D439-4B3C-A75C-9900BD1C2B10),
+      helpstring("TowerData Class")
+    ]
+    coclass MDSLTowerData {
+        [default] interface IMDSLTowerData;
+    };
+
+    [
+      odl,
+      uuid(A2AA2792-3103-4E00-96FD-089F05DD6EDE),
+      helpstring("Графическое представление анкерной опоры"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IMDSLAncerSketch : IAcadEntity {
+        [id(0x00000001), propget, helpstring("property Element")]
+        HRESULT Element([out, retval] IElement** pVal);
+        [id(0x00000001), propput, helpstring("property Element")]
+        HRESULT Element([in] IElement* pVal);
+        [id(0x0000000a), propget, helpstring("property Position")]
+        HRESULT Position([out, retval] double* pVal);
+        [id(0x0000000a), propput, helpstring("property Position")]
+        HRESULT Position([in] double pVal);
+        [id(0x0000000b), helpstring("method GetPositionMM")]
+        HRESULT GetPositionMM([out, retval] double* Result);
+        [id(0x00000002), propget, helpstring("property HeightMark")]
+        HRESULT HeightMark([out, retval] double* pVal);
+        [id(0x00000002), propput, helpstring("property HeightMark")]
+        HRESULT HeightMark([in] double pVal);
+        [id(0x0000000c), propget, helpstring("property Azimuth1")]
+        HRESULT Azimuth1([out, retval] double* pVal);
+        [id(0x0000000c), propput, helpstring("property Azimuth1")]
+        HRESULT Azimuth1([in] double pVal);
+        [id(0x00000028), propget, helpstring("property Azimuth2")]
+        HRESULT Azimuth2([out, retval] BSTR* pVal);
+        [id(0x00000028), propput, helpstring("property Azimuth2")]
+        HRESULT Azimuth2([in] BSTR pVal);
+        [id(0x00000029), propget, helpstring("property Angle1")]
+        HRESULT Angle1([out, retval] double* pVal);
+        [id(0x00000029), propput, helpstring("property Angle1")]
+        HRESULT Angle1([in] double pVal);
+        [id(0x0000002a), propget, helpstring("property Angle2")]
+        HRESULT Angle2([out, retval] BSTR* pVal);
+        [id(0x0000002a), propput, helpstring("property Angle2")]
+        HRESULT Angle2([in] BSTR pVal);
+        [id(0x00000003), propget, helpstring("property ScaleH_BTR_ListBox")]
+        HRESULT ScaleH_BTR_ListBox([out, retval] int* pVal);
+        [id(0x00000003), propput, helpstring("property ScaleH_BTR_ListBox")]
+        HRESULT ScaleH_BTR_ListBox([in] int pVal);
+        [id(0x00000004), propget, helpstring("property ScaleH_BTR")]
+        HRESULT ScaleH_BTR([out, retval] double* pVal);
+        [id(0x00000004), propput, helpstring("property ScaleH_BTR")]
+        HRESULT ScaleH_BTR([in] double pVal);
+        [id(0x00000005), propget, helpstring("property ScaleV_BTR_ListBox")]
+        HRESULT ScaleV_BTR_ListBox([out, retval] int* pVal);
+        [id(0x00000005), propput, helpstring("property ScaleV_BTR_ListBox")]
+        HRESULT ScaleV_BTR_ListBox([in] int pVal);
+        [id(0x00000006), propget, helpstring("property ScaleV_BTR")]
+        HRESULT ScaleV_BTR([out, retval] double* pVal);
+        [id(0x00000006), propput, helpstring("property ScaleV_BTR")]
+        HRESULT ScaleV_BTR([in] double pVal);
+        [id(0x00000007), propget, helpstring("property NameBTR")]
+        HRESULT NameBTR([out, retval] long* pVal);
+        [id(0x00000007), propput, helpstring("property NameBTR")]
+        HRESULT NameBTR([in] long pVal);
+        [id(0x00000008), propget, helpstring("property NearLeft")]
+        HRESULT NearLeft([out, retval] double* pVal);
+        [id(0x00000008), propput, helpstring("property NearLeft")]
+        HRESULT NearLeft([in] double pVal);
+        [id(0x00000009), propget, helpstring("property NearRight")]
+        HRESULT NearRight([out, retval] double* pVal);
+        [id(0x00000009), propput, helpstring("property NearRight")]
+        HRESULT NearRight([in] double pVal);
+        [id(0x00000027), propget, helpstring("Точка вставки")]
+        HRESULT PlanPoint([out, retval] VARIANT* pVal);
+        [id(0x0000002b), propget, helpstring("Центр масс проводов")]
+        HRESULT WireAverageHeight([out, retval] double* pVal);
+        [id(0x0000002c), propget, helpstring("Центр масс тросов")]
+        HRESULT TrosAverageHeight([out, retval] double* pVal);
+        [id(0x0000003a), propget, helpstring("Центр масс ВОК")]
+        HRESULT OpticalAverageHeight([out, retval] double* pVal);
+        [id(0x0000000d), propget, helpstring("Имеются гирлянды на проводе")]
+        HRESULT GarlandWireEnabled([out, retval] VARIANT_BOOL* pVal);
+        [id(0x0000000d), propput, helpstring("Имеются гирлянды на проводе")]
+        HRESULT GarlandWireEnabled([in] VARIANT_BOOL pVal);
+        [id(0x0000001b), propget, helpstring("Количество гирлянд на проводе")]
+        HRESULT GarlandWireCount([out, retval] long* pVal);
+        [id(0x0000001d), propget, helpstring("Тип изолятора")]
+        HRESULT GarlandWireInsulatorType([out, retval] VARIANT_BOOL* pVal);
+        [id(0x0000001d), propput, helpstring("Тип изолятора")]
+        HRESULT GarlandWireInsulatorType([in] VARIANT_BOOL pVal);
+        [id(0x0000000e), propget, helpstring("Длина гирлянды на проводе")]
+        HRESULT GarlandWireLength([out, retval] BSTR* pVal);
+        [id(0x0000000e), propput, helpstring("Длина гирлянды на проводе")]
+        HRESULT GarlandWireLength([in] BSTR pVal);
+        [id(0x0000000f), propget, helpstring("Масса гирлянды на проводе")]
+        HRESULT GarlandWireWeight([out, retval] BSTR* pVal);
+        [id(0x0000000f), propput, helpstring("Масса гирлянды на проводе")]
+        HRESULT GarlandWireWeight([in] BSTR pVal);
+        [id(0x00000010), propget, helpstring("Диаметр гирлянды на проводе (мм)")]
+        HRESULT GarlandWireDiameter([out, retval] BSTR* pVal);
+        [id(0x00000010), propput, helpstring("Диаметр гирлянды на проводе (мм)")]
+        HRESULT GarlandWireDiameter([in] BSTR pVal);
+        [id(0x00000011), propget, helpstring("Число цепей изоляторов гирлянды на проводе")]
+        HRESULT GarlandWireChainCount([out, retval] BSTR* pVal);
+        [id(0x00000011), propput, helpstring("Число цепей изоляторов гирлянды на проводе")]
+        HRESULT GarlandWireChainCount([in] BSTR pVal);
+        [id(0x00000012), propget, helpstring("Расположение цепей изоляторов гирлянды на проводе")]
+        HRESULT GarlandWireChainLayout([out, retval] short* pVal);
+        [id(0x00000012), propput, helpstring("Расположение цепей изоляторов гирлянды на проводе")]
+        HRESULT GarlandWireChainLayout([in] short pVal);
+        [id(0x00000013), propget, helpstring("Расстояние между цепями изоляторов гирлянды на проводе")]
+        HRESULT GarlandWireChainDistance([out, retval] BSTR* pVal);
+        [id(0x00000013), propput, helpstring("Расстояние между цепями изоляторов гирлянды на проводе")]
+        HRESULT GarlandWireChainDistance([in] BSTR pVal);
+        [id(0x00000014), propget, helpstring("Имеются гирлянды на тросе")]
+        HRESULT GarlandTrosEnabled([out, retval] VARIANT_BOOL* pVal);
+        [id(0x00000014), propput, helpstring("Имеются гирлянды на тросе")]
+        HRESULT GarlandTrosEnabled([in] VARIANT_BOOL pVal);
+        [id(0x0000001c), propget, helpstring("Количество гирлянд на тросе")]
+        HRESULT GarlandTrosCount([out, retval] long* pVal);
+        [id(0x0000001e), propget, helpstring("Тип изолятора")]
+        HRESULT GarlandTrosInsulatorType([out, retval] VARIANT_BOOL* pVal);
+        [id(0x0000001e), propput, helpstring("Тип изолятора")]
+        HRESULT GarlandTrosInsulatorType([in] VARIANT_BOOL pVal);
+        [id(0x00000015), propget, helpstring("Длина гирлянды на тросе")]
+        HRESULT GarlandTrosLength([out, retval] BSTR* pVal);
+        [id(0x00000015), propput, helpstring("Длина гирлянды на тросе")]
+        HRESULT GarlandTrosLength([in] BSTR pVal);
+        [id(0x00000016), propget, helpstring("Масса гирлянды на тросе")]
+        HRESULT GarlandTrosWeight([out, retval] BSTR* pVal);
+        [id(0x00000016), propput, helpstring("Масса гирлянды на тросе")]
+        HRESULT GarlandTrosWeight([in] BSTR pVal);
+        [id(0x00000017), propget, helpstring("Диаметр гирлянды на тросе (мм)")]
+        HRESULT GarlandTrosDiameter([out, retval] BSTR* pVal);
+        [id(0x00000017), propput, helpstring("Диаметр гирлянды на тросе (мм)")]
+        HRESULT GarlandTrosDiameter([in] BSTR pVal);
+        [id(0x00000018), propget, helpstring("Число цепей изоляторов гирлянды на тросе")]
+        HRESULT GarlandTrosChainCount([out, retval] BSTR* pVal);
+        [id(0x00000018), propput, helpstring("Число цепей изоляторов гирлянды на тросе")]
+        HRESULT GarlandTrosChainCount([in] BSTR pVal);
+        [id(0x00000019), propget, helpstring("Расположение цепей изоляторов гирлянды на тросе")]
+        HRESULT GarlandTrosChainLayout([out, retval] short* pVal);
+        [id(0x00000019), propput, helpstring("Расположение цепей изоляторов гирлянды на тросе")]
+        HRESULT GarlandTrosChainLayout([in] short pVal);
+        [id(0x0000001a), propget, helpstring("Расстояние между цепями изоляторов гирлянды на тросе")]
+        HRESULT GarlandTrosChainDistance([out, retval] BSTR* pVal);
+        [id(0x0000001a), propput, helpstring("Расстояние между цепями изоляторов гирлянды на тросе")]
+        HRESULT GarlandTrosChainDistance([in] BSTR pVal);
+        [id(0x0000001f), helpstring("method HeightMinNode")]
+        HRESULT HeightMinNode([out, retval] double* Result);
+        [id(0x00000020), helpstring("method numInLine")]
+        HRESULT numInLine([out, retval] long* Result);
+        [id(0x00000021), helpstring("method hasGarlands")]
+        HRESULT hasGarlands([out, retval] VARIANT_BOOL* pVal);
+        [id(0x00000031), propget, helpstring("Имеются гирлянды на ВОК")]
+        HRESULT GarlandOpticalEnabled([out, retval] VARIANT_BOOL* pVal);
+        [id(0x00000031), propput, helpstring("Имеются гирлянды на ВОК")]
+        HRESULT GarlandOpticalEnabled([in] VARIANT_BOOL pVal);
+        [id(0x00000038), propget, helpstring("Количество гирлянд на ВОК")]
+        HRESULT GarlandOpticalCount([out, retval] long* pVal);
+        [id(0x00000039), propget, helpstring("Тип изолятора")]
+        HRESULT GarlandOpticalInsulatorType([out, retval] VARIANT_BOOL* pVal);
+        [id(0x00000039), propput, helpstring("Тип изолятора")]
+        HRESULT GarlandOpticalInsulatorType([in] VARIANT_BOOL pVal);
+        [id(0x00000032), propget, helpstring("Длина гирлянды на ВОК")]
+        HRESULT GarlandOpticalLength([out, retval] BSTR* pVal);
+        [id(0x00000032), propput, helpstring("Длина гирлянды на ВОК")]
+        HRESULT GarlandOpticalLength([in] BSTR pVal);
+        [id(0x00000033), propget, helpstring("Масса гирлянды на ВОК")]
+        HRESULT GarlandOpticalWeight([out, retval] BSTR* pVal);
+        [id(0x00000033), propput, helpstring("Масса гирлянды на ВОК")]
+        HRESULT GarlandOpticalWeight([in] BSTR pVal);
+        [id(0x00000034), propget, helpstring("Диаметр гирлянды на ВОК (мм)")]
+        HRESULT GarlandOpticalDiameter([out, retval] BSTR* pVal);
+        [id(0x00000034), propput, helpstring("Диаметр гирлянды на ВОК (мм)")]
+        HRESULT GarlandOpticalDiameter([in] BSTR pVal);
+        [id(0x00000035), propget, helpstring("Число цепей изоляторов гирлянды на ВОК")]
+        HRESULT GarlandOpticalChainCount([out, retval] BSTR* pVal);
+        [id(0x00000035), propput, helpstring("Число цепей изоляторов гирлянды на ВОК")]
+        HRESULT GarlandOpticalChainCount([in] BSTR pVal);
+        [id(0x00000036), propget, helpstring("Расположение цепей изоляторов гирлянды на ВОК")]
+        HRESULT GarlandOpticalChainLayout([out, retval] short* pVal);
+        [id(0x00000036), propput, helpstring("Расположение цепей изоляторов гирлянды на ВОК")]
+        HRESULT GarlandOpticalChainLayout([in] short pVal);
+        [id(0x00000037), propget, helpstring("Расстояние между цепями изоляторов гирлянды на ВОК")]
+        HRESULT GarlandOpticalChainDistance([out, retval] BSTR* pVal);
+        [id(0x00000037), propput, helpstring("Расстояние между цепями изоляторов гирлянды на ВОК")]
+        HRESULT GarlandOpticalChainDistance([in] BSTR pVal);
+        [id(0x0000003d), propget, helpstring("property Phi")]
+        HRESULT Phi([out, retval] BSTR* pVal);
+        [id(0x0000003d), propput, helpstring("property Phi")]
+        HRESULT Phi([in] BSTR pVal);
+    };
+
+    [
+      uuid(6379D8D6-97DA-493E-84A1-9AE2F26F0B8F),
+      helpstring("MDSLAncerSketch Class")
+    ]
+    coclass MDSLAncerSketch {
+        [default] interface IMDSLAncerSketch;
+        [default, source] interface IAcadObjectEvents;
+    };
+
+    [
+      odl,
+      uuid(4F68EC63-B66B-4AA9-A049-CA9154066404),
+      helpstring("Графическое представление промежуточной опоры"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IMDSLIntermSketch : IMDSLAncerSketch {
+    };
+
+    [
+      uuid(0E54E0B8-56E9-462B-9A13-756B0EF87E9E),
+      helpstring("MDSLIntermSketch Class")
+    ]
+    coclass MDSLIntermSketch {
+        [default] interface IMDSLIntermSketch;
+        [default, source] interface IAcadObjectEvents;
+    };
+
+    [
+      uuid(1547A048-534B-4A32-8EAD-A70AA9157E6C),
+      helpstring("MDSLPropertyDialogWrap Class")
+    ]
+    coclass MDSLPropertyDialogWrap {
+        [default] interface IMDSLPropertyDialogWrap;
+    };
+
+    [
+      uuid(BF0E74F1-8F34-4B06-93A2-59EECFCCEE53),
+      helpstring("MDSLAngleDialogWrap Class")
+    ]
+    coclass MDSLAngleDialogWrap {
+        [default] interface IMDSLAngleDialogWrap;
+    };
+
+    [
+      odl,
+      uuid(9397051C-A9BB-4311-A1BC-2E37C0C51234),
+      helpstring("IMDSLLinkSketchMode Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IMDSLLinkSketchMode : IDispatch {
+        [id(0x00000001), propget, helpstring("property WireLength")]
+        HRESULT WireLength([out, retval] double* pVal);
+        [id(0x00000002), propget, helpstring("property Sigma")]
+        HRESULT Sigma([out, retval] double* pVal);
+        [id(0x00000003), propget, helpstring("property Gamma")]
+        HRESULT Gamma([out, retval] double* pVal);
+        [id(0x00000004), propget, helpstring("property InitialModeIndex")]
+        HRESULT InitialModeIndex([out, retval] long* pVal);
+        [id(0x00000005), propget, helpstring("property SpanLength")]
+        HRESULT SpanLength([out, retval] double* pVal);
+        [id(0x00000006), propget, helpstring("property InitialSigma")]
+        HRESULT InitialSigma([out, retval] double* pVal);
+        [id(0x00000007), propget, helpstring("property InitialGamma")]
+        HRESULT InitialGamma([out, retval] double* pVal);
+        [id(0x00000008), propget, helpstring("property InitialT")]
+        HRESULT InitialT([out, retval] double* pVal);
+        [id(0x00000009), helpstring("method GetGammaStd")]
+        HRESULT GetGammaStd(
+                        long Idx, 
+                        [out, retval] double* pRes);
+        [id(0x0000000a), propget, helpstring("property MinX")]
+        HRESULT MinX([out, retval] double* pVal);
+        [id(0x0000000b), propget, helpstring("property MinZ")]
+        HRESULT MinZ([out, retval] double* pVal);
+        [id(0x0000000c), propget, helpstring("property SlackMin")]
+        HRESULT SlackMin([out, retval] double* pVal);
+        [id(0x0000000d), propget, helpstring("property SlackMax")]
+        HRESULT SlackMax([out, retval] double* pVal);
+        [id(0x0000000e), helpstring("method GetSlackMaxAt")]
+        HRESULT GetSlackMaxAt(
+                        [in] double Distance, 
+                        [out, retval] double* pVal);
+        [id(0x0000000f), propget, helpstring("property Length")]
+        HRESULT Length([out, retval] double* pVal);
+        [id(0x00000010), propget, helpstring("property SlackSpan")]
+        HRESULT SlackSpan(
+                        [in] int nSpanNum, 
+                        [out, retval] double* pVal);
+        [id(0x00000011), propget, helpstring("property WindAngle")]
+        HRESULT WindAngle([out, retval] double* pVal);
+        [id(0x00000012), helpstring("method GetGammaNorm")]
+        HRESULT GetGammaNorm(
+                        long Idx, 
+                        [out, retval] double* pRes);
+        [id(0x00000013), helpstring("method GetGammaCalc")]
+        HRESULT GetGammaCalc(
+                        long Idx, 
+                        [out, retval] double* pRes);
+    };
+
+    [
+      uuid(CDDE043B-9453-4AC5-8ED7-0663EB7E4A34),
+      helpstring("MDSLLinkSketchMode Class")
+    ]
+    coclass MDSLLinkSketchMode {
+        [default] interface IMDSLLinkSketchMode;
+    };
+
+    [
+      odl,
+      uuid(914623FA-A5C4-4FF2-8313-3801A6362564),
+      helpstring("Провод"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IMDSLWireSketch : IAcadEntity {
+        [id(0x00000001), propget, helpstring("Параметры")]
+        HRESULT Element([out, retval] IElement** pVal);
+        [id(0x00000001), propput, helpstring("Параметры")]
+        HRESULT Element([in] IElement* pVal);
+        [id(0x0000006f), propget, helpstring("Аварийный обрыв")]
+        HRESULT WireBreak([out, retval] IElement** pVal);
+        [id(0x0000006f), propput, helpstring("Аварийный обрыв")]
+        HRESULT WireBreak([in] IElement* pVal);
+        [id(0x00000003), propget, helpstring("Начальная точка")]
+        HRESULT StartPoint([out, retval] VARIANT* pVal);
+        [id(0x00000004), propget, helpstring("Конечная точка")]
+        HRESULT EndPoint([out, retval] VARIANT* pVal);
+        [id(0x00000006), propget, helpstring("Имеется первая гирлянда")]
+        HRESULT GarlandStartEnabled([out, retval] VARIANT_BOOL* pVal);
+        [id(0x00000006), propput, helpstring("Имеется первая гирлянда")]
+        HRESULT GarlandStartEnabled([in] VARIANT_BOOL pVal);
+        [id(0x00000007), propget, helpstring("Длина первой гирлянды")]
+        HRESULT GarlandStartLength([out, retval] double* pVal);
+        [id(0x00000007), propput, helpstring("Длина первой гирлянды")]
+        HRESULT GarlandStartLength([in] double pVal);
+        [id(0x00000008), propget, helpstring("Масса одной цепи первой гирлянды")]
+        HRESULT GarlandStartWeight([out, retval] double* pVal);
+        [id(0x00000032), propget, helpstring("Диаметр первой гирлянды (мм)")]
+        HRESULT GarlandStartDiameter([out, retval] double* pVal);
+        [id(0x00000032), propput, helpstring("Диаметр первой гирлянды (мм)")]
+        HRESULT GarlandStartDiameter([in] double pVal);
+        [id(0x00000034), propget, helpstring("Число цепей изоляторов первой гирлянды")]
+        HRESULT GarlandStartChainCount([out, retval] long* pVal);
+        [id(0x00000034), propput, helpstring("Число цепей изоляторов первой гирлянды")]
+        HRESULT GarlandStartChainCount([in] long pVal);
+        [id(0x00000036), propget, helpstring("Расположение цепей изоляторов первой гирлянды")]
+        HRESULT GarlandStartChainLayout([out, retval] short* pVal);
+        [id(0x00000036), propput, helpstring("Расположение цепей изоляторов первой гирлянды")]
+        HRESULT GarlandStartChainLayout([in] short pVal);
+        [id(0x00000038), propget, helpstring("Расстояние между цепями изоляторов первой гирлянды")]
+        HRESULT GarlandStartChainDistance([out, retval] double* pVal);
+        [id(0x00000038), propput, helpstring("Расстояние между цепями изоляторов первой гирлянды")]
+        HRESULT GarlandStartChainDistance([in] double pVal);
+        [id(0x0000005e), propget, helpstring("Общая масса первой гирлянды")]
+        HRESULT GarlandStartTotalWeight([out, retval] double* pVal);
+        [id(0x00000061), propget, helpstring("Угол наклона первой гирлянды")]
+        HRESULT GarlandStartBettaAngle([out, retval] BSTR* pVal);
+        [id(0x00000009), propget, helpstring("Имеется вторая гирлянда")]
+        HRESULT GarlandEndEnabled([out, retval] VARIANT_BOOL* pVal);
+        [id(0x00000009), propput, helpstring("Имеется вторая гирлянда")]
+        HRESULT GarlandEndEnabled([in] VARIANT_BOOL pVal);
+        [id(0x0000000a), propget, helpstring("Длина второй гирлянды")]
+        HRESULT GarlandEndLength([out, retval] double* pVal);
+        [id(0x0000000a), propput, helpstring("Длина второй гирлянды")]
+        HRESULT GarlandEndLength([in] double pVal);
+        [id(0x0000000b), propget, helpstring("Масса одной цепи второй гирлянды")]
+        HRESULT GarlandEndWeight([out, retval] double* pVal);
+        [id(0x00000033), propget, helpstring("Диаметр второй гирлянды (мм)")]
+        HRESULT GarlandEndDiameter([out, retval] double* pVal);
+        [id(0x00000033), propput, helpstring("Диаметр второй гирлянды (мм)")]
+        HRESULT GarlandEndDiameter([in] double pVal);
+        [id(0x00000035), propget, helpstring("Число цепей изоляторов второй гирлянды")]
+        HRESULT GarlandEndChainCount([out, retval] long* pVal);
+        [id(0x00000035), propput, helpstring("Число цепей изоляторов второй гирлянды")]
+        HRESULT GarlandEndChainCount([in] long pVal);
+        [id(0x00000037), propget, helpstring("Расположение цепей изоляторов второй гирлянды")]
+        HRESULT GarlandEndChainLayout([out, retval] short* pVal);
+        [id(0x00000037), propput, helpstring("Расположение цепей изоляторов второй гирлянды")]
+        HRESULT GarlandEndChainLayout([in] short pVal);
+        [id(0x00000039), propget, helpstring("Расстояние между цепями изоляторов второй гирлянды")]
+        HRESULT GarlandEndChainDistance([out, retval] double* pVal);
+        [id(0x00000039), propput, helpstring("Расстояние между цепями изоляторов второй гирлянды")]
+        HRESULT GarlandEndChainDistance([in] double pVal);
+        [id(0x0000005f), propget, helpstring("Общая масса второй гирлянды")]
+        HRESULT GarlandEndTotalWeight([out, retval] double* pVal);
+        [id(0x00000062), propget, helpstring("Угол наклона второй гирлянды")]
+        HRESULT GarlandEndBettaAngle([out, retval] BSTR* pVal);
+        [id(0x0000003f), propget, helpstring("Имеются промежуточные гирлянды")]
+        HRESULT GarlandIntermEnabled([out, retval] VARIANT_BOOL* pVal);
+        [id(0x0000003f), propput, helpstring("Имеются промежуточные гирлянды")]
+        HRESULT GarlandIntermEnabled([in] VARIANT_BOOL pVal);
+        [id(0x00000046), propget, helpstring("Количество промежуточных гирлянд")]
+        HRESULT GarlandIntermCount([out, retval] long* pVal);
+        [id(0x00000049), propget, helpstring("Тип изолятора")]
+        HRESULT GarlandIntermInsulatorType([out, retval] VARIANT_BOOL* pVal);
+        [id(0x00000049), propput, helpstring("Тип изолятора")]
+        HRESULT GarlandIntermInsulatorType([in] VARIANT_BOOL pVal);
+        [id(0x00000040), propget, helpstring("Длина промежуточной гирлянды")]
+        HRESULT GarlandIntermLength([out, retval] BSTR* pVal);
+        [id(0x00000040), propput, helpstring("Длина промежуточной гирлянды")]
+        HRESULT GarlandIntermLength([in] BSTR pVal);
+        [id(0x00000041), propget, helpstring("Масса одной цепи промежуточной гирлянды")]
+        HRESULT GarlandIntermWeight([out, retval] BSTR* pVal);
+        [id(0x00000042), propget, helpstring("Диаметр промежуточной гирлянды (мм)")]
+        HRESULT GarlandIntermDiameter([out, retval] BSTR* pVal);
+        [id(0x00000042), propput, helpstring("Диаметр промежуточной гирлянды (мм)")]
+        HRESULT GarlandIntermDiameter([in] BSTR pVal);
+        [id(0x00000043), propget, helpstring("Число цепей изоляторов промежуточной гирлянды")]
+        HRESULT GarlandIntermChainCount([out, retval] BSTR* pVal);
+        [id(0x00000043), propput, helpstring("Число цепей изоляторов промежуточной гирлянды")]
+        HRESULT GarlandIntermChainCount([in] BSTR pVal);
+        [id(0x00000044), propget, helpstring("Расположение цепей изоляторов промежуточной гирлянды")]
+        HRESULT GarlandIntermChainLayout([out, retval] short* pVal);
+        [id(0x00000044), propput, helpstring("Расположение цепей изоляторов промежуточной гирлянды")]
+        HRESULT GarlandIntermChainLayout([in] short pVal);
+        [id(0x00000045), propget, helpstring("Расстояние между цепями изоляторов промежуточной гирлянды")]
+        HRESULT GarlandIntermChainDistance([out, retval] BSTR* pVal);
+        [id(0x00000045), propput, helpstring("Расстояние между цепями изоляторов промежуточной гирлянды")]
+        HRESULT GarlandIntermChainDistance([in] BSTR pVal);
+        [id(0x00000060), propget, helpstring("Общая масса промежуточной гирлянды")]
+        HRESULT GarlandIntermTotalWeight([out, retval] BSTR* pVal);
+        [id(0x00000063), propget, helpstring("Угол наклона промежуточной гирлянды")]
+        HRESULT GarlandIntermBettaAngle([out, retval] BSTR* pVal);
+        [id(0x00000076), propget, helpstring("Наименование - провод")]
+        HRESULT LinkName([out, retval] BSTR* pVal);
+        [id(0x00000071), propget, helpstring("Наименование - первая гирлянда")]
+        HRESULT StartGarlandName([out, retval] BSTR* pVal);
+        [id(0x00000072), propget, helpstring("Наименование - вторая гирлянда")]
+        HRESULT EndGarlandName([out, retval] BSTR* pVal);
+        [id(0x00000082), propget, helpstring("Наименование - гаситель вибрации")]
+        HRESULT SuppressorName([out, retval] BSTR* pVal);
+        [id(0x0000004a), propget, helpstring("Наличие")]
+        HRESULT SuppressorEnabled([out, retval] VARIANT_BOOL* pVal);
+        [id(0x0000004a), propput, helpstring("Наличие")]
+        HRESULT SuppressorEnabled([in] VARIANT_BOOL pVal);
+        [id(0x0000004b), propget, helpstring("Количество")]
+        HRESULT SuppressorCount([out, retval] long* pVal);
+        [id(0x0000005a), propget, helpstring("Гасители")]
+        HRESULT Suppressors([out, retval] IElement** pVal);
+        [id(0x0000005a), propput, helpstring("Гасители")]
+        HRESULT Suppressors([in] IElement* pVal);
+        [id(0x0000004d), propget, helpstring("Место установки S1")]
+        HRESULT SuppressorS1([out, retval] double* pVal);
+        [id(0x0000004e), propget, helpstring("Место установки S2")]
+        HRESULT SuppressorS2([out, retval] double* pVal);
+        [id(0x00000058), propget, helpstring("Место установки S3")]
+        HRESULT SuppressorS3([out, retval] double* pVal);
+        [id(0x00000059), propget, helpstring("Место установки S4")]
+        HRESULT SuppressorS4([out, retval] double* pVal);
+        [id(0x0000006c), propget, helpstring("Единицы измерения силы")]
+        HRESULT PowerUnits([out, retval] long* pVal);
+        [id(0x0000006c), propput, helpstring("Единицы измерения силы")]
+        HRESULT PowerUnits([in] long pVal);
+        [id(0x0000000f), propget, helpstring("Модель провода")]
+        HRESULT Model([out, retval] BSTR* pVal);
+        [id(0x00000010), propget, helpstring("Сечение (кв. мм)")]
+        HRESULT Section([out, retval] double* pVal);
+        [id(0x00000011), propget, helpstring("Диаметр (мм)")]
+        HRESULT Diameter([out, retval] double* pVal);
+        [id(0x00000012), propget, helpstring("Масса провода (кг/км)")]
+        HRESULT Mass([out, retval] double* pVal);
+        [id(0x00000013), propget, helpstring("Сигма tн")]
+        HRESULT SigmaTn([out, retval] double* pVal);
+        [id(0x00000014), propget, helpstring("Сигма tм")]
+        HRESULT SigmaTm([out, retval] double* pVal);
+        [id(0x00000015), propget, helpstring("Сигма tэ")]
+        HRESULT SigmaTe([out, retval] double* pVal);
+        [id(0x00000016), propget, helpstring("E - модуль упругости")]
+        HRESULT E([out, retval] double* pVal);
+        [id(0x00000017), propget, helpstring("Мод. нач. F")]
+        HRESULT F([out, retval] double* pVal);
+        [id(0x00000018), propget, helpstring("Мод. пред. F")]
+        HRESULT D([out, retval] double* pVal);
+        [id(0x00000019), propget, helpstring("Альфа коэффициент линейного расширения (1e-6/град. С)")]
+        HRESULT Alpha([out, retval] double* pVal);
+        [id(0x0000001a), propget, helpstring("Строительная длина (м)")]
+        HRESULT FactoryLength([out, retval] double* pVal);
+        [id(0x0000003a), propget, helpstring("Число проводов расщепленной фазы")]
+        HRESULT SplitPhase([out, retval] long* pVal);
+        [id(0x0000003a), propput, helpstring("Число проводов расщепленной фазы")]
+        HRESULT SplitPhase([in] long pVal);
+        [id(0x0000003b), propget, helpstring("Расстояние между проводами расщепленной фазы (мм)")]
+        HRESULT SplitDistance([out, retval] double* pVal);
+        [id(0x0000003b), propput, helpstring("Расстояние между проводами расщепленной фазы (мм)")]
+        HRESULT SplitDistance([in] double pVal);
+        [id(0x0000003c), propget, helpstring("Число стяжек на 10 м")]
+        HRESULT ClampingDensity([out, retval] double* pVal);
+        [id(0x0000003c), propput, helpstring("Число стяжек на 10 м")]
+        HRESULT ClampingDensity([in] double pVal);
+        [id(0x00000054), propget, helpstring("Масса стяжек")]
+        HRESULT ClampingWeight([out, retval] double* pVal);
+        [id(0x00000054), propput, helpstring("Масса стяжек")]
+        HRESULT ClampingWeight([in] double pVal);
+        [id(0x00000047), propget, helpstring("Фаза для расчета")]
+        HRESULT phaseName([out, retval] long* pVal);
+        [id(0x00000047), propput, helpstring("Фаза для расчета")]
+        HRESULT phaseName([in] long pVal);
+        [id(0x0000006e), propget, helpstring("Режим отображения результатов")]
+        HRESULT TotalResultDataMode([out, retval] long* pVal);
+        [id(0x0000006e), propput, helpstring("Режим отображения результатов")]
+        HRESULT TotalResultDataMode([in] long pVal);
+        [id(0x00000073), propget, helpstring("Статус расчета исходного режима")]
+        HRESULT InitialModeStatus([out, retval] BSTR* pVal);
+        [id(0x00000074), propget, helpstring("Выбор исходного режима")]
+        HRESULT InitialModeOption([out, retval] long* pVal);
+        [id(0x00000074), propput, helpstring("Выбор исходного режима")]
+        HRESULT InitialModeOption([in] long pVal);
+        [id(0x0000001b), propget, helpstring("Название исходного режима")]
+        HRESULT InitialModeName([out, retval] BSTR* pVal);
+        [id(0x0000001c), propget, helpstring("Сигма исходного режима")]
+        HRESULT InitialModeSigma([out, retval] double* pVal);
+        [id(0x0000001d), propget, helpstring("Гамма исходного режима")]
+        HRESULT InitialModeGamma([out, retval] double* pVal);
+        [id(0x0000001e), propget, helpstring("Температура исходного режима")]
+        HRESULT InitialModeT([out, retval] double* pVal);
+        [id(0x0000007d), propget, helpstring("1й критический пролет")]
+        HRESULT Critical_1_SpanLength([out, retval] double* pVal);
+        [id(0x0000007e), propget, helpstring("2й критический пролет")]
+        HRESULT Critical_2_SpanLength([out, retval] double* pVal);
+        [id(0x0000007f), propget, helpstring("3й критический пролет")]
+        HRESULT Critical_3_SpanLength([out, retval] double* pVal);
+        [id(0x0000002d), propget, helpstring("Ограничение допустимого напряжения")]
+        HRESULT MaxStressLimitation([out, retval] long* pVal);
+        [id(0x0000002d), propput, helpstring("Ограничение допустимого напряжения")]
+        HRESULT MaxStressLimitation([in] long pVal);
+        [id(0x0000002e), propget, helpstring("Доп. напряжение в режиме максимальной нагрузки")]
+        HRESULT StressLim_MaxLoad([out, retval] double* pVal);
+        [id(0x0000002e), propput, helpstring("Доп. напряжение в режиме максимальной нагрузки")]
+        HRESULT StressLim_MaxLoad([in] double pVal);
+        [id(0x00000064), propget, helpstring("Доп. напряжение в режиме минимальной температуры")]
+        HRESULT StressLim_MinTemp([out, retval] double* pVal);
+        [id(0x00000064), propput, helpstring("Доп. напряжение в режиме минимальной температуры")]
+        HRESULT StressLim_MinTemp([in] double pVal);
+        [id(0x00000075), propget, helpstring("Доп. напряжение для среднегодового режима")]
+        HRESULT StressLim_MidYear([out, retval] double* pVal);
+        [id(0x00000075), propput, helpstring("Доп. напряжение для среднегодового режима")]
+        HRESULT StressLim_MidYear([in] double pVal);
+        [id(0x0000005b), propget, helpstring("Ошибка при расчете провода")]
+        HRESULT CalculationError([out, retval] BSTR* pVal);
+        [id(0x0000001f), propget, helpstring("Режим расчета")]
+        HRESULT ModeIndex([out, retval] long* pVal);
+        [id(0x0000001f), propput, helpstring("Режим расчета")]
+        HRESULT ModeIndex([in] long pVal);
+        [id(0x00000020), propget, helpstring("Напряжение в расчетном режиме(Н/м*кв.мм)")]
+        HRESULT SigmaCoeff([out, retval] double* pVal);
+        [id(0x00000021), propget, helpstring("Тяжения в расчетном режиме")]
+        HRESULT Stress([out, retval] double* pVal);
+        [id(0x00000022), propget, helpstring("Нагрузка на провод в расчетном режиме")]
+        HRESULT GammaCoeff([out, retval] double* pVal);
+        [id(0x00000023), propget, helpstring("Максимальная стрела провеса в расч. режиме")]
+        HRESULT SlackMax([out, retval] double* pVal);
+        [id(0x00000024), propget, helpstring("Стрела провеса")]
+        HRESULT Slack([out, retval] double* pVal);
+        [id(0x00000025), propget, helpstring("Приведенный центр тяжести")]
+        HRESULT CentroidHeight([out, retval] double* pVal);
+        [id(0x00000026), propget, helpstring("Длина анкерного участка")]
+        HRESULT LengthSection([out, retval] double* pVal);
+        [id(0x00000027), propget, helpstring("Приведенный пролет")]
+        HRESULT SpanLength([out, retval] double* pVal);
+        [id(0x00000029), propget, helpstring("Габаритный пролет")]
+        HRESULT GabaritSpanLength([out, retval] double* pVal);
+        [id(0x0000007a), propget, helpstring("Режим расчета габаритного пролета")]
+        HRESULT GabaritCalcMode([out, retval] BSTR* pVal);
+        [id(0x0000002a), propget, helpstring("Максимальная длина провода (м)")]
+        HRESULT LengthMax([out, retval] double* pVal);
+        [id(0x0000002c), propget, helpstring("Угол отклонения ветром")]
+        HRESULT WindAngle([out, retval] double* pVal);
+        [id(0x00000077), propget, helpstring("Число цепей")]
+        HRESULT ChainCount([out, retval] VARIANT_BOOL* pVal);
+        [id(0x00000077), propput, helpstring("Число цепей")]
+        HRESULT ChainCount([in] VARIANT_BOOL pVal);
+        [id(0x00000087), propget, helpstring("Число фаз")]
+        HRESULT PhaseCount([out, retval] long* pVal);
+        [id(0x0000002b), propget, helpstring("Длина фазы провода в текущем режиме (м)")]
+        HRESULT LengthPhase([out, retval] double* pVal);
+        [id(0x00000085), helpstring("Длина провода (м)")]
+        HRESULT Length(
+                        [in] VARIANT phaseName, 
+                        [out, retval] double* pVal);
+        [id(0x00000055), propget, helpstring("Число проводов")]
+        HRESULT CountWire([out, retval] long* pVal);
+        [id(0x00000056), propget, helpstring("Число пролетов")]
+        HRESULT CountSpan([out, retval] long* pVal);
+        [id(0x00000088), propget, helpstring("Число цепей")]
+        HRESULT Chains([out, retval] long* pVal);
+        [id(0x00000089), propget, helpstring("Число фаз")]
+        HRESULT Phases([out, retval] long* pVal);
+        [id(0x0000003d), propget, helpstring("Допустимое тяжение для опоры")]
+        HRESULT SupportStressMax([out, retval] double* pVal);
+        [id(0x00000051), propget, helpstring("Нормативные нагрузки")]
+        HRESULT GammaStdNorm([out, retval] VARIANT* pVal);
+        [id(0x0000005c), propget, helpstring("Расчетные нагрузки")]
+        HRESULT GammaStdCalc([out, retval] VARIANT* pVal);
+        [id(0x0000005d), propget, helpstring("Удельные расчетные нагрузки")]
+        HRESULT GammaStdSpec([out, retval] VARIANT* pVal);
+        [id(0x0000006d), helpstring("method climateData")]
+        HRESULT climateData([out, retval] IDispatch** pVal);
+        [id(0x0000000e), helpstring("Calculate mode by temp, wind, ice")]
+        HRESULT Calculate(
+                        [in] double Temperature, 
+                        [in] double Wind, 
+                        [in] double Ice, 
+                        [out, retval] IMDSLLinkSketchMode** ppResult);
+        [id(0x00000079), helpstring("CalculateMode by mode name")]
+        HRESULT CalculateMode(
+                        [in] BSTR modeName, 
+                        [out, retval] IMDSLLinkSketchMode** ppResult);
+        [id(0x0000003e), propget, helpstring("Пролеты")]
+        HRESULT Element1([out, retval] IElement** pVal);
+        [id(0x0000003e), propput, helpstring("Пролеты")]
+        HRESULT Element1([in] IElement* pVal);
+        [id(0x0000002f), propget, helpstring("property NodeStart")]
+        HRESULT NodeStart([out, retval] IDispatch** pVal);
+        [id(0x00000030), propget, helpstring("property NodeEnd")]
+        HRESULT NodeEnd([out, retval] IDispatch** pVal);
+        [id(0x00000031), propget, helpstring("property Nodes")]
+        HRESULT Nodes([out, retval] IMDSNodes** pVal);
+        [id(0x0000004f), propget, helpstring("property BearingStart")]
+        HRESULT BearingStart([out, retval] IDispatch** pVal);
+        [id(0x00000050), propget, helpstring("property BearingEnd")]
+        HRESULT BearingEnd([out, retval] IDispatch** pVal);
+        [id(0x00000053), propget, helpstring("property IsTros")]
+        HRESULT IsTros([out, retval] VARIANT_BOOL* pVal);
+        [id(0x00000057), propget, helpstring("Единицы измерения силы")]
+        HRESULT PowerCoefficient([out, retval] double* pVal);
+        [id(0x00000065), propget, helpstring("ExistTros")]
+        HRESULT ExistTros([out, retval] VARIANT_BOOL* pVal);
+        [id(0x00000066), propget, helpstring("TrosInSection")]
+        HRESULT TrosInSection([out, retval] IDispatch** pVal);
+        [id(0x00000067), helpstring("method owner")]
+        HRESULT owner([out, retval] IDispatch** pVal);
+        [id(0x00000068), propget, helpstring("property IsOptical")]
+        HRESULT IsOptical([out, retval] VARIANT_BOOL* pVal);
+        [id(0x00000069), propget, helpstring("ExistOptical")]
+        HRESULT ExistOptical([out, retval] VARIANT_BOOL* pVal);
+        [id(0x0000006a), propget, helpstring("OpticalInSection")]
+        HRESULT OpticalInSection([out, retval] IDispatch** pVal);
+        [id(0x0000006b), propget, helpstring("TypeLink")]
+        HRESULT TypeLink([out, retval] long* pVal);
+        [id(0x00000070), helpstring("method CurrentModeData")]
+        HRESULT CurrentModeData([out, retval] IMDSLLinkSketchMode** ppResult);
+        [id(0x00000083), helpstring("method MinPoint_X")]
+        HRESULT MinPoint_X(
+                        [in] long nSpanNum, 
+                        [out, retval] double* pVal);
+        [id(0x00000084), helpstring("method MinPoint_Y")]
+        HRESULT MinPoint_Y(
+                        [in] long nSpanNum, 
+                        [out, retval] double* pVal);
+        [id(0x00000048), propget, helpstring("method SlackSpanMiddle")]
+        HRESULT SlackSpanMiddle(
+                        [in] long nSpan, 
+                        [in] double fTemper, 
+                        [out, retval] double* pVal);
+        [id(0x00000052), propget, helpstring("Расчет монтажных стрел с учетом вытяжки")]
+        HRESULT SlackSpanMount(
+                        [in] long nSpan, 
+                        [in] double fTemper, 
+                        [out, retval] double* pVal);
+        [id(0x0000000d), propget, helpstring("Расчет монтажных напряжений")]
+        HRESULT StressMount(
+                        [in] double fTemper, 
+                        [out, retval] double* pVal);
+        [id(0x00000078), propget, helpstring("Коэффициенты расчетных формул")]
+        HRESULT CalcCoeffs([out, retval] VARIANT* pVal);
+    };
+
+    [
+      odl,
+      uuid(16FA4B49-011F-4178-BD5B-039E1B63197A),
+      helpstring("IMDSNodes Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IMDSNodes : IDispatch {
+        [id(0xfffffffc), propget, hidden, helpstring("property _NewEnum")]
+        HRESULT _NewEnum([out, retval] IUnknown** ppEnumVariant);
+        [id(00000000), helpstring("method Item")]
+        HRESULT Item(
+                        VARIANT Index, 
+                        [out, retval] IDispatch** pVal);
+        [id(0x00000001), propget, helpstring("property Count")]
+        HRESULT Count([out, retval] long* pVal);
+    };
+
+    [
+      uuid(F93D934E-6686-4882-B971-FDE5F97F8D28),
+      helpstring("MDSLWireSketch Class")
+    ]
+    coclass MDSLWireSketch {
+        [default] interface IMDSLWireSketch;
+        [default, source] interface IAcadObjectEvents;
+    };
+
+    [
+      odl,
+      uuid(4B4DADBB-09E7-43D5-8A9C-4C94E32D9C52),
+      helpstring("IMDSLLinkSketchPropWrapper Interface")
+    ]
+    interface IMDSLLinkSketchPropWrapper : IUnknown {
+    };
+
+    [
+      uuid(E65176D7-3782-4D26-8C13-854399A85C4D),
+      helpstring("MDSLLinkSketchPropWrapper Class")
+    ]
+    coclass MDSLLinkSketchPropWrapper {
+        [default] interface IMDSLLinkSketchPropWrapper;
+    };
+
+    [
+      odl,
+      uuid(93E18AEB-0D24-4BF0-9341-79DCD10E227C),
+      helpstring("IMDSLEarth Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IMDSLEarth : IAcadEntity {
+        [id(0x00000001), propget, helpstring("property Element")]
+        HRESULT Element([out, retval] IElement** pVal);
+        [id(0x00000001), propput, helpstring("property Element")]
+        HRESULT Element([in] IElement* pVal);
+        [id(0x00000002), helpstring("method GetHeight")]
+        HRESULT GetElevation(
+                        double Distance, 
+                        [out, retval] double* Result);
+        [id(0x00000003), helpstring("method GetPointCount")]
+        HRESULT GetPointsCount([out, retval] long* Result);
+        [id(0x00000004), helpstring("method GetHeightAtPoint")]
+        HRESULT GetPoint(
+                        [in] long Point, 
+                        [out] VARIANT* Result);
+        [id(0x00000005), helpstring("method GetStation")]
+        HRESULT GetStation(
+                        [in] double Distance, 
+                        unsigned short Flags, 
+                        [out, retval] BSTR* Value);
+        [id(0x00000006), helpstring("method owner")]
+        HRESULT owner([out, retval] IDispatch** pVal);
+    };
+
+    [
+      uuid(EA9FDD9D-5A39-45E0-974D-7C609DA41C70),
+      helpstring("MDSLEarth Class")
+    ]
+    coclass MDSLEarth {
+        [default] interface IMDSLEarth;
+        [default, source] interface IAcadObjectEvents;
+    };
+
+    [
+      odl,
+      uuid(81C816C1-862C-4916-AFC0-34054D33DC6E),
+      helpstring("Пересечение"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IMDSLCros : IAcadEntity {
+        [id(0x00000001), propget, helpstring("property Element")]
+        HRESULT Element([out, retval] IElement** pVal);
+        [id(0x00000001), propput, helpstring("property Element")]
+        HRESULT Element([in] IElement* pVal);
+        [id(0x00000002), propget, helpstring("property Position")]
+        HRESULT Position([out, retval] double* pVal);
+        [id(0x00000002), propput, helpstring("property Position")]
+        HRESULT Position([in] double pVal);
+        [id(0x00000003), propget, helpstring("property HeightMark")]
+        HRESULT HeightMark([out, retval] double* pVal);
+        [id(0x00000003), propput, helpstring("property HeightMark")]
+        HRESULT HeightMark([in] double pVal);
+        [id(0x00000018), propget, helpstring("property DistGroundMark")]
+        HRESULT DistGroundMark([out, retval] double* pVal);
+        [id(0x00000004), propget, helpstring("property NearLeft")]
+        HRESULT NearLeft([out, retval] double* pVal);
+        [id(0x00000004), propput, helpstring("property NearLeft")]
+        HRESULT NearLeft([in] double pVal);
+        [id(0x00000005), propget, helpstring("property NearRight")]
+        HRESULT NearRight([out, retval] double* pVal);
+        [id(0x00000005), propput, helpstring("property NearRight")]
+        HRESULT NearRight([in] double pVal);
+        [id(0x00000006), propget, helpstring("property MarkType")]
+        HRESULT MarkType([out, retval] long* pVal);
+        [id(0x00000006), propput, helpstring("property MarkType")]
+        HRESULT MarkType([in] long pVal);
+        [id(0x00000007), propget, helpstring("property PosLineType")]
+        HRESULT PosLineMark([out, retval] long* pVal);
+        [id(0x00000007), propput, helpstring("property PosLineType")]
+        HRESULT PosLineMark([in] long pVal);
+        [id(0x00000008), propget, helpstring("property Scalability")]
+        HRESULT Scalability([out, retval] long* pVal);
+        [id(0x00000008), propput, helpstring("property Scalability")]
+        HRESULT Scalability([in] long pVal);
+        [id(0x00000009), propget, helpstring("property NameBTR")]
+        HRESULT NameBTR([out, retval] long* pVal);
+        [id(0x00000009), propput, helpstring("property NameBTR")]
+        HRESULT NameBTR([in] long pVal);
+        [id(0x0000000a), propget, helpstring("property ScaleH_BTR")]
+        HRESULT ScaleH_BTR([out, retval] double* pVal);
+        [id(0x0000000a), propput, helpstring("property ScaleH_BTR")]
+        HRESULT ScaleH_BTR([in] double pVal);
+        [id(0x0000000b), propget, helpstring("property ScaleV_BTR")]
+        HRESULT ScaleV_BTR([out, retval] double* pVal);
+        [id(0x0000000b), propput, helpstring("property ScaleV_BTR")]
+        HRESULT ScaleV_BTR([in] double pVal);
+        [id(0x0000000c), propget, helpstring("property Radius")]
+        HRESULT Radius([out, retval] double* pVal);
+        [id(0x0000000c), propput, helpstring("property Radius")]
+        HRESULT Radius([in] double pVal);
+        [id(0x0000000d), propget, helpstring("property DXLeft")]
+        HRESULT DXLeft([out, retval] double* pVal);
+        [id(0x0000000d), propput, helpstring("property DXLeft")]
+        HRESULT DXLeft([in] double pVal);
+        [id(0x0000000e), propget, helpstring("property DXRight")]
+        HRESULT DXRight([out, retval] double* pVal);
+        [id(0x0000000e), propput, helpstring("property DXRight")]
+        HRESULT DXRight([in] double pVal);
+        [id(0x0000000f), propget, helpstring("property BindType")]
+        HRESULT BindType([out, retval] long* pVal);
+        [id(0x0000000f), propput, helpstring("property BindType")]
+        HRESULT BindType([in] long pVal);
+        [id(0x00000010), helpstring("method wireInSpan")]
+        HRESULT wireInSpan([out, retval] IDispatch** pVal);
+        [id(0x00000011), helpstring("method prevTower")]
+        HRESULT prevTower([out, retval] IDispatch** pVal);
+        [id(0x00000012), helpstring("method nextTower")]
+        HRESULT nextTower([out, retval] IDispatch** pVal);
+        [id(0x00000013), helpstring("method isPrevTower")]
+        HRESULT isPrevTower([out, retval] long* pVal);
+        [id(0x00000014), helpstring("method isNextTower")]
+        HRESULT isNextTower([out, retval] long* pVal);
+        [id(0x00000015), helpstring("method isThereWireInSpan")]
+        HRESULT isThereWireInSpan([out, retval] long* pVal);
+        [id(0x00000016), helpstring("method TransientNumber")]
+        HRESULT TransientNumber([out, retval] long* pVal);
+        [id(0x00000017), helpstring("method owner")]
+        HRESULT owner([out, retval] IDispatch** pVal);
+    };
+
+    [
+      uuid(70A8E13E-E657-444F-BDD7-17629667A1BF),
+      helpstring("MDSLCros Class")
+    ]
+    coclass MDSLCros {
+        [default] interface IMDSLCros;
+        [default, source] interface IAcadObjectEvents;
+    };
+
+    [
+      uuid(C7DB15AE-0FE4-400C-92B5-AE8896CFB3EE),
+      helpstring("Supports Class")
+    ]
+    coclass MDSLObjects {
+        [default] interface IMDSLObjects;
+    };
+
+    [
+      odl,
+      uuid(83EA3E7D-EC61-43E5-9A40-819ED494899B),
+      helpstring("Опора ЛЭП"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IMDSLTower : IAcadObject {
+        [id(0x00000001), helpstring("Профиль, которому принадлежит опора")]
+        HRESULT owner([out, retval] IDispatch** pVal);
+        [id(0x00000002), helpstring("Предыдущая опора")]
+        HRESULT prevBearing([out, retval] IDispatch** pVal);
+        [id(0x00000003), helpstring("Следующая опора")]
+        HRESULT nextBearing([out, retval] IDispatch** pVal);
+        [id(0x00000004), helpstring("Имеется ли предыдущая опора")]
+        HRESULT isPrevBearing([out, retval] VARIANT_BOOL* pVal);
+        [id(0x00000005), helpstring("Имеется ли следующая опора")]
+        HRESULT isNextBearing([out, retval] VARIANT_BOOL* pVal);
+        [id(0x00000006), helpstring("Номер опоры на профиле")]
+        HRESULT numInLine([out, retval] long* pVal);
+        [id(0x00000007), helpstring("Имеется ли профиль-владелец")]
+        HRESULT HasOwner([out, retval] VARIANT_BOOL* pVal);
+        [id(0x00000008), propget, helpstring("Свойства опоры")]
+        HRESULT Element([out, retval] IElement** pVal);
+        [id(0x00000009), propget, helpstring("Графическое представление опоры")]
+        HRESULT SketchFirst([out, retval] IDispatch** pVal);
+        [id(0x0000000a), propget, helpstring("Провода на данной опоре")]
+        HRESULT Wires([out, retval] IMDSLObjects** pVal);
+        [id(0x0000000b), helpstring("Имеется ли провод на узле")]
+        HRESULT HasWireAtNode(
+                        [in] BSTR nodeName, 
+                        [out, retval] VARIANT_BOOL* pVal);
+        [id(0x0000000c), helpstring("Получение провода по имени узла")]
+        HRESULT FirstWireAtNode(
+                        [in] BSTR nodeName, 
+                        [out, retval] IMDSLWireSketch** pVal);
+        [id(0x0000000d), helpstring("Получение провода по имени узла")]
+        HRESULT WiresAtNode(
+                        [in] BSTR nodeName, 
+                        [out, retval] IMDSLObjects** pVal);
+        [id(0x00000014), helpstring("method TowerData")]
+        HRESULT TowerData(
+                        [in] BSTR modeName, 
+                        [in] short WindAngle, 
+                        [out, retval] IMDSLTowerData** ppResult);
+    };
+
+    [
+      uuid(884F9E59-5BAF-4395-A78C-20DC7F5F5214),
+      helpstring("MDSLTower Class")
+    ]
+    coclass MDSLTower {
+        [default] interface IMDSLTower;
+        [default, source] interface IAcadObjectEvents;
+    };
+
+    [
+      uuid(2CEC6107-128A-4E40-8F1C-B307682561A2),
+      helpstring("WireBreakDlgWrapper Class")
+    ]
+    coclass WireBreakDlgWrapper {
+        [default] interface IWireBreakDlgWrapper;
+    };
+};

@@ -11317,35 +11317,35 @@
     <Text></Text>
   </NodeInfo>
   <NodeInfo>
-    <Id>264F82D5-F479-4EAC-89B6-DFDA69FF6DAB</Id>
+    <Id>37C63A13-9021-456F-8E95-D55CE6153763</Id>
     <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
-    <PathExecuteClass>Renga._ISelectionEvents._ISelectionEvents_Constructor</PathExecuteClass>
+    <PathExecuteClass>Renga.SelectionEvents.SelectionEvents_Constructor</PathExecuteClass>
     <CoderName>GeorgGrebenyuk</CoderName>
-    <Folder>NVP_Renga_COM.Renga._ISelectionEvents</Folder>
-    <NodeName>__ISelectionEvents_Constructor</NodeName>
+    <Folder>NVP_Renga_COM.Renga.SelectionEvents</Folder>
+    <NodeName>_SelectionEvents_Constructor</NodeName>
     <NodeType>Loaded</NodeType>
     <CADType>None</CADType>
     <ViewType>Modifier</ViewType>
     <Text></Text>
   </NodeInfo>
   <NodeInfo>
-    <Id>7084863E-86E9-4D59-97E4-E4D8F4B547B0</Id>
+    <Id>E8E86A83-9007-480A-B408-ADB75815B72B</Id>
     <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
-    <PathExecuteClass>Renga._ISelectionEvents._ISelectionEvents_ConstructorCast</PathExecuteClass>
+    <PathExecuteClass>Renga.SelectionEvents.SelectionEvents_ConstructorCast</PathExecuteClass>
     <CoderName>GeorgGrebenyuk</CoderName>
-    <Folder>NVP_Renga_COM.Renga._ISelectionEvents</Folder>
-    <NodeName>__ISelectionEvents_ConstructorCast</NodeName>
+    <Folder>NVP_Renga_COM.Renga.SelectionEvents</Folder>
+    <NodeName>_SelectionEvents_ConstructorCast</NodeName>
     <NodeType>Loaded</NodeType>
     <CADType>None</CADType>
     <ViewType>Modifier</ViewType>
     <Text></Text>
   </NodeInfo>
   <NodeInfo>
-    <Id>D89762E3-7179-4725-B2D6-24809DBAB933</Id>
+    <Id>7B6914B3-E076-49BE-A08E-B4A906F39833</Id>
     <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
-    <PathExecuteClass>Renga._ISelectionEvents.OnModelSelectionChanged</PathExecuteClass>
+    <PathExecuteClass>Renga.SelectionEvents.OnModelSelectionChanged</PathExecuteClass>
     <CoderName>GeorgGrebenyuk</CoderName>
-    <Folder>NVP_Renga_COM.Renga._ISelectionEvents</Folder>
+    <Folder>NVP_Renga_COM.Renga.SelectionEvents</Folder>
     <NodeName>OnModelSelectionChanged</NodeName>
     <NodeType>Loaded</NodeType>
     <CADType>None</CADType>
@@ -11353,35 +11353,35 @@
     <Text></Text>
   </NodeInfo>
   <NodeInfo>
-    <Id>14C765C4-3D68-42FD-9798-349868F313DE</Id>
+    <Id>F0D245FD-16DA-4CFD-9D59-149305D6D8CC</Id>
     <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
-    <PathExecuteClass>Renga._IApplicationEvents._IApplicationEvents_Constructor</PathExecuteClass>
+    <PathExecuteClass>Renga.ApplicationEvents.ApplicationEvents_Constructor</PathExecuteClass>
     <CoderName>GeorgGrebenyuk</CoderName>
-    <Folder>NVP_Renga_COM.Renga._IApplicationEvents</Folder>
-    <NodeName>__IApplicationEvents_Constructor</NodeName>
+    <Folder>NVP_Renga_COM.Renga.ApplicationEvents</Folder>
+    <NodeName>_ApplicationEvents_Constructor</NodeName>
     <NodeType>Loaded</NodeType>
     <CADType>None</CADType>
     <ViewType>Modifier</ViewType>
     <Text></Text>
   </NodeInfo>
   <NodeInfo>
-    <Id>E3F578D4-AFE0-4805-BF3D-710D7DC7F714</Id>
+    <Id>EC440516-747C-4E6F-BDB8-943F53214F75</Id>
     <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
-    <PathExecuteClass>Renga._IApplicationEvents._IApplicationEvents_ConstructorCast</PathExecuteClass>
+    <PathExecuteClass>Renga.ApplicationEvents.ApplicationEvents_ConstructorCast</PathExecuteClass>
     <CoderName>GeorgGrebenyuk</CoderName>
-    <Folder>NVP_Renga_COM.Renga._IApplicationEvents</Folder>
-    <NodeName>__IApplicationEvents_ConstructorCast</NodeName>
+    <Folder>NVP_Renga_COM.Renga.ApplicationEvents</Folder>
+    <NodeName>_ApplicationEvents_ConstructorCast</NodeName>
     <NodeType>Loaded</NodeType>
     <CADType>None</CADType>
     <ViewType>Modifier</ViewType>
     <Text></Text>
   </NodeInfo>
   <NodeInfo>
-    <Id>D238DC64-7E90-49AC-8F07-CC99CAA49091</Id>
+    <Id>A67AAFF8-E950-4B91-BCDC-FA23067E8147</Id>
     <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
-    <PathExecuteClass>Renga._IApplicationEvents.OnBeforeApplicationClose</PathExecuteClass>
+    <PathExecuteClass>Renga.ApplicationEvents.OnBeforeApplicationClose</PathExecuteClass>
     <CoderName>GeorgGrebenyuk</CoderName>
-    <Folder>NVP_Renga_COM.Renga._IApplicationEvents</Folder>
+    <Folder>NVP_Renga_COM.Renga.ApplicationEvents</Folder>
     <NodeName>OnBeforeApplicationClose</NodeName>
     <NodeType>Loaded</NodeType>
     <CADType>None</CADType>
@@ -11389,11 +11389,11 @@
     <Text></Text>
   </NodeInfo>
   <NodeInfo>
-    <Id>BDC702B1-1861-458F-9812-23E45E15EF58</Id>
+    <Id>370B2BD7-C406-448B-B085-6C9A94D8F415</Id>
     <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
-    <PathExecuteClass>Renga._IApplicationEvents.OnBeforeProjectClose</PathExecuteClass>
+    <PathExecuteClass>Renga.ApplicationEvents.OnBeforeProjectClose</PathExecuteClass>
     <CoderName>GeorgGrebenyuk</CoderName>
-    <Folder>NVP_Renga_COM.Renga._IApplicationEvents</Folder>
+    <Folder>NVP_Renga_COM.Renga.ApplicationEvents</Folder>
     <NodeName>OnBeforeProjectClose</NodeName>
     <NodeType>Loaded</NodeType>
     <CADType>None</CADType>
@@ -11401,11 +11401,11 @@
     <Text></Text>
   </NodeInfo>
   <NodeInfo>
-    <Id>DB31551A-87E0-4FF7-B7E4-FD52B154DC3F</Id>
+    <Id>CF2ADB7C-24C6-4C43-A263-96F3123BC878</Id>
     <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
-    <PathExecuteClass>Renga._IApplicationEvents.OnProjectCreated</PathExecuteClass>
+    <PathExecuteClass>Renga.ApplicationEvents.OnProjectCreated</PathExecuteClass>
     <CoderName>GeorgGrebenyuk</CoderName>
-    <Folder>NVP_Renga_COM.Renga._IApplicationEvents</Folder>
+    <Folder>NVP_Renga_COM.Renga.ApplicationEvents</Folder>
     <NodeName>OnProjectCreated</NodeName>
     <NodeType>Loaded</NodeType>
     <CADType>None</CADType>
@@ -11413,11 +11413,11 @@
     <Text></Text>
   </NodeInfo>
   <NodeInfo>
-    <Id>3DBB8378-3D6C-4B2C-ACFF-A7757EA25655</Id>
+    <Id>610B6E33-9142-42E0-BBA4-8E021710A3CE</Id>
     <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
-    <PathExecuteClass>Renga._IApplicationEvents.OnProjectOpened</PathExecuteClass>
+    <PathExecuteClass>Renga.ApplicationEvents.OnProjectOpened</PathExecuteClass>
     <CoderName>GeorgGrebenyuk</CoderName>
-    <Folder>NVP_Renga_COM.Renga._IApplicationEvents</Folder>
+    <Folder>NVP_Renga_COM.Renga.ApplicationEvents</Folder>
     <NodeName>OnProjectOpened</NodeName>
     <NodeType>Loaded</NodeType>
     <CADType>None</CADType>
@@ -11425,11 +11425,11 @@
     <Text></Text>
   </NodeInfo>
   <NodeInfo>
-    <Id>04DE4283-9F19-4F30-8799-376FE719D6A3</Id>
+    <Id>92B41250-87A0-4A61-A547-7951E6D67A0C</Id>
     <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
-    <PathExecuteClass>Renga._IApplicationEvents.OnProjectSaved</PathExecuteClass>
+    <PathExecuteClass>Renga.ApplicationEvents.OnProjectSaved</PathExecuteClass>
     <CoderName>GeorgGrebenyuk</CoderName>
-    <Folder>NVP_Renga_COM.Renga._IApplicationEvents</Folder>
+    <Folder>NVP_Renga_COM.Renga.ApplicationEvents</Folder>
     <NodeName>OnProjectSaved</NodeName>
     <NodeType>Loaded</NodeType>
     <CADType>None</CADType>
@@ -11437,11 +11437,11 @@
     <Text></Text>
   </NodeInfo>
   <NodeInfo>
-    <Id>E3EAABF0-CCC9-49BA-B1A3-350899682AB3</Id>
+    <Id>2D0ACBDE-1F64-4B01-B59E-9DE5B8C12D59</Id>
     <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
-    <PathExecuteClass>Renga._IApplicationEvents.OnProjectClosed</PathExecuteClass>
+    <PathExecuteClass>Renga.ApplicationEvents.OnProjectClosed</PathExecuteClass>
     <CoderName>GeorgGrebenyuk</CoderName>
-    <Folder>NVP_Renga_COM.Renga._IApplicationEvents</Folder>
+    <Folder>NVP_Renga_COM.Renga.ApplicationEvents</Folder>
     <NodeName>OnProjectClosed</NodeName>
     <NodeType>Loaded</NodeType>
     <CADType>None</CADType>
@@ -11449,35 +11449,35 @@
     <Text></Text>
   </NodeInfo>
   <NodeInfo>
-    <Id>FAE91006-2D13-48AE-8F59-0551E09C298F</Id>
+    <Id>48250B52-1043-4045-B791-7EC841DB250B</Id>
     <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
-    <PathExecuteClass>Renga._IActionEvents._IActionEvents_Constructor</PathExecuteClass>
+    <PathExecuteClass>Renga.ActionEvents.ActionEvents_Constructor</PathExecuteClass>
     <CoderName>GeorgGrebenyuk</CoderName>
-    <Folder>NVP_Renga_COM.Renga._IActionEvents</Folder>
-    <NodeName>__IActionEvents_Constructor</NodeName>
+    <Folder>NVP_Renga_COM.Renga.ActionEvents</Folder>
+    <NodeName>_ActionEvents_Constructor</NodeName>
     <NodeType>Loaded</NodeType>
     <CADType>None</CADType>
     <ViewType>Modifier</ViewType>
     <Text></Text>
   </NodeInfo>
   <NodeInfo>
-    <Id>021C029A-313C-451D-92D9-AA114B7B14C5</Id>
+    <Id>43308CA6-06BD-4523-A9E7-F8EDD254B43A</Id>
     <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
-    <PathExecuteClass>Renga._IActionEvents._IActionEvents_ConstructorCast</PathExecuteClass>
+    <PathExecuteClass>Renga.ActionEvents.ActionEvents_ConstructorCast</PathExecuteClass>
     <CoderName>GeorgGrebenyuk</CoderName>
-    <Folder>NVP_Renga_COM.Renga._IActionEvents</Folder>
-    <NodeName>__IActionEvents_ConstructorCast</NodeName>
+    <Folder>NVP_Renga_COM.Renga.ActionEvents</Folder>
+    <NodeName>_ActionEvents_ConstructorCast</NodeName>
     <NodeType>Loaded</NodeType>
     <CADType>None</CADType>
     <ViewType>Modifier</ViewType>
     <Text></Text>
   </NodeInfo>
   <NodeInfo>
-    <Id>88C9A1F0-3C00-4C4B-BDD0-366B9D7C2713</Id>
+    <Id>09B8A39A-B393-4F3E-92DE-758D51684DE2</Id>
     <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
-    <PathExecuteClass>Renga._IActionEvents.OnTriggered</PathExecuteClass>
+    <PathExecuteClass>Renga.ActionEvents.OnTriggered</PathExecuteClass>
     <CoderName>GeorgGrebenyuk</CoderName>
-    <Folder>NVP_Renga_COM.Renga._IActionEvents</Folder>
+    <Folder>NVP_Renga_COM.Renga.ActionEvents</Folder>
     <NodeName>OnTriggered</NodeName>
     <NodeType>Loaded</NodeType>
     <CADType>None</CADType>
@@ -11485,11 +11485,11 @@
     <Text></Text>
   </NodeInfo>
   <NodeInfo>
-    <Id>458B57E3-48BE-4CA9-BFA5-88618498C008</Id>
+    <Id>040BB2B5-4F1C-44CB-BC69-97A17A6F3DAB</Id>
     <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
-    <PathExecuteClass>Renga._IActionEvents.OnToggled</PathExecuteClass>
+    <PathExecuteClass>Renga.ActionEvents.OnToggled</PathExecuteClass>
     <CoderName>GeorgGrebenyuk</CoderName>
-    <Folder>NVP_Renga_COM.Renga._IActionEvents</Folder>
+    <Folder>NVP_Renga_COM.Renga.ActionEvents</Folder>
     <NodeName>OnToggled</NodeName>
     <NodeType>Loaded</NodeType>
     <CADType>None</CADType>
@@ -11867,5 +11867,2249 @@
     <CADType>None</CADType>
     <ViewType>Modifier</ViewType>
     <Text></Text>
+  </NodeInfo>
+  <NodeInfo>
+    <Id>94E6E643-AB66-4C76-BB9D-D062C067BFEB</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_ImageFormat.enum_ImageFormat_Undefined</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_ImageFormat</Folder>
+    <NodeName>enum_ImageFormat_Undefined</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>40F7E5ED-CA01-478F-AAE7-0FB083186CA8</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_ImageFormat.enum_ImageFormat_BMP</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_ImageFormat</Folder>
+    <NodeName>enum_ImageFormat_BMP</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>AF4A5082-1736-43E3-98FF-D054B46B684D</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_ImageFormat.enum_ImageFormat_PNG</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_ImageFormat</Folder>
+    <NodeName>enum_ImageFormat_PNG</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>418442BD-1725-43CB-A30E-909792C54208</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_ViewType.enum_ViewType_Undefined</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_ViewType</Folder>
+    <NodeName>enum_ViewType_Undefined</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>C00A5A15-71B8-414E-96C8-AEB9007F81E2</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_ViewType.enum_ViewType_ProjectExplorer</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_ViewType</Folder>
+    <NodeName>enum_ViewType_ProjectExplorer</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>1EE68BC9-895E-47DF-A67F-5C5FDEE7423C</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_ViewType.enum_ViewType_View3D</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_ViewType</Folder>
+    <NodeName>enum_ViewType_View3D</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>C531AE45-522B-47F2-8A8A-F940EE3EA655</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_ViewType.enum_ViewType_Level</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_ViewType</Folder>
+    <NodeName>enum_ViewType_Level</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>B6FCA925-039B-4347-AA3D-09B3BF29BC03</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_ViewType.enum_ViewType_Section</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_ViewType</Folder>
+    <NodeName>enum_ViewType_Section</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>01FE324E-6ABF-472D-A297-6464F828FCF0</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_ViewType.enum_ViewType_Facade</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_ViewType</Folder>
+    <NodeName>enum_ViewType_Facade</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>64471E64-2550-4A05-A9EE-45C9BF41A694</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_ViewType.enum_ViewType_Sheet</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_ViewType</Folder>
+    <NodeName>enum_ViewType_Sheet</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>9E536D1C-7DB0-473E-B350-1A397D517C5B</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_ViewType.enum_ViewType_Table</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_ViewType</Folder>
+    <NodeName>enum_ViewType_Table</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>07C167C3-4061-4EBB-A518-191C870E0792</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_ViewType.enum_ViewType_Specification</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_ViewType</Folder>
+    <NodeName>enum_ViewType_Specification</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>06FEABBC-A4D8-482D-AE89-A7C79CC3FC43</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_ViewType.enum_ViewType_SectionProfile</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_ViewType</Folder>
+    <NodeName>enum_ViewType_SectionProfile</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>6FA6A5D8-C2DE-4CC4-8634-4CDF949D9249</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_ViewType.enum_ViewType_Assembly</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_ViewType</Folder>
+    <NodeName>enum_ViewType_Assembly</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>302D994D-F759-4C0A-A0C0-8631D95EA158</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_ViewType.enum_ViewType_PipeSystem</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_ViewType</Folder>
+    <NodeName>enum_ViewType_PipeSystem</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>85962A97-F6E9-43F1-A05C-104654DF7DEC</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_ContextMenuShowCase.enum_ContextMenuShowCase_Scene</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_ContextMenuShowCase</Folder>
+    <NodeName>enum_ContextMenuShowCase_Scene</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>B858E7EF-EE78-458B-8F22-046C184E45C2</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_ContextMenuShowCase.enum_ContextMenuShowCase_Selection</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_ContextMenuShowCase</Folder>
+    <NodeName>enum_ContextMenuShowCase_Selection</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>4D392921-0596-4B3A-B66C-1DD3B1D5A4DF</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_MessageIcon.enum_MessageIcon_NoIcon</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_MessageIcon</Folder>
+    <NodeName>enum_MessageIcon_NoIcon</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>225FC2AA-36A9-4236-953A-1071D4301157</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_MessageIcon.enum_MessageIcon_Info</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_MessageIcon</Folder>
+    <NodeName>enum_MessageIcon_Info</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>06CCD122-5D06-4659-A1C4-BA35EDD478B4</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_MessageIcon.enum_MessageIcon_Warning</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_MessageIcon</Folder>
+    <NodeName>enum_MessageIcon_Warning</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>7DCBEE47-FC89-44A6-B9AA-7E9C80389862</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_MessageIcon.enum_MessageIcon_Error</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_MessageIcon</Folder>
+    <NodeName>enum_MessageIcon_Error</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>1B2AFEC8-A673-4670-AF44-420A7FDEC3C9</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_MessageIcon.enum_MessageIcon_Question</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_MessageIcon</Folder>
+    <NodeName>enum_MessageIcon_Question</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>92B4F61E-D87C-4933-B0F5-D8E167C7D965</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_PropertyType.enum_PropertyType_Undefined</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_PropertyType</Folder>
+    <NodeName>enum_PropertyType_Undefined</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>FE3E863C-9F82-4845-A571-FE32BF7991FA</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_PropertyType.enum_PropertyType_Double</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_PropertyType</Folder>
+    <NodeName>enum_PropertyType_Double</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>9575BA92-DD3C-4712-8FC4-CD59741CA568</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_PropertyType.enum_PropertyType_String</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_PropertyType</Folder>
+    <NodeName>enum_PropertyType_String</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>E2FF95F9-D14E-48FB-A5FB-404FA24C1A21</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_PropertyType.enum_PropertyType_Angle</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_PropertyType</Folder>
+    <NodeName>enum_PropertyType_Angle</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>804DB4E5-E549-47AF-ACDF-0D5D3B4F152B</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_PropertyType.enum_PropertyType_Area</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_PropertyType</Folder>
+    <NodeName>enum_PropertyType_Area</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>36C9F8C0-A165-4DA5-A23E-22A9F645E746</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_PropertyType.enum_PropertyType_Boolean</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_PropertyType</Folder>
+    <NodeName>enum_PropertyType_Boolean</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>6FA0F5BB-C342-46FE-8B32-72D4369DF2AC</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_PropertyType.enum_PropertyType_Enumeration</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_PropertyType</Folder>
+    <NodeName>enum_PropertyType_Enumeration</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>39BDF975-3700-4E3A-A14C-74391AE034B2</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_PropertyType.enum_PropertyType_Integer</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_PropertyType</Folder>
+    <NodeName>enum_PropertyType_Integer</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>58CCCF5D-E8BE-4322-9930-6A90B05130E7</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_PropertyType.enum_PropertyType_Length</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_PropertyType</Folder>
+    <NodeName>enum_PropertyType_Length</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>644CB678-6CEC-4F90-B4E3-43C7CF93AA94</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_PropertyType.enum_PropertyType_Logical</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_PropertyType</Folder>
+    <NodeName>enum_PropertyType_Logical</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>CAA993AB-24A8-4D93-B975-0E98EE350EC6</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_PropertyType.enum_PropertyType_Mass</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_PropertyType</Folder>
+    <NodeName>enum_PropertyType_Mass</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>FF0BFF4B-76D7-41FF-8727-55A61B5D4A81</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_PropertyType.enum_PropertyType_Volume</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_PropertyType</Folder>
+    <NodeName>enum_PropertyType_Volume</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>F683C9D3-B392-4BC2-AC13-F6DA55862AED</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_AngleUnit.enum_AngleUnit_Unknown</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_AngleUnit</Folder>
+    <NodeName>enum_AngleUnit_Unknown</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>09FA352A-2626-4E73-9B63-39079DF960AB</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_AngleUnit.enum_AngleUnit_Degrees</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_AngleUnit</Folder>
+    <NodeName>enum_AngleUnit_Degrees</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>8B0721C8-A568-404A-B8BC-A61553EF2C54</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_AreaUnit.enum_AreaUnit_Unknown</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_AreaUnit</Folder>
+    <NodeName>enum_AreaUnit_Unknown</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>2DA5D689-5744-42FB-9F7E-EC8FD89D7AE8</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_AreaUnit.enum_AreaUnit_Millimeters2</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_AreaUnit</Folder>
+    <NodeName>enum_AreaUnit_Millimeters2</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>535E9F49-AB07-4F01-9ECC-10FF9D1C3E92</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_AreaUnit.enum_AreaUnit_Centimeters2</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_AreaUnit</Folder>
+    <NodeName>enum_AreaUnit_Centimeters2</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>F6E64C9D-0B08-4C09-B180-01AE2104AA70</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_AreaUnit.enum_AreaUnit_Meters2</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_AreaUnit</Folder>
+    <NodeName>enum_AreaUnit_Meters2</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>EA0EB11B-B236-46FA-BBDE-1980CCBCFF48</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_LengthUnit.enum_LengthUnit_Unknown</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_LengthUnit</Folder>
+    <NodeName>enum_LengthUnit_Unknown</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>AD64C947-6B26-4BF6-A894-919D39A2748F</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_LengthUnit.enum_LengthUnit_Millimeters</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_LengthUnit</Folder>
+    <NodeName>enum_LengthUnit_Millimeters</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>A48E5168-0319-48BB-ADA5-0416A67791AF</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_LengthUnit.enum_LengthUnit_Centimeters</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_LengthUnit</Folder>
+    <NodeName>enum_LengthUnit_Centimeters</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>B581BCFD-BCC8-4863-A1D5-76A0CE2C39E7</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_LengthUnit.enum_LengthUnit_Inches</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_LengthUnit</Folder>
+    <NodeName>enum_LengthUnit_Inches</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>76492475-A951-4B2D-9894-A9213399081F</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_LengthUnit.enum_LengthUnit_Meters</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_LengthUnit</Folder>
+    <NodeName>enum_LengthUnit_Meters</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>095FD0A5-A3A4-4B66-A2A2-33903F4DC8B5</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_Logical.enum_Logical_False</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_Logical</Folder>
+    <NodeName>enum_Logical_False</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>B4C641E9-CB40-405C-A3E6-0ABEEF73C08A</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_Logical.enum_Logical_True</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_Logical</Folder>
+    <NodeName>enum_Logical_True</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>C16B4665-78E1-463E-89E4-AF780B7D39F5</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_Logical.enum_Logical_Indeterminate</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_Logical</Folder>
+    <NodeName>enum_Logical_Indeterminate</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>164E4E22-C29E-457E-AA31-80B057550935</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_MassUnit.enum_MassUnit_Unknown</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_MassUnit</Folder>
+    <NodeName>enum_MassUnit_Unknown</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>DA82AAA8-21B5-4BF2-9797-8B2C87D4FA5D</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_MassUnit.enum_MassUnit_Grams</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_MassUnit</Folder>
+    <NodeName>enum_MassUnit_Grams</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>95F26EDC-62FD-46C4-90DB-2405A8F0FA13</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_MassUnit.enum_MassUnit_Kilograms</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_MassUnit</Folder>
+    <NodeName>enum_MassUnit_Kilograms</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>FEFEF8E0-7757-4D65-B10C-F8D400CEE7EE</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_MassUnit.enum_MassUnit_Tons</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_MassUnit</Folder>
+    <NodeName>enum_MassUnit_Tons</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>F3301906-E44B-49A1-9600-ADD9E5A7DF17</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_VolumeUnit.enum_VolumeUnit_Unknown</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_VolumeUnit</Folder>
+    <NodeName>enum_VolumeUnit_Unknown</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>7EB8143D-7FC9-4DC7-ADA3-B7AFA9AB3943</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_VolumeUnit.enum_VolumeUnit_Millimeters3</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_VolumeUnit</Folder>
+    <NodeName>enum_VolumeUnit_Millimeters3</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>B8317A2F-B5F6-41EA-8FC5-731E4ABBB6AF</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_VolumeUnit.enum_VolumeUnit_Centimeters3</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_VolumeUnit</Folder>
+    <NodeName>enum_VolumeUnit_Centimeters3</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>A428F874-3806-4DBF-A463-D9F464B3A1D0</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_VolumeUnit.enum_VolumeUnit_Meters3</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_VolumeUnit</Folder>
+    <NodeName>enum_VolumeUnit_Meters3</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>00B8E33C-817B-4BCA-A40D-7D2C682DA8C9</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_ParameterValueType.enum_ParameterValueType_Undefined</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_ParameterValueType</Folder>
+    <NodeName>enum_ParameterValueType_Undefined</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>35D6A400-8B7C-407E-89D5-517773EC9EC2</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_ParameterValueType.enum_ParameterValueType_Bool</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_ParameterValueType</Folder>
+    <NodeName>enum_ParameterValueType_Bool</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>649C6DBE-50AC-40DA-8D53-30820193FBC8</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_ParameterValueType.enum_ParameterValueType_Int</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_ParameterValueType</Folder>
+    <NodeName>enum_ParameterValueType_Int</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>572AE46B-8AB4-4C2F-B84F-DA84212528E5</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_ParameterValueType.enum_ParameterValueType_Double</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_ParameterValueType</Folder>
+    <NodeName>enum_ParameterValueType_Double</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>39502D7D-8FA9-4CE5-A9A6-7D8F9CCA28F7</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_ParameterValueType.enum_ParameterValueType_String</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_ParameterValueType</Folder>
+    <NodeName>enum_ParameterValueType_String</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>98D4D0B3-36A9-4828-80A6-576D5A67B75D</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_ParameterType.enum_ParameterType_Undefined</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_ParameterType</Folder>
+    <NodeName>enum_ParameterType_Undefined</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>EC00BCC8-87CD-42B3-B72D-2AC96383B44E</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_ParameterType.enum_ParameterType_Bool</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_ParameterType</Folder>
+    <NodeName>enum_ParameterType_Bool</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>49AF47A5-ECF9-4F01-8300-272FB482EA5F</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_ParameterType.enum_ParameterType_Int</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_ParameterType</Folder>
+    <NodeName>enum_ParameterType_Int</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>C65E19AB-3998-4C0A-B5DE-DBDEE1B85FD0</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_ParameterType.enum_ParameterType_Double</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_ParameterType</Folder>
+    <NodeName>enum_ParameterType_Double</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>FDB763BE-4771-4353-9FF3-C2FA6803ECF7</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_ParameterType.enum_ParameterType_String</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_ParameterType</Folder>
+    <NodeName>enum_ParameterType_String</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>98D0BB67-FA84-4545-AD94-317A6EF59896</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_ParameterType.enum_ParameterType_Length</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_ParameterType</Folder>
+    <NodeName>enum_ParameterType_Length</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>F5069542-B1DF-4651-B7D9-861075811979</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_ParameterType.enum_ParameterType_Angle</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_ParameterType</Folder>
+    <NodeName>enum_ParameterType_Angle</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>99C2CF03-C3F2-4A7F-99AD-73FB9B295514</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_ParameterType.enum_ParameterType_IntEnumeration</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_ParameterType</Folder>
+    <NodeName>enum_ParameterType_IntEnumeration</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>DDD64FFF-8C75-48B0-8A09-43634CDF63DF</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_ParameterType.enum_ParameterType_IntID</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_ParameterType</Folder>
+    <NodeName>enum_ParameterType_IntID</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>3BCE5824-A28B-491E-AA10-71CD820D64A6</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_ParameterType.enum_ParameterType_Area</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_ParameterType</Folder>
+    <NodeName>enum_ParameterType_Area</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>F4DC88BD-3C30-4B35-BC5E-7DA5D0425AB6</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_ParameterType.enum_ParameterType_Volume</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_ParameterType</Folder>
+    <NodeName>enum_ParameterType_Volume</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>FB549F0D-579E-4E81-BF19-BD5383E2D8F0</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_ParameterType.enum_ParameterType_Mass</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_ParameterType</Folder>
+    <NodeName>enum_ParameterType_Mass</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>1EB4B8D0-7322-470B-9252-065878F7F748</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_ParameterType.enum_ParameterType_Temperature</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_ParameterType</Folder>
+    <NodeName>enum_ParameterType_Temperature</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>83DDE159-0C0A-4144-B7A4-7BBE8A00A265</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_ParameterType.enum_ParameterType_Density</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_ParameterType</Folder>
+    <NodeName>enum_ParameterType_Density</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>123AE0E3-0037-479A-848C-CB9EB631D947</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_ParameterType.enum_ParameterType_ThermalConductivity</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_ParameterType</Folder>
+    <NodeName>enum_ParameterType_ThermalConductivity</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>B22961E7-33D7-412E-822E-59626195A0EC</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_ParameterType.enum_ParameterType_Voltage</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_ParameterType</Folder>
+    <NodeName>enum_ParameterType_Voltage</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>53752729-4761-4060-B512-C4C006C9ADB3</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_ParameterType.enum_ParameterType_List</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_ParameterType</Folder>
+    <NodeName>enum_ParameterType_List</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>0F263A26-5ABA-4D99-9760-7270B50E959B</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_QuantityType.enum_QuantityType_Unknown</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_QuantityType</Folder>
+    <NodeName>enum_QuantityType_Unknown</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>5D47973A-987F-4676-817B-1EAE308ABA63</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_QuantityType.enum_QuantityType_Count</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_QuantityType</Folder>
+    <NodeName>enum_QuantityType_Count</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>FDB46104-E43E-4B18-8870-6BE21DF926C8</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_QuantityType.enum_QuantityType_Length</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_QuantityType</Folder>
+    <NodeName>enum_QuantityType_Length</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>386832B4-5ED3-435E-A6F3-31D93DCEDC9C</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_QuantityType.enum_QuantityType_Area</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_QuantityType</Folder>
+    <NodeName>enum_QuantityType_Area</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>C6910F54-66FE-407D-9C28-3721389FF1A6</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_QuantityType.enum_QuantityType_Volume</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_QuantityType</Folder>
+    <NodeName>enum_QuantityType_Volume</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>6E18DEA1-0D50-4C1F-B661-84CE2E4B5133</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_QuantityType.enum_QuantityType_Mass</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_QuantityType</Folder>
+    <NodeName>enum_QuantityType_Mass</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>40E75004-6513-4B5C-9A85-04B993F11F72</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_FlowDirectionType.enum_FlowDirectionType_Inlet</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_FlowDirectionType</Folder>
+    <NodeName>enum_FlowDirectionType_Inlet</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>838E043B-D93B-4F51-B2CE-C50A0FE00424</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_FlowDirectionType.enum_FlowDirectionType_Outlet</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_FlowDirectionType</Folder>
+    <NodeName>enum_FlowDirectionType_Outlet</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>86810291-5173-40AB-85A5-C185D98C73CA</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_FlowDirectionType.enum_FlowDirectionType_InletAndOutlet</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_FlowDirectionType</Folder>
+    <NodeName>enum_FlowDirectionType_InletAndOutlet</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>9E460DD6-3433-4E76-BCF0-F04DD823B29E</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_FlowDirectionType.enum_FlowDirectionType_Undefined</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_FlowDirectionType</Folder>
+    <NodeName>enum_FlowDirectionType_Undefined</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>475AF738-CEE4-469B-BC05-21ABB782893F</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_LayeredMaterialGroup.enum_LayeredMaterialGroup_Undefined</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_LayeredMaterialGroup</Folder>
+    <NodeName>enum_LayeredMaterialGroup_Undefined</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>103845F7-82CE-459D-AE37-C4A7C568098A</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_LayeredMaterialGroup.enum_LayeredMaterialGroup_Wall</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_LayeredMaterialGroup</Folder>
+    <NodeName>enum_LayeredMaterialGroup_Wall</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>91CBF3B6-26ED-4863-A520-122A8AA4BFAD</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_LayeredMaterialGroup.enum_LayeredMaterialGroup_Floor</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_LayeredMaterialGroup</Folder>
+    <NodeName>enum_LayeredMaterialGroup_Floor</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>DD051A89-0DF4-4B79-A134-8F81BEE4B912</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_LayeredMaterialGroup.enum_LayeredMaterialGroup_Roof</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_LayeredMaterialGroup</Folder>
+    <NodeName>enum_LayeredMaterialGroup_Roof</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>787918C5-A714-40E4-A6FC-BF076B96C58C</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_Curve3DType.enum_Curve3DType_Undefined</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_Curve3DType</Folder>
+    <NodeName>enum_Curve3DType_Undefined</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>EB71AA72-53C2-4EB4-9DC0-5D48E68C9568</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_Curve3DType.enum_Curve3DType_LineSegment</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_Curve3DType</Folder>
+    <NodeName>enum_Curve3DType_LineSegment</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>4525A1CE-8810-4F8B-B067-2D798087A7B8</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_Curve3DType.enum_Curve3DType_Arc</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_Curve3DType</Folder>
+    <NodeName>enum_Curve3DType_Arc</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>1D2BF162-65B8-4585-85B8-D0015D70F820</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_Curve3DType.enum_Curve3DType_PolyCurve</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_Curve3DType</Folder>
+    <NodeName>enum_Curve3DType_PolyCurve</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>FD085CCB-781C-4EDF-B2D1-724B4BC7A0D6</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_ReinforcementUnitType.enum_ReinforcementUnitType_Undefined</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_ReinforcementUnitType</Folder>
+    <NodeName>enum_ReinforcementUnitType_Undefined</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>5F121E8F-DA53-4832-A4D3-1A82899C31AA</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_ReinforcementUnitType.enum_ReinforcementUnitType_Mesh</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_ReinforcementUnitType</Folder>
+    <NodeName>enum_ReinforcementUnitType_Mesh</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>5EFA79BA-9CE5-4ED4-8C58-499761A761D2</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_ReinforcementUnitType.enum_ReinforcementUnitType_Cage</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_ReinforcementUnitType</Folder>
+    <NodeName>enum_ReinforcementUnitType_Cage</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>436855ED-59A3-4B02-AD84-1F418C381E5E</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_ProjectType.enum_ProjectType_Project</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_ProjectType</Folder>
+    <NodeName>enum_ProjectType_Project</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>A490B674-5379-4489-A567-EDA8BFEA60CD</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_ProjectType.enum_ProjectType_Template</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_ProjectType</Folder>
+    <NodeName>enum_ProjectType_Template</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>2D37CFFA-9FD6-4FE4-87DA-9252110E5CC2</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_AutocadVersion.enum_AutocadVersion_v2000</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_AutocadVersion</Folder>
+    <NodeName>enum_AutocadVersion_v2000</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>8E81FDC5-3C18-4FCF-81FC-90A132838ABC</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_AutocadVersion.enum_AutocadVersion_v2004</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_AutocadVersion</Folder>
+    <NodeName>enum_AutocadVersion_v2004</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>7918DE39-486A-419E-8D4C-362B25C638E9</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_AutocadVersion.enum_AutocadVersion_v2007</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_AutocadVersion</Folder>
+    <NodeName>enum_AutocadVersion_v2007</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>2B609CC2-A56F-4923-8549-ECC23A8FF613</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_AutocadVersion.enum_AutocadVersion_v2010</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_AutocadVersion</Folder>
+    <NodeName>enum_AutocadVersion_v2010</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>645D5F8D-E8E4-414D-BA36-372AA1F26802</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_AutocadVersion.enum_AutocadVersion_v2013</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_AutocadVersion</Folder>
+    <NodeName>enum_AutocadVersion_v2013</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>9742FF44-323D-49A7-BD9C-6368D4177EAD</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_AutocadVersion.enum_AutocadVersion_v2018</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_AutocadVersion</Folder>
+    <NodeName>enum_AutocadVersion_v2018</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>EB0A39FE-44C9-4990-980E-856D8B6D7348</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_Curve2DType.enum_Curve2DType_Undefined</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_Curve2DType</Folder>
+    <NodeName>enum_Curve2DType_Undefined</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>B7AF0777-443F-4B42-9F6F-F5C0E054EB07</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_Curve2DType.enum_Curve2DType_LineSegment</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_Curve2DType</Folder>
+    <NodeName>enum_Curve2DType_LineSegment</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>BE3E266D-EF22-42A8-A529-4C5435417AF1</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_Curve2DType.enum_Curve2DType_Arc</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_Curve2DType</Folder>
+    <NodeName>enum_Curve2DType_Arc</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>EA8372FA-89A8-4035-B1C6-E8B900268583</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_Curve2DType.enum_Curve2DType_PolyCurve</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_Curve2DType</Folder>
+    <NodeName>enum_Curve2DType_PolyCurve</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>BE233316-447E-48B2-AEB4-D30C59B3676E</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_SystemCategory.enum_SystemCategory_Unknown</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_SystemCategory</Folder>
+    <NodeName>enum_SystemCategory_Unknown</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>BBE48FF0-FDA0-437A-A18C-C08D07152027</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_SystemCategory.enum_SystemCategory_DomesticColdWater</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_SystemCategory</Folder>
+    <NodeName>enum_SystemCategory_DomesticColdWater</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>D9B471B8-23B1-446E-8075-5584FE3CAC69</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_SystemCategory.enum_SystemCategory_DomesticHotWater</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_SystemCategory</Folder>
+    <NodeName>enum_SystemCategory_DomesticHotWater</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>C058BE7D-CA26-4C50-A50C-47653ABB056A</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_SystemCategory.enum_SystemCategory_DomesticSewerage</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_SystemCategory</Folder>
+    <NodeName>enum_SystemCategory_DomesticSewerage</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>B76C8F29-2BE9-42EA-BF07-154705C2698B</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_SystemCategory.enum_SystemCategory_DomesticGasSupply</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_SystemCategory</Folder>
+    <NodeName>enum_SystemCategory_DomesticGasSupply</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>ACD047F4-B1FB-4BFB-B5E9-8AA43C994031</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_SystemCategory.enum_SystemCategory_WaterFireExtinguishing</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_SystemCategory</Folder>
+    <NodeName>enum_SystemCategory_WaterFireExtinguishing</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>91884283-2721-4D8B-BC55-5F09A2E5282A</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_SystemCategory.enum_SystemCategory_WaterHeating</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_SystemCategory</Folder>
+    <NodeName>enum_SystemCategory_WaterHeating</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>3540F17F-3CC0-4144-8957-9953A69E1DA8</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_SystemCategory.enum_SystemCategory_GasFireExtinguishing</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_SystemCategory</Folder>
+    <NodeName>enum_SystemCategory_GasFireExtinguishing</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>E0405DBA-83A4-4234-8FAF-0B9486D02FF4</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_SystemCategory.enum_SystemCategory_StormDrain</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_SystemCategory</Folder>
+    <NodeName>enum_SystemCategory_StormDrain</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>50037722-8753-4AFE-9A7C-13736C377C88</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_SystemCategory.enum_SystemCategory_IndustrialColdWater</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_SystemCategory</Folder>
+    <NodeName>enum_SystemCategory_IndustrialColdWater</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>A2B6E44D-0E97-4325-B1DC-20B3DF9DBD80</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_SystemCategory.enum_SystemCategory_IndustrialHotWater</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_SystemCategory</Folder>
+    <NodeName>enum_SystemCategory_IndustrialHotWater</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>E96AAEE5-F180-48A4-939D-4418A14E25B0</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_SystemCategory.enum_SystemCategory_IndustrialSewerage</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_SystemCategory</Folder>
+    <NodeName>enum_SystemCategory_IndustrialSewerage</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>EA307961-F6A9-4861-8718-0CA65B7A3B05</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_SystemCategory.enum_SystemCategory_OtherPipeSystem</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_SystemCategory</Folder>
+    <NodeName>enum_SystemCategory_OtherPipeSystem</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>4209896A-677E-4B9F-B0EF-7F0ACE3524EE</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_SystemCategory.enum_SystemCategory_Ventilation</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_SystemCategory</Folder>
+    <NodeName>enum_SystemCategory_Ventilation</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>E4393B6F-9B18-478E-BAFF-EDE413761E3C</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_SystemCategory.enum_SystemCategory_Exhaust</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_SystemCategory</Folder>
+    <NodeName>enum_SystemCategory_Exhaust</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>04CCD44E-EF02-4A90-B99E-9B9FE01DD65C</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_SystemCategory.enum_SystemCategory_Pressurization</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_SystemCategory</Folder>
+    <NodeName>enum_SystemCategory_Pressurization</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>193A5A8C-10B1-4F48-865A-23262A14E00D</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_SystemCategory.enum_SystemCategory_SmokeExhaust</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_SystemCategory</Folder>
+    <NodeName>enum_SystemCategory_SmokeExhaust</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>8A275A3B-1503-49BD-9437-36B48212F783</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_SystemCategory.enum_SystemCategory_Vacuum</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_SystemCategory</Folder>
+    <NodeName>enum_SystemCategory_Vacuum</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>50C96002-A5E7-495C-9716-0E7B8BB029F0</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_SystemCategory.enum_SystemCategory_OtherDuctSystem</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_SystemCategory</Folder>
+    <NodeName>enum_SystemCategory_OtherDuctSystem</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>5F90EC02-76BC-41EB-A5D0-F3CD1F1A3670</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_SystemCategory.enum_SystemCategory_LightingCircuit</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_SystemCategory</Folder>
+    <NodeName>enum_SystemCategory_LightingCircuit</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>352C9587-382A-4C3B-A243-C7B9503E6ADB</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_SystemCategory.enum_SystemCategory_PowerCircuit</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_SystemCategory</Folder>
+    <NodeName>enum_SystemCategory_PowerCircuit</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>036C718A-A660-45A0-A978-57C28F1CADCF</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_SystemCategory.enum_SystemCategory_OtherElectricalSystem</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_SystemCategory</Folder>
+    <NodeName>enum_SystemCategory_OtherElectricalSystem</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>7A36C448-B2ED-452C-9287-8A0E6A869D21</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_PlumbingFixtureCategory.enum_PlumbingFixtureCategory_Other</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_PlumbingFixtureCategory</Folder>
+    <NodeName>enum_PlumbingFixtureCategory_Other</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>52B3E99F-2B73-4F4A-AEA9-DB222B452290</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_PlumbingFixtureCategory.enum_PlumbingFixtureCategory_ToiletPan</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_PlumbingFixtureCategory</Folder>
+    <NodeName>enum_PlumbingFixtureCategory_ToiletPan</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>AB75604F-B29E-4690-B9B0-4002FB499630</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_PlumbingFixtureCategory.enum_PlumbingFixtureCategory_WashBasin</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_PlumbingFixtureCategory</Folder>
+    <NodeName>enum_PlumbingFixtureCategory_WashBasin</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>1092A71D-5424-4310-9666-A88B86403E7B</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_PlumbingFixtureCategory.enum_PlumbingFixtureCategory_Bath</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_PlumbingFixtureCategory</Folder>
+    <NodeName>enum_PlumbingFixtureCategory_Bath</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>DBE8BF60-4867-48C2-A5ED-B28E5F521262</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_PlumbingFixtureCategory.enum_PlumbingFixtureCategory_Sink</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_PlumbingFixtureCategory</Folder>
+    <NodeName>enum_PlumbingFixtureCategory_Sink</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>4FEF8609-C7D9-430A-9708-3609FC495E28</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_PlumbingFixtureCategory.enum_PlumbingFixtureCategory_Shower</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_PlumbingFixtureCategory</Folder>
+    <NodeName>enum_PlumbingFixtureCategory_Shower</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>469E0515-A711-483D-A14B-CE373E53AC66</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_PlumbingFixtureCategory.enum_PlumbingFixtureCategory_FloorDrain</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_PlumbingFixtureCategory</Folder>
+    <NodeName>enum_PlumbingFixtureCategory_FloorDrain</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>E2461FD1-FC77-4446-8660-AC2B8323135E</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_PlumbingFixtureCategory.enum_PlumbingFixtureCategory_RoofDrain</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_PlumbingFixtureCategory</Folder>
+    <NodeName>enum_PlumbingFixtureCategory_RoofDrain</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>9DCF939F-2D2F-4E49-87D7-0A7DB4CD0C92</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_PlumbingFixtureCategory.enum_PlumbingFixtureCategory_Bidet</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_PlumbingFixtureCategory</Folder>
+    <NodeName>enum_PlumbingFixtureCategory_Bidet</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>5E8CEDA9-87F1-4FA0-A323-AD6905FB62CC</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_PlumbingFixtureCategory.enum_PlumbingFixtureCategory_Urinal</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_PlumbingFixtureCategory</Folder>
+    <NodeName>enum_PlumbingFixtureCategory_Urinal</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>BDFF8DA9-F763-45D7-A897-CD6D8A2DB9BD</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_EquipmentCategory.enum_EquipmentCategory_Other</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_EquipmentCategory</Folder>
+    <NodeName>enum_EquipmentCategory_Other</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>1034AC7D-8C06-4703-AF33-92D8056B337D</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_EquipmentCategory.enum_EquipmentCategory_Faucet</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_EquipmentCategory</Folder>
+    <NodeName>enum_EquipmentCategory_Faucet</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>33A89ABA-5F8B-4E92-BF0B-A9E30F538965</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_EquipmentCategory.enum_EquipmentCategory_Manifold</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_EquipmentCategory</Folder>
+    <NodeName>enum_EquipmentCategory_Manifold</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>ADC17A6A-E301-488A-B857-AF855EF9360D</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_EquipmentCategory.enum_EquipmentCategory_Pump</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_EquipmentCategory</Folder>
+    <NodeName>enum_EquipmentCategory_Pump</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>2B8583C0-8E5A-4FEE-A627-5B7D47D17159</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_EquipmentCategory.enum_EquipmentCategory_WashingMachine</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_EquipmentCategory</Folder>
+    <NodeName>enum_EquipmentCategory_WashingMachine</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>2720E1A7-AC3C-4B89-ADC5-82755E13BA66</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_EquipmentCategory.enum_EquipmentCategory_Radiator</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_EquipmentCategory</Folder>
+    <NodeName>enum_EquipmentCategory_Radiator</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>0AE8A329-D63F-44E2-95E1-5E2B52E03492</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_EquipmentCategory.enum_EquipmentCategory_TowelRadiator</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_EquipmentCategory</Folder>
+    <NodeName>enum_EquipmentCategory_TowelRadiator</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>A9D9B2A6-3449-432D-803B-B36CD2D592F5</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_EquipmentCategory.enum_EquipmentCategory_ExpansionVessel</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_EquipmentCategory</Folder>
+    <NodeName>enum_EquipmentCategory_ExpansionVessel</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>CEC626C9-1FFC-439B-B331-27F6C09D99C1</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_EquipmentCategory.enum_EquipmentCategory_PlateHeatExchanger</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_EquipmentCategory</Folder>
+    <NodeName>enum_EquipmentCategory_PlateHeatExchanger</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>6AFF4A4D-24BB-48C7-82F5-CAC8B555D3D1</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_EquipmentCategory.enum_EquipmentCategory_Boiler</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_EquipmentCategory</Folder>
+    <NodeName>enum_EquipmentCategory_Boiler</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>E18C1BF3-54B5-49FC-8D7D-30123DB0F358</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_IfcVersion.enum_IfcVersion_4</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_IfcVersion</Folder>
+    <NodeName>enum_IfcVersion_4</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>FB9C1A78-0EFC-44CF-B23E-49E6346A7319</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_VisualStyle.enum_VisualStyle_Undefined</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_VisualStyle</Folder>
+    <NodeName>enum_VisualStyle_Undefined</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>CC7EA800-1B80-43A3-8B4F-C52A7671FB79</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_VisualStyle.enum_VisualStyle_Wireframe</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_VisualStyle</Folder>
+    <NodeName>enum_VisualStyle_Wireframe</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>D9313795-15B7-4F7D-B1C6-6BEF65C8A1C5</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_VisualStyle.enum_VisualStyle_Monochrome</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_VisualStyle</Folder>
+    <NodeName>enum_VisualStyle_Monochrome</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>2C91A86E-8763-4B40-B827-2B7D4D0EBE07</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_VisualStyle.enum_VisualStyle_Color</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_VisualStyle</Folder>
+    <NodeName>enum_VisualStyle_Color</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>FE7556F1-74EC-4E67-AAEC-07850EF0657E</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_VisualStyle.enum_VisualStyle_Textured</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_VisualStyle</Folder>
+    <NodeName>enum_VisualStyle_Textured</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>9A9A26CC-78C2-4998-B1F9-1AB62129EBD1</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_EventType.enum_EventType_EventTypeNone</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_EventType</Folder>
+    <NodeName>enum_EventType_EventTypeNone</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>035ED835-007F-43E9-8C5A-E543C67FD79F</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_EventType.enum_EventType_ProjectClose</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_EventType</Folder>
+    <NodeName>enum_EventType_ProjectClose</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>E5537BE3-5BF2-4902-A3E2-E7943726E543</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_EventType.enum_EventType_ApplicationClose</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_EventType</Folder>
+    <NodeName>enum_EventType_ApplicationClose</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>214DDDF4-AF7D-4D91-B95A-06C8F862EDF2</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_Line3DStyle.enum_Line3DStyle_None</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_Line3DStyle</Folder>
+    <NodeName>enum_Line3DStyle_None</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>8D5D3014-4E49-41B4-BE3B-7C73ADB4872B</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_Line3DStyle.enum_Line3DStyle_Solid</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_Line3DStyle</Folder>
+    <NodeName>enum_Line3DStyle_Solid</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>755A4264-481F-4900-AF7F-5995E4912AA3</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_Line3DStyle.enum_Line3DStyle_Dash</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_Line3DStyle</Folder>
+    <NodeName>enum_Line3DStyle_Dash</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>6F4203B2-DD56-4576-AE2F-5FD94F595B42</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_Line3DStyle.enum_Line3DStyle_DashDot</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_Line3DStyle</Folder>
+    <NodeName>enum_Line3DStyle_DashDot</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>4ED04EFC-946A-4B5C-8FE0-20FCE5EF1C33</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_Line3DStyle.enum_Line3DStyle_Dot</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_Line3DStyle</Folder>
+    <NodeName>enum_Line3DStyle_Dot</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>BDACEF24-9C30-4B0A-88EC-3840E3E235CD</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_Line3DStyle.enum_Line3DStyle_SpecialDash</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_Line3DStyle</Folder>
+    <NodeName>enum_Line3DStyle_SpecialDash</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>761A533E-A5CF-46F8-8ECB-F2FA6DDCA88D</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_Line3DStyle.enum_Line3DStyle_SpecialDashDot</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_Line3DStyle</Folder>
+    <NodeName>enum_Line3DStyle_SpecialDashDot</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>0C0D943D-14A7-4499-8E31-8F60EFBA8572</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_Line3DStyle.enum_Line3DStyle_SpecialDot</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_Line3DStyle</Folder>
+    <NodeName>enum_Line3DStyle_SpecialDot</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>959C2C1A-D4EC-4E2D-9DA1-A61EA8980B89</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_Line3DStyle.enum_Line3DStyle_DashDotDot</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_Line3DStyle</Folder>
+    <NodeName>enum_Line3DStyle_DashDotDot</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>CBC99BB5-B8EC-4755-851D-7CE61705DD4C</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_PipeConnectionType.enum_PipeConnectionType_Weld</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_PipeConnectionType</Folder>
+    <NodeName>enum_PipeConnectionType_Weld</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>A6470D7B-EDB9-4E12-9205-F6BB51C998DD</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_PipeConnectionType.enum_PipeConnectionType_Flange</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_PipeConnectionType</Folder>
+    <NodeName>enum_PipeConnectionType_Flange</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>F8E9184C-3ED2-4D94-AA61-4ABBA453FF16</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_PipeConnectionType.enum_PipeConnectionType_Compressed</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_PipeConnectionType</Folder>
+    <NodeName>enum_PipeConnectionType_Compressed</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>D969BF25-DCC5-46FC-AD67-1A3F833DC8E3</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_PipeConnectionType.enum_PipeConnectionType_Socket</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_PipeConnectionType</Folder>
+    <NodeName>enum_PipeConnectionType_Socket</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>65A13C96-F923-4302-BE2B-9AC42046D269</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_PipeConnectionType.enum_PipeConnectionType_Thread</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_PipeConnectionType</Folder>
+    <NodeName>enum_PipeConnectionType_Thread</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>CD14D693-06D2-40CD-A95A-D301FF3E1F15</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_PipeConnectionType.enum_PipeConnectionType_QuickConnection</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_PipeConnectionType</Folder>
+    <NodeName>enum_PipeConnectionType_QuickConnection</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>07526B6C-3C0B-44A1-9680-7EC2467A28AA</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_PipeConnectionType.enum_PipeConnectionType_Glue</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_PipeConnectionType</Folder>
+    <NodeName>enum_PipeConnectionType_Glue</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>17CCCF8B-825A-4568-847D-063807E97106</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_PipeConnectionType.enum_PipeConnectionType_FusionWelding</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_PipeConnectionType</Folder>
+    <NodeName>enum_PipeConnectionType_FusionWelding</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>3D94A632-D9CE-4F5B-B229-24B6CE9CAEFB</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_PipeConnectionType.enum_PipeConnectionType_Grooved</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_PipeConnectionType</Folder>
+    <NodeName>enum_PipeConnectionType_Grooved</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>C43793DD-B0E4-4A78-9A63-38813E4BFA23</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_DuctConnectionType.enum_DuctConnectionType_Drawband</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_DuctConnectionType</Folder>
+    <NodeName>enum_DuctConnectionType_Drawband</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>002EE30B-8DAD-4364-B7DF-DFB00E7F3993</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_DuctConnectionType.enum_DuctConnectionType_SlipOn</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_DuctConnectionType</Folder>
+    <NodeName>enum_DuctConnectionType_SlipOn</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>EAE3144A-4675-4D6F-89ED-9A6916930741</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_DuctConnectionType.enum_DuctConnectionType_DriveSlip</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_DuctConnectionType</Folder>
+    <NodeName>enum_DuctConnectionType_DriveSlip</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>3C201221-BFAA-44C8-88F1-CB00B669C49B</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_DuctConnectionType.enum_DuctConnectionType_Weld</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_DuctConnectionType</Folder>
+    <NodeName>enum_DuctConnectionType_Weld</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>4CEC6E6A-EA33-4515-BA87-01A7974CEA5F</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_DuctConnectionType.enum_DuctConnectionType_Flange</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_DuctConnectionType</Folder>
+    <NodeName>enum_DuctConnectionType_Flange</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>0416A29D-B26B-45E5-8DC3-629EA4E2F383</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_DuctFormType.enum_DuctFormType_Circle</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_DuctFormType</Folder>
+    <NodeName>enum_DuctFormType_Circle</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
+  </NodeInfo>
+  <NodeInfo>
+    <Id>8E764913-1F48-44D7-9F05-BCFDB7808622</Id>
+    <PathAssembly>NVP_Renga_COM.dll</PathAssembly>
+    <PathExecuteClass>Renga.enum_DuctFormType.enum_DuctFormType_Rect</PathExecuteClass>
+    <CoderName>GeorgGrebenyuk</CoderName>
+    <Folder>NVP_Renga_COM.Renga.enum_DuctFormType</Folder>
+    <NodeName>enum_DuctFormType_Rect</NodeName>
+    <NodeType>Loaded</NodeType>
+    <CADType>None</CADType>
+    <ViewType>Default</ViewType>
+    <Text />
   </NodeInfo>
 </ArrayOfNodeInfo>

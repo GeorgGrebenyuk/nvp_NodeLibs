@@ -1,0 +1,227 @@
+﻿// Generated .IDL file (by the OLE/COM Object Viewer)
+// 
+// typelib filename: lcsLibManager.nrx
+
+[
+  uuid(1EB7B184-2C93-4DB2-97E8-2F8A392495C1),
+  version(1.0),
+  helpstring("Model Studio Library Manager 1.0 Type Library"),
+  custom(DE77BA64-517C-11D1-A2DA-0000F8773CE9, 134283890),
+  custom(DE77BA63-517C-11D1-A2DA-0000F8773CE9, 2147483647),
+  custom(DE77BA65-517C-11D1-A2DA-0000F8773CE9, "Created by MIDL version 8.01.0626 at Tue Jan 19 06:14:07 2038
+")
+
+]
+library mdsLibManagerLib
+{
+    // TLib : OLE Automation : {00020430-0000-0000-C000-000000000046}
+    importlib("stdole2.tlb");
+
+    // Forward declare all types defined in this typelib
+    dispinterface _ICADLibraryEvents;
+    interface ICADLibrary;
+    interface ICADLibObject;
+    interface ICADLibObjects;
+    interface ICADLibQuery;
+    dispinterface _ICADLibObjectEvents;
+    dispinterface _ICADLibQueryEvents;
+    dispinterface _ICADLibObjectsEvents;
+
+    [
+      uuid(A5F9D8B9-6D11-4A7D-8958-FC56572D6738),
+      helpstring("_ICADLibraryEvents Interface")
+    ]
+    dispinterface _ICADLibraryEvents {
+        properties:
+        methods:
+    };
+
+    [
+      uuid(9C8E1D45-BCD3-4BFA-B6D0-A16B1819DD56),
+      helpstring("CADLibrary Class")
+    ]
+    coclass CADLibrary {
+        [default] interface ICADLibrary;
+        [default, source] dispinterface _ICADLibraryEvents;
+    };
+
+    [
+      odl,
+      uuid(135CFBFF-CB70-45B4-B49B-65AD4E0C8921),
+      helpstring("ICADLibrary Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface ICADLibrary : IDispatch {
+        [id(0x00000001), propget, helpstring("Проверка соединения")]
+        HRESULT IsConnected([out, retval] VARIANT_BOOL* pVal);
+        [id(0x00000002), helpstring("Получение объекта по идентификатору")]
+        HRESULT GetLibObject(
+                        [in] VARIANT Identifier, 
+                        [out, retval] ICADLibObject** pObject);
+        [id(0x00000003), helpstring("Создание запроса к базе")]
+        HRESULT GetLibQuery([out, retval] ICADLibQuery** pRequest);
+        [id(0x00000004), helpstring("Вставка объекта из базы")]
+        HRESULT Insert(
+                        [in] VARIANT Identifier, 
+                        [in, optional] VARIANT Constraints, 
+                        [in, optional] VARIANT TaskData, 
+                        [out, retval] IDispatch** ppInserted);
+    };
+
+    [
+      odl,
+      uuid(91BC5AB7-5DE9-46E9-BF0A-16C0F1945006),
+      helpstring("ICADLibObject Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface ICADLibObject : IDispatch {
+        [id(0x00000001), propget, helpstring("Имя объекта")]
+        HRESULT Name([out, retval] BSTR* pVal);
+        [id(0x00000002), propget, helpstring("Системное имя категории")]
+        HRESULT Category([out, retval] BSTR* pVal);
+        [id(0x00000003), propget, helpstring("Идентификатор категории")]
+        HRESULT CategoryId([out, retval] long* pVal);
+        [id(0x00000004), propget, helpstring("Параметры объекта")]
+        HRESULT RootElement([out, retval] IDispatch** pVal);
+        [id(0x00000005), propget, helpstring("GUID объекта")]
+        HRESULT GUID([out, retval] BSTR* pVal);
+        [id(0x00000006), propget, helpstring("Идентификатор объекта")]
+        HRESULT ObjectId([out, retval] long* pVal);
+        [id(0x00000007), propget, helpstring("Подчиненные элементы")]
+        HRESULT Children([out, retval] ICADLibObjects** pVal);
+        [id(0x00000008), helpstring("Путь к файлу указанной категории")]
+        HRESULT GetGraphicsPath(
+                        [in] BSTR FileCategory, 
+                        [out, retval] BSTR* GrPath);
+        [id(0x00000009), propget, helpstring("Наличие графики")]
+        HRESULT HasGraphics([out, retval] VARIANT_BOOL* pVal);
+        [id(0x0000000a), helpstring("Наличие файла заданной категории")]
+        HRESULT HasFileOfCategory(
+                        [in] BSTR Category, 
+                        [out, retval] VARIANT_BOOL* Res);
+        [id(0x0000000b), propget, helpstring("Идентификатор элемента")]
+        HRESULT ElementId([out, retval] long* pVal);
+        [id(0x0000000c), propget, helpstring("Идентификатор родителя")]
+        HRESULT ParentId([out, retval] long* pVal);
+    };
+
+    [
+      odl,
+      uuid(273862F1-7764-4792-834C-21C48A1D9C68),
+      helpstring("ICADLibObjects Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface ICADLibObjects : IDispatch {
+        [id(0xfffffffc), propget, hidden, helpstring("property _NewEnum")]
+        HRESULT _NewEnum([out, retval] IUnknown** ppEnumVariant);
+        [id(00000000), helpstring("method Item")]
+        HRESULT Item(
+                        VARIANT Index, 
+                        [out, retval] ICADLibObject** pVal);
+        [id(0x00000001), propget, helpstring("property Count")]
+        HRESULT Count([out, retval] long* pVal);
+    };
+
+    [
+      odl,
+      uuid(CE4881C2-BD2D-4428-85AB-D629814E1D50),
+      helpstring("ICADLibQuery Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface ICADLibQuery : IDispatch {
+        [id(0x00000001), helpstring("method AddCondition")]
+        HRESULT AddCondition(
+                        [in] BSTR ParamName, 
+                        [in] CADLibRelationType Relation, 
+                        [in] BSTR Value);
+        [id(0x00000002), helpstring("method Execute")]
+        HRESULT Execute([out, retval] ICADLibObjects** Objects);
+        [id(0x00000003), helpstring("method Search")]
+        HRESULT Search(
+                        [in] long hWndParent, 
+                        [in] BSTR bsCaption, 
+                        [out, retval] ICADLibObjects** ObjectsSelected);
+        [id(0x00000004), helpstring("method SelectObjects")]
+        HRESULT SelectObjects(
+                        [in] long hWndParent, 
+                        [in] BSTR Caption, 
+                        [in] long Options, 
+                        [out, retval] ICADLibObjects** ObjectsSelected);
+    };
+
+    typedef [helpstring("Condition types for query")public]
+    __MIDL___MIDL_itf_LibManager_0000_0000_0002 CADLibRelationType;
+
+    typedef [helpstring("Condition types for query")]
+    enum {
+        cl_cndEqual = 0,
+        cl_cndLike = 1,
+        cl_cndNotEqual = 2,
+        cl_cndMore = 3,
+        cl_cndLess = 4,
+        cl_cndMoreEqual = 5,
+        cl_cndLessEqual = 6
+    } __MIDL___MIDL_itf_LibManager_0000_0000_0002;
+
+    [
+      uuid(3DB5C62F-3708-45E4-BA5B-5370151FF1C3),
+      helpstring("_ICADLibObjectEvents Interface")
+    ]
+    dispinterface _ICADLibObjectEvents {
+        properties:
+        methods:
+    };
+
+    [
+      uuid(E80A64F1-FD4A-437C-8A4C-192E1BC6CF9C),
+      helpstring("CADLibObject Class")
+    ]
+    coclass CADLibObject {
+        [default] interface ICADLibObject;
+        [default, source] dispinterface _ICADLibObjectEvents;
+    };
+
+    [
+      uuid(40DB378C-DA01-48D2-A135-88E8332B1D07),
+      helpstring("_ICADLibQueryEvents Interface")
+    ]
+    dispinterface _ICADLibQueryEvents {
+        properties:
+        methods:
+    };
+
+    [
+      uuid(98D73210-2AF8-477A-A2E3-F0D7337640E4),
+      helpstring("CADLibQuery Class")
+    ]
+    coclass CADLibQuery {
+        [default] interface ICADLibQuery;
+        [default, source] dispinterface _ICADLibQueryEvents;
+    };
+
+    [
+      uuid(D0F19CC0-FC64-4316-9A12-57F356851CF3),
+      helpstring("_ICADLibObjectsEvents Interface")
+    ]
+    dispinterface _ICADLibObjectsEvents {
+        properties:
+        methods:
+    };
+
+    [
+      uuid(6D416DA3-7DD8-4379-8EEF-8841A28B367B),
+      helpstring("CADLibObjects Class")
+    ]
+    coclass CADLibObjects {
+        [default] interface ICADLibObjects;
+        [default, source] dispinterface _ICADLibObjectsEvents;
+    };
+};

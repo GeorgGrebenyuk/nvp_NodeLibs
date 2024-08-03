@@ -1,0 +1,1331 @@
+﻿// Generated .IDL file (by the OLE/COM Object Viewer)
+// 
+// typelib filename: UnitsCSCom.nrx
+
+[
+  uuid(1AE1985C-5D87-4E89-8E67-068628FC3CD6),
+  version(1.0),
+  helpstring("Model Studio Objects 1.0 Type Library"),
+  custom(DE77BA64-517C-11D1-A2DA-0000F8773CE9, 134283890),
+  custom(DE77BA63-517C-11D1-A2DA-0000F8773CE9, 2147483647),
+  custom(DE77BA65-517C-11D1-A2DA-0000F8773CE9, "Created by MIDL version 8.01.0626 at Tue Jan 19 06:14:07 2038
+")
+
+]
+library mdsUnitsLib
+{
+    // TLib : OdaX 23.2 (x64) Type Library : {0DFA2554-8A2B-44D0-BE8F-85EEB803AEE9}
+    importlib("OdaX_csd.dll");
+    // TLib : OLE Automation : {00020430-0000-0000-C000-000000000046}
+    importlib("stdole2.tlb");
+
+    // Forward declare all types defined in this typelib
+    interface IParameter;
+    interface IParameters;
+    interface IElement;
+    interface IElements;
+    interface IMDSParametersDlg;
+    interface IMDSObjects;
+    interface IMDSNodes;
+    interface IMDSNode;
+    interface IMDSBlockRefEx;
+    interface IMDSCOWBlockRef;
+    interface IMDSWorkSpace;
+    interface IMDSParametricEnt;
+    interface IMDSGrounding;
+    interface IMDSViewportDef;
+    interface IMDSELCollision;
+    interface IMDSViewportFrame;
+    interface IMDSFileDlgWrapper;
+    interface IMDSFilterDlgWrapper;
+    interface IMDSFunctionDlgWrapper;
+    interface IMDSDataObject;
+    interface IWrMaterialStandardDia;
+    interface IWrMaterialDia;
+    interface IWrGroupDia;
+    interface IWrTypeDia;
+    interface IMDSBoundingBox;
+    dispinterface _IMDSUnitsFactoryEvents;
+    interface IMDSUnitsFactory;
+    interface IWrCSInsulationDesignation;
+
+    [
+      odl,
+      uuid(D353DEF9-2B51-4F21-BEA3-6B666F4BA568),
+      helpstring("IParameter Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IParameter : IDispatch {
+        [id(0x00000001), propget, helpstring("property Name")]
+        HRESULT Name([out, retval] BSTR* pVal);
+        [id(00000000), propget, helpstring("property Value")]
+        HRESULT Value([out, retval] BSTR* pVal);
+        [id(00000000), propput, helpstring("property Value")]
+        HRESULT Value([in] BSTR pVal);
+        [id(0x00000003), propget, helpstring("property Comment")]
+        HRESULT Comment([out, retval] BSTR* pVal);
+        [id(0x00000003), propput, helpstring("property Comment")]
+        HRESULT Comment([in] BSTR pVal);
+        [id(0x00000004), propget, helpstring("property ValueComment")]
+        HRESULT ValueComment([out, retval] BSTR* pVal);
+        [id(0x00000004), propput, helpstring("property ValueComment")]
+        HRESULT ValueComment([in] BSTR pVal);
+    };
+
+    [
+      odl,
+      uuid(8A6EB6C1-813B-4B17-941C-2B05D5D1C499),
+      helpstring("IParameters Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IParameters : IDispatch {
+        [id(0xfffffffc), propget, hidden, helpstring("property _NewEnum")]
+        HRESULT _NewEnum([out, retval] IUnknown** ppEnumVariant);
+        [id(00000000), helpstring("method Item")]
+        HRESULT Item(
+                        VARIANT Index, 
+                        [out, retval] IParameter** pVal);
+        [id(0x00000001), propget, helpstring("property Count")]
+        HRESULT Count([out, retval] long* pVal);
+        [id(0x00000002), helpstring("method SetParameter")]
+        HRESULT SetParameter(
+                        [in] BSTR Name, 
+                        [in] BSTR Value, 
+                        [optional] VARIANT Comment, 
+                        [optional] VARIANT ValueComment);
+        [id(0x00000003), helpstring("method DeleteParameter")]
+        HRESULT DeleteParameter([in] BSTR Name);
+        [id(0x00000004), helpstring("method DeleteAll")]
+        HRESULT DeleteAll();
+        [id(0x00000005), helpstring("method Has")]
+        HRESULT Has(
+                        [in] VARIANT Index, 
+                        [out, retval] VARIANT_BOOL* pResult);
+    };
+
+    [
+      odl,
+      uuid(32D3F761-7B49-4D57-AC6C-0D0879AC9A75),
+      helpstring("IElement Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IElement : IDispatch {
+        [id(0x00000001), propget, helpstring("Имя элемента")]
+        HRESULT Name([out, retval] BSTR* pVal);
+        [id(0x00000001), propput, helpstring("Имя элемента")]
+        HRESULT Name([in] BSTR pVal);
+        [id(0x00000002), propget, helpstring("Параметры")]
+        HRESULT Parameters([out, retval] IParameters** pVal);
+        [id(0x00000003), propget, helpstring("Родительский элемент")]
+        HRESULT Parent([out, retval] IElement** pVal);
+        [id(0x00000003), propput, helpstring("Родительский элемент")]
+        HRESULT Parent([in] IElement* pVal);
+        [id(0x00000004), propget, helpstring("Подчиненные элементы")]
+        HRESULT SubElements([out, retval] IElements** pVal);
+        [id(0x00000005), propget, helpstring("Описание")]
+        HRESULT Description([out, retval] BSTR* pVal);
+        [id(0x00000006), propget, helpstring("Действительный ли элемент")]
+        HRESULT IsValid([out, retval] VARIANT_BOOL* pVal);
+        [id(0x00000007), propget, helpstring("Уникальный номер")]
+        HRESULT ElementId([out, retval] long* pVal);
+        [id(0x00000008), propget, helpstring("Идентификатор объекта")]
+        HRESULT ObjectId([out, retval] long* pVal);
+        [id(0x00000009), propget, hidden, helpstring("property Implementation")]
+        HRESULT Implementation([out, retval] VARIANT* pVal);
+        [id(0x0000000a), helpstring("Копировать данные")]
+        HRESULT CopyFrom([in] IElement* pSrc);
+        [id(0x0000000b), helpstring("Путь до текущего элемента")]
+        HRESULT GetPath(
+                        [in] BSTR divider, 
+                        [out, retval] BSTR* pResult);
+        [id(0x0000000c), helpstring("Получение родителя заданного уровня")]
+        HRESULT GetParentByLevel(
+                        [in] long level, 
+                        [out, retval] IElement** pVal);
+        [id(0x0000000d), helpstring("Значение параметра")]
+        HRESULT GetValue(
+                        [in] BSTR parameter, 
+                        [out, retval] BSTR* pResult);
+        [id(0x0000000e), helpstring("Комментарий к значению параметра")]
+        HRESULT GetValueComment(
+                        [in] BSTR parameter, 
+                        [out, retval] BSTR* pResult);
+        [id(0x0000000f), helpstring("Добавить подчиненный элемент")]
+        HRESULT AddChild(
+                        [in] BSTR Name, 
+                        [out, retval] IElement** pSrc);
+        [id(0x00000010), propget, helpstring("Имеется ли валидный родитель")]
+        HRESULT HasParent([out, retval] VARIANT_BOOL* pVal);
+        [id(0x00000011), helpstring("Получение подобъекта по идентификатору")]
+        HRESULT GetById(
+                        [in] long nElementId, 
+                        [out, retval] IElement** pRes);
+    };
+
+    [
+      odl,
+      uuid(A266B17A-3A03-417A-BFE8-9F5B10C1849B),
+      helpstring("IElements Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IElements : IDispatch {
+        [id(0xfffffffc), propget, hidden, helpstring("property _NewEnum")]
+        HRESULT _NewEnum([out, retval] IUnknown** ppEnumVariant);
+        [id(00000000), helpstring("method Item")]
+        HRESULT Item(
+                        VARIANT Index, 
+                        [out, retval] IElement** pVal);
+        [id(0x00000001), propget, helpstring("property Count")]
+        HRESULT Count([out, retval] long* pVal);
+        [id(0x00000002), helpstring("method Add")]
+        HRESULT Add([in] VARIANT Item);
+        [id(0x00000003), helpstring("method Remove")]
+        HRESULT Remove([in] VARIANT Index);
+    };
+
+    [
+      odl,
+      uuid(4A1DC17E-F828-4850-9289-2BAEE4823504),
+      helpstring("IMDSParametersDlg Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IMDSParametersDlg : IDispatch {
+    };
+
+    [
+      odl,
+      uuid(561A86DA-7BB3-46D8-AD22-5E883BFDCE1C),
+      helpstring("IMDSObjects Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IMDSObjects : IDispatch {
+        [id(0xfffffffc), propget, hidden, helpstring("property _NewEnum")]
+        HRESULT _NewEnum([out, retval] IUnknown** ppEnumVariant);
+        [id(00000000), helpstring("method Item")]
+        HRESULT Item(
+                        VARIANT Index, 
+                        [out, retval] IDispatch** pVal);
+        [id(0x00000001), propget, helpstring("property Count")]
+        HRESULT Count([out, retval] long* pVal);
+    };
+
+    [
+      odl,
+      uuid(16FA4B49-011F-4178-BD5B-039E1B63197A),
+      helpstring("IMDSNodes Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IMDSNodes : IDispatch {
+        [id(0xfffffffc), propget, hidden, helpstring("property _NewEnum")]
+        HRESULT _NewEnum([out, retval] IUnknown** ppEnumVariant);
+        [id(00000000), helpstring("method Item")]
+        HRESULT Item(
+                        VARIANT Index, 
+                        [out, retval] IDispatch** pVal);
+        [id(0x00000001), propget, helpstring("property Count")]
+        HRESULT Count([out, retval] long* pVal);
+    };
+
+    [
+      odl,
+      uuid(D9D84FBC-103C-43EC-8306-A4957B615440),
+      helpstring("IMDSNode Interface"),
+      dual,
+      oleautomation
+    ]
+    interface IMDSNode : IAcadEntity {
+        [id(0x00000001), propget, helpstring("Наименование стыка")]
+        HRESULT Name([out, retval] BSTR* pVal);
+        [id(0x00000001), propput, helpstring("Наименование стыка")]
+        HRESULT Name([in] BSTR pVal);
+        [id(0x00000002), propget, helpstring("Точка вставки")]
+        HRESULT Position([out, retval] VARIANT* pVal);
+        [id(0x00000002), propput, helpstring("Точка вставки")]
+        HRESULT Position([in] VARIANT pVal);
+        [id(0x0000000a), propget, helpstring("Направление")]
+        HRESULT Direction([out, retval] VARIANT* pVal);
+        [id(0x0000000a), propput, helpstring("Направление")]
+        HRESULT Direction([in] VARIANT pVal);
+        [id(0x0000000d), propget, helpstring("Радиус")]
+        HRESULT Radius([out, retval] double* pVal);
+        [id(0x0000000d), propput, helpstring("Радиус")]
+        HRESULT Radius([in] double pVal);
+        [id(0x0000000b), propget, helpstring("Длина вектора направления")]
+        HRESULT DirectionLength([out, retval] double* pVal);
+        [id(0x0000000b), propput, helpstring("Длина вектора направления")]
+        HRESULT DirectionLength([in] double pVal);
+        [id(0x00000003), propget, helpstring("Параметры")]
+        HRESULT Element([out, retval] IDispatch** pVal);
+        [id(0x00000003), propput, helpstring("Параметры")]
+        HRESULT Element([in] IDispatch* pVal);
+        [id(0x00000004), propget, helpstring("Тип стыка")]
+        HRESULT NodeType([out, retval] long* pVal);
+        [id(0x00000004), propput, helpstring("Тип стыка")]
+        HRESULT NodeType([in] long pVal);
+        [id(0x00000005), propget, helpstring("Объект-владелец")]
+        HRESULT OwnerObject([out, retval] IDispatch** pVal);
+        [id(0x00000006), propget, helpstring("Существует ли объект-владелец")]
+        HRESULT HasOwner([out, retval] VARIANT_BOOL* pVal);
+        [id(0x00000007), propget, helpstring("Связь-владелец")]
+        HRESULT OwnerLink([out, retval] IDispatch** pVal);
+        [id(0x00000008), propget, helpstring("Существует ли связь-владелец")]
+        HRESULT HasOwnerLink([out, retval] VARIANT_BOOL* pVal);
+        [id(0x00000009), propget, helpstring("Подключенные связи")]
+        HRESULT Links([out, retval] IMDSObjects** pVal);
+        [id(0x0000000c), helpstring("Коллекция связанных объектов, удовлетворяющих условию")]
+        HRESULT GetConnections(
+                        BSTR Condition, 
+                        [out, retval] IMDSObjects** pVal);
+    };
+
+    [
+      odl,
+      uuid(D3AEABBC-4931-44FA-A19D-A2D1DBD1EE04),
+      helpstring("IMDSBlockRefEx Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IMDSBlockRefEx : IAcadEntity {
+        [id(0x00000001), propget, helpstring("property UnitName")]
+        HRESULT UnitName([out, retval] BSTR* pVal);
+        [id(0x00000001), propput, helpstring("property UnitName")]
+        HRESULT UnitName([in] BSTR pVal);
+        [id(0x00000002), propget, helpstring("property UnitAngle")]
+        HRESULT UnitAngle([out, retval] double* pVal);
+        [id(0x00000002), propput, helpstring("property UnitAngle")]
+        HRESULT UnitAngle([in] double pVal);
+        [id(0x00000003), propget, helpstring("property Element")]
+        HRESULT Element([out, retval] IElement** pVal);
+        [id(0x00000003), propput, helpstring("property Element")]
+        HRESULT Element([in] IElement* pVal);
+        [id(0x00000004), propget, helpstring("property UnitPosition")]
+        HRESULT UnitPosition([out, retval] VARIANT* pVal);
+        [id(0x00000004), propput, helpstring("property UnitPosition")]
+        HRESULT UnitPosition([in] VARIANT pVal);
+        [id(0x00000005), propget, helpstring("property NameWS")]
+        HRESULT NameWS([out, retval] long* pVal);
+        [id(0x00000005), propput, helpstring("property NameWS")]
+        HRESULT NameWS([in] long pVal);
+        [id(0x00000006), propget, helpstring("property AxisZLockWS")]
+        HRESULT AxisZLockWS([out, retval] VARIANT_BOOL* pVal);
+        [id(0x00000006), propput, helpstring("property AxisZLockWS")]
+        HRESULT AxisZLockWS([in] VARIANT_BOOL pVal);
+        [id(0x00000007), propget, helpstring("property ProjectionOnXYLockWS")]
+        HRESULT ProjectionOnXYLockWS([out, retval] VARIANT_BOOL* pVal);
+        [id(0x00000007), propput, helpstring("property ProjectionOnXYLockWS")]
+        HRESULT ProjectionOnXYLockWS([in] VARIANT_BOOL pVal);
+        [id(0x00000008), propget, helpstring("property LimitationType")]
+        HRESULT LimitationType([out, retval] long* pVal);
+        [id(0x00000008), propput, helpstring("property LimitationType")]
+        HRESULT LimitationType([in] long pVal);
+        [id(0x00000009), propget, helpstring("property UNITShowLimitationGraphics")]
+        HRESULT UNITShowLimitationGraphics([out, retval] VARIANT_BOOL* pVal);
+        [id(0x00000009), propput, helpstring("property UNITShowLimitationGraphics")]
+        HRESULT UNITShowLimitationGraphics([in] VARIANT_BOOL pVal);
+        [id(0x0000000a), propget, helpstring("property UNITBasePointLimitation")]
+        HRESULT UNITBasePointLimitation([out, retval] VARIANT* pVal);
+        [id(0x0000000a), propput, helpstring("property UNITBasePointLimitation")]
+        HRESULT UNITBasePointLimitation([in] VARIANT pVal);
+        [id(0x0000000b), propget, helpstring("property UNIT_LXP")]
+        HRESULT UNIT_LXP([out, retval] double* pVal);
+        [id(0x0000000b), propput, helpstring("property UNIT_LXP")]
+        HRESULT UNIT_LXP([in] double pVal);
+        [id(0x0000000c), propget, helpstring("property UNIT_LXM")]
+        HRESULT UNIT_LXM([out, retval] double* pVal);
+        [id(0x0000000c), propput, helpstring("property UNIT_LXM")]
+        HRESULT UNIT_LXM([in] double pVal);
+        [id(0x0000000d), propget, helpstring("property UNIT_LYP")]
+        HRESULT UNIT_LYP([out, retval] double* pVal);
+        [id(0x0000000d), propput, helpstring("property UNIT_LYP")]
+        HRESULT UNIT_LYP([in] double pVal);
+        [id(0x0000000e), propget, helpstring("property UNIT_LYM")]
+        HRESULT UNIT_LYM([out, retval] double* pVal);
+        [id(0x0000000e), propput, helpstring("property UNIT_LYM")]
+        HRESULT UNIT_LYM([in] double pVal);
+        [id(0x0000000f), propget, helpstring("property UNIT_LZP")]
+        HRESULT UNIT_LZP([out, retval] double* pVal);
+        [id(0x0000000f), propput, helpstring("property UNIT_LZP")]
+        HRESULT UNIT_LZP([in] double pVal);
+        [id(0x00000010), propget, helpstring("property UNIT_LZM")]
+        HRESULT UNIT_LZM([out, retval] double* pVal);
+        [id(0x00000010), propput, helpstring("property UNIT_LZM")]
+        HRESULT UNIT_LZM([in] double pVal);
+        [id(0x00000011), propget, helpstring("property UNIT_LR")]
+        HRESULT UNIT_LR([out, retval] double* pVal);
+        [id(0x00000011), propput, helpstring("property UNIT_LR")]
+        HRESULT UNIT_LR([in] double pVal);
+        [id(0x00000012), propget, helpstring("property Nodes")]
+        HRESULT Nodes([out, retval] IMDSNodes** pVal);
+    };
+
+    [
+      odl,
+      uuid(81D1BF7F-DD4E-461F-8C41-5DEE3A395981),
+      helpstring("IMDSCOWBlockRef Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IMDSCOWBlockRef : IAcadEntity {
+        [id(0x00000001), propget, helpstring("property UnitName")]
+        HRESULT UnitName([out, retval] BSTR* pVal);
+        [id(0x00000001), propput, helpstring("property UnitName")]
+        HRESULT UnitName([in] BSTR pVal);
+        [id(0x00000002), propget, helpstring("property Element")]
+        HRESULT Element([out, retval] IElement** pVal);
+        [id(0x00000002), propput, helpstring("property Element")]
+        HRESULT Element([in] IElement* pVal);
+        [id(0x00000003), propget, helpstring("property UnitPosition")]
+        HRESULT UnitPosition([out, retval] VARIANT* pVal);
+        [id(0x00000003), propput, helpstring("property UnitPosition")]
+        HRESULT UnitPosition([in] VARIANT pVal);
+    };
+
+    [
+      odl,
+      uuid(6A450180-D599-4B68-A84D-278EC22D3808),
+      helpstring("IMDSWorkSpace Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IMDSWorkSpace : IAcadEntity {
+        [id(0x00000001), propget, helpstring("property Name")]
+        HRESULT Name([out, retval] BSTR* pVal);
+        [id(0x00000001), propput, helpstring("property Name")]
+        HRESULT Name([in] BSTR pVal);
+        [id(0x00000002), propget, helpstring("property WSPosition")]
+        HRESULT WSPosition([out, retval] VARIANT* pVal);
+        [id(0x00000002), propput, helpstring("property WSPosition")]
+        HRESULT WSPosition([in] VARIANT pVal);
+        [id(0x00000003), propget, helpstring("property RotateAroundX")]
+        HRESULT RotateAroundX([out, retval] double* pVal);
+        [id(0x00000003), propput, helpstring("property RotateAroundX")]
+        HRESULT RotateAroundX([in] double pVal);
+        [id(0x00000004), propget, helpstring("property RotateAroundY")]
+        HRESULT RotateAroundY([out, retval] double* pVal);
+        [id(0x00000004), propput, helpstring("property RotateAroundY")]
+        HRESULT RotateAroundY([in] double pVal);
+        [id(0x00000005), propget, helpstring("property RotateAroundZ")]
+        HRESULT RotateAroundZ([out, retval] double* pVal);
+        [id(0x00000005), propput, helpstring("property RotateAroundZ")]
+        HRESULT RotateAroundZ([in] double pVal);
+        [id(0x00000006), propget, helpstring("property LimitationType")]
+        HRESULT LimitationType([out, retval] long* pVal);
+        [id(0x00000006), propput, helpstring("property LimitationType")]
+        HRESULT LimitationType([in] long pVal);
+        [id(0x0000000e), propget, helpstring("property WSShowLimitationGraphics")]
+        HRESULT WSShowLimitationGraphics([out, retval] VARIANT_BOOL* pVal);
+        [id(0x0000000e), propput, helpstring("property WSShowLimitationGraphics")]
+        HRESULT WSShowLimitationGraphics([in] VARIANT_BOOL pVal);
+        [id(0x00000011), propget, helpstring("property WSShowGraphicsUCS")]
+        HRESULT WSShowGraphicsUCS([out, retval] VARIANT_BOOL* pVal);
+        [id(0x00000011), propput, helpstring("property WSShowGraphicsUCS")]
+        HRESULT WSShowGraphicsUCS([in] VARIANT_BOOL pVal);
+        [id(0x00000007), propget, helpstring("property WSBasePointLimitation")]
+        HRESULT WSBasePointLimitation([out, retval] VARIANT* pVal);
+        [id(0x00000007), propput, helpstring("property WSBasePointLimitation")]
+        HRESULT WSBasePointLimitation([in] VARIANT pVal);
+        [id(0x00000008), propget, helpstring("property WS_LXP")]
+        HRESULT WS_LXP([out, retval] double* pVal);
+        [id(0x00000008), propput, helpstring("property WS_LXP")]
+        HRESULT WS_LXP([in] double pVal);
+        [id(0x00000009), propget, helpstring("property WS_LXM")]
+        HRESULT WS_LXM([out, retval] double* pVal);
+        [id(0x00000009), propput, helpstring("property WS_LXM")]
+        HRESULT WS_LXM([in] double pVal);
+        [id(0x0000000a), propget, helpstring("property WS_LYP")]
+        HRESULT WS_LYP([out, retval] double* pVal);
+        [id(0x0000000a), propput, helpstring("property WS_LYP")]
+        HRESULT WS_LYP([in] double pVal);
+        [id(0x0000000b), propget, helpstring("property WS_LYM")]
+        HRESULT WS_LYM([out, retval] double* pVal);
+        [id(0x0000000b), propput, helpstring("property WS_LYM")]
+        HRESULT WS_LYM([in] double pVal);
+        [id(0x0000000c), propget, helpstring("property WS_LZP")]
+        HRESULT WS_LZP([out, retval] double* pVal);
+        [id(0x0000000c), propput, helpstring("property WS_LZP")]
+        HRESULT WS_LZP([in] double pVal);
+        [id(0x0000000d), propget, helpstring("property WS_LZM")]
+        HRESULT WS_LZM([out, retval] double* pVal);
+        [id(0x0000000d), propput, helpstring("property WS_LZM")]
+        HRESULT WS_LZM([in] double pVal);
+        [id(0x0000000f), propget, helpstring("property WS_LR")]
+        HRESULT WS_LR([out, retval] double* pVal);
+        [id(0x0000000f), propput, helpstring("property WS_LR")]
+        HRESULT WS_LR([in] double pVal);
+        [id(0x00000010), propget, helpstring("property Element")]
+        HRESULT Element([out, retval] IElement** pVal);
+        [id(0x00000010), propput, helpstring("property Element")]
+        HRESULT Element([in] IElement* pVal);
+    };
+
+    [
+      odl,
+      uuid(97A131A4-A420-477E-8DFF-2B902DF2AE27),
+      helpstring("IMDSParametricEnt Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IMDSParametricEnt : IAcadEntity {
+        [id(0x00000001), propget, helpstring("property Element")]
+        HRESULT Element([out, retval] IElement** pVal);
+        [id(0x00000001), propput, helpstring("property Element")]
+        HRESULT Element([in] IElement* pVal);
+        [id(0x00000002), propget, helpstring("property ParametricData")]
+        HRESULT ParametricData([out, retval] IElement** pVal);
+        [id(0x00000002), propput, helpstring("property ParametricData")]
+        HRESULT ParametricData([in] IElement* pVal);
+        [id(0x00000003), propget, helpstring("property UnitPosition")]
+        HRESULT UnitPosition([out, retval] VARIANT* pVal);
+        [id(0x00000003), propput, helpstring("property UnitPosition")]
+        HRESULT UnitPosition([in] VARIANT pVal);
+        [id(0x00000004), propget, helpstring("property UnitName")]
+        HRESULT UnitName([out, retval] BSTR* pVal);
+        [id(0x00000004), propput, helpstring("property UnitName")]
+        HRESULT UnitName([in] BSTR pVal);
+        [id(0x00000005), propget, helpstring("property NameWS")]
+        HRESULT NameWS([out, retval] BSTR* pVal);
+        [id(0x00000005), propput, helpstring("property NameWS")]
+        HRESULT NameWS([in] BSTR pVal);
+        [id(0x00000006), propget, helpstring("property AxisZLockWS")]
+        HRESULT AxisZLockWS([out, retval] VARIANT_BOOL* pVal);
+        [id(0x00000006), propput, helpstring("property AxisZLockWS")]
+        HRESULT AxisZLockWS([in] VARIANT_BOOL pVal);
+        [id(0x00000007), propget, helpstring("property ProjectionOnXYLockWS")]
+        HRESULT ProjectionOnXYLockWS([out, retval] VARIANT_BOOL* pVal);
+        [id(0x00000007), propput, helpstring("property ProjectionOnXYLockWS")]
+        HRESULT ProjectionOnXYLockWS([in] VARIANT_BOOL pVal);
+        [id(0x00000037), propget, helpstring("property Nodes")]
+        HRESULT Nodes([out, retval] IMDSNodes** pVal);
+        [id(0x00000008), propget, helpstring("property Part_Name")]
+        HRESULT Part_Name([out, retval] BSTR* pVal);
+        [id(0x00000008), propput, helpstring("property Part_Name")]
+        HRESULT Part_Name([in] BSTR pVal);
+        [id(0x00000009), propget, helpstring("property Part_Tag")]
+        HRESULT Part_Tag([out, retval] BSTR* pVal);
+        [id(0x00000009), propput, helpstring("property Part_Tag")]
+        HRESULT Part_Tag([in] BSTR pVal);
+        [id(0x0000000a), propget, helpstring("property Part_Manufacturer")]
+        HRESULT Part_Manufacturer([out, retval] BSTR* pVal);
+        [id(0x0000000a), propput, helpstring("property Part_Manufacturer")]
+        HRESULT Part_Manufacturer([in] BSTR pVal);
+        [id(0x0000000b), propget, helpstring("property Part_Standard")]
+        HRESULT Part_Standard([out, retval] BSTR* pVal);
+        [id(0x0000000b), propput, helpstring("property Part_Standard")]
+        HRESULT Part_Standard([in] BSTR pVal);
+        [id(0x0000000c), propget, helpstring("property Part_Refdrawing")]
+        HRESULT Part_Refdrawing([out, retval] BSTR* pVal);
+        [id(0x0000000c), propput, helpstring("property Part_Refdrawing")]
+        HRESULT Part_Refdrawing([in] BSTR pVal);
+        [id(0x0000000d), propget, helpstring("property Part_Material")]
+        HRESULT Part_Material([out, retval] BSTR* pVal);
+        [id(0x0000000d), propput, helpstring("property Part_Material")]
+        HRESULT Part_Material([in] BSTR pVal);
+        [id(0x0000000e), propget, helpstring("property Part_Material_Standard")]
+        HRESULT Part_Material_Standard([out, retval] BSTR* pVal);
+        [id(0x0000000e), propput, helpstring("property Part_Material_Standard")]
+        HRESULT Part_Material_Standard([in] BSTR pVal);
+        [id(0x0000000f), propget, helpstring("property Part_Weight")]
+        HRESULT Part_Weight([out, retval] BSTR* pVal);
+        [id(0x0000000f), propput, helpstring("property Part_Weight")]
+        HRESULT Part_Weight([in] BSTR pVal);
+        [id(0x00000010), propget, helpstring("property Part_Comment")]
+        HRESULT Part_Comment([out, retval] BSTR* pVal);
+        [id(0x00000010), propput, helpstring("property Part_Comment")]
+        HRESULT Part_Comment([in] BSTR pVal);
+        [id(0x00000011), propget, helpstring("property Part_Group")]
+        HRESULT Part_Group([out, retval] BSTR* pVal);
+        [id(0x00000011), propput, helpstring("property Part_Group")]
+        HRESULT Part_Group([in] BSTR pVal);
+        [id(0x00000012), propget, helpstring("property Part_Type")]
+        HRESULT Part_Type([out, retval] BSTR* pVal);
+        [id(0x00000012), propput, helpstring("property Part_Type")]
+        HRESULT Part_Type([in] BSTR pVal);
+        [id(0x00000013), propget, helpstring("property Part_Reference")]
+        HRESULT Part_Reference([out, retval] BSTR* pVal);
+        [id(0x00000013), propput, helpstring("property Part_Reference")]
+        HRESULT Part_Reference([in] BSTR pVal);
+        [id(0x00000014), propget, helpstring("property Part_Weight_Netto")]
+        HRESULT Part_Weight_Netto([out, retval] BSTR* pVal);
+        [id(0x00000014), propput, helpstring("property Part_Weight_Netto")]
+        HRESULT Part_Weight_Netto([in] BSTR pVal);
+        [id(0x00000015), propget, helpstring("property Part_Weight_Bruto")]
+        HRESULT Part_Weight_Bruto([out, retval] BSTR* pVal);
+        [id(0x00000015), propput, helpstring("property Part_Weight_Bruto")]
+        HRESULT Part_Weight_Bruto([in] BSTR pVal);
+        [id(0x00000016), propget, helpstring("property Explication_Include")]
+        HRESULT Explication_Include([out, retval] long* pVal);
+        [id(0x00000016), propput, helpstring("property Explication_Include")]
+        HRESULT Explication_Include([in] long pVal);
+        [id(0x00000017), propget, helpstring("property Explication_Number")]
+        HRESULT Explication_Number([out, retval] BSTR* pVal);
+        [id(0x00000017), propput, helpstring("property Explication_Number")]
+        HRESULT Explication_Number([in] BSTR pVal);
+        [id(0x00000018), propget, helpstring("property Explication_Group")]
+        HRESULT Explication_Group([out, retval] BSTR* pVal);
+        [id(0x00000018), propput, helpstring("property Explication_Group")]
+        HRESULT Explication_Group([in] BSTR pVal);
+        [id(0x00000019), propget, helpstring("property Explication_Comment")]
+        HRESULT Explication_Comment([out, retval] BSTR* pVal);
+        [id(0x00000019), propput, helpstring("property Explication_Comment")]
+        HRESULT Explication_Comment([in] BSTR pVal);
+        [id(0x0000001a), propget, helpstring("property Bom_Include")]
+        HRESULT Bom_Include([out, retval] long* pVal);
+        [id(0x0000001a), propput, helpstring("property Bom_Include")]
+        HRESULT Bom_Include([in] long pVal);
+        [id(0x0000001b), propget, helpstring("property Bom_Number")]
+        HRESULT Bom_Number([out, retval] BSTR* pVal);
+        [id(0x0000001b), propput, helpstring("property Bom_Number")]
+        HRESULT Bom_Number([in] BSTR pVal);
+        [id(0x0000001c), propget, helpstring("property Bom_Group")]
+        HRESULT Bom_Group([out, retval] BSTR* pVal);
+        [id(0x0000001c), propput, helpstring("property Bom_Group")]
+        HRESULT Bom_Group([in] BSTR pVal);
+        [id(0x0000001d), propget, helpstring("property Bom_Qty")]
+        HRESULT Bom_Qty([out, retval] BSTR* pVal);
+        [id(0x0000001d), propput, helpstring("property Bom_Qty")]
+        HRESULT Bom_Qty([in] BSTR pVal);
+        [id(0x0000001e), propget, helpstring("property Bom_Comment")]
+        HRESULT Bom_Comment([out, retval] BSTR* pVal);
+        [id(0x0000001e), propput, helpstring("property Bom_Comment")]
+        HRESULT Bom_Comment([in] BSTR pVal);
+        [id(0x00000038), helpstring("method UpdateGraphics")]
+        HRESULT UpdateGraphics();
+        [id(0x0000001f), propget, helpstring("Angle in X0Y")]
+        HRESULT XYAngle([out, retval] double* pfVal);
+        [id(0x0000001f), propput, helpstring("Angle in X0Y")]
+        HRESULT XYAngle([in] double pfVal);
+        [id(0x00000020), helpstring("method GetArea")]
+        HRESULT GetArea(
+                        [in, optional] VARIANT Element, 
+                        [in, optional] VARIANT bodyOptions, 
+                        [out, retval] double* pResult);
+        [id(0x00000021), helpstring("method GetVolume")]
+        HRESULT GetVolume(
+                        [in, optional] VARIANT Element, 
+                        [in, optional] VARIANT bodyOptions, 
+                        [out, retval] double* pResult);
+    };
+
+    [
+      odl,
+      uuid(ACCE77B9-D8E1-4704-943F-126F2209CBCC),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IMDSGrounding : IMDSParametricEnt {
+        [id(0x0000003c), helpstring("Длина полосы")]
+        HRESULT GetLength([out, retval] double* pVal);
+        [id(0x0000003d), helpstring("Длина полосы, разделенная по отметке")]
+        HRESULT GetLengthSeparated(
+                        [in] double fLevel, 
+                        [out, retval] VARIANT* pVal);
+        [id(0x0000003e), helpstring("Площадь поверхности полосы")]
+        HRESULT GetArea([out, retval] double* pVal);
+        [id(0x0000003f), helpstring("Площадь поверхности полосы, разделенная по отметке")]
+        HRESULT GetAreaSeparated(
+                        [in] double fLevel, 
+                        [out, retval] VARIANT* pVal);
+    };
+
+    [
+      odl,
+      uuid(718BF066-369C-4474-88E6-2E512E3A34B3),
+      helpstring("IMDSViewportDef Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IMDSViewportDef : IAcadEntity {
+        [id(0x00000001), propget, helpstring("Наименование видового куба")]
+        HRESULT Name([out, retval] BSTR* pVal);
+        [id(0x00000001), propput, helpstring("Наименование видового куба")]
+        HRESULT Name([in] BSTR pVal);
+        [id(0x00000006), propget, helpstring("Тип видового куба")]
+        HRESULT ViewportType([out, retval] long* pVal);
+        [id(0x00000006), propput, helpstring("Тип видового куба")]
+        HRESULT ViewportType([in] long pVal);
+        [id(0x00000007), propget, helpstring("Базовая точка")]
+        HRESULT BasePoint([out, retval] VARIANT* pVal);
+        [id(0x00000007), propput, helpstring("Базовая точка")]
+        HRESULT BasePoint([in] VARIANT pVal);
+        [id(0x00000008), propget, helpstring("Ширина")]
+        HRESULT Width([out, retval] double* pVal);
+        [id(0x00000008), propput, helpstring("Ширина")]
+        HRESULT Width([in] double pVal);
+        [id(0x00000009), propget, helpstring("Глубина")]
+        HRESULT Depth([out, retval] double* pVal);
+        [id(0x00000009), propput, helpstring("Глубина")]
+        HRESULT Depth([in] double pVal);
+        [id(0x0000000a), propget, helpstring("Высота")]
+        HRESULT Height([out, retval] double* pVal);
+        [id(0x0000000a), propput, helpstring("Высота")]
+        HRESULT Height([in] double pVal);
+        [id(0x00000002), propget, helpstring("Признак обрезки вида по передней грани")]
+        HRESULT FrontClip([out, retval] VARIANT_BOOL* pVal);
+        [id(0x00000002), propput, helpstring("Признак обрезки вида по передней грани")]
+        HRESULT FrontClip([in] VARIANT_BOOL pVal);
+        [id(0x00000003), propget, helpstring("Признак обрезки вида по задней грани")]
+        HRESULT BackClip([out, retval] VARIANT_BOOL* pVal);
+        [id(0x00000003), propput, helpstring("Признак обрезки вида по задней грани")]
+        HRESULT BackClip([in] VARIANT_BOOL pVal);
+        [id(0x00000004), propget, helpstring("Текстовый стиль подписи")]
+        HRESULT TextStyleName([out, retval] BSTR* pVal);
+        [id(0x00000004), propput, helpstring("Текстовый стиль подписи")]
+        HRESULT TextStyleName([in] BSTR pVal);
+        [id(0x00000005), propget, helpstring("Высота текста подписи")]
+        HRESULT TextHeight([out, retval] double* pVal);
+        [id(0x00000005), propput, helpstring("Высота текста подписи")]
+        HRESULT TextHeight([in] double pVal);
+    };
+
+    [
+      odl,
+      uuid(EB83D457-61FB-4DD6-9765-78CAAA3A34FE),
+      helpstring("IMDSELCollision Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IMDSELCollision : IAcadEntity {
+        [id(0x0000000d), propget, helpstring("Наименование коллизии")]
+        HRESULT Name([out, retval] BSTR* pVal);
+        [id(0x0000000d), propput, helpstring("Наименование коллизии")]
+        HRESULT Name([in] BSTR pVal);
+        [id(0x00000007), propget, helpstring("Причина коллизии")]
+        HRESULT Cause([out, retval] BSTR* pVal);
+        [id(0x00000007), propput, helpstring("Причина коллизии")]
+        HRESULT Cause([in] BSTR pVal);
+        [id(0x00000008), propget, helpstring("Тип коллизии")]
+        HRESULT CollisionType([out, retval] BSTR* pVal);
+        [id(0x00000008), propput, helpstring("Тип коллизии")]
+        HRESULT CollisionType([in] BSTR pVal);
+        [id(0x00000009), propget, helpstring("Расстояние коллизии")]
+        HRESULT CollisionDistance([out, retval] BSTR* pVal);
+        [id(0x00000009), propput, helpstring("Расстояние коллизии")]
+        HRESULT CollisionDistance([in] BSTR pVal);
+        [id(0x0000000a), propget, helpstring("Первая группа")]
+        HRESULT Group1([out, retval] BSTR* pVal);
+        [id(0x0000000a), propput, helpstring("Первая группа")]
+        HRESULT Group1([in] BSTR pVal);
+        [id(0x0000000b), propget, helpstring("Вторая группа")]
+        HRESULT Group2([out, retval] BSTR* pVal);
+        [id(0x0000000b), propput, helpstring("Вторая группа")]
+        HRESULT Group2([in] BSTR pVal);
+        [id(0x0000000c), propget, helpstring("Профиль проверки")]
+        HRESULT ProfileName([out, retval] BSTR* pVal);
+        [id(0x0000000c), propput, helpstring("Профиль проверки")]
+        HRESULT ProfileName([in] BSTR pVal);
+        [id(0x00000006), propget, helpstring("Параметры")]
+        HRESULT Element([out, retval] IElement** pVal);
+        [id(0x00000006), propput, helpstring("Параметры")]
+        HRESULT Element([in] IElement* pVal);
+        [id(0x00000001), propget, helpstring("Описание первого объекта")]
+        HRESULT ObjectNameFirst([out, retval] BSTR* pVal);
+        [id(0x00000002), propget, helpstring("Описание второго объекта")]
+        HRESULT ObjectNameSecond([out, retval] BSTR* pVal);
+        [id(0x00000003), propget, helpstring("Расстояние")]
+        HRESULT Distance([out, retval] double* pVal);
+        [id(0x00000004), propget, helpstring("Первый объект")]
+        HRESULT ObjectFirst([out, retval] IDispatch** pVal);
+        [id(0x00000005), propget, helpstring("Второй объект")]
+        HRESULT ObjectSecond([out, retval] IDispatch** pVal);
+    };
+
+    [
+      uuid(650227E5-E4D5-4AFE-834A-4BC0019C64A6),
+      helpstring("WrBlockRefEx Class")
+    ]
+    coclass MDSBlockRefEx {
+        [default] interface IMDSBlockRefEx;
+        [default, source] interface IAcadObjectEvents;
+    };
+
+    [
+      uuid(661A263F-55BF-4011-8F7D-0EC403C513D9),
+      helpstring("WrCOWBlockRef Class")
+    ]
+    coclass MDSCOWBlockRef {
+        [default] interface IMDSCOWBlockRef;
+        [default, source] interface IAcadObjectEvents;
+    };
+
+    [
+      uuid(4AEE3684-1BB3-47CF-A983-A24FA0159010),
+      helpstring("WrNode Class")
+    ]
+    coclass MDSNode {
+        [default] interface IMDSNode;
+        [default, source] interface IAcadObjectEvents;
+    };
+
+    [
+      uuid(87E23544-BAE2-42F4-9041-F20CF0816956),
+      helpstring("WrWorkSpace Class")
+    ]
+    coclass MDSWorkSpace {
+        [default] interface IMDSWorkSpace;
+        [default, source] interface IAcadObjectEvents;
+    };
+
+    [
+      uuid(45ABD4AA-0795-42DF-92CC-592C757A8443),
+      helpstring("Element Class")
+    ]
+    coclass Element {
+        [default] interface IElement;
+    };
+
+    [
+      uuid(7AF65153-B54C-421F-BFF9-704CC3FF984F),
+      helpstring("Elements Class")
+    ]
+    coclass Elements {
+        [default] interface IElements;
+    };
+
+    [
+      uuid(5F5AB800-4756-412A-B6A1-71EC10A16D60),
+      helpstring("Parameter Class")
+    ]
+    coclass parameter {
+        [default] interface IParameter;
+    };
+
+    [
+      uuid(8AFB3213-BB2E-447E-8B85-A12F02C0FD67),
+      helpstring("Parameters Class")
+    ]
+    coclass Parameters {
+        [default] interface IParameters;
+    };
+
+    [
+      uuid(77DD623B-C468-4E38-8053-C79813912158),
+      helpstring("WrParametricEnt Class")
+    ]
+    coclass MDSParametricEnt {
+        [default] interface IMDSParametricEnt;
+        [default, source] interface IAcadObjectEvents;
+    };
+
+    [
+      uuid(33E6EBD1-FB40-47E7-9519-F34B465AD778),
+      helpstring("MDSParametersDlg Class")
+    ]
+    coclass MDSParametersDlg {
+        [default] interface IMDSParametersDlg;
+    };
+
+    [
+      uuid(9AA4093F-C7AD-40AB-B05E-808EEEA4C1B1),
+      helpstring("WrViewportDef Class")
+    ]
+    coclass MDSViewportDef {
+        [default] interface IMDSViewportDef;
+        [default, source] interface IAcadObjectEvents;
+    };
+
+    [
+      uuid(C2ED5430-D5DD-4260-BA6C-4C8BD4610B3E),
+      helpstring("MDSObjects Class")
+    ]
+    coclass MDSObjects {
+        [default] interface IMDSObjects;
+    };
+
+    [
+      uuid(8EFCE3A8-C31C-4DB2-9B6A-C9951C35329E),
+      helpstring("MDSNodes Class")
+    ]
+    coclass MDSNodes {
+        [default] interface IMDSNodes;
+    };
+
+    [
+      odl,
+      uuid(481C1FDC-8403-4BE9-BE86-6BCA7E50C7CC),
+      helpstring("IMDSViewportFrame Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IMDSViewportFrame : IAcadEntity {
+        [id(0x0000000d), propget, helpstring("Наименование вида")]
+        HRESULT Name([out, retval] BSTR* pVal);
+        [id(0x0000000d), propput, helpstring("Наименование вида")]
+        HRESULT Name([in] BSTR pVal);
+        [id(0x0000001c), propget, helpstring("Профиль")]
+        HRESULT Profile([out, retval] BSTR* pVal);
+        [id(0x0000001c), propput, helpstring("Профиль")]
+        HRESULT Profile([in] BSTR pVal);
+        [id(0x00000001), propget, helpstring("Центральная точка")]
+        HRESULT Center([out, retval] VARIANT* pVal);
+        [id(0x00000001), propput, helpstring("Центральная точка")]
+        HRESULT Center([in] VARIANT pVal);
+        [id(0x00000002), propget, helpstring("Направление")]
+        HRESULT Direction([out, retval] VARIANT* pVal);
+        [id(0x00000002), propput, helpstring("Направление")]
+        HRESULT Direction([in] VARIANT pVal);
+        [id(0x00000003), propget, helpstring("Цель")]
+        HRESULT Target([out, retval] VARIANT* pVal);
+        [id(0x00000003), propput, helpstring("Цель")]
+        HRESULT Target([in] VARIANT pVal);
+        [id(0x00000004), propget, helpstring("Ширина")]
+        HRESULT Width([out, retval] double* pVal);
+        [id(0x00000004), propput, helpstring("Ширина")]
+        HRESULT Width([in] double pVal);
+        [id(0x00000005), propget, helpstring("Высота")]
+        HRESULT Height([out, retval] double* pVal);
+        [id(0x00000005), propput, helpstring("Высота")]
+        HRESULT Height([in] double pVal);
+        [id(0x00000006), propget, helpstring("Пользовательский масштаб")]
+        HRESULT CustomScale([out, retval] double* pVal);
+        [id(0x00000006), propput, helpstring("Пользовательский масштаб")]
+        HRESULT CustomScale([in] double pVal);
+        [id(0x00000007), propget, helpstring("Масштаб")]
+        HRESULT Scale([out, retval] long* pVal);
+        [id(0x00000007), propput, helpstring("Масштаб")]
+        HRESULT Scale([in] long pVal);
+        [id(0x00000008), propget, helpstring("Угол поворота")]
+        HRESULT TwistAngle([out, retval] double* pVal);
+        [id(0x00000008), propput, helpstring("Угол поворота")]
+        HRESULT TwistAngle([in] double pVal);
+        [id(0x00000009), propget, helpstring("Обрезка по фронтальной плоскости")]
+        HRESULT FrontClip([out, retval] VARIANT_BOOL* pVal);
+        [id(0x00000009), propput, helpstring("Обрезка по фронтальной плоскости")]
+        HRESULT FrontClip([in] VARIANT_BOOL pVal);
+        [id(0x0000000a), propget, helpstring("Расстояние до фронтальной плоскости")]
+        HRESULT FrontClipDistance([out, retval] double* pVal);
+        [id(0x0000000a), propput, helpstring("Расстояние до фронтальной плоскости")]
+        HRESULT FrontClipDistance([in] double pVal);
+        [id(0x0000000b), propget, helpstring("Обрезка по задней плоскости")]
+        HRESULT BackClip([out, retval] VARIANT_BOOL* pVal);
+        [id(0x0000000b), propput, helpstring("Обрезка по задней плоскости")]
+        HRESULT BackClip([in] VARIANT_BOOL pVal);
+        [id(0x0000000c), propget, helpstring("Расстояние до задней плоскости")]
+        HRESULT BackClipDistance([out, retval] double* pVal);
+        [id(0x0000000c), propput, helpstring("Расстояние до задней плоскости")]
+        HRESULT BackClipDistance([in] double pVal);
+        [id(0x0000000e), propget, helpstring("Файл внешней ссылки")]
+        HRESULT XRefName([out, retval] BSTR* pVal);
+        [id(0x0000000e), propput, helpstring("Файл внешней ссылки")]
+        HRESULT XRefName([in] BSTR pVal);
+        [id(0x0000000f), propget, helpstring("Тип проекции")]
+        HRESULT ProjectionType([out, retval] long* pVal);
+        [id(0x00000010), propget, helpstring("Набор объектов")]
+        HRESULT SelectionType([out, retval] long* pVal);
+        [id(0x00000010), propput, helpstring("Набор объектов")]
+        HRESULT SelectionType([in] long pVal);
+        [id(0x00000013), propget, helpstring("Фильтр объектов")]
+        HRESULT ObjectFilter([out, retval] BSTR* pVal);
+        [id(0x00000013), propput, helpstring("Фильтр объектов")]
+        HRESULT ObjectFilter([in] BSTR pVal);
+        [id(0x00000011), propget, helpstring("Качество")]
+        HRESULT Quality([out, retval] long* pVal);
+        [id(0x00000011), propput, helpstring("Качество")]
+        HRESULT Quality([in] long pVal);
+        [id(0x0000001e), propget, helpstring("Уровень детализации")]
+        HRESULT LOD([out, retval] BSTR* pVal);
+        [id(0x0000001e), propput, helpstring("Уровень детализации")]
+        HRESULT LOD([in] BSTR pVal);
+        [id(0x00000012), propget, helpstring("Генерировать невидимые линии")]
+        HRESULT GenerateInvisibleLines([out, retval] VARIANT_BOOL* pVal);
+        [id(0x00000012), propput, helpstring("Генерировать невидимые линии")]
+        HRESULT GenerateInvisibleLines([in] VARIANT_BOOL pVal);
+        [id(0x00000014), propget, helpstring("Включить надписывание")]
+        HRESULT LabelTextVisible([out, retval] VARIANT_BOOL* pVal);
+        [id(0x00000014), propput, helpstring("Включить надписывание")]
+        HRESULT LabelTextVisible([in] VARIANT_BOOL pVal);
+        [id(0x00000015), propget, helpstring("Текст")]
+        HRESULT LabelTextExpression([out, retval] BSTR* pVal);
+        [id(0x00000015), propput, helpstring("Текст")]
+        HRESULT LabelTextExpression([in] BSTR pVal);
+        [id(0x00000016), propget, helpstring("Стиль текста")]
+        HRESULT LabelTextStyle([out, retval] BSTR* pVal);
+        [id(0x00000016), propput, helpstring("Стиль текста")]
+        HRESULT LabelTextStyle([in] BSTR pVal);
+        [id(0x00000017), propget, helpstring("Высота текста")]
+        HRESULT LabelTextHeight([out, retval] double* pVal);
+        [id(0x00000017), propput, helpstring("Высота текста")]
+        HRESULT LabelTextHeight([in] double pVal);
+        [id(0x00000018), propget, helpstring("Точка привязки")]
+        HRESULT LabelTextPosition([out, retval] long* pVal);
+        [id(0x00000018), propput, helpstring("Точка привязки")]
+        HRESULT LabelTextPosition([in] long pVal);
+        [id(0x00000019), propget, helpstring("Смещение текста по X")]
+        HRESULT LabelTextOffsetX([out, retval] double* pVal);
+        [id(0x00000019), propput, helpstring("Смещение текста по X")]
+        HRESULT LabelTextOffsetX([in] double pVal);
+        [id(0x0000001a), propget, helpstring("Смещение текста по Y")]
+        HRESULT LabelTextOffsetY([out, retval] double* pVal);
+        [id(0x0000001a), propput, helpstring("Смещение текста по Y")]
+        HRESULT LabelTextOffsetY([in] double pVal);
+        [id(0x0000001f), propget, helpstring("Рамка вокруг текста")]
+        HRESULT LabelFrame([out, retval] long* pVal);
+        [id(0x0000001f), propput, helpstring("Рамка вокруг текста")]
+        HRESULT LabelFrame([in] long pVal);
+        [id(0x00000020), propget, helpstring("Радиус или отступ по X для надписи")]
+        HRESULT LabelFrameOffsX([out, retval] double* pVal);
+        [id(0x00000020), propput, helpstring("Радиус или отступ по X для надписи")]
+        HRESULT LabelFrameOffsX([in] double pVal);
+        [id(0x00000021), propget, helpstring("Отступ по Y для надписи")]
+        HRESULT LabelFrameOffsY([out, retval] double* pVal);
+        [id(0x00000021), propput, helpstring("Отступ по Y для надписи")]
+        HRESULT LabelFrameOffsY([in] double pVal);
+        [id(0x0000001d), propget, helpstring("Слой рамки")]
+        HRESULT FrameLayer([out, retval] BSTR* pVal);
+        [id(0x0000001d), propput, helpstring("Слой рамки")]
+        HRESULT FrameLayer([in] BSTR pVal);
+        [id(0x0000001b), propget, helpstring("Печать рамки")]
+        HRESULT PrintFrame([out, retval] VARIANT_BOOL* pVal);
+        [id(0x0000001b), propput, helpstring("Печать рамки")]
+        HRESULT PrintFrame([in] VARIANT_BOOL pVal);
+    };
+
+    [
+      uuid(0CEB3A90-24D9-4F89-A166-76E83F70BF22),
+      helpstring("MDSViewportFrame Class")
+    ]
+    coclass MDSViewportFrame {
+        [default] interface IMDSViewportFrame;
+        [default, source] interface IAcadObjectEvents;
+    };
+
+    [
+      uuid(1663E4DC-F056-4CAF-B847-87231CFBB71C),
+      helpstring("MDSFileDlgWrapper Class")
+    ]
+    coclass MDSFileDlgWrapper {
+        [default] interface IMDSFileDlgWrapper;
+    };
+
+    [
+      odl,
+      uuid(2F39B124-E661-4539-92BB-E8ECB46BB649),
+      helpstring("IMDSFileDlgWrapper Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IMDSFileDlgWrapper : IDispatch {
+    };
+
+    [
+      uuid(8135A328-BEB8-422D-9FC5-FA7E4D77E07E),
+      helpstring("MDSFilterDlgWrapper Class")
+    ]
+    coclass MDSFilterDlgWrapper {
+        [default] interface IMDSFilterDlgWrapper;
+    };
+
+    [
+      odl,
+      uuid(5A3A86CA-39CB-45DF-834A-3711544097CF),
+      helpstring("IMDSFilterDlgWrapper Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IMDSFilterDlgWrapper : IDispatch {
+    };
+
+    [
+      uuid(BBF24C9C-5803-4201-BB15-81C0ECB2AFCE),
+      helpstring("MDSFunctionDlgWrapper Class")
+    ]
+    coclass MDSFunctionDlgWrapper {
+        [default] interface IMDSFunctionDlgWrapper;
+    };
+
+    [
+      odl,
+      uuid(66015F37-E384-4DC1-9CF8-9553FA962169),
+      helpstring("IMDSFunctionDlgWrapper Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IMDSFunctionDlgWrapper : IDispatch {
+    };
+
+    [
+      uuid(1119EF5F-A3AE-4CED-8075-424E5D00C8BE),
+      helpstring("MDSELCollision Class")
+    ]
+    coclass MDSELCollision {
+        [default] interface IMDSELCollision;
+        [default, source] interface IAcadObjectEvents;
+    };
+
+    [
+      odl,
+      uuid(78B6593F-481A-4BFC-BBA1-1583D590ECC4),
+      helpstring("IMDSDataObject Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IMDSDataObject : IAcadObject {
+        [id(0x00000001), propget, helpstring("property Element")]
+        HRESULT Element([out, retval] IElement** pVal);
+        [id(0x00000001), propput, helpstring("property Element")]
+        HRESULT Element([in] IElement* pVal);
+    };
+
+    [
+      uuid(7DE16B2C-D5E3-4E9B-A3EA-6B52ADAFB64A),
+      helpstring("MDSDataObject Class")
+    ]
+    coclass MDSDataObject {
+        [default] interface IMDSDataObject;
+        [default, source] interface IAcadObjectEvents;
+    };
+
+    [
+      uuid(7FBC0547-AE32-4E15-A672-B10288F25B14),
+      helpstring("WrMaterialStandardDia Class")
+    ]
+    coclass WrMaterialStandardDia {
+        [default] interface IWrMaterialStandardDia;
+    };
+
+    [
+      odl,
+      uuid(17CE9F51-7BE9-4D8E-86DD-0F264C566E38),
+      helpstring("IWrMaterialStandardDia Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IWrMaterialStandardDia : IDispatch {
+    };
+
+    [
+      uuid(8D0E21D1-4B39-4C73-9397-3FDE6BBDC508),
+      helpstring("WrMaterialDia Class")
+    ]
+    coclass WrMaterialDia {
+        [default] interface IWrMaterialDia;
+    };
+
+    [
+      odl,
+      uuid(6C3BFD50-6DA4-4D44-97E9-646F9EAFA083),
+      helpstring("IWrMaterialDia Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IWrMaterialDia : IDispatch {
+    };
+
+    [
+      uuid(DF0E1364-1A2C-48BE-BAC9-5E06F8B1F454),
+      helpstring("WrGroupDia Class")
+    ]
+    coclass WrGroupDia {
+        [default] interface IWrGroupDia;
+    };
+
+    [
+      odl,
+      uuid(16AD7A62-2E33-4065-9564-EC0F1E2625C2),
+      helpstring("IWrGroupDia Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IWrGroupDia : IDispatch {
+    };
+
+    [
+      uuid(6C3A98BC-87A9-411A-91D3-A76560296600),
+      helpstring("WrTypeDia Class")
+    ]
+    coclass WrTypeDia {
+        [default] interface IWrTypeDia;
+    };
+
+    [
+      odl,
+      uuid(B6AE5560-15F7-4997-84BC-E00C35A026CA),
+      helpstring("IWrTypeDia Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IWrTypeDia : IDispatch {
+    };
+
+    [
+      odl,
+      uuid(C9293A5F-01AC-4BEF-A5B5-6816301A2136),
+      helpstring("IWrBoundingBox Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IMDSBoundingBox : IAcadEntity {
+    };
+
+    [
+      uuid(91B08017-33C6-4FEE-A0F8-4A238A137E02),
+      helpstring("WrBoundingBox Class")
+    ]
+    coclass MDSBoundaryBox {
+        [default] interface IMDSBoundingBox;
+        [default, source] interface IAcadObjectEvents;
+    };
+
+    [
+      uuid(8F634EB4-6E56-4DD0-97A1-4F5C9BFD1DC8)
+    ]
+    dispinterface _IMDSUnitsFactoryEvents {
+        properties:
+        methods:
+    };
+
+    [
+      uuid(4B3C070C-76E1-44F8-88D3-06627B1BC283)
+    ]
+    coclass MDSUnitsFactory {
+        [default] interface IMDSUnitsFactory;
+        [default, source] dispinterface _IMDSUnitsFactoryEvents;
+    };
+
+    [
+      odl,
+      uuid(BDFE0521-A8ED-43CB-9E4F-D67AC8D85950),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IMDSUnitsFactory : IDispatch {
+        [id(0x00000001), helpstring("Создание компонента оборудования")]
+        HRESULT CreateUnit(
+                        [in] BSTR BS_StringXPG, 
+                        [in, optional] VARIANT ptPosvar, 
+                        [in, optional] VARIANT varvecX, 
+                        [in, optional] VARIANT varvecY, 
+                        [in, optional] VARIANT varvecZ, 
+                        [out, retval] IDispatch** iDisp);
+    };
+
+    [
+      uuid(4E26F187-112B-427A-BECD-FB0B35E6B2A0)
+    ]
+    coclass MDSGrounding {
+        [default] interface IMDSGrounding;
+    };
+
+    [
+      odl,
+      uuid(6E53F155-99A2-4755-9F48-FECD00A12EF8),
+      helpstring("IWrCSInsulationDesignation Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IWrCSInsulationDesignation : IAcadEntity {
+        [id(0x0000005d), propget, helpstring("Шаг штриховки")]
+        HRESULT Step([out, retval] double* pVal);
+        [id(0x0000005d), propput, helpstring("Шаг штриховки")]
+        HRESULT Step([in] double pVal);
+        [id(0x0000005e), propget, helpstring("Угол штриховки")]
+        HRESULT Angle([out, retval] double* pVal);
+        [id(0x0000005e), propput, helpstring("Угол штриховки")]
+        HRESULT Angle([in] double pVal);
+        [id(0x00000060), propget, helpstring("Тип узора")]
+        HRESULT TraceryType([out, retval] long* pVal);
+        [id(0x00000060), propput, helpstring("Тип узора")]
+        HRESULT TraceryType([in] long pVal);
+        [id(0x00000061), propget, helpstring("Показывать верхнюю границу?")]
+        HRESULT IsViewUpLine([out, retval] long* pVal);
+        [id(0x00000061), propput, helpstring("Показывать верхнюю границу?")]
+        HRESULT IsViewUpLine([in] long pVal);
+        [id(0x00000062), propget, helpstring("Расстояние между границами")]
+        HRESULT DistBetweenPlines([out, retval] double* pVal);
+        [id(0x00000062), propput, helpstring("Расстояние между границами")]
+        HRESULT DistBetweenPlines([in] double pVal);
+        [id(0x00000063), propget, helpstring("Показывать нижнюю границу?")]
+        HRESULT IsViewDownLine([out, retval] long* pVal);
+        [id(0x00000063), propput, helpstring("Показывать нижнюю границу?")]
+        HRESULT IsViewDownLine([in] long pVal);
+        [id(0x00000081), propget, helpstring("Тип линии верхней границы")]
+        HRESULT LineTypeUp([out, retval] long* pVal);
+        [id(0x00000081), propput, helpstring("Тип линии верхней границы")]
+        HRESULT LineTypeUp([in] long pVal);
+        [id(0x0000008b), propget, helpstring("Тип линии нижней границы")]
+        HRESULT LineTypeDown([out, retval] long* pVal);
+        [id(0x0000008b), propput, helpstring("Тип линии нижней границы")]
+        HRESULT LineTypeDown([in] long pVal);
+        [id(0x00000095), propget, helpstring("Тип линии узора")]
+        HRESULT LineTypeTracery([out, retval] long* pVal);
+        [id(0x00000095), propput, helpstring("Тип линии узора")]
+        HRESULT LineTypeTracery([in] long pVal);
+        [id(0x0000009f), propget, helpstring("Масштаб линии верхней границы")]
+        HRESULT LineTypeScaleUp([out, retval] double* pVal);
+        [id(0x0000009f), propput, helpstring("Масштаб линии верхней границы")]
+        HRESULT LineTypeScaleUp([in] double pVal);
+        [id(0x000000a9), propget, helpstring("Масштаб линии нижней границы")]
+        HRESULT LineTypeScaleDown([out, retval] double* pVal);
+        [id(0x000000a9), propput, helpstring("Масштаб линии нижней границы")]
+        HRESULT LineTypeScaleDown([in] double pVal);
+        [id(0x000000b3), propget, helpstring("Масштаб линии узора")]
+        HRESULT LineTypeScaleTracery([out, retval] double* pVal);
+        [id(0x000000b3), propput, helpstring("Масштаб линии узора")]
+        HRESULT LineTypeScaleTracery([in] double pVal);
+        [id(0x000000bd), propget, helpstring("Вес линии верхней границы")]
+        HRESULT LineWeightUp([out, retval] long* pVal);
+        [id(0x000000bd), propput, helpstring("Вес линии верхней границы")]
+        HRESULT LineWeightUp([in] long pVal);
+        [id(0x000000c7), propget, helpstring("Вес линии нижней границы")]
+        HRESULT LineWeightDown([out, retval] long* pVal);
+        [id(0x000000c7), propput, helpstring("Вес линии нижней границы")]
+        HRESULT LineWeightDown([in] long pVal);
+        [id(0x000000d1), propget, helpstring("Вес линии узора")]
+        HRESULT LineWeightTracery([out, retval] long* pVal);
+        [id(0x000000d1), propput, helpstring("Вес линии узора")]
+        HRESULT LineWeightTracery([in] long pVal);
+        [id(0x000000d2), propget, helpstring("Цвет линии верхней границы")]
+        HRESULT ColorUp([out, retval] ACAD_COLOR* pVal);
+        [id(0x000000d2), propput, helpstring("Цвет линии верхней границы")]
+        HRESULT ColorUp([in] ACAD_COLOR pVal);
+        [id(0x000000d3), propget, helpstring("Цвет линии нижней границы")]
+        HRESULT ColorDown([out, retval] ACAD_COLOR* pVal);
+        [id(0x000000d3), propput, helpstring("Цвет линии нижней границы")]
+        HRESULT ColorDown([in] ACAD_COLOR pVal);
+        [id(0x000000d4), propget, helpstring("Цвет линии узора")]
+        HRESULT ColorTracery([out, retval] ACAD_COLOR* pVal);
+        [id(0x000000d4), propput, helpstring("Цвет линии узора")]
+        HRESULT ColorTracery([in] ACAD_COLOR pVal);
+    };
+
+    [
+      uuid(D7AC7324-722F-4188-BA6A-DD9C9B1E9467),
+      helpstring("WrCSInsulationDesignation Class")
+    ]
+    coclass WrCSInsulationDesignation {
+        [default] interface IWrCSInsulationDesignation;
+        [default, source] interface IAcadObjectEvents;
+    };
+};

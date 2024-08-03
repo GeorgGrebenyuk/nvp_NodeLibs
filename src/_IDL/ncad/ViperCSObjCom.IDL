@@ -1,0 +1,1605 @@
+﻿// Generated .IDL file (by the OLE/COM Object Viewer)
+// 
+// typelib filename: ViperCSObjCom.nrx
+
+[
+  uuid(F4A0D05F-A659-4EEC-9021-DCF12867B9B8),
+  version(1.0),
+  helpstring("vCSViperCSObjCom 1.0 Type Library"),
+  custom(DE77BA64-517C-11D1-A2DA-0000F8773CE9, 134283890),
+  custom(DE77BA63-517C-11D1-A2DA-0000F8773CE9, 2147483647),
+  custom(DE77BA65-517C-11D1-A2DA-0000F8773CE9, "Created by MIDL version 8.01.0626 at Tue Jan 19 06:14:07 2038
+")
+
+]
+library vCSViperCSObjComLib
+{
+    // TLib : Model Studio Objects 1.0 Type Library : {1AE1985C-5D87-4E89-8E67-068628FC3CD6}
+    importlib("UnitsCSCom.nrx");
+    // TLib : OdaX 23.2 (x64) Type Library : {0DFA2554-8A2B-44D0-BE8F-85EEB803AEE9}
+    importlib("OdaX_csd.dll");
+    // TLib : OLE Automation : {00020430-0000-0000-C000-000000000046}
+    importlib("stdole2.tlb");
+
+    // Forward declare all types defined in this typelib
+    interface IWrPropDia;
+    interface IWrInsulation;
+    interface IWrOverpassAxis;
+    interface IWrInLine;
+    interface IWrSegment;
+    interface IWrSubSegment;
+    interface IWrNodeElbow;
+    interface IWrNodeTerminator;
+    interface IWrSupport;
+    interface IWrAxis;
+    interface IWrMpInsul;
+    interface IWrDiameterDia;
+    interface IWrDiameter1Dia;
+    interface IWrDiameter2Dia;
+    interface IWrWeld;
+
+    [
+      uuid(3BC68F72-58B6-4311-BD48-ECB2CDA2A201),
+      helpstring("WrPropDia Class")
+    ]
+    coclass WrPropDia {
+        [default] interface IWrPropDia;
+    };
+
+    [
+      odl,
+      uuid(A09652F4-71CA-47B5-8B22-5433F0CB530C),
+      helpstring("IWrPropDia Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IWrPropDia : IDispatch {
+    };
+
+    [
+      uuid(5D00BCC3-9DE6-4525-820D-F661F3DE4A5A),
+      helpstring("WrAxisPropDia Class")
+    ]
+    coclass WrAxisPropDia {
+        [default] interface IWrPropDia;
+    };
+
+    [
+      uuid(E56110F1-3A7B-4F32-9859-2B1AB9EA703F),
+      helpstring("WrInsulationPropDia Class")
+    ]
+    coclass WrInsulationPropDia {
+        [default] interface IWrPropDia;
+    };
+
+    [
+      odl,
+      uuid(AE234749-8C0A-4340-955A-14212A611BA0),
+      helpstring("IWrInsulation Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IWrInsulation : IAcadEntity {
+        [id(0x00000001), propget, helpstring("Параметры")]
+        HRESULT Element([out, retval] IElement** pVal);
+        [id(0x00000001), propput, helpstring("Параметры")]
+        HRESULT Element([in] IElement* pVal);
+        [id(0x00000002), propget, helpstring("property ViewMode")]
+        HRESULT ViewMode([out, retval] long* pVal);
+        [id(0x00000002), propput, helpstring("property ViewMode")]
+        HRESULT ViewMode([in] long pVal);
+        [id(0x0000006e), propget, helpstring("property PipeCount")]
+        HRESULT PipeCount([out, retval] long* pVal);
+        [id(0x0000006f), helpstring("method GetPipe")]
+        HRESULT GetPipe(
+                        [in] long index, 
+                        [out, retval] IDispatch** pVal);
+        [id(0x00000064), propget, helpstring("property Thickness")]
+        HRESULT Thickness([out, retval] double* pVal);
+        [id(0x00000064), propput, helpstring("property Thickness")]
+        HRESULT Thickness([in] double pVal);
+    };
+
+    [
+      odl,
+      uuid(56245B86-C1EB-4B7C-9E03-180BA9A71292),
+      helpstring("WrOverpassaxis Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IWrOverpassAxis : IAcadEntity {
+    };
+
+    [
+      uuid(DC3EDC35-E624-4800-BB97-C2605E84C53B),
+      helpstring("WrOverpassAxis Class")
+    ]
+    coclass WrOverpassAxis {
+        [default] interface IWrOverpassAxis;
+    };
+
+    [
+      odl,
+      uuid(56C994D9-36BD-4C86-A130-799DB2753FB1),
+      helpstring("IWrInLine Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IWrInLine : IAcadEntity {
+        [id(0x0000005a), propget, helpstring("Слой по умолчанию")]
+        HRESULT PipeLayer([out, retval] BSTR* pVal);
+        [id(0x0000005a), propput, helpstring("Слой по умолчанию")]
+        HRESULT PipeLayer([in] BSTR pVal);
+        [id(0x00000001), propget, helpstring("property Element")]
+        HRESULT Element([out, retval] IElement** pVal);
+        [id(0x00000001), propput, helpstring("property Element")]
+        HRESULT Element([in] IElement* pVal);
+        [id(0x00000002), propget, helpstring("property OwnerSegId")]
+        HRESULT OwnerSegId([out, retval] long* pVal);
+        [id(0x00000002), propput, helpstring("property OwnerSegId")]
+        HRESULT OwnerSegId([in] long pVal);
+        [id(0x00000003), propget, helpstring("property ViewMode")]
+        HRESULT ViewMode([out, retval] long* pVal);
+        [id(0x00000003), propput, helpstring("property ViewMode")]
+        HRESULT ViewMode([in] long pVal);
+        [id(0x00000004), propget, helpstring("property ElementAxis")]
+        HRESULT ElementAxis([out, retval] IDispatch** pVal);
+        [id(0x00000004), propput, helpstring("property ElementAxis")]
+        HRESULT ElementAxis([in] IDispatch* pVal);
+        [id(0x00000005), propget, helpstring("property Reverse")]
+        HRESULT Reverse([out, retval] long* pVal);
+        [id(0x00000005), propput, helpstring("property Reverse")]
+        HRESULT Reverse([in] long pVal);
+        [id(0x00000006), propget, helpstring("property Angle")]
+        HRESULT Angle([out, retval] double* pVal);
+        [id(0x00000006), propput, helpstring("property Angle")]
+        HRESULT Angle([in] double pVal);
+        [id(0x00000007), propget, helpstring("property TeeType")]
+        HRESULT TeeType([out, retval] long* pVal);
+        [id(0x00000007), propput, helpstring("property TeeType")]
+        HRESULT TeeType([in] long pVal);
+        [id(0x00000008), propget, helpstring("property FlowDependence")]
+        HRESULT FlowDependence([out, retval] long* pVal);
+        [id(0x00000008), propput, helpstring("property FlowDependence")]
+        HRESULT FlowDependence([in] long pVal);
+        [id(0x00000028), propget, helpstring("property FixAngle")]
+        HRESULT FixAngle([out, retval] VARIANT_BOOL* pVal);
+        [id(0x00000028), propput, helpstring("property FixAngle")]
+        HRESULT FixAngle([in] VARIANT_BOOL pVal);
+        [id(0x00000009), propget, helpstring("property Part_Name")]
+        HRESULT Part_Name([out, retval] BSTR* pVal);
+        [id(0x00000009), propput, helpstring("property Part_Name")]
+        HRESULT Part_Name([in] BSTR pVal);
+        [id(0x0000000a), propget, helpstring("property Part_Tag")]
+        HRESULT Part_Tag([out, retval] BSTR* pVal);
+        [id(0x0000000a), propput, helpstring("property Part_Tag")]
+        HRESULT Part_Tag([in] BSTR pVal);
+        [id(0x0000000b), propget, helpstring("property Part_Manufacturer")]
+        HRESULT Part_Manufacturer([out, retval] BSTR* pVal);
+        [id(0x0000000b), propput, helpstring("property Part_Manufacturer")]
+        HRESULT Part_Manufacturer([in] BSTR pVal);
+        [id(0x0000000c), propget, helpstring("property Part_Standard")]
+        HRESULT Part_Standard([out, retval] BSTR* pVal);
+        [id(0x0000000c), propput, helpstring("property Part_Standard")]
+        HRESULT Part_Standard([in] BSTR pVal);
+        [id(0x0000000d), propget, helpstring("property Part_Refdrawing")]
+        HRESULT Part_Refdrawing([out, retval] BSTR* pVal);
+        [id(0x0000000d), propput, helpstring("property Part_Refdrawing")]
+        HRESULT Part_Refdrawing([in] BSTR pVal);
+        [id(0x0000000e), propget, helpstring("property Part_Material")]
+        HRESULT Part_Material([out, retval] BSTR* pVal);
+        [id(0x0000000e), propput, helpstring("property Part_Material")]
+        HRESULT Part_Material([in] BSTR pVal);
+        [id(0x0000000f), propget, helpstring("property Part_Material_Standard")]
+        HRESULT Part_Material_Standard([out, retval] BSTR* pVal);
+        [id(0x0000000f), propput, helpstring("property Part_Material_Standard")]
+        HRESULT Part_Material_Standard([in] BSTR pVal);
+        [id(0x00000010), propget, helpstring("property Part_Weight")]
+        HRESULT Part_Weight([out, retval] BSTR* pVal);
+        [id(0x00000010), propput, helpstring("property Part_Weight")]
+        HRESULT Part_Weight([in] BSTR pVal);
+        [id(0x00000011), propget, helpstring("property Part_Comment")]
+        HRESULT Part_Comment([out, retval] BSTR* pVal);
+        [id(0x00000011), propput, helpstring("property Part_Comment")]
+        HRESULT Part_Comment([in] BSTR pVal);
+        [id(0x00000051), propget, helpstring("Начальная точка")]
+        HRESULT PointStart([out, retval] VARIANT* pVal);
+        [id(0x00000052), propget, helpstring("Конечная точка")]
+        HRESULT PointEnd([out, retval] VARIANT* pVal);
+        [id(0x0000005b), propget, helpstring("Номер на линии")]
+        HRESULT OrderOnLine([out, retval] long* pVal);
+        [id(0x00000070), propget, helpstring("Объект изоляции")]
+        HRESULT Insulation([out, retval] IDispatch** pVal);
+        [id(0x00000070), propput, helpstring("Объект изоляции")]
+        HRESULT Insulation([in] IDispatch* pVal);
+        [id(0x00000071), propget, helpstring("Наличие изоляции")]
+        HRESULT HasInsulation([out, retval] VARIANT_BOOL* pVal);
+        [id(0x00000046), propget, helpstring("property PartPipe_PN")]
+        HRESULT PartPipe_PN([out, retval] BSTR* pVal);
+        [id(0x00000046), propput, helpstring("property PartPipe_PN")]
+        HRESULT PartPipe_PN([in] BSTR pVal);
+        [id(0x00000047), propget, helpstring("property PartPipe_DN")]
+        HRESULT PartPipe_DN([out, retval] long* pVal);
+        [id(0x00000047), propput, helpstring("property PartPipe_DN")]
+        HRESULT PartPipe_DN([in] long pVal);
+        [id(0x00000048), propget, helpstring("property PartPipe_Diam")]
+        HRESULT PartPipe_Diam([out, retval] long* pVal);
+        [id(0x00000048), propput, helpstring("property PartPipe_Diam")]
+        HRESULT PartPipe_Diam([in] long pVal);
+        [id(0x00000049), propget, helpstring("property PartPipe_DN1")]
+        HRESULT PartPipe_DN1([out, retval] long* pVal);
+        [id(0x00000049), propput, helpstring("property PartPipe_DN1")]
+        HRESULT PartPipe_DN1([in] long pVal);
+        [id(0x0000004a), propget, helpstring("property PartPipe_Diam1")]
+        HRESULT PartPipe_Diam1([out, retval] long* pVal);
+        [id(0x0000004a), propput, helpstring("property PartPipe_Diam1")]
+        HRESULT PartPipe_Diam1([in] long pVal);
+        [id(0x0000004b), propget, helpstring("property PartPipe_DN2")]
+        HRESULT PartPipe_DN2([out, retval] long* pVal);
+        [id(0x0000004b), propput, helpstring("property PartPipe_DN2")]
+        HRESULT PartPipe_DN2([in] long pVal);
+        [id(0x0000004c), propget, helpstring("property PartPipe_Diam2")]
+        HRESULT PartPipe_Diam2([out, retval] long* pVal);
+        [id(0x0000004c), propput, helpstring("property PartPipe_Diam2")]
+        HRESULT PartPipe_Diam2([in] long pVal);
+        [id(0x0000004e), propget, helpstring("property PartPipe_Thickness")]
+        HRESULT PartPipe_Thickness([out, retval] BSTR* pVal);
+        [id(0x0000004e), propput, helpstring("property PartPipe_Thickness")]
+        HRESULT PartPipe_Thickness([in] BSTR pVal);
+        [id(0x0000004f), propget, helpstring("property PartPipe_Thickness1")]
+        HRESULT PartPipe_Thickness1([out, retval] BSTR* pVal);
+        [id(0x0000004f), propput, helpstring("property PartPipe_Thickness1")]
+        HRESULT PartPipe_Thickness1([in] BSTR pVal);
+        [id(0x00000050), propget, helpstring("property PartPipe_Thickness2")]
+        HRESULT PartPipe_Thickness2([out, retval] BSTR* pVal);
+        [id(0x00000050), propput, helpstring("property PartPipe_Thickness2")]
+        HRESULT PartPipe_Thickness2([in] BSTR pVal);
+        [id(0x0000004d), propget, helpstring("property PartPipe_Length")]
+        HRESULT PartPipe_Length([out, retval] double* pVal);
+        [id(0x0000004d), propput, helpstring("property PartPipe_Length")]
+        HRESULT PartPipe_Length([in] double pVal);
+        [id(0x00000012), propget, helpstring("property Part_Group")]
+        HRESULT Part_Group([out, retval] BSTR* pVal);
+        [id(0x00000012), propput, helpstring("property Part_Group")]
+        HRESULT Part_Group([in] BSTR pVal);
+        [id(0x00000013), propget, helpstring("property Part_Type")]
+        HRESULT Part_Type([out, retval] BSTR* pVal);
+        [id(0x00000013), propput, helpstring("property Part_Type")]
+        HRESULT Part_Type([in] BSTR pVal);
+        [id(0x00000014), propget, helpstring("property Part_Reference")]
+        HRESULT Part_Reference([out, retval] BSTR* pVal);
+        [id(0x00000014), propput, helpstring("property Part_Reference")]
+        HRESULT Part_Reference([in] BSTR pVal);
+        [id(0x00000015), propget, helpstring("property Part_Weight_Netto")]
+        HRESULT Part_Weight_Netto([out, retval] BSTR* pVal);
+        [id(0x00000015), propput, helpstring("property Part_Weight_Netto")]
+        HRESULT Part_Weight_Netto([in] BSTR pVal);
+        [id(0x00000016), propget, helpstring("property Part_Weight_Bruto")]
+        HRESULT Part_Weight_Bruto([out, retval] BSTR* pVal);
+        [id(0x00000016), propput, helpstring("property Part_Weight_Bruto")]
+        HRESULT Part_Weight_Bruto([in] BSTR pVal);
+        [id(0x00000053), propget, helpstring("property Part_Insulation_Thickness")]
+        HRESULT Part_Insulation_Thickness([out, retval] double* pVal);
+        [id(0x00000053), propput, helpstring("property Part_Insulation_Thickness")]
+        HRESULT Part_Insulation_Thickness([in] double pVal);
+        [id(0x00000054), propget, helpstring("property Part_Insulation_Disableview")]
+        HRESULT Part_Insulation_Disableview([out, retval] VARIANT_BOOL* pVal);
+        [id(0x00000054), propput, helpstring("property Part_Insulation_Disableview")]
+        HRESULT Part_Insulation_Disableview([in] VARIANT_BOOL pVal);
+        [id(0x00000055), propget, helpstring("property Axis_Insulation_Thickness")]
+        HRESULT Axis_Insulation_Thickness([out, retval] double* pVal);
+        [id(0x00000055), propput, helpstring("property Axis_Insulation_Thickness")]
+        HRESULT Axis_Insulation_Thickness([in] double pVal);
+        [id(0x00000056), propget, helpstring("property Axis_Insulation_Disableview")]
+        HRESULT Axis_Insulation_Disableview([out, retval] VARIANT_BOOL* pVal);
+        [id(0x00000056), propput, helpstring("property Axis_Insulation_Disableview")]
+        HRESULT Axis_Insulation_Disableview([in] VARIANT_BOOL pVal);
+        [id(0x0000005f), propget, helpstring("property Axis_Insulation_LineInsulation")]
+        HRESULT Axis_Insulation_LineInsulation([out, retval] VARIANT_BOOL* pVal);
+        [id(0x0000005f), propput, helpstring("property Axis_Insulation_LineInsulation")]
+        HRESULT Axis_Insulation_LineInsulation([in] VARIANT_BOOL pVal);
+        [id(0x00000060), propget, helpstring("property Axis_Insulation_LineTrace")]
+        HRESULT Axis_Insulation_LineTrace([out, retval] VARIANT_BOOL* pVal);
+        [id(0x00000060), propput, helpstring("property Axis_Insulation_LineTrace")]
+        HRESULT Axis_Insulation_LineTrace([in] VARIANT_BOOL pVal);
+        [id(0x00000064), helpstring("method GetAxisParamValue")]
+        HRESULT GetAxisParamValue(
+                        [in] BSTR ParameterName, 
+                        [out, retval] BSTR* Value);
+        [id(0x00000017), propget, helpstring("property Explication_Include")]
+        HRESULT Explication_Include([out, retval] long* pVal);
+        [id(0x00000017), propput, helpstring("property Explication_Include")]
+        HRESULT Explication_Include([in] long pVal);
+        [id(0x00000018), propget, helpstring("property Explication_Number")]
+        HRESULT Explication_Number([out, retval] BSTR* pVal);
+        [id(0x00000018), propput, helpstring("property Explication_Number")]
+        HRESULT Explication_Number([in] BSTR pVal);
+        [id(0x00000019), propget, helpstring("property Explication_Group")]
+        HRESULT Explication_Group([out, retval] BSTR* pVal);
+        [id(0x00000019), propput, helpstring("property Explication_Group")]
+        HRESULT Explication_Group([in] BSTR pVal);
+        [id(0x0000001a), propget, helpstring("property Explication_Comment")]
+        HRESULT Explication_Comment([out, retval] BSTR* pVal);
+        [id(0x0000001a), propput, helpstring("property Explication_Comment")]
+        HRESULT Explication_Comment([in] BSTR pVal);
+        [id(0x0000001b), propget, helpstring("property Bom_Include")]
+        HRESULT Bom_Include([out, retval] long* pVal);
+        [id(0x0000001b), propput, helpstring("property Bom_Include")]
+        HRESULT Bom_Include([in] long pVal);
+        [id(0x0000001c), propget, helpstring("property Bom_Number")]
+        HRESULT Bom_Number([out, retval] BSTR* pVal);
+        [id(0x0000001c), propput, helpstring("property Bom_Number")]
+        HRESULT Bom_Number([in] BSTR pVal);
+        [id(0x0000001d), propget, helpstring("property Bom_Group")]
+        HRESULT Bom_Group([out, retval] BSTR* pVal);
+        [id(0x0000001d), propput, helpstring("property Bom_Group")]
+        HRESULT Bom_Group([in] BSTR pVal);
+        [id(0x0000001e), propget, helpstring("property Bom_Qty")]
+        HRESULT Bom_Qty([out, retval] BSTR* pVal);
+        [id(0x0000001e), propput, helpstring("property Bom_Qty")]
+        HRESULT Bom_Qty([in] BSTR pVal);
+        [id(0x0000001f), propget, helpstring("property Bom_Comment")]
+        HRESULT Bom_Comment([out, retval] BSTR* pVal);
+        [id(0x0000001f), propput, helpstring("property Bom_Comment")]
+        HRESULT Bom_Comment([in] BSTR pVal);
+        [id(0x0000006e), propget, helpstring("property BranchAxis")]
+        HRESULT BranchAxis([out, retval] IDispatch** pVal);
+        [id(0x0000006f), propget, helpstring("property HasBranch")]
+        HRESULT HasBranch([out, retval] long* pVal);
+        [id(0x00000079), propget, helpstring("property LockComponent")]
+        HRESULT PartPipe_Lock([out, retval] long* pVal);
+        [id(0x00000079), propput, helpstring("property LockComponent")]
+        HRESULT PartPipe_Lock([in] long pVal);
+        [id(0x0000007a), helpstring("method GetArea")]
+        HRESULT GetArea(
+                        [in, optional] VARIANT Element, 
+                        [in, optional] VARIANT bodyOptions, 
+                        [out, retval] double* pResult);
+        [id(0x0000007b), helpstring("method GetVolume")]
+        HRESULT GetVolume(
+                        [in, optional] VARIANT Element, 
+                        [in, optional] VARIANT bodyOptions, 
+                        [out, retval] double* pResult);
+    };
+
+    [
+      uuid(60FB6261-59C0-465D-8941-1642C5C57FDF),
+      helpstring("WrInLine Class")
+    ]
+    coclass WrInLine {
+        [default] interface IWrInLine;
+        [default, source] interface IAcadObjectEvents;
+    };
+
+    [
+      odl,
+      uuid(FB94A260-99B4-4315-BCAA-753FC61EB32B),
+      helpstring("IWrSegment Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IWrSegment : IAcadEntity {
+        [id(0x00000001), propget, helpstring("property Element")]
+        HRESULT Element([out, retval] IElement** pVal);
+        [id(0x00000001), propput, helpstring("property Element")]
+        HRESULT Element([in] IElement* pVal);
+        [id(0x00000002), propget, helpstring("property ViewMode")]
+        HRESULT ViewMode([out, retval] long* pVal);
+        [id(0x00000002), propput, helpstring("property ViewMode")]
+        HRESULT ViewMode([in] long pVal);
+        [id(0x00000003), propget, helpstring("property ElementSubSeg")]
+        HRESULT ElementSubSeg([out, retval] VARIANT* pVal);
+        [id(0x00000003), propput, helpstring("property ElementSubSeg")]
+        HRESULT ElementSubSeg([in] VARIANT pVal);
+        [id(0x00000004), propget, helpstring("Начальная точка")]
+        HRESULT PointStart([out, retval] VARIANT* pVal);
+        [id(0x00000005), propget, helpstring("Конечная точка")]
+        HRESULT PointEnd([out, retval] VARIANT* pVal);
+    };
+
+    [
+      uuid(CF197D11-D6FD-4D34-90BC-C537ABF0EC7F),
+      helpstring("WrSegment Class")
+    ]
+    coclass WrSegment {
+        [default] interface IWrSegment;
+        [default, source] interface IAcadObjectEvents;
+    };
+
+    [
+      odl,
+      uuid(DACBB923-973D-4BE3-8F73-D4188039C28C),
+      helpstring("IWrSubSegment Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IWrSubSegment : IAcadEntity {
+        [id(0x0000005a), propget, helpstring("Слой по умолчанию")]
+        HRESULT PipeLayer([out, retval] BSTR* pVal);
+        [id(0x0000005a), propput, helpstring("Слой по умолчанию")]
+        HRESULT PipeLayer([in] BSTR pVal);
+        [id(0x00000001), propget, helpstring("property OwnerSegId")]
+        HRESULT OwnerSegId([out, retval] long* pVal);
+        [id(0x00000001), propput, helpstring("property OwnerSegId")]
+        HRESULT OwnerSegId([in] long pVal);
+        [id(0x00000002), propget, helpstring("property ViewMode")]
+        HRESULT ViewMode([out, retval] long* pVal);
+        [id(0x00000002), propput, helpstring("property ViewMode")]
+        HRESULT ViewMode([in] long pVal);
+        [id(0x00000003), propget, helpstring("property Element")]
+        HRESULT Element([out, retval] IElement** pVal);
+        [id(0x00000003), propput, helpstring("property Element")]
+        HRESULT Element([in] IElement* pVal);
+        [id(0x00000004), propget, helpstring("property ElementAxis")]
+        HRESULT ElementAxis([out, retval] IDispatch** pVal);
+        [id(0x00000004), propput, helpstring("property ElementAxis")]
+        HRESULT ElementAxis([in] IDispatch* pVal);
+        [id(0x0000005b), propget, helpstring("Номер на линии")]
+        HRESULT OrderOnLine([out, retval] long* pVal);
+        [id(0x00000070), propget, helpstring("Объект изоляции")]
+        HRESULT Insulation([out, retval] IDispatch** pVal);
+        [id(0x00000070), propput, helpstring("Объект изоляции")]
+        HRESULT Insulation([in] IDispatch* pVal);
+        [id(0x00000071), propget, helpstring("Наличие изоляции")]
+        HRESULT HasInsulation([out, retval] VARIANT_BOOL* pVal);
+        [id(0x0000001e), propget, helpstring("property Part_Name")]
+        HRESULT Part_Name([out, retval] BSTR* pVal);
+        [id(0x0000001e), propput, helpstring("property Part_Name")]
+        HRESULT Part_Name([in] BSTR pVal);
+        [id(0x0000001f), propget, helpstring("property Part_Tag")]
+        HRESULT Part_Tag([out, retval] BSTR* pVal);
+        [id(0x0000001f), propput, helpstring("property Part_Tag")]
+        HRESULT Part_Tag([in] BSTR pVal);
+        [id(0x00000020), propget, helpstring("property Part_Manufacturer")]
+        HRESULT Part_Manufacturer([out, retval] BSTR* pVal);
+        [id(0x00000020), propput, helpstring("property Part_Manufacturer")]
+        HRESULT Part_Manufacturer([in] BSTR pVal);
+        [id(0x00000021), propget, helpstring("property Part_Standard")]
+        HRESULT Part_Standard([out, retval] BSTR* pVal);
+        [id(0x00000021), propput, helpstring("property Part_Standard")]
+        HRESULT Part_Standard([in] BSTR pVal);
+        [id(0x00000022), propget, helpstring("property Part_Refdrawing")]
+        HRESULT Part_Refdrawing([out, retval] BSTR* pVal);
+        [id(0x00000022), propput, helpstring("property Part_Refdrawing")]
+        HRESULT Part_Refdrawing([in] BSTR pVal);
+        [id(0x00000023), propget, helpstring("property Part_Material")]
+        HRESULT Part_Material([out, retval] BSTR* pVal);
+        [id(0x00000023), propput, helpstring("property Part_Material")]
+        HRESULT Part_Material([in] BSTR pVal);
+        [id(0x00000024), propget, helpstring("property Part_Material_Standard")]
+        HRESULT Part_Material_Standard([out, retval] BSTR* pVal);
+        [id(0x00000024), propput, helpstring("property Part_Material_Standard")]
+        HRESULT Part_Material_Standard([in] BSTR pVal);
+        [id(0x00000025), propget, helpstring("property Part_Weight")]
+        HRESULT Part_Weight([out, retval] BSTR* pVal);
+        [id(0x00000025), propput, helpstring("property Part_Weight")]
+        HRESULT Part_Weight([in] BSTR pVal);
+        [id(0x00000026), propget, helpstring("property Part_Comment")]
+        HRESULT Part_Comment([out, retval] BSTR* pVal);
+        [id(0x00000026), propput, helpstring("property Part_Comment")]
+        HRESULT Part_Comment([in] BSTR pVal);
+        [id(0x00000014), propget, helpstring("property PartPipe_Thickness")]
+        HRESULT PartPipe_Thickness([out, retval] BSTR* pVal);
+        [id(0x00000014), propput, helpstring("property PartPipe_Thickness")]
+        HRESULT PartPipe_Thickness([in] BSTR pVal);
+        [id(0x00000015), propget, helpstring("property PartPipe_DN")]
+        HRESULT PartPipe_DN([out, retval] BSTR* pVal);
+        [id(0x00000015), propput, helpstring("property PartPipe_DN")]
+        HRESULT PartPipe_DN([in] BSTR pVal);
+        [id(0x00000016), propget, helpstring("property PartPipe_Diam")]
+        HRESULT PartPipe_Diam([out, retval] BSTR* pVal);
+        [id(0x00000016), propput, helpstring("property PartPipe_Diam")]
+        HRESULT PartPipe_Diam([in] BSTR pVal);
+        [id(0x00000017), propget, helpstring("property PartPipe_Length")]
+        HRESULT PartPipe_Length([out, retval] double* pVal);
+        [id(0x00000017), propput, helpstring("property PartPipe_Length")]
+        HRESULT PartPipe_Length([in] double pVal);
+        [id(0x00000028), propget, helpstring("property Part_Group")]
+        HRESULT Part_Group([out, retval] BSTR* pVal);
+        [id(0x00000028), propput, helpstring("property Part_Group")]
+        HRESULT Part_Group([in] BSTR pVal);
+        [id(0x00000029), propget, helpstring("property Part_Type")]
+        HRESULT Part_Type([out, retval] BSTR* pVal);
+        [id(0x00000029), propput, helpstring("property Part_Type")]
+        HRESULT Part_Type([in] BSTR pVal);
+        [id(0x0000002a), propget, helpstring("property Part_Reference")]
+        HRESULT Part_Reference([out, retval] BSTR* pVal);
+        [id(0x0000002a), propput, helpstring("property Part_Reference")]
+        HRESULT Part_Reference([in] BSTR pVal);
+        [id(0x0000002b), propget, helpstring("property Part_Weight_Netto")]
+        HRESULT Part_Weight_Netto([out, retval] BSTR* pVal);
+        [id(0x0000002b), propput, helpstring("property Part_Weight_Netto")]
+        HRESULT Part_Weight_Netto([in] BSTR pVal);
+        [id(0x0000002c), propget, helpstring("property Part_Weight_Bruto")]
+        HRESULT Part_Weight_Bruto([out, retval] BSTR* pVal);
+        [id(0x0000002c), propput, helpstring("property Part_Weight_Bruto")]
+        HRESULT Part_Weight_Bruto([in] BSTR pVal);
+        [id(0x00000051), propget, helpstring("Начальная точка")]
+        HRESULT PointStart([out, retval] VARIANT* pVal);
+        [id(0x00000052), propget, helpstring("Конечная точка")]
+        HRESULT PointEnd([out, retval] VARIANT* pVal);
+        [id(0x00000008), propget, helpstring("property Position")]
+        HRESULT Position([out, retval] VARIANT* pVal);
+        [id(0x00000008), propput, helpstring("property Position")]
+        HRESULT Position([in] VARIANT pVal);
+        [id(0x00000053), propget, helpstring("property Part_Insulation_Thickness")]
+        HRESULT Part_Insulation_Thickness([out, retval] double* pVal);
+        [id(0x00000053), propput, helpstring("property Part_Insulation_Thickness")]
+        HRESULT Part_Insulation_Thickness([in] double pVal);
+        [id(0x00000054), propget, helpstring("property Part_Insulation_Disableview")]
+        HRESULT Part_Insulation_Disableview([out, retval] VARIANT_BOOL* pVal);
+        [id(0x00000054), propput, helpstring("property Part_Insulation_Disableview")]
+        HRESULT Part_Insulation_Disableview([in] VARIANT_BOOL pVal);
+        [id(0x00000057), propget, helpstring("Не изолируемый отступ трубы от начала (мм)")]
+        HRESULT Part_Insulation_Not_Start([out, retval] double* pVal);
+        [id(0x00000057), propput, helpstring("Не изолируемый отступ трубы от начала (мм)")]
+        HRESULT Part_Insulation_Not_Start([in] double pVal);
+        [id(0x00000058), propget, helpstring("Не изолируемый отступ трубы от конца (мм)")]
+        HRESULT Part_Insulation_Not_End([out, retval] double* pVal);
+        [id(0x00000058), propput, helpstring("Не изолируемый отступ трубы от конца (мм)")]
+        HRESULT Part_Insulation_Not_End([in] double pVal);
+        [id(0x00000055), propget, helpstring("property Axis_Insulation_Thickness")]
+        HRESULT Axis_Insulation_Thickness([out, retval] double* pVal);
+        [id(0x00000055), propput, helpstring("property Axis_Insulation_Thickness")]
+        HRESULT Axis_Insulation_Thickness([in] double pVal);
+        [id(0x00000056), propget, helpstring("property Axis_Insulation_Disableview")]
+        HRESULT Axis_Insulation_Disableview([out, retval] VARIANT_BOOL* pVal);
+        [id(0x00000056), propput, helpstring("property Axis_Insulation_Disableview")]
+        HRESULT Axis_Insulation_Disableview([in] VARIANT_BOOL pVal);
+        [id(0x0000005f), propget, helpstring("property Axis_Insulation_LineInsulation")]
+        HRESULT Axis_Insulation_LineInsulation([out, retval] VARIANT_BOOL* pVal);
+        [id(0x0000005f), propput, helpstring("property Axis_Insulation_LineInsulation")]
+        HRESULT Axis_Insulation_LineInsulation([in] VARIANT_BOOL pVal);
+        [id(0x00000060), propget, helpstring("property Axis_Insulation_LineTrace")]
+        HRESULT Axis_Insulation_LineTrace([out, retval] VARIANT_BOOL* pVal);
+        [id(0x00000060), propput, helpstring("property Axis_Insulation_LineTrace")]
+        HRESULT Axis_Insulation_LineTrace([in] VARIANT_BOOL pVal);
+        [id(0x00000064), helpstring("method GetAxisParamValue")]
+        HRESULT GetAxisParamValue(
+                        [in] BSTR ParameterName, 
+                        [out, retval] BSTR* Value);
+        [id(0x00000032), propget, helpstring("property Explication_Include")]
+        HRESULT Explication_Include([out, retval] long* pVal);
+        [id(0x00000032), propput, helpstring("property Explication_Include")]
+        HRESULT Explication_Include([in] long pVal);
+        [id(0x00000033), propget, helpstring("property Explication_Number")]
+        HRESULT Explication_Number([out, retval] BSTR* pVal);
+        [id(0x00000033), propput, helpstring("property Explication_Number")]
+        HRESULT Explication_Number([in] BSTR pVal);
+        [id(0x00000034), propget, helpstring("property Explication_Group")]
+        HRESULT Explication_Group([out, retval] BSTR* pVal);
+        [id(0x00000034), propput, helpstring("property Explication_Group")]
+        HRESULT Explication_Group([in] BSTR pVal);
+        [id(0x00000035), propget, helpstring("property Explication_Comment")]
+        HRESULT Explication_Comment([out, retval] BSTR* pVal);
+        [id(0x00000035), propput, helpstring("property Explication_Comment")]
+        HRESULT Explication_Comment([in] BSTR pVal);
+        [id(0x0000003c), propget, helpstring("property Bom_Include")]
+        HRESULT Bom_Include([out, retval] long* pVal);
+        [id(0x0000003c), propput, helpstring("property Bom_Include")]
+        HRESULT Bom_Include([in] long pVal);
+        [id(0x0000003d), propget, helpstring("property Bom_Number")]
+        HRESULT Bom_Number([out, retval] BSTR* pVal);
+        [id(0x0000003d), propput, helpstring("property Bom_Number")]
+        HRESULT Bom_Number([in] BSTR pVal);
+        [id(0x0000003e), propget, helpstring("property Bom_Group")]
+        HRESULT Bom_Group([out, retval] BSTR* pVal);
+        [id(0x0000003e), propput, helpstring("property Bom_Group")]
+        HRESULT Bom_Group([in] BSTR pVal);
+        [id(0x0000003f), propget, helpstring("property Bom_Qty")]
+        HRESULT Bom_Qty([out, retval] BSTR* pVal);
+        [id(0x0000003f), propput, helpstring("property Bom_Qty")]
+        HRESULT Bom_Qty([in] BSTR pVal);
+        [id(0x00000040), propget, helpstring("property Bom_Comment")]
+        HRESULT Bom_Comment([out, retval] BSTR* pVal);
+        [id(0x00000040), propput, helpstring("property Bom_Comment")]
+        HRESULT Bom_Comment([in] BSTR pVal);
+        [id(0x00000079), propget, helpstring("property LockComponent")]
+        HRESULT PartPipe_Lock([out, retval] long* pVal);
+        [id(0x00000079), propput, helpstring("property LockComponent")]
+        HRESULT PartPipe_Lock([in] long pVal);
+        [id(0x0000007a), helpstring("method GetArea")]
+        HRESULT GetArea(
+                        [in, optional] VARIANT Element, 
+                        [in, optional] VARIANT bodyOptions, 
+                        [out, retval] double* pResult);
+        [id(0x0000007b), helpstring("method GetVolume")]
+        HRESULT GetVolume(
+                        [in, optional] VARIANT Element, 
+                        [in, optional] VARIANT bodyOptions, 
+                        [out, retval] double* pResult);
+    };
+
+    [
+      uuid(A513E918-A221-436E-80F9-7957B5119C33),
+      helpstring("WrSubSegment Class")
+    ]
+    coclass WrSubSegment {
+        [default] interface IWrSubSegment;
+        [default, source] interface IAcadObjectEvents;
+    };
+
+    [
+      odl,
+      uuid(2559753C-AD7D-4E40-B309-F19ABC0D873E),
+      helpstring("IWrNodeElbow Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IWrNodeElbow : IAcadEntity {
+        [id(0x0000005a), propget, helpstring("Слой по умолчанию")]
+        HRESULT PipeLayer([out, retval] BSTR* pVal);
+        [id(0x0000005a), propput, helpstring("Слой по умолчанию")]
+        HRESULT PipeLayer([in] BSTR pVal);
+        [id(0x00000001), propget, helpstring("property Element")]
+        HRESULT Element([out, retval] IElement** pVal);
+        [id(0x00000001), propput, helpstring("property Element")]
+        HRESULT Element([in] IElement* pVal);
+        [id(0x00000002), propget, helpstring("property ViewMode")]
+        HRESULT ViewMode([out, retval] long* pVal);
+        [id(0x00000002), propput, helpstring("property ViewMode")]
+        HRESULT ViewMode([in] long pVal);
+        [id(0x00000003), propget, helpstring("property ElementAxis")]
+        HRESULT ElementAxis([out, retval] IDispatch** pVal);
+        [id(0x00000003), propput, helpstring("property ElementAxis")]
+        HRESULT ElementAxis([in] IDispatch* pVal);
+        [id(0x00000004), propget, helpstring("property Reverse")]
+        HRESULT Reverse([out, retval] long* pVal);
+        [id(0x00000004), propput, helpstring("property Reverse")]
+        HRESULT Reverse([in] long pVal);
+        [id(0x00000005), propget, helpstring("property AngleIsFixed")]
+        HRESULT AngleIsFixed([out, retval] long* pVal);
+        [id(0x00000005), propput, helpstring("property AngleIsFixed")]
+        HRESULT AngleIsFixed([in] long pVal);
+        [id(0x00000006), propget, helpstring("property FixedAngleValue")]
+        HRESULT FixedAngleValue([out, retval] double* pVal);
+        [id(0x00000006), propput, helpstring("property FixedAngleValue")]
+        HRESULT FixedAngleValue([in] double pVal);
+        [id(0x00000007), propget, helpstring("property PositionIsFixed")]
+        HRESULT PositionIsFixed([out, retval] long* pVal);
+        [id(0x00000007), propput, helpstring("property PositionIsFixed")]
+        HRESULT PositionIsFixed([in] long pVal);
+        [id(0x00000008), propget, helpstring("property Position")]
+        HRESULT Position([out, retval] VARIANT* pVal);
+        [id(0x00000008), propput, helpstring("property Position")]
+        HRESULT Position([in] VARIANT pVal);
+        [id(0x00000009), propget, helpstring("property IsReducer")]
+        HRESULT IsReducer([out, retval] long* pVal);
+        [id(0x00000009), propput, helpstring("property IsReducer")]
+        HRESULT IsReducer([in] long pVal);
+        [id(0x00000051), propget, helpstring("Начальная точка")]
+        HRESULT PointStart([out, retval] VARIANT* pVal);
+        [id(0x00000052), propget, helpstring("Конечная точка")]
+        HRESULT PointEnd([out, retval] VARIANT* pVal);
+        [id(0x0000005b), propget, helpstring("Номер на линии")]
+        HRESULT OrderOnLine([out, retval] long* pVal);
+        [id(0x00000070), propget, helpstring("Объект изоляции")]
+        HRESULT Insulation([out, retval] IDispatch** pVal);
+        [id(0x00000070), propput, helpstring("Объект изоляции")]
+        HRESULT Insulation([in] IDispatch* pVal);
+        [id(0x00000071), propget, helpstring("Наличие изоляции")]
+        HRESULT HasInsulation([out, retval] VARIANT_BOOL* pVal);
+        [id(0x0000000a), propget, helpstring("property Part_Name")]
+        HRESULT Part_Name([out, retval] BSTR* pVal);
+        [id(0x0000000a), propput, helpstring("property Part_Name")]
+        HRESULT Part_Name([in] BSTR pVal);
+        [id(0x0000000b), propget, helpstring("property Part_Tag")]
+        HRESULT Part_Tag([out, retval] BSTR* pVal);
+        [id(0x0000000b), propput, helpstring("property Part_Tag")]
+        HRESULT Part_Tag([in] BSTR pVal);
+        [id(0x0000000c), propget, helpstring("property Part_Manufacturer")]
+        HRESULT Part_Manufacturer([out, retval] BSTR* pVal);
+        [id(0x0000000c), propput, helpstring("property Part_Manufacturer")]
+        HRESULT Part_Manufacturer([in] BSTR pVal);
+        [id(0x0000000d), propget, helpstring("property Part_Standard")]
+        HRESULT Part_Standard([out, retval] BSTR* pVal);
+        [id(0x0000000d), propput, helpstring("property Part_Standard")]
+        HRESULT Part_Standard([in] BSTR pVal);
+        [id(0x0000000e), propget, helpstring("property Part_Refdrawing")]
+        HRESULT Part_Refdrawing([out, retval] BSTR* pVal);
+        [id(0x0000000e), propput, helpstring("property Part_Refdrawing")]
+        HRESULT Part_Refdrawing([in] BSTR pVal);
+        [id(0x0000000f), propget, helpstring("property Part_Material")]
+        HRESULT Part_Material([out, retval] BSTR* pVal);
+        [id(0x0000000f), propput, helpstring("property Part_Material")]
+        HRESULT Part_Material([in] BSTR pVal);
+        [id(0x00000010), propget, helpstring("property Part_Material_Standard")]
+        HRESULT Part_Material_Standard([out, retval] BSTR* pVal);
+        [id(0x00000010), propput, helpstring("property Part_Material_Standard")]
+        HRESULT Part_Material_Standard([in] BSTR pVal);
+        [id(0x00000011), propget, helpstring("property Part_Weight")]
+        HRESULT Part_Weight([out, retval] BSTR* pVal);
+        [id(0x00000011), propput, helpstring("property Part_Weight")]
+        HRESULT Part_Weight([in] BSTR pVal);
+        [id(0x00000012), propget, helpstring("property Part_Comment")]
+        HRESULT Part_Comment([out, retval] BSTR* pVal);
+        [id(0x00000012), propput, helpstring("property Part_Comment")]
+        HRESULT Part_Comment([in] BSTR pVal);
+        [id(0x00000046), propget, helpstring("property PartPipe_PN")]
+        HRESULT PartPipe_PN([out, retval] BSTR* pVal);
+        [id(0x00000046), propput, helpstring("property PartPipe_PN")]
+        HRESULT PartPipe_PN([in] BSTR pVal);
+        [id(0x00000047), propget, helpstring("property PartPipe_DN")]
+        HRESULT PartPipe_DN([out, retval] long* pVal);
+        [id(0x00000047), propput, helpstring("property PartPipe_DN")]
+        HRESULT PartPipe_DN([in] long pVal);
+        [id(0x00000048), propget, helpstring("property PartPipe_Diam")]
+        HRESULT PartPipe_Diam([out, retval] long* pVal);
+        [id(0x00000048), propput, helpstring("property PartPipe_Diam")]
+        HRESULT PartPipe_Diam([in] long pVal);
+        [id(0x00000049), propget, helpstring("property PartPipe_DN1")]
+        HRESULT PartPipe_DN1([out, retval] long* pVal);
+        [id(0x00000049), propput, helpstring("property PartPipe_DN1")]
+        HRESULT PartPipe_DN1([in] long pVal);
+        [id(0x0000004a), propget, helpstring("property PartPipe_Diam1")]
+        HRESULT PartPipe_Diam1([out, retval] long* pVal);
+        [id(0x0000004a), propput, helpstring("property PartPipe_Diam1")]
+        HRESULT PartPipe_Diam1([in] long pVal);
+        [id(0x0000004c), propget, helpstring("property PartPipe_Thickness")]
+        HRESULT PartPipe_Thickness([out, retval] BSTR* pVal);
+        [id(0x0000004c), propput, helpstring("property PartPipe_Thickness")]
+        HRESULT PartPipe_Thickness([in] BSTR pVal);
+        [id(0x0000004d), propget, helpstring("property PartPipe_RadiusBend")]
+        HRESULT PartPipe_RadiusBend([out, retval] double* pVal);
+        [id(0x0000004d), propput, helpstring("property PartPipe_RadiusBend")]
+        HRESULT PartPipe_RadiusBend([in] double pVal);
+        [id(0x0000004e), propget, helpstring("property PartPipe_Angle")]
+        HRESULT PartPipe_Angle([out, retval] double* pVal);
+        [id(0x0000004e), propput, helpstring("property PartPipe_Angle")]
+        HRESULT PartPipe_Angle([in] double pVal);
+        [id(0x0000004f), propget, helpstring("property PartPipe_L3")]
+        HRESULT PartPipe_L3([out, retval] double* pVal);
+        [id(0x0000004f), propput, helpstring("property PartPipe_L3")]
+        HRESULT PartPipe_L3([in] double pVal);
+        [id(0x00000050), propget, helpstring("property PartPipe_L4")]
+        HRESULT PartPipe_L4([out, retval] double* pVal);
+        [id(0x00000050), propput, helpstring("property PartPipe_L4")]
+        HRESULT PartPipe_L4([in] double pVal);
+        [id(0x0000004b), propget, helpstring("property PartPipe_Length")]
+        HRESULT PartPipe_Length([out, retval] double* pVal);
+        [id(0x0000004b), propput, helpstring("property PartPipe_Length")]
+        HRESULT PartPipe_Length([in] double pVal);
+        [id(0x00000013), propget, helpstring("property Part_Group")]
+        HRESULT Part_Group([out, retval] BSTR* pVal);
+        [id(0x00000013), propput, helpstring("property Part_Group")]
+        HRESULT Part_Group([in] BSTR pVal);
+        [id(0x00000014), propget, helpstring("property Part_Type")]
+        HRESULT Part_Type([out, retval] BSTR* pVal);
+        [id(0x00000014), propput, helpstring("property Part_Type")]
+        HRESULT Part_Type([in] BSTR pVal);
+        [id(0x00000015), propget, helpstring("property Part_Reference")]
+        HRESULT Part_Reference([out, retval] BSTR* pVal);
+        [id(0x00000015), propput, helpstring("property Part_Reference")]
+        HRESULT Part_Reference([in] BSTR pVal);
+        [id(0x00000016), propget, helpstring("property Part_Weight_Netto")]
+        HRESULT Part_Weight_Netto([out, retval] BSTR* pVal);
+        [id(0x00000016), propput, helpstring("property Part_Weight_Netto")]
+        HRESULT Part_Weight_Netto([in] BSTR pVal);
+        [id(0x00000017), propget, helpstring("property Part_Weight_Bruto")]
+        HRESULT Part_Weight_Bruto([out, retval] BSTR* pVal);
+        [id(0x00000017), propput, helpstring("property Part_Weight_Bruto")]
+        HRESULT Part_Weight_Bruto([in] BSTR pVal);
+        [id(0x00000053), propget, helpstring("property Part_Insulation_Thickness")]
+        HRESULT Part_Insulation_Thickness([out, retval] double* pVal);
+        [id(0x00000053), propput, helpstring("property Part_Insulation_Thickness")]
+        HRESULT Part_Insulation_Thickness([in] double pVal);
+        [id(0x00000054), propget, helpstring("property Part_Insulation_Disableview")]
+        HRESULT Part_Insulation_Disableview([out, retval] VARIANT_BOOL* pVal);
+        [id(0x00000054), propput, helpstring("property Part_Insulation_Disableview")]
+        HRESULT Part_Insulation_Disableview([in] VARIANT_BOOL pVal);
+        [id(0x00000055), propget, helpstring("property Axis_Insulation_Thickness")]
+        HRESULT Axis_Insulation_Thickness([out, retval] double* pVal);
+        [id(0x00000055), propput, helpstring("property Axis_Insulation_Thickness")]
+        HRESULT Axis_Insulation_Thickness([in] double pVal);
+        [id(0x00000056), propget, helpstring("property Axis_Insulation_Disableview")]
+        HRESULT Axis_Insulation_Disableview([out, retval] VARIANT_BOOL* pVal);
+        [id(0x00000056), propput, helpstring("property Axis_Insulation_Disableview")]
+        HRESULT Axis_Insulation_Disableview([in] VARIANT_BOOL pVal);
+        [id(0x0000005f), propget, helpstring("property Axis_Insulation_LineInsulation")]
+        HRESULT Axis_Insulation_LineInsulation([out, retval] VARIANT_BOOL* pVal);
+        [id(0x0000005f), propput, helpstring("property Axis_Insulation_LineInsulation")]
+        HRESULT Axis_Insulation_LineInsulation([in] VARIANT_BOOL pVal);
+        [id(0x00000060), propget, helpstring("property Axis_Insulation_LineTrace")]
+        HRESULT Axis_Insulation_LineTrace([out, retval] VARIANT_BOOL* pVal);
+        [id(0x00000060), propput, helpstring("property Axis_Insulation_LineTrace")]
+        HRESULT Axis_Insulation_LineTrace([in] VARIANT_BOOL pVal);
+        [id(0x00000064), helpstring("method GetAxisParamValue")]
+        HRESULT GetAxisParamValue(
+                        [in] BSTR ParameterName, 
+                        [out, retval] BSTR* Value);
+        [id(0x00000018), propget, helpstring("property Explication_Include")]
+        HRESULT Explication_Include([out, retval] long* pVal);
+        [id(0x00000018), propput, helpstring("property Explication_Include")]
+        HRESULT Explication_Include([in] long pVal);
+        [id(0x00000019), propget, helpstring("property Explication_Number")]
+        HRESULT Explication_Number([out, retval] BSTR* pVal);
+        [id(0x00000019), propput, helpstring("property Explication_Number")]
+        HRESULT Explication_Number([in] BSTR pVal);
+        [id(0x0000001a), propget, helpstring("property Explication_Group")]
+        HRESULT Explication_Group([out, retval] BSTR* pVal);
+        [id(0x0000001a), propput, helpstring("property Explication_Group")]
+        HRESULT Explication_Group([in] BSTR pVal);
+        [id(0x0000001b), propget, helpstring("property Explication_Comment")]
+        HRESULT Explication_Comment([out, retval] BSTR* pVal);
+        [id(0x0000001b), propput, helpstring("property Explication_Comment")]
+        HRESULT Explication_Comment([in] BSTR pVal);
+        [id(0x0000001c), propget, helpstring("property Bom_Include")]
+        HRESULT Bom_Include([out, retval] long* pVal);
+        [id(0x0000001c), propput, helpstring("property Bom_Include")]
+        HRESULT Bom_Include([in] long pVal);
+        [id(0x0000001d), propget, helpstring("property Bom_Number")]
+        HRESULT Bom_Number([out, retval] BSTR* pVal);
+        [id(0x0000001d), propput, helpstring("property Bom_Number")]
+        HRESULT Bom_Number([in] BSTR pVal);
+        [id(0x0000001e), propget, helpstring("property Bom_Group")]
+        HRESULT Bom_Group([out, retval] BSTR* pVal);
+        [id(0x0000001e), propput, helpstring("property Bom_Group")]
+        HRESULT Bom_Group([in] BSTR pVal);
+        [id(0x0000001f), propget, helpstring("property Bom_Qty")]
+        HRESULT Bom_Qty([out, retval] BSTR* pVal);
+        [id(0x0000001f), propput, helpstring("property Bom_Qty")]
+        HRESULT Bom_Qty([in] BSTR pVal);
+        [id(0x00000020), propget, helpstring("property Bom_Comment")]
+        HRESULT Bom_Comment([out, retval] BSTR* pVal);
+        [id(0x00000020), propput, helpstring("property Bom_Comment")]
+        HRESULT Bom_Comment([in] BSTR pVal);
+        [id(0x00000079), propget, helpstring("property LockComponent")]
+        HRESULT PartPipe_Lock([out, retval] long* pVal);
+        [id(0x00000079), propput, helpstring("property LockComponent")]
+        HRESULT PartPipe_Lock([in] long pVal);
+        [id(0x0000007a), helpstring("method GetArea")]
+        HRESULT GetArea(
+                        [in, optional] VARIANT Element, 
+                        [in, optional] VARIANT bodyOptions, 
+                        [out, retval] double* pResult);
+        [id(0x0000007b), helpstring("method GetVolume")]
+        HRESULT GetVolume(
+                        [in, optional] VARIANT Element, 
+                        [in, optional] VARIANT bodyOptions, 
+                        [out, retval] double* pResult);
+    };
+
+    [
+      uuid(052212F9-4415-4B02-A96B-AD3D9E7AAF36),
+      helpstring("WrNodeElbow Class")
+    ]
+    coclass WrNodeElbow {
+        [default] interface IWrNodeElbow;
+        [default, source] interface IAcadObjectEvents;
+    };
+
+    [
+      odl,
+      uuid(68761E61-6159-44D9-89A2-0AB40DC2BA08),
+      helpstring("IWrNodeTerminator Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IWrNodeTerminator : IAcadEntity {
+        [id(0x0000005a), propget, helpstring("Слой по умолчанию")]
+        HRESULT PipeLayer([out, retval] BSTR* pVal);
+        [id(0x0000005a), propput, helpstring("Слой по умолчанию")]
+        HRESULT PipeLayer([in] BSTR pVal);
+        [id(0x00000001), propget, helpstring("property Element")]
+        HRESULT Element([out, retval] IElement** pVar);
+        [id(0x00000001), propput, helpstring("property Element")]
+        HRESULT Element([in] IElement* pVar);
+        [id(0x00000002), propget, helpstring("property ViewMode")]
+        HRESULT ViewMode([out, retval] long* pVal);
+        [id(0x00000002), propput, helpstring("property ViewMode")]
+        HRESULT ViewMode([in] long pVal);
+        [id(0x00000003), propget, helpstring("property ElementAxis")]
+        HRESULT ElementAxis([out, retval] IDispatch** pVal);
+        [id(0x00000003), propput, helpstring("property ElementAxis")]
+        HRESULT ElementAxis([in] IDispatch* pVal);
+        [id(0x00000004), propget, helpstring("property Position")]
+        HRESULT Position([out, retval] VARIANT* pVal);
+        [id(0x00000004), propput, helpstring("property Position")]
+        HRESULT Position([in] VARIANT pVal);
+        [id(0x00000005), propget, helpstring("property PositionIsFixed")]
+        HRESULT PositionIsFixed([out, retval] long* pVal);
+        [id(0x00000005), propput, helpstring("property PositionIsFixed")]
+        HRESULT PositionIsFixed([in] long pVal);
+        [id(0x00000006), propget, helpstring("property VectorIsFixed")]
+        HRESULT VectorIsFixed([out, retval] long* pVal);
+        [id(0x00000006), propput, helpstring("property VectorIsFixed")]
+        HRESULT VectorIsFixed([in] long pVal);
+        [id(0x00000007), propget, helpstring("property ProfileIsFixed")]
+        HRESULT ProfileIsFixed([out, retval] long* pVal);
+        [id(0x00000007), propput, helpstring("property ProfileIsFixed")]
+        HRESULT ProfileIsFixed([in] long pVal);
+        [id(0x0000005b), propget, helpstring("Номер на линии")]
+        HRESULT OrderOnLine([out, retval] long* pVal);
+        [id(0x00000070), propget, helpstring("Объект изоляции")]
+        HRESULT Insulation([out, retval] IDispatch** pVal);
+        [id(0x00000070), propput, helpstring("Объект изоляции")]
+        HRESULT Insulation([in] IDispatch* pVal);
+        [id(0x00000071), propget, helpstring("Наличие изоляции")]
+        HRESULT HasInsulation([out, retval] VARIANT_BOOL* pVal);
+        [id(0x00000008), propget, helpstring("property Part_Name")]
+        HRESULT Part_Name([out, retval] BSTR* pVal);
+        [id(0x00000008), propput, helpstring("property Part_Name")]
+        HRESULT Part_Name([in] BSTR pVal);
+        [id(0x00000009), propget, helpstring("property Part_Tag")]
+        HRESULT Part_Tag([out, retval] BSTR* pVal);
+        [id(0x00000009), propput, helpstring("property Part_Tag")]
+        HRESULT Part_Tag([in] BSTR pVal);
+        [id(0x0000000a), propget, helpstring("property Part_Manufacturer")]
+        HRESULT Part_Manufacturer([out, retval] BSTR* pVal);
+        [id(0x0000000a), propput, helpstring("property Part_Manufacturer")]
+        HRESULT Part_Manufacturer([in] BSTR pVal);
+        [id(0x0000000b), propget, helpstring("property Part_Standard")]
+        HRESULT Part_Standard([out, retval] BSTR* pVal);
+        [id(0x0000000b), propput, helpstring("property Part_Standard")]
+        HRESULT Part_Standard([in] BSTR pVal);
+        [id(0x0000000c), propget, helpstring("property Part_Refdrawing")]
+        HRESULT Part_Refdrawing([out, retval] BSTR* pVal);
+        [id(0x0000000c), propput, helpstring("property Part_Refdrawing")]
+        HRESULT Part_Refdrawing([in] BSTR pVal);
+        [id(0x0000000d), propget, helpstring("property Part_Material")]
+        HRESULT Part_Material([out, retval] BSTR* pVal);
+        [id(0x0000000d), propput, helpstring("property Part_Material")]
+        HRESULT Part_Material([in] BSTR pVal);
+        [id(0x0000000e), propget, helpstring("property Part_Material_Standard")]
+        HRESULT Part_Material_Standard([out, retval] BSTR* pVal);
+        [id(0x0000000e), propput, helpstring("property Part_Material_Standard")]
+        HRESULT Part_Material_Standard([in] BSTR pVal);
+        [id(0x0000000f), propget, helpstring("property Part_Weight")]
+        HRESULT Part_Weight([out, retval] BSTR* pVal);
+        [id(0x0000000f), propput, helpstring("property Part_Weight")]
+        HRESULT Part_Weight([in] BSTR pVal);
+        [id(0x00000010), propget, helpstring("property Part_Comment")]
+        HRESULT Part_Comment([out, retval] BSTR* pVal);
+        [id(0x00000010), propput, helpstring("property Part_Comment")]
+        HRESULT Part_Comment([in] BSTR pVal);
+        [id(0x00000047), propget, helpstring("property PartPipe_DN")]
+        HRESULT PartPipe_DN([out, retval] long* pVal);
+        [id(0x00000047), propput, helpstring("property PartPipe_DN")]
+        HRESULT PartPipe_DN([in] long pVal);
+        [id(0x00000048), propget, helpstring("property PartPipe_Diam")]
+        HRESULT PartPipe_Diam([out, retval] long* pVal);
+        [id(0x00000048), propput, helpstring("property PartPipe_Diam")]
+        HRESULT PartPipe_Diam([in] long pVal);
+        [id(0x0000004a), propget, helpstring("property PartPipe_Thickness")]
+        HRESULT PartPipe_Thickness([out, retval] BSTR* pVal);
+        [id(0x0000004a), propput, helpstring("property PartPipe_Thickness")]
+        HRESULT PartPipe_Thickness([in] BSTR pVal);
+        [id(0x00000049), propget, helpstring("property PartPipe_Length")]
+        HRESULT PartPipe_Length([out, retval] double* pVal);
+        [id(0x00000049), propput, helpstring("property PartPipe_Length")]
+        HRESULT PartPipe_Length([in] double pVal);
+        [id(0x00000011), propget, helpstring("property Part_Group")]
+        HRESULT Part_Group([out, retval] BSTR* pVal);
+        [id(0x00000011), propput, helpstring("property Part_Group")]
+        HRESULT Part_Group([in] BSTR pVal);
+        [id(0x00000012), propget, helpstring("property Part_Type")]
+        HRESULT Part_Type([out, retval] BSTR* pVal);
+        [id(0x00000012), propput, helpstring("property Part_Type")]
+        HRESULT Part_Type([in] BSTR pVal);
+        [id(0x00000013), propget, helpstring("property Part_Reference")]
+        HRESULT Part_Reference([out, retval] BSTR* pVal);
+        [id(0x00000013), propput, helpstring("property Part_Reference")]
+        HRESULT Part_Reference([in] BSTR pVal);
+        [id(0x00000014), propget, helpstring("property Part_Weight_Netto")]
+        HRESULT Part_Weight_Netto([out, retval] BSTR* pVal);
+        [id(0x00000014), propput, helpstring("property Part_Weight_Netto")]
+        HRESULT Part_Weight_Netto([in] BSTR pVal);
+        [id(0x00000015), propget, helpstring("property Part_Weight_Bruto")]
+        HRESULT Part_Weight_Bruto([out, retval] BSTR* pVal);
+        [id(0x00000015), propput, helpstring("property Part_Weight_Bruto")]
+        HRESULT Part_Weight_Bruto([in] BSTR pVal);
+        [id(0x00000053), propget, helpstring("property Part_Insulation_Thickness")]
+        HRESULT Part_Insulation_Thickness([out, retval] double* pVal);
+        [id(0x00000053), propput, helpstring("property Part_Insulation_Thickness")]
+        HRESULT Part_Insulation_Thickness([in] double pVal);
+        [id(0x00000055), propget, helpstring("property Axis_Insulation_Thickness")]
+        HRESULT Axis_Insulation_Thickness([out, retval] double* pVal);
+        [id(0x00000055), propput, helpstring("property Axis_Insulation_Thickness")]
+        HRESULT Axis_Insulation_Thickness([in] double pVal);
+        [id(0x00000056), propget, helpstring("property Axis_Insulation_Disableview")]
+        HRESULT Axis_Insulation_Disableview([out, retval] VARIANT_BOOL* pVal);
+        [id(0x00000056), propput, helpstring("property Axis_Insulation_Disableview")]
+        HRESULT Axis_Insulation_Disableview([in] VARIANT_BOOL pVal);
+        [id(0x0000005f), propget, helpstring("property Axis_Insulation_LineInsulation")]
+        HRESULT Axis_Insulation_LineInsulation([out, retval] VARIANT_BOOL* pVal);
+        [id(0x0000005f), propput, helpstring("property Axis_Insulation_LineInsulation")]
+        HRESULT Axis_Insulation_LineInsulation([in] VARIANT_BOOL pVal);
+        [id(0x00000060), propget, helpstring("property Axis_Insulation_LineTrace")]
+        HRESULT Axis_Insulation_LineTrace([out, retval] VARIANT_BOOL* pVal);
+        [id(0x00000060), propput, helpstring("property Axis_Insulation_LineTrace")]
+        HRESULT Axis_Insulation_LineTrace([in] VARIANT_BOOL pVal);
+        [id(0x00000064), helpstring("method GetAxisParamValue")]
+        HRESULT GetAxisParamValue(
+                        [in] BSTR ParameterName, 
+                        [out, retval] BSTR* Value);
+        [id(0x00000016), propget, helpstring("property Explication_Include")]
+        HRESULT Explication_Include([out, retval] long* pVal);
+        [id(0x00000016), propput, helpstring("property Explication_Include")]
+        HRESULT Explication_Include([in] long pVal);
+        [id(0x00000017), propget, helpstring("property Explication_Number")]
+        HRESULT Explication_Number([out, retval] BSTR* pVal);
+        [id(0x00000017), propput, helpstring("property Explication_Number")]
+        HRESULT Explication_Number([in] BSTR pVal);
+        [id(0x00000018), propget, helpstring("property Explication_Group")]
+        HRESULT Explication_Group([out, retval] BSTR* pVal);
+        [id(0x00000018), propput, helpstring("property Explication_Group")]
+        HRESULT Explication_Group([in] BSTR pVal);
+        [id(0x00000019), propget, helpstring("property Explication_Comment")]
+        HRESULT Explication_Comment([out, retval] BSTR* pVal);
+        [id(0x00000019), propput, helpstring("property Explication_Comment")]
+        HRESULT Explication_Comment([in] BSTR pVal);
+        [id(0x0000001a), propget, helpstring("property Bom_Include")]
+        HRESULT Bom_Include([out, retval] long* pVal);
+        [id(0x0000001a), propput, helpstring("property Bom_Include")]
+        HRESULT Bom_Include([in] long pVal);
+        [id(0x0000001b), propget, helpstring("property Bom_Number")]
+        HRESULT Bom_Number([out, retval] BSTR* pVal);
+        [id(0x0000001b), propput, helpstring("property Bom_Number")]
+        HRESULT Bom_Number([in] BSTR pVal);
+        [id(0x0000001c), propget, helpstring("property Bom_Group")]
+        HRESULT Bom_Group([out, retval] BSTR* pVal);
+        [id(0x0000001c), propput, helpstring("property Bom_Group")]
+        HRESULT Bom_Group([in] BSTR pVal);
+        [id(0x0000001d), propget, helpstring("property Bom_Qty")]
+        HRESULT Bom_Qty([out, retval] BSTR* pVal);
+        [id(0x0000001d), propput, helpstring("property Bom_Qty")]
+        HRESULT Bom_Qty([in] BSTR pVal);
+        [id(0x0000001e), propget, helpstring("property Bom_Comment")]
+        HRESULT Bom_Comment([out, retval] BSTR* pVal);
+        [id(0x0000001e), propput, helpstring("property Bom_Comment")]
+        HRESULT Bom_Comment([in] BSTR pVal);
+        [id(0x00000065), propget, helpstring("property HasConnectionJoin")]
+        HRESULT HasConnectionJoin([out, retval] long* pVal);
+        [id(0x00000066), propget, helpstring("property ConnectionJoin")]
+        HRESULT ConnectionJoin([out, retval] IDispatch** pVal);
+        [id(0x00000067), propget, helpstring("property HasConnectionJoinStart")]
+        HRESULT HasConnectionJoinStart([out, retval] long* pVal);
+        [id(0x00000068), propget, helpstring("property ConnectionJoinStart")]
+        HRESULT ConnectionJoinStart([out, retval] IDispatch** pVal);
+        [id(0x00000069), propget, helpstring("property HasConnectionJoinEnd")]
+        HRESULT HasConnectionJoinEnd([out, retval] long* pVal);
+        [id(0x0000006a), propget, helpstring("property ConnectionJoinEnd")]
+        HRESULT ConnectionJoinEnd([out, retval] IDispatch** pVal);
+        [id(0x00000079), propget, helpstring("property LockComponent")]
+        HRESULT PartPipe_Lock([out, retval] long* pVal);
+        [id(0x00000079), propput, helpstring("property LockComponent")]
+        HRESULT PartPipe_Lock([in] long pVal);
+        [id(0x0000007a), helpstring("method GetArea")]
+        HRESULT GetArea(
+                        [in, optional] VARIANT Element, 
+                        [in, optional] VARIANT bodyOptions, 
+                        [out, retval] double* pResult);
+        [id(0x0000007b), helpstring("method GetVolume")]
+        HRESULT GetVolume(
+                        [in, optional] VARIANT Element, 
+                        [in, optional] VARIANT bodyOptions, 
+                        [out, retval] double* pResult);
+    };
+
+    [
+      uuid(A76C09BB-1CF8-419A-BA2E-152B6DFEBE0E),
+      helpstring("WrNodeTerminator Class")
+    ]
+    coclass WrNodeTerminator {
+        [default] interface IWrNodeTerminator;
+        [default, source] interface IAcadObjectEvents;
+    };
+
+    [
+      odl,
+      uuid(D9FD55B9-75CA-437A-A3D6-158D833774F7),
+      helpstring("IWrSupport Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IWrSupport : IAcadEntity {
+        [id(0x0000005a), propget, helpstring("Слой по умолчанию")]
+        HRESULT PipeLayer([out, retval] BSTR* pVal);
+        [id(0x0000005a), propput, helpstring("Слой по умолчанию")]
+        HRESULT PipeLayer([in] BSTR pVal);
+        [id(0x00000001), propget, helpstring("Параметры объекта")]
+        HRESULT Element([out, retval] IElement** pVal);
+        [id(0x00000001), propput, helpstring("Параметры объекта")]
+        HRESULT Element([in] IElement* pVal);
+        [id(0x00000002), propget, helpstring("Номер сегмента")]
+        HRESULT OwnerSegId([out, retval] long* pVal);
+        [id(0x00000002), propput, helpstring("Номер сегмента")]
+        HRESULT OwnerSegId([in] long pVal);
+        [id(0x00000003), propget, helpstring("Режим просмотра")]
+        HRESULT ViewMode([out, retval] long* pVal);
+        [id(0x00000003), propput, helpstring("Режим просмотра")]
+        HRESULT ViewMode([in] long pVal);
+        [id(0x00000004), propget, helpstring("Осевая линия")]
+        HRESULT ElementAxis([out, retval] IDispatch** pVal);
+        [id(0x00000004), propput, helpstring("Осевая линия")]
+        HRESULT ElementAxis([in] IDispatch* pVal);
+        [id(0x00000005), propget, helpstring("Опора развернута")]
+        HRESULT Reverse([out, retval] long* pVal);
+        [id(0x00000005), propput, helpstring("Опора развернута")]
+        HRESULT Reverse([in] long pVal);
+        [id(0x00000006), propget, helpstring("Угол поворота")]
+        HRESULT Angle([out, retval] double* pVal);
+        [id(0x00000006), propput, helpstring("Угол поворота")]
+        HRESULT Angle([in] double pVal);
+        [id(0x00000007), propget, helpstring("Ориентация")]
+        HRESULT Orientation([out, retval] long* pVal);
+        [id(0x00000007), propput, helpstring("Ориентация")]
+        HRESULT Orientation([in] long pVal);
+        [id(0x00000049), propget, helpstring("Положение")]
+        HRESULT Position([out, retval] VARIANT* pVal);
+        [id(0x0000005b), propget, helpstring("Номер на линии")]
+        HRESULT OrderOnLine([out, retval] long* pVal);
+        [id(0x0000005c), propget, helpstring("Деталь трубопровода, на которой стоит опора")]
+        HRESULT SupportedItem([out, retval] IDispatch** pVal);
+        [id(0x00000008), propget, helpstring("property Part_Name")]
+        HRESULT Part_Name([out, retval] BSTR* pVal);
+        [id(0x00000008), propput, helpstring("property Part_Name")]
+        HRESULT Part_Name([in] BSTR pVal);
+        [id(0x00000009), propget, helpstring("property Part_Tag")]
+        HRESULT Part_Tag([out, retval] BSTR* pVal);
+        [id(0x00000009), propput, helpstring("property Part_Tag")]
+        HRESULT Part_Tag([in] BSTR pVal);
+        [id(0x0000000a), propget, helpstring("property Part_Manufacturer")]
+        HRESULT Part_Manufacturer([out, retval] BSTR* pVal);
+        [id(0x0000000a), propput, helpstring("property Part_Manufacturer")]
+        HRESULT Part_Manufacturer([in] BSTR pVal);
+        [id(0x0000000b), propget, helpstring("property Part_Standard")]
+        HRESULT Part_Standard([out, retval] BSTR* pVal);
+        [id(0x0000000b), propput, helpstring("property Part_Standard")]
+        HRESULT Part_Standard([in] BSTR pVal);
+        [id(0x0000000c), propget, helpstring("property Part_Refdrawing")]
+        HRESULT Part_Refdrawing([out, retval] BSTR* pVal);
+        [id(0x0000000c), propput, helpstring("property Part_Refdrawing")]
+        HRESULT Part_Refdrawing([in] BSTR pVal);
+        [id(0x0000000d), propget, helpstring("property Part_Material")]
+        HRESULT Part_Material([out, retval] BSTR* pVal);
+        [id(0x0000000d), propput, helpstring("property Part_Material")]
+        HRESULT Part_Material([in] BSTR pVal);
+        [id(0x0000000e), propget, helpstring("property Part_Material_Standard")]
+        HRESULT Part_Material_Standard([out, retval] BSTR* pVal);
+        [id(0x0000000e), propput, helpstring("property Part_Material_Standard")]
+        HRESULT Part_Material_Standard([in] BSTR pVal);
+        [id(0x0000000f), propget, helpstring("property Part_Weight")]
+        HRESULT Part_Weight([out, retval] BSTR* pVal);
+        [id(0x0000000f), propput, helpstring("property Part_Weight")]
+        HRESULT Part_Weight([in] BSTR pVal);
+        [id(0x00000010), propget, helpstring("property Part_Comment")]
+        HRESULT Part_Comment([out, retval] BSTR* pVal);
+        [id(0x00000010), propput, helpstring("property Part_Comment")]
+        HRESULT Part_Comment([in] BSTR pVal);
+        [id(0x00000046), propget, helpstring("property PartPipe_PN")]
+        HRESULT PartPipe_PN([out, retval] BSTR* pVal);
+        [id(0x00000046), propput, helpstring("property PartPipe_PN")]
+        HRESULT PartPipe_PN([in] BSTR pVal);
+        [id(0x00000047), propget, helpstring("property PartPipe_DN")]
+        HRESULT PartPipe_DN([out, retval] BSTR* pVal);
+        [id(0x00000047), propput, helpstring("property PartPipe_DN")]
+        HRESULT PartPipe_DN([in] BSTR pVal);
+        [id(0x00000048), propget, helpstring("property PartPipe_Diam")]
+        HRESULT PartPipe_Diam([out, retval] BSTR* pVal);
+        [id(0x00000048), propput, helpstring("property PartPipe_Diam")]
+        HRESULT PartPipe_Diam([in] BSTR pVal);
+        [id(0x00000011), propget, helpstring("property Part_Group")]
+        HRESULT Part_Group([out, retval] BSTR* pVal);
+        [id(0x00000011), propput, helpstring("property Part_Group")]
+        HRESULT Part_Group([in] BSTR pVal);
+        [id(0x00000012), propget, helpstring("property Part_Type")]
+        HRESULT Part_Type([out, retval] BSTR* pVal);
+        [id(0x00000012), propput, helpstring("property Part_Type")]
+        HRESULT Part_Type([in] BSTR pVal);
+        [id(0x00000013), propget, helpstring("property Part_Reference")]
+        HRESULT Part_Reference([out, retval] BSTR* pVal);
+        [id(0x00000013), propput, helpstring("property Part_Reference")]
+        HRESULT Part_Reference([in] BSTR pVal);
+        [id(0x00000014), propget, helpstring("property Part_Weight_Netto")]
+        HRESULT Part_Weight_Netto([out, retval] BSTR* pVal);
+        [id(0x00000014), propput, helpstring("property Part_Weight_Netto")]
+        HRESULT Part_Weight_Netto([in] BSTR pVal);
+        [id(0x00000015), propget, helpstring("property Part_Weight_Bruto")]
+        HRESULT Part_Weight_Bruto([out, retval] BSTR* pVal);
+        [id(0x00000015), propput, helpstring("property Part_Weight_Bruto")]
+        HRESULT Part_Weight_Bruto([in] BSTR pVal);
+        [id(0x00000016), propget, helpstring("property Explication_Include")]
+        HRESULT Explication_Include([out, retval] long* pVal);
+        [id(0x00000016), propput, helpstring("property Explication_Include")]
+        HRESULT Explication_Include([in] long pVal);
+        [id(0x00000017), propget, helpstring("property Explication_Number")]
+        HRESULT Explication_Number([out, retval] BSTR* pVal);
+        [id(0x00000017), propput, helpstring("property Explication_Number")]
+        HRESULT Explication_Number([in] BSTR pVal);
+        [id(0x00000018), propget, helpstring("property Explication_Group")]
+        HRESULT Explication_Group([out, retval] BSTR* pVal);
+        [id(0x00000018), propput, helpstring("property Explication_Group")]
+        HRESULT Explication_Group([in] BSTR pVal);
+        [id(0x00000019), propget, helpstring("property Explication_Comment")]
+        HRESULT Explication_Comment([out, retval] BSTR* pVal);
+        [id(0x00000019), propput, helpstring("property Explication_Comment")]
+        HRESULT Explication_Comment([in] BSTR pVal);
+        [id(0x0000001a), propget, helpstring("property Bom_Include")]
+        HRESULT Bom_Include([out, retval] long* pVal);
+        [id(0x0000001a), propput, helpstring("property Bom_Include")]
+        HRESULT Bom_Include([in] long pVal);
+        [id(0x0000001b), propget, helpstring("property Bom_Number")]
+        HRESULT Bom_Number([out, retval] BSTR* pVal);
+        [id(0x0000001b), propput, helpstring("property Bom_Number")]
+        HRESULT Bom_Number([in] BSTR pVal);
+        [id(0x0000001c), propget, helpstring("property Bom_Group")]
+        HRESULT Bom_Group([out, retval] BSTR* pVal);
+        [id(0x0000001c), propput, helpstring("property Bom_Group")]
+        HRESULT Bom_Group([in] BSTR pVal);
+        [id(0x0000001d), propget, helpstring("property Bom_Qty")]
+        HRESULT Bom_Qty([out, retval] BSTR* pVal);
+        [id(0x0000001d), propput, helpstring("property Bom_Qty")]
+        HRESULT Bom_Qty([in] BSTR pVal);
+        [id(0x0000001e), propget, helpstring("property Bom_Comment")]
+        HRESULT Bom_Comment([out, retval] BSTR* pVal);
+        [id(0x0000001e), propput, helpstring("property Bom_Comment")]
+        HRESULT Bom_Comment([in] BSTR pVal);
+        [id(0x00000079), propget, helpstring("property LockComponent")]
+        HRESULT PartPipe_Lock([out, retval] long* pVal);
+        [id(0x00000079), propput, helpstring("property LockComponent")]
+        HRESULT PartPipe_Lock([in] long pVal);
+        [id(0x0000007a), helpstring("method GetArea")]
+        HRESULT GetArea(
+                        [in, optional] VARIANT Element, 
+                        [in, optional] VARIANT bodyOptions, 
+                        [out, retval] double* pResult);
+        [id(0x0000007b), helpstring("method GetVolume")]
+        HRESULT GetVolume(
+                        [in, optional] VARIANT Element, 
+                        [in, optional] VARIANT bodyOptions, 
+                        [out, retval] double* pResult);
+    };
+
+    [
+      uuid(51B83C82-33A3-4FA1-9510-B55DD64D5BFC),
+      helpstring("WrSupport Class")
+    ]
+    coclass WrSupport {
+        [default] interface IWrSupport;
+        [default, source] interface IAcadObjectEvents;
+    };
+
+    [
+      odl,
+      uuid(6F7B3AC3-44FC-4FC4-A466-582726050CBF),
+      helpstring("IWrAxis Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IWrAxis : IAcadEntity {
+        [id(0x00000001), propget, helpstring("Параметры")]
+        HRESULT Element([out, retval] IElement** pVal);
+        [id(0x00000001), propput, helpstring("Параметры")]
+        HRESULT Element([in] IElement* pVal);
+        [id(0x00000002), propget, helpstring("property EquipmentNodeStart")]
+        HRESULT EquipmentNodeStart([out, retval] IDispatch** pVal);
+        [id(0x00000003), propget, helpstring("property EquipmentNodeEnd")]
+        HRESULT EquipmentNodeEnd([out, retval] IDispatch** pVal);
+        [id(0x00000004), propget, helpstring("property HasEquipmentNodeStart")]
+        HRESULT HasEquipmentNodeStart([out, retval] long* pVal);
+        [id(0x00000005), propget, helpstring("property HasEquipmentNodeEnd")]
+        HRESULT HasEquipmentNodeEnd([out, retval] long* pVal);
+        [id(0x00000006), helpstring("Подсчет числа компонентов")]
+        HRESULT CountItems(
+                        [in] VARIANT_BOOL bTerminators, 
+                        [in] VARIANT_BOOL bElbows, 
+                        [in] VARIANT_BOOL bPipes, 
+                        [in] VARIANT_BOOL bInlines, 
+                        [in] VARIANT_BOOL bSupports, 
+                        [out, retval] long* pCount);
+        [id(0x0000000f), helpstring("Первый компонент")]
+        HRESULT GetFirstComponent([out, retval] IDispatch** ppRes);
+        [id(0x00000010), helpstring("Последний компонент")]
+        HRESULT GetLastComponent([out, retval] IDispatch** ppRes);
+        [id(0x00000007), helpstring("Предыдущий компонент")]
+        HRESULT GetPrevComponent(
+                        [in] IDispatch* pCurrent, 
+                        [out, retval] IDispatch** ppRes);
+        [id(0x00000008), helpstring("Следующий компонент")]
+        HRESULT GetNextComponent(
+                        [in] IDispatch* pCurrent, 
+                        [out, retval] IDispatch** ppRes);
+        [id(0x00000009), helpstring("Параметр объекта, подключенного в начале")]
+        HRESULT GetFromObjParamVal(
+                        [in] BSTR ParamName, 
+                        [out, retval] BSTR* pValue);
+        [id(0x0000000a), helpstring("Параметр объекта, подключенного в конце")]
+        HRESULT GetToObjParamVal(
+                        [in] BSTR ParamName, 
+                        [out, retval] BSTR* pValue);
+        [id(0x00000012), propget, helpstring("Компоненты трубопровода")]
+        HRESULT Components([out, retval] IDispatch** ppRes);
+        [id(0x0000000b), propget, helpstring("Трубопровод, к которому подключено начало")]
+        HRESULT StartTee([out, retval] IDispatch** pVal);
+        [id(0x0000000c), propget, helpstring("Tрубопровод, к которому подключен конец")]
+        HRESULT EndTee([out, retval] IDispatch** pVal);
+        [id(0x0000000d), propget, helpstring("Имеется трубопровод, к которому подключено начало")]
+        HRESULT HasStartTee([out, retval] long* pVal);
+        [id(0x0000000e), propget, helpstring("Имеется трубопровод, к которому подключен конец")]
+        HRESULT HasEndTee([out, retval] long* pVal);
+        [id(0x00000013), propget, helpstring("Длина трубопровода (мм)")]
+        HRESULT Length([out, retval] double* pVal);
+    };
+
+    [
+      uuid(96E1782F-884E-4279-88A4-7424F82F513C),
+      helpstring("WrAxis Class")
+    ]
+    coclass WrAxis {
+        [default] interface IWrAxis;
+        [default, source] interface IAcadObjectEvents;
+    };
+
+    [
+      odl,
+      uuid(F3BF8003-0056-4C0C-A6AE-3BE6D455D23C),
+      helpstring("IWrMpInsul Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IWrMpInsul : IAcadEntity {
+        [id(0x00000002), propget, helpstring("property ViewMode")]
+        HRESULT ViewMode([out, retval] long* pVal);
+        [id(0x00000002), propput, helpstring("property ViewMode")]
+        HRESULT ViewMode([in] long pVal);
+        [id(0x0000006e), propget, helpstring("property PipeCount")]
+        HRESULT PipeCount([out, retval] long* pVal);
+        [id(0x0000006f), helpstring("method GetPipe")]
+        HRESULT GetPipe(
+                        [in] long index, 
+                        [out, retval] IDispatch** pVal);
+        [id(0x00000064), propget, helpstring("property Thickness")]
+        HRESULT Thickness([out, retval] double* pVal);
+        [id(0x00000064), propput, helpstring("property Thickness")]
+        HRESULT Thickness([in] double pVal);
+    };
+
+    [
+      uuid(065F67DE-812C-4060-9FF0-820C85320A66),
+      helpstring("WrMpInsul Class")
+    ]
+    coclass WrMpInsul {
+        [default] interface IWrMpInsul;
+        [default, source] interface IAcadObjectEvents;
+    };
+
+    [
+      uuid(FFE76547-3DBB-4C68-8B5D-A4B2DF619B9F),
+      helpstring("WrInsulation Class")
+    ]
+    coclass WrInsulation {
+        [default] interface IWrInsulation;
+        [default, source] interface IAcadObjectEvents;
+    };
+
+    [
+      uuid(ADB4E386-CC88-4C7A-8091-3A69F5E02709),
+      helpstring("WrDiameterDia Class")
+    ]
+    coclass WrDiameterDia {
+        [default] interface IWrDiameterDia;
+    };
+
+    [
+      odl,
+      uuid(AFC9E996-4759-4B34-8662-A659F9433855),
+      helpstring("IWrDiameterDia Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IWrDiameterDia : IDispatch {
+    };
+
+    [
+      uuid(A743B7CA-FF23-4CBB-8E55-2C7DB412B6A4),
+      helpstring("WrDiameter1Dia Class")
+    ]
+    coclass WrDiameter1Dia {
+        [default] interface IWrDiameter1Dia;
+    };
+
+    [
+      odl,
+      uuid(966B76EB-EEC6-490F-849C-BE4BD159EFAB),
+      helpstring("IWrDiameter1Dia Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IWrDiameter1Dia : IDispatch {
+    };
+
+    [
+      uuid(626B4FB8-42D7-4BF0-A784-23D80809EF49),
+      helpstring("WrDiameter2Dia Class")
+    ]
+    coclass WrDiameter2Dia {
+        [default] interface IWrDiameter2Dia;
+    };
+
+    [
+      odl,
+      uuid(5ADC4320-691B-43F4-BC10-08EB21383D2A),
+      helpstring("IWrDiameter2Dia Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IWrDiameter2Dia : IDispatch {
+    };
+
+    [
+      odl,
+      uuid(89178D46-726F-4316-891D-A49D9AEAC9CA),
+      helpstring("IWrWeld Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IWrWeld : IAcadEntity {
+        [id(0x0000005a), propget, helpstring("Слой по умолчанию")]
+        HRESULT PipeLayer([out, retval] BSTR* pVal);
+        [id(0x0000005a), propput, helpstring("Слой по умолчанию")]
+        HRESULT PipeLayer([in] BSTR pVal);
+        [id(0x00000001), propget, helpstring("Параметры объекта")]
+        HRESULT Element([out, retval] IElement** pVal);
+        [id(0x00000001), propput, helpstring("Параметры объекта")]
+        HRESULT Element([in] IElement* pVal);
+        [id(0x00000002), propget, helpstring("Номер сегмента")]
+        HRESULT OwnerSegId([out, retval] long* pVal);
+        [id(0x00000002), propput, helpstring("Номер сегмента")]
+        HRESULT OwnerSegId([in] long pVal);
+        [id(0x00000003), propget, helpstring("Режим просмотра")]
+        HRESULT ViewMode([out, retval] long* pVal);
+        [id(0x00000003), propput, helpstring("Режим просмотра")]
+        HRESULT ViewMode([in] long pVal);
+        [id(0x00000004), propget, helpstring("Осевая линия")]
+        HRESULT ElementAxis([out, retval] IDispatch** pVal);
+        [id(0x00000004), propput, helpstring("Осевая линия")]
+        HRESULT ElementAxis([in] IDispatch* pVal);
+        [id(0x00000049), propget, helpstring("Положение")]
+        HRESULT Position([out, retval] VARIANT* pVal);
+        [id(0x0000005b), propget, helpstring("Номер на линии")]
+        HRESULT OrderOnLine([out, retval] long* pVal);
+        [id(0x00000008), propget, helpstring("property Part_Name")]
+        HRESULT Part_Name([out, retval] BSTR* pVal);
+        [id(0x00000008), propput, helpstring("property Part_Name")]
+        HRESULT Part_Name([in] BSTR pVal);
+        [id(0x00000009), propget, helpstring("property Part_Tag")]
+        HRESULT Part_Tag([out, retval] BSTR* pVal);
+        [id(0x00000009), propput, helpstring("property Part_Tag")]
+        HRESULT Part_Tag([in] BSTR pVal);
+        [id(0x0000000a), propget, helpstring("property Part_Manufacturer")]
+        HRESULT Part_Manufacturer([out, retval] BSTR* pVal);
+        [id(0x0000000a), propput, helpstring("property Part_Manufacturer")]
+        HRESULT Part_Manufacturer([in] BSTR pVal);
+        [id(0x0000000b), propget, helpstring("property Part_Standard")]
+        HRESULT Part_Standard([out, retval] BSTR* pVal);
+        [id(0x0000000b), propput, helpstring("property Part_Standard")]
+        HRESULT Part_Standard([in] BSTR pVal);
+        [id(0x0000000c), propget, helpstring("property Part_Refdrawing")]
+        HRESULT Part_Refdrawing([out, retval] BSTR* pVal);
+        [id(0x0000000c), propput, helpstring("property Part_Refdrawing")]
+        HRESULT Part_Refdrawing([in] BSTR pVal);
+        [id(0x0000000d), propget, helpstring("property Part_Material")]
+        HRESULT Part_Material([out, retval] BSTR* pVal);
+        [id(0x0000000d), propput, helpstring("property Part_Material")]
+        HRESULT Part_Material([in] BSTR pVal);
+        [id(0x0000000e), propget, helpstring("property Part_Material_Standard")]
+        HRESULT Part_Material_Standard([out, retval] BSTR* pVal);
+        [id(0x0000000e), propput, helpstring("property Part_Material_Standard")]
+        HRESULT Part_Material_Standard([in] BSTR pVal);
+        [id(0x0000000f), propget, helpstring("property Part_Weight")]
+        HRESULT Part_Weight([out, retval] BSTR* pVal);
+        [id(0x0000000f), propput, helpstring("property Part_Weight")]
+        HRESULT Part_Weight([in] BSTR pVal);
+        [id(0x00000010), propget, helpstring("property Part_Comment")]
+        HRESULT Part_Comment([out, retval] BSTR* pVal);
+        [id(0x00000010), propput, helpstring("property Part_Comment")]
+        HRESULT Part_Comment([in] BSTR pVal);
+        [id(0x00000046), propget, helpstring("property PartPipe_PN")]
+        HRESULT PartPipe_PN([out, retval] BSTR* pVal);
+        [id(0x00000046), propput, helpstring("property PartPipe_PN")]
+        HRESULT PartPipe_PN([in] BSTR pVal);
+        [id(0x00000047), propget, helpstring("property PartPipe_DN")]
+        HRESULT PartPipe_DN([out, retval] BSTR* pVal);
+        [id(0x00000047), propput, helpstring("property PartPipe_DN")]
+        HRESULT PartPipe_DN([in] BSTR pVal);
+        [id(0x00000048), propget, helpstring("property PartPipe_Diam")]
+        HRESULT PartPipe_Diam([out, retval] BSTR* pVal);
+        [id(0x00000048), propput, helpstring("property PartPipe_Diam")]
+        HRESULT PartPipe_Diam([in] BSTR pVal);
+        [id(0x00000011), propget, helpstring("property Part_Group")]
+        HRESULT Part_Group([out, retval] BSTR* pVal);
+        [id(0x00000011), propput, helpstring("property Part_Group")]
+        HRESULT Part_Group([in] BSTR pVal);
+        [id(0x00000012), propget, helpstring("property Part_Type")]
+        HRESULT Part_Type([out, retval] BSTR* pVal);
+        [id(0x00000012), propput, helpstring("property Part_Type")]
+        HRESULT Part_Type([in] BSTR pVal);
+        [id(0x00000013), propget, helpstring("property Part_Reference")]
+        HRESULT Part_Reference([out, retval] BSTR* pVal);
+        [id(0x00000013), propput, helpstring("property Part_Reference")]
+        HRESULT Part_Reference([in] BSTR pVal);
+        [id(0x00000014), propget, helpstring("property Part_Weight_Netto")]
+        HRESULT Part_Weight_Netto([out, retval] BSTR* pVal);
+        [id(0x00000014), propput, helpstring("property Part_Weight_Netto")]
+        HRESULT Part_Weight_Netto([in] BSTR pVal);
+        [id(0x00000015), propget, helpstring("property Part_Weight_Bruto")]
+        HRESULT Part_Weight_Bruto([out, retval] BSTR* pVal);
+        [id(0x00000015), propput, helpstring("property Part_Weight_Bruto")]
+        HRESULT Part_Weight_Bruto([in] BSTR pVal);
+        [id(0x00000016), propget, helpstring("property Explication_Include")]
+        HRESULT Explication_Include([out, retval] long* pVal);
+        [id(0x00000016), propput, helpstring("property Explication_Include")]
+        HRESULT Explication_Include([in] long pVal);
+        [id(0x00000017), propget, helpstring("property Explication_Number")]
+        HRESULT Explication_Number([out, retval] BSTR* pVal);
+        [id(0x00000017), propput, helpstring("property Explication_Number")]
+        HRESULT Explication_Number([in] BSTR pVal);
+        [id(0x00000018), propget, helpstring("property Explication_Group")]
+        HRESULT Explication_Group([out, retval] BSTR* pVal);
+        [id(0x00000018), propput, helpstring("property Explication_Group")]
+        HRESULT Explication_Group([in] BSTR pVal);
+        [id(0x00000019), propget, helpstring("property Explication_Comment")]
+        HRESULT Explication_Comment([out, retval] BSTR* pVal);
+        [id(0x00000019), propput, helpstring("property Explication_Comment")]
+        HRESULT Explication_Comment([in] BSTR pVal);
+        [id(0x0000001a), propget, helpstring("property Bom_Include")]
+        HRESULT Bom_Include([out, retval] long* pVal);
+        [id(0x0000001a), propput, helpstring("property Bom_Include")]
+        HRESULT Bom_Include([in] long pVal);
+        [id(0x0000001b), propget, helpstring("property Bom_Number")]
+        HRESULT Bom_Number([out, retval] BSTR* pVal);
+        [id(0x0000001b), propput, helpstring("property Bom_Number")]
+        HRESULT Bom_Number([in] BSTR pVal);
+        [id(0x0000001c), propget, helpstring("property Bom_Group")]
+        HRESULT Bom_Group([out, retval] BSTR* pVal);
+        [id(0x0000001c), propput, helpstring("property Bom_Group")]
+        HRESULT Bom_Group([in] BSTR pVal);
+        [id(0x0000001d), propget, helpstring("property Bom_Qty")]
+        HRESULT Bom_Qty([out, retval] BSTR* pVal);
+        [id(0x0000001d), propput, helpstring("property Bom_Qty")]
+        HRESULT Bom_Qty([in] BSTR pVal);
+        [id(0x0000001e), propget, helpstring("property Bom_Comment")]
+        HRESULT Bom_Comment([out, retval] BSTR* pVal);
+        [id(0x0000001e), propput, helpstring("property Bom_Comment")]
+        HRESULT Bom_Comment([in] BSTR pVal);
+        [id(0x0000007a), helpstring("method GetArea")]
+        HRESULT GetArea(
+                        [in, optional] VARIANT Element, 
+                        [in, optional] VARIANT bodyOptions, 
+                        [out, retval] double* pResult);
+        [id(0x0000007b), helpstring("method GetVolume")]
+        HRESULT GetVolume(
+                        [in, optional] VARIANT Element, 
+                        [in, optional] VARIANT bodyOptions, 
+                        [out, retval] double* pResult);
+        [id(0x0000007c), propget, helpstring("Предыдущий объект")]
+        HRESULT PrevElement([out, retval] IDispatch** pVal);
+        [id(0x0000007d), propget, helpstring("Следующий объект")]
+        HRESULT NextElement([out, retval] IDispatch** pVal);
+    };
+
+    [
+      uuid(9755331B-0EF2-4D16-BB3A-5C706E20577D),
+      helpstring("WrWeld Class")
+    ]
+    coclass WrWeld {
+        [default] interface IWrWeld;
+        [default, source] interface IAcadObjectEvents;
+    };
+};

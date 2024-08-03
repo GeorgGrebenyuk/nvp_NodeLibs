@@ -3923,6 +3923,2314 @@
     {
       "Name": "Renga.Selection.SetSelectedObjects",
       "Id": "192C4152-9BC2-48A9-8215-E6749C917B94"
+    },
+    {
+      "Name": "Renga.mageFormat.ImageFormat_Undefined",
+      "Id": "D6F57BF3-88F5-488F-8CD7-C61EC30CAFFD"
+    },
+    {
+      "Name": "Renga.mageFormat.ImageFormat_BMP",
+      "Id": "4693C2B9-1480-48B6-86E8-898843AEC017"
+    },
+    {
+      "Name": "Renga.mageFormat.ImageFormat_PNG",
+      "Id": "0744DED4-25A0-42E2-A163-598DEA94380D"
+    },
+    {
+      "Name": "Renga.ViewType.ViewType_Undefined",
+      "Id": "D37086B8-9718-486C-909D-48BD7ABB18FA"
+    },
+    {
+      "Name": "Renga.ViewType.ViewType_ProjectExplorer",
+      "Id": "F5A1E5E7-B7C5-4FFA-B111-A08F0893C88D"
+    },
+    {
+      "Name": "Renga.ViewType.ViewType_View3D",
+      "Id": "B89AFD0F-7F6F-4465-8344-EC7A9631D6F2"
+    },
+    {
+      "Name": "Renga.ViewType.ViewType_Level",
+      "Id": "931241AF-FFDD-455C-B1A9-9EC4D635EC73"
+    },
+    {
+      "Name": "Renga.ViewType.ViewType_Section",
+      "Id": "065FFFF8-AD41-4EA8-9A67-66A14D8D9600"
+    },
+    {
+      "Name": "Renga.ViewType.ViewType_Facade",
+      "Id": "FC53E189-47CB-48AB-975C-90246E3E43C3"
+    },
+    {
+      "Name": "Renga.ViewType.ViewType_Sheet",
+      "Id": "C30A483F-EB94-4C29-8970-E67C9ED02330"
+    },
+    {
+      "Name": "Renga.ViewType.ViewType_Table",
+      "Id": "75C56076-B231-4AF8-B365-93C9191196F4"
+    },
+    {
+      "Name": "Renga.ViewType.ViewType_Specification",
+      "Id": "4144A1E9-DBF9-46CD-9F83-AC5AEF3982D7"
+    },
+    {
+      "Name": "Renga.ViewType.ViewType_SectionProfile",
+      "Id": "76BEB24D-0A6C-4688-B2B2-2712D900252E"
+    },
+    {
+      "Name": "Renga.ViewType.ViewType_Assembly",
+      "Id": "5BAB68E8-5FD9-4760-94D3-92673C845334"
+    },
+    {
+      "Name": "Renga.ViewType.ViewType_PipeSystem",
+      "Id": "83709A60-1064-4384-A6A0-A2171A47C4F1"
+    },
+    {
+      "Name": "Renga.ContextMenuShowCase.ContextMenuShowCase_Scene",
+      "Id": "2E083CB9-47A0-4B00-A2AD-9B397999C89A"
+    },
+    {
+      "Name": "Renga.ContextMenuShowCase.ContextMenuShowCase_Selection",
+      "Id": "86598A80-7501-463E-9C33-852B3A3FA2DD"
+    },
+    {
+      "Name": "Renga.MessageIcon.MessageIcon_NoIcon",
+      "Id": "98F9E6EE-C236-427D-BDCA-CFDEE5B96DEC"
+    },
+    {
+      "Name": "Renga.MessageIcon.MessageIcon_Info",
+      "Id": "56E68F88-B4FC-46D4-9CDD-0CBD38BA2C29"
+    },
+    {
+      "Name": "Renga.MessageIcon.MessageIcon_Warning",
+      "Id": "EBE8B8B3-7C7E-4C96-995C-E156C1813C11"
+    },
+    {
+      "Name": "Renga.MessageIcon.MessageIcon_Error",
+      "Id": "B2AE6FCF-71C7-4F31-A6A7-B042D93202E5"
+    },
+    {
+      "Name": "Renga.MessageIcon.MessageIcon_Question",
+      "Id": "41230804-0833-4B35-840E-6748D82E0DF2"
+    },
+    {
+      "Name": "Renga.PropertyType.PropertyType_Undefined",
+      "Id": "6C8F8C95-13DF-4C5A-8F23-9A8ED5084711"
+    },
+    {
+      "Name": "Renga.PropertyType.PropertyType_Double",
+      "Id": "67CCEADC-DF7A-42A3-B096-81335ADCA63B"
+    },
+    {
+      "Name": "Renga.PropertyType.PropertyType_String",
+      "Id": "E656C95E-E1EE-48A2-B4DC-B1C1B8F9E861"
+    },
+    {
+      "Name": "Renga.PropertyType.PropertyType_Angle",
+      "Id": "06731226-6AE0-4B58-96FF-E9BA255A632D"
+    },
+    {
+      "Name": "Renga.PropertyType.PropertyType_Area",
+      "Id": "6C317200-7C83-4876-A534-87890DA67EAB"
+    },
+    {
+      "Name": "Renga.PropertyType.PropertyType_Boolean",
+      "Id": "BDF7D345-CD0F-433A-8D5A-3677D9DC008F"
+    },
+    {
+      "Name": "Renga.PropertyType.PropertyType_Enumeration",
+      "Id": "F1A87029-BDA2-45AD-AE43-CF8FA61F2E32"
+    },
+    {
+      "Name": "Renga.PropertyType.PropertyType_Integer",
+      "Id": "5D03F133-84BA-4193-B068-3C89DCC38C29"
+    },
+    {
+      "Name": "Renga.PropertyType.PropertyType_Length",
+      "Id": "A5F5E24A-0E6F-4176-9B0C-6AFEC10BE900"
+    },
+    {
+      "Name": "Renga.PropertyType.PropertyType_Logical",
+      "Id": "51DE8B61-2C7F-4217-BD98-7CAC97F6559D"
+    },
+    {
+      "Name": "Renga.PropertyType.PropertyType_Mass",
+      "Id": "EEFF96B2-1C8F-45F4-BBBD-78AFE000ECA9"
+    },
+    {
+      "Name": "Renga.PropertyType.PropertyType_Volume",
+      "Id": "0AC88DDA-142F-457A-ADE5-CA95CBC1D41C"
+    },
+    {
+      "Name": "Renga.AngleUnit.AngleUnit_Unknown",
+      "Id": "7D6CAA8F-0751-4051-9526-8D00B2DDBA9D"
+    },
+    {
+      "Name": "Renga.AngleUnit.AngleUnit_Degrees",
+      "Id": "306BBD9D-07AA-4F23-923A-78ED3169BD1C"
+    },
+    {
+      "Name": "Renga.AreaUnit.AreaUnit_Unknown",
+      "Id": "6E3ECA68-D358-49D0-9D68-363CDBF19621"
+    },
+    {
+      "Name": "Renga.AreaUnit.AreaUnit_Millimeters2",
+      "Id": "6280EBDF-4C2C-4707-AB76-C9BBF0EC63AB"
+    },
+    {
+      "Name": "Renga.AreaUnit.AreaUnit_Centimeters2",
+      "Id": "B56B2436-C546-40AA-9FC0-0BA6FF527065"
+    },
+    {
+      "Name": "Renga.AreaUnit.AreaUnit_Meters2",
+      "Id": "C3FFCB49-5438-44E7-B128-CF6002CF4D42"
+    },
+    {
+      "Name": "Renga.LengthUnit.LengthUnit_Unknown",
+      "Id": "60894899-DFC8-4223-9AAE-E3708B3B9591"
+    },
+    {
+      "Name": "Renga.LengthUnit.LengthUnit_Millimeters",
+      "Id": "DEEC22BC-8E22-41D9-BA51-724DE23BA0CE"
+    },
+    {
+      "Name": "Renga.LengthUnit.LengthUnit_Centimeters",
+      "Id": "AE2B8059-B0A2-426F-9A3B-D805C95E9326"
+    },
+    {
+      "Name": "Renga.LengthUnit.LengthUnit_Inches",
+      "Id": "6214A1B5-A8B9-49E7-B5D8-4B845E090C1B"
+    },
+    {
+      "Name": "Renga.LengthUnit.LengthUnit_Meters",
+      "Id": "EDE84D56-DF6E-493B-AB19-036D9C42535A"
+    },
+    {
+      "Name": "Renga.Logical.Logical_False",
+      "Id": "A6DE8F4F-C6B6-4B06-9659-54BC9982C415"
+    },
+    {
+      "Name": "Renga.Logical.Logical_True",
+      "Id": "A5E70537-A3D7-4AC6-B97C-6D8BEA189E5B"
+    },
+    {
+      "Name": "Renga.Logical.Logical_Indeterminate",
+      "Id": "7C4BDAE3-2D7B-46BF-A0DD-5ABF49129A06"
+    },
+    {
+      "Name": "Renga.MassUnit.MassUnit_Unknown",
+      "Id": "839314ED-D814-46EC-97E4-423193E217E4"
+    },
+    {
+      "Name": "Renga.MassUnit.MassUnit_Grams",
+      "Id": "B6FC80BC-E552-44FA-81A0-0C0C97C14C61"
+    },
+    {
+      "Name": "Renga.MassUnit.MassUnit_Kilograms",
+      "Id": "6B59A404-0D6B-4C97-AC5D-437D9A465636"
+    },
+    {
+      "Name": "Renga.MassUnit.MassUnit_Tons",
+      "Id": "0FF94129-EC82-41BF-A6B1-2275427B1E47"
+    },
+    {
+      "Name": "Renga.VolumeUnit.VolumeUnit_Unknown",
+      "Id": "3A9D365D-77D6-4BA4-ABA3-59118070CD2E"
+    },
+    {
+      "Name": "Renga.VolumeUnit.VolumeUnit_Millimeters3",
+      "Id": "8EA7B0D1-AD23-4985-932D-A9138BC1923A"
+    },
+    {
+      "Name": "Renga.VolumeUnit.VolumeUnit_Centimeters3",
+      "Id": "27446383-4B65-4268-AF5F-242F0C25B326"
+    },
+    {
+      "Name": "Renga.VolumeUnit.VolumeUnit_Meters3",
+      "Id": "28F51C3E-D36B-452C-8607-C84AE387B631"
+    },
+    {
+      "Name": "Renga.ParameterValueType.ParameterValueType_Undefined",
+      "Id": "B997A184-47A0-41A3-95C4-52965D9157F9"
+    },
+    {
+      "Name": "Renga.ParameterValueType.ParameterValueType_Bool",
+      "Id": "92FF3157-9172-44B3-813F-B7EA27A40916"
+    },
+    {
+      "Name": "Renga.ParameterValueType.ParameterValueType_Int",
+      "Id": "BF67202F-1FC5-4F1F-95F7-51FFC152899F"
+    },
+    {
+      "Name": "Renga.ParameterValueType.ParameterValueType_Double",
+      "Id": "F3B08D1E-BF7B-43AD-A44B-221DAE837D1A"
+    },
+    {
+      "Name": "Renga.ParameterValueType.ParameterValueType_String",
+      "Id": "83584144-988B-4C8E-8C03-A20EE736A23E"
+    },
+    {
+      "Name": "Renga.ParameterType.ParameterType_Undefined",
+      "Id": "7180E5A2-EFB6-4F63-9AE8-8273663D1084"
+    },
+    {
+      "Name": "Renga.ParameterType.ParameterType_Bool",
+      "Id": "4CE827C6-F677-42E4-A8E0-FDBB1210A963"
+    },
+    {
+      "Name": "Renga.ParameterType.ParameterType_Int",
+      "Id": "3EAA9E03-D136-4E30-96EF-43331605D3F0"
+    },
+    {
+      "Name": "Renga.ParameterType.ParameterType_Double",
+      "Id": "20E5BC71-EAC8-4982-B4D5-BEEE97F8A927"
+    },
+    {
+      "Name": "Renga.ParameterType.ParameterType_String",
+      "Id": "6879E20F-0DE4-4D62-B392-24281FE27A6B"
+    },
+    {
+      "Name": "Renga.ParameterType.ParameterType_Length",
+      "Id": "B8B1E0BA-B64B-4D19-9818-7FE2333DF63E"
+    },
+    {
+      "Name": "Renga.ParameterType.ParameterType_Angle",
+      "Id": "FDB39CB7-6E50-4817-A59C-759FBF90B8C6"
+    },
+    {
+      "Name": "Renga.ParameterType.ParameterType_IntEnumeration",
+      "Id": "D232974D-33FB-4E52-B847-543458B63D0C"
+    },
+    {
+      "Name": "Renga.ParameterType.ParameterType_IntID",
+      "Id": "C296965D-F0DD-4A5C-AA8C-CB713B689967"
+    },
+    {
+      "Name": "Renga.ParameterType.ParameterType_Area",
+      "Id": "473DB7CA-B847-479A-97E0-007C091DCFCE"
+    },
+    {
+      "Name": "Renga.ParameterType.ParameterType_Volume",
+      "Id": "654BCF14-D514-4CA5-8F8E-B8DC71594548"
+    },
+    {
+      "Name": "Renga.ParameterType.ParameterType_Mass",
+      "Id": "CE0DA58B-E2B5-4579-A0A0-F0E4FBC7CAC1"
+    },
+    {
+      "Name": "Renga.ParameterType.ParameterType_Temperature",
+      "Id": "B801368D-CBB5-4DE3-A859-99CF393FBA9A"
+    },
+    {
+      "Name": "Renga.ParameterType.ParameterType_Density",
+      "Id": "A05E2A0A-72A6-4E70-9D5D-17933D98B500"
+    },
+    {
+      "Name": "Renga.ParameterType.ParameterType_ThermalConductivity",
+      "Id": "60313737-618A-41B3-AD14-BBEFABF93579"
+    },
+    {
+      "Name": "Renga.ParameterType.ParameterType_Voltage",
+      "Id": "7DE7AF94-A51A-44EB-BFAA-C60CFA5D7AD9"
+    },
+    {
+      "Name": "Renga.ParameterType.ParameterType_List",
+      "Id": "2DE0482A-C03C-41D6-80C8-D9F2F0344B56"
+    },
+    {
+      "Name": "Renga.QuantityType.QuantityType_Unknown",
+      "Id": "3E7D995C-842A-4E66-A7A0-5BE3B7386D40"
+    },
+    {
+      "Name": "Renga.QuantityType.QuantityType_Count",
+      "Id": "6F8BD0F1-F23A-4F5E-A3B0-BD0B34948A87"
+    },
+    {
+      "Name": "Renga.QuantityType.QuantityType_Length",
+      "Id": "1DD58ECE-76ED-4BFD-AB04-8EF16C0F40D0"
+    },
+    {
+      "Name": "Renga.QuantityType.QuantityType_Area",
+      "Id": "CD95F182-1AB5-48A7-8FD4-6DB395EB9E0E"
+    },
+    {
+      "Name": "Renga.QuantityType.QuantityType_Volume",
+      "Id": "7F71F356-43EB-4D49-8482-DFFD7C9CE8B5"
+    },
+    {
+      "Name": "Renga.QuantityType.QuantityType_Mass",
+      "Id": "F61BA8A7-4367-4E3C-9D1D-8AF26DC9DFA7"
+    },
+    {
+      "Name": "Renga.FlowDirectionType.FlowDirectionType_Inlet",
+      "Id": "0C0F19D2-1CAB-4B4F-8352-358CFF34E863"
+    },
+    {
+      "Name": "Renga.FlowDirectionType.FlowDirectionType_Outlet",
+      "Id": "97879A71-25BE-4B98-8D74-EAF5C929DE7B"
+    },
+    {
+      "Name": "Renga.FlowDirectionType.FlowDirectionType_InletAndOutlet",
+      "Id": "F16267B3-C871-4148-BBCD-2DB66D934C94"
+    },
+    {
+      "Name": "Renga.FlowDirectionType.FlowDirectionType_Undefined",
+      "Id": "71C66B1F-6A5C-48FD-9104-15B61F525325"
+    },
+    {
+      "Name": "Renga.LayeredMaterialGroup.LayeredMaterialGroup_Undefined",
+      "Id": "7E53E196-B2FE-4EBC-B7B5-C6FEC6CB6C09"
+    },
+    {
+      "Name": "Renga.LayeredMaterialGroup.LayeredMaterialGroup_Wall",
+      "Id": "CF5C4446-1888-400C-B2B0-386D4BC993C9"
+    },
+    {
+      "Name": "Renga.LayeredMaterialGroup.LayeredMaterialGroup_Floor",
+      "Id": "933CD64C-BEBB-4636-A3CD-E3D226F8FB63"
+    },
+    {
+      "Name": "Renga.LayeredMaterialGroup.LayeredMaterialGroup_Roof",
+      "Id": "7D498D2D-FE49-4DB5-B17A-FE8B7403A978"
+    },
+    {
+      "Name": "Renga.Curve3DType.Curve3DType_Undefined",
+      "Id": "B7C12846-13CD-4DCF-9676-CBCBBB4CF786"
+    },
+    {
+      "Name": "Renga.Curve3DType.Curve3DType_LineSegment",
+      "Id": "460481CF-700C-4B85-BA3A-9139F1351750"
+    },
+    {
+      "Name": "Renga.Curve3DType.Curve3DType_Arc",
+      "Id": "B26E239B-B365-4A96-B744-9DFB683D6758"
+    },
+    {
+      "Name": "Renga.Curve3DType.Curve3DType_PolyCurve",
+      "Id": "B55B7850-0367-484D-81D6-E38775E0872F"
+    },
+    {
+      "Name": "Renga.ReinforcementUnitType.ReinforcementUnitType_Undefined",
+      "Id": "F3F77200-E00F-4895-A0ED-61668A3B4EBF"
+    },
+    {
+      "Name": "Renga.ReinforcementUnitType.ReinforcementUnitType_Mesh",
+      "Id": "167FB595-84D1-4335-9D4A-78B883EB4D16"
+    },
+    {
+      "Name": "Renga.ReinforcementUnitType.ReinforcementUnitType_Cage",
+      "Id": "47CC28E4-EFAA-4F40-A79A-F91CD695D2A2"
+    },
+    {
+      "Name": "Renga.ProjectType.ProjectType_Project",
+      "Id": "AC271856-9F4A-4393-96C3-6021B8BBD7A9"
+    },
+    {
+      "Name": "Renga.ProjectType.ProjectType_Template",
+      "Id": "D5ACAEC0-BC78-4C08-BA61-EFEA6CABF3E3"
+    },
+    {
+      "Name": "Renga.AutocadVersion.AutocadVersion_v2000",
+      "Id": "3DAA94BC-26A1-4082-A341-AB68A988DBC6"
+    },
+    {
+      "Name": "Renga.AutocadVersion.AutocadVersion_v2004",
+      "Id": "309968F4-689E-451C-A4A0-EEDDC51DD91E"
+    },
+    {
+      "Name": "Renga.AutocadVersion.AutocadVersion_v2007",
+      "Id": "5E7B6D7C-FE8D-40EA-AD46-A8FEC9797415"
+    },
+    {
+      "Name": "Renga.AutocadVersion.AutocadVersion_v2010",
+      "Id": "E9E00CEE-1F3B-4C20-8756-ABCEB919AB59"
+    },
+    {
+      "Name": "Renga.AutocadVersion.AutocadVersion_v2013",
+      "Id": "5F450244-345C-49B5-9A15-12EC584DCD12"
+    },
+    {
+      "Name": "Renga.AutocadVersion.AutocadVersion_v2018",
+      "Id": "BB36BF6E-5732-47F4-8D74-2C0BCBE718F2"
+    },
+    {
+      "Name": "Renga.Curve2DType.Curve2DType_Undefined",
+      "Id": "ABC3CFBF-4D05-4E4A-832F-DA5ACCA9AE60"
+    },
+    {
+      "Name": "Renga.Curve2DType.Curve2DType_LineSegment",
+      "Id": "29286D41-90D0-4EFC-BA8D-426E6DAD2AA8"
+    },
+    {
+      "Name": "Renga.Curve2DType.Curve2DType_Arc",
+      "Id": "5B36F5BA-3AAA-4179-9F1F-D048BC2718B5"
+    },
+    {
+      "Name": "Renga.Curve2DType.Curve2DType_PolyCurve",
+      "Id": "5366802C-2673-43E3-8EBA-8B9D75B7E52F"
+    },
+    {
+      "Name": "Renga.SystemCategory.SystemCategory_Unknown",
+      "Id": "3DB3C1AD-3A49-4808-8BEF-04E989962771"
+    },
+    {
+      "Name": "Renga.SystemCategory.SystemCategory_DomesticColdWater",
+      "Id": "EA3D3A83-7A8B-481F-B476-ED0F0B534C53"
+    },
+    {
+      "Name": "Renga.SystemCategory.SystemCategory_DomesticHotWater",
+      "Id": "C895E251-6BD1-456B-AF0E-58D68B73A07F"
+    },
+    {
+      "Name": "Renga.SystemCategory.SystemCategory_DomesticSewerage",
+      "Id": "0BDE937D-2DFF-4BBE-85A7-371FCC1845E8"
+    },
+    {
+      "Name": "Renga.SystemCategory.SystemCategory_DomesticGasSupply",
+      "Id": "EBDAFAD0-8309-41D8-80B8-E3FBD8D16511"
+    },
+    {
+      "Name": "Renga.SystemCategory.SystemCategory_WaterFireExtinguishing",
+      "Id": "976FE45B-77C4-4393-AEEE-4BF57C7E3DEE"
+    },
+    {
+      "Name": "Renga.SystemCategory.SystemCategory_WaterHeating",
+      "Id": "C8944517-C1B3-44D9-956F-88AB9C76ED05"
+    },
+    {
+      "Name": "Renga.SystemCategory.SystemCategory_GasFireExtinguishing",
+      "Id": "190EF8AA-5AF0-4915-8033-E2B9B28F737C"
+    },
+    {
+      "Name": "Renga.SystemCategory.SystemCategory_StormDrain",
+      "Id": "4061CFD3-3B87-47EC-80B0-D19565D30419"
+    },
+    {
+      "Name": "Renga.SystemCategory.SystemCategory_IndustrialColdWater",
+      "Id": "AB378FB4-F7B8-4A0B-8ADA-3EA6ED507ED5"
+    },
+    {
+      "Name": "Renga.SystemCategory.SystemCategory_IndustrialHotWater",
+      "Id": "CD7DFD52-7CA4-4922-AB77-D82D6827065A"
+    },
+    {
+      "Name": "Renga.SystemCategory.SystemCategory_IndustrialSewerage",
+      "Id": "D7808B99-D8FD-46B1-8B94-775DE9625007"
+    },
+    {
+      "Name": "Renga.SystemCategory.SystemCategory_OtherPipeSystem",
+      "Id": "0EF9BE90-D2CF-4ECD-A4A7-FC0188B4B3B0"
+    },
+    {
+      "Name": "Renga.SystemCategory.SystemCategory_Ventilation",
+      "Id": "A7A08B7B-123E-4608-A42F-07645132E05C"
+    },
+    {
+      "Name": "Renga.SystemCategory.SystemCategory_Exhaust",
+      "Id": "5FCB9681-20D9-45F1-B6EA-6F897F9B36EC"
+    },
+    {
+      "Name": "Renga.SystemCategory.SystemCategory_Pressurization",
+      "Id": "D29F1A2C-748F-4F7C-8967-87BF002420A6"
+    },
+    {
+      "Name": "Renga.SystemCategory.SystemCategory_SmokeExhaust",
+      "Id": "67A329D3-6A59-4E0E-A60D-A37523E8561C"
+    },
+    {
+      "Name": "Renga.SystemCategory.SystemCategory_Vacuum",
+      "Id": "3F7840BE-BEFA-41D8-A628-948FCC7CCDFC"
+    },
+    {
+      "Name": "Renga.SystemCategory.SystemCategory_OtherDuctSystem",
+      "Id": "0B9BE643-824B-4D68-9DF9-CCD350358DFF"
+    },
+    {
+      "Name": "Renga.SystemCategory.SystemCategory_LightingCircuit",
+      "Id": "255957D5-EC10-4442-9694-D44A548E4007"
+    },
+    {
+      "Name": "Renga.SystemCategory.SystemCategory_PowerCircuit",
+      "Id": "FC120628-4FF9-4FFA-9A03-09DF199F55AD"
+    },
+    {
+      "Name": "Renga.SystemCategory.SystemCategory_OtherElectricalSystem",
+      "Id": "1792C1E9-3A7A-4B7C-8D06-0AEAF91B6630"
+    },
+    {
+      "Name": "Renga.PlumbingFixtureCategory.PlumbingFixtureCategory_Other",
+      "Id": "DFFD1CCD-81C2-43BC-80CA-C31886763F79"
+    },
+    {
+      "Name": "Renga.PlumbingFixtureCategory.PlumbingFixtureCategory_ToiletPan",
+      "Id": "A26C5D33-0D1F-43BA-A298-5A9E45B2C567"
+    },
+    {
+      "Name": "Renga.PlumbingFixtureCategory.PlumbingFixtureCategory_WashBasin",
+      "Id": "5E6B07D7-1D8D-43AA-AC01-0FE822AACD12"
+    },
+    {
+      "Name": "Renga.PlumbingFixtureCategory.PlumbingFixtureCategory_Bath",
+      "Id": "AA66DD76-24DF-48D8-92EA-7AA9C42E7D66"
+    },
+    {
+      "Name": "Renga.PlumbingFixtureCategory.PlumbingFixtureCategory_Sink",
+      "Id": "CCE8AED0-3B27-4F5C-B556-B6AC29F65083"
+    },
+    {
+      "Name": "Renga.PlumbingFixtureCategory.PlumbingFixtureCategory_Shower",
+      "Id": "08050C61-9234-4D37-8680-FA2AD01331C1"
+    },
+    {
+      "Name": "Renga.PlumbingFixtureCategory.PlumbingFixtureCategory_FloorDrain",
+      "Id": "B8CC8A10-AB26-4F46-9588-9F035B521B05"
+    },
+    {
+      "Name": "Renga.PlumbingFixtureCategory.PlumbingFixtureCategory_RoofDrain",
+      "Id": "407BA880-9EAE-47B0-8CF1-3BFA11647CA7"
+    },
+    {
+      "Name": "Renga.PlumbingFixtureCategory.PlumbingFixtureCategory_Bidet",
+      "Id": "27B7BF2D-D4AB-40F4-9E37-BFEF5D669CBF"
+    },
+    {
+      "Name": "Renga.PlumbingFixtureCategory.PlumbingFixtureCategory_Urinal",
+      "Id": "5C0AD64A-7073-4E0E-9188-276C45943536"
+    },
+    {
+      "Name": "Renga.EquipmentCategory.EquipmentCategory_Other",
+      "Id": "A36A441F-CFDE-4A4E-8DD5-60171FCDBDE2"
+    },
+    {
+      "Name": "Renga.EquipmentCategory.EquipmentCategory_Faucet",
+      "Id": "E43BD394-F355-4EA9-80BB-7355E8091225"
+    },
+    {
+      "Name": "Renga.EquipmentCategory.EquipmentCategory_Manifold",
+      "Id": "EB51370A-66C7-43DE-BE32-1A93A5A75575"
+    },
+    {
+      "Name": "Renga.EquipmentCategory.EquipmentCategory_Pump",
+      "Id": "162E11AA-BAF9-4042-A4C1-5E1AA55FCCD2"
+    },
+    {
+      "Name": "Renga.EquipmentCategory.EquipmentCategory_WashingMachine",
+      "Id": "D881AABD-C92B-40AF-B404-22333D1CC193"
+    },
+    {
+      "Name": "Renga.EquipmentCategory.EquipmentCategory_Radiator",
+      "Id": "DE250D30-7DFD-47E1-B9CA-EA014CA46952"
+    },
+    {
+      "Name": "Renga.EquipmentCategory.EquipmentCategory_TowelRadiator",
+      "Id": "D8814433-2E9A-494B-B980-042EE0B756AF"
+    },
+    {
+      "Name": "Renga.EquipmentCategory.EquipmentCategory_ExpansionVessel",
+      "Id": "C52594E7-B338-43D8-B45F-E775C1923550"
+    },
+    {
+      "Name": "Renga.EquipmentCategory.EquipmentCategory_PlateHeatExchanger",
+      "Id": "413C5953-B2A5-4D38-9944-15E3A7CA1EEE"
+    },
+    {
+      "Name": "Renga.EquipmentCategory.EquipmentCategory_Boiler",
+      "Id": "A98B60BB-F9CE-46C1-8D53-6A2AEB091942"
+    },
+    {
+      "Name": "Renga.fcVersion.IfcVersion_4",
+      "Id": "A5613C6D-D1B2-4560-A284-A7186924CFC4"
+    },
+    {
+      "Name": "Renga.VisualStyle.VisualStyle_Undefined",
+      "Id": "D5D0E935-C02A-414E-B6CD-562A372B20BD"
+    },
+    {
+      "Name": "Renga.VisualStyle.VisualStyle_Wireframe",
+      "Id": "17AC7E44-70B1-4301-BD2B-FF569AA68D46"
+    },
+    {
+      "Name": "Renga.VisualStyle.VisualStyle_Monochrome",
+      "Id": "E03835BA-D8B6-4181-95E1-2514A9707D73"
+    },
+    {
+      "Name": "Renga.VisualStyle.VisualStyle_Color",
+      "Id": "60462EE8-B220-4137-9C39-FEC040EF7FDD"
+    },
+    {
+      "Name": "Renga.VisualStyle.VisualStyle_Textured",
+      "Id": "5640DE56-0B01-4165-A48A-D6AD80D10F15"
+    },
+    {
+      "Name": "Renga.EventType.EventType_EventTypeNone",
+      "Id": "19DEC5E2-DE9F-4FEC-A49C-7E057A0FA1F9"
+    },
+    {
+      "Name": "Renga.EventType.EventType_ProjectClose",
+      "Id": "38DE8E65-103D-4BC3-917D-4722E25339B6"
+    },
+    {
+      "Name": "Renga.EventType.EventType_ApplicationClose",
+      "Id": "2B5FA005-2EF1-4B37-B12B-AC6B5B32146F"
+    },
+    {
+      "Name": "Renga.Line3DStyle.Line3DStyle_None",
+      "Id": "83036B1F-1D0C-4374-946B-BE05B39142BA"
+    },
+    {
+      "Name": "Renga.Line3DStyle.Line3DStyle_Solid",
+      "Id": "E3F43438-D115-4555-85AA-435AABA1A75F"
+    },
+    {
+      "Name": "Renga.Line3DStyle.Line3DStyle_Dash",
+      "Id": "30AB384F-F6E5-4C99-A14D-52FCEA7A18F3"
+    },
+    {
+      "Name": "Renga.Line3DStyle.Line3DStyle_DashDot",
+      "Id": "32DFF7BB-AECE-4225-B8D0-3A9A2D2D5DEF"
+    },
+    {
+      "Name": "Renga.Line3DStyle.Line3DStyle_Dot",
+      "Id": "903426AF-4831-414C-B2F1-50B729B857C3"
+    },
+    {
+      "Name": "Renga.Line3DStyle.Line3DStyle_SpecialDash",
+      "Id": "52DFE393-E9F8-4AE7-97A9-6D37E41EC2B3"
+    },
+    {
+      "Name": "Renga.Line3DStyle.Line3DStyle_SpecialDashDot",
+      "Id": "19E7CE4F-34DD-4950-AF7D-8AA92DEE752E"
+    },
+    {
+      "Name": "Renga.Line3DStyle.Line3DStyle_SpecialDot",
+      "Id": "10F19887-5D00-4030-ABEF-320FB443606A"
+    },
+    {
+      "Name": "Renga.Line3DStyle.Line3DStyle_DashDotDot",
+      "Id": "EF933CAF-B005-4BF7-88F0-1F7DF5CD4021"
+    },
+    {
+      "Name": "Renga.PipeConnectionType.PipeConnectionType_Weld",
+      "Id": "BAC94A6D-C814-410B-9FCE-D1268D8A98AD"
+    },
+    {
+      "Name": "Renga.PipeConnectionType.PipeConnectionType_Flange",
+      "Id": "2EE128B7-5116-4681-B81C-4FDEAB35FE4A"
+    },
+    {
+      "Name": "Renga.PipeConnectionType.PipeConnectionType_Compressed",
+      "Id": "9C358573-40BB-458F-A3F8-42D6C4C0F45B"
+    },
+    {
+      "Name": "Renga.PipeConnectionType.PipeConnectionType_Socket",
+      "Id": "7F8FECF9-0F33-4867-8A73-78BE7E241D77"
+    },
+    {
+      "Name": "Renga.PipeConnectionType.PipeConnectionType_Thread",
+      "Id": "972339BC-B380-4250-A909-4ED2AE59C755"
+    },
+    {
+      "Name": "Renga.PipeConnectionType.PipeConnectionType_QuickConnection",
+      "Id": "A1CDD3A8-B597-4670-87B5-BE9DE7ABE27E"
+    },
+    {
+      "Name": "Renga.PipeConnectionType.PipeConnectionType_Glue",
+      "Id": "FDCB1D2F-D279-4FA3-BA3A-0958D61F3160"
+    },
+    {
+      "Name": "Renga.PipeConnectionType.PipeConnectionType_FusionWelding",
+      "Id": "4F12A733-83DC-4FF4-9D58-5BF01D7334CF"
+    },
+    {
+      "Name": "Renga.PipeConnectionType.PipeConnectionType_Grooved",
+      "Id": "8317B37B-5E44-4B3B-8A32-51FAA9A3EB71"
+    },
+    {
+      "Name": "Renga.DuctConnectionType.DuctConnectionType_Drawband",
+      "Id": "65DD7429-6271-4F81-B49A-5FFE25084BFB"
+    },
+    {
+      "Name": "Renga.DuctConnectionType.DuctConnectionType_SlipOn",
+      "Id": "EE804158-A77A-4ECB-8CD8-AD4BFC7A2C1E"
+    },
+    {
+      "Name": "Renga.DuctConnectionType.DuctConnectionType_DriveSlip",
+      "Id": "6BA5CB9E-89E3-4684-8365-9AD947CB1FA7"
+    },
+    {
+      "Name": "Renga.DuctConnectionType.DuctConnectionType_Weld",
+      "Id": "D256FBA0-84A4-4E29-8540-2F187BD8F59C"
+    },
+    {
+      "Name": "Renga.DuctConnectionType.DuctConnectionType_Flange",
+      "Id": "01BD81A7-62EC-41CE-BDE6-25021242816D"
+    },
+    {
+      "Name": "Renga.DuctFormType.DuctFormType_Circle",
+      "Id": "F15E4BFC-FAFD-43B0-A724-DF5EF8B48A1D"
+    },
+    {
+      "Name": "Renga.DuctFormType.DuctFormType_Rect",
+      "Id": "97F46955-FA99-4707-978B-464CA5F95D6D"
+    },
+    {
+      "Name": "Renga.mageFormat.enum_ImageFormat_Undefined",
+      "Id": "82FDBA96-FE07-4BE5-B782-C482BB4D5ECC"
+    },
+    {
+      "Name": "Renga.mageFormat.enum_ImageFormat_BMP",
+      "Id": "F51FB995-B410-465A-BD62-C9F19D5F4A29"
+    },
+    {
+      "Name": "Renga.mageFormat.enum_ImageFormat_PNG",
+      "Id": "B9C89AF2-F442-4D02-AA6C-E3803ABB76FA"
+    },
+    {
+      "Name": "Renga.ViewType.enum_ViewType_Undefined",
+      "Id": "90052450-45F9-4B9D-925B-516E883A6267"
+    },
+    {
+      "Name": "Renga.ViewType.enum_ViewType_ProjectExplorer",
+      "Id": "694E8091-75B7-47BA-B4BB-46B04C3621CF"
+    },
+    {
+      "Name": "Renga.ViewType.enum_ViewType_View3D",
+      "Id": "02D37808-55E8-440E-9CC4-469E75435F45"
+    },
+    {
+      "Name": "Renga.ViewType.enum_ViewType_Level",
+      "Id": "2BAAE0F7-6807-4F6D-A16E-A54C57A56DD4"
+    },
+    {
+      "Name": "Renga.ViewType.enum_ViewType_Section",
+      "Id": "6E6B0A07-23ED-47A8-A28C-D3DCCED88AAC"
+    },
+    {
+      "Name": "Renga.ViewType.enum_ViewType_Facade",
+      "Id": "CF87D70A-1E46-4D6D-BC60-92F9485D9662"
+    },
+    {
+      "Name": "Renga.ViewType.enum_ViewType_Sheet",
+      "Id": "F41EEB27-D601-4BEA-AB8B-17E72F0E576E"
+    },
+    {
+      "Name": "Renga.ViewType.enum_ViewType_Table",
+      "Id": "308D8F1E-185F-45BA-8F86-3C86EFBA09FF"
+    },
+    {
+      "Name": "Renga.ViewType.enum_ViewType_Specification",
+      "Id": "92C0B43D-AA02-42B3-83BF-F7D8223D369E"
+    },
+    {
+      "Name": "Renga.ViewType.enum_ViewType_SectionProfile",
+      "Id": "D8AF33EC-B825-40A2-8288-D6CE897472AB"
+    },
+    {
+      "Name": "Renga.ViewType.enum_ViewType_Assembly",
+      "Id": "84F7D8DE-DC07-4B59-8161-9B2DF9EE731A"
+    },
+    {
+      "Name": "Renga.ViewType.enum_ViewType_PipeSystem",
+      "Id": "7626829A-4119-4E5D-94C6-5B42DA67E0DB"
+    },
+    {
+      "Name": "Renga.ContextMenuShowCase.enum_ContextMenuShowCase_Scene",
+      "Id": "194BFBC4-EF51-433C-A4ED-3BC7C5205278"
+    },
+    {
+      "Name": "Renga.ContextMenuShowCase.enum_ContextMenuShowCase_Selection",
+      "Id": "6BAD5670-EC43-4B42-9AD5-5C890CCF0337"
+    },
+    {
+      "Name": "Renga.MessageIcon.enum_MessageIcon_NoIcon",
+      "Id": "8628C19E-DD73-40F0-B6E4-C41C253C1B6F"
+    },
+    {
+      "Name": "Renga.MessageIcon.enum_MessageIcon_Info",
+      "Id": "03ACF51D-046E-4E62-83DF-F12E5706AD88"
+    },
+    {
+      "Name": "Renga.MessageIcon.enum_MessageIcon_Warning",
+      "Id": "E7C7A5A6-284D-444D-892A-C91CE18624BF"
+    },
+    {
+      "Name": "Renga.MessageIcon.enum_MessageIcon_Error",
+      "Id": "82E3701B-61F9-4AD4-B686-ED7426157BE5"
+    },
+    {
+      "Name": "Renga.MessageIcon.enum_MessageIcon_Question",
+      "Id": "6C53DE5A-8ADB-42D2-A504-C02ED320F075"
+    },
+    {
+      "Name": "Renga.PropertyType.enum_PropertyType_Undefined",
+      "Id": "AE6A054C-4706-413B-B834-222BE30D5F9E"
+    },
+    {
+      "Name": "Renga.PropertyType.enum_PropertyType_Double",
+      "Id": "30A0D870-71E5-4B74-B58C-E77E3441994C"
+    },
+    {
+      "Name": "Renga.PropertyType.enum_PropertyType_String",
+      "Id": "B43DE1E8-BC4C-416C-8213-65C75729A03F"
+    },
+    {
+      "Name": "Renga.PropertyType.enum_PropertyType_Angle",
+      "Id": "DAEA7F4C-E9EE-4946-8F94-7F3437148CC9"
+    },
+    {
+      "Name": "Renga.PropertyType.enum_PropertyType_Area",
+      "Id": "9E8BF0E5-762B-4767-8E90-DE9F159B5730"
+    },
+    {
+      "Name": "Renga.PropertyType.enum_PropertyType_Boolean",
+      "Id": "F28859FD-A1D9-4818-AEFB-16C0D00E40F4"
+    },
+    {
+      "Name": "Renga.PropertyType.enum_PropertyType_Enumeration",
+      "Id": "B5661982-5629-4135-B0C2-BD8DB6A12EF6"
+    },
+    {
+      "Name": "Renga.PropertyType.enum_PropertyType_Integer",
+      "Id": "D838E682-8D29-4671-9E95-C25242B2A5C5"
+    },
+    {
+      "Name": "Renga.PropertyType.enum_PropertyType_Length",
+      "Id": "920A7F13-4FBC-464C-B52B-0AB58CAF383E"
+    },
+    {
+      "Name": "Renga.PropertyType.enum_PropertyType_Logical",
+      "Id": "BA250422-8D39-4FA5-9959-1A8EEA823483"
+    },
+    {
+      "Name": "Renga.PropertyType.enum_PropertyType_Mass",
+      "Id": "C6148A78-3BA5-45A7-8A96-48FB4022C45F"
+    },
+    {
+      "Name": "Renga.PropertyType.enum_PropertyType_Volume",
+      "Id": "FF4F731D-CA21-485B-BB4E-8127CCC632C5"
+    },
+    {
+      "Name": "Renga.AngleUnit.enum_AngleUnit_Unknown",
+      "Id": "ABF1670A-328F-4BBB-862F-537183A2608A"
+    },
+    {
+      "Name": "Renga.AngleUnit.enum_AngleUnit_Degrees",
+      "Id": "FA178D56-36AE-4D6C-B2DE-0F97274E6138"
+    },
+    {
+      "Name": "Renga.AreaUnit.enum_AreaUnit_Unknown",
+      "Id": "3B360EEE-7559-452E-895E-B16FCE6EAB77"
+    },
+    {
+      "Name": "Renga.AreaUnit.enum_AreaUnit_Millimeters2",
+      "Id": "31033BD0-AB01-47B6-B8BD-ADF690C77E98"
+    },
+    {
+      "Name": "Renga.AreaUnit.enum_AreaUnit_Centimeters2",
+      "Id": "47E385AD-A71E-4196-B17A-9301014B2B5B"
+    },
+    {
+      "Name": "Renga.AreaUnit.enum_AreaUnit_Meters2",
+      "Id": "B1756A0E-3C90-4438-A8BD-6E9E8065042C"
+    },
+    {
+      "Name": "Renga.LengthUnit.enum_LengthUnit_Unknown",
+      "Id": "9DDEBE34-E72E-41C9-869C-0E6748AED439"
+    },
+    {
+      "Name": "Renga.LengthUnit.enum_LengthUnit_Millimeters",
+      "Id": "8CB56DD3-7CA3-4F38-81B2-A55F2C184016"
+    },
+    {
+      "Name": "Renga.LengthUnit.enum_LengthUnit_Centimeters",
+      "Id": "AFE967C9-D629-425D-973C-D88050F82F33"
+    },
+    {
+      "Name": "Renga.LengthUnit.enum_LengthUnit_Inches",
+      "Id": "F45255C9-6133-4BF8-B227-EF3D24830EB6"
+    },
+    {
+      "Name": "Renga.LengthUnit.enum_LengthUnit_Meters",
+      "Id": "FAFDC030-6564-4945-B58C-1A0B549E0565"
+    },
+    {
+      "Name": "Renga.Logical.enum_Logical_False",
+      "Id": "39E5FDD3-D4F0-444C-AC5A-C1AC4F12A303"
+    },
+    {
+      "Name": "Renga.Logical.enum_Logical_True",
+      "Id": "5D7228EE-C523-4726-958E-44D249F67EE3"
+    },
+    {
+      "Name": "Renga.Logical.enum_Logical_Indeterminate",
+      "Id": "26CAAF63-5EF3-48AD-82AA-F42862961E9A"
+    },
+    {
+      "Name": "Renga.MassUnit.enum_MassUnit_Unknown",
+      "Id": "001CEE69-68FB-4292-B775-BA9F03B94DFB"
+    },
+    {
+      "Name": "Renga.MassUnit.enum_MassUnit_Grams",
+      "Id": "19EAB5D3-B372-4685-8513-32E5E3AF73E5"
+    },
+    {
+      "Name": "Renga.MassUnit.enum_MassUnit_Kilograms",
+      "Id": "97457E0C-BDFF-4045-9D0E-90B0DBF6AA05"
+    },
+    {
+      "Name": "Renga.MassUnit.enum_MassUnit_Tons",
+      "Id": "CC257A1B-E8B7-4F4B-99CF-04D73D6B9176"
+    },
+    {
+      "Name": "Renga.VolumeUnit.enum_VolumeUnit_Unknown",
+      "Id": "A2D95C30-A01C-4B17-8A56-49910EE19041"
+    },
+    {
+      "Name": "Renga.VolumeUnit.enum_VolumeUnit_Millimeters3",
+      "Id": "1E634195-5806-40F5-B3B1-4661D86E3C92"
+    },
+    {
+      "Name": "Renga.VolumeUnit.enum_VolumeUnit_Centimeters3",
+      "Id": "FB70E1E6-F2A7-4D20-B64F-3E55F96296D0"
+    },
+    {
+      "Name": "Renga.VolumeUnit.enum_VolumeUnit_Meters3",
+      "Id": "268051E2-5DAA-4FF7-92C0-0AD8CDC1357C"
+    },
+    {
+      "Name": "Renga.ParameterValueType.enum_ParameterValueType_Undefined",
+      "Id": "16D89E70-B66B-4DAD-A703-F40BDF5E48AA"
+    },
+    {
+      "Name": "Renga.ParameterValueType.enum_ParameterValueType_Bool",
+      "Id": "9B0C0C15-A3AF-4CC2-9409-075024326DC9"
+    },
+    {
+      "Name": "Renga.ParameterValueType.enum_ParameterValueType_Int",
+      "Id": "C6864ED5-E97B-453A-ACCF-F8EC00F21985"
+    },
+    {
+      "Name": "Renga.ParameterValueType.enum_ParameterValueType_Double",
+      "Id": "C186A609-485F-44AE-81DF-32FC12C896EA"
+    },
+    {
+      "Name": "Renga.ParameterValueType.enum_ParameterValueType_String",
+      "Id": "6BB71620-0229-4369-AB1F-F8428A6C2D90"
+    },
+    {
+      "Name": "Renga.ParameterType.enum_ParameterType_Undefined",
+      "Id": "6C7026FC-6227-4B45-B846-9F89B1673601"
+    },
+    {
+      "Name": "Renga.ParameterType.enum_ParameterType_Bool",
+      "Id": "E7ACA805-A986-4F4E-8AAD-A9B08C45A8A9"
+    },
+    {
+      "Name": "Renga.ParameterType.enum_ParameterType_Int",
+      "Id": "D77C5598-7454-443F-9CB9-7480BB2BD379"
+    },
+    {
+      "Name": "Renga.ParameterType.enum_ParameterType_Double",
+      "Id": "CC50CA18-ECD4-4581-BF30-798D80A57B28"
+    },
+    {
+      "Name": "Renga.ParameterType.enum_ParameterType_String",
+      "Id": "C4651135-8E76-4C7D-BC24-E4602FDD8C79"
+    },
+    {
+      "Name": "Renga.ParameterType.enum_ParameterType_Length",
+      "Id": "0965EFE2-8ECD-46FE-BFD4-750E554CE726"
+    },
+    {
+      "Name": "Renga.ParameterType.enum_ParameterType_Angle",
+      "Id": "A6E659F4-6D9D-463A-B755-64FAAD3213AC"
+    },
+    {
+      "Name": "Renga.ParameterType.enum_ParameterType_IntEnumeration",
+      "Id": "E1679920-2128-4E7D-A868-F466C32E6CEB"
+    },
+    {
+      "Name": "Renga.ParameterType.enum_ParameterType_IntID",
+      "Id": "F5AD6BA2-6DD1-4897-B529-E03BE4057C0A"
+    },
+    {
+      "Name": "Renga.ParameterType.enum_ParameterType_Area",
+      "Id": "F00035A0-2C0A-40DE-A179-C6BE67F88291"
+    },
+    {
+      "Name": "Renga.ParameterType.enum_ParameterType_Volume",
+      "Id": "BD9C1AFA-6584-44B6-85AA-EDC7B52774FE"
+    },
+    {
+      "Name": "Renga.ParameterType.enum_ParameterType_Mass",
+      "Id": "2931B05F-B002-4E04-8956-9887EBE6A223"
+    },
+    {
+      "Name": "Renga.ParameterType.enum_ParameterType_Temperature",
+      "Id": "B5CECD89-8626-4435-89D8-2D0844E2FD3F"
+    },
+    {
+      "Name": "Renga.ParameterType.enum_ParameterType_Density",
+      "Id": "BA6057F8-50B0-4921-8595-51424F77C326"
+    },
+    {
+      "Name": "Renga.ParameterType.enum_ParameterType_ThermalConductivity",
+      "Id": "8DF99F35-0D49-4F1C-BEE0-CFF3E0AE1ED1"
+    },
+    {
+      "Name": "Renga.ParameterType.enum_ParameterType_Voltage",
+      "Id": "23173B3A-7F48-4BBF-9847-38B984E26B93"
+    },
+    {
+      "Name": "Renga.ParameterType.enum_ParameterType_List",
+      "Id": "9E79EC88-A063-4F94-9A51-90DC01A27BA9"
+    },
+    {
+      "Name": "Renga.QuantityType.enum_QuantityType_Unknown",
+      "Id": "955D0D0A-1FFF-4BAA-A72B-970DB80A1A42"
+    },
+    {
+      "Name": "Renga.QuantityType.enum_QuantityType_Count",
+      "Id": "87D3FBB5-8093-4A94-9767-0D1A6B53C0DE"
+    },
+    {
+      "Name": "Renga.QuantityType.enum_QuantityType_Length",
+      "Id": "45F34761-6363-4D77-8797-15B3676B0FF9"
+    },
+    {
+      "Name": "Renga.QuantityType.enum_QuantityType_Area",
+      "Id": "998BC730-FC24-4065-876B-7F33C762D17D"
+    },
+    {
+      "Name": "Renga.QuantityType.enum_QuantityType_Volume",
+      "Id": "F22A473F-6A92-4474-8D40-1A60BC9BCAAD"
+    },
+    {
+      "Name": "Renga.QuantityType.enum_QuantityType_Mass",
+      "Id": "DBD1C19A-64CD-4843-A347-4437C8BF40DB"
+    },
+    {
+      "Name": "Renga.FlowDirectionType.enum_FlowDirectionType_Inlet",
+      "Id": "59D08D3E-C541-408C-B7E5-C04A5E1DF85C"
+    },
+    {
+      "Name": "Renga.FlowDirectionType.enum_FlowDirectionType_Outlet",
+      "Id": "9ED87EAB-5C4C-46C6-95C5-0FF98506E861"
+    },
+    {
+      "Name": "Renga.FlowDirectionType.enum_FlowDirectionType_InletAndOutlet",
+      "Id": "9FE7456E-D804-4794-B080-9689F8AEA329"
+    },
+    {
+      "Name": "Renga.FlowDirectionType.enum_FlowDirectionType_Undefined",
+      "Id": "747E8B30-2BBD-4FCE-9F52-108B73C503E4"
+    },
+    {
+      "Name": "Renga.LayeredMaterialGroup.enum_LayeredMaterialGroup_Undefined",
+      "Id": "8A070107-A961-40EE-AD76-A2ED5FF8083E"
+    },
+    {
+      "Name": "Renga.LayeredMaterialGroup.enum_LayeredMaterialGroup_Wall",
+      "Id": "B70374B7-DBFE-47B6-9849-4A3AFEBE45BA"
+    },
+    {
+      "Name": "Renga.LayeredMaterialGroup.enum_LayeredMaterialGroup_Floor",
+      "Id": "9F531263-AA06-4380-BB93-29364ABC27FE"
+    },
+    {
+      "Name": "Renga.LayeredMaterialGroup.enum_LayeredMaterialGroup_Roof",
+      "Id": "1EE411C2-DBA6-40A4-AB21-1A21FD629B79"
+    },
+    {
+      "Name": "Renga.Curve3DType.enum_Curve3DType_Undefined",
+      "Id": "AA0E2EEB-55CB-4A74-A41E-36CEACC6A107"
+    },
+    {
+      "Name": "Renga.Curve3DType.enum_Curve3DType_LineSegment",
+      "Id": "AD107F7D-A8C8-4E4A-9B10-1DD1E154B506"
+    },
+    {
+      "Name": "Renga.Curve3DType.enum_Curve3DType_Arc",
+      "Id": "66429F2C-AE05-4EFC-84D6-CDB939D0C1E3"
+    },
+    {
+      "Name": "Renga.Curve3DType.enum_Curve3DType_PolyCurve",
+      "Id": "95DB9A13-C3BC-4A91-B5B0-014C7F840A3B"
+    },
+    {
+      "Name": "Renga.ReinforcementUnitType.enum_ReinforcementUnitType_Undefined",
+      "Id": "A643853D-E6D2-4A77-824E-3553CBEECE3B"
+    },
+    {
+      "Name": "Renga.ReinforcementUnitType.enum_ReinforcementUnitType_Mesh",
+      "Id": "B079DBB5-028A-4527-A8E2-174C5189A7D5"
+    },
+    {
+      "Name": "Renga.ReinforcementUnitType.enum_ReinforcementUnitType_Cage",
+      "Id": "8D56CF20-ADBC-4597-88AA-5C4A51B581E5"
+    },
+    {
+      "Name": "Renga.ProjectType.enum_ProjectType_Project",
+      "Id": "A0BD27BE-626E-482A-8178-6D99A0D100D9"
+    },
+    {
+      "Name": "Renga.ProjectType.enum_ProjectType_Template",
+      "Id": "DFD3378B-C632-4BDD-AD54-4E3E1079790C"
+    },
+    {
+      "Name": "Renga.AutocadVersion.enum_AutocadVersion_v2000",
+      "Id": "6FF1B915-1A60-471E-B885-DB8646EA9359"
+    },
+    {
+      "Name": "Renga.AutocadVersion.enum_AutocadVersion_v2004",
+      "Id": "B487930D-401D-47B6-9C89-42EFFF664332"
+    },
+    {
+      "Name": "Renga.AutocadVersion.enum_AutocadVersion_v2007",
+      "Id": "EE7B0483-8788-4B3B-B019-587674B767D2"
+    },
+    {
+      "Name": "Renga.AutocadVersion.enum_AutocadVersion_v2010",
+      "Id": "11F2903E-4ADA-451B-AF9E-DFB894DF818C"
+    },
+    {
+      "Name": "Renga.AutocadVersion.enum_AutocadVersion_v2013",
+      "Id": "E207A30B-2B13-47C9-A6E6-22908FC2A7BE"
+    },
+    {
+      "Name": "Renga.AutocadVersion.enum_AutocadVersion_v2018",
+      "Id": "368C12B4-0BC6-4492-8CEB-781D8414C540"
+    },
+    {
+      "Name": "Renga.Curve2DType.enum_Curve2DType_Undefined",
+      "Id": "0A73C04E-9018-44A7-BF22-5DBD393CEE07"
+    },
+    {
+      "Name": "Renga.Curve2DType.enum_Curve2DType_LineSegment",
+      "Id": "1294C238-F9B4-4939-A62B-BFD8797FE078"
+    },
+    {
+      "Name": "Renga.Curve2DType.enum_Curve2DType_Arc",
+      "Id": "61BF47C7-82D9-4EAA-8677-83B06B09D5EB"
+    },
+    {
+      "Name": "Renga.Curve2DType.enum_Curve2DType_PolyCurve",
+      "Id": "D3A7EC7F-C397-427D-9FB0-5499B193D26E"
+    },
+    {
+      "Name": "Renga.SystemCategory.enum_SystemCategory_Unknown",
+      "Id": "C31EF67B-3F78-47B1-B04C-43530358EBE3"
+    },
+    {
+      "Name": "Renga.SystemCategory.enum_SystemCategory_DomesticColdWater",
+      "Id": "7FC0D150-9CFB-4368-B337-2A0938D58725"
+    },
+    {
+      "Name": "Renga.SystemCategory.enum_SystemCategory_DomesticHotWater",
+      "Id": "D0C5E269-BD4D-4B71-A086-53ADE440BEE0"
+    },
+    {
+      "Name": "Renga.SystemCategory.enum_SystemCategory_DomesticSewerage",
+      "Id": "9BF99252-CF0C-4785-9E4C-B23F4EFCF97E"
+    },
+    {
+      "Name": "Renga.SystemCategory.enum_SystemCategory_DomesticGasSupply",
+      "Id": "7BC1CF48-CF93-47D5-99F5-5F1EDB459C6B"
+    },
+    {
+      "Name": "Renga.SystemCategory.enum_SystemCategory_WaterFireExtinguishing",
+      "Id": "2CA46AC8-F403-417C-BC7C-7B4143CA6DCC"
+    },
+    {
+      "Name": "Renga.SystemCategory.enum_SystemCategory_WaterHeating",
+      "Id": "B038C940-5E73-4605-853A-400AE4F99F72"
+    },
+    {
+      "Name": "Renga.SystemCategory.enum_SystemCategory_GasFireExtinguishing",
+      "Id": "3429B3B3-1CAE-40F1-957E-2AAEAD53B588"
+    },
+    {
+      "Name": "Renga.SystemCategory.enum_SystemCategory_StormDrain",
+      "Id": "E07BF5C5-5A8A-4589-9E66-F8A73C62EF98"
+    },
+    {
+      "Name": "Renga.SystemCategory.enum_SystemCategory_IndustrialColdWater",
+      "Id": "FFC10862-F8BF-432D-901A-4CA0BC066E8F"
+    },
+    {
+      "Name": "Renga.SystemCategory.enum_SystemCategory_IndustrialHotWater",
+      "Id": "0BFFE4FF-0E8D-4FCE-BFEC-D450009D832D"
+    },
+    {
+      "Name": "Renga.SystemCategory.enum_SystemCategory_IndustrialSewerage",
+      "Id": "923D1EF5-BDCB-49CE-AC81-E1A3AB20DA79"
+    },
+    {
+      "Name": "Renga.SystemCategory.enum_SystemCategory_OtherPipeSystem",
+      "Id": "20EF8103-CBBB-424F-BF1A-7E2A3B89A79B"
+    },
+    {
+      "Name": "Renga.SystemCategory.enum_SystemCategory_Ventilation",
+      "Id": "A919AA0B-9C78-4943-81DB-8534024EC0D0"
+    },
+    {
+      "Name": "Renga.SystemCategory.enum_SystemCategory_Exhaust",
+      "Id": "F30D1658-5E54-4291-826F-2A81204CE260"
+    },
+    {
+      "Name": "Renga.SystemCategory.enum_SystemCategory_Pressurization",
+      "Id": "42714621-6C81-484C-8D39-BFF518BCA8D8"
+    },
+    {
+      "Name": "Renga.SystemCategory.enum_SystemCategory_SmokeExhaust",
+      "Id": "B48CB9F9-AC68-4FD4-9600-E94B2BD8EC47"
+    },
+    {
+      "Name": "Renga.SystemCategory.enum_SystemCategory_Vacuum",
+      "Id": "27F32854-26EF-4A3F-BD94-D7DB5E78ABD1"
+    },
+    {
+      "Name": "Renga.SystemCategory.enum_SystemCategory_OtherDuctSystem",
+      "Id": "3D5C51AB-959E-4E4D-88D5-AD671FADB483"
+    },
+    {
+      "Name": "Renga.SystemCategory.enum_SystemCategory_LightingCircuit",
+      "Id": "62086B2F-105A-4890-A554-1117BE0AE25C"
+    },
+    {
+      "Name": "Renga.SystemCategory.enum_SystemCategory_PowerCircuit",
+      "Id": "C08C834B-C560-4310-8FC7-62BE305E0479"
+    },
+    {
+      "Name": "Renga.SystemCategory.enum_SystemCategory_OtherElectricalSystem",
+      "Id": "EE9B16C0-674F-4F1B-93FD-36700C062205"
+    },
+    {
+      "Name": "Renga.PlumbingFixtureCategory.enum_PlumbingFixtureCategory_Other",
+      "Id": "3C4EF392-B2F1-4EFA-9339-0D759B42F7FE"
+    },
+    {
+      "Name": "Renga.PlumbingFixtureCategory.enum_PlumbingFixtureCategory_ToiletPan",
+      "Id": "484E562D-01D4-4CAC-94DC-3FAA7AF41293"
+    },
+    {
+      "Name": "Renga.PlumbingFixtureCategory.enum_PlumbingFixtureCategory_WashBasin",
+      "Id": "CC06C553-988D-4378-AD01-F64DE944D9C7"
+    },
+    {
+      "Name": "Renga.PlumbingFixtureCategory.enum_PlumbingFixtureCategory_Bath",
+      "Id": "650DD8A7-5BA7-4A39-B081-1FADC65FF14D"
+    },
+    {
+      "Name": "Renga.PlumbingFixtureCategory.enum_PlumbingFixtureCategory_Sink",
+      "Id": "FD151D59-1334-4BFE-8652-6A548824EB7E"
+    },
+    {
+      "Name": "Renga.PlumbingFixtureCategory.enum_PlumbingFixtureCategory_Shower",
+      "Id": "4D4B566A-BA37-4831-9D46-2834877FC2CA"
+    },
+    {
+      "Name": "Renga.PlumbingFixtureCategory.enum_PlumbingFixtureCategory_FloorDrain",
+      "Id": "B1AAD287-7F42-4A96-A8F4-E059A9B4C620"
+    },
+    {
+      "Name": "Renga.PlumbingFixtureCategory.enum_PlumbingFixtureCategory_RoofDrain",
+      "Id": "CE154FFB-B122-4B8A-80B3-7CEB705D3212"
+    },
+    {
+      "Name": "Renga.PlumbingFixtureCategory.enum_PlumbingFixtureCategory_Bidet",
+      "Id": "F6EE82DA-7052-4F8D-8FBF-3FDA6E572E2F"
+    },
+    {
+      "Name": "Renga.PlumbingFixtureCategory.enum_PlumbingFixtureCategory_Urinal",
+      "Id": "7A41634E-8D11-459E-B01F-100F646FC45F"
+    },
+    {
+      "Name": "Renga.EquipmentCategory.enum_EquipmentCategory_Other",
+      "Id": "D40726D5-0F76-43CE-8866-D17E20D520C1"
+    },
+    {
+      "Name": "Renga.EquipmentCategory.enum_EquipmentCategory_Faucet",
+      "Id": "366F0133-41E1-43AB-B09D-C0255BC8B2C4"
+    },
+    {
+      "Name": "Renga.EquipmentCategory.enum_EquipmentCategory_Manifold",
+      "Id": "8473A5C7-0CD5-4296-A773-54135FE61D98"
+    },
+    {
+      "Name": "Renga.EquipmentCategory.enum_EquipmentCategory_Pump",
+      "Id": "99D210A0-7E90-4BEF-9A27-2817F0C0135C"
+    },
+    {
+      "Name": "Renga.EquipmentCategory.enum_EquipmentCategory_WashingMachine",
+      "Id": "1C5BAD0B-8F0B-40AA-89F8-7BE40DCD442E"
+    },
+    {
+      "Name": "Renga.EquipmentCategory.enum_EquipmentCategory_Radiator",
+      "Id": "C20E530E-BFF9-4082-812E-90E02CA7B21B"
+    },
+    {
+      "Name": "Renga.EquipmentCategory.enum_EquipmentCategory_TowelRadiator",
+      "Id": "6E810FC1-E479-4EA2-950C-30F3A69921D9"
+    },
+    {
+      "Name": "Renga.EquipmentCategory.enum_EquipmentCategory_ExpansionVessel",
+      "Id": "43AC1301-C6F1-4CC7-9FC4-46E5E6DFA886"
+    },
+    {
+      "Name": "Renga.EquipmentCategory.enum_EquipmentCategory_PlateHeatExchanger",
+      "Id": "DCCB1AFC-0811-4992-B939-A959894BB5AF"
+    },
+    {
+      "Name": "Renga.EquipmentCategory.enum_EquipmentCategory_Boiler",
+      "Id": "DF81D5C5-49F2-4A59-B8E6-3D202C593098"
+    },
+    {
+      "Name": "Renga.fcVersion.enum_IfcVersion_4",
+      "Id": "491DB7B6-C47E-42A5-BF37-398449301145"
+    },
+    {
+      "Name": "Renga.VisualStyle.enum_VisualStyle_Undefined",
+      "Id": "5F5147F2-7D4B-4920-9BC9-2C4B6D39968C"
+    },
+    {
+      "Name": "Renga.VisualStyle.enum_VisualStyle_Wireframe",
+      "Id": "687A4A00-5CF7-4855-8638-61B83B9E8735"
+    },
+    {
+      "Name": "Renga.VisualStyle.enum_VisualStyle_Monochrome",
+      "Id": "522BD514-FF5A-49E2-82F2-986E21F7B5DC"
+    },
+    {
+      "Name": "Renga.VisualStyle.enum_VisualStyle_Color",
+      "Id": "BC27F028-B2DB-4C59-94E4-3BDC4C7784E9"
+    },
+    {
+      "Name": "Renga.VisualStyle.enum_VisualStyle_Textured",
+      "Id": "291D1199-A9B4-4712-84F1-BCABDC185B34"
+    },
+    {
+      "Name": "Renga.EventType.enum_EventType_EventTypeNone",
+      "Id": "DD109C90-2EE1-4934-B849-7FFE6D87B4AE"
+    },
+    {
+      "Name": "Renga.EventType.enum_EventType_ProjectClose",
+      "Id": "3DD9A15B-227A-4110-BF35-4DED9EA9428F"
+    },
+    {
+      "Name": "Renga.EventType.enum_EventType_ApplicationClose",
+      "Id": "AE5769B6-8DB7-4862-99B3-6F5CD9840206"
+    },
+    {
+      "Name": "Renga.Line3DStyle.enum_Line3DStyle_None",
+      "Id": "321B65F6-D7B8-45C1-B181-4A51827C1ABD"
+    },
+    {
+      "Name": "Renga.Line3DStyle.enum_Line3DStyle_Solid",
+      "Id": "505EDE2A-1574-4830-A796-4C903AFA6AD5"
+    },
+    {
+      "Name": "Renga.Line3DStyle.enum_Line3DStyle_Dash",
+      "Id": "7FBB1674-11A7-4132-906D-56265AD2E330"
+    },
+    {
+      "Name": "Renga.Line3DStyle.enum_Line3DStyle_DashDot",
+      "Id": "0A9A1819-7E87-4B79-83D9-61C11AF1431B"
+    },
+    {
+      "Name": "Renga.Line3DStyle.enum_Line3DStyle_Dot",
+      "Id": "48FA563C-1F25-4E84-A6E7-2E9999D9A085"
+    },
+    {
+      "Name": "Renga.Line3DStyle.enum_Line3DStyle_SpecialDash",
+      "Id": "675233D1-2F6D-4CF8-AA64-779039FDBC81"
+    },
+    {
+      "Name": "Renga.Line3DStyle.enum_Line3DStyle_SpecialDashDot",
+      "Id": "A5237768-1D29-4B6B-A214-F4DE2D6C0C54"
+    },
+    {
+      "Name": "Renga.Line3DStyle.enum_Line3DStyle_SpecialDot",
+      "Id": "0A928652-F1A0-48EE-A842-8BB19832D382"
+    },
+    {
+      "Name": "Renga.Line3DStyle.enum_Line3DStyle_DashDotDot",
+      "Id": "3913D795-8E2D-401E-980C-111E8F3EB511"
+    },
+    {
+      "Name": "Renga.PipeConnectionType.enum_PipeConnectionType_Weld",
+      "Id": "42B62262-5B40-435D-9368-955E51C67D43"
+    },
+    {
+      "Name": "Renga.PipeConnectionType.enum_PipeConnectionType_Flange",
+      "Id": "EA24B2CE-0159-4818-AAB6-C3191AEBE280"
+    },
+    {
+      "Name": "Renga.PipeConnectionType.enum_PipeConnectionType_Compressed",
+      "Id": "46C8616B-7452-4020-B547-BBE2FA7EE8B8"
+    },
+    {
+      "Name": "Renga.PipeConnectionType.enum_PipeConnectionType_Socket",
+      "Id": "66D57818-8E39-43D5-A006-60EA0145B044"
+    },
+    {
+      "Name": "Renga.PipeConnectionType.enum_PipeConnectionType_Thread",
+      "Id": "BEAEB2A0-837E-47DD-A985-4C2BD698FA22"
+    },
+    {
+      "Name": "Renga.PipeConnectionType.enum_PipeConnectionType_QuickConnection",
+      "Id": "D477413F-12AA-47E3-87B2-A9D53A580D4E"
+    },
+    {
+      "Name": "Renga.PipeConnectionType.enum_PipeConnectionType_Glue",
+      "Id": "5461FE04-F830-4BEE-A5CC-B74D3CBF9D83"
+    },
+    {
+      "Name": "Renga.PipeConnectionType.enum_PipeConnectionType_FusionWelding",
+      "Id": "0904F70F-F8B1-4158-9BA9-F3DC4DFB0AC0"
+    },
+    {
+      "Name": "Renga.PipeConnectionType.enum_PipeConnectionType_Grooved",
+      "Id": "39F0877A-A9C7-4B99-BA3F-70ED3F44D07F"
+    },
+    {
+      "Name": "Renga.DuctConnectionType.enum_DuctConnectionType_Drawband",
+      "Id": "8D3EAE4C-DD04-4A2C-B655-7607C40D1B1F"
+    },
+    {
+      "Name": "Renga.DuctConnectionType.enum_DuctConnectionType_SlipOn",
+      "Id": "B5DEFFFB-CB71-4357-B9AF-4E2DB61DDB2C"
+    },
+    {
+      "Name": "Renga.DuctConnectionType.enum_DuctConnectionType_DriveSlip",
+      "Id": "978B7459-A920-4A68-96D2-E9658C800B0C"
+    },
+    {
+      "Name": "Renga.DuctConnectionType.enum_DuctConnectionType_Weld",
+      "Id": "03004F94-7484-4297-B971-0323DD4D5D57"
+    },
+    {
+      "Name": "Renga.DuctConnectionType.enum_DuctConnectionType_Flange",
+      "Id": "DE71BAFB-6C20-4970-8D19-A92775CF6E56"
+    },
+    {
+      "Name": "Renga.DuctFormType.enum_DuctFormType_Circle",
+      "Id": "8294FBC8-C72C-4B64-B31E-174F8782725A"
+    },
+    {
+      "Name": "Renga.DuctFormType.enum_DuctFormType_Rect",
+      "Id": "62FF749F-189D-4694-AEE4-F926D6EFB81B"
+    },
+    {
+      "Name": "Renga.enum_ImageFormat.enum_ImageFormat_Undefined",
+      "Id": "94E6E643-AB66-4C76-BB9D-D062C067BFEB"
+    },
+    {
+      "Name": "Renga.enum_ImageFormat.enum_ImageFormat_BMP",
+      "Id": "40F7E5ED-CA01-478F-AAE7-0FB083186CA8"
+    },
+    {
+      "Name": "Renga.enum_ImageFormat.enum_ImageFormat_PNG",
+      "Id": "AF4A5082-1736-43E3-98FF-D054B46B684D"
+    },
+    {
+      "Name": "Renga.enum_ViewType.enum_ViewType_Undefined",
+      "Id": "418442BD-1725-43CB-A30E-909792C54208"
+    },
+    {
+      "Name": "Renga.enum_ViewType.enum_ViewType_ProjectExplorer",
+      "Id": "C00A5A15-71B8-414E-96C8-AEB9007F81E2"
+    },
+    {
+      "Name": "Renga.enum_ViewType.enum_ViewType_View3D",
+      "Id": "1EE68BC9-895E-47DF-A67F-5C5FDEE7423C"
+    },
+    {
+      "Name": "Renga.enum_ViewType.enum_ViewType_Level",
+      "Id": "C531AE45-522B-47F2-8A8A-F940EE3EA655"
+    },
+    {
+      "Name": "Renga.enum_ViewType.enum_ViewType_Section",
+      "Id": "B6FCA925-039B-4347-AA3D-09B3BF29BC03"
+    },
+    {
+      "Name": "Renga.enum_ViewType.enum_ViewType_Facade",
+      "Id": "01FE324E-6ABF-472D-A297-6464F828FCF0"
+    },
+    {
+      "Name": "Renga.enum_ViewType.enum_ViewType_Sheet",
+      "Id": "64471E64-2550-4A05-A9EE-45C9BF41A694"
+    },
+    {
+      "Name": "Renga.enum_ViewType.enum_ViewType_Table",
+      "Id": "9E536D1C-7DB0-473E-B350-1A397D517C5B"
+    },
+    {
+      "Name": "Renga.enum_ViewType.enum_ViewType_Specification",
+      "Id": "07C167C3-4061-4EBB-A518-191C870E0792"
+    },
+    {
+      "Name": "Renga.enum_ViewType.enum_ViewType_SectionProfile",
+      "Id": "06FEABBC-A4D8-482D-AE89-A7C79CC3FC43"
+    },
+    {
+      "Name": "Renga.enum_ViewType.enum_ViewType_Assembly",
+      "Id": "6FA6A5D8-C2DE-4CC4-8634-4CDF949D9249"
+    },
+    {
+      "Name": "Renga.enum_ViewType.enum_ViewType_PipeSystem",
+      "Id": "302D994D-F759-4C0A-A0C0-8631D95EA158"
+    },
+    {
+      "Name": "Renga.enum_ContextMenuShowCase.enum_ContextMenuShowCase_Scene",
+      "Id": "85962A97-F6E9-43F1-A05C-104654DF7DEC"
+    },
+    {
+      "Name": "Renga.enum_ContextMenuShowCase.enum_ContextMenuShowCase_Selection",
+      "Id": "B858E7EF-EE78-458B-8F22-046C184E45C2"
+    },
+    {
+      "Name": "Renga.enum_MessageIcon.enum_MessageIcon_NoIcon",
+      "Id": "4D392921-0596-4B3A-B66C-1DD3B1D5A4DF"
+    },
+    {
+      "Name": "Renga.enum_MessageIcon.enum_MessageIcon_Info",
+      "Id": "225FC2AA-36A9-4236-953A-1071D4301157"
+    },
+    {
+      "Name": "Renga.enum_MessageIcon.enum_MessageIcon_Warning",
+      "Id": "06CCD122-5D06-4659-A1C4-BA35EDD478B4"
+    },
+    {
+      "Name": "Renga.enum_MessageIcon.enum_MessageIcon_Error",
+      "Id": "7DCBEE47-FC89-44A6-B9AA-7E9C80389862"
+    },
+    {
+      "Name": "Renga.enum_MessageIcon.enum_MessageIcon_Question",
+      "Id": "1B2AFEC8-A673-4670-AF44-420A7FDEC3C9"
+    },
+    {
+      "Name": "Renga.enum_PropertyType.enum_PropertyType_Undefined",
+      "Id": "92B4F61E-D87C-4933-B0F5-D8E167C7D965"
+    },
+    {
+      "Name": "Renga.enum_PropertyType.enum_PropertyType_Double",
+      "Id": "FE3E863C-9F82-4845-A571-FE32BF7991FA"
+    },
+    {
+      "Name": "Renga.enum_PropertyType.enum_PropertyType_String",
+      "Id": "9575BA92-DD3C-4712-8FC4-CD59741CA568"
+    },
+    {
+      "Name": "Renga.enum_PropertyType.enum_PropertyType_Angle",
+      "Id": "E2FF95F9-D14E-48FB-A5FB-404FA24C1A21"
+    },
+    {
+      "Name": "Renga.enum_PropertyType.enum_PropertyType_Area",
+      "Id": "804DB4E5-E549-47AF-ACDF-0D5D3B4F152B"
+    },
+    {
+      "Name": "Renga.enum_PropertyType.enum_PropertyType_Boolean",
+      "Id": "36C9F8C0-A165-4DA5-A23E-22A9F645E746"
+    },
+    {
+      "Name": "Renga.enum_PropertyType.enum_PropertyType_Enumeration",
+      "Id": "6FA0F5BB-C342-46FE-8B32-72D4369DF2AC"
+    },
+    {
+      "Name": "Renga.enum_PropertyType.enum_PropertyType_Integer",
+      "Id": "39BDF975-3700-4E3A-A14C-74391AE034B2"
+    },
+    {
+      "Name": "Renga.enum_PropertyType.enum_PropertyType_Length",
+      "Id": "58CCCF5D-E8BE-4322-9930-6A90B05130E7"
+    },
+    {
+      "Name": "Renga.enum_PropertyType.enum_PropertyType_Logical",
+      "Id": "644CB678-6CEC-4F90-B4E3-43C7CF93AA94"
+    },
+    {
+      "Name": "Renga.enum_PropertyType.enum_PropertyType_Mass",
+      "Id": "CAA993AB-24A8-4D93-B975-0E98EE350EC6"
+    },
+    {
+      "Name": "Renga.enum_PropertyType.enum_PropertyType_Volume",
+      "Id": "FF0BFF4B-76D7-41FF-8727-55A61B5D4A81"
+    },
+    {
+      "Name": "Renga.enum_AngleUnit.enum_AngleUnit_Unknown",
+      "Id": "F683C9D3-B392-4BC2-AC13-F6DA55862AED"
+    },
+    {
+      "Name": "Renga.enum_AngleUnit.enum_AngleUnit_Degrees",
+      "Id": "09FA352A-2626-4E73-9B63-39079DF960AB"
+    },
+    {
+      "Name": "Renga.enum_AreaUnit.enum_AreaUnit_Unknown",
+      "Id": "8B0721C8-A568-404A-B8BC-A61553EF2C54"
+    },
+    {
+      "Name": "Renga.enum_AreaUnit.enum_AreaUnit_Millimeters2",
+      "Id": "2DA5D689-5744-42FB-9F7E-EC8FD89D7AE8"
+    },
+    {
+      "Name": "Renga.enum_AreaUnit.enum_AreaUnit_Centimeters2",
+      "Id": "535E9F49-AB07-4F01-9ECC-10FF9D1C3E92"
+    },
+    {
+      "Name": "Renga.enum_AreaUnit.enum_AreaUnit_Meters2",
+      "Id": "F6E64C9D-0B08-4C09-B180-01AE2104AA70"
+    },
+    {
+      "Name": "Renga.enum_LengthUnit.enum_LengthUnit_Unknown",
+      "Id": "EA0EB11B-B236-46FA-BBDE-1980CCBCFF48"
+    },
+    {
+      "Name": "Renga.enum_LengthUnit.enum_LengthUnit_Millimeters",
+      "Id": "AD64C947-6B26-4BF6-A894-919D39A2748F"
+    },
+    {
+      "Name": "Renga.enum_LengthUnit.enum_LengthUnit_Centimeters",
+      "Id": "A48E5168-0319-48BB-ADA5-0416A67791AF"
+    },
+    {
+      "Name": "Renga.enum_LengthUnit.enum_LengthUnit_Inches",
+      "Id": "B581BCFD-BCC8-4863-A1D5-76A0CE2C39E7"
+    },
+    {
+      "Name": "Renga.enum_LengthUnit.enum_LengthUnit_Meters",
+      "Id": "76492475-A951-4B2D-9894-A9213399081F"
+    },
+    {
+      "Name": "Renga.enum_Logical.enum_Logical_False",
+      "Id": "095FD0A5-A3A4-4B66-A2A2-33903F4DC8B5"
+    },
+    {
+      "Name": "Renga.enum_Logical.enum_Logical_True",
+      "Id": "B4C641E9-CB40-405C-A3E6-0ABEEF73C08A"
+    },
+    {
+      "Name": "Renga.enum_Logical.enum_Logical_Indeterminate",
+      "Id": "C16B4665-78E1-463E-89E4-AF780B7D39F5"
+    },
+    {
+      "Name": "Renga.enum_MassUnit.enum_MassUnit_Unknown",
+      "Id": "164E4E22-C29E-457E-AA31-80B057550935"
+    },
+    {
+      "Name": "Renga.enum_MassUnit.enum_MassUnit_Grams",
+      "Id": "DA82AAA8-21B5-4BF2-9797-8B2C87D4FA5D"
+    },
+    {
+      "Name": "Renga.enum_MassUnit.enum_MassUnit_Kilograms",
+      "Id": "95F26EDC-62FD-46C4-90DB-2405A8F0FA13"
+    },
+    {
+      "Name": "Renga.enum_MassUnit.enum_MassUnit_Tons",
+      "Id": "FEFEF8E0-7757-4D65-B10C-F8D400CEE7EE"
+    },
+    {
+      "Name": "Renga.enum_VolumeUnit.enum_VolumeUnit_Unknown",
+      "Id": "F3301906-E44B-49A1-9600-ADD9E5A7DF17"
+    },
+    {
+      "Name": "Renga.enum_VolumeUnit.enum_VolumeUnit_Millimeters3",
+      "Id": "7EB8143D-7FC9-4DC7-ADA3-B7AFA9AB3943"
+    },
+    {
+      "Name": "Renga.enum_VolumeUnit.enum_VolumeUnit_Centimeters3",
+      "Id": "B8317A2F-B5F6-41EA-8FC5-731E4ABBB6AF"
+    },
+    {
+      "Name": "Renga.enum_VolumeUnit.enum_VolumeUnit_Meters3",
+      "Id": "A428F874-3806-4DBF-A463-D9F464B3A1D0"
+    },
+    {
+      "Name": "Renga.enum_.enum_HRESULT",
+      "Id": "861EC6E5-F62A-496D-B485-D97E51CF98C1"
+    },
+    {
+      "Name": "Renga.enum_ParameterValueType.enum_ParameterValueType_Undefined",
+      "Id": "00B8E33C-817B-4BCA-A40D-7D2C682DA8C9"
+    },
+    {
+      "Name": "Renga.enum_ParameterValueType.enum_ParameterValueType_Bool",
+      "Id": "35D6A400-8B7C-407E-89D5-517773EC9EC2"
+    },
+    {
+      "Name": "Renga.enum_ParameterValueType.enum_ParameterValueType_Int",
+      "Id": "649C6DBE-50AC-40DA-8D53-30820193FBC8"
+    },
+    {
+      "Name": "Renga.enum_ParameterValueType.enum_ParameterValueType_Double",
+      "Id": "572AE46B-8AB4-4C2F-B84F-DA84212528E5"
+    },
+    {
+      "Name": "Renga.enum_ParameterValueType.enum_ParameterValueType_String",
+      "Id": "39502D7D-8FA9-4CE5-A9A6-7D8F9CCA28F7"
+    },
+    {
+      "Name": "Renga.enum_ParameterType.enum_ParameterType_Undefined",
+      "Id": "98D4D0B3-36A9-4828-80A6-576D5A67B75D"
+    },
+    {
+      "Name": "Renga.enum_ParameterType.enum_ParameterType_Bool",
+      "Id": "EC00BCC8-87CD-42B3-B72D-2AC96383B44E"
+    },
+    {
+      "Name": "Renga.enum_ParameterType.enum_ParameterType_Int",
+      "Id": "49AF47A5-ECF9-4F01-8300-272FB482EA5F"
+    },
+    {
+      "Name": "Renga.enum_ParameterType.enum_ParameterType_Double",
+      "Id": "C65E19AB-3998-4C0A-B5DE-DBDEE1B85FD0"
+    },
+    {
+      "Name": "Renga.enum_ParameterType.enum_ParameterType_String",
+      "Id": "FDB763BE-4771-4353-9FF3-C2FA6803ECF7"
+    },
+    {
+      "Name": "Renga.enum_ParameterType.enum_ParameterType_Length",
+      "Id": "98D0BB67-FA84-4545-AD94-317A6EF59896"
+    },
+    {
+      "Name": "Renga.enum_ParameterType.enum_ParameterType_Angle",
+      "Id": "F5069542-B1DF-4651-B7D9-861075811979"
+    },
+    {
+      "Name": "Renga.enum_ParameterType.enum_ParameterType_IntEnumeration",
+      "Id": "99C2CF03-C3F2-4A7F-99AD-73FB9B295514"
+    },
+    {
+      "Name": "Renga.enum_ParameterType.enum_ParameterType_IntID",
+      "Id": "DDD64FFF-8C75-48B0-8A09-43634CDF63DF"
+    },
+    {
+      "Name": "Renga.enum_ParameterType.enum_ParameterType_Area",
+      "Id": "3BCE5824-A28B-491E-AA10-71CD820D64A6"
+    },
+    {
+      "Name": "Renga.enum_ParameterType.enum_ParameterType_Volume",
+      "Id": "F4DC88BD-3C30-4B35-BC5E-7DA5D0425AB6"
+    },
+    {
+      "Name": "Renga.enum_ParameterType.enum_ParameterType_Mass",
+      "Id": "FB549F0D-579E-4E81-BF19-BD5383E2D8F0"
+    },
+    {
+      "Name": "Renga.enum_ParameterType.enum_ParameterType_Temperature",
+      "Id": "1EB4B8D0-7322-470B-9252-065878F7F748"
+    },
+    {
+      "Name": "Renga.enum_ParameterType.enum_ParameterType_Density",
+      "Id": "83DDE159-0C0A-4144-B7A4-7BBE8A00A265"
+    },
+    {
+      "Name": "Renga.enum_ParameterType.enum_ParameterType_ThermalConductivity",
+      "Id": "123AE0E3-0037-479A-848C-CB9EB631D947"
+    },
+    {
+      "Name": "Renga.enum_ParameterType.enum_ParameterType_Voltage",
+      "Id": "B22961E7-33D7-412E-822E-59626195A0EC"
+    },
+    {
+      "Name": "Renga.enum_ParameterType.enum_ParameterType_List",
+      "Id": "53752729-4761-4060-B512-C4C006C9ADB3"
+    },
+    {
+      "Name": "Renga.enum_QuantityType.enum_QuantityType_Unknown",
+      "Id": "0F263A26-5ABA-4D99-9760-7270B50E959B"
+    },
+    {
+      "Name": "Renga.enum_QuantityType.enum_QuantityType_Count",
+      "Id": "5D47973A-987F-4676-817B-1EAE308ABA63"
+    },
+    {
+      "Name": "Renga.enum_QuantityType.enum_QuantityType_Length",
+      "Id": "FDB46104-E43E-4B18-8870-6BE21DF926C8"
+    },
+    {
+      "Name": "Renga.enum_QuantityType.enum_QuantityType_Area",
+      "Id": "386832B4-5ED3-435E-A6F3-31D93DCEDC9C"
+    },
+    {
+      "Name": "Renga.enum_QuantityType.enum_QuantityType_Volume",
+      "Id": "C6910F54-66FE-407D-9C28-3721389FF1A6"
+    },
+    {
+      "Name": "Renga.enum_QuantityType.enum_QuantityType_Mass",
+      "Id": "6E18DEA1-0D50-4C1F-B661-84CE2E4B5133"
+    },
+    {
+      "Name": "Renga.enum_FlowDirectionType.enum_FlowDirectionType_Inlet",
+      "Id": "40E75004-6513-4B5C-9A85-04B993F11F72"
+    },
+    {
+      "Name": "Renga.enum_FlowDirectionType.enum_FlowDirectionType_Outlet",
+      "Id": "838E043B-D93B-4F51-B2CE-C50A0FE00424"
+    },
+    {
+      "Name": "Renga.enum_FlowDirectionType.enum_FlowDirectionType_InletAndOutlet",
+      "Id": "86810291-5173-40AB-85A5-C185D98C73CA"
+    },
+    {
+      "Name": "Renga.enum_FlowDirectionType.enum_FlowDirectionType_Undefined",
+      "Id": "9E460DD6-3433-4E76-BCF0-F04DD823B29E"
+    },
+    {
+      "Name": "Renga.enum_LayeredMaterialGroup.enum_LayeredMaterialGroup_Undefined",
+      "Id": "475AF738-CEE4-469B-BC05-21ABB782893F"
+    },
+    {
+      "Name": "Renga.enum_LayeredMaterialGroup.enum_LayeredMaterialGroup_Wall",
+      "Id": "103845F7-82CE-459D-AE37-C4A7C568098A"
+    },
+    {
+      "Name": "Renga.enum_LayeredMaterialGroup.enum_LayeredMaterialGroup_Floor",
+      "Id": "91CBF3B6-26ED-4863-A520-122A8AA4BFAD"
+    },
+    {
+      "Name": "Renga.enum_LayeredMaterialGroup.enum_LayeredMaterialGroup_Roof",
+      "Id": "DD051A89-0DF4-4B79-A134-8F81BEE4B912"
+    },
+    {
+      "Name": "Renga.enum_Curve3DType.enum_Curve3DType_Undefined",
+      "Id": "787918C5-A714-40E4-A6FC-BF076B96C58C"
+    },
+    {
+      "Name": "Renga.enum_Curve3DType.enum_Curve3DType_LineSegment",
+      "Id": "EB71AA72-53C2-4EB4-9DC0-5D48E68C9568"
+    },
+    {
+      "Name": "Renga.enum_Curve3DType.enum_Curve3DType_Arc",
+      "Id": "4525A1CE-8810-4F8B-B067-2D798087A7B8"
+    },
+    {
+      "Name": "Renga.enum_Curve3DType.enum_Curve3DType_PolyCurve",
+      "Id": "1D2BF162-65B8-4585-85B8-D0015D70F820"
+    },
+    {
+      "Name": "Renga.enum_ReinforcementUnitType.enum_ReinforcementUnitType_Undefined",
+      "Id": "FD085CCB-781C-4EDF-B2D1-724B4BC7A0D6"
+    },
+    {
+      "Name": "Renga.enum_ReinforcementUnitType.enum_ReinforcementUnitType_Mesh",
+      "Id": "5F121E8F-DA53-4832-A4D3-1A82899C31AA"
+    },
+    {
+      "Name": "Renga.enum_ReinforcementUnitType.enum_ReinforcementUnitType_Cage",
+      "Id": "5EFA79BA-9CE5-4ED4-8C58-499761A761D2"
+    },
+    {
+      "Name": "Renga.enum_ProjectType.enum_ProjectType_Project",
+      "Id": "436855ED-59A3-4B02-AD84-1F418C381E5E"
+    },
+    {
+      "Name": "Renga.enum_ProjectType.enum_ProjectType_Template",
+      "Id": "A490B674-5379-4489-A567-EDA8BFEA60CD"
+    },
+    {
+      "Name": "Renga.enum_AutocadVersion.enum_AutocadVersion_v2000",
+      "Id": "2D37CFFA-9FD6-4FE4-87DA-9252110E5CC2"
+    },
+    {
+      "Name": "Renga.enum_AutocadVersion.enum_AutocadVersion_v2004",
+      "Id": "8E81FDC5-3C18-4FCF-81FC-90A132838ABC"
+    },
+    {
+      "Name": "Renga.enum_AutocadVersion.enum_AutocadVersion_v2007",
+      "Id": "7918DE39-486A-419E-8D4C-362B25C638E9"
+    },
+    {
+      "Name": "Renga.enum_AutocadVersion.enum_AutocadVersion_v2010",
+      "Id": "2B609CC2-A56F-4923-8549-ECC23A8FF613"
+    },
+    {
+      "Name": "Renga.enum_AutocadVersion.enum_AutocadVersion_v2013",
+      "Id": "645D5F8D-E8E4-414D-BA36-372AA1F26802"
+    },
+    {
+      "Name": "Renga.enum_AutocadVersion.enum_AutocadVersion_v2018",
+      "Id": "9742FF44-323D-49A7-BD9C-6368D4177EAD"
+    },
+    {
+      "Name": "Renga.enum_Curve2DType.enum_Curve2DType_Undefined",
+      "Id": "EB0A39FE-44C9-4990-980E-856D8B6D7348"
+    },
+    {
+      "Name": "Renga.enum_Curve2DType.enum_Curve2DType_LineSegment",
+      "Id": "B7AF0777-443F-4B42-9F6F-F5C0E054EB07"
+    },
+    {
+      "Name": "Renga.enum_Curve2DType.enum_Curve2DType_Arc",
+      "Id": "BE3E266D-EF22-42A8-A529-4C5435417AF1"
+    },
+    {
+      "Name": "Renga.enum_Curve2DType.enum_Curve2DType_PolyCurve",
+      "Id": "EA8372FA-89A8-4035-B1C6-E8B900268583"
+    },
+    {
+      "Name": "Renga.enum_SystemCategory.enum_SystemCategory_Unknown",
+      "Id": "BE233316-447E-48B2-AEB4-D30C59B3676E"
+    },
+    {
+      "Name": "Renga.enum_SystemCategory.enum_SystemCategory_DomesticColdWater",
+      "Id": "BBE48FF0-FDA0-437A-A18C-C08D07152027"
+    },
+    {
+      "Name": "Renga.enum_SystemCategory.enum_SystemCategory_DomesticHotWater",
+      "Id": "D9B471B8-23B1-446E-8075-5584FE3CAC69"
+    },
+    {
+      "Name": "Renga.enum_SystemCategory.enum_SystemCategory_DomesticSewerage",
+      "Id": "C058BE7D-CA26-4C50-A50C-47653ABB056A"
+    },
+    {
+      "Name": "Renga.enum_SystemCategory.enum_SystemCategory_DomesticGasSupply",
+      "Id": "B76C8F29-2BE9-42EA-BF07-154705C2698B"
+    },
+    {
+      "Name": "Renga.enum_SystemCategory.enum_SystemCategory_WaterFireExtinguishing",
+      "Id": "ACD047F4-B1FB-4BFB-B5E9-8AA43C994031"
+    },
+    {
+      "Name": "Renga.enum_SystemCategory.enum_SystemCategory_WaterHeating",
+      "Id": "91884283-2721-4D8B-BC55-5F09A2E5282A"
+    },
+    {
+      "Name": "Renga.enum_SystemCategory.enum_SystemCategory_GasFireExtinguishing",
+      "Id": "3540F17F-3CC0-4144-8957-9953A69E1DA8"
+    },
+    {
+      "Name": "Renga.enum_SystemCategory.enum_SystemCategory_StormDrain",
+      "Id": "E0405DBA-83A4-4234-8FAF-0B9486D02FF4"
+    },
+    {
+      "Name": "Renga.enum_SystemCategory.enum_SystemCategory_IndustrialColdWater",
+      "Id": "50037722-8753-4AFE-9A7C-13736C377C88"
+    },
+    {
+      "Name": "Renga.enum_SystemCategory.enum_SystemCategory_IndustrialHotWater",
+      "Id": "A2B6E44D-0E97-4325-B1DC-20B3DF9DBD80"
+    },
+    {
+      "Name": "Renga.enum_SystemCategory.enum_SystemCategory_IndustrialSewerage",
+      "Id": "E96AAEE5-F180-48A4-939D-4418A14E25B0"
+    },
+    {
+      "Name": "Renga.enum_SystemCategory.enum_SystemCategory_OtherPipeSystem",
+      "Id": "EA307961-F6A9-4861-8718-0CA65B7A3B05"
+    },
+    {
+      "Name": "Renga.enum_SystemCategory.enum_SystemCategory_Ventilation",
+      "Id": "4209896A-677E-4B9F-B0EF-7F0ACE3524EE"
+    },
+    {
+      "Name": "Renga.enum_SystemCategory.enum_SystemCategory_Exhaust",
+      "Id": "E4393B6F-9B18-478E-BAFF-EDE413761E3C"
+    },
+    {
+      "Name": "Renga.enum_SystemCategory.enum_SystemCategory_Pressurization",
+      "Id": "04CCD44E-EF02-4A90-B99E-9B9FE01DD65C"
+    },
+    {
+      "Name": "Renga.enum_SystemCategory.enum_SystemCategory_SmokeExhaust",
+      "Id": "193A5A8C-10B1-4F48-865A-23262A14E00D"
+    },
+    {
+      "Name": "Renga.enum_SystemCategory.enum_SystemCategory_Vacuum",
+      "Id": "8A275A3B-1503-49BD-9437-36B48212F783"
+    },
+    {
+      "Name": "Renga.enum_SystemCategory.enum_SystemCategory_OtherDuctSystem",
+      "Id": "50C96002-A5E7-495C-9716-0E7B8BB029F0"
+    },
+    {
+      "Name": "Renga.enum_SystemCategory.enum_SystemCategory_LightingCircuit",
+      "Id": "5F90EC02-76BC-41EB-A5D0-F3CD1F1A3670"
+    },
+    {
+      "Name": "Renga.enum_SystemCategory.enum_SystemCategory_PowerCircuit",
+      "Id": "352C9587-382A-4C3B-A243-C7B9503E6ADB"
+    },
+    {
+      "Name": "Renga.enum_SystemCategory.enum_SystemCategory_OtherElectricalSystem",
+      "Id": "036C718A-A660-45A0-A978-57C28F1CADCF"
+    },
+    {
+      "Name": "Renga.enum_PlumbingFixtureCategory.enum_PlumbingFixtureCategory_Other",
+      "Id": "7A36C448-B2ED-452C-9287-8A0E6A869D21"
+    },
+    {
+      "Name": "Renga.enum_PlumbingFixtureCategory.enum_PlumbingFixtureCategory_ToiletPan",
+      "Id": "52B3E99F-2B73-4F4A-AEA9-DB222B452290"
+    },
+    {
+      "Name": "Renga.enum_PlumbingFixtureCategory.enum_PlumbingFixtureCategory_WashBasin",
+      "Id": "AB75604F-B29E-4690-B9B0-4002FB499630"
+    },
+    {
+      "Name": "Renga.enum_PlumbingFixtureCategory.enum_PlumbingFixtureCategory_Bath",
+      "Id": "1092A71D-5424-4310-9666-A88B86403E7B"
+    },
+    {
+      "Name": "Renga.enum_PlumbingFixtureCategory.enum_PlumbingFixtureCategory_Sink",
+      "Id": "DBE8BF60-4867-48C2-A5ED-B28E5F521262"
+    },
+    {
+      "Name": "Renga.enum_PlumbingFixtureCategory.enum_PlumbingFixtureCategory_Shower",
+      "Id": "4FEF8609-C7D9-430A-9708-3609FC495E28"
+    },
+    {
+      "Name": "Renga.enum_PlumbingFixtureCategory.enum_PlumbingFixtureCategory_FloorDrain",
+      "Id": "469E0515-A711-483D-A14B-CE373E53AC66"
+    },
+    {
+      "Name": "Renga.enum_PlumbingFixtureCategory.enum_PlumbingFixtureCategory_RoofDrain",
+      "Id": "E2461FD1-FC77-4446-8660-AC2B8323135E"
+    },
+    {
+      "Name": "Renga.enum_PlumbingFixtureCategory.enum_PlumbingFixtureCategory_Bidet",
+      "Id": "9DCF939F-2D2F-4E49-87D7-0A7DB4CD0C92"
+    },
+    {
+      "Name": "Renga.enum_PlumbingFixtureCategory.enum_PlumbingFixtureCategory_Urinal",
+      "Id": "5E8CEDA9-87F1-4FA0-A323-AD6905FB62CC"
+    },
+    {
+      "Name": "Renga.enum_EquipmentCategory.enum_EquipmentCategory_Other",
+      "Id": "BDFF8DA9-F763-45D7-A897-CD6D8A2DB9BD"
+    },
+    {
+      "Name": "Renga.enum_EquipmentCategory.enum_EquipmentCategory_Faucet",
+      "Id": "1034AC7D-8C06-4703-AF33-92D8056B337D"
+    },
+    {
+      "Name": "Renga.enum_EquipmentCategory.enum_EquipmentCategory_Manifold",
+      "Id": "33A89ABA-5F8B-4E92-BF0B-A9E30F538965"
+    },
+    {
+      "Name": "Renga.enum_EquipmentCategory.enum_EquipmentCategory_Pump",
+      "Id": "ADC17A6A-E301-488A-B857-AF855EF9360D"
+    },
+    {
+      "Name": "Renga.enum_EquipmentCategory.enum_EquipmentCategory_WashingMachine",
+      "Id": "2B8583C0-8E5A-4FEE-A627-5B7D47D17159"
+    },
+    {
+      "Name": "Renga.enum_EquipmentCategory.enum_EquipmentCategory_Radiator",
+      "Id": "2720E1A7-AC3C-4B89-ADC5-82755E13BA66"
+    },
+    {
+      "Name": "Renga.enum_EquipmentCategory.enum_EquipmentCategory_TowelRadiator",
+      "Id": "0AE8A329-D63F-44E2-95E1-5E2B52E03492"
+    },
+    {
+      "Name": "Renga.enum_EquipmentCategory.enum_EquipmentCategory_ExpansionVessel",
+      "Id": "A9D9B2A6-3449-432D-803B-B36CD2D592F5"
+    },
+    {
+      "Name": "Renga.enum_EquipmentCategory.enum_EquipmentCategory_PlateHeatExchanger",
+      "Id": "CEC626C9-1FFC-439B-B331-27F6C09D99C1"
+    },
+    {
+      "Name": "Renga.enum_EquipmentCategory.enum_EquipmentCategory_Boiler",
+      "Id": "6AFF4A4D-24BB-48C7-82F5-CAC8B555D3D1"
+    },
+    {
+      "Name": "Renga.enum_IfcVersion.enum_IfcVersion_4",
+      "Id": "E18C1BF3-54B5-49FC-8D7D-30123DB0F358"
+    },
+    {
+      "Name": "Renga.enum_VisualStyle.enum_VisualStyle_Undefined",
+      "Id": "FB9C1A78-0EFC-44CF-B23E-49E6346A7319"
+    },
+    {
+      "Name": "Renga.enum_VisualStyle.enum_VisualStyle_Wireframe",
+      "Id": "CC7EA800-1B80-43A3-8B4F-C52A7671FB79"
+    },
+    {
+      "Name": "Renga.enum_VisualStyle.enum_VisualStyle_Monochrome",
+      "Id": "D9313795-15B7-4F7D-B1C6-6BEF65C8A1C5"
+    },
+    {
+      "Name": "Renga.enum_VisualStyle.enum_VisualStyle_Color",
+      "Id": "2C91A86E-8763-4B40-B827-2B7D4D0EBE07"
+    },
+    {
+      "Name": "Renga.enum_VisualStyle.enum_VisualStyle_Textured",
+      "Id": "FE7556F1-74EC-4E67-AAEC-07850EF0657E"
+    },
+    {
+      "Name": "Renga.enum_EventType.enum_EventType_EventTypeNone",
+      "Id": "9A9A26CC-78C2-4998-B1F9-1AB62129EBD1"
+    },
+    {
+      "Name": "Renga.enum_EventType.enum_EventType_ProjectClose",
+      "Id": "035ED835-007F-43E9-8C5A-E543C67FD79F"
+    },
+    {
+      "Name": "Renga.enum_EventType.enum_EventType_ApplicationClose",
+      "Id": "E5537BE3-5BF2-4902-A3E2-E7943726E543"
+    },
+    {
+      "Name": "Renga.enum_Line3DStyle.enum_Line3DStyle_None",
+      "Id": "214DDDF4-AF7D-4D91-B95A-06C8F862EDF2"
+    },
+    {
+      "Name": "Renga.enum_Line3DStyle.enum_Line3DStyle_Solid",
+      "Id": "8D5D3014-4E49-41B4-BE3B-7C73ADB4872B"
+    },
+    {
+      "Name": "Renga.enum_Line3DStyle.enum_Line3DStyle_Dash",
+      "Id": "755A4264-481F-4900-AF7F-5995E4912AA3"
+    },
+    {
+      "Name": "Renga.enum_Line3DStyle.enum_Line3DStyle_DashDot",
+      "Id": "6F4203B2-DD56-4576-AE2F-5FD94F595B42"
+    },
+    {
+      "Name": "Renga.enum_Line3DStyle.enum_Line3DStyle_Dot",
+      "Id": "4ED04EFC-946A-4B5C-8FE0-20FCE5EF1C33"
+    },
+    {
+      "Name": "Renga.enum_Line3DStyle.enum_Line3DStyle_SpecialDash",
+      "Id": "BDACEF24-9C30-4B0A-88EC-3840E3E235CD"
+    },
+    {
+      "Name": "Renga.enum_Line3DStyle.enum_Line3DStyle_SpecialDashDot",
+      "Id": "761A533E-A5CF-46F8-8ECB-F2FA6DDCA88D"
+    },
+    {
+      "Name": "Renga.enum_Line3DStyle.enum_Line3DStyle_SpecialDot",
+      "Id": "0C0D943D-14A7-4499-8E31-8F60EFBA8572"
+    },
+    {
+      "Name": "Renga.enum_Line3DStyle.enum_Line3DStyle_DashDotDot",
+      "Id": "959C2C1A-D4EC-4E2D-9DA1-A61EA8980B89"
+    },
+    {
+      "Name": "Renga.enum_PipeConnectionType.enum_PipeConnectionType_Weld",
+      "Id": "CBC99BB5-B8EC-4755-851D-7CE61705DD4C"
+    },
+    {
+      "Name": "Renga.enum_PipeConnectionType.enum_PipeConnectionType_Flange",
+      "Id": "A6470D7B-EDB9-4E12-9205-F6BB51C998DD"
+    },
+    {
+      "Name": "Renga.enum_PipeConnectionType.enum_PipeConnectionType_Compressed",
+      "Id": "F8E9184C-3ED2-4D94-AA61-4ABBA453FF16"
+    },
+    {
+      "Name": "Renga.enum_PipeConnectionType.enum_PipeConnectionType_Socket",
+      "Id": "D969BF25-DCC5-46FC-AD67-1A3F833DC8E3"
+    },
+    {
+      "Name": "Renga.enum_PipeConnectionType.enum_PipeConnectionType_Thread",
+      "Id": "65A13C96-F923-4302-BE2B-9AC42046D269"
+    },
+    {
+      "Name": "Renga.enum_PipeConnectionType.enum_PipeConnectionType_QuickConnection",
+      "Id": "CD14D693-06D2-40CD-A95A-D301FF3E1F15"
+    },
+    {
+      "Name": "Renga.enum_PipeConnectionType.enum_PipeConnectionType_Glue",
+      "Id": "07526B6C-3C0B-44A1-9680-7EC2467A28AA"
+    },
+    {
+      "Name": "Renga.enum_PipeConnectionType.enum_PipeConnectionType_FusionWelding",
+      "Id": "17CCCF8B-825A-4568-847D-063807E97106"
+    },
+    {
+      "Name": "Renga.enum_PipeConnectionType.enum_PipeConnectionType_Grooved",
+      "Id": "3D94A632-D9CE-4F5B-B229-24B6CE9CAEFB"
+    },
+    {
+      "Name": "Renga.enum_DuctConnectionType.enum_DuctConnectionType_Drawband",
+      "Id": "C43793DD-B0E4-4A78-9A63-38813E4BFA23"
+    },
+    {
+      "Name": "Renga.enum_DuctConnectionType.enum_DuctConnectionType_SlipOn",
+      "Id": "002EE30B-8DAD-4364-B7DF-DFB00E7F3993"
+    },
+    {
+      "Name": "Renga.enum_DuctConnectionType.enum_DuctConnectionType_DriveSlip",
+      "Id": "EAE3144A-4675-4D6F-89ED-9A6916930741"
+    },
+    {
+      "Name": "Renga.enum_DuctConnectionType.enum_DuctConnectionType_Weld",
+      "Id": "3C201221-BFAA-44C8-88F1-CB00B669C49B"
+    },
+    {
+      "Name": "Renga.enum_DuctConnectionType.enum_DuctConnectionType_Flange",
+      "Id": "4CEC6E6A-EA33-4515-BA87-01A7974CEA5F"
+    },
+    {
+      "Name": "Renga.enum_DuctFormType.enum_DuctFormType_Circle",
+      "Id": "0416A29D-B26B-45E5-8DC3-629EA4E2F383"
+    },
+    {
+      "Name": "Renga.enum_DuctFormType.enum_DuctFormType_Rect",
+      "Id": "8E764913-1F48-44D7-9F05-BCFDB7808622"
+    },
+    {
+      "Name": "Renga.SelectionEvents.SelectionEvents_Constructor",
+      "Id": "37C63A13-9021-456F-8E95-D55CE6153763"
+    },
+    {
+      "Name": "Renga.SelectionEvents.SelectionEvents_ConstructorCast",
+      "Id": "E8E86A83-9007-480A-B408-ADB75815B72B"
+    },
+    {
+      "Name": "Renga.SelectionEvents.OnModelSelectionChanged",
+      "Id": "7B6914B3-E076-49BE-A08E-B4A906F39833"
+    },
+    {
+      "Name": "Renga.ApplicationEvents.ApplicationEvents_Constructor",
+      "Id": "F0D245FD-16DA-4CFD-9D59-149305D6D8CC"
+    },
+    {
+      "Name": "Renga.ApplicationEvents.ApplicationEvents_ConstructorCast",
+      "Id": "EC440516-747C-4E6F-BDB8-943F53214F75"
+    },
+    {
+      "Name": "Renga.ApplicationEvents.OnBeforeApplicationClose",
+      "Id": "A67AAFF8-E950-4B91-BCDC-FA23067E8147"
+    },
+    {
+      "Name": "Renga.ApplicationEvents.OnBeforeProjectClose",
+      "Id": "370B2BD7-C406-448B-B085-6C9A94D8F415"
+    },
+    {
+      "Name": "Renga.ApplicationEvents.OnProjectCreated",
+      "Id": "CF2ADB7C-24C6-4C43-A263-96F3123BC878"
+    },
+    {
+      "Name": "Renga.ApplicationEvents.OnProjectOpened",
+      "Id": "610B6E33-9142-42E0-BBA4-8E021710A3CE"
+    },
+    {
+      "Name": "Renga.ApplicationEvents.OnProjectSaved",
+      "Id": "92B41250-87A0-4A61-A547-7951E6D67A0C"
+    },
+    {
+      "Name": "Renga.ApplicationEvents.OnProjectClosed",
+      "Id": "2D0ACBDE-1F64-4B01-B59E-9DE5B8C12D59"
+    },
+    {
+      "Name": "Renga.ActionEvents.ActionEvents_Constructor",
+      "Id": "48250B52-1043-4045-B791-7EC841DB250B"
+    },
+    {
+      "Name": "Renga.ActionEvents.ActionEvents_ConstructorCast",
+      "Id": "43308CA6-06BD-4523-A9E7-F8EDD254B43A"
+    },
+    {
+      "Name": "Renga.ActionEvents.OnTriggered",
+      "Id": "09B8A39A-B393-4F3E-92DE-758D51684DE2"
+    },
+    {
+      "Name": "Renga.ActionEvents.OnToggled",
+      "Id": "040BB2B5-4F1C-44CB-BC69-97A17A6F3DAB"
     }
   ]
 }

@@ -1,0 +1,205 @@
+﻿// Generated .IDL file (by the OLE/COM Object Viewer)
+// 
+// typelib filename: mstProjectCom.nrx
+
+[
+  uuid(0F11628B-DFE5-45FF-B0BE-F610AFC63EE6),
+  version(1.0),
+  helpstring("mstProjectCOM 1.0 Type Library"),
+  custom(DE77BA64-517C-11D1-A2DA-0000F8773CE9, 134283890),
+  custom(DE77BA63-517C-11D1-A2DA-0000F8773CE9, 2147483647),
+  custom(DE77BA65-517C-11D1-A2DA-0000F8773CE9, "Created by MIDL version 8.01.0626 at Tue Jan 19 06:14:07 2038
+")
+
+]
+library mstProjectCOMLib
+{
+    // TLib : Model Studio Objects 1.0 Type Library : {1AE1985C-5D87-4E89-8E67-068628FC3CD6}
+    importlib("UnitsCSCom.nrx");
+    // TLib : OdaX 23.2 (x64) Type Library : {0DFA2554-8A2B-44D0-BE8F-85EEB803AEE9}
+    importlib("OdaX_csd.dll");
+    // TLib : OLE Automation : {00020430-0000-0000-C000-000000000046}
+    importlib("stdole2.tlb");
+
+    // Forward declare all types defined in this typelib
+    interface IPropsDiaWrap;
+    interface ImstProjectDummy;
+    interface ImstProjectDocFrame;
+
+    [
+      odl,
+      uuid(16A76BEF-8358-4908-8F3D-6B38AE8F27E5),
+      helpstring("IPropsDiaWrap Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface IPropsDiaWrap : IUnknown {
+    };
+
+    [
+      odl,
+      uuid(7A136EF8-DC43-49B1-8DB8-751D5A823ECE),
+      helpstring("ImstProjectDummy Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface ImstProjectDummy : IAcadEntity {
+        [id(0x00000001), propget, helpstring("property Element")]
+        HRESULT Element([out, retval] IElement** pVal);
+        [id(0x00000001), propput, helpstring("property Element")]
+        HRESULT Element([in] IElement* pVal);
+        [id(0x00000002), propget, helpstring("Параметрические данные")]
+        HRESULT ParametricData([out, retval] IElement** pVal);
+        [id(0x00000003), propget, helpstring("Положение объекта")]
+        HRESULT UnitPosition([out, retval] VARIANT* pVal);
+        [id(0x00000004), propget, helpstring("Наименование объекта")]
+        HRESULT UnitName([out, retval] BSTR* pVal);
+        [id(0x00000005), propget, helpstring("Длина осевой")]
+        HRESULT AxisLength([out, retval] double* pVal);
+        [id(0x00000008), propget, helpstring("Наименование")]
+        HRESULT Part_Name([out, retval] BSTR* pVal);
+        [id(0x00000009), propget, helpstring("Обозначение (модель)")]
+        HRESULT Part_Tag([out, retval] BSTR* pVal);
+        [id(0x0000000a), propget, helpstring("Производитель")]
+        HRESULT Part_Manufacturer([out, retval] BSTR* pVal);
+        [id(0x0000000b), propget, helpstring("Нормативный документ")]
+        HRESULT Part_Standard([out, retval] BSTR* pVal);
+        [id(0x0000000c), propget, helpstring("Ссылочный чертеж")]
+        HRESULT Part_Refdrawing([out, retval] BSTR* pVal);
+        [id(0x0000000d), propget, helpstring("Материал")]
+        HRESULT Part_Material([out, retval] BSTR* pVal);
+        [id(0x0000000e), propget, helpstring("Нормативный документ на материал")]
+        HRESULT Part_Material_Standard([out, retval] BSTR* pVal);
+        [id(0x0000000f), propget, helpstring("Вес")]
+        HRESULT Part_Weight([out, retval] BSTR* pVal);
+        [id(0x00000010), propget, helpstring("Примечания")]
+        HRESULT Part_Comment([out, retval] BSTR* pVal);
+        [id(0x00000011), propget, helpstring("Группа изделий")]
+        HRESULT Part_Group([out, retval] BSTR* pVal);
+        [id(0x00000012), propget, helpstring("Тип изделия")]
+        HRESULT Part_Type([out, retval] BSTR* pVal);
+        [id(0x00000013), propget, helpstring("Код ОКП")]
+        HRESULT Part_Reference([out, retval] BSTR* pVal);
+        [id(0x00000014), propget, helpstring("Вес нетто")]
+        HRESULT Part_Weight_Netto([out, retval] BSTR* pVal);
+        [id(0x00000015), propget, helpstring("Вес бруто")]
+        HRESULT Part_Weight_Bruto([out, retval] BSTR* pVal);
+        [id(0x00000016), propget, helpstring("Включение в экспликацию")]
+        HRESULT Explication_Include([out, retval] long* pVal);
+        [id(0x00000017), propget, helpstring("Позиция по экспликации")]
+        HRESULT Explication_Number([out, retval] BSTR* pVal);
+        [id(0x00000018), propget, helpstring("Группа по экспликации")]
+        HRESULT Explication_Group([out, retval] BSTR* pVal);
+        [id(0x00000019), propget, helpstring("Примечания к экспликации")]
+        HRESULT Explication_Comment([out, retval] BSTR* pVal);
+        [id(0x0000001a), propget, helpstring("Включение в спецификацию")]
+        HRESULT Bom_Include([out, retval] long* pVal);
+        [id(0x0000001b), propget, helpstring("Позиция по спецификации")]
+        HRESULT Bom_Number([out, retval] BSTR* pVal);
+        [id(0x0000001c), propget, helpstring("Группа по спецификации")]
+        HRESULT Bom_Group([out, retval] BSTR* pVal);
+        [id(0x0000001d), propget, helpstring("Количество")]
+        HRESULT Bom_Qty([out, retval] BSTR* pVal);
+        [id(0x0000001e), propget, helpstring("Примечания к спецификации")]
+        HRESULT Bom_Comment([out, retval] BSTR* pVal);
+        [id(0x0000001f), propget, helpstring("Начало")]
+        HRESULT AxisNodeStart([out, retval] IDispatch** pVal);
+        [id(0x00000020), propget, helpstring("Конец")]
+        HRESULT AxisNodeEnd([out, retval] IDispatch** pVal);
+    };
+
+    [
+      uuid(701D29E9-CEF5-4726-9626-D8211444A227),
+      helpstring("mstProjectDummy Class")
+    ]
+    coclass mstProjectDummy {
+        [default] interface ImstProjectDummy;
+        [default, source] interface IAcadObjectEvents;
+    };
+
+    [
+      odl,
+      uuid(35DAC0A4-F390-401D-A673-C51B575AF199),
+      helpstring("ImstProjectDocFrame Interface"),
+      dual,
+      nonextensible,
+      oleautomation
+    ]
+    interface ImstProjectDocFrame : IAcadEntity {
+        [id(0x00000001), propget, helpstring("property Element")]
+        HRESULT Element([out, retval] IElement** pVal);
+        [id(0x00000001), propput, helpstring("property Element")]
+        HRESULT Element([in] IElement* pVal);
+        [id(0x00000002), propget, helpstring("Параметрические данные")]
+        HRESULT ParametricData([out, retval] IElement** pVal);
+        [id(0x00000003), propget, helpstring("Положение объекта")]
+        HRESULT UnitPosition([out, retval] VARIANT* pVal);
+        [id(0x00000004), propget, helpstring("Наименование объекта")]
+        HRESULT UnitName([out, retval] BSTR* pVal);
+        [id(0x00000008), propget, helpstring("Наименование")]
+        HRESULT Part_Name([out, retval] BSTR* pVal);
+        [id(0x00000009), propget, helpstring("Обозначение (модель)")]
+        HRESULT Part_Tag([out, retval] BSTR* pVal);
+        [id(0x0000000a), propget, helpstring("Производитель")]
+        HRESULT Part_Manufacturer([out, retval] BSTR* pVal);
+        [id(0x0000000b), propget, helpstring("Нормативный документ")]
+        HRESULT Part_Standard([out, retval] BSTR* pVal);
+        [id(0x0000000c), propget, helpstring("Ссылочный чертеж")]
+        HRESULT Part_Refdrawing([out, retval] BSTR* pVal);
+        [id(0x0000000d), propget, helpstring("Материал")]
+        HRESULT Part_Material([out, retval] BSTR* pVal);
+        [id(0x0000000e), propget, helpstring("Нормативный документ на материал")]
+        HRESULT Part_Material_Standard([out, retval] BSTR* pVal);
+        [id(0x0000000f), propget, helpstring("Вес")]
+        HRESULT Part_Weight([out, retval] BSTR* pVal);
+        [id(0x00000010), propget, helpstring("Примечания")]
+        HRESULT Part_Comment([out, retval] BSTR* pVal);
+        [id(0x00000011), propget, helpstring("Группа изделий")]
+        HRESULT Part_Group([out, retval] BSTR* pVal);
+        [id(0x00000012), propget, helpstring("Тип изделия")]
+        HRESULT Part_Type([out, retval] BSTR* pVal);
+        [id(0x00000013), propget, helpstring("Код ОКП")]
+        HRESULT Part_Reference([out, retval] BSTR* pVal);
+        [id(0x00000014), propget, helpstring("Вес нетто")]
+        HRESULT Part_Weight_Netto([out, retval] BSTR* pVal);
+        [id(0x00000015), propget, helpstring("Вес бруто")]
+        HRESULT Part_Weight_Bruto([out, retval] BSTR* pVal);
+        [id(0x00000016), propget, helpstring("Включение в экспликацию")]
+        HRESULT Explication_Include([out, retval] long* pVal);
+        [id(0x00000017), propget, helpstring("Позиция по экспликации")]
+        HRESULT Explication_Number([out, retval] BSTR* pVal);
+        [id(0x00000018), propget, helpstring("Группа по экспликации")]
+        HRESULT Explication_Group([out, retval] BSTR* pVal);
+        [id(0x00000019), propget, helpstring("Примечания к экспликации")]
+        HRESULT Explication_Comment([out, retval] BSTR* pVal);
+        [id(0x0000001a), propget, helpstring("Включение в спецификацию")]
+        HRESULT Bom_Include([out, retval] long* pVal);
+        [id(0x0000001b), propget, helpstring("Позиция по спецификации")]
+        HRESULT Bom_Number([out, retval] BSTR* pVal);
+        [id(0x0000001c), propget, helpstring("Группа по спецификации")]
+        HRESULT Bom_Group([out, retval] BSTR* pVal);
+        [id(0x0000001d), propget, helpstring("Количество")]
+        HRESULT Bom_Qty([out, retval] BSTR* pVal);
+        [id(0x0000001e), propget, helpstring("Примечания к спецификации")]
+        HRESULT Bom_Comment([out, retval] BSTR* pVal);
+    };
+
+    [
+      uuid(B5EB6FCF-EBDB-4271-ABFC-093AEE05B622),
+      helpstring("mstProjectDocFrame Class")
+    ]
+    coclass mstProjectDocFrame {
+        [default] interface ImstProjectDocFrame;
+        [default, source] interface IAcadObjectEvents;
+    };
+
+    [
+      uuid(7D19A9AE-F710-4E36-8A04-F93BBEB6A8F9),
+      helpstring("PropsDiaWrap Class")
+    ]
+    coclass PropsDiaWrap {
+        [default] interface IPropsDiaWrap;
+    };
+};

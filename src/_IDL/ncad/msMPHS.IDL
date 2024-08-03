@@ -1,0 +1,19 @@
+﻿// Generated .IDL file (by the OLE/COM Object Viewer)
+// 
+// typelib filename: msMPHS.nrx
+
+[
+  uuid(EF016163-4CF6-4868-9236-CCCA8BC0318D),
+  version(1.0),
+  helpstring("mstmsMPHS 1.0 Type Library"),
+  custom(DE77BA64-517C-11D1-A2DA-0000F8773CE9, 134283890),
+  custom(DE77BA63-517C-11D1-A2DA-0000F8773CE9, 2147483647),
+  custom(DE77BA65-517C-11D1-A2DA-0000F8773CE9, "Created by MIDL version 8.01.0626 at Tue Jan 19 06:14:07 2038
+")
+
+]
+library mstmsMPHSLib
+{
+    // Forward declare all types defined in this typelib
+
+};
