@@ -1,4 +1,6 @@
-﻿namespace NVP_Manifest_Creator
+﻿using System;
+
+namespace NVP_Manifest_Creator
 {
     public class NVP_Manifest : Attribute
     {

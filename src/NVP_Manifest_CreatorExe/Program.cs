@@ -1,10 +1,12 @@
 ﻿using System.Reflection;
-using System.Reflection.Metadata;
-using System.Reflection.PortableExecutable;
+using System;
 using System.Xml.Linq;
+using System.IO;
+using System.Collections.Generic;
 
 namespace NVP_Manifest_Creator
 {
+
     public class AppExe
     {
         public static void Main(string[] args)
