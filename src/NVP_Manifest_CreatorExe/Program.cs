@@ -13,11 +13,26 @@ namespace NVP_Manifest_Creator
         {
             foreach (string dll_path in Directory.GetFiles(AppDomain.CurrentDomain.BaseDirectory, "*.dll", SearchOption.TopDirectoryOnly))
             {
-                Assembly assembly = Assembly.LoadFrom(dll_path);
                 bool is_any_nodes = false;
                 List<NVP_Manifest> nodeitems = new List<NVP_Manifest>();
 
-                foreach (Type type in assembly.GetTypes())
+                Assembly assembly = Assembly.LoadFrom(dll_path);
+                Type[] types = new Type[] { };
+                try
+                {
+                    types = assembly.GetTypes();
+                }
+                catch { }
+//#if NET6_0 
+//                assembly = Assembly.LoadFrom(dll_path);
+//                types = assembly.GetTypes();
+//#elif NET48
+//                assembly = Assembly.ReflectionOnlyLoadFrom(dll_path);
+//                types = assembly.GetTypes();
+                
+//#endif
+
+                foreach (Type type in types)
                 {
                     var NVP_Manifest_attrs = (NVP_Manifest[])type.GetCustomAttributes(typeof(NVP_Manifest), true);
                     if (NVP_Manifest_attrs.Length > 0)
