@@ -11,5 +11,6 @@
         public string NodeType { get; set; }
         public string CADType { get; set; }
         public string ViewType { get; set; }
+        public string Text { get; set; }
     }
 }

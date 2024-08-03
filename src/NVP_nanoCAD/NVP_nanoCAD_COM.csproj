@@ -29,6 +29,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\NVP_Manifest_Creator\NVP_Manifest_Creator.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="NVP.Core.API">
       <HintPath>C:\Program Files\NVP\net6.0\NVP.Core.API.dll</HintPath>
     </Reference>
@@ -39,12 +43,8 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="NVP_nanoCAD_COM.nodeitem">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </None>
   </ItemGroup>
-
-  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="xcopy &quot;$(TargetDir)*.*&quot; &quot;D:\PROCESSING\other\nvp\net6.0\NodePacks\&quot; /Y /I" />
-  </Target>
 
 </Project>

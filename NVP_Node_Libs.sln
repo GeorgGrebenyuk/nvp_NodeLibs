@@ -9,9 +9,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NVP_COM_Common", "src\NVP_C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NVP_Renga_COM", "src\NVP_Renga_COM\NVP_Renga_COM.csproj", "{D99697A6-137C-477F-B2C4-DD02E2E6A839}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NVP_Manifest_Creator", "src\NVP_Manifest_Creator\NVP_Manifest_Creator.csproj", "{6873FD9E-0EC1-4A68-ACEC-D79457B9398E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NVP_Manifest_Creator", "src\NVP_Manifest_Creator\NVP_Manifest_Creator.csproj", "{6873FD9E-0EC1-4A68-ACEC-D79457B9398E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NVP_Manifest_CreatorExe", "src\NVP_Manifest_CreatorExe\NVP_Manifest_CreatorExe.csproj", "{4AF8E0D2-1FDD-46EB-84D7-328AADED3790}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NVP_Manifest_CreatorExe", "src\NVP_Manifest_CreatorExe\NVP_Manifest_CreatorExe.csproj", "{4AF8E0D2-1FDD-46EB-84D7-328AADED3790}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{92A4AE8E-6B73-4B64-A9D9-A29EB227D4C3}"
+	ProjectSection(SolutionItems) = preProject
+		Build_debug.bat = Build_debug.bat
+		Build_release.bat = Build_release.bat
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

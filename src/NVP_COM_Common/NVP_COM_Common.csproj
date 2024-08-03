@@ -23,15 +23,11 @@
 
   <ItemGroup>
     <None Update="NVP_COM_Common.nodeitem">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </None>
     <None Update="NVP_COM_Common_ProgIDs.nodeitem">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </None>
   </ItemGroup>
-
-  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="xcopy &quot;$(TargetDir)*.*&quot; &quot;D:\PROCESSING\other\nvp\net6.0\NodePacks\&quot; /Y /I" />
-  </Target>
 
 </Project>

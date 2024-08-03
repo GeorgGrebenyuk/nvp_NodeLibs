@@ -14,8 +14,18 @@ namespace NVP_COM_Common
     /// <summary>
     /// Get _i object (COM-interface)
     /// </summary>
+    [NVP_Manifest(
+    Id = "BEF5FB18-6C25-4FEC-80ED-989FA1DD9036",
+    PathAssembly = "NVP_COM_Common.dll",
+    PathExecuteClass = "NVP_COM_Common.NVP_COM_GetInterface",
+    CoderName = "GeorgGrebenyuk",
+    Folder = "NVP_COM_Common",
+    NodeName = "GetInterface",
+    NodeType = "Loaded",
+    CADType = "None",
+    Text = "Get _i object (COM-interface)",
+    ViewType = "Modifier")]
     [NodeInput("dynamic", typeof(object))]
-    [NVP_Manifest(Id = "foo bar")]
     public class NVP_COM_GetInterface : INode
     {
         public NodeResult Execute(INVPData context, List<NodeResult> inputs)
@@ -28,6 +38,17 @@ namespace NVP_COM_Common
     /// <summary>
     /// Get COM processes ID
     /// </summary>
+    [NVP_Manifest(
+    Id = "CD4A7926-7820-4ABC-92C4-B0C8D4A1EA9F",
+    PathAssembly = "NVP_COM_Common.dll",
+    PathExecuteClass = "NVP_COM_Common.NVP_COM_GetROT",
+    CoderName = "GeorgGrebenyuk",
+    Folder = "NVP_COM_Common",
+    NodeName = "GetROT",
+    NodeType = "Loaded",
+    CADType = "None",
+    Text = "Get COM (Running Object Table) processes ID",
+    ViewType = "Modifier")]
     public class NVP_COM_GetROT : INode
     {
         public NodeResult Execute(INVPData context, List<NodeResult> inputs)
@@ -135,6 +156,17 @@ namespace NVP_COM_Common
     /// Check input object of null
     /// </summary>
     [NodeInput("dynamic", typeof(object))]
+    [NVP_Manifest(
+    Id = "56A96CF6-4D48-4549-A7CA-1F0A8595DF14",
+    PathAssembly = "NVP_COM_Common.dll",
+    PathExecuteClass = "NVP_COM_Common.NVP_COM_IsNull",
+    CoderName = "GeorgGrebenyuk",
+    Folder = "NVP_COM_Common",
+    NodeName = "IsNull",
+    NodeType = "Loaded",
+    CADType = "None",
+    Text = "Check input object of null",
+    ViewType = "Modifier")]
     public class NVP_COM_IsNull : INode
     {
         public NodeResult Execute(INVPData context, List<NodeResult> inputs)
@@ -146,9 +178,20 @@ namespace NVP_COM_Common
 
 
     /// <summary>
-    /// Create an instance of COM interface by it's ProgID (for applications and servers)
+    /// Create an instance of COM interface by it's ProgID or getting existing (for applications and COM-servers)
     /// </summary>
     [NodeInput("ProgID", typeof(System.String))]
+    [NVP_Manifest(
+    Id = "9B8B645A-E1EC-40FA-A201-0109D562691D",
+    PathAssembly = "NVP_COM_Common.dll",
+    PathExecuteClass = "NVP_COM_Common.NVP_COM_CreateInstance",
+    CoderName = "GeorgGrebenyuk",
+    Folder = "NVP_COM_Common",
+    NodeName = "CreateInstance",
+    NodeType = "Loaded",
+    CADType = "None",
+    Text = "Create an instance of COM interface by it's ProgID or getting existing (for applications and COM-servers)",
+    ViewType = "Modifier")]
     public class NVP_COM_CreateInstance : INode
     {
         public NodeResult Execute(INVPData context, List<NodeResult> inputs)

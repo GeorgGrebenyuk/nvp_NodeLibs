@@ -1,7 +1,24 @@
 ﻿using NVP.API.Nodes;
 
+using NVP_Manifest_Creator;
+
+///<summary>
+///
+///</summary>
 namespace Renga.PlumbingFixtureStyle 
 {
+
+	[NVP_Manifest(
+		Id = "A75A4B21-5B77-4F8E-B085-722349A2C3D1", 
+		PathAssembly = "NVP_Renga_COM.dll", 
+		PathExecuteClass = "Renga.PlumbingFixtureStyle.PlumbingFixtureStyle_Constructor", 
+		CoderName = "GeorgGrebenyuk", 
+		Folder = "NVP_Renga_COM.Renga.PlumbingFixtureStyle", 
+		NodeName = "_PlumbingFixtureStyle_Constructor", 
+		NodeType = "Loaded", 
+		CADType = "None", 
+		Text = "", 
+		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class PlumbingFixtureStyle_Constructor : INode 
 	{
@@ -14,6 +31,18 @@ namespace Renga.PlumbingFixtureStyle
 			return new NodeResult(this);
 		}
 	}
+
+	[NVP_Manifest(
+		Id = "CCE36206-8710-4316-81EC-E924BD6C412A", 
+		PathAssembly = "NVP_Renga_COM.dll", 
+		PathExecuteClass = "Renga.PlumbingFixtureStyle.PlumbingFixtureStyle_ConstructorCast", 
+		CoderName = "GeorgGrebenyuk", 
+		Folder = "NVP_Renga_COM.Renga.PlumbingFixtureStyle", 
+		NodeName = "_PlumbingFixtureStyle_ConstructorCast", 
+		NodeType = "Loaded", 
+		CADType = "None", 
+		Text = "", 
+		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class PlumbingFixtureStyle_ConstructorCast : INode 
 	{
@@ -28,10 +57,22 @@ namespace Renga.PlumbingFixtureStyle
 	}
 
 
+	[NVP_Manifest(
+		Id = "248D8E89-DDD5-4C5F-A8D7-6CE51AE4D640", 
+		PathAssembly = "NVP_Renga_COM.dll", 
+		PathExecuteClass = "Renga.PlumbingFixtureStyle.Name", 
+		CoderName = "GeorgGrebenyuk", 
+		Folder = "NVP_Renga_COM.Renga.PlumbingFixtureStyle", 
+		NodeName = "Name", 
+		NodeType = "Loaded", 
+		CADType = "None", 
+		Text = "", 
+		ViewType = "Data")]
+	[NodeInput("PlumbingFixtureStyle", typeof(object))]
+
 	///<summary>
 	///
 	///</summary>
-	[NodeInput("PlumbingFixtureStyle", typeof(object))]
 	public class Name : INode
 	{
 		public NodeResult Execute(INVPData context, List<NodeResult> inputs)
@@ -43,10 +84,22 @@ namespace Renga.PlumbingFixtureStyle
 	}
 
 
+	[NVP_Manifest(
+		Id = "81268660-88A4-495F-A0F7-B9FFAAE3ED65", 
+		PathAssembly = "NVP_Renga_COM.dll", 
+		PathExecuteClass = "Renga.PlumbingFixtureStyle.Category", 
+		CoderName = "GeorgGrebenyuk", 
+		Folder = "NVP_Renga_COM.Renga.PlumbingFixtureStyle", 
+		NodeName = "Category", 
+		NodeType = "Loaded", 
+		CADType = "None", 
+		Text = "", 
+		ViewType = "Data")]
+	[NodeInput("PlumbingFixtureStyle", typeof(object))]
+
 	///<summary>
 	///
 	///</summary>
-	[NodeInput("PlumbingFixtureStyle", typeof(object))]
 	public class Category : INode
 	{
 		public NodeResult Execute(INVPData context, List<NodeResult> inputs)
