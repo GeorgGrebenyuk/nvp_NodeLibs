@@ -5,7 +5,7 @@
 
 # Пользователю
 
-Загрузить из Releases последнюю версию и распаковать в папку \Nodepack для используемой версии NVP в зависимости от целевого фрейморка: `net48` -- `NPV_NodeLibs_ActiveX_net48.zip` или `net6.0` -- `NPV_NodeLibs_ActiveX_net6.0.zip`. 
+Загрузить из [Releases](https://github.com/GeorgGrebenyuk/nvp_NodeLibs_ActiveX/releases/latest) последнюю версию и распаковать в папку \Nodepack для используемой версии NVP в зависимости от целевого фрейморка: `net48` -- `NPV_NodeLibs_ActiveX_net48.zip` или `net6.0` -- `NPV_NodeLibs_ActiveX_net6.0.zip`. 
 
 ## Примеры
 

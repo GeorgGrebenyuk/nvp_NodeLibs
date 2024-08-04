@@ -5,4 +5,24 @@
     <OutputPath>$(SolutionDir)bin\$(Configuration)</OutputPath>
   </PropertyGroup>
 
+  <ItemGroup Condition="'$(TargetFramework)' == 'net6.0'">
+    <Reference Include="NVP.Core.API">
+      <HintPath>C:\Program Files\NVP\net6.0\NVP.Core.Program.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <!--<PropertyGroup Condition="'$(TargetFramework)' == 'net6.0'">
+    <DefineConstants>NET_6</DefineConstants>
+  </PropertyGroup>-->
+
+  <ItemGroup Condition="'$(TargetFramework)' == 'net48'">
+    <Reference Include="NVP.Core.API">
+      <HintPath>C:\Program Files\NVP\framework4.8\NVP.Program.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <!--<PropertyGroup Condition="'$(TargetFramework)' == 'net48'">
+    <DefineConstants>NET_48</DefineConstants>
+  </PropertyGroup>-->
+
 </Project>
