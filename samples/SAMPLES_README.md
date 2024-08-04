@@ -1,9 +1,11 @@
 # SAMPLES_README
-Описание примеров скриптов `nvproj` для NVP.
+Описание примеров скриптов `nvproj` для NVP COM.
 
 ## nanoCAD
 
 Базовый путь `/nanoCAD/`
+
+### Общие сведения
 
 TODO:
 
