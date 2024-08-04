@@ -14,7 +14,9 @@ namespace NVP_Manifest_Creator
             foreach (string dll_path in Directory.GetFiles(AppDomain.CurrentDomain.BaseDirectory, "*.dll", SearchOption.TopDirectoryOnly))
             {
                 bool is_any_nodes = false;
-                List<NVP_Manifest> nodeitems = new List<NVP_Manifest>();
+                //List<NVP_Manifest> nodeitems = new List<NVP_Manifest>();
+
+                Dictionary<string, List<NVP_Manifest>> nodeitems = new Dictionary<string, List<NVP_Manifest>>();
 
                 Assembly assembly = Assembly.LoadFrom(dll_path);
                 Type[] types = new Type[] { };
@@ -39,40 +41,59 @@ namespace NVP_Manifest_Creator
                     {
                         NVP_Manifest NVP_Manifest_attrs_need = NVP_Manifest_attrs[0];
                         is_any_nodes = true;
-                        nodeitems.Add(NVP_Manifest_attrs_need);
+
+                        //get fill path
+                        string cs_path = type.Namespace;
+                        if (cs_path.Contains("."))
+                        {
+                            cs_path = cs_path.Substring(0, cs_path.IndexOf("."));
+                        }
+
+                        if (nodeitems.ContainsKey(cs_path)) nodeitems[cs_path].Add(NVP_Manifest_attrs_need);
+                        else nodeitems.Add(cs_path, new List<NVP_Manifest> { NVP_Manifest_attrs_need });
+                        //nodeitems.Add(NVP_Manifest_attrs_need);
                     }
                 }
 
                 if (is_any_nodes)
                 {
-                    //Создаем файл nodeitem с перезаписью
-                    var _doc = new XDocument();
-                    var _doc_nodeitem_Nodes = new XElement("ArrayOfNodeInfo",
-                        new XAttribute("xsd", "http://www.w3.org/2001/XMLSchema"),
-                        new XAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance"));
+                    string base_dir = Path.Combine(Path.GetDirectoryName(dll_path), "NPV_Data");
+                    if (!Directory.Exists(base_dir)) Directory.CreateDirectory(base_dir);
 
-                    foreach (var nodeitem in nodeitems) 
+                    foreach (var nodeitem_File in nodeitems)
                     {
-                        XElement el_NodeInfo = new XElement("NodeInfo");
-                        el_NodeInfo.Add(new XElement("Id", nodeitem.Id));
-                        el_NodeInfo.Add(new XElement("PathAssembly", nodeitem.PathAssembly));
-                        el_NodeInfo.Add(new XElement("PathExecuteClass", nodeitem.PathExecuteClass));
-                        el_NodeInfo.Add(new XElement("CoderName", nodeitem.CoderName));
-                        el_NodeInfo.Add(new XElement("Folder", nodeitem.Folder));
-                        el_NodeInfo.Add(new XElement("NodeName", nodeitem.NodeName));
-                        el_NodeInfo.Add(new XElement("NodeType", nodeitem.NodeType));
-                        el_NodeInfo.Add(new XElement("CADType", nodeitem.CADType));
-                        el_NodeInfo.Add(new XElement("ViewType", nodeitem.ViewType));
-                        el_NodeInfo.Add(new XElement("Text", nodeitem.Text));
-                        _doc_nodeitem_Nodes.Add(el_NodeInfo);
+                        //Создаем файл nodeitem с перезаписью
+                        var _doc = new XDocument();
+                        var _doc_nodeitem_Nodes = new XElement("ArrayOfNodeInfo",
+                            new XAttribute("xsd", "http://www.w3.org/2001/XMLSchema"),
+                            new XAttribute("xsi", "http://www.w3.org/2001/XMLSchema-instance"));
+
+                        foreach (var nodeitem_Element in nodeitem_File.Value)
+                        {
+                            XElement el_NodeInfo = new XElement("NodeInfo");
+                            el_NodeInfo.Add(new XElement("Id", nodeitem_Element.Id));
+                            el_NodeInfo.Add(new XElement("PathAssembly", nodeitem_Element.PathAssembly));
+                            el_NodeInfo.Add(new XElement("PathExecuteClass", nodeitem_Element.PathExecuteClass));
+                            el_NodeInfo.Add(new XElement("CoderName", nodeitem_Element.CoderName));
+                            el_NodeInfo.Add(new XElement("Folder", nodeitem_Element.Folder));
+                            el_NodeInfo.Add(new XElement("NodeName", nodeitem_Element.NodeName));
+                            el_NodeInfo.Add(new XElement("NodeType", nodeitem_Element.NodeType));
+                            el_NodeInfo.Add(new XElement("CADType", nodeitem_Element.CADType));
+                            el_NodeInfo.Add(new XElement("ViewType", nodeitem_Element.ViewType));
+                            el_NodeInfo.Add(new XElement("Text", nodeitem_Element.Text));
+                            _doc_nodeitem_Nodes.Add(el_NodeInfo);
+                        }
+
+                        //Сохраняем сразу во вложенной папке NPV_Data
+                        string nodeitemPath = Path.Combine(base_dir, 
+                            Path.GetFileNameWithoutExtension(dll_path) + "_" + nodeitem_File.Key + ".nodeitem");
+
+                        _doc.Add(_doc_nodeitem_Nodes);
+                        _doc.Save(nodeitemPath);
+
+                        Console.WriteLine(nodeitemPath);
                     }
-
-                    string nodeitemPath = dll_path.Replace(".dll", ".nodeitem");
-
-                    _doc.Add(_doc_nodeitem_Nodes);
-                    _doc.Save(nodeitemPath);
-
-                    Console.WriteLine(nodeitemPath);
+                    
                 }
             }
 
