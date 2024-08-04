@@ -665,34 +665,62 @@ namespace OdaX.AcadHatch
 
 
 	[NVP_Manifest(
-		Id = "C2BAE7AF-984E-4E70-B775-F60622C88B22", 
+		Id = "2D08A507-8BB5-4FAF-8550-992E22161897", 
 		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "OdaX.AcadHatch.AppendOuterLoop", 
+		PathExecuteClass = "OdaX.AcadHatch.AppendOuterLoop_Single", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.OdaX.AcadHatch", 
-		NodeName = "AppendOuterLoop", 
+		NodeName = "AppendOuterLoop_Single", 
 		NodeType = "Loaded", 
 		CADType = "None", 
-		Text = "Adds the outer loop to a hatch.", 
+		Text = "Adds the outer loop (one entity) to a hatch.", 
 		ViewType = "Modifier")]
 	[NodeInput("AcadHatch", typeof(object))]
-	[NodeInput("ObjectArray", typeof(System.Object))]
+	[NodeInput("AcadEntity", typeof(System.Object))]
 
 	///<summary>
-	///Adds the outer loop to a hatch.
+	///Adds the outer loop to a hatch for one entity
 	///</summary>
-	public class AppendOuterLoop : INode
+	public class AppendOuterLoop_Single : INode
 	{
 		public NodeResult Execute(INVPData context, List<NodeResult> inputs)
 		{
 			dynamic _input0 = inputs[0].Value;
-			_input0._i.AppendOuterLoop(inputs[1].Value);
+			object[] ents = new object[1] { inputs[1].Value };
+			_input0._i.AppendOuterLoop(ents);
 			return null;
 		}
 	}
 
+    [NVP_Manifest(
+    Id = "C2BAE7AF-984E-4E70-B775-F60622C88B22",
+    PathAssembly = "NVP_nanoCAD_COM.dll",
+    PathExecuteClass = "OdaX.AcadHatch.AppendOuterLoop_Group",
+    CoderName = "GeorgGrebenyuk",
+    Folder = "NVP_nanoCAD_COM.OdaX.AcadHatch",
+    NodeName = "AppendOuterLoop_Group",
+    NodeType = "Loaded",
+    CADType = "None",
+    Text = "Adds the outer loop (some entities) to a hatch.",
+    ViewType = "Modifier")]
+    [NodeInput("AcadHatch", typeof(object))]
+    [NodeInput("The array of AcadEntity", typeof(System.Object))]
 
-	[NVP_Manifest(
+    ///<summary>
+    ///Adds the outer loop to a hatch fro some entities
+    ///</summary>
+    public class AppendOuterLoop_Group : INode
+    {
+        public NodeResult Execute(INVPData context, List<NodeResult> inputs)
+        {
+            dynamic _input0 = inputs[0].Value;
+            _input0._i.AppendOuterLoop(inputs[1].Value);
+            return null;
+        }
+    }
+
+
+    [NVP_Manifest(
 		Id = "28B435FE-3766-4E4D-B33B-274EAF039F4E", 
 		PathAssembly = "NVP_nanoCAD_COM.dll", 
 		PathExecuteClass = "OdaX.AcadHatch.AppendInnerLoop", 
