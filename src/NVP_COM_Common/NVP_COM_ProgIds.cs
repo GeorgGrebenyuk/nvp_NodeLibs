@@ -10,7 +10,47 @@ using System.Threading.Tasks;
 
 namespace NVP_COM_Common.NVP_COM_ProgIds
 {
+    #region ModelStudio CS
+    [NVP_Manifest(
+    Id = "0D87203D-F884-47B0-87B0-76E85939B519",
+    PathAssembly = "NVP_COM_Common.dll",
+    PathExecuteClass = "NVP_COM_Common.NVP_COM_ProgIds.LibManager_CADLibrary",
+    CoderName = "GeorgGrebenyuk",
+    Folder = "NVP_COM_Common.LibManager_CADLibrary",
+    NodeName = "LibManager_CADLibrary",
+    NodeType = "Loaded",
+    CADType = "None",
+    Text = "The id of LibManager.CADLibrary (Библиотека стандартных компонентов)",
+    ViewType = "Data")]
+    public class NVP_COM_ProgID_LibManager_CADLibrary : INode
+    {
+        public NodeResult Execute(INVPData context, List<NodeResult> inputs)
+        {
+            return new NodeResult("LibManager.CADLibrary.1");
+        }
+    }
+
+    #endregion
     #region nanoCAD
+    [NVP_Manifest(
+    Id = "0D87203D-F884-47B0-87B0-76E85939B519",
+    PathAssembly = "NVP_COM_Common.dll",
+    PathExecuteClass = "NVP_COM_Common.NVP_COM_ProgIds.NVP_COM_ProgID_McCOM2",
+    CoderName = "GeorgGrebenyuk",
+    Folder = "NVP_COM_Common.ProgID_McCOM2",
+    NodeName = "ProgID_McCOM2",
+    NodeType = "Loaded",
+    CADType = "None",
+    Text = "The id of McCOM2.Server (nanoCAD SPDS, Mechanica)",
+    ViewType = "Data")]
+    public class NVP_COM_ProgID_McCOM2 : INode
+    {
+        public NodeResult Execute(INVPData context, List<NodeResult> inputs)
+        {
+            return new NodeResult("McCOM2.Server");
+        }
+    }
+
     [NVP_Manifest(
     Id = "308B52DD-E4CD-4E1B-9AEA-14EC6432B6FA",
     PathAssembly = "NVP_COM_Common.dll",
@@ -221,6 +261,8 @@ namespace NVP_COM_Common.NVP_COM_ProgIds
     }
 
     #endregion
+
+    
 
     [NVP_Manifest(
     Id = "EB58B46D-B47E-4E4C-933E-3BE0B30361F1",
