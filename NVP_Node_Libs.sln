@@ -19,6 +19,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Build_release.bat = Build_release.bat
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NVP_ModelStudio_COM", "src\NVP_ModelStudio_COM\NVP_ModelStudio_COM.csproj", "{15F4E048-7DA8-489E-A95F-B6EF18CC0460}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{4AF8E0D2-1FDD-46EB-84D7-328AADED3790}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4AF8E0D2-1FDD-46EB-84D7-328AADED3790}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4AF8E0D2-1FDD-46EB-84D7-328AADED3790}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15F4E048-7DA8-489E-A95F-B6EF18CC0460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15F4E048-7DA8-489E-A95F-B6EF18CC0460}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15F4E048-7DA8-489E-A95F-B6EF18CC0460}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15F4E048-7DA8-489E-A95F-B6EF18CC0460}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
