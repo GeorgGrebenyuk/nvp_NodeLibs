@@ -2,7 +2,7 @@
 
 ## v0.0.2
 
-04.08.2024
+05.08.2024
 
 **Добавлено**:
 
@@ -12,9 +12,12 @@
 
 * Переопределен нод `AppendOuterLoop` для AcadHatch: он переименован в `AppendOuterLoop_Single`, добавлен новый нод `AppendOuterLoop_Group`. Нод AppendOuterLoop_Single ожидает единичный объект (интерфейс AcadEntity), а AppendOuterLoop_Group -- массив интерфейсов AcadEntity;
 
+* Функции ModelStudio выведены в отдельную библиотеку нодов `NVP_ModelStudio_COM`;
+
 **Обновлено**:
 
 * Пример нодов nanoCAD для отрисовки окружности и штриховки;
+* Скрипты сборки проектов `bat`;
 
 ## v0.0.1
 
