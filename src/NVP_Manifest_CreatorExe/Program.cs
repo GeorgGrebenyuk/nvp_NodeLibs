@@ -85,7 +85,7 @@ namespace NVP_Manifest_Creator
                         }
 
                         //Сохраняем сразу во вложенной папке NPV_Data
-                        string nodeitemPath = Path.Combine(base_dir, 
+                        string nodeitemPath = Path.Combine(Path.GetDirectoryName(dll_path), 
                             Path.GetFileNameWithoutExtension(dll_path) + "_" + nodeitem_File.Key + ".nodeitem");
 
                         _doc.Add(_doc_nodeitem_Nodes);
@@ -99,7 +99,7 @@ namespace NVP_Manifest_Creator
 
             Console.WriteLine("\nEnd!");
 #if DEBUG
-            Console.ReadKey();
+            //Console.ReadKey();
 #endif
         }
     }
