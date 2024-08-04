@@ -8,7 +8,7 @@
 
 * `NVP_NCAD_COM_Sample_Create Circle and Hatch.nvproj`: подключение к активному nanoCAD, получение пространства модели и созданием в нём окружности, определения штриховки и добавления окружности в контур штриховки SOLID. Скрипт снабжен текстовыми нодами "ПОЯСНЕНИЕ" с комментариями.
   
-  ![](C:\Users\Georg\AppData\Roaming\marktext\images\2024-08-04-18-09-02-image.png) 
+  ![](.\..\docs\images\2024-08-04-18-09-02-image.png) 
 
 ## CSoft ModelStudio
 
