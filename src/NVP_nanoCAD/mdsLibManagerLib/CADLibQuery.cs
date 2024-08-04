@@ -95,7 +95,7 @@ namespace mdsLibManagerLib.CADLibQuery
 		PathExecuteClass = "mdsLibManagerLib.CADLibQuery.Execute2", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLibManagerLib.CADLibQuery", 
-		NodeName = "Execute2", 
+		NodeName = "Execute", 
 		NodeType = "Loaded", 
 		CADType = "None", 
 		Text = "method Execute", 

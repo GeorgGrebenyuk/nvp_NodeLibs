@@ -56739,6 +56739,4658 @@
     {
       "Name": "mdsLibManagerLib.CADLibQuery.Execute2",
       "Id": "154637CF-414B-4C19-8BB5-3EB19F1827A9"
+    },
+    {
+      "Name": "McCOM2.Object.Object_Constructor",
+      "Id": "3E4FC232-17CB-4EB4-9F9B-7C7BC3E38694"
+    },
+    {
+      "Name": "McCOM2.Object.Object_ConstructorCast",
+      "Id": "E67D0ABD-5468-4B6C-ADE5-0165263B7E08"
+    },
+    {
+      "Name": "McCOM2.Object.Properties",
+      "Id": "CC2BF5D2-5EFC-4AE6-AF1B-D06D5CA9057D"
+    },
+    {
+      "Name": "McCOM2.Object.Visible",
+      "Id": "E19A57FE-DDB7-4878-991A-834D643CA083"
+    },
+    {
+      "Name": "McCOM2.Object.Set_Visible",
+      "Id": "5004A9D9-3036-4FE5-B35D-24045A3478E1"
+    },
+    {
+      "Name": "McCOM2.Object.ViewScale",
+      "Id": "F9FF0B38-3B63-4373-8129-167C9792C221"
+    },
+    {
+      "Name": "McCOM2.Object.Set_ViewScale",
+      "Id": "17F9700C-574B-4709-8426-2E10292D64C7"
+    },
+    {
+      "Name": "McCOM2.Object.DimScale",
+      "Id": "40E00706-1D88-4A67-ABC9-30124A4D2B03"
+    },
+    {
+      "Name": "McCOM2.Object.Set_DimScale",
+      "Id": "8DA0AD72-EBF4-4B66-8049-920FBC6920C0"
+    },
+    {
+      "Name": "McCOM2.Object.Native",
+      "Id": "1880A3A5-D744-4E4C-A73C-8401E4CD9CAE"
+    },
+    {
+      "Name": "McCOM2.Object.Bounds",
+      "Id": "9458DAE2-16F5-40D8-94F8-26927015377D"
+    },
+    {
+      "Name": "McCOM2.Object.ClassName",
+      "Id": "30CF2846-80FB-4A1F-BCF0-29EF95899052"
+    },
+    {
+      "Name": "McCOM2.Object.Id",
+      "Id": "170E5609-EF18-48FD-9A54-AF264CBD06AB"
+    },
+    {
+      "Name": "McCOM2.Object.NativeId",
+      "Id": "89B48B11-5B35-4896-A3EF-21CDD342C86A"
+    },
+    {
+      "Name": "McCOM2.Object.Place",
+      "Id": "C6D1F7A8-D0C0-4623-B991-7446C8CC3AA0"
+    },
+    {
+      "Name": "McCOM2.Object.Edit",
+      "Id": "9F377EEF-CA9A-4C03-B8CC-D3DD48037B9B"
+    },
+    {
+      "Name": "McCOM2.Object.Erase",
+      "Id": "1C8FD8B6-DF4D-444D-87A2-009225BDCECB"
+    },
+    {
+      "Name": "McCOM2.Object.Copy",
+      "Id": "EA8609B4-FB6E-45DC-A118-62D62439C972"
+    },
+    {
+      "Name": "McCOM2.Object.Transform",
+      "Id": "D867D014-210E-439D-8BA0-A4119EA320C5"
+    },
+    {
+      "Name": "McCOM2.Object.Highlight",
+      "Id": "2077506D-5C15-42C6-8BA9-34A329E9F380"
+    },
+    {
+      "Name": "McCOM2.Object.Layer",
+      "Id": "70B9664F-3985-4942-A5F5-D00B4F3A751A"
+    },
+    {
+      "Name": "McCOM2.Object.Set_Layer",
+      "Id": "DE8D1BA2-18C1-4486-8F7E-4C52CFA4715C"
+    },
+    {
+      "Name": "McCOM2.Object.Color",
+      "Id": "2B9AED9C-CE3E-4752-ACF2-B8036E8D8466"
+    },
+    {
+      "Name": "McCOM2.Object.Set_Color",
+      "Id": "40A9BAFD-1A0E-4571-87B0-915A75BE8F2C"
+    },
+    {
+      "Name": "McCOM2.Object.LineType",
+      "Id": "D8C3FA55-FAA0-4337-A513-C1A19D8E4920"
+    },
+    {
+      "Name": "McCOM2.Object.Set_LineType",
+      "Id": "A2A14C09-3C4D-4655-BE6E-B286A9B61D8B"
+    },
+    {
+      "Name": "McCOM2.Object.LineTypeScale",
+      "Id": "A337D971-96E5-4238-A674-9AE456D7D82B"
+    },
+    {
+      "Name": "McCOM2.Object.Set_LineTypeScale",
+      "Id": "6E10CB67-7193-40CB-84EB-D19D60A5652B"
+    },
+    {
+      "Name": "McCOM2.Object.LineWeight",
+      "Id": "6F87979A-57AD-4642-8039-449D806F2F21"
+    },
+    {
+      "Name": "McCOM2.Object.Set_LineWeight",
+      "Id": "05081CA3-D0A9-40D6-99A1-7C063F1BC846"
+    },
+    {
+      "Name": "McCOM2.PropertiesCollection.PropertiesCollection_Constructor",
+      "Id": "909D8CF7-A405-4E03-869F-01CEEAD383AF"
+    },
+    {
+      "Name": "McCOM2.PropertiesCollection.PropertiesCollection_ConstructorCast",
+      "Id": "224035F8-CA02-4CFA-ADC7-EB2FDFE6997D"
+    },
+    {
+      "Name": "McCOM2.PropertiesCollection.Item",
+      "Id": "CE58190A-76E9-4DFD-B8B3-EB5F0B49507E"
+    },
+    {
+      "Name": "McCOM2.PropertiesCollection.Count",
+      "Id": "DE7EDCD5-6882-48D1-9E20-A0762A89D0D6"
+    },
+    {
+      "Name": "McCOM2.PropertiesCollection.Object",
+      "Id": "D91C727C-8C9B-4A3E-8FE5-93F0BC868E62"
+    },
+    {
+      "Name": "McCOM2.PropertiesCollection.Names",
+      "Id": "BE1EEB41-6060-4BA2-8A37-392138DBB17C"
+    },
+    {
+      "Name": "McCOM2.Property.Property_Constructor",
+      "Id": "C643C327-EFBC-4E00-B722-318392F1700C"
+    },
+    {
+      "Name": "McCOM2.Property.Property_ConstructorCast",
+      "Id": "33F7CD55-E9B0-4018-9BB7-77D55B006CE0"
+    },
+    {
+      "Name": "McCOM2.Property.Name",
+      "Id": "32895B4F-EEEE-49D1-A62A-219BC57DA32C"
+    },
+    {
+      "Name": "McCOM2.Property.Alias",
+      "Id": "1A414B7B-6B1B-4020-BCF1-B99276A1543B"
+    },
+    {
+      "Name": "McCOM2.Property.Type",
+      "Id": "9596244B-5C47-4485-B3FA-B10CAB2A8269"
+    },
+    {
+      "Name": "McCOM2.Property.Description",
+      "Id": "5BC859D8-BAA9-4E61-9378-8AB287BFDA91"
+    },
+    {
+      "Name": "McCOM2.Property.Category",
+      "Id": "DAC576FA-1B72-4D80-B255-6170B8DF019F"
+    },
+    {
+      "Name": "McCOM2.Property.Enabled",
+      "Id": "76C1AC0A-1362-4070-A02D-4F9DD54E88E2"
+    },
+    {
+      "Name": "McCOM2.Property.Object",
+      "Id": "6FBEE994-91C8-4690-B497-050D1CCEDCCA"
+    },
+    {
+      "Name": "McCOM2.Property.Value",
+      "Id": "72827255-5875-45B2-AB7D-70C8B857A602"
+    },
+    {
+      "Name": "McCOM2.Property.Set_Value",
+      "Id": "A2D14DC9-8A16-4636-B1CF-2F3FEE4D8094"
+    },
+    {
+      "Name": "McCOM2.Property.Bounds",
+      "Id": "AE5A1807-B970-4B88-AFAB-B037D4C26A30"
+    },
+    {
+      "Name": "McCOM2.Property.Raw",
+      "Id": "8FD787F4-DCA8-4B88-93A7-7584314D0401"
+    },
+    {
+      "Name": "McCOM2.Property.Items",
+      "Id": "090B642F-A1F9-4D98-8C3D-8D13520F23F7"
+    },
+    {
+      "Name": "McCOM2.Property.Global",
+      "Id": "38CB8C65-94CA-4512-96F0-7FBD8167C6B0"
+    },
+    {
+      "Name": "McCOM2.Property.Binded",
+      "Id": "C1AF18AF-C282-4956-B5AB-E4FED96718B9"
+    },
+    {
+      "Name": "McCOM2.Property.Set_Binded",
+      "Id": "C5535663-04BF-4854-A863-2CED52584168"
+    },
+    {
+      "Name": "McCOM2.interface.interface_Constructor",
+      "Id": "0784C064-E405-4FB1-9249-39078398694B"
+    },
+    {
+      "Name": "McCOM2.interface.interface_ConstructorCast",
+      "Id": "25E78547-1A77-410E-B2F0-2063F3B70593"
+    },
+    {
+      "Name": "McCOM2.interface.OnChanged",
+      "Id": "FB36B889-B626-49FE-96D9-0AEB1B72732A"
+    },
+    {
+      "Name": "McCOM2.interface.OnErased",
+      "Id": "81ECFA22-5BC7-442A-B909-CA38E797F26F"
+    },
+    {
+      "Name": "McCOM2.interface.OnAppended",
+      "Id": "9FA33779-C93D-4902-ACC7-DE8754336EA6"
+    },
+    {
+      "Name": "McCOM2.interface.OnPropertyChanged",
+      "Id": "CB7D9F9C-FADE-44FF-B086-8185B12CEE52"
+    },
+    {
+      "Name": "McCOM2.Server.Server_Constructor",
+      "Id": "D145767D-1496-4760-8546-66A291B3FFB1"
+    },
+    {
+      "Name": "McCOM2.Server.Server_ConstructorCast",
+      "Id": "B08574ED-CE8A-4F99-82C2-B80A82D654E1"
+    },
+    {
+      "Name": "McCOM2.Server.Properties",
+      "Id": "0CA43938-069D-4330-9582-BE9F83C82337"
+    },
+    {
+      "Name": "McCOM2.Server.Title",
+      "Id": "129A0BFA-7684-4E4C-B7AE-533C05B7D2AC"
+    },
+    {
+      "Name": "McCOM2.Server.DimScale",
+      "Id": "7C2A65ED-FFC9-4400-B9DC-1CA630E9AE2A"
+    },
+    {
+      "Name": "McCOM2.Server.Set_DimScale",
+      "Id": "3433F9E4-12D7-41EE-A06E-D6F0914E7ABD"
+    },
+    {
+      "Name": "McCOM2.Server.ViewScale",
+      "Id": "9F860C4E-BAA5-4E1B-879A-FDEF53A7A80A"
+    },
+    {
+      "Name": "McCOM2.Server.Set_ViewScale",
+      "Id": "6B8E4C97-DC64-4EA5-858A-C038E23B9C7F"
+    },
+    {
+      "Name": "McCOM2.Server.Scales",
+      "Id": "E73CAF3A-1CA3-4BC7-AF29-CEDF8BC1539D"
+    },
+    {
+      "Name": "McCOM2.Server.ScaleToStr",
+      "Id": "6B03FD92-9DC1-46DA-BA85-122FA932A50F"
+    },
+    {
+      "Name": "McCOM2.Server.ScaleFromStr",
+      "Id": "03F301D6-4612-45B6-BD92-353B3D36A6AB"
+    },
+    {
+      "Name": "McCOM2.Server.Object",
+      "Id": "F3B3B1B5-0DF1-4ED1-BF05-4D488EA3E85C"
+    },
+    {
+      "Name": "McCOM2.Server.CreateObject",
+      "Id": "B98A93D5-D8EE-47AA-B9A9-229CC1AE17FF"
+    },
+    {
+      "Name": "McCOM2.Server.Query",
+      "Id": "D7E58D2F-532A-491B-ADA8-41824C3D952C"
+    },
+    {
+      "Name": "McCOM2.Server.Select",
+      "Id": "9CE01C22-221B-4E64-B178-3D59F3F489D3"
+    },
+    {
+      "Name": "McCOM2.Server.RegisterCalculator",
+      "Id": "590A1898-4019-4826-9D37-5F671065A70D"
+    },
+    {
+      "Name": "McCOM2.Server.Message",
+      "Id": "381CE11F-72CC-45A6-8C99-C342CFA91BC6"
+    },
+    {
+      "Name": "McCOM2.ObjectsCollection.ObjectsCollection_Constructor",
+      "Id": "FB9F819A-EADE-4B8C-8BCF-77619DFF46C2"
+    },
+    {
+      "Name": "McCOM2.ObjectsCollection.ObjectsCollection_ConstructorCast",
+      "Id": "EE0E1426-A67B-43BA-BF83-B49B49412A26"
+    },
+    {
+      "Name": "McCOM2.ObjectsCollection.Item",
+      "Id": "31AF0B92-8169-445C-BBB1-3D82460ADAF2"
+    },
+    {
+      "Name": "McCOM2.ObjectsCollection.Count",
+      "Id": "C2B19067-ACF3-4566-AC1F-19037FC6DFF5"
+    },
+    {
+      "Name": "McCOM2.ObjectsCollection.Add",
+      "Id": "00D2196E-95DC-46D1-9A8A-726113FC54B0"
+    },
+    {
+      "Name": "McCOM2.ObjectsCollection.Remove",
+      "Id": "B602080B-F91C-4409-8DBF-BDA934AAC250"
+    },
+    {
+      "Name": "McCOM2.ObjectsCollection.Contains",
+      "Id": "5AF036FB-7AA2-483E-9BEF-207202BE72EE"
+    },
+    {
+      "Name": "McCOM2.ObjectsCollection.Or",
+      "Id": "792C5BE0-13AA-442C-B540-90BA327FDCEA"
+    },
+    {
+      "Name": "McCOM2.ObjectsCollection.And",
+      "Id": "DC938D00-8B7E-4CB0-B5C2-6DFC9637F89E"
+    },
+    {
+      "Name": "McCOM2.ObjectsCollection.Not",
+      "Id": "8E828094-CB9B-4B06-9A8C-F1DF92B53D9C"
+    },
+    {
+      "Name": "McCOM2.ObjectsCollection.Xor",
+      "Id": "57563056-1E72-4C48-9CEA-495BCEE1C378"
+    },
+    {
+      "Name": "McCOM2.Server2.Server2_Constructor",
+      "Id": "52300F22-0154-45FD-9EB5-EDFDDC12F594"
+    },
+    {
+      "Name": "McCOM2.Server2.Server2_ConstructorCast",
+      "Id": "21EBC5BB-591F-4054-A1C3-63FAB127017D"
+    },
+    {
+      "Name": "McCOM2.Server2.Message64",
+      "Id": "E304DDD5-21D0-4418-9D85-1CCC0B954F85"
+    },
+    {
+      "Name": "McCOM2.Server2.Update",
+      "Id": "A10AD7EB-C756-4401-B208-AF5BE85239E3"
+    },
+    {
+      "Name": "McCOM2.McTransaction.McTransaction_Constructor",
+      "Id": "1E6E2ABF-4145-4D4B-9ECC-5441B8EB4B70"
+    },
+    {
+      "Name": "McCOM2.McTransaction.McTransaction_ConstructorCast",
+      "Id": "4DBC2069-A2C2-494C-8978-03B0CDD41AC0"
+    },
+    {
+      "Name": "McCOM2.McTransaction.Start",
+      "Id": "44981D8C-3D7D-4ADF-B80E-7597F634916D"
+    },
+    {
+      "Name": "McCOM2.McTransaction.Commit",
+      "Id": "70E34DA1-362E-476E-A746-3F1179E57AD4"
+    },
+    {
+      "Name": "McCOM2.McTransaction.Rollback",
+      "Id": "65A82F60-26A8-4CC2-BF07-3170664E1EDB"
+    },
+    {
+      "Name": "McCOM2.Text.Text_Constructor",
+      "Id": "C1A45376-EF28-4E9F-AFA6-EFDBBD905FA6"
+    },
+    {
+      "Name": "McCOM2.Text.Text_ConstructorCast",
+      "Id": "A1014DC2-0A20-4338-A9B5-758DAD630E49"
+    },
+    {
+      "Name": "McCOM2.Text.Text",
+      "Id": "2FD66859-AC0D-4663-90C6-E1B91C9B4D64"
+    },
+    {
+      "Name": "McCOM2.Text.Set_Text",
+      "Id": "E87A04EC-3227-4BF3-AE3C-D98F4D260DCB"
+    },
+    {
+      "Name": "McCOM2.Text.Raw",
+      "Id": "74242E85-FE20-418F-9616-DE54D063CCE2"
+    },
+    {
+      "Name": "McCOM2.Text.Set_Raw",
+      "Id": "2F7361C8-D8AA-4BE1-96BE-A8A263EAA066"
+    },
+    {
+      "Name": "McCOM2.Text.Native",
+      "Id": "C0CBABA6-C43B-4C50-A7B6-C8B70F2706EB"
+    },
+    {
+      "Name": "McCOM2.Text.Set_Native",
+      "Id": "A5879B50-3BED-43FC-B160-5903235F533B"
+    },
+    {
+      "Name": "McCOM2.Text.Simple",
+      "Id": "340D036C-7012-4F41-8A8B-49B3277DEF66"
+    },
+    {
+      "Name": "McCOM2.Text.RichEdit",
+      "Id": "A8F4B0E1-2B9C-4D7A-8222-1ACB4F829B8E"
+    },
+    {
+      "Name": "McCOM2.Text.InsertSub",
+      "Id": "69945D60-7754-4B86-8755-0ADB22BAB4D7"
+    },
+    {
+      "Name": "McCOM2.Text.InsertSup",
+      "Id": "441A23CE-3331-46D7-A270-BCCC0B912BB6"
+    },
+    {
+      "Name": "McCOM2.Text.Insert",
+      "Id": "48A0F57A-BD8A-4563-BD25-9F4D0ACEB1A6"
+    },
+    {
+      "Name": "McCOM2.Text.InsertNum",
+      "Id": "8A8083AC-9BA0-4008-A471-BF4F407E42F5"
+    },
+    {
+      "Name": "McCOM2.Text.InsertDivision",
+      "Id": "B6552EC6-A306-439A-BCD1-158F516DCBBB"
+    },
+    {
+      "Name": "McCOM2.Text.Delete",
+      "Id": "E9B26372-CCFF-4307-9BCF-940FC1506E08"
+    },
+    {
+      "Name": "McCOM2.Text.Split",
+      "Id": "40B0E051-020D-4246-82E6-5597215A66D2"
+    },
+    {
+      "Name": "McCOM2.Text.Find",
+      "Id": "31317258-70B2-427D-A507-31CF26E7798B"
+    },
+    {
+      "Name": "McCOM2.Text.Replace",
+      "Id": "BBEF52D0-A901-47BA-A7C8-C935DB8CBACE"
+    },
+    {
+      "Name": "McCOM2.interface.OnEnter",
+      "Id": "A251A5B7-5EBA-4B2B-8082-55E308CCFBB7"
+    },
+    {
+      "Name": "McCOM2.interface.OnLeave",
+      "Id": "A56EFBD1-FCE8-438C-83E4-77F6952E5740"
+    },
+    {
+      "Name": "McCOM2.Control.Control_Constructor",
+      "Id": "3246054A-D4F6-41EF-B91D-00F8BCFEE90A"
+    },
+    {
+      "Name": "McCOM2.Control.Control_ConstructorCast",
+      "Id": "3036B1DF-D9E0-4B5C-8900-B84C7FE403BB"
+    },
+    {
+      "Name": "McCOM2.Control.Value",
+      "Id": "4D5A317A-EDFD-4B85-8B54-AD5F8215103D"
+    },
+    {
+      "Name": "McCOM2.Control.Set_Value",
+      "Id": "F541554A-5236-4454-BFC3-617BBB21E6FB"
+    },
+    {
+      "Name": "McCOM2.Control.ClassName",
+      "Id": "743451C1-880A-43AC-9D66-335810D5E97B"
+    },
+    {
+      "Name": "McCOM2.Control.Name",
+      "Id": "F8DF1B61-DD9A-4AA6-B1D1-184E454EC2B1"
+    },
+    {
+      "Name": "McCOM2.Control.Visible",
+      "Id": "8A6787AD-94AC-437D-AEBD-5427A216FFC1"
+    },
+    {
+      "Name": "McCOM2.Control.Set_Visible",
+      "Id": "68171176-9586-4492-8D87-9C91916CAC3C"
+    },
+    {
+      "Name": "McCOM2.Control.Enabled",
+      "Id": "373E10C1-AA95-4E3A-8096-7462B7D0D25A"
+    },
+    {
+      "Name": "McCOM2.Control.Set_Enabled",
+      "Id": "276B21A6-0D38-41F5-B845-7F35064CC92A"
+    },
+    {
+      "Name": "McCOM2.Control.Form",
+      "Id": "A2842524-B252-4BCF-9BE8-6F81A69F44B4"
+    },
+    {
+      "Name": "McCOM2.Control.Left",
+      "Id": "16778F51-33CD-47F2-B447-4A31943AE4C5"
+    },
+    {
+      "Name": "McCOM2.Control.Set_Left",
+      "Id": "46446FAF-D498-43C6-8BFD-E4530E8F2832"
+    },
+    {
+      "Name": "McCOM2.Control.Top",
+      "Id": "8DC0ECFF-1E57-4C8A-ABBB-A3796AC53001"
+    },
+    {
+      "Name": "McCOM2.Control.Set_Top",
+      "Id": "68E90BD2-E5E4-4D28-8463-87DFFD6B3FDD"
+    },
+    {
+      "Name": "McCOM2.Control.Right",
+      "Id": "A2C1D86C-D1A8-46C4-96A3-5329897D0A5F"
+    },
+    {
+      "Name": "McCOM2.Control.Set_Right",
+      "Id": "7E820F0C-D53C-42DA-89B7-82FFCA3616AF"
+    },
+    {
+      "Name": "McCOM2.Control.Bottom",
+      "Id": "58158126-E39E-4ADA-BD88-76CE80546F8D"
+    },
+    {
+      "Name": "McCOM2.Control.Set_Bottom",
+      "Id": "C645C7AC-50B4-4129-9B43-9BEAEEC29BFA"
+    },
+    {
+      "Name": "McCOM2.Control.Width",
+      "Id": "74A9CE68-1C7B-41E0-8D83-30BCF4D2EABF"
+    },
+    {
+      "Name": "McCOM2.Control.Set_Width",
+      "Id": "7BB32A18-CAF0-4C4B-B52C-F4B4EC6B310E"
+    },
+    {
+      "Name": "McCOM2.Control.Height",
+      "Id": "EF161942-27A9-4FB2-B3BD-49A73A682EE3"
+    },
+    {
+      "Name": "McCOM2.Control.Set_Height",
+      "Id": "1DDD4C4E-FBA3-4D08-9FD8-88D72253EBED"
+    },
+    {
+      "Name": "McCOM2.Form.Form_Constructor",
+      "Id": "5085C40A-6042-419D-861F-9049AF4BA1CF"
+    },
+    {
+      "Name": "McCOM2.Form.Form_ConstructorCast",
+      "Id": "B5BD460C-5F43-47C9-93A2-0037E0787477"
+    },
+    {
+      "Name": "McCOM2.Form.Item",
+      "Id": "4D253CFE-2112-4F15-9AB8-F82CB0A25E3A"
+    },
+    {
+      "Name": "McCOM2.Form.Count",
+      "Id": "0EED816C-FDA7-4454-BAE5-D9DB50F58EEF"
+    },
+    {
+      "Name": "McCOM2.Form.Width",
+      "Id": "9920D121-7121-48E8-BDB6-213B425A4452"
+    },
+    {
+      "Name": "McCOM2.Form.Height",
+      "Id": "5EB5D4DC-BCF5-4262-A791-91B27DC7D6F1"
+    },
+    {
+      "Name": "McCOM2.Form.Show",
+      "Id": "03DB84C7-7555-4B20-9ED4-8968971386FA"
+    },
+    {
+      "Name": "McCOM2.Form.Load",
+      "Id": "D478D43E-603A-4746-9EC0-D62D9EFC7F75"
+    },
+    {
+      "Name": "McCOM2.interface.OnShow",
+      "Id": "04DFE430-EA2B-4298-8022-2EB0C3387D5E"
+    },
+    {
+      "Name": "McCOM2.interface.OnClose",
+      "Id": "A19EE4FF-8F77-474A-8F93-F029C41EC52F"
+    },
+    {
+      "Name": "McCOM2.Recent.Recent_Constructor",
+      "Id": "F093FEE1-D75C-42B9-BFFF-F93714F2039C"
+    },
+    {
+      "Name": "McCOM2.Recent.Recent_ConstructorCast",
+      "Id": "B42C0936-258F-4FEA-9104-B295AFEF80EB"
+    },
+    {
+      "Name": "McCOM2.Recent.Key",
+      "Id": "1D94C273-F5F3-40EE-8E8A-2589AD18F36D"
+    },
+    {
+      "Name": "McCOM2.Recent.Set_Key",
+      "Id": "0DCC8D39-9622-4BA3-A18D-F2D3B3A00DAA"
+    },
+    {
+      "Name": "McCOM2.Recent.Values",
+      "Id": "5C613AB0-9D28-4D4C-B157-1CEA84103392"
+    },
+    {
+      "Name": "McCOM2.Recent.NamedValues",
+      "Id": "85C531BE-4128-4C60-9F5E-5D15A2821DCF"
+    },
+    {
+      "Name": "McCOM2.Recent.Add",
+      "Id": "28E3BA7C-C310-4B66-8F5C-8B278DC7065D"
+    },
+    {
+      "Name": "McCOM2.Recent.Remove",
+      "Id": "F3E5AB92-DFC1-4CFC-A1FC-0D74877701B7"
+    },
+    {
+      "Name": "McCOM2.McCOMCalculator.McCOMCalculator_Constructor",
+      "Id": "D5EA1B3C-D6C9-448C-BFE9-B5E677CCCC39"
+    },
+    {
+      "Name": "McCOM2.McCOMCalculator.McCOMCalculator_ConstructorCast",
+      "Id": "A6831137-0E40-467A-BB6D-80C23CF31064"
+    },
+    {
+      "Name": "McCOM2.McCOMCalculator.OnCreate",
+      "Id": "576E0883-EB48-4841-A218-D99419452083"
+    },
+    {
+      "Name": "McCOM2.McCOMCalculator.OnEdit",
+      "Id": "5F4FA167-86B1-4AA8-AB21-5777875705FB"
+    },
+    {
+      "Name": "McCOM2.McCOMCalculator.GetValueByName",
+      "Id": "FD26AF35-34D4-4AF6-8376-A8B3DEF56038"
+    },
+    {
+      "Name": "McCOM2.McCOMCalculator.PutValueByName",
+      "Id": "8A7DE76D-B5BA-4471-8143-567035F62666"
+    },
+    {
+      "Name": "McCOM2.McCOMCalculator.OnRead",
+      "Id": "70E8E649-BD9B-45F5-BBF4-0BC9411BA188"
+    },
+    {
+      "Name": "McCOM2.McCOMCalculator.OnWrite",
+      "Id": "8533F6AC-4689-45EF-9FC2-D982B7C5E570"
+    },
+    {
+      "Name": "McCOM2.McCOMCalculator.GetValueByIndex",
+      "Id": "60D62494-44F9-471B-AA15-3B221B0270C4"
+    },
+    {
+      "Name": "McCOM2.McCOMCalculator.PutValueByIndex",
+      "Id": "706AA924-714F-4F71-8423-1B21DF2CA57A"
+    },
+    {
+      "Name": "McCOM2.McCOMCalculator.GetKeywords",
+      "Id": "0E9D4EC7-30B6-4E09-ADAD-DBA6167595D6"
+    },
+    {
+      "Name": "McCOM2.McCOMReportManager.McCOMReportManager_Constructor",
+      "Id": "097EADA0-DA37-4908-B234-E409E4DEA7CE"
+    },
+    {
+      "Name": "McCOM2.McCOMReportManager.McCOMReportManager_ConstructorCast",
+      "Id": "70224F1C-DBE8-4870-B3E0-51B4782E268F"
+    },
+    {
+      "Name": "McCOM2.McCOMReportManager.AddKeyword",
+      "Id": "3BFD4CD7-DC90-4420-998F-36E7BE4AEF99"
+    },
+    {
+      "Name": "McCOM2.McCOMPlugin2.McCOMPlugin2_Constructor",
+      "Id": "D00EBA58-50EB-455E-BD7D-06ED51BE60D3"
+    },
+    {
+      "Name": "McCOM2.McCOMPlugin2.McCOMPlugin2_ConstructorCast",
+      "Id": "280631E3-5EEE-4122-99E9-374A3AD67B8F"
+    },
+    {
+      "Name": "McCOM2.McCOMPlugin2.Activate",
+      "Id": "768ECC5C-9631-4398-A677-D49FBB9F0FED"
+    },
+    {
+      "Name": "McCOM2.SymFrame.SymFrame_Constructor",
+      "Id": "639A6628-015E-4F93-9E93-5F0FA9B0A49E"
+    },
+    {
+      "Name": "McCOM2.SymFrame.SymFrame_ConstructorCast",
+      "Id": "BC5AAD1D-8A5B-4230-955E-17F84EC1C0D2"
+    },
+    {
+      "Name": "McCOM2.SymFrame.SelectFor",
+      "Id": "234E015D-3C25-43DF-876A-D47840957475"
+    },
+    {
+      "Name": "McCOM2.SymFrame.ZoneAtPoint",
+      "Id": "A05C8713-0034-4FC2-8CC9-B4312DC08B56"
+    },
+    {
+      "Name": "McCOM2.SymFrame.Prev",
+      "Id": "D7522B05-C323-4486-9D60-2BE8BA324920"
+    },
+    {
+      "Name": "McCOM2.SymFrame.Next",
+      "Id": "442DDC5F-513E-4F0B-ADA6-665585DD9D8D"
+    },
+    {
+      "Name": "McCOM2.SymFrame.Set_Roughness",
+      "Id": "1A6D93E9-F06A-4F9C-A50F-12C560C03BCD"
+    },
+    {
+      "Name": "McCOM2.SymFrame.Roughness",
+      "Id": "7E95248D-B1CC-46AB-8391-B9360EE7AD0C"
+    },
+    {
+      "Name": "McCOM2.SymFrame.Text",
+      "Id": "3DAF29B0-BCBA-40D0-AEB1-9034778DC874"
+    },
+    {
+      "Name": "McCOM2.SymRoughness.SymRoughness_Constructor",
+      "Id": "8B02FE6C-61C7-4FBA-A02C-AB7FB16CCDF9"
+    },
+    {
+      "Name": "McCOM2.SymRoughness.SymRoughness_ConstructorCast",
+      "Id": "7C7B608A-3F0B-45EF-8B9F-69DACAC87AE1"
+    },
+    {
+      "Name": "McCOM2.SymRoughness.TextPosition",
+      "Id": "EE517D96-1EAA-4929-969A-0EDE5A4B8414"
+    },
+    {
+      "Name": "McCOM2.SymRoughness.Set_TextPosition",
+      "Id": "3286DC4D-9CEF-46B1-B162-4F35A3C7E8A5"
+    },
+    {
+      "Name": "McCOM2.SymRoughness.Angle",
+      "Id": "6B311943-E049-4600-AB18-8AE5B1FCF573"
+    },
+    {
+      "Name": "McCOM2.SymRoughness.Set_Angle",
+      "Id": "89EA59DB-6625-464C-A06B-08C2A3ACDDBB"
+    },
+    {
+      "Name": "McCOM2.SymRoughness.Direction",
+      "Id": "A2DD3BA4-D92E-4FE7-977D-0F5D180465E0"
+    },
+    {
+      "Name": "McCOM2.SymRoughness.Set_Direction",
+      "Id": "94039EBD-A247-4D8E-955A-FCF202735E95"
+    },
+    {
+      "Name": "McCOM2.SymRoughness.Technology",
+      "Id": "DD020E66-6B61-45EA-A637-5C7495D822E0"
+    },
+    {
+      "Name": "McCOM2.SymRoughness.Set_Technology",
+      "Id": "7915628B-D823-4740-B3C4-903C0CA47868"
+    },
+    {
+      "Name": "McCOM2.SymRoughness.Parameter",
+      "Id": "9C663C70-18D6-42AF-AF47-883FE719D1C5"
+    },
+    {
+      "Name": "McCOM2.SymRoughness.Set_Parameter",
+      "Id": "E455ABD1-5217-453A-A18D-1433035CCBEF"
+    },
+    {
+      "Name": "McCOM2.SymRoughness.Default",
+      "Id": "7D3A30A0-2066-4E99-86A9-B78F7F716EAE"
+    },
+    {
+      "Name": "McCOM2.SymRoughness.Set_Default",
+      "Id": "5DC9DEF3-2CF1-469E-AD3E-224116B19878"
+    },
+    {
+      "Name": "McCOM2.SymRoughness.Closed",
+      "Id": "079B330F-3880-44C7-8E8A-B7A162D3E792"
+    },
+    {
+      "Name": "McCOM2.SymRoughness.Set_Closed",
+      "Id": "99AB0264-B973-49DC-B9BD-9173CEF38D43"
+    },
+    {
+      "Name": "McCOM2.SymRoughness.ProcessingType",
+      "Id": "0D50377F-02C9-4E7A-9876-AA1EA799E058"
+    },
+    {
+      "Name": "McCOM2.SymRoughness.Set_ProcessingType",
+      "Id": "433A9B51-E7D9-4ABD-AE7F-AAA2F8EDCCB6"
+    },
+    {
+      "Name": "McCOM2.SymRoughness.Frame",
+      "Id": "412BD92F-7EED-4305-899A-3BFA5359E2C2"
+    },
+    {
+      "Name": "McCOM2.SymRoughness.Set_Frame",
+      "Id": "CEEBA03D-C6C8-4C28-AFD2-F078CF03A9E6"
+    },
+    {
+      "Name": "McCOM2.SymRoughness.ProcessingDir",
+      "Id": "0E601A19-D85B-41CB-8B5A-B57AC29E5BDA"
+    },
+    {
+      "Name": "McCOM2.SymRoughness.Set_ProcessingDir",
+      "Id": "CE9B0C7D-5F13-4016-B0F6-BF4A17052B81"
+    },
+    {
+      "Name": "McCOM2.SymRoughness.Leaders",
+      "Id": "29864EAF-D1F0-48A4-9C15-02F966D1B782"
+    },
+    {
+      "Name": "McCOM2.LeadersCollection.LeadersCollection_Constructor",
+      "Id": "C5E3BE02-9A73-460B-A6F2-F63AE5C60F02"
+    },
+    {
+      "Name": "McCOM2.LeadersCollection.LeadersCollection_ConstructorCast",
+      "Id": "26AA38AC-45B2-4760-9229-F426A506EC64"
+    },
+    {
+      "Name": "McCOM2.LeadersCollection.Item",
+      "Id": "7B244B68-D281-47C1-93AB-2CD1E76CB397"
+    },
+    {
+      "Name": "McCOM2.LeadersCollection.Count",
+      "Id": "68CD55C3-ED49-4396-AE73-B23895045E88"
+    },
+    {
+      "Name": "McCOM2.LeadersCollection.Add",
+      "Id": "DCAC5F7C-C98D-4FBA-90C1-F2FE0B7D9941"
+    },
+    {
+      "Name": "McCOM2.LeadersCollection.Remove",
+      "Id": "DFF7F217-0B75-4588-94A8-9BD5F4698698"
+    },
+    {
+      "Name": "McCOM2.LeadersCollection.Object",
+      "Id": "B271ACDD-D12F-4B2C-8A48-9609ED6A56C7"
+    },
+    {
+      "Name": "McCOM2.Leader.Leader_Constructor",
+      "Id": "A2F3756D-4EDC-48F5-B954-09DE533C50B5"
+    },
+    {
+      "Name": "McCOM2.Leader.Leader_ConstructorCast",
+      "Id": "B120DBDE-9351-4801-A094-952C2D7AFD1F"
+    },
+    {
+      "Name": "McCOM2.Leader.Position",
+      "Id": "FFEF48A2-1BB5-47DF-9BF8-A8C56CA60D40"
+    },
+    {
+      "Name": "McCOM2.Leader.Set_Position",
+      "Id": "D56D6C88-FFBA-4304-AD1D-1F7EA5C3E65A"
+    },
+    {
+      "Name": "McCOM2.Leader.Arrow",
+      "Id": "849FF871-673F-41A7-9F7D-9CCA4F5D16AC"
+    },
+    {
+      "Name": "McCOM2.Leader.Set_Arrow",
+      "Id": "E368130A-43CD-4672-B499-CBE715BB9F87"
+    },
+    {
+      "Name": "McCOM2.Leader.ArrowSize",
+      "Id": "F7D5E4AA-03BE-4FD1-B8DD-746CEF620152"
+    },
+    {
+      "Name": "McCOM2.Leader.Set_ArrowSize",
+      "Id": "3815CD7A-E2A2-4185-932E-F488E3EDE27B"
+    },
+    {
+      "Name": "McCOM2.Leader.Object",
+      "Id": "C27B75CD-4422-4948-9458-549244A33445"
+    },
+    {
+      "Name": "McCOM2.SymTT.SymTT_Constructor",
+      "Id": "A9E21CFC-106A-43BA-A4A8-2464DF0DBADA"
+    },
+    {
+      "Name": "McCOM2.SymTT.SymTT_ConstructorCast",
+      "Id": "232D28AB-1369-4B1A-AF49-62DBCAFC4E11"
+    },
+    {
+      "Name": "McCOM2.SymTT.Text",
+      "Id": "FEE9B6D9-17F7-48D4-91D4-600BBCF9A5E5"
+    },
+    {
+      "Name": "McCOM2.SymTT.Set_Text",
+      "Id": "2AAC3DBB-8F26-44C5-8896-8C19F107C0CC"
+    },
+    {
+      "Name": "McCOM2.SymTT.IsDescription",
+      "Id": "3263DDAA-7F08-4843-AE06-179EF7670349"
+    },
+    {
+      "Name": "McCOM2.SymTT.Frame",
+      "Id": "7EA349D8-EE89-4DBA-B7A1-9018513AC713"
+    },
+    {
+      "Name": "McCOM2.SymTT.Set_Frame",
+      "Id": "E7D7BBBD-934D-438D-8B47-99B63F44FDB0"
+    },
+    {
+      "Name": "McCOM2.SymTT.TextHeight",
+      "Id": "235A8783-CA64-4398-9E78-D538A974764D"
+    },
+    {
+      "Name": "McCOM2.SymTT.Set_TextHeight",
+      "Id": "69D3E41B-AC1F-4CB0-BC7C-E6E5455B405A"
+    },
+    {
+      "Name": "McCOM2.SymTT.Slope",
+      "Id": "1E6E197C-6F8C-4451-AB36-40CCAB46B910"
+    },
+    {
+      "Name": "McCOM2.SymTT.Set_Slope",
+      "Id": "81A71F1F-8B2C-4839-BF11-95CE4DC018D4"
+    },
+    {
+      "Name": "McCOM2.SymTT.WordWrap",
+      "Id": "E40FAFA9-BCB9-4642-AB13-FC491ED173BE"
+    },
+    {
+      "Name": "McCOM2.SymTT.Set_WordWrap",
+      "Id": "D9C9E807-3564-4436-9AE4-E4FE3C63CC3C"
+    },
+    {
+      "Name": "McCOM2.SymTT.Move",
+      "Id": "B5973DC6-7E32-4FD5-9482-A2A7574D611C"
+    },
+    {
+      "Name": "McCOM2.SymPart.SymPart_Constructor",
+      "Id": "89A54B63-487E-4A0B-9D8E-6A8D6074CBEE"
+    },
+    {
+      "Name": "McCOM2.SymPart.SymPart_ConstructorCast",
+      "Id": "9D5ABD79-A58B-43A8-BDF2-81E2A816A1A8"
+    },
+    {
+      "Name": "McCOM2.SymPart.Init",
+      "Id": "97B72B21-2B47-448A-A964-8D6FF9237B01"
+    },
+    {
+      "Name": "McCOM2.SymPart.Origin",
+      "Id": "3D2E9B96-139A-4F92-8EB9-0B3A8194CE86"
+    },
+    {
+      "Name": "McCOM2.SymPart.Set_Origin",
+      "Id": "85D56692-C706-4F62-B73E-F08FD9BD5404"
+    },
+    {
+      "Name": "McCOM2.SymPart.Direction",
+      "Id": "185F3AD5-81C9-4BBD-8D2B-BB77CF985BC9"
+    },
+    {
+      "Name": "McCOM2.SymPart.Set_Direction",
+      "Id": "53607CA8-6D14-4B4A-98DE-16D1C23D7F4B"
+    },
+    {
+      "Name": "McCOM2.SymPart.Connect",
+      "Id": "E96A706C-12FD-43F2-9853-244106F1E4BA"
+    },
+    {
+      "Name": "McCOM2.SymPart.AffectsTo",
+      "Id": "E838E495-BD19-4D2D-8D26-5AFCD7DD049D"
+    },
+    {
+      "Name": "McCOM2.SymPart.DependsOn",
+      "Id": "46B1834E-27AB-4C80-AC39-717199F561FC"
+    },
+    {
+      "Name": "McCOM2.SymPart.Class",
+      "Id": "4A4DEE7C-81D1-48AD-888D-1B6DCDCE8545"
+    },
+    {
+      "Name": "McCOM2.SymPart.Type",
+      "Id": "461C4231-A9BD-4247-A64F-01F62DEF7972"
+    },
+    {
+      "Name": "McCOM2.SymPart.SubType",
+      "Id": "EC8DFA93-B927-40EC-A690-C6BCFA6E3628"
+    },
+    {
+      "Name": "McCOM2.BOM.BOM_Constructor",
+      "Id": "BC512A6A-4293-430B-A473-40153EA8B768"
+    },
+    {
+      "Name": "McCOM2.BOM.BOM_ConstructorCast",
+      "Id": "9C534310-26C3-46E5-A3B7-8C4E1B9781C1"
+    },
+    {
+      "Name": "McCOM2.BOM.Item",
+      "Id": "1D07E4E9-7950-440D-A6AC-A81037603896"
+    },
+    {
+      "Name": "McCOM2.BOM.Count",
+      "Id": "944B0C3A-6FBE-41DB-BFC9-1294BC0F811D"
+    },
+    {
+      "Name": "McCOM2.BOM.CreateRecord",
+      "Id": "770004FF-7BF5-4F0A-B2F3-B0E7E88CDC55"
+    },
+    {
+      "Name": "McCOM2.BOM.RemoveRecord",
+      "Id": "DBB4DA99-C0B3-4CE9-BA22-DDE6CFFEDC7A"
+    },
+    {
+      "Name": "McCOM2.BOM.Style",
+      "Id": "C35F60B2-804C-4446-9970-4D0E416B4BDF"
+    },
+    {
+      "Name": "McCOM2.BOM.Set_Style",
+      "Id": "B6E05D72-0091-471F-91A1-49020B250417"
+    },
+    {
+      "Name": "McCOM2.BOM.Sections",
+      "Id": "2EE92176-8D52-4167-9FC5-8A8F938F96E9"
+    },
+    {
+      "Name": "McCOM2.BOM.Edit",
+      "Id": "C5C00546-AFDF-4A3E-B7CF-A99B7412839C"
+    },
+    {
+      "Name": "McCOM2.BOM.Update",
+      "Id": "978022E9-E471-4E8F-AA21-61FFE0439754"
+    },
+    {
+      "Name": "McCOM2.BOM.Sort",
+      "Id": "49E2EBCE-DC10-4A00-B5C7-287C6447B588"
+    },
+    {
+      "Name": "McCOM2.BOM.Renumber",
+      "Id": "711CF47F-4CE1-43E5-9618-E7AF0F679670"
+    },
+    {
+      "Name": "McCOM2.BOM.Export",
+      "Id": "D68D55C0-1B52-466E-80EF-CC83770EC44E"
+    },
+    {
+      "Name": "McCOM2.BOMRecord.BOMRecord_Constructor",
+      "Id": "A89471C7-1539-4BC0-86ED-74F43263CA90"
+    },
+    {
+      "Name": "McCOM2.BOMRecord.BOMRecord_ConstructorCast",
+      "Id": "6F25D148-FC4F-4EFE-AF84-DFAD71A1FC95"
+    },
+    {
+      "Name": "McCOM2.BOMRecord.Properties",
+      "Id": "C1766329-C675-422E-AB97-51AE2D212263"
+    },
+    {
+      "Name": "McCOM2.BOMRecord.Remove",
+      "Id": "164B8472-8D78-4A87-89C0-77E0F1FA38FD"
+    },
+    {
+      "Name": "McCOM2.BOMRecord.Order",
+      "Id": "16D05CD5-086E-41D2-9CE2-7E30D422E8D4"
+    },
+    {
+      "Name": "McCOM2.BOMRecord.Set_Order",
+      "Id": "45A84C60-7590-4083-90E0-D089FF7DBBDC"
+    },
+    {
+      "Name": "McCOM2.SymBOMLeader.SymBOMLeader_Constructor",
+      "Id": "D6F6E48E-6C1B-4787-89AA-0E68D787E44A"
+    },
+    {
+      "Name": "McCOM2.SymBOMLeader.SymBOMLeader_ConstructorCast",
+      "Id": "9BA6B666-72FF-4325-A189-E0D981A141BC"
+    },
+    {
+      "Name": "McCOM2.SymBOMLeader.Position",
+      "Id": "05667CF2-022E-4E0A-A9BB-1CF817069BE6"
+    },
+    {
+      "Name": "McCOM2.SymBOMLeader.Set_Position",
+      "Id": "9FB67367-5E8A-4290-B699-6C11DF1E9E8E"
+    },
+    {
+      "Name": "McCOM2.SymBOMLeader.TextPosition",
+      "Id": "0C687A83-33D1-4EAB-A477-0ED7D76C1FA0"
+    },
+    {
+      "Name": "McCOM2.SymBOMLeader.Set_TextPosition",
+      "Id": "7DE74DB2-CE63-45A6-B638-E649B7CD82C0"
+    },
+    {
+      "Name": "McCOM2.SymBOMLeader.Count",
+      "Id": "E6DF9A14-9036-4153-B755-CA2A1FB517A4"
+    },
+    {
+      "Name": "McCOM2.SymBOMLeader.Item",
+      "Id": "3157D240-24CA-48B4-919E-F127CAD59FA3"
+    },
+    {
+      "Name": "McCOM2.SymBOMLeader.CreateItem",
+      "Id": "91CC808B-34BB-41C0-8016-161099A71A73"
+    },
+    {
+      "Name": "McCOM2.SymBOMLeader.DeleteItem",
+      "Id": "098FF9B4-1B00-4F44-BB1B-BCE1CADC6BC3"
+    },
+    {
+      "Name": "McCOM2.SymBOMLeader.BOM",
+      "Id": "447A811A-A13F-439D-BEE0-2C90C6F608F7"
+    },
+    {
+      "Name": "McCOM2.BOMLeaderPosition.BOMLeaderPosition_Constructor",
+      "Id": "8C276408-9F6C-4555-B7F1-6142DC3348BB"
+    },
+    {
+      "Name": "McCOM2.BOMLeaderPosition.BOMLeaderPosition_ConstructorCast",
+      "Id": "39B2DA0A-7603-4F58-A1C6-4D08E6585E5B"
+    },
+    {
+      "Name": "McCOM2.BOMLeaderPosition.Owner",
+      "Id": "E1C76494-A828-488A-9BFD-B5A0032055C2"
+    },
+    {
+      "Name": "McCOM2.BOMLeaderPosition.Record",
+      "Id": "6A81D139-63B0-4A20-853D-45891848F983"
+    },
+    {
+      "Name": "McCOM2.BOMLeaderPosition.Set_Record",
+      "Id": "3D312C8E-D2FE-40B8-9494-597EB81DA5F2"
+    },
+    {
+      "Name": "McCOM2.BOMLeaderPosition.Object",
+      "Id": "A04228C1-E406-43F3-BF13-D4CAA4AF483B"
+    },
+    {
+      "Name": "McCOM2.BOMLeaderPosition.Set_Object",
+      "Id": "4551ED07-D6F6-483B-AB36-9705B59AE262"
+    },
+    {
+      "Name": "McCOM2.BOMLeaderPosition.BOM",
+      "Id": "DC4A3DFB-6AB9-4404-BFDC-BACDA517962F"
+    },
+    {
+      "Name": "McCOM2.SymGradient.SymGradient_Constructor",
+      "Id": "EF58F62F-7A75-40F6-8218-DA82CCCFD41D"
+    },
+    {
+      "Name": "McCOM2.SymGradient.SymGradient_ConstructorCast",
+      "Id": "865AD52A-7DC8-4081-A396-B19EEE578996"
+    },
+    {
+      "Name": "McCOM2.SymGradient.Taper",
+      "Id": "00E7AF70-1EB6-4A80-A890-BD8A2D6CC2A0"
+    },
+    {
+      "Name": "McCOM2.SymGradient.Set_Taper",
+      "Id": "B33B15DD-044A-4B74-8194-30BBCB98A8B7"
+    },
+    {
+      "Name": "McCOM2.SymGradient.RightToLeft",
+      "Id": "2A448FF1-B50D-4E32-AD58-C0E4443A58F7"
+    },
+    {
+      "Name": "McCOM2.SymGradient.Set_RightToLeft",
+      "Id": "1B17E879-04A3-4F6B-92D5-EAF3B55BA875"
+    },
+    {
+      "Name": "McCOM2.SymGradient.Units",
+      "Id": "ECBAA5E0-36B6-402E-8E6A-C483C0A85AC0"
+    },
+    {
+      "Name": "McCOM2.SymGradient.Set_Units",
+      "Id": "1AEEF459-ECCB-4EE0-85EB-5E033B270BA7"
+    },
+    {
+      "Name": "McCOM2.SymGradient.Associative",
+      "Id": "46030462-4B17-4351-A3AD-CDB8CC890D7D"
+    },
+    {
+      "Name": "McCOM2.SymGradient.Set_Associative",
+      "Id": "654604B4-A7DD-4C31-B4CE-884001DF4A07"
+    },
+    {
+      "Name": "McCOM2.SymGradient.OnPlane",
+      "Id": "348224F6-1306-4E73-ADA0-863369170E9B"
+    },
+    {
+      "Name": "McCOM2.SymGradient.Set_OnPlane",
+      "Id": "5735C83E-0F24-42C6-8210-3B23F67275F5"
+    },
+    {
+      "Name": "McCOM2.SymGradient.DisplayText",
+      "Id": "E5B55640-B070-452E-A46E-DDA66B04C3F8"
+    },
+    {
+      "Name": "McCOM2.SymGradient.Text",
+      "Id": "81F93D45-D581-42F7-A651-83830BCCFDA8"
+    },
+    {
+      "Name": "McCOM2.SymGradient.Set_Text",
+      "Id": "86EB16FC-38C0-40F4-B409-C48CFE456B30"
+    },
+    {
+      "Name": "McCOM2.SymGradient.Position",
+      "Id": "2F1C2E97-46D2-4F3D-8EC9-913DC95888F7"
+    },
+    {
+      "Name": "McCOM2.SymGradient.Set_Position",
+      "Id": "07273A93-C4C8-4467-86AB-A4FE96D02465"
+    },
+    {
+      "Name": "McCOM2.SymGradient.TextPosition",
+      "Id": "02BB2369-0FC2-4DEA-B7C6-6F0E4ABE81F9"
+    },
+    {
+      "Name": "McCOM2.SymGradient.Set_TextPosition",
+      "Id": "1002A917-FC30-4C47-A484-4E6E23A687A8"
+    },
+    {
+      "Name": "McCOM2.SymGradient.ReferenceDir",
+      "Id": "2B59B31F-3641-410E-8D3A-19028D973663"
+    },
+    {
+      "Name": "McCOM2.SymGradient.Set_ReferenceDir",
+      "Id": "8BF2DDA2-172F-4A79-B584-8135397F78FF"
+    },
+    {
+      "Name": "McCOM2.SymGradient.Direction",
+      "Id": "4B9B558B-DF41-4D65-AC93-423EE4EF9013"
+    },
+    {
+      "Name": "McCOM2.SymGradient.Set_Direction",
+      "Id": "A184C28D-B5D0-4561-8A3B-FF567D290777"
+    },
+    {
+      "Name": "McCOM2.SymGradient.Object",
+      "Id": "6A519588-3131-4A01-A176-D32E7254D7E5"
+    },
+    {
+      "Name": "McCOM2.SymSpdsLevel.SymSpdsLevel_Constructor",
+      "Id": "C7CB0EDE-51B3-4A12-99A6-C66E1647D8CE"
+    },
+    {
+      "Name": "McCOM2.SymSpdsLevel.SymSpdsLevel_ConstructorCast",
+      "Id": "350E6B63-FA48-4755-8759-C15E7F63FB19"
+    },
+    {
+      "Name": "McCOM2.SymSpdsLevel.Value",
+      "Id": "CEC411DE-0037-451C-BE84-006FB91B6E4B"
+    },
+    {
+      "Name": "McCOM2.SymSpdsLevel.Set_Value",
+      "Id": "49F96936-6D6D-47C6-9CDC-97E52CBB2678"
+    },
+    {
+      "Name": "McCOM2.SymSpdsLevel.DisplayText",
+      "Id": "61D1715B-6423-4B0A-A3C3-1F9EB08E3AF9"
+    },
+    {
+      "Name": "McCOM2.SymSpdsLevel.Footer",
+      "Id": "2BD7CBA0-EDB4-4360-A8B4-878EBE5DD17E"
+    },
+    {
+      "Name": "McCOM2.SymSpdsLevel.Set_Footer",
+      "Id": "F7D1EB05-7C5D-4CD8-9DDD-46B969E05FFF"
+    },
+    {
+      "Name": "McCOM2.SymSpdsLevel.Base",
+      "Id": "716528C2-3BF1-4F3E-8081-D816400558F7"
+    },
+    {
+      "Name": "McCOM2.SymSpdsLevel.Set_Base",
+      "Id": "1E115AC2-528F-47B0-BA24-BE057CD7866E"
+    },
+    {
+      "Name": "McCOM2.SymSpdsLevel.Origin",
+      "Id": "979328FC-3F6C-41B9-B418-92F83311FC4F"
+    },
+    {
+      "Name": "McCOM2.SymSpdsLevel.Set_Origin",
+      "Id": "EB6E905B-21CC-419F-AEAF-80F011F05CC7"
+    },
+    {
+      "Name": "McCOM2.SymSpdsLevel.Position",
+      "Id": "D6F5CA7D-3A0D-43C2-AFE7-8E857D8DC971"
+    },
+    {
+      "Name": "McCOM2.SymSpdsLevel.Set_Position",
+      "Id": "8F6F6A41-C91C-45E9-BA49-C1EC962C0FDC"
+    },
+    {
+      "Name": "McCOM2.SymSpdsLevel.TextPosition",
+      "Id": "7A19CA1A-4840-4376-A8A9-1ED3BFACC1C8"
+    },
+    {
+      "Name": "McCOM2.SymSpdsLevel.Set_TextPosition",
+      "Id": "01C842C4-48C6-48CC-B67D-4DA2D051550D"
+    },
+    {
+      "Name": "McCOM2.SymSpdsLevel.Associative",
+      "Id": "71B07A6F-AFCD-4350-8DA4-7013854FE334"
+    },
+    {
+      "Name": "McCOM2.SymSpdsLevel.Set_Associative",
+      "Id": "6EAD7E6E-9700-47D5-8B22-5FD1EDF5BAEE"
+    },
+    {
+      "Name": "McCOM2.SymSpdsLevel.Mirrored",
+      "Id": "6C07CD99-94CE-4162-97BA-3CFDC6F84B51"
+    },
+    {
+      "Name": "McCOM2.SymSpdsLevel.Set_Mirrored",
+      "Id": "6A1E9433-C5C8-45D3-BDBC-872C2D491545"
+    },
+    {
+      "Name": "McCOM2.SymSpdsLevel.AffectsTo",
+      "Id": "9FF23409-82AC-4F68-95EE-7DA9D728C1F3"
+    },
+    {
+      "Name": "McCOM2.SymSpdsPlaneLevel.SymSpdsPlaneLevel_Constructor",
+      "Id": "B254572E-ADC7-4525-8F7D-2F5DCC10FDB8"
+    },
+    {
+      "Name": "McCOM2.SymSpdsPlaneLevel.SymSpdsPlaneLevel_ConstructorCast",
+      "Id": "CFD1E512-0920-43A5-A64D-84EB4CE734AE"
+    },
+    {
+      "Name": "McCOM2.SymSpdsPlaneLevel.Value",
+      "Id": "4BD11F91-9F9D-48F7-BB78-69707E6E1F78"
+    },
+    {
+      "Name": "McCOM2.SymSpdsPlaneLevel.Set_Value",
+      "Id": "85697C94-DD01-4928-8F23-31BD8F23C8F9"
+    },
+    {
+      "Name": "McCOM2.SymSpdsPlaneLevel.Position",
+      "Id": "00BD21C2-C9BD-4C2B-913D-371012DD5821"
+    },
+    {
+      "Name": "McCOM2.SymSpdsPlaneLevel.Set_Position",
+      "Id": "EA8C40A4-BADD-40D3-9418-36F0E0A3EF5C"
+    },
+    {
+      "Name": "McCOM2.SymSpdsPlaneLevel.Shape",
+      "Id": "828CE1FB-2DCD-4EA6-8533-CCFC7B1387BD"
+    },
+    {
+      "Name": "McCOM2.SymSpdsPlaneLevel.Set_Shape",
+      "Id": "F9834941-4519-47D7-BB21-903D008356DF"
+    },
+    {
+      "Name": "McCOM2.SymSpdsPlaneLevel.Leaders",
+      "Id": "19D7D2E0-720A-4316-989B-2A40C98E56E2"
+    },
+    {
+      "Name": "McCOM2.SymSpdsFragment.SymSpdsFragment_Constructor",
+      "Id": "C40620E6-D650-4523-9896-9FFD14A72F7E"
+    },
+    {
+      "Name": "McCOM2.SymSpdsFragment.SymSpdsFragment_ConstructorCast",
+      "Id": "692E92DB-C7A0-4FE1-8EE1-0804A78ECCB3"
+    },
+    {
+      "Name": "McCOM2.SymSpdsFragment.Text",
+      "Id": "7F1FC27F-4A01-4EE1-A8C5-5939DDF6DE3E"
+    },
+    {
+      "Name": "McCOM2.SymSpdsFragment.Set_Text",
+      "Id": "30DD8D8A-53E4-4768-952B-6FC0297B1509"
+    },
+    {
+      "Name": "McCOM2.SymSpdsFragment.Begin",
+      "Id": "A9662F27-E42B-49A5-A5AA-57EA7294C697"
+    },
+    {
+      "Name": "McCOM2.SymSpdsFragment.Set_Begin",
+      "Id": "EC42A931-9533-45E3-9FA7-D74CC6FFE24C"
+    },
+    {
+      "Name": "McCOM2.SymSpdsFragment.End",
+      "Id": "A7E3AC41-92B7-4780-8D4A-6BE35F5D9211"
+    },
+    {
+      "Name": "McCOM2.SymSpdsFragment.Set_End",
+      "Id": "F8AC6115-B040-4CCD-953F-3FF78E9603AA"
+    },
+    {
+      "Name": "McCOM2.SymSpdsFragment.Peak",
+      "Id": "6E2024A4-D80A-4C9F-845D-67D00DE27969"
+    },
+    {
+      "Name": "McCOM2.SymSpdsFragment.Set_Peak",
+      "Id": "1A585A0A-181B-47BA-AC9B-A947C1BFE1A8"
+    },
+    {
+      "Name": "McCOM2.SymSpdsFragment.TextPosition",
+      "Id": "8319848F-66B2-45D3-AC95-29AE3C2209B0"
+    },
+    {
+      "Name": "McCOM2.SymSpdsFragment.Set_TextPosition",
+      "Id": "031A3A6F-FABB-4F93-BE9A-E62F28B4A604"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNode.SymSpdsNode_Constructor",
+      "Id": "F6F88501-CB46-4CFD-AD27-397792674AC1"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNode.SymSpdsNode_ConstructorCast",
+      "Id": "743EF0C1-16F1-410E-927B-B0C9C2028F58"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNode.Text",
+      "Id": "9F18B995-1B8C-4155-9D92-F203A336E957"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNode.Set_Text",
+      "Id": "0E5A1E06-FA7A-4331-81B7-4D33F157C16D"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNode.Footer",
+      "Id": "48AA8894-BFC3-4C4E-9DA8-CEBA0A43A2D8"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNode.Set_Footer",
+      "Id": "C69582EF-F5ED-47D7-9869-C5D5141E2BB0"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNode.Position",
+      "Id": "CAA07A1F-6D0C-422B-9ECF-1F4E261C3D2A"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNode.Set_Position",
+      "Id": "82B1C5BC-9937-43EA-A6AC-376A4D81D59C"
+    },
+    {
+      "Name": "McCOM2.SymSpdsCorrection.SymSpdsCorrection_Constructor",
+      "Id": "5E6A5B3C-8A0A-4298-ABAC-2320F9157D48"
+    },
+    {
+      "Name": "McCOM2.SymSpdsCorrection.SymSpdsCorrection_ConstructorCast",
+      "Id": "32187AC0-05CA-4866-A894-F856D6EB6F16"
+    },
+    {
+      "Name": "McCOM2.SymSpdsCorrection.Text",
+      "Id": "8CBDB398-ED72-48A4-8359-E6ECBE55C00F"
+    },
+    {
+      "Name": "McCOM2.SymSpdsCorrection.Set_Text",
+      "Id": "D727AA92-858D-41EF-8747-CB3F02A3956B"
+    },
+    {
+      "Name": "McCOM2.SymSpdsCorrection.Footer",
+      "Id": "F8C6235C-6F29-45E3-928A-5DD828E3A3CE"
+    },
+    {
+      "Name": "McCOM2.SymSpdsCorrection.Set_Footer",
+      "Id": "98B413A2-BC83-498F-A138-3B39AE6C2F16"
+    },
+    {
+      "Name": "McCOM2.SymSpdsCorrection.Leaders",
+      "Id": "D3F91ED5-B37C-4E83-804C-D7E67179F939"
+    },
+    {
+      "Name": "McCOM2.SymSpdsPolymorph.SymSpdsPolymorph_Constructor",
+      "Id": "82CF46C3-7E2A-4F56-B43C-18011BE6E044"
+    },
+    {
+      "Name": "McCOM2.SymSpdsPolymorph.SymSpdsPolymorph_ConstructorCast",
+      "Id": "17CA3B84-8FC5-48F6-8D4D-50A07C3302C4"
+    },
+    {
+      "Name": "McCOM2.SymSpdsPolymorph.Text",
+      "Id": "074F972A-9866-41ED-B5CD-60C705D51F04"
+    },
+    {
+      "Name": "McCOM2.SymSpdsPolymorph.Set_Text",
+      "Id": "553D2119-6C72-43BA-B7A1-50E5EE79188D"
+    },
+    {
+      "Name": "McCOM2.SymSpdsPolymorph.Position",
+      "Id": "29E6157A-8964-4BA0-B9B4-F75B87AB25ED"
+    },
+    {
+      "Name": "McCOM2.SymSpdsPolymorph.Set_Position",
+      "Id": "B9EEBED5-BEE2-4C05-8D3D-A59778D72414"
+    },
+    {
+      "Name": "McCOM2.SymSpdsPolymorph.Shape",
+      "Id": "76227A0B-8A20-42B9-B01F-7DAA93747AB6"
+    },
+    {
+      "Name": "McCOM2.SymSpdsPolymorph.Set_Shape",
+      "Id": "FE1B5B61-821C-4EC4-B05A-C9AF17CD008B"
+    },
+    {
+      "Name": "McCOM2.SymSpdsPosition.SymSpdsPosition_Constructor",
+      "Id": "5B1FE020-C162-4C80-ABE6-9B728445F778"
+    },
+    {
+      "Name": "McCOM2.SymSpdsPosition.SymSpdsPosition_ConstructorCast",
+      "Id": "0183E71F-230C-49A5-844A-F508C0620840"
+    },
+    {
+      "Name": "McCOM2.SymSpdsPosition.Text",
+      "Id": "F3177147-71D8-4479-A662-5B9A59864389"
+    },
+    {
+      "Name": "McCOM2.SymSpdsPosition.Set_Text",
+      "Id": "F5C48A03-6B4F-4FD5-8556-5A9A9D59810D"
+    },
+    {
+      "Name": "McCOM2.SymSpdsPosition.TextPosition",
+      "Id": "2B4E4175-8D40-4A38-A7C9-CC39BD3D5672"
+    },
+    {
+      "Name": "McCOM2.SymSpdsPosition.Set_TextPosition",
+      "Id": "2A6F3C3E-DF96-4B7B-882E-FF8C988EA11A"
+    },
+    {
+      "Name": "McCOM2.SymSpdsPosition.Position",
+      "Id": "79BE9D34-E3EE-4994-BB89-08CD6ED791C8"
+    },
+    {
+      "Name": "McCOM2.SymSpdsPosition.Set_Position",
+      "Id": "44A816A1-BC5C-40BF-9400-9C9CEC047FB8"
+    },
+    {
+      "Name": "McCOM2.SymSpdsPosition.Arrow",
+      "Id": "BEE06121-7DDD-403A-9727-184EBF95AE37"
+    },
+    {
+      "Name": "McCOM2.SymSpdsPosition.Set_Arrow",
+      "Id": "7160BADB-F0B1-4970-8833-FFCDFA034E4C"
+    },
+    {
+      "Name": "McCOM2.SymTable.SymTable_Constructor",
+      "Id": "37815249-B470-4169-8708-B1DBD70F6499"
+    },
+    {
+      "Name": "McCOM2.SymTable.SymTable_ConstructorCast",
+      "Id": "3FE49A70-D7C1-46A7-BBE9-BF52E2C1607B"
+    },
+    {
+      "Name": "McCOM2.SymTable.Cell",
+      "Id": "E2C6E426-89D2-4170-A34B-67E86C89A6CF"
+    },
+    {
+      "Name": "McCOM2.SymTable.Format",
+      "Id": "A76187BC-A968-48F0-85FF-B4E760074D76"
+    },
+    {
+      "Name": "McCOM2.SymTable.Rows",
+      "Id": "080B8DF2-1120-4709-B746-007E52669189"
+    },
+    {
+      "Name": "McCOM2.SymTable.Cols",
+      "Id": "91E72DD5-77CB-4B23-B193-0622125ADAB1"
+    },
+    {
+      "Name": "McCOM2.SymTable.RowCount",
+      "Id": "CE5F6098-901B-45B3-B367-E675A86C1F6C"
+    },
+    {
+      "Name": "McCOM2.SymTable.Set_RowCount",
+      "Id": "85C0D3FD-712D-41D0-A81D-17F1257F5123"
+    },
+    {
+      "Name": "McCOM2.SymTable.ColCount",
+      "Id": "9D312563-E78E-4A8B-8C10-30769C43A2FF"
+    },
+    {
+      "Name": "McCOM2.SymTable.Set_ColCount",
+      "Id": "00BFFD69-D312-4538-91EF-20FC8B7C85B7"
+    },
+    {
+      "Name": "McCOM2.SymTable.Save",
+      "Id": "3EE817BB-F37B-4B40-B0ED-9A7390CC9C95"
+    },
+    {
+      "Name": "McCOM2.SymTable.Load",
+      "Id": "0A216A35-4867-47A8-A3F9-F72EFC14D03B"
+    },
+    {
+      "Name": "McCOM2.SymTable.Position",
+      "Id": "39E5DFA8-FB31-4DA7-9FF6-D324183158E8"
+    },
+    {
+      "Name": "McCOM2.SymTable.Set_Position",
+      "Id": "EBB2B7EA-CAE8-41C1-B1D8-1A43230621D4"
+    },
+    {
+      "Name": "McCOM2.SymTable.CellFromPoint",
+      "Id": "9D2C5EB6-547F-4784-B521-82A6B194345D"
+    },
+    {
+      "Name": "McCOM2.SymTable.Width",
+      "Id": "9F565E16-F32A-4080-A162-33F33E0A0B70"
+    },
+    {
+      "Name": "McCOM2.SymTable.Height",
+      "Id": "34367547-E0EE-46BE-9BD6-5C8F669E75EB"
+    },
+    {
+      "Name": "McCOM2.SymTable.Group",
+      "Id": "11C72ECA-6E74-4D70-9D95-A60E6E44C554"
+    },
+    {
+      "Name": "McCOM2.SymTable.Ungroup",
+      "Id": "3AE86D4E-1249-4886-A8F0-0E0109C6164A"
+    },
+    {
+      "Name": "McCOM2.SymTable.Insert",
+      "Id": "97F5F020-C517-4AE8-A708-AE76A7B651E7"
+    },
+    {
+      "Name": "McCOM2.SymTableCell.SymTableCell_Constructor",
+      "Id": "A899BE9D-CEE9-441D-A955-6D266531F1CE"
+    },
+    {
+      "Name": "McCOM2.SymTableCell.SymTableCell_ConstructorCast",
+      "Id": "B2810853-ABD9-48E7-9119-6D15D995DB58"
+    },
+    {
+      "Name": "McCOM2.SymTableCell.Text",
+      "Id": "752FCD6F-F842-4E99-85F1-4FA6C5EBEC53"
+    },
+    {
+      "Name": "McCOM2.SymTableCell.Set_Text",
+      "Id": "46AEBC33-262C-44BB-BD42-04F4D57C3E0D"
+    },
+    {
+      "Name": "McCOM2.SymTableCell.DisplayText",
+      "Id": "CC6483C0-5ED4-4CAA-A122-E0229E46A513"
+    },
+    {
+      "Name": "McCOM2.SymTableCell.Source",
+      "Id": "E3273B70-E7C6-4EC9-9761-205F8F830665"
+    },
+    {
+      "Name": "McCOM2.SymTableCell.Set_Source",
+      "Id": "2001DECE-0202-405D-BFA1-39665D0B65C8"
+    },
+    {
+      "Name": "McCOM2.SymTableCell.Width",
+      "Id": "FBBEF53F-9156-4BD8-9D84-E17575D02C20"
+    },
+    {
+      "Name": "McCOM2.SymTableCell.Height",
+      "Id": "61431061-ACDE-4068-81AD-6537E2BF3D93"
+    },
+    {
+      "Name": "McCOM2.SymTableCell.Bounds",
+      "Id": "C5C6268D-1CE6-4368-9DD1-A4AB27CF416D"
+    },
+    {
+      "Name": "McCOM2.SymTableCell.Row",
+      "Id": "52C421E5-88CC-45B5-93F7-4C8EE043B93E"
+    },
+    {
+      "Name": "McCOM2.SymTableCell.Col",
+      "Id": "CC34FA8E-F067-4A11-9E3B-5EB27886FF80"
+    },
+    {
+      "Name": "McCOM2.SymTableCell.Table",
+      "Id": "1DB567E4-1FDC-4305-9890-58613C4C07F2"
+    },
+    {
+      "Name": "McCOM2.SymTableCell.Range",
+      "Id": "C89178E0-D001-40F1-99CF-24271E3F3652"
+    },
+    {
+      "Name": "McCOM2.SymTableCell.Format",
+      "Id": "FBD8C508-F62A-41C9-8FE0-A8182960ED46"
+    },
+    {
+      "Name": "McCOM2.SymTableCell.Split",
+      "Id": "15BC9189-99E6-437F-BDE6-94910A3312F0"
+    },
+    {
+      "Name": "McCOM2.SymTableFormat.SymTableFormat_Constructor",
+      "Id": "F2037553-4ACE-42F2-9FCE-7FE5F2B338BE"
+    },
+    {
+      "Name": "McCOM2.SymTableFormat.SymTableFormat_ConstructorCast",
+      "Id": "BE6FDF67-8DAE-4F15-A352-F641DA1D47FB"
+    },
+    {
+      "Name": "McCOM2.SymTableFormat.BorderWeight",
+      "Id": "ACCE2F9F-C554-473D-A63D-A8F82D01DDA2"
+    },
+    {
+      "Name": "McCOM2.SymTableFormat.Set_BorderWeight",
+      "Id": "CDA657D3-761E-44A4-8F66-681A77F1B7D4"
+    },
+    {
+      "Name": "McCOM2.SymTableFormat.BorderColor",
+      "Id": "7F97D551-1133-45B1-AB04-D70E49BDA44A"
+    },
+    {
+      "Name": "McCOM2.SymTableFormat.Set_BorderColor",
+      "Id": "3D46AD29-A0AF-460D-AA58-5AA478D11E06"
+    },
+    {
+      "Name": "McCOM2.SymTableFormat.TextStyle",
+      "Id": "3587F9DE-F714-4659-9C85-0B3580F51B7D"
+    },
+    {
+      "Name": "McCOM2.SymTableFormat.Set_TextStyle",
+      "Id": "829B4500-A8C6-4CD9-A7E1-629108E6D207"
+    },
+    {
+      "Name": "McCOM2.SymTableFormat.TextHeight",
+      "Id": "4EE89F92-3749-4EC4-9A88-D25B4899A459"
+    },
+    {
+      "Name": "McCOM2.SymTableFormat.Set_TextHeight",
+      "Id": "5C5C63EE-8C4F-429E-BCF8-CF463F67E419"
+    },
+    {
+      "Name": "McCOM2.SymTableFormat.TextAlign",
+      "Id": "839F5653-5101-48F1-9B0B-911DFFF130EF"
+    },
+    {
+      "Name": "McCOM2.SymTableFormat.Set_TextAlign",
+      "Id": "119F5D9B-E896-4ED6-A80A-5436AE0A058D"
+    },
+    {
+      "Name": "McCOM2.SymTableFormat.TextMargin",
+      "Id": "DA102751-B9BC-465B-BF70-5D9ACD09B11E"
+    },
+    {
+      "Name": "McCOM2.SymTableFormat.Set_TextMargin",
+      "Id": "9B5865F9-DFD4-4090-BEDE-55345597E774"
+    },
+    {
+      "Name": "McCOM2.SymTableFormat.TextAngle",
+      "Id": "53F95040-F302-43AF-912A-3FAC90B4A4A1"
+    },
+    {
+      "Name": "McCOM2.SymTableFormat.Set_TextAngle",
+      "Id": "B551ECE7-A579-4E7C-946B-74325D2EAA72"
+    },
+    {
+      "Name": "McCOM2.SymTableFormat.TextWrap",
+      "Id": "82198293-8B44-4348-9748-6CB47AD26898"
+    },
+    {
+      "Name": "McCOM2.SymTableFormat.Set_TextWrap",
+      "Id": "97847699-D6E5-4B0A-8E56-C7CDEE933F03"
+    },
+    {
+      "Name": "McCOM2.SymTableFormat.TextScale",
+      "Id": "5A27FA93-E545-4909-AB88-31156D6B2421"
+    },
+    {
+      "Name": "McCOM2.SymTableFormat.Set_TextScale",
+      "Id": "AD2D8595-FAE4-4F41-ADED-731E4A0295A5"
+    },
+    {
+      "Name": "McCOM2.SymTableFormat.Enabled",
+      "Id": "F712470C-4101-4567-A2EF-1C20B0EAA381"
+    },
+    {
+      "Name": "McCOM2.SymTableFormat.Set_Enabled",
+      "Id": "E8478D8D-4D0D-434B-A0E4-9AB35D1B1F9E"
+    },
+    {
+      "Name": "McCOM2.SymTableFormat.CopyFrom",
+      "Id": "8B9A1FE2-BA16-4402-8581-26E514B69A5B"
+    },
+    {
+      "Name": "McCOM2.SymTableRow.SymTableRow_Constructor",
+      "Id": "96500D74-D4EE-4892-AD3F-11484809C57A"
+    },
+    {
+      "Name": "McCOM2.SymTableRow.SymTableRow_ConstructorCast",
+      "Id": "F407C5DD-F538-49F1-96F5-6CE8A33FC118"
+    },
+    {
+      "Name": "McCOM2.SymTableRow.Cell",
+      "Id": "C08297F1-A33C-481F-AD07-1E88D0D8929C"
+    },
+    {
+      "Name": "McCOM2.SymTableRow.Count",
+      "Id": "FEADFBBF-200C-4B59-A0DF-559DE362267C"
+    },
+    {
+      "Name": "McCOM2.SymTableRow.Width",
+      "Id": "54BF21A4-6008-4B08-A6B8-9C625B9807ED"
+    },
+    {
+      "Name": "McCOM2.SymTableRow.Height",
+      "Id": "F1553512-80CF-4903-92A7-E23D0EEA8BB1"
+    },
+    {
+      "Name": "McCOM2.SymTableRow.Set_Height",
+      "Id": "E9677C39-6F3B-430B-85C0-D60FCE99B639"
+    },
+    {
+      "Name": "McCOM2.SymTableRow.Bounds",
+      "Id": "2DFEA915-F468-4434-913B-C7FDB8DDEF1B"
+    },
+    {
+      "Name": "McCOM2.SymTableRow.Index",
+      "Id": "E7470EB9-4D0E-499D-9805-38F2B3F593C7"
+    },
+    {
+      "Name": "McCOM2.SymTableRow.Table",
+      "Id": "B08C9042-84FA-4ECD-8D04-35F118CE0FE2"
+    },
+    {
+      "Name": "McCOM2.SymTableRow.Range",
+      "Id": "EC923C96-FDC3-4EAF-B215-6D049784470D"
+    },
+    {
+      "Name": "McCOM2.SymTableRow.Title",
+      "Id": "6D10609D-5D45-4080-88EB-3E4A458EE2C1"
+    },
+    {
+      "Name": "McCOM2.SymTableRow.Set_Title",
+      "Id": "8BFC8922-6E31-4505-A2F2-E68648B5D2B1"
+    },
+    {
+      "Name": "McCOM2.SymTableRow.Format",
+      "Id": "2F09C139-942C-4390-AC8D-239B06DB2C1F"
+    },
+    {
+      "Name": "McCOM2.SymTableRow.Copy",
+      "Id": "E9B73CC9-FF9D-42B6-A41A-712C9500A027"
+    },
+    {
+      "Name": "McCOM2.SymTableRow.Delete",
+      "Id": "CC8D3757-8BAA-4899-BFBB-965F9CB9F58D"
+    },
+    {
+      "Name": "McCOM2.SymTableRow.Split",
+      "Id": "8F4FEB43-1649-480E-A030-9CC4CC17C2AF"
+    },
+    {
+      "Name": "McCOM2.SymTableRow.Object",
+      "Id": "85B8E458-C875-4458-964F-6900794A316B"
+    },
+    {
+      "Name": "McCOM2.SymTableCol.SymTableCol_Constructor",
+      "Id": "E07BC420-8C9E-492F-862D-32E3D8537DB3"
+    },
+    {
+      "Name": "McCOM2.SymTableCol.SymTableCol_ConstructorCast",
+      "Id": "708927E0-84C3-4B44-9DA8-7D4606C259C6"
+    },
+    {
+      "Name": "McCOM2.SymTableCol.Cell",
+      "Id": "BECA7D1E-E837-451F-B19F-4812FF288A52"
+    },
+    {
+      "Name": "McCOM2.SymTableCol.Count",
+      "Id": "772D38A8-A442-4B35-85D0-B060ECCA391B"
+    },
+    {
+      "Name": "McCOM2.SymTableCol.Width",
+      "Id": "267E51AD-969B-45A3-8B5E-6DF36D2F1843"
+    },
+    {
+      "Name": "McCOM2.SymTableCol.Set_Width",
+      "Id": "D5E17203-A9EF-4E36-93C7-859B09F88FD9"
+    },
+    {
+      "Name": "McCOM2.SymTableCol.Height",
+      "Id": "09C0C501-AEC5-42FA-AF15-BFABA83F8EB9"
+    },
+    {
+      "Name": "McCOM2.SymTableCol.Bounds",
+      "Id": "F33E79CA-9BCF-4CEA-9F14-A7780C786C5E"
+    },
+    {
+      "Name": "McCOM2.SymTableCol.Index",
+      "Id": "6B57113D-A531-4EA5-A989-6D6B71AD2ED3"
+    },
+    {
+      "Name": "McCOM2.SymTableCol.Table",
+      "Id": "8BDFD29F-2FA8-4E25-9467-B35D735654FF"
+    },
+    {
+      "Name": "McCOM2.SymTableCol.Range",
+      "Id": "E7B4D534-02B1-4630-970A-9FCFE22C508B"
+    },
+    {
+      "Name": "McCOM2.SymTableCol.Format",
+      "Id": "3EF20914-DC5F-48D4-B738-2EDDA705A4F8"
+    },
+    {
+      "Name": "McCOM2.SymTableCol.Copy",
+      "Id": "72ECEC1C-EB30-4CD9-A934-76364255082F"
+    },
+    {
+      "Name": "McCOM2.SymTableCol.Delete",
+      "Id": "EDD81D9B-0446-4D48-939E-D05429887231"
+    },
+    {
+      "Name": "McCOM2.SymTableCol.Split",
+      "Id": "EC1878BF-AB6E-469C-BA6A-990F232FD73A"
+    },
+    {
+      "Name": "McCOM2.SymTableFormat2.SymTableFormat2_Constructor",
+      "Id": "8A24F0D1-5BAA-4CE1-AB2F-B4F0368461C1"
+    },
+    {
+      "Name": "McCOM2.SymTableFormat2.SymTableFormat2_ConstructorCast",
+      "Id": "320D66D5-8D5A-46F6-96FF-C338CE5EC2E0"
+    },
+    {
+      "Name": "McCOM2.SymTableFormat2.VertFit",
+      "Id": "05D3C48C-E276-4690-AA30-01F0D7F382D7"
+    },
+    {
+      "Name": "McCOM2.SymTableFormat2.Set_VertFit",
+      "Id": "E57D3DB2-9B2F-43E0-9EBB-4D33D650ADD6"
+    },
+    {
+      "Name": "McCOM2.SymTableFormat2.HorzFit",
+      "Id": "BC3B03B4-D9EF-49F9-B7FF-F61DD27391F0"
+    },
+    {
+      "Name": "McCOM2.SymTableFormat2.Set_HorzFit",
+      "Id": "A6C57677-4FC9-4E19-B022-DEEDD6B52882"
+    },
+    {
+      "Name": "McCOM2.SymTableFormat2.FillColor",
+      "Id": "05B2F5A3-DE28-4E68-B179-2E5BF11307DB"
+    },
+    {
+      "Name": "McCOM2.SymTableFormat2.Set_FillColor",
+      "Id": "98BAB437-2E2B-48EF-93D8-0B714B8FCBE8"
+    },
+    {
+      "Name": "McCOM2.SymTableFormat2.ReadOnly",
+      "Id": "AEE8ADC1-CFB8-41FE-9AC5-29FFA231646E"
+    },
+    {
+      "Name": "McCOM2.SymNote.SymNote_Constructor",
+      "Id": "DE8E2B87-F16D-4032-A02A-7C9B9B01EE80"
+    },
+    {
+      "Name": "McCOM2.SymNote.SymNote_ConstructorCast",
+      "Id": "66DCE81E-6207-44A7-9C43-EB8FB5D36B65"
+    },
+    {
+      "Name": "McCOM2.SymNote.Text",
+      "Id": "27EA3438-6BDF-473F-8C5C-44033CFE6572"
+    },
+    {
+      "Name": "McCOM2.SymNote.Set_Text",
+      "Id": "8A9183D8-E9E7-4FC1-B519-E8522958B2EF"
+    },
+    {
+      "Name": "McCOM2.SymNote.Lines",
+      "Id": "3E93B52B-F985-435C-9E04-494BECEF8DB9"
+    },
+    {
+      "Name": "McCOM2.SymNote.Set_Lines",
+      "Id": "964DA366-A91F-43F7-8E15-92B5CC7E6F87"
+    },
+    {
+      "Name": "McCOM2.SymNote.LinesCount",
+      "Id": "1BC35C11-7FAD-4AE8-B862-D51D54D088A8"
+    },
+    {
+      "Name": "McCOM2.SymNote.Set_LinesCount",
+      "Id": "1606B023-621F-4174-8601-013DFF9D8E11"
+    },
+    {
+      "Name": "McCOM2.SymNote.Align",
+      "Id": "F75EC1BF-59A5-4437-9945-5CA8B02E1D83"
+    },
+    {
+      "Name": "McCOM2.SymNote.Set_Align",
+      "Id": "8959A6EC-FDF3-400E-AA52-C2FA21E7461E"
+    },
+    {
+      "Name": "McCOM2.SymNote.TextPosition",
+      "Id": "C55F3F9F-D071-45A1-B206-4224EEE49142"
+    },
+    {
+      "Name": "McCOM2.SymNote.Set_TextPosition",
+      "Id": "429C7387-2500-48C7-9D2F-02FA42004AE3"
+    },
+    {
+      "Name": "McCOM2.SymNote.Direction",
+      "Id": "70CBC32A-1EF5-4F1F-BCC4-F23006257C1C"
+    },
+    {
+      "Name": "McCOM2.SymNote.Set_Direction",
+      "Id": "F8195814-C9FC-46A5-BADF-01F073C02524"
+    },
+    {
+      "Name": "McCOM2.SymNote.Multiline",
+      "Id": "6F2BAD0D-DE69-4A6A-BDF3-D6A52F60CE01"
+    },
+    {
+      "Name": "McCOM2.SymNote.Set_Multiline",
+      "Id": "90254EC7-9BB6-41A8-916F-8A943628224B"
+    },
+    {
+      "Name": "McCOM2.SymNote.Leaders",
+      "Id": "CA56B46A-FE31-4D7F-969B-05232CD2810C"
+    },
+    {
+      "Name": "McCOM2.SymBreak.SymBreak_Constructor",
+      "Id": "49B187F5-9796-4146-8747-A5CE5DAA0D0C"
+    },
+    {
+      "Name": "McCOM2.SymBreak.SymBreak_ConstructorCast",
+      "Id": "F5A53772-1FE4-455B-8C5C-C7CE475DE3D4"
+    },
+    {
+      "Name": "McCOM2.SymBreak.PositionTop",
+      "Id": "0AB44699-9EA9-475B-BE54-CC690B7F4E57"
+    },
+    {
+      "Name": "McCOM2.SymBreak.Set_PositionTop",
+      "Id": "41CBD005-C495-4AFA-84D3-1FC8CB1F7F75"
+    },
+    {
+      "Name": "McCOM2.SymBreak.PositionBottom",
+      "Id": "A460A099-5831-4246-ADBB-467741DE0F9A"
+    },
+    {
+      "Name": "McCOM2.SymBreak.Set_PositionBottom",
+      "Id": "F6C94C58-B9E6-48B1-B8E1-B7D7FE3C91F2"
+    },
+    {
+      "Name": "McCOM2.SymBreak.PositionRight",
+      "Id": "0A584543-446B-4345-A9EF-A17EB80E7D04"
+    },
+    {
+      "Name": "McCOM2.SymBreak.Set_PositionRight",
+      "Id": "7D31CCD9-AA2E-470D-A40B-9E70A3330473"
+    },
+    {
+      "Name": "McCOM2.SymBreak.Type",
+      "Id": "9859A8C1-9F0E-47C3-A407-27DC99A48F75"
+    },
+    {
+      "Name": "McCOM2.SymBreak.Set_Type",
+      "Id": "1113CC43-DCB0-446B-ACC5-9ACAE1E1DB89"
+    },
+    {
+      "Name": "McCOM2.SymDimNumber.SymDimNumber_Constructor",
+      "Id": "C9AE2DBF-4199-47E1-A09D-D85B48A43C12"
+    },
+    {
+      "Name": "McCOM2.SymDimNumber.SymDimNumber_ConstructorCast",
+      "Id": "7DD7CB4D-331C-4A42-9F5E-7C0F5EB06199"
+    },
+    {
+      "Name": "McCOM2.SymDimNumber.TextPosition",
+      "Id": "3D1E265E-9C04-45F4-AF7F-FFFF68C2745B"
+    },
+    {
+      "Name": "McCOM2.SymDimNumber.Set_TextPosition",
+      "Id": "50D85D85-CE64-44C2-ACD9-69747D0EF384"
+    },
+    {
+      "Name": "McCOM2.SymDimNumber.Position",
+      "Id": "1D0BA996-0B13-4406-BEC2-2F49D07EB0D6"
+    },
+    {
+      "Name": "McCOM2.SymDimNumber.Set_Position",
+      "Id": "7C573BC6-0CAE-48C1-AA03-3D25105BE096"
+    },
+    {
+      "Name": "McCOM2.SymDimNumber.Index",
+      "Id": "39D48E08-6D79-4778-80B9-94C94F6F381E"
+    },
+    {
+      "Name": "McCOM2.SymDimNumber.Set_Index",
+      "Id": "B6693A4A-0FEA-48D0-A5F2-398DA195583C"
+    },
+    {
+      "Name": "McCOM2.SymDimNumber.Autonum",
+      "Id": "97EE32F7-7063-4340-9CA6-157470BA2C21"
+    },
+    {
+      "Name": "McCOM2.SymDimNumber.Set_Autonum",
+      "Id": "A04956FE-C333-4EC8-BDE4-2676D5BE71B1"
+    },
+    {
+      "Name": "McCOM2.SymDimNumber.Text",
+      "Id": "0225036F-DC76-4481-BD70-8A2D06D7ED83"
+    },
+    {
+      "Name": "McCOM2.SymDimNumber.Set_Text",
+      "Id": "292EE685-4DE5-4029-B546-FC6807A542D1"
+    },
+    {
+      "Name": "McCOM2.SymDimNumber.DisplayText",
+      "Id": "EB33FCC1-F531-47F2-9591-4079699518F1"
+    },
+    {
+      "Name": "McCOM2.SymDimNumber.Align",
+      "Id": "E80A8DF7-A2BB-4458-BCE9-72A0C128D416"
+    },
+    {
+      "Name": "McCOM2.SymDimNumber.Arrow",
+      "Id": "5665C963-ADBC-431C-B416-64D14C441E27"
+    },
+    {
+      "Name": "McCOM2.SymDimNumber.Set_Arrow",
+      "Id": "69402722-7943-4C38-BA9B-CB21208A1B5F"
+    },
+    {
+      "Name": "McCOM2.SymDimNumber.Owner",
+      "Id": "C095A556-2727-4785-9954-33F2B150153D"
+    },
+    {
+      "Name": "McCOM2.SymDimNumber.Set_Owner",
+      "Id": "B252D2F9-0C75-4D7F-B328-9622A7637607"
+    },
+    {
+      "Name": "McCOM2.SymSection.SymSection_Constructor",
+      "Id": "6C037F95-DE0A-4104-A85A-40F44556206E"
+    },
+    {
+      "Name": "McCOM2.SymSection.SymSection_ConstructorCast",
+      "Id": "3780DCD7-E963-4537-BB87-8264ECA348BE"
+    },
+    {
+      "Name": "McCOM2.SymSection.Edges",
+      "Id": "5CEFCD14-7D31-4C63-A0A2-93284E694348"
+    },
+    {
+      "Name": "McCOM2.SymSection.Set_Edges",
+      "Id": "FBD2ED11-F406-48F6-A5C7-3DF11CE5F641"
+    },
+    {
+      "Name": "McCOM2.SymSection.Direction",
+      "Id": "A05CC0BB-CDC6-4959-B91C-45F921232959"
+    },
+    {
+      "Name": "McCOM2.SymSection.Set_Direction",
+      "Id": "45E30B56-C8C5-4796-A999-95383DBAE94B"
+    },
+    {
+      "Name": "McCOM2.SymSection.Cut",
+      "Id": "6F25E9CE-0EE2-4848-9C70-EB979120F690"
+    },
+    {
+      "Name": "McCOM2.SymSection.Set_Cut",
+      "Id": "9B26461C-CCD6-4544-9C31-0981F0ECFC89"
+    },
+    {
+      "Name": "McCOM2.SymSection.Prefix",
+      "Id": "E89BF713-4E66-425F-8B5C-4A71AE7EC579"
+    },
+    {
+      "Name": "McCOM2.SymSection.Set_Prefix",
+      "Id": "0995E5A1-7F86-491F-BE90-D18F0F3D22CF"
+    },
+    {
+      "Name": "McCOM2.SymSection.Text",
+      "Id": "EDCB3EB0-3B8B-4A7F-8721-930B18D99081"
+    },
+    {
+      "Name": "McCOM2.SymSection.Set_Text",
+      "Id": "ED5498E6-892A-4C43-9C25-954110781068"
+    },
+    {
+      "Name": "McCOM2.SymSection.Index",
+      "Id": "A2212710-93D0-4DF8-A4A6-6A20331880A5"
+    },
+    {
+      "Name": "McCOM2.SymSection.Set_Index",
+      "Id": "9B296074-58B2-4BF7-BF94-02B8446B70DD"
+    },
+    {
+      "Name": "McCOM2.SymSection.Zone",
+      "Id": "A46F5913-5328-4C67-B44B-7FFD991C26B3"
+    },
+    {
+      "Name": "McCOM2.SymSection.Set_Zone",
+      "Id": "31BBF7DA-D6FC-4CC4-B7D6-24CA2AF0A2EB"
+    },
+    {
+      "Name": "McCOM2.SymSection.Sheet",
+      "Id": "58C60B22-355F-431D-A0E3-AAE6E6EC590B"
+    },
+    {
+      "Name": "McCOM2.SymSection.Set_Sheet",
+      "Id": "B3CDE4BB-4297-4620-9A51-03243CC5FE5E"
+    },
+    {
+      "Name": "McCOM2.SymView.SymView_Constructor",
+      "Id": "3E8C742C-2D44-4250-AED2-118E1C59E6A0"
+    },
+    {
+      "Name": "McCOM2.SymView.SymView_ConstructorCast",
+      "Id": "C5C05223-7044-4386-BBF9-F14101D9B431"
+    },
+    {
+      "Name": "McCOM2.SymView.Position",
+      "Id": "51C4C93B-3B00-464F-AFAD-81CC7EB7B9C2"
+    },
+    {
+      "Name": "McCOM2.SymView.Set_Position",
+      "Id": "8E298FF3-C974-4261-8BE9-F5FFF3BDF0BB"
+    },
+    {
+      "Name": "McCOM2.SymView.Prefix",
+      "Id": "3CEC9463-32EB-4D75-A2FE-DB249E2204DF"
+    },
+    {
+      "Name": "McCOM2.SymView.Set_Prefix",
+      "Id": "A33C6CD8-410F-48D9-A242-0B10E98324A9"
+    },
+    {
+      "Name": "McCOM2.SymView.Index",
+      "Id": "2A02EB19-8717-413C-8F8D-50A92A413C4E"
+    },
+    {
+      "Name": "McCOM2.SymView.Set_Index",
+      "Id": "F32ACB02-9CA0-4A5B-BA86-4C6CB1EC2920"
+    },
+    {
+      "Name": "McCOM2.SymView.Zone",
+      "Id": "F8A259A5-F8F5-41C5-91F5-A8467EE36DEE"
+    },
+    {
+      "Name": "McCOM2.SymView.Set_Zone",
+      "Id": "FF198AC8-DBBD-4B61-A796-120F5CB9C3B4"
+    },
+    {
+      "Name": "McCOM2.SymView.Sheet",
+      "Id": "4C37354F-92FF-45DF-B95E-C5E9BC4E7B0B"
+    },
+    {
+      "Name": "McCOM2.SymView.Set_Sheet",
+      "Id": "BE216A83-EEE1-4F61-B778-A7A93AAD3363"
+    },
+    {
+      "Name": "McCOM2.SymMark.SymMark_Constructor",
+      "Id": "12F3A0FA-6047-41DE-9229-952EB29EBD28"
+    },
+    {
+      "Name": "McCOM2.SymMark.SymMark_ConstructorCast",
+      "Id": "6C0058C9-C82C-4F0B-97CF-3731A95F39F1"
+    },
+    {
+      "Name": "McCOM2.SymMark.Text",
+      "Id": "9116F517-D0FF-46FD-B904-0C4CEA0631CA"
+    },
+    {
+      "Name": "McCOM2.SymMark.Set_Text",
+      "Id": "99F2F541-5D8A-4C04-A7F1-9217E22F2345"
+    },
+    {
+      "Name": "McCOM2.SymMark.Method",
+      "Id": "3D7603BB-B487-4F09-9B46-1A22DA538596"
+    },
+    {
+      "Name": "McCOM2.SymMark.Set_Method",
+      "Id": "29085F36-B243-407B-BCDC-5ACAE8351D87"
+    },
+    {
+      "Name": "McCOM2.SymMark.Stamp",
+      "Id": "FE807759-0275-4D41-849C-FEA332E99160"
+    },
+    {
+      "Name": "McCOM2.SymMark.Set_Stamp",
+      "Id": "EE0A8B4A-508D-4B50-97D7-2206CB9C2142"
+    },
+    {
+      "Name": "McCOM2.SymMark.Documentation",
+      "Id": "FF9BA0CA-7DFE-42F0-9FBF-A3464A98F66E"
+    },
+    {
+      "Name": "McCOM2.SymMark.Set_Documentation",
+      "Id": "C23BB0DA-351D-474B-9B28-600FC33494F2"
+    },
+    {
+      "Name": "McCOM2.SymMark.Position",
+      "Id": "CD542688-FB6D-4531-B220-7A7B686DE8BE"
+    },
+    {
+      "Name": "McCOM2.SymMark.Set_Position",
+      "Id": "0F6E5DB6-42A6-4585-A5B7-B0CDA54DC338"
+    },
+    {
+      "Name": "McCOM2.SymMark.Leaders",
+      "Id": "0FACF018-0D91-481D-B702-BC33A70DEF3F"
+    },
+    {
+      "Name": "McCOM2.SymDimension.SymDimension_Constructor",
+      "Id": "F27515AA-E048-4C5C-A741-383FE1ED1B78"
+    },
+    {
+      "Name": "McCOM2.SymDimension.SymDimension_ConstructorCast",
+      "Id": "6EBA0CE6-0FA9-408F-92D3-AEC280C40E9B"
+    },
+    {
+      "Name": "McCOM2.SymDimension.TextPosition",
+      "Id": "AA6CD684-7E3D-4EE2-9088-7CEACABCFC70"
+    },
+    {
+      "Name": "McCOM2.SymDimension.Set_TextPosition",
+      "Id": "CA640D19-E2FE-429C-BE05-5567C1CDCC1C"
+    },
+    {
+      "Name": "McCOM2.SymDimension.Value",
+      "Id": "EA0CE3C6-7A37-472C-953C-AC4A15FAAB18"
+    },
+    {
+      "Name": "McCOM2.SymDimension.Upper",
+      "Id": "E12AE1D8-75B6-4617-B2DC-F3F9B71DB60A"
+    },
+    {
+      "Name": "McCOM2.SymDimension.Set_Upper",
+      "Id": "5A8E162B-4C05-426A-AAB5-9EBA87441461"
+    },
+    {
+      "Name": "McCOM2.SymDimension.Lower",
+      "Id": "54B3E1B2-83D9-45EF-8928-8DD741125DAB"
+    },
+    {
+      "Name": "McCOM2.SymDimension.Set_Lower",
+      "Id": "A9D069EA-3924-4F7F-8AB7-E912E0A8953D"
+    },
+    {
+      "Name": "McCOM2.SymDimension.Quality",
+      "Id": "52F2FA2D-8D20-4DBD-88B5-C31D3CFD3DAA"
+    },
+    {
+      "Name": "McCOM2.SymDimension.Set_Quality",
+      "Id": "4197BB09-26B8-4B16-BEBA-82F5287F4E80"
+    },
+    {
+      "Name": "McCOM2.SymDimension.Field",
+      "Id": "4B32576E-1909-412E-8C1B-426C3ED65A64"
+    },
+    {
+      "Name": "McCOM2.SymDimension.Set_Field",
+      "Id": "DF5C1366-5F35-49B3-934B-798AC775F5F4"
+    },
+    {
+      "Name": "McCOM2.SymDimension.TolView",
+      "Id": "3040E788-9910-4B7C-831B-D0D36B5A4360"
+    },
+    {
+      "Name": "McCOM2.SymDimension.Set_TolView",
+      "Id": "69EE5112-3935-4FA9-9EB7-411F5C84FD6F"
+    },
+    {
+      "Name": "McCOM2.SymDimension.Brackets",
+      "Id": "635A7C9E-58BB-43ED-AAF5-17E2BD40D74F"
+    },
+    {
+      "Name": "McCOM2.SymDimension.Set_Brackets",
+      "Id": "8B808F31-0CCE-4FD3-86F9-B71399E60864"
+    },
+    {
+      "Name": "McCOM2.SymDimension.Rect",
+      "Id": "8C4BF4EE-A274-482B-B282-A67602E6D2BF"
+    },
+    {
+      "Name": "McCOM2.SymDimension.Set_Rect",
+      "Id": "0AF70F00-A818-42EC-9DF3-03AED1B936EB"
+    },
+    {
+      "Name": "McCOM2.SymDimension.Leader",
+      "Id": "F2903268-E0D2-49E7-8E3A-968A31A7C015"
+    },
+    {
+      "Name": "McCOM2.SymDimension.Set_Leader",
+      "Id": "CEA73C21-B957-4A65-B411-1FC62949A1B4"
+    },
+    {
+      "Name": "McCOM2.SymDimension.Real",
+      "Id": "51C2E71F-6C99-4FC1-B722-4221E632FDF5"
+    },
+    {
+      "Name": "McCOM2.SymDimension.Set_Real",
+      "Id": "0E41F940-DFFE-4E75-BEE2-5679BCCC0DDD"
+    },
+    {
+      "Name": "McCOM2.SymDimension.Text",
+      "Id": "7C15111F-615D-4CCC-9060-532A2FC0C1CD"
+    },
+    {
+      "Name": "McCOM2.SymDimension.Set_Text",
+      "Id": "35140C62-F0CE-42FB-A3CA-8AC8C8EE6203"
+    },
+    {
+      "Name": "McCOM2.SymDimension.Prefix",
+      "Id": "FF2E8D36-3986-4F80-B8C0-4CFFD45CA90A"
+    },
+    {
+      "Name": "McCOM2.SymDimension.Set_Prefix",
+      "Id": "4882994C-FEFA-4E16-BFD1-CAE8717EFEBC"
+    },
+    {
+      "Name": "McCOM2.SymDimension.Suffix",
+      "Id": "1ED3379A-9B0E-47D6-98F6-755C046F7156"
+    },
+    {
+      "Name": "McCOM2.SymDimension.Set_Suffix",
+      "Id": "3229C659-7958-43F4-B31B-9180D80A9638"
+    },
+    {
+      "Name": "McCOM2.SymDimension.Postfix",
+      "Id": "17B4BC38-CEF2-4F91-8F1F-7A09A9D39EC5"
+    },
+    {
+      "Name": "McCOM2.SymDimension.Set_Postfix",
+      "Id": "AEB3845C-8AD2-495C-AF8F-D5ED2627DF0E"
+    },
+    {
+      "Name": "McCOM2.SymDimension.Footer",
+      "Id": "006AA0BD-A50A-4787-AEB3-6839D6E3E2FD"
+    },
+    {
+      "Name": "McCOM2.SymDimension.Set_Footer",
+      "Id": "680F23A8-09AC-4C79-9126-44AC3357A5BD"
+    },
+    {
+      "Name": "McCOM2.SymDimension.Symbol",
+      "Id": "28FDEEED-A41A-4C5C-B9F5-5405DF6CC5BA"
+    },
+    {
+      "Name": "McCOM2.SymDimension.Set_Symbol",
+      "Id": "FB2A26BA-C2E5-413C-9E8D-6CD19459E73F"
+    },
+    {
+      "Name": "McCOM2.SymDimLinear.SymDimLinear_Constructor",
+      "Id": "8B29D4B9-778D-463C-9B53-98206DDC7676"
+    },
+    {
+      "Name": "McCOM2.SymDimLinear.SymDimLinear_ConstructorCast",
+      "Id": "2CDF6B31-BF82-422A-A2A9-AEC97072FE53"
+    },
+    {
+      "Name": "McCOM2.SymDimLinear.Position1",
+      "Id": "5EF75B19-5CD8-4807-AEB5-6FE974FEA331"
+    },
+    {
+      "Name": "McCOM2.SymDimLinear.Set_Position1",
+      "Id": "D5529B09-077B-4665-AE28-2D0C983A2F18"
+    },
+    {
+      "Name": "McCOM2.SymDimLinear.Position2",
+      "Id": "31776FA2-CDCA-4894-80B5-91141E9645A1"
+    },
+    {
+      "Name": "McCOM2.SymDimLinear.Set_Position2",
+      "Id": "C1F72767-121B-4D73-9BD1-17347C3CEE46"
+    },
+    {
+      "Name": "McCOM2.SymDimLinear.Arrow1",
+      "Id": "F6F2AE28-F178-43BC-B709-55840CA26F87"
+    },
+    {
+      "Name": "McCOM2.SymDimLinear.Set_Arrow1",
+      "Id": "359393DB-5C57-421F-ABAB-935AA1858911"
+    },
+    {
+      "Name": "McCOM2.SymDimLinear.Arrow2",
+      "Id": "1381CF2F-EEF8-4810-B3E4-177B5020ED8A"
+    },
+    {
+      "Name": "McCOM2.SymDimLinear.Set_Arrow2",
+      "Id": "312DE01D-6C8D-4996-B369-120D51372493"
+    },
+    {
+      "Name": "McCOM2.SymDimLinear.LinePosition",
+      "Id": "5D12C530-11C7-42D0-B1B1-AFBB16429A74"
+    },
+    {
+      "Name": "McCOM2.SymDimLinear.Set_LinePosition",
+      "Id": "BB138FD8-10F5-423C-86DC-BB77CA435B71"
+    },
+    {
+      "Name": "McCOM2.SymDimLinear.Direction",
+      "Id": "24DE639B-1FE3-4767-A726-690F947773C7"
+    },
+    {
+      "Name": "McCOM2.SymDimLinear.Set_Direction",
+      "Id": "AA208AF0-FF1A-4C87-99F6-2366D67C6060"
+    },
+    {
+      "Name": "McCOM2.SymDimLinear.Type",
+      "Id": "124F0143-7EFE-44FA-8E61-0E6F7EC1CD43"
+    },
+    {
+      "Name": "McCOM2.SymDimLinear.Set_Type",
+      "Id": "3C7D1A53-6D22-42C5-A963-7E3E83ADA990"
+    },
+    {
+      "Name": "McCOM2.SymDimRadius.SymDimRadius_Constructor",
+      "Id": "7452E8FD-022C-40DD-8799-307F23BF7CD5"
+    },
+    {
+      "Name": "McCOM2.SymDimRadius.SymDimRadius_ConstructorCast",
+      "Id": "C219E9FF-1F8E-4E41-ACD0-683E46E59F8D"
+    },
+    {
+      "Name": "McCOM2.SymDimRadius.Position",
+      "Id": "89465BC6-1289-48BC-B7D2-F981133BFBE0"
+    },
+    {
+      "Name": "McCOM2.SymDimRadius.Set_Position",
+      "Id": "7037E2A7-34C9-4FF8-8943-B5BC6716E3F3"
+    },
+    {
+      "Name": "McCOM2.SymDimRadius.Center",
+      "Id": "A277DECF-D5A6-4AF0-A436-6601022F1DC0"
+    },
+    {
+      "Name": "McCOM2.SymDimRadius.Set_Center",
+      "Id": "622AF5AD-CD02-46F8-B03B-C5144BE0D91F"
+    },
+    {
+      "Name": "McCOM2.SymDimRadius.Arrow",
+      "Id": "DF9E9A65-705A-446D-9E12-2049351AABB6"
+    },
+    {
+      "Name": "McCOM2.SymDimRadius.Set_Arrow",
+      "Id": "AC6468EB-4BF0-4046-9DC9-2C7114142803"
+    },
+    {
+      "Name": "McCOM2.SymDimHugeRadius.SymDimHugeRadius_Constructor",
+      "Id": "85765687-F3C1-4077-BAF8-45C3CDF355CD"
+    },
+    {
+      "Name": "McCOM2.SymDimHugeRadius.SymDimHugeRadius_ConstructorCast",
+      "Id": "F93FD5D7-52F6-474C-854E-E20EE752DF97"
+    },
+    {
+      "Name": "McCOM2.SymDimHugeRadius.MeanCenter",
+      "Id": "665AC9E2-2BE3-4E72-BDAE-3BE5E8BA9A8E"
+    },
+    {
+      "Name": "McCOM2.SymDimHugeRadius.Set_MeanCenter",
+      "Id": "AC25F030-69CB-4926-B27A-7CC473464826"
+    },
+    {
+      "Name": "McCOM2.SymDimHugeRadius.BreakPosition",
+      "Id": "8D552A32-4F8D-470C-B33A-55E0AA9389CA"
+    },
+    {
+      "Name": "McCOM2.SymDimHugeRadius.Set_BreakPosition",
+      "Id": "C180AD4C-E69B-4DD4-B36B-92374622CA8A"
+    },
+    {
+      "Name": "McCOM2.SymDimDiameter.SymDimDiameter_Constructor",
+      "Id": "67FC795F-C726-4F9C-B467-BE6D206C6112"
+    },
+    {
+      "Name": "McCOM2.SymDimDiameter.SymDimDiameter_ConstructorCast",
+      "Id": "A81BC77B-808B-4E13-924B-6BD81EA7E506"
+    },
+    {
+      "Name": "McCOM2.SymDimDiameter.Position1",
+      "Id": "2631A23C-A1FC-4B10-9507-4EBEC11AB5CD"
+    },
+    {
+      "Name": "McCOM2.SymDimDiameter.Set_Position1",
+      "Id": "3A9948DD-C96F-48E2-8D51-F0D88BFF02B4"
+    },
+    {
+      "Name": "McCOM2.SymDimDiameter.Position2",
+      "Id": "C3B2F302-2C1A-46C2-A218-A5A13F53C2E5"
+    },
+    {
+      "Name": "McCOM2.SymDimDiameter.Set_Position2",
+      "Id": "6552EA10-EAB1-442D-A431-93D372A0CDCF"
+    },
+    {
+      "Name": "McCOM2.SymDimDiameter.Arrow1",
+      "Id": "830B7131-4EF2-405B-A63F-733580DBEDCF"
+    },
+    {
+      "Name": "McCOM2.SymDimDiameter.Set_Arrow1",
+      "Id": "F4A694E4-5F75-4E2E-A93C-D24EC36C5E35"
+    },
+    {
+      "Name": "McCOM2.SymDimDiameter.Arrow2",
+      "Id": "134D77C1-299D-4EAE-974D-7C9F4884ED70"
+    },
+    {
+      "Name": "McCOM2.SymDimDiameter.Set_Arrow2",
+      "Id": "4E72F14D-E3E4-47AB-A871-0AF0D795F384"
+    },
+    {
+      "Name": "McCOM2.SymDimDiameter.Center",
+      "Id": "5BFF667F-3A8C-474C-905E-5C68BFA1F068"
+    },
+    {
+      "Name": "McCOM2.SymDimDiameter.Set_Center",
+      "Id": "88246EE8-FA86-4499-B74F-D271B277B816"
+    },
+    {
+      "Name": "McCOM2.SymDimAngle.SymDimAngle_Constructor",
+      "Id": "D9543573-B461-45AF-A987-BE853AC66DC5"
+    },
+    {
+      "Name": "McCOM2.SymDimAngle.SymDimAngle_ConstructorCast",
+      "Id": "72DE33F8-356D-4C9D-A133-B6ABE0323EF9"
+    },
+    {
+      "Name": "McCOM2.SymDimAngle.Position1",
+      "Id": "652F9291-0386-4120-B795-07D1388ADE0A"
+    },
+    {
+      "Name": "McCOM2.SymDimAngle.Set_Position1",
+      "Id": "01EBE3AC-56CF-4F75-91D2-6CA2072A4031"
+    },
+    {
+      "Name": "McCOM2.SymDimAngle.Position2",
+      "Id": "B1071D55-D9AF-48E7-836C-E731A43D38BE"
+    },
+    {
+      "Name": "McCOM2.SymDimAngle.Set_Position2",
+      "Id": "57A9F07D-DE8A-43B0-9983-56F70159758B"
+    },
+    {
+      "Name": "McCOM2.SymDimAngle.Arrow1",
+      "Id": "7F062187-8B72-468C-BD3E-92FD6B14F6EB"
+    },
+    {
+      "Name": "McCOM2.SymDimAngle.Set_Arrow1",
+      "Id": "46B688BE-A6D3-43E7-A27F-9726894DF71B"
+    },
+    {
+      "Name": "McCOM2.SymDimAngle.Arrow2",
+      "Id": "F33697B3-D114-4305-9D37-9390C4E7D321"
+    },
+    {
+      "Name": "McCOM2.SymDimAngle.Set_Arrow2",
+      "Id": "5C8A6C12-8998-4085-86A4-B2FDDB5BAA0C"
+    },
+    {
+      "Name": "McCOM2.SymDimAngle.Center",
+      "Id": "00240A98-EAFA-4788-999B-182E84DFA027"
+    },
+    {
+      "Name": "McCOM2.SymDimAngle.Set_Center",
+      "Id": "4F0C92BB-A72D-42F0-A19C-65BF33A1A248"
+    },
+    {
+      "Name": "McCOM2.SymDimAngle.LinePosition",
+      "Id": "A2A951CD-52A6-4176-ACA5-90E836870D5A"
+    },
+    {
+      "Name": "McCOM2.SymDimAngle.Set_LinePosition",
+      "Id": "E03DE207-DA8E-40DD-A5F9-26AF035B02AA"
+    },
+    {
+      "Name": "McCOM2.SymDimArc.SymDimArc_Constructor",
+      "Id": "970F3D87-CE86-4804-9F38-D2C09CBC7FCA"
+    },
+    {
+      "Name": "McCOM2.SymDimArc.SymDimArc_ConstructorCast",
+      "Id": "48E0C0ED-53FC-4D2A-9378-FB5EE61565FB"
+    },
+    {
+      "Name": "McCOM2.SymDimArc.Position1",
+      "Id": "D8AE1CD1-0411-4E0D-AE04-66A765AE7641"
+    },
+    {
+      "Name": "McCOM2.SymDimArc.Set_Position1",
+      "Id": "6A22164D-779F-4182-A83F-26BA2DEFE6FA"
+    },
+    {
+      "Name": "McCOM2.SymDimArc.Position2",
+      "Id": "2A38B9E6-0690-4BE0-AE23-77161B2B33D4"
+    },
+    {
+      "Name": "McCOM2.SymDimArc.Set_Position2",
+      "Id": "97D90852-5120-4B56-9419-3069F6769A5C"
+    },
+    {
+      "Name": "McCOM2.SymDimArc.Arrow1",
+      "Id": "CE6F44E8-1B8E-46D0-8419-AB7E6C21BE7C"
+    },
+    {
+      "Name": "McCOM2.SymDimArc.Set_Arrow1",
+      "Id": "503088FF-A0DC-440D-AED0-39708A3721C3"
+    },
+    {
+      "Name": "McCOM2.SymDimArc.Arrow2",
+      "Id": "CE2BBE93-8CFA-4938-8674-B571887509D0"
+    },
+    {
+      "Name": "McCOM2.SymDimArc.Set_Arrow2",
+      "Id": "F2625FD4-57B1-4F07-B61C-B9BED2833BCE"
+    },
+    {
+      "Name": "McCOM2.SymDimArc.Center",
+      "Id": "C94FFD17-8D34-4EF2-899D-1E0EDD50DC5A"
+    },
+    {
+      "Name": "McCOM2.SymDimArc.Set_Center",
+      "Id": "8F426D44-3F5A-4822-9EB9-D2D7961DFCBE"
+    },
+    {
+      "Name": "McCOM2.SymDimArc.LinePosition",
+      "Id": "1DC72A15-BDE9-4891-A44D-627E79941377"
+    },
+    {
+      "Name": "McCOM2.SymDimArc.Set_LinePosition",
+      "Id": "913D3F37-69F9-43EA-92ED-FD4655BCC035"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteChain.SymSpdsNoteChain_Constructor",
+      "Id": "A1CACB83-953A-4152-9CC6-ACEB8083BD51"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteChain.SymSpdsNoteChain_ConstructorCast",
+      "Id": "548FBF07-3785-46EE-AEA1-D0D35C279831"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteChain.Text",
+      "Id": "3623A79E-35E1-4BA6-AA04-AC6D6A2EE649"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteChain.Set_Text",
+      "Id": "247DE82C-E37E-4E06-8AB6-97D3743FA68B"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteChain.Footer",
+      "Id": "59261AB8-4DF2-47DF-BD68-F3035726743B"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteChain.Set_Footer",
+      "Id": "F3B921FC-821E-42F0-B122-566C4A7B64D8"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteChain.Align",
+      "Id": "D03ACBBB-D207-4BBE-A55A-2F49957AA504"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteChain.Set_Align",
+      "Id": "1392C2D8-5D79-4ABD-9401-A156F1600838"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteChain.TextPosition",
+      "Id": "DAAA4A80-0655-40F2-9F3C-83A232F3A18C"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteChain.Set_TextPosition",
+      "Id": "8AA142FB-1863-4998-954B-CFD1B7113E6C"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteChain.Direction",
+      "Id": "461A0DC9-1EF9-4EC0-8F37-778AA9E8F00B"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteChain.Set_Direction",
+      "Id": "9AAB5E7D-4FEB-40F3-A41F-8E75145B9A00"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteChain.Leaders",
+      "Id": "4FF5AC43-0042-43E2-BAD3-4C51ADFEE224"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteComb.SymSpdsNoteComb_Constructor",
+      "Id": "2114B9C8-C92D-459F-B633-46CEF4087214"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteComb.SymSpdsNoteComb_ConstructorCast",
+      "Id": "2EDB8F8B-F330-43E7-895E-BB7D0E91E564"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteComb.Text",
+      "Id": "B94CDAAB-E1FC-4CDE-B011-E1B5430E0027"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteComb.Set_Text",
+      "Id": "670D3CD3-C22D-4967-8713-11A6F9FA8855"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteComb.Footer",
+      "Id": "6E2A8D5D-8CBA-463B-8C76-79B33191EB1A"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteComb.Set_Footer",
+      "Id": "84FA00F0-2737-431F-9146-F204B86CEF07"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteComb.Align",
+      "Id": "E4D91323-4643-4E1A-8D9D-25803FCF0D46"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteComb.Set_Align",
+      "Id": "A526A9CA-2EA9-419E-A2EA-E1A997B4BAD6"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteComb.Start",
+      "Id": "83F2CA94-2ABD-4796-AD1C-4737661029BE"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteComb.Set_Start",
+      "Id": "34EE3E2B-1606-4660-8C96-56DFB60F6567"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteComb.End",
+      "Id": "CC655743-F046-4DAB-B897-7FF43D8CDE11"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteComb.Set_End",
+      "Id": "5029D88C-DF65-4A1E-B569-CB2BEADFF6A8"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteComb.Direction",
+      "Id": "CD12C10A-7573-4288-869B-8E988B469AD0"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteComb.Set_Direction",
+      "Id": "CFF419FB-98A6-43A9-B37E-7728F3A55C81"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteComb.Leaders",
+      "Id": "1654DC6B-E53B-4CB5-BF70-257AF64873EB"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteKnot.SymSpdsNoteKnot_Constructor",
+      "Id": "92E64B13-F848-4E3D-ADEE-E06406480BA8"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteKnot.SymSpdsNoteKnot_ConstructorCast",
+      "Id": "209C83B2-112C-40F0-B56D-4826E666663E"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteKnot.Position",
+      "Id": "7A37A33C-D523-4557-B0B1-22909C07CBD6"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteKnot.Set_Position",
+      "Id": "8AD5022A-FE4C-4202-9F21-5E69D5617989"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteKnot.TextPosition",
+      "Id": "75A17B02-F979-4A30-8598-8F7FEED81FA9"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteKnot.Set_TextPosition",
+      "Id": "7ACAF05F-CC44-4F9B-9A59-20157488C270"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteKnot.Align",
+      "Id": "4F65550D-890D-4AFE-9085-F929574515DB"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteKnot.Set_Align",
+      "Id": "4AFD1ECD-5AEE-4BE2-A3E5-6A6E345CFC1B"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteKnot.Text",
+      "Id": "6BA09D4B-4E35-46B9-970B-8D9A82EA4704"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteKnot.Set_Text",
+      "Id": "0D9CFE07-3B79-4770-A391-DF873729E5BA"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteKnot.Direction",
+      "Id": "AE3947B6-4A2E-4BD4-BC1A-0C116B7623BC"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteKnot.Set_Direction",
+      "Id": "A62D7461-8BE6-4110-8722-506E1BF867AF"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteKnot.Footer",
+      "Id": "D0C9C8BB-8479-4584-8BD7-EF057301ABC1"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteKnot.Set_Footer",
+      "Id": "F5C00703-F5E3-4DA4-8C29-3FB5891B4737"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteKnot.RadiusPerp",
+      "Id": "CD4B7F27-2032-4617-9FBF-EE0D3463D932"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteKnot.Set_RadiusPerp",
+      "Id": "3CD4C0C4-B3FF-4042-A468-B14E1299A984"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteKnot.RadiusRef",
+      "Id": "CBC5F644-79C0-45DE-93CC-0E6794FC438D"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteKnot.Set_RadiusRef",
+      "Id": "67FFFD50-1623-488C-A71A-807F0B970BA9"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteKnot.RadiusDirection",
+      "Id": "8FFD63A9-A585-4A8C-8637-24CC87EAB788"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteKnot.Set_RadiusDirection",
+      "Id": "C87775B0-7C9E-4F01-98E9-F2EEF937CD43"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteKnot.Sheet",
+      "Id": "DE53E1C6-85A7-4B01-A5C9-F5DE5D075146"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteKnot.Set_Sheet",
+      "Id": "909DE8B5-7289-4663-B9B8-29E87F0836A2"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteMult.SymSpdsNoteMult_Constructor",
+      "Id": "E2B5EB54-07A0-436D-98FD-B3C1B4871377"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteMult.SymSpdsNoteMult_ConstructorCast",
+      "Id": "6F575EF0-AC97-4E60-BD0A-E8E3B1DB1F9F"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteMult.Position",
+      "Id": "AEA0DF0F-2533-4088-9327-78660E14CFD5"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteMult.Set_Position",
+      "Id": "D3A777A5-23F6-4A6B-BCDB-230ABF35D9D8"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteMult.TextPosition",
+      "Id": "E384B1D9-313B-4566-8D3E-9BD1A2FB261F"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteMult.Set_TextPosition",
+      "Id": "73799582-40F6-4754-8317-C4BEF4CE9F8C"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteMult.Arrow",
+      "Id": "2BAF6819-1CF5-439E-9294-0F82E9681E54"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteMult.Set_Arrow",
+      "Id": "DD648A8A-AB3E-47EA-94C4-35C73F1D42DF"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteMult.Text",
+      "Id": "83A3DE22-5DD3-42AB-A72E-FF44863BE1A9"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteMult.Set_Text",
+      "Id": "D348AE10-888C-4EA8-AE13-912D76C7EC81"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteMult.Lines",
+      "Id": "57171106-FEFB-4198-8FE6-647DCBAF7170"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteMult.Set_Lines",
+      "Id": "EC4F436D-8FCE-4186-AD7D-20E0B317B60F"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteMult.LinesCount",
+      "Id": "76866D27-7387-4CE5-9C6D-CE8136D64FE2"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteMult.Set_LinesCount",
+      "Id": "C4CF56C5-9FF6-4127-B237-061AF18DCC28"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteMult.Align",
+      "Id": "BA0D02D1-D35B-468B-A3C9-7D2AF96112C0"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteMult.Set_Align",
+      "Id": "4073FDE8-B2B5-49A1-BD96-85A74D29AEF5"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteMult.Direction",
+      "Id": "5BCC8F96-9AC3-4168-BD2D-B109A8A66DC3"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteMult.Set_Direction",
+      "Id": "7803682C-E679-46F7-839B-C8744BC499B5"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteMult.Grow",
+      "Id": "AF16F3FD-BD7B-4FAD-89CE-E2BF85070F4C"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteMult.Set_Grow",
+      "Id": "8C42B91D-50B7-4830-BD6B-A20A73BAA75C"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteMult.Line",
+      "Id": "05ACB7D0-C825-419F-9453-3D9CE84646E6"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteMult.Set_Line",
+      "Id": "2A996F7B-F3F5-4DA7-84AC-FD217561507A"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNotePosition.SymSpdsNotePosition_Constructor",
+      "Id": "2B35F31E-CE8C-400A-BADC-B9AFE839DDE5"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNotePosition.SymSpdsNotePosition_ConstructorCast",
+      "Id": "800C3D11-F06A-4A90-978C-9E24093685DD"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNotePosition.Text",
+      "Id": "70734E21-1D99-43E4-B415-BFA78C4E7850"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNotePosition.Set_Text",
+      "Id": "7B4C796E-B589-4545-A235-DC252503318C"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNotePosition.Footer",
+      "Id": "E6548EED-EF71-44B5-BBFD-D8DF9118E920"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNotePosition.Set_Footer",
+      "Id": "23858642-7E35-410E-9468-6E88098AB52C"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNotePosition.Align",
+      "Id": "C4BBC464-E773-4F62-94B5-8BB26A452DE3"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNotePosition.Set_Align",
+      "Id": "D48BEB0E-0B9D-4B03-BF0A-02ED4BC22580"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNotePosition.TextPosition",
+      "Id": "305DBA0B-C0B5-4440-80C9-C73F5A360004"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNotePosition.Set_TextPosition",
+      "Id": "BB042952-9A7D-4A67-BE8D-9EA7C8B381AC"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNotePosition.Direction",
+      "Id": "76C3FB4C-3AE0-4833-AA78-1B99D1990E02"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNotePosition.Set_Direction",
+      "Id": "43E959CB-6D6C-4879-A205-38ECE3D7F72D"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNotePosition.Leaders",
+      "Id": "D2A53109-B8A0-4EB9-9C49-982846D9200C"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteSecant.SymSpdsNoteSecant_Constructor",
+      "Id": "3702A609-B3BA-4ADF-936C-6BF0852F843E"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteSecant.SymSpdsNoteSecant_ConstructorCast",
+      "Id": "B0AE1DC0-2C2C-453F-BEF4-EC6772B00E0A"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteSecant.TextPosition",
+      "Id": "D2F8CA9A-3D0E-44E8-8941-73B2D87AC77C"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteSecant.Set_TextPosition",
+      "Id": "487353B9-99B2-4CC1-800D-EA2A1B52A707"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteSecant.Align",
+      "Id": "DDA123F1-2662-4E3F-BF71-63D2A8BB4D23"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteSecant.Set_Align",
+      "Id": "4A3C8DAD-EAF7-4660-9B88-C03FCD3A2837"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteSecant.Start",
+      "Id": "FE854170-443C-4A0A-B685-CFBD65860767"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteSecant.Set_Start",
+      "Id": "89649DF1-8425-427D-958E-A0DDE5F5BEBD"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteSecant.End",
+      "Id": "82F47964-2012-44E9-B811-7A65BBECF2A8"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteSecant.Set_End",
+      "Id": "89465195-C5B6-47E6-BFEF-67DD62E52331"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteSecant.Direction",
+      "Id": "A7873EBE-5C88-4164-ABF9-F06C30699781"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteSecant.Set_Direction",
+      "Id": "36426842-AFC2-4C0A-8FD1-7C714733966E"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteSecant.Index",
+      "Id": "F495F028-9704-4AB2-A267-339A0CDF4EE3"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteSecant.Set_Index",
+      "Id": "163915B9-0598-45B4-ABBD-830C38E95143"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteSecant.Footer",
+      "Id": "A8C2A7D1-C432-4DDC-A04B-54404B99DD69"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteSecant.Set_Footer",
+      "Id": "CC45DD04-BC85-432B-985C-02CBF5D4820A"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteSecant.Sheet",
+      "Id": "8E9DE199-0BD0-499C-A150-B30A8BD19F52"
+    },
+    {
+      "Name": "McCOM2.SymSpdsNoteSecant.Set_Sheet",
+      "Id": "49705413-CCCB-4ADF-8C43-B3A26AAB9095"
+    },
+    {
+      "Name": "McCOM2.SymPolyline.SymPolyline_Constructor",
+      "Id": "A584690E-EB74-465E-A5A1-D59AAE1A9373"
+    },
+    {
+      "Name": "McCOM2.SymPolyline.SymPolyline_ConstructorCast",
+      "Id": "E2B7EC3A-A551-4D8C-A43A-88B1490D151C"
+    },
+    {
+      "Name": "McCOM2.SymPolyline.Count",
+      "Id": "A687E954-DE0B-4A96-8216-0E6BE8D37A9A"
+    },
+    {
+      "Name": "McCOM2.SymPolyline.Set_Count",
+      "Id": "635A3F87-D7B3-4D90-8688-0B123195EA93"
+    },
+    {
+      "Name": "McCOM2.SymPolyline.Points",
+      "Id": "9DEECB25-2DE2-4900-A6A7-5A944209197A"
+    },
+    {
+      "Name": "McCOM2.SymPolyline.Set_Points",
+      "Id": "05E751F8-AB41-41A1-A3AB-DD5AD132DAEB"
+    },
+    {
+      "Name": "McCOM2.SymPolyline.Bulges",
+      "Id": "4905E85A-1EE1-4476-AFD7-3E8B0974497F"
+    },
+    {
+      "Name": "McCOM2.SymPolyline.Set_Bulges",
+      "Id": "786DDB4C-2E56-4F06-A682-0145FC333EE0"
+    },
+    {
+      "Name": "McCOM2.SymPolyline.Closed",
+      "Id": "B825C29C-2C89-4618-93FF-0F9E869EF300"
+    },
+    {
+      "Name": "McCOM2.SymPolyline.Set_Closed",
+      "Id": "CD190A69-7DF4-4E95-87C4-10BE3243CA23"
+    },
+    {
+      "Name": "McCOM2.SymSpdsBoundForm.SymSpdsBoundForm_Constructor",
+      "Id": "55AD472C-62D3-4AF9-895A-D175D7539CA0"
+    },
+    {
+      "Name": "McCOM2.SymSpdsBoundForm.SymSpdsBoundForm_ConstructorCast",
+      "Id": "E28D2511-A20C-4381-A80D-DD0ABC1BAD37"
+    },
+    {
+      "Name": "McCOM2.SymSpdsBoundForm.Type",
+      "Id": "37024516-9354-48F0-9D34-A8CD7B0078D3"
+    },
+    {
+      "Name": "McCOM2.SymSpdsBoundForm.Set_Type",
+      "Id": "7556FBCB-44F4-44E6-8381-77C48FD8C189"
+    },
+    {
+      "Name": "McCOM2.SymSpdsBoundForm.Direction",
+      "Id": "B6921B88-BA4C-4CC2-ADE2-3A982EB1D8F7"
+    },
+    {
+      "Name": "McCOM2.SymSpdsBoundForm.Set_Direction",
+      "Id": "2E98D4E9-EADB-40ED-BE7E-B66577733EEB"
+    },
+    {
+      "Name": "McCOM2.SymSpdsAnchor.SymSpdsAnchor_Constructor",
+      "Id": "369BDF4C-F09A-445E-90B4-A517A9D5BFB2"
+    },
+    {
+      "Name": "McCOM2.SymSpdsAnchor.SymSpdsAnchor_ConstructorCast",
+      "Id": "82140C06-FD20-44E3-BC45-499EA290C968"
+    },
+    {
+      "Name": "McCOM2.SymSpdsAnchor.ArrowFirst",
+      "Id": "7C8C1AFF-0C93-4904-BC30-80DEFBC9810F"
+    },
+    {
+      "Name": "McCOM2.SymSpdsAnchor.Set_ArrowFirst",
+      "Id": "F3F40C14-C7EC-4FEF-95FB-EEB913600181"
+    },
+    {
+      "Name": "McCOM2.SymSpdsAnchor.ArrowLast",
+      "Id": "7CC5ECE9-5F94-43E2-A0E9-1FFF54DAD09E"
+    },
+    {
+      "Name": "McCOM2.SymSpdsAnchor.Set_ArrowLast",
+      "Id": "BF20145C-AEAD-4365-B7B0-9E0E71C951D5"
+    },
+    {
+      "Name": "McCOM2.SpdsGridAxesSet.SpdsGridAxesSet_Constructor",
+      "Id": "1BDD324B-E694-4684-B927-E1929529A5B8"
+    },
+    {
+      "Name": "McCOM2.SpdsGridAxesSet.SpdsGridAxesSet_ConstructorCast",
+      "Id": "335C855A-D895-4483-B6A3-B5F51C73DD3E"
+    },
+    {
+      "Name": "McCOM2.SpdsGridAxesSet.Index",
+      "Id": "69A84F1B-77D0-4D1F-941A-4B6D91E43F5B"
+    },
+    {
+      "Name": "McCOM2.SpdsGridAxesSet.Set_Index",
+      "Id": "E42BB912-12B0-4892-8468-FD379C158D22"
+    },
+    {
+      "Name": "McCOM2.SpdsGridAxesSet.Distance",
+      "Id": "C2E21FAA-368A-4DD7-95FB-7C133D173E61"
+    },
+    {
+      "Name": "McCOM2.SpdsGridAxesSet.Set_Distance",
+      "Id": "52EBD93A-ED23-4CD5-B8BE-6E6C2440B27E"
+    },
+    {
+      "Name": "McCOM2.SpdsGridAxesSet.Owner",
+      "Id": "BC12C9D4-2383-4A90-AF86-29A97A7F54ED"
+    },
+    {
+      "Name": "McCOM2.SpdsGridAxesSet.Count",
+      "Id": "A7D6A8E8-B1C0-4630-B78F-B8D5CF6A71E0"
+    },
+    {
+      "Name": "McCOM2.SpdsGridAxesSet.Set_Count",
+      "Id": "E7B609AE-8EAF-452C-A7E2-90FB361185FD"
+    },
+    {
+      "Name": "McCOM2.SymSpdsGrid.SymSpdsGrid_Constructor",
+      "Id": "0DC42541-9D49-48E6-91CF-10113621C055"
+    },
+    {
+      "Name": "McCOM2.SymSpdsGrid.SymSpdsGrid_ConstructorCast",
+      "Id": "031533EE-366C-4380-AAED-C911354BF506"
+    },
+    {
+      "Name": "McCOM2.SymSpdsGrid.AxesX",
+      "Id": "D2088D6F-D20A-4BBB-98E7-67B09F5BB3A2"
+    },
+    {
+      "Name": "McCOM2.SymSpdsGrid.AxesY",
+      "Id": "6F5C574E-199E-473E-8DFB-6DFB53017739"
+    },
+    {
+      "Name": "McCOM2.SymSpdsGrid.Polar",
+      "Id": "ADCA17E0-8209-488A-9986-692697E8D253"
+    },
+    {
+      "Name": "McCOM2.SymSpdsGrid.Set_Polar",
+      "Id": "B79B446C-A418-4C22-A6EA-59226B594525"
+    },
+    {
+      "Name": "McCOM2.SpdsGridAxesCollection.SpdsGridAxesCollection_Constructor",
+      "Id": "52A8B058-A884-4CDB-9CC8-8CBD5BF8D0F9"
+    },
+    {
+      "Name": "McCOM2.SpdsGridAxesCollection.SpdsGridAxesCollection_ConstructorCast",
+      "Id": "17834534-FB3A-47C8-AE54-4C4FBBEFA016"
+    },
+    {
+      "Name": "McCOM2.SpdsGridAxesCollection.Item",
+      "Id": "2973961C-B778-40F7-AFDA-C386CD35C6A0"
+    },
+    {
+      "Name": "McCOM2.SpdsGridAxesCollection.Count",
+      "Id": "B96D6117-47F0-4219-8D40-281A3FEBD167"
+    },
+    {
+      "Name": "McCOM2.SpdsGridAxesCollection.Add",
+      "Id": "CEE8C00A-BF4A-4356-8E60-DC0FDAD89913"
+    },
+    {
+      "Name": "McCOM2.SpdsGridAxesCollection.Remove",
+      "Id": "79BEC632-1758-4AF9-AD11-C153B6E1C613"
+    },
+    {
+      "Name": "McCOM2.SpdsGridAxesCollection.DimTotal",
+      "Id": "FF107F74-43B9-49D1-A99C-170792169FC8"
+    },
+    {
+      "Name": "McCOM2.SpdsGridAxesCollection.Set_DimTotal",
+      "Id": "F805147C-EFD9-4F99-B2CE-67A324A7404E"
+    },
+    {
+      "Name": "McCOM2.SpdsGridAxesCollection.DimChain",
+      "Id": "0E5DD98A-06AC-40E3-A6CC-0A88D5561685"
+    },
+    {
+      "Name": "McCOM2.SpdsGridAxesCollection.Set_DimChain",
+      "Id": "EA32872C-CF56-477C-9FF2-9662B823C55C"
+    },
+    {
+      "Name": "McCOM2.SymSpdsAxis.SymSpdsAxis_Constructor",
+      "Id": "A265A9E9-39BA-4D1E-9343-306B6228FE0C"
+    },
+    {
+      "Name": "McCOM2.SymSpdsAxis.SymSpdsAxis_ConstructorCast",
+      "Id": "D559C279-69A9-4879-9D31-A646901DF6B6"
+    },
+    {
+      "Name": "McCOM2.SymSpdsAxis.Index",
+      "Id": "319B8FEF-9A5E-40DE-8D1E-B45C963725B3"
+    },
+    {
+      "Name": "McCOM2.SymSpdsAxis.Set_Index",
+      "Id": "40DFD6B9-30D3-42A4-8858-F5C2C12976B1"
+    },
+    {
+      "Name": "McCOM2.SymSpdsAxis.TextPosition",
+      "Id": "B9B86C84-C1B9-4E2D-BA72-49EA3D4372F3"
+    },
+    {
+      "Name": "McCOM2.SymSpdsAxis.Set_TextPosition",
+      "Id": "9FE2CCC3-5D8B-4FA9-B4E5-67378E870E54"
+    },
+    {
+      "Name": "McCOM2.SymSpdsAxis.Position",
+      "Id": "CFC55170-8934-4553-9D6C-6E2AF2A34E52"
+    },
+    {
+      "Name": "McCOM2.SymSpdsAxis.Set_Position",
+      "Id": "8500B6A4-D08B-4D0D-9861-511D7A79B585"
+    },
+    {
+      "Name": "McCOM2.SymSpdsRange.SymSpdsRange_Constructor",
+      "Id": "CF46F9FA-3D31-45D4-ABBD-47F68331C7C8"
+    },
+    {
+      "Name": "McCOM2.SymSpdsRange.SymSpdsRange_ConstructorCast",
+      "Id": "A30B8EC5-EAA8-4165-AFAC-28CCAD94C48D"
+    },
+    {
+      "Name": "McCOM2.SymSpdsRange.BasePosition",
+      "Id": "7F8C19DE-6456-4F16-A13E-DFAFFE24ACD3"
+    },
+    {
+      "Name": "McCOM2.SymSpdsRange.Set_BasePosition",
+      "Id": "190A3166-B2F1-45D6-81DE-57A52A9AA861"
+    },
+    {
+      "Name": "McCOM2.SymSpdsRange.Direction",
+      "Id": "EEAAE4CA-855A-47E4-B06A-B57E0423EFA6"
+    },
+    {
+      "Name": "McCOM2.SymSpdsRange.Set_Direction",
+      "Id": "ACB368D3-CD90-4891-9BF3-83A3594857C9"
+    },
+    {
+      "Name": "McCOM2.SymSpdsRange.Upper",
+      "Id": "8332D8AD-53CA-4529-B0D3-23765811B5FC"
+    },
+    {
+      "Name": "McCOM2.SymSpdsRange.Set_Upper",
+      "Id": "E6714905-BC25-4629-8D2C-7AE9D533A220"
+    },
+    {
+      "Name": "McCOM2.SymSpdsRange.Lower",
+      "Id": "E82F8DF3-C5F4-4B94-AA78-E86CE2D11AD4"
+    },
+    {
+      "Name": "McCOM2.SymSpdsRange.Set_Lower",
+      "Id": "6D986FDB-E07D-456D-B166-14CEC5EC27B1"
+    },
+    {
+      "Name": "McCOM2.SymWeld.SymWeld_Constructor",
+      "Id": "E72E1069-A201-4678-8C80-A377D174CB07"
+    },
+    {
+      "Name": "McCOM2.SymWeld.SymWeld_ConstructorCast",
+      "Id": "8FC192A3-C5BD-40BC-BB68-EEBAAF1680C1"
+    },
+    {
+      "Name": "McCOM2.SymWeld.Type",
+      "Id": "1FD3CDF7-73FC-44BA-9A67-C1038A4BB5E6"
+    },
+    {
+      "Name": "McCOM2.SymWeld.Set_Type",
+      "Id": "A71E02F9-7D61-4C17-AE5A-F617BCCEFD90"
+    },
+    {
+      "Name": "McCOM2.SymWeld.Direction",
+      "Id": "7F83853B-D437-4FDB-AA31-F4B6DCCB07B1"
+    },
+    {
+      "Name": "McCOM2.SymWeld.Set_Direction",
+      "Id": "28E08CF9-68E1-4BDB-B482-2D893827997C"
+    },
+    {
+      "Name": "McCOM2.SymFix.SymFix_Constructor",
+      "Id": "80D27611-9AAA-42B7-ADF3-BBEE1B712487"
+    },
+    {
+      "Name": "McCOM2.SymFix.SymFix_ConstructorCast",
+      "Id": "7272AA5E-088D-4203-B93A-9E1263BFA8BD"
+    },
+    {
+      "Name": "McCOM2.SymFix.Position",
+      "Id": "577E90D3-7DFC-44C9-8E48-A510C45FC15F"
+    },
+    {
+      "Name": "McCOM2.SymFix.Set_Position",
+      "Id": "C9523608-19BC-4FEB-A020-F4DBE0C462DF"
+    },
+    {
+      "Name": "McCOM2.SymFix.TextPosition",
+      "Id": "04AAB2C2-B96D-4F1A-A9A5-FF39E5CD984B"
+    },
+    {
+      "Name": "McCOM2.SymFix.Set_TextPosition",
+      "Id": "EE55EB7B-6F9E-4CF1-AE8B-B947DB0A04A3"
+    },
+    {
+      "Name": "McCOM2.SymFix.Text",
+      "Id": "B605801F-82E6-4A20-BAAA-FD056D39FBB0"
+    },
+    {
+      "Name": "McCOM2.SymFix.Set_Text",
+      "Id": "51B11F20-6627-468D-9D14-3812968050B0"
+    },
+    {
+      "Name": "McCOM2.SymFix.Footer",
+      "Id": "230E130E-ED01-4B77-B067-2B78D626E158"
+    },
+    {
+      "Name": "McCOM2.SymFix.Set_Footer",
+      "Id": "2638FE07-829F-49C6-9497-4720B0A1DF6B"
+    },
+    {
+      "Name": "McCOM2.SymFix.Documentation",
+      "Id": "ABE99038-6DC5-4707-B051-F184FA8DF8D9"
+    },
+    {
+      "Name": "McCOM2.SymFix.Set_Documentation",
+      "Id": "77605265-F0DC-4737-961F-12417BEFEA39"
+    },
+    {
+      "Name": "McCOM2.SymFix.LeaderText",
+      "Id": "68E636DE-85AB-4E62-ABE7-1DB142A3E751"
+    },
+    {
+      "Name": "McCOM2.SymFix.Set_LeaderText",
+      "Id": "6DEB8867-C91F-413E-BE8B-F26C9A5859CF"
+    },
+    {
+      "Name": "McCOM2.SymFix.LeaderFooter",
+      "Id": "502CB519-1E3B-4BE7-BBBC-B25C1D792D7B"
+    },
+    {
+      "Name": "McCOM2.SymFix.Set_LeaderFooter",
+      "Id": "0421B27B-97AC-4FFA-B7E6-1660198112B1"
+    },
+    {
+      "Name": "McCOM2.SymFix.Type",
+      "Id": "F7259666-D7E6-476C-A68D-BA6A0E2EFC1C"
+    },
+    {
+      "Name": "McCOM2.SymFix.Set_Type",
+      "Id": "D4EA2DD6-41F6-437E-B250-82CCF73026EE"
+    },
+    {
+      "Name": "McCOM2.SymFix.Technology",
+      "Id": "B2F4E179-FC36-4AA6-ADE8-6D5AA66C81E9"
+    },
+    {
+      "Name": "McCOM2.SymFix.Set_Technology",
+      "Id": "C5C77511-A595-4368-89CD-1B8724A1E62C"
+    },
+    {
+      "Name": "McCOM2.SymFix.Face",
+      "Id": "24CA824F-D1A6-434D-899A-4259016FA9FC"
+    },
+    {
+      "Name": "McCOM2.SymFix.Set_Face",
+      "Id": "B07241C2-755E-4884-89AC-9ACEF3D865AF"
+    },
+    {
+      "Name": "McCOM2.SymFix.Closed",
+      "Id": "3ED4D4D2-08D0-4593-9917-92D8942AB4B6"
+    },
+    {
+      "Name": "McCOM2.SymFix.Set_Closed",
+      "Id": "13AF719E-7BD5-4FBC-8E71-6DFF0B47666E"
+    },
+    {
+      "Name": "McCOM2.SymFix.Assembly",
+      "Id": "58487FBF-E6E0-4F83-963C-3EA7B2F0F1BA"
+    },
+    {
+      "Name": "McCOM2.SymFix.Set_Assembly",
+      "Id": "F3815AEC-1500-4FF8-A002-9B54FCB2D0A7"
+    },
+    {
+      "Name": "McCOM2.SymFix.SeamCount",
+      "Id": "E99E9471-7D55-4F30-AFF6-9CEC2FB4455E"
+    },
+    {
+      "Name": "McCOM2.SymFix.Set_SeamCount",
+      "Id": "5F367567-58DB-4113-A19B-292ECB3E9952"
+    },
+    {
+      "Name": "McCOM2.SymFix.SeamDistance",
+      "Id": "4DB4F743-E5E5-4023-B592-F5774F44FC2B"
+    },
+    {
+      "Name": "McCOM2.SymFix.Set_SeamDistance",
+      "Id": "3A27ACCB-7B82-4DF3-AFCC-AB19950EA2AA"
+    },
+    {
+      "Name": "McCOM2.SymTolerance.SymTolerance_Constructor",
+      "Id": "F981C622-8B21-413E-B24F-E4A7624048F3"
+    },
+    {
+      "Name": "McCOM2.SymTolerance.SymTolerance_ConstructorCast",
+      "Id": "6981F4B4-2863-4FCB-AA30-5A647F1878A2"
+    },
+    {
+      "Name": "McCOM2.SymTolerance.TextPosition",
+      "Id": "C8A09095-9499-4A34-A7A8-62CAA7BD9E73"
+    },
+    {
+      "Name": "McCOM2.SymTolerance.Set_TextPosition",
+      "Id": "D229C3C9-11F1-4B43-BBC9-499350A79425"
+    },
+    {
+      "Name": "McCOM2.SymTolerance.Text",
+      "Id": "BCBC7D4C-DC08-47FD-A3C4-5A9C24F0F98E"
+    },
+    {
+      "Name": "McCOM2.SymTolerance.Set_Text",
+      "Id": "0925AC39-9795-43F2-88CF-199A30FF56CD"
+    },
+    {
+      "Name": "McCOM2.SymTolerance.Records",
+      "Id": "D7D39288-66A3-4913-8293-83C7AA038DEB"
+    },
+    {
+      "Name": "McCOM2.SymTolerance.Leaders",
+      "Id": "0992F3A3-67B2-48F2-99DA-9E8B0FE4AE5A"
+    },
+    {
+      "Name": "McCOM2.ToleranceParameters.ToleranceParameters_Constructor",
+      "Id": "30E06150-2697-4E90-8E51-DF6ACDFADB11"
+    },
+    {
+      "Name": "McCOM2.ToleranceParameters.ToleranceParameters_ConstructorCast",
+      "Id": "546C09AD-3A22-4FEB-A11E-61CADED04F41"
+    },
+    {
+      "Name": "McCOM2.ToleranceParameters.Object",
+      "Id": "67BD39ED-E7AE-4971-A09A-A77AB143FB6C"
+    },
+    {
+      "Name": "McCOM2.ToleranceParameters.Count",
+      "Id": "0D171C99-21CA-4819-9EEC-940FA23AE90F"
+    },
+    {
+      "Name": "McCOM2.ToleranceParameters.Contains",
+      "Id": "19C2664F-0DF5-48DD-B1B8-21B462157169"
+    },
+    {
+      "Name": "McCOM2.ToleranceParameters.Value",
+      "Id": "26E27C16-55C7-42F0-A089-DB288F9C3B58"
+    },
+    {
+      "Name": "McCOM2.ToleranceParameters.Set_Value",
+      "Id": "59BF4581-8337-432A-95B9-077234E8E16C"
+    },
+    {
+      "Name": "McCOM2.ToleranceParameters.ParamLinear",
+      "Id": "6C44DE71-C4A2-45F7-AD0B-F70A48EE9384"
+    },
+    {
+      "Name": "McCOM2.ToleranceParameters.Set_ParamLinear",
+      "Id": "A3AB7113-36CA-420C-8DCB-891D74F0CA7E"
+    },
+    {
+      "Name": "McCOM2.ToleranceParameters.ParamPlanar",
+      "Id": "97E9043D-57EA-4E3C-89E4-9389B7C0E0A0"
+    },
+    {
+      "Name": "McCOM2.ToleranceParameters.Set_ParamPlanar",
+      "Id": "F1EF288D-363B-4474-A836-4E057B096767"
+    },
+    {
+      "Name": "McCOM2.ToleranceParameters.ParamRound",
+      "Id": "6909F0BF-9636-4950-AB96-5DDA743CCF71"
+    },
+    {
+      "Name": "McCOM2.ToleranceParameters.Set_ParamRound",
+      "Id": "781B08C4-9CC0-4859-9EEC-7D22DD3B50FF"
+    },
+    {
+      "Name": "McCOM2.ToleranceParameters.ParamCylindrical",
+      "Id": "091DCE74-FC9F-4B27-9D8F-D10F82FAECEE"
+    },
+    {
+      "Name": "McCOM2.ToleranceParameters.Set_ParamCylindrical",
+      "Id": "E5E87E77-3C5F-4F39-84C1-92D78DDC378F"
+    },
+    {
+      "Name": "McCOM2.ToleranceParameters.ParamProfile",
+      "Id": "99FDA7AA-CAAB-4526-A175-CC504B5AFCDD"
+    },
+    {
+      "Name": "McCOM2.ToleranceParameters.Set_ParamProfile",
+      "Id": "55408BC3-D93C-45EE-9289-8F172BC0FCB5"
+    },
+    {
+      "Name": "McCOM2.ToleranceParameters.ParamParallel",
+      "Id": "73F7DBBB-4451-42A7-8F15-359E51089D59"
+    },
+    {
+      "Name": "McCOM2.ToleranceParameters.Set_ParamParallel",
+      "Id": "2F7DAC35-D73D-4BFF-9365-158A70400F09"
+    },
+    {
+      "Name": "McCOM2.ToleranceParameters.ParamPerpendicular",
+      "Id": "C177973D-A1CC-4767-997F-201A888789D6"
+    },
+    {
+      "Name": "McCOM2.ToleranceParameters.Set_ParamPerpendicular",
+      "Id": "3864749B-1521-462C-94B1-B995BD83ACE9"
+    },
+    {
+      "Name": "McCOM2.ToleranceParameters.ParamTilt",
+      "Id": "4A8C1D95-B458-4A7F-AA5B-E4002966875E"
+    },
+    {
+      "Name": "McCOM2.ToleranceParameters.Set_ParamTilt",
+      "Id": "BE6890D9-6E72-4C0D-8B59-0560F139EA15"
+    },
+    {
+      "Name": "McCOM2.ToleranceParameters.ParamCoaxiality",
+      "Id": "D73DF09F-1D7F-4DD3-808E-953475572DC1"
+    },
+    {
+      "Name": "McCOM2.ToleranceParameters.Set_ParamCoaxiality",
+      "Id": "36A636EB-9630-4C11-8198-682C4AC244F3"
+    },
+    {
+      "Name": "McCOM2.ToleranceParameters.ParamSymmetry",
+      "Id": "29C77DA6-55A6-47DE-970A-C1457BE5E5AE"
+    },
+    {
+      "Name": "McCOM2.ToleranceParameters.Set_ParamSymmetry",
+      "Id": "DA271D76-D3FF-42DF-8F36-855E6AD564A0"
+    },
+    {
+      "Name": "McCOM2.ToleranceParameters.ParamPosition",
+      "Id": "C7825ECD-C5D0-4CE7-ABA2-75B3C2E950DC"
+    },
+    {
+      "Name": "McCOM2.ToleranceParameters.Set_ParamPosition",
+      "Id": "5D0889CD-AC81-41E9-8B79-D6EEC3636B16"
+    },
+    {
+      "Name": "McCOM2.ToleranceParameters.ParamCross",
+      "Id": "D6BFA58B-5F18-4FF2-9464-C0234C5A2F9F"
+    },
+    {
+      "Name": "McCOM2.ToleranceParameters.Set_ParamCross",
+      "Id": "05F326EA-7E6E-48B6-820A-EB6BEFA04AF9"
+    },
+    {
+      "Name": "McCOM2.ToleranceParameters.ParamBeat",
+      "Id": "4CEA8767-9379-4B80-B83A-67BA5A2DAD49"
+    },
+    {
+      "Name": "McCOM2.ToleranceParameters.Set_ParamBeat",
+      "Id": "9DA9761F-0FED-4944-BF9E-3DC6C005B019"
+    },
+    {
+      "Name": "McCOM2.ToleranceParameters.ParamFullBeat",
+      "Id": "F22D0907-2301-4F5C-95FE-51AAD908CE65"
+    },
+    {
+      "Name": "McCOM2.ToleranceParameters.Set_ParamFullBeat",
+      "Id": "46AA644C-2823-4DBE-94E4-EEC26E0A70C1"
+    },
+    {
+      "Name": "McCOM2.ToleranceParameters.ParamFormProfile",
+      "Id": "EB89B51C-2337-479B-A1D2-D264359C2856"
+    },
+    {
+      "Name": "McCOM2.ToleranceParameters.Set_ParamFormProfile",
+      "Id": "CED86CD2-06C3-4CA1-B001-E4ECA1B648F5"
+    },
+    {
+      "Name": "McCOM2.ToleranceParameters.ParamFormSurface",
+      "Id": "23F84AB2-366E-4941-94CB-B10BA725DD30"
+    },
+    {
+      "Name": "McCOM2.ToleranceParameters.Set_ParamFormSurface",
+      "Id": "FB273340-B7C7-4079-8D0E-74B5741B7037"
+    },
+    {
+      "Name": "McCOM2.ToleranceRecord.ToleranceRecord_Constructor",
+      "Id": "49E20F61-7FA2-4A42-AEA6-1B09AF98B390"
+    },
+    {
+      "Name": "McCOM2.ToleranceRecord.ToleranceRecord_ConstructorCast",
+      "Id": "6C383B94-B3B4-4AA7-88DA-16D19B336A67"
+    },
+    {
+      "Name": "McCOM2.ToleranceRecord.Empty",
+      "Id": "0442A1C9-5F54-4569-A192-17F7C32F6B77"
+    },
+    {
+      "Name": "McCOM2.ToleranceRecord.Set_Empty",
+      "Id": "6B886A5D-F0DA-4AA5-8211-41749B303AA6"
+    },
+    {
+      "Name": "McCOM2.ToleranceRecord.Value",
+      "Id": "A88CE479-99E4-43BF-8224-A4BBB263D2A4"
+    },
+    {
+      "Name": "McCOM2.ToleranceRecord.Set_Value",
+      "Id": "86EE4B94-7B7D-40DB-8E5C-9EEE713765B4"
+    },
+    {
+      "Name": "McCOM2.ToleranceRecord.Base",
+      "Id": "F1B93A97-C7FE-4DA8-9929-ACBC2EDCBBD8"
+    },
+    {
+      "Name": "McCOM2.ToleranceRecord.Set_Base",
+      "Id": "5D18268B-AB9A-49E9-8D69-9A44EDD96C2A"
+    },
+    {
+      "Name": "McCOM2.ToleranceRecord.Text",
+      "Id": "0CB5BE63-AF30-45E3-9DA0-27017EC2E336"
+    },
+    {
+      "Name": "McCOM2.ToleranceRecord.Set_Text",
+      "Id": "A87328A9-7094-4E37-B897-10247A3FB64D"
+    },
+    {
+      "Name": "McCOM2.ToleranceRecord.Parameters",
+      "Id": "3C653DBF-50F0-43F9-B484-6D2AE91EA407"
+    },
+    {
+      "Name": "McCOM2.ToleranceRecord.Object",
+      "Id": "A75B43EF-8E2D-4EAD-BA85-FAEB7CCE1C63"
+    },
+    {
+      "Name": "McCOM2.SymBase.SymBase_Constructor",
+      "Id": "5055DF72-9AA1-4D50-ABA7-24F0EB7A6EA7"
+    },
+    {
+      "Name": "McCOM2.SymBase.SymBase_ConstructorCast",
+      "Id": "0B948525-606F-4A48-987F-281E77C89944"
+    },
+    {
+      "Name": "McCOM2.SymBase.Name",
+      "Id": "D23F4F69-7AC9-4B5B-8C78-5699035E14D7"
+    },
+    {
+      "Name": "McCOM2.SymBase.Set_Name",
+      "Id": "A6474F47-3E08-4EE6-8DA2-D1A7AEB7D760"
+    },
+    {
+      "Name": "McCOM2.SymBase.Position",
+      "Id": "0BE0D63A-72BF-4565-8D2D-874AAC856358"
+    },
+    {
+      "Name": "McCOM2.SymBase.Set_Position",
+      "Id": "49D6DA90-3DFA-415D-B2C9-C783B9FD5F64"
+    },
+    {
+      "Name": "McCOM2.SymBase.TextPosition",
+      "Id": "02F02310-D350-4954-9A69-18B1B9A111DC"
+    },
+    {
+      "Name": "McCOM2.SymBase.Set_TextPosition",
+      "Id": "29FB65CC-AAE9-4C87-BBED-50EBE794238B"
+    },
+    {
+      "Name": "McCOM2.enum_ArrowType.enum_mcArrowUnknown",
+      "Id": "B6AFCF74-E906-4E35-A508-5FB47D93B0F0"
+    },
+    {
+      "Name": "McCOM2.enum_ArrowType.enum_mcArrowEmpty",
+      "Id": "04C932EA-667C-430D-9A2A-DF7B1E922226"
+    },
+    {
+      "Name": "McCOM2.enum_ArrowType.enum_mcArrowFilled",
+      "Id": "F0A06EDD-EEED-447E-8506-165BBDA0882D"
+    },
+    {
+      "Name": "McCOM2.enum_ArrowType.enum_mcArrowBlank",
+      "Id": "BC3F4815-1325-41FB-AA04-3955E3F20C2B"
+    },
+    {
+      "Name": "McCOM2.enum_ArrowType.enum_mcArrowOpen",
+      "Id": "0FA606A3-A190-4DF2-847A-FFAB025DC448"
+    },
+    {
+      "Name": "McCOM2.enum_ArrowType.enum_mcArrowHalfUp",
+      "Id": "26500A00-C49C-465F-A744-D4B3B4995A91"
+    },
+    {
+      "Name": "McCOM2.enum_ArrowType.enum_mcArrowHalfDown",
+      "Id": "9CEBED25-2901-4EE3-ADCD-C5C2E475E268"
+    },
+    {
+      "Name": "McCOM2.enum_ArrowType.enum_mcArrowOpen90",
+      "Id": "8CFC0BBB-6067-4066-99A6-1D984C7820A8"
+    },
+    {
+      "Name": "McCOM2.enum_ArrowType.enum_mcArrowDotFilled",
+      "Id": "589D0997-B89A-42CA-8A7D-54BFD6313183"
+    },
+    {
+      "Name": "McCOM2.enum_ArrowType.enum_mcArrowDotBlank",
+      "Id": "A20DE34D-ED8F-4D3F-83F9-5C99FE91B984"
+    },
+    {
+      "Name": "McCOM2.enum_ArrowType.enum_mcArrowSlash",
+      "Id": "5505E552-B8A4-4E50-9A80-815F19561C77"
+    },
+    {
+      "Name": "McCOM2.enum_ArrowType.enum_mcArrowDatumFilled",
+      "Id": "4A0E7FEE-C683-4952-9B25-A6957A60615A"
+    },
+    {
+      "Name": "McCOM2.enum_ArrowType.enum_mcArrowDatumBlank",
+      "Id": "614DBA54-761E-4418-92B6-A4240995FD7A"
+    },
+    {
+      "Name": "McCOM2.enum_TextAlignment.enum_mcAlignBottomLeft",
+      "Id": "4A615116-4C00-4706-991B-A7CF68596779"
+    },
+    {
+      "Name": "McCOM2.enum_TextAlignment.enum_mcAlignBottomCenter",
+      "Id": "0399EBC8-92E5-4DE2-9A5E-60EFD3472A28"
+    },
+    {
+      "Name": "McCOM2.enum_TextAlignment.enum_mcAlignBottomRight",
+      "Id": "C2E375D5-BB39-4185-AFD2-4315F329976F"
+    },
+    {
+      "Name": "McCOM2.enum_TextAlignment.enum_mcAlignMiddleLeft",
+      "Id": "6ABF697F-BD78-4C74-8B9A-13A920EDAA51"
+    },
+    {
+      "Name": "McCOM2.enum_TextAlignment.enum_mcAlignMiddleCenter",
+      "Id": "80C3710F-3ECD-4FC3-836F-F3B6EE1A6C4D"
+    },
+    {
+      "Name": "McCOM2.enum_TextAlignment.enum_mcAlignMiddleRight",
+      "Id": "15CCEDD0-3DEB-4DA8-AD24-8B6B0B6A4E04"
+    },
+    {
+      "Name": "McCOM2.enum_TextAlignment.enum_mcAlignTopLeft",
+      "Id": "7E28684A-4EFD-405C-A311-A68AADAF3A10"
+    },
+    {
+      "Name": "McCOM2.enum_TextAlignment.enum_mcAlignTopCenter",
+      "Id": "7CF70567-CE1F-4BE7-AEA0-8CB954D15A3A"
+    },
+    {
+      "Name": "McCOM2.enum_TextAlignment.enum_mcAlignTopRight",
+      "Id": "DF33B4EB-6B95-40B1-BFBA-13CD3AD46B7B"
+    },
+    {
+      "Name": "McCOM2.enum_TextAlignment.enum_mcAlignInconsistent",
+      "Id": "024C720D-9C07-4AD0-A483-42E88F9A81CF"
+    },
+    {
+      "Name": "McCOM2.enum_LineType.enum_mcLinetypeByBlock",
+      "Id": "65226847-6EB1-44D5-B8DB-E5ADC980DD67"
+    },
+    {
+      "Name": "McCOM2.enum_LineType.enum_mcLinetypeByLayer",
+      "Id": "E907C90A-5E88-430F-9BD8-499218CF846F"
+    },
+    {
+      "Name": "McCOM2.enum_LineType.enum_mcLinetypeMainBold",
+      "Id": "410585D6-AEF3-4B19-87B8-BE7DF3A3F0CE"
+    },
+    {
+      "Name": "McCOM2.enum_LineType.enum_mcLinetypeMainThin",
+      "Id": "A4847981-F520-43CD-BAAC-25A2F1BB8F10"
+    },
+    {
+      "Name": "McCOM2.enum_LineType.enum_mcLinetypeWaveThin",
+      "Id": "D2D5E549-B25B-476B-AD1D-18DB9745F8A0"
+    },
+    {
+      "Name": "McCOM2.enum_LineType.enum_mcLinetypeDashThin",
+      "Id": "8F72ABBA-5076-46CB-8C1D-EA10C4132517"
+    },
+    {
+      "Name": "McCOM2.enum_LineType.enum_mcLinetypeDashDotThin",
+      "Id": "C34739CE-AE60-4B88-9B2E-E935D00B08DC"
+    },
+    {
+      "Name": "McCOM2.enum_LineType.enum_mcLinetypeDashDotBold",
+      "Id": "6C116C89-0172-4203-A325-1017BB7E68FE"
+    },
+    {
+      "Name": "McCOM2.enum_LineType.enum_mcLinetypeBrokenBold",
+      "Id": "8AB2C18D-E0E8-4B66-BD54-B2E895BEBB3E"
+    },
+    {
+      "Name": "McCOM2.enum_LineType.enum_mcLinetypeZigzagThin",
+      "Id": "7E884993-5837-43F5-8496-4E1CD7C69D33"
+    },
+    {
+      "Name": "McCOM2.enum_LineType.enum_mcLinetypeDashDotDotThin",
+      "Id": "0055891D-BF4F-4290-A227-641323E4B8E2"
+    },
+    {
+      "Name": "McCOM2.enum_PropertyType.enum_mcPtEmpty",
+      "Id": "1EF7BD12-0A82-4B90-8D15-FDB0D81CC922"
+    },
+    {
+      "Name": "McCOM2.enum_PropertyType.enum_mcPtInteger",
+      "Id": "1E7230C1-CCD8-40CD-A83C-2EFD779CE1FA"
+    },
+    {
+      "Name": "McCOM2.enum_PropertyType.enum_mcPtIntegerArray",
+      "Id": "D447E53C-8038-49DE-B734-043A5E386720"
+    },
+    {
+      "Name": "McCOM2.enum_PropertyType.enum_mcPtString",
+      "Id": "BF985CD7-BE36-43A3-8B48-D64FEDE39FE8"
+    },
+    {
+      "Name": "McCOM2.enum_PropertyType.enum_mcPtStringArray",
+      "Id": "F8754B9F-5733-4126-9747-0C1E5ECF7844"
+    },
+    {
+      "Name": "McCOM2.enum_PropertyType.enum_mcPtDouble",
+      "Id": "6A3EBC84-BDA5-4601-B65B-57406023890F"
+    },
+    {
+      "Name": "McCOM2.enum_PropertyType.enum_mcPtDoubleArray",
+      "Id": "57D79BB2-DE77-43AB-B2AA-270530C994BB"
+    },
+    {
+      "Name": "McCOM2.enum_PropertyType.enum_mcPtPoint",
+      "Id": "93015890-765F-45B8-B07E-D62EE4DCCE8E"
+    },
+    {
+      "Name": "McCOM2.enum_PropertyType.enum_mcPtVector",
+      "Id": "7F506ECF-DE91-41F8-AE13-F9DCE9FD2355"
+    },
+    {
+      "Name": "McCOM2.enum_PropertyType.enum_mcPtBoolean",
+      "Id": "6E0A2914-36DB-43D3-9E5D-A0345B7EE95B"
+    },
+    {
+      "Name": "McCOM2.enum_PropertyType.enum_mcPtObject",
+      "Id": "B8ADAB9C-48F6-4274-8C70-DEF6B1D4440A"
+    },
+    {
+      "Name": "McCOM2.enum_PropertyType.enum_mcPtPlane",
+      "Id": "AAF596AB-206F-46B3-8650-7710676D1423"
+    },
+    {
+      "Name": "McCOM2.enum_MessageIcon.enum_mcMessageSimple",
+      "Id": "CBFD4DE9-B21A-4F08-9561-735B9452CBF9"
+    },
+    {
+      "Name": "McCOM2.enum_MessageIcon.enum_mcMessageText",
+      "Id": "F1F62A53-FF2E-4018-A9EC-0A1092A82BA4"
+    },
+    {
+      "Name": "McCOM2.enum_MessageIcon.enum_mcMessageWarning",
+      "Id": "71B5EEE7-5C58-42A0-8491-A7E92DA82D1A"
+    },
+    {
+      "Name": "McCOM2.enum_MessageIcon.enum_mcMessageCure",
+      "Id": "36AD65CC-B2FE-4AEA-A24B-8E8768C7F259"
+    },
+    {
+      "Name": "McCOM2.enum_MessageIcon.enum_mcMessageHint",
+      "Id": "938B5EF0-64AF-4E8C-888B-48FC812CFF00"
+    },
+    {
+      "Name": "McCOM2.enum_MessageIcon.enum_mcMessageError",
+      "Id": "B1E891F8-97D1-4CAB-B157-A78BC10862BA"
+    },
+    {
+      "Name": "McCOM2.enum_RoughnessProcessingType.enum_mcProcessingTypeDefault",
+      "Id": "C0BBF5C6-41AE-451B-9BEF-F4C690932EF2"
+    },
+    {
+      "Name": "McCOM2.enum_RoughnessProcessingType.enum_mcProcessingTypeCut",
+      "Id": "47AC1180-453B-46B6-989B-C018EA5790FF"
+    },
+    {
+      "Name": "McCOM2.enum_RoughnessProcessingType.enum_mcProcessingTypeNoCut",
+      "Id": "891ED0AC-612F-46A0-9BE1-C3C092C6D1FF"
+    },
+    {
+      "Name": "McCOM2.enum_RoughnessProcessingDirection.enum_mcProcessingDirNone",
+      "Id": "168899F7-F7B2-4A88-8F54-435DC115EB2C"
+    },
+    {
+      "Name": "McCOM2.enum_RoughnessProcessingDirection.enum_mcProcessingDirParallel",
+      "Id": "D99C237C-CA37-4674-9253-63408D3B1B66"
+    },
+    {
+      "Name": "McCOM2.enum_RoughnessProcessingDirection.enum_mcProcessingDirPerpendicular",
+      "Id": "D451578F-73E9-427B-92ED-98C6D79CE57E"
+    },
+    {
+      "Name": "McCOM2.enum_RoughnessProcessingDirection.enum_mcProcessingDirCrossing",
+      "Id": "E361B699-ADE0-4A19-9D3D-053FFEAD5B8A"
+    },
+    {
+      "Name": "McCOM2.enum_RoughnessProcessingDirection.enum_mcProcessingDirRadial",
+      "Id": "C59BBB56-3669-4C88-BBC9-8C0943C1B47B"
+    },
+    {
+      "Name": "McCOM2.enum_RoughnessProcessingDirection.enum_mcProcessingDirCircular",
+      "Id": "2B2513FD-FB3B-46E2-8C53-5C64A163BEF2"
+    },
+    {
+      "Name": "McCOM2.enum_RoughnessProcessingDirection.enum_mcProcessingDirFree",
+      "Id": "9F643C71-D689-437B-8A05-9B8523ED27BD"
+    },
+    {
+      "Name": "McCOM2.enum_RoughnessProcessingDirection.enum_mcProcessingDirPoint",
+      "Id": "6C569132-2094-4846-8AB1-E15DA50F3E05"
+    },
+    {
+      "Name": "McCOM2.enum_BOMExportFormat.enum_mcExportDrawing",
+      "Id": "EA84208D-FBB6-43FB-BC45-FF2ADCEE68DC"
+    },
+    {
+      "Name": "McCOM2.enum_BOMExportFormat.enum_mcExportExcel",
+      "Id": "EC1F9877-0BAB-4965-896B-57DACBA79ECF"
+    },
+    {
+      "Name": "McCOM2.enum_BOMExportFormat.enum_mcExportTechnologiCS",
+      "Id": "667DE08A-DF53-4544-8ACC-A2A7AA85DEB1"
+    },
+    {
+      "Name": "McCOM2.enum_BOMExportFormat.enum_mcExportDBF",
+      "Id": "7B6C09DA-89F1-459B-8951-A8020B58DC82"
+    },
+    {
+      "Name": "McCOM2.enum_GradientUnitType.enum_mcGradUnitNone",
+      "Id": "43FEB115-DF03-4A1E-B68D-B02B74A7A99E"
+    },
+    {
+      "Name": "McCOM2.enum_GradientUnitType.enum_mcGradUnitRatio",
+      "Id": "F56FC221-5542-46C3-B589-7F914560D293"
+    },
+    {
+      "Name": "McCOM2.enum_GradientUnitType.enum_mcGradUnitDecimal",
+      "Id": "528DCBDE-B90C-43E4-BA44-3590B5D66162"
+    },
+    {
+      "Name": "McCOM2.enum_GradientUnitType.enum_mcGradUnitPercent",
+      "Id": "782E8794-5560-49AF-9363-6745E100447C"
+    },
+    {
+      "Name": "McCOM2.enum_GradientUnitType.enum_mcGradUnitPermille",
+      "Id": "A1861CAD-89CD-44B6-9C22-106DDEA4C1E1"
+    },
+    {
+      "Name": "McCOM2.enum_GradientUnitType.enum_mcGradUnitAngle",
+      "Id": "01DB8594-7664-4CF9-9FA5-FF0EB0053D71"
+    },
+    {
+      "Name": "McCOM2.enum_PlaneLevelShape.enum_mcLevelShapeSimple",
+      "Id": "B90E0307-D872-4490-8705-74238A30C123"
+    },
+    {
+      "Name": "McCOM2.enum_PlaneLevelShape.enum_mcLevelShapeUnderlined",
+      "Id": "A8180107-286F-48A3-84D0-2194816BB62E"
+    },
+    {
+      "Name": "McCOM2.enum_PlaneLevelShape.enum_mcLevelShapeFramed",
+      "Id": "2E02D164-A1A1-43BE-AA5A-235B072388A2"
+    },
+    {
+      "Name": "McCOM2.enum_PolymorphShape.enum_mcMarkerShapeCircle",
+      "Id": "881819FE-10EB-4BBA-AA24-FBB74FC923B7"
+    },
+    {
+      "Name": "McCOM2.enum_PolymorphShape.enum_mcMarkerShapeSquare",
+      "Id": "E8917BE2-77C7-4568-A392-9366DC1BDE6F"
+    },
+    {
+      "Name": "McCOM2.enum_PolymorphShape.enum_mcMarkerShapeRomb",
+      "Id": "1748D768-6D1B-426B-8C8B-F41E7E73B7D4"
+    },
+    {
+      "Name": "McCOM2.enum_SymSubtableMode.enum_mcSubtableInSingleCell",
+      "Id": "F29368EA-70CF-4638-9342-DEDF3E788F24"
+    },
+    {
+      "Name": "McCOM2.enum_SymSubtableMode.enum_mcSubtableCellByCell",
+      "Id": "F139ED7C-B6C9-4163-B66E-4E5B0FAE7544"
+    },
+    {
+      "Name": "McCOM2.enum_SymSubtableMode.enum_mcSubtableOver",
+      "Id": "551BA57E-67EA-408A-93C5-3FE5C0D434CE"
+    },
+    {
+      "Name": "McCOM2.enum_SymTableBorder.enum_mcBorderLeft",
+      "Id": "ACF77FD2-1587-48E3-9DEB-566E536B2CBF"
+    },
+    {
+      "Name": "McCOM2.enum_SymTableBorder.enum_mcBorderTop",
+      "Id": "3B674F82-BB37-4F94-B7B2-60B296265532"
+    },
+    {
+      "Name": "McCOM2.enum_SymTableBorder.enum_mcBorderRight",
+      "Id": "6ECC02E4-E7A9-47D6-A7E4-FD20F8ED01FC"
+    },
+    {
+      "Name": "McCOM2.enum_SymTableBorder.enum_mcBorderBottom",
+      "Id": "9F4D0542-7907-426B-9AB8-AF6B0D24A6C4"
+    },
+    {
+      "Name": "McCOM2.enum_SymTableBorder.enum_mcBorderInnerVert",
+      "Id": "BF4279F4-5322-433E-A780-6328609AAF35"
+    },
+    {
+      "Name": "McCOM2.enum_SymTableBorder.enum_mcBorderInnerHorz",
+      "Id": "606485A5-4A2E-44A6-84B8-D67AF8B1B3CE"
+    },
+    {
+      "Name": "McCOM2.enum_SymTableHorzFit.enum_mcHorzFitNone",
+      "Id": "5359CA22-A69F-41C4-8E27-1B3490099EBF"
+    },
+    {
+      "Name": "McCOM2.enum_SymTableHorzFit.enum_mcHorzFitShrink",
+      "Id": "F85969E1-4CA3-4F64-AA0E-736537AA76A1"
+    },
+    {
+      "Name": "McCOM2.enum_SymTableHorzFit.enum_mcHorzFitWrap",
+      "Id": "95797113-30F8-48B2-812A-230A8AB91130"
+    },
+    {
+      "Name": "McCOM2.enum_SymTableVertFit.enum_mcVertFitNone",
+      "Id": "A44E601D-D2AA-4E95-A9FD-6414F364F773"
+    },
+    {
+      "Name": "McCOM2.enum_SymTableVertFit.enum_mcVertFitShrink",
+      "Id": "B0029492-3E69-48C1-B430-C8DF0041887F"
+    },
+    {
+      "Name": "McCOM2.enum_SymTableVertFit.enum_mcVertFitExpandRow",
+      "Id": "909DA387-A7E9-46EA-8F66-CD88315C15E6"
+    },
+    {
+      "Name": "McCOM2.enum_SymTableVertFit.enum_mcVertFitAddRow",
+      "Id": "6E4F0155-1C03-4F80-A544-7EFB44B7C682"
+    },
+    {
+      "Name": "McCOM2.enum_SymBreakType.enum_mcBreakSingleLine",
+      "Id": "694DAB31-C9BA-47DB-B339-F5A12100C2DA"
+    },
+    {
+      "Name": "McCOM2.enum_SymBreakType.enum_mcBreakDoubleLine",
+      "Id": "CF84A45A-4435-48BF-8083-DA55F4EED2BD"
+    },
+    {
+      "Name": "McCOM2.enum_SymBreakType.enum_mcBreakSingleCurve",
+      "Id": "F2DA5C14-1EEA-465B-9092-72A1AD46E67B"
+    },
+    {
+      "Name": "McCOM2.enum_SymBreakType.enum_mcBreakDoubleCurve",
+      "Id": "0163A547-AC46-401D-93CA-73C672076F3F"
+    },
+    {
+      "Name": "McCOM2.enum_SymBreakType.enum_mcBreakTubular",
+      "Id": "04208E54-6D97-4DA2-B4EB-F320D615811D"
+    },
+    {
+      "Name": "McCOM2.enum_SymDimensionTolView.enum_mcDimtolAll",
+      "Id": "51A16144-426C-43DA-A896-17E3E52954B8"
+    },
+    {
+      "Name": "McCOM2.enum_SymDimensionTolView.enum_mcDimtolValuesOnly",
+      "Id": "9CCE184F-C26D-4651-B1ED-CF6B019020B9"
+    },
+    {
+      "Name": "McCOM2.enum_SymDimensionTolView.enum_mcDimtolFitInLine",
+      "Id": "34C5B48B-72C3-44F4-B4E6-16DEDE493031"
+    },
+    {
+      "Name": "McCOM2.enum_SymDimensionTolView.enum_mcDimtolFitInStack",
+      "Id": "9E322A51-E90C-42DE-8D4A-0AAAE38CB36F"
+    },
+    {
+      "Name": "McCOM2.enum_SymDimensionTolView.enum_mcDimtolFieldOnly",
+      "Id": "C66F7EC9-C00B-4BD8-B124-B9AD7C5DAF8B"
+    },
+    {
+      "Name": "McCOM2.enum_SymDimensionTolView.enum_mcDimtolNone",
+      "Id": "6DA08115-AA8D-427A-B8FF-B2D533B0DC7A"
+    },
+    {
+      "Name": "McCOM2.enum_SymDimensionSymbol.enum_mcDimSymbolNone",
+      "Id": "45743EB7-3C2A-480E-A576-0656D646AAD2"
+    },
+    {
+      "Name": "McCOM2.enum_SymDimensionSymbol.enum_mcDimSymbolRadius",
+      "Id": "76AF05F3-2DC9-4E65-AB73-3297787652B4"
+    },
+    {
+      "Name": "McCOM2.enum_SymDimensionSymbol.enum_mcDimSymbolDiameter",
+      "Id": "B64D8EC8-BF7B-4BAB-B473-EE34A8624596"
+    },
+    {
+      "Name": "McCOM2.enum_SymDimensionSymbol.enum_mcDimSymbolSquare",
+      "Id": "07DB848E-00BF-497F-B2DD-E52EF60A033E"
+    },
+    {
+      "Name": "McCOM2.enum_SymDimensionSymbol.enum_mcDimSymbolMetric",
+      "Id": "D48C8B91-8897-46CA-8A66-7C338C3471DB"
+    },
+    {
+      "Name": "McCOM2.enum_SymDimensionSymbol.enum_mcDimSymbolLeftGradient",
+      "Id": "5099D806-88DA-419F-AE54-E7A79E889F95"
+    },
+    {
+      "Name": "McCOM2.enum_SymDimensionSymbol.enum_mcDimSymbolRightGradient",
+      "Id": "61082CB5-1CC2-4C64-95D5-D51CB511632B"
+    },
+    {
+      "Name": "McCOM2.enum_SymDimensionSymbol.enum_mcDimSymbolLeftConicity",
+      "Id": "68ACD67F-BDFC-44D4-AD2D-6E96B26F77C9"
+    },
+    {
+      "Name": "McCOM2.enum_SymDimensionSymbol.enum_mcDimSymbolRightConicity",
+      "Id": "95DD7871-CB19-41B5-A302-8B8F826C2B2A"
+    },
+    {
+      "Name": "McCOM2.enum_SymDimensionSymbol.enum_mcDimSymbolSRadius",
+      "Id": "43693DB1-A981-4CF7-AFB4-288F5AAE0BFC"
+    },
+    {
+      "Name": "McCOM2.enum_SymDimensionSymbol.enum_mcDimSymbolSDiameter",
+      "Id": "FDA113EE-42D9-46C1-9E04-6DC50E8A17FA"
+    },
+    {
+      "Name": "McCOM2.enum_SymDimensionSymbol.enum_mcDimSymbolP",
+      "Id": "ACEB0AAA-B49F-4A51-AD77-F963723A1650"
+    },
+    {
+      "Name": "McCOM2.enum_SymDimensionSymbol.enum_mcDimSymbolM",
+      "Id": "D27D4015-7C5F-4BD2-86A5-1202E59B3846"
+    },
+    {
+      "Name": "McCOM2.enum_SymDimensionBracket.enum_mcDimbracketNone",
+      "Id": "2E03F4C3-FE0C-403F-939A-4D9736685066"
+    },
+    {
+      "Name": "McCOM2.enum_SymDimensionBracket.enum_mcDimbracketSquare",
+      "Id": "FDBD5D56-E0B0-430F-AA60-1A16F8A7CBEC"
+    },
+    {
+      "Name": "McCOM2.enum_SymDimensionBracket.enum_mcDimbracketRound",
+      "Id": "FB108985-87C1-4814-A29F-5C757927FB22"
+    },
+    {
+      "Name": "McCOM2.enum_SymDimensionBracket.enum_mcDimbracketAngular",
+      "Id": "8A7DF3EE-2F65-4F73-A252-BE62B413F77B"
+    },
+    {
+      "Name": "McCOM2.enum_SymDimensionType.enum_mcDimtypeUnknown",
+      "Id": "C07F4992-4DE4-4F03-8B97-A71FC9D26362"
+    },
+    {
+      "Name": "McCOM2.enum_SymDimensionType.enum_mcDimtypeLinear",
+      "Id": "DCEF8B19-38D1-4131-BEEB-C2E70C5DA3D9"
+    },
+    {
+      "Name": "McCOM2.enum_SymDimensionType.enum_mcDimtypeVertical",
+      "Id": "DDE8B7AA-C478-408A-B6DC-B3530218F2F6"
+    },
+    {
+      "Name": "McCOM2.enum_SymDimensionType.enum_mcDimtypeHorizontal",
+      "Id": "CB3D45AF-2C80-4BEF-B0DC-749607E8989B"
+    },
+    {
+      "Name": "McCOM2.enum_SymDimensionType.enum_mcDimtypeAligned",
+      "Id": "521055A1-927E-4899-87F5-4C06C243C6A9"
+    },
+    {
+      "Name": "McCOM2.enum_SymDimensionType.enum_mcDimtypeDiameter",
+      "Id": "2CEA8490-55D9-49A8-941A-69F340F26B61"
+    },
+    {
+      "Name": "McCOM2.enum_SymDimensionType.enum_mcDimtypeRadius",
+      "Id": "A1A2ACE8-0659-4642-9F51-BD0698FED63C"
+    },
+    {
+      "Name": "McCOM2.enum_SymDimensionType.enum_mcDimtypeHugeRadius",
+      "Id": "1B66D06D-277A-4EF6-869B-24D6D4F4FC1D"
+    },
+    {
+      "Name": "McCOM2.enum_SymDimensionType.enum_mcDimtypeAngular",
+      "Id": "2046AA40-85B8-4334-840F-90A2E20C2E27"
+    },
+    {
+      "Name": "McCOM2.enum_SymDimensionType.enum_mcDimtypeArc",
+      "Id": "4056377F-3805-40B6-A4FE-90EF51F85CD3"
+    },
+    {
+      "Name": "McCOM2.enum_SymDimensionType.enum_mcDimtypeOrdinate",
+      "Id": "D9608D9D-8EC9-45DB-9794-D4C56FBE2056"
+    },
+    {
+      "Name": "McCOM2.enum_SymBoundFormType.enum_mcBoundLineOnly",
+      "Id": "73D2E367-D2E4-438D-8F5C-AB9A9C6A19E8"
+    },
+    {
+      "Name": "McCOM2.enum_SymBoundFormType.enum_mcBoundDashBand",
+      "Id": "969AFA2D-0851-4C32-B35E-4838B216713F"
+    },
+    {
+      "Name": "McCOM2.enum_SymBoundFormType.enum_mcBoundHeatIsolation",
+      "Id": "B6C97A3E-351A-4F18-84C9-BD73BA00CAC0"
+    },
+    {
+      "Name": "McCOM2.enum_SymBoundFormType.enum_mcBoundWaterIsolation",
+      "Id": "D3D96913-F432-45E1-AB01-62C85A2FD4C5"
+    },
+    {
+      "Name": "McCOM2.enum_SymBoundFormType.enum_mcBoundBoundHatch",
+      "Id": "61C30CBC-77D9-43FC-B193-6415FC428A15"
+    },
+    {
+      "Name": "McCOM2.enum_SymBoundFormType.enum_mcBoundGroundBorder",
+      "Id": "D1B08DCA-4800-43BA-8B24-570AED8BEA68"
+    },
+    {
+      "Name": "McCOM2.enum_SymAnchorType.enum_mcAnchorEmpty",
+      "Id": "7C2E56F0-A348-4D28-AB95-EBCE72820446"
+    },
+    {
+      "Name": "McCOM2.enum_SymAnchorType.enum_mcAnchorMarkT",
+      "Id": "0CD8659C-35D2-4168-A457-95445BEE427F"
+    },
+    {
+      "Name": "McCOM2.enum_SymAnchorType.enum_mcAnchorMarkJLeft",
+      "Id": "775F07AB-F0B0-4C45-9D14-76C6B9D7049E"
+    },
+    {
+      "Name": "McCOM2.enum_SymAnchorType.enum_mcAnchorMarkJRight",
+      "Id": "C1A1C073-9B42-495C-97DA-672F3E37462F"
+    },
+    {
+      "Name": "McCOM2.enum_SymAnchorType.enum_mcAnchorMarkULeft",
+      "Id": "1730D7A2-7D0C-4D2B-895F-4E9CDFC730BA"
+    },
+    {
+      "Name": "McCOM2.enum_SymAnchorType.enum_mcAnchorMarkURight",
+      "Id": "50A401A0-A132-4839-98F9-2CD2C7378E8E"
+    },
+    {
+      "Name": "McCOM2.enum_SymAnchorType.enum_mcAnchorMarkLLeft",
+      "Id": "DF138727-6CD8-4004-BEA0-E9A2F53418DB"
+    },
+    {
+      "Name": "McCOM2.enum_SymAnchorType.enum_mcAnchorMarkLRight",
+      "Id": "3A8E0197-CFFE-4D57-9C9C-1F27805EC4A3"
+    },
+    {
+      "Name": "McCOM2.enum_SymAnchorType.enum_mcAnchorMarkPlus",
+      "Id": "24B4C8A7-3CA2-4A0E-B179-A512F9370D0C"
+    },
+    {
+      "Name": "McCOM2.enum_SymAnchorType.enum_mcAnchorMarkX",
+      "Id": "C3DFDE47-A05B-4FB9-BBB3-A7DDBA736C37"
+    },
+    {
+      "Name": "McCOM2.enum_SymAnchorType.enum_mcAnchorMarkOFilled",
+      "Id": "F4EC4539-504F-4EAC-97FF-6AF23BA50C6A"
+    },
+    {
+      "Name": "McCOM2.enum_SymAnchorType.enum_mcAnchorMarkOBlank",
+      "Id": "7B8E1693-D712-4F11-B6CA-3ABBF86FFACA"
+    },
+    {
+      "Name": "McCOM2.enum_SymAnchorType.enum_mcAnchorMarkDelta",
+      "Id": "A83EB7A4-3BAD-449D-B793-311B2C4D9902"
+    },
+    {
+      "Name": "McCOM2.enum_SymAnchorType.enum_mcAnchorMarkD",
+      "Id": "C6385293-FDF7-4222-BF29-5011AE9333F4"
+    },
+    {
+      "Name": "McCOM2.enum_SymAnchorType.enum_mcAnchorArrowOFilled",
+      "Id": "269D2F6B-AD9B-464A-A6C9-CFD800FADEF4"
+    },
+    {
+      "Name": "McCOM2.enum_SymAnchorType.enum_mcAnchorArrowOpen20",
+      "Id": "6589E618-01A9-4C64-88D2-47F012237476"
+    },
+    {
+      "Name": "McCOM2.enum_SymAnchorType.enum_mcAnchorArrowOpen",
+      "Id": "E3F0D4CF-E388-4CEA-8EA0-BD9138DDB801"
+    },
+    {
+      "Name": "McCOM2.enum_SymAnchorType.enum_mcAnchorArrowClosed20",
+      "Id": "81125440-5694-450F-913D-32CA1B13AAA7"
+    },
+    {
+      "Name": "McCOM2.enum_SymAnchorType.enum_mcAnchorArrowShallow20",
+      "Id": "35E76FF7-C42E-4959-82A3-3798608F350E"
+    },
+    {
+      "Name": "McCOM2.enum_SymAnchorType.enum_mcAnchorArrowOBlank",
+      "Id": "7F33D539-307E-4717-8101-E172A9D1CDDA"
+    },
+    {
+      "Name": "McCOM2.enum_SymAnchorType.enum_mcAnchorArrowDFilled",
+      "Id": "AE0A0CD9-8499-466F-BEBB-D5DA389F3DF9"
+    },
+    {
+      "Name": "McCOM2.enum_SymAnchorType.enum_mcAnchorArrowDBlank",
+      "Id": "D0CD5804-E500-4421-A3FD-6ED61FE0994D"
+    },
+    {
+      "Name": "McCOM2.enum_SymAnchorType.enum_mcAnchorArrowS",
+      "Id": "CE088FF9-0A69-4EE7-9C2B-BFDD353055E8"
+    },
+    {
+      "Name": "McCOM2.enum_SymAnchorType.enum_mcAnchorArrowSqrBlank",
+      "Id": "08833212-3903-4248-B189-48821ACD063C"
+    },
+    {
+      "Name": "McCOM2.enum_SymAnchorType.enum_mcAnchorArrowSqrFilled",
+      "Id": "33F0411A-C170-4C40-88C8-F19A49C07789"
+    },
+    {
+      "Name": "McCOM2.enum_SymAnchorType.enum_mcAnchorArrowShallowLeft",
+      "Id": "4F47D5C5-8CC6-4C0E-8B43-2C00D38EFEFD"
+    },
+    {
+      "Name": "McCOM2.enum_SymAnchorType.enum_mcAnchorArrowShallowRight",
+      "Id": "F2A495AC-69D6-4BF4-836C-8DE87F0D86D9"
+    },
+    {
+      "Name": "McCOM2.enum_SymAnchorType.enum_mcAnchorArrow60Blank",
+      "Id": "E5850F70-248B-4F17-8427-8690EBB5D5EE"
+    },
+    {
+      "Name": "McCOM2.enum_SymAnchorType.enum_mcAnchorArrow60Filled",
+      "Id": "462553E1-0A61-4922-AE53-2137DC61E320"
+    },
+    {
+      "Name": "McCOM2.enum_SymWeldType.enum_mcWeldFactoryAngularSolidVisible",
+      "Id": "50B9F00E-C28C-405C-B0ED-06488C339293"
+    },
+    {
+      "Name": "McCOM2.enum_SymWeldType.enum_mcWeldFactoryAngularSolidInvisible",
+      "Id": "84215D84-0965-4D49-8D6E-7123BEA8298C"
+    },
+    {
+      "Name": "McCOM2.enum_SymWeldType.enum_mcWeldFactoryAngularDescreteVisible",
+      "Id": "BB2A291F-88C3-407D-950E-20FBFFAB0009"
+    },
+    {
+      "Name": "McCOM2.enum_SymWeldType.enum_mcWeldFactoryAngularDescreteInvisible",
+      "Id": "1184EF86-51B2-4B5E-82E2-7A09E5E2BE5F"
+    },
+    {
+      "Name": "McCOM2.enum_SymWeldType.enum_mcWeldAssemblyAngularSolidVisible",
+      "Id": "7D777B4B-B404-4B14-AA83-CC03C5745A0B"
+    },
+    {
+      "Name": "McCOM2.enum_SymWeldType.enum_mcWeldAssemblyAngularSolidInvisible",
+      "Id": "BD697137-D68F-4AB0-B21D-077284CD3763"
+    },
+    {
+      "Name": "McCOM2.enum_SymWeldType.enum_mcWeldAssemblyAngularDescreteVisible",
+      "Id": "C42F7066-AC70-418D-80CF-25E82605AE44"
+    },
+    {
+      "Name": "McCOM2.enum_SymWeldType.enum_mcWeldAssemblyAngularDescreteInvisible",
+      "Id": "AF4C1B49-62C9-4996-9AA8-95B005DA0631"
+    },
+    {
+      "Name": "McCOM2.enum_SymWeldType.enum_mcWeldFactoryButtSolidVisible",
+      "Id": "3F0FB350-27A0-47F5-BD92-B9D31467523A"
+    },
+    {
+      "Name": "McCOM2.enum_SymWeldType.enum_mcWeldFactoryButtSolidInvisible",
+      "Id": "AA5F8035-3F54-4F34-9028-75262E931AF5"
+    },
+    {
+      "Name": "McCOM2.enum_SymWeldType.enum_mcWeldFactoryButtDescreteVisible",
+      "Id": "4966DC6B-A0F7-49C3-875D-E148D8079650"
+    },
+    {
+      "Name": "McCOM2.enum_SymWeldType.enum_mcWeldFactoryButtDescreteInvisible",
+      "Id": "6D643620-EC79-476A-825C-5BDD25CCF51F"
+    },
+    {
+      "Name": "McCOM2.enum_SymWeldType.enum_mcWeldAssemblyButtSolidVisible",
+      "Id": "5D1DC9B1-B5FE-4A8C-AD35-8DE3C692DA27"
+    },
+    {
+      "Name": "McCOM2.enum_SymWeldType.enum_mcWeldAssemblyButtSolidInvisible",
+      "Id": "4FA2996F-C122-4C9C-A152-69DB32953B1D"
+    },
+    {
+      "Name": "McCOM2.enum_SymWeldType.enum_mcWeldAssemblyButtDescreteVisible",
+      "Id": "83EABF58-0530-4420-888B-83ABCB5BEDC1"
+    },
+    {
+      "Name": "McCOM2.enum_SymWeldType.enum_mcWeldAssemblyButtDescreteInvisible",
+      "Id": "BD702A4F-ABFB-48B4-9F43-06BBC736FF52"
+    },
+    {
+      "Name": "McCOM2.enum_SymFixType.enum_mcFixTypeWeldLeg",
+      "Id": "14D443C1-BEF2-43E6-9FDF-BFBDA623A943"
+    },
+    {
+      "Name": "McCOM2.enum_SymFixType.enum_mcFixTypeWeldPoint",
+      "Id": "B051F4FE-CCF0-4DAA-9172-7A026EA0A7A8"
+    },
+    {
+      "Name": "McCOM2.enum_SymFixType.enum_mcFixTypeMark",
+      "Id": "CFCB7305-7254-4B35-B188-349435C54FB2"
+    },
+    {
+      "Name": "McCOM2.enum_SymFixTechnology.enum_mcFixTechnologyWelded",
+      "Id": "F410122F-23C9-4298-AF47-6A58A83D949A"
+    },
+    {
+      "Name": "McCOM2.enum_SymFixTechnology.enum_mcFixTechnologySoldered",
+      "Id": "83BE3B1F-4CBD-4AF1-9593-B869297C8DB6"
+    },
+    {
+      "Name": "McCOM2.enum_SymFixTechnology.enum_mcFixTechnologyGlued",
+      "Id": "7875BE57-D4BD-4E23-8897-917F02B409D0"
+    },
+    {
+      "Name": "McCOM2.enum_SymFixTechnology.enum_mcFixTechnologyAngularClamp",
+      "Id": "A57B4E17-4910-4DAD-9601-36B937EFA3C9"
+    },
+    {
+      "Name": "McCOM2.enum_SymFixTechnology.enum_mcFixTechnologyOverlapClamp",
+      "Id": "16CD6744-A622-4526-B81A-8472C609BD17"
+    },
+    {
+      "Name": "McCOM2.enum_SymFixTechnology.enum_mcFixTechnologyCrossLinked",
+      "Id": "5680E30A-F1A8-4CD7-B38B-72835332E76C"
+    },
+    {
+      "Name": "McCOM2.enum_SymToleranceParameter.enum_mcSymToleranceUndefined",
+      "Id": "A93078EA-946A-4013-8DCE-0CA61168CE41"
+    },
+    {
+      "Name": "McCOM2.enum_SymToleranceParameter.enum_mcSymToleranceLinear",
+      "Id": "FC3ECE00-4CA7-4C93-99BE-40D09FF35C07"
+    },
+    {
+      "Name": "McCOM2.enum_SymToleranceParameter.enum_mcSymTolerancePlanar",
+      "Id": "22E80E57-B98E-4895-B0E1-508A49477255"
+    },
+    {
+      "Name": "McCOM2.enum_SymToleranceParameter.enum_mcSymToleranceRound",
+      "Id": "5513E9D6-9834-4BAE-B767-6EEBD75CC107"
+    },
+    {
+      "Name": "McCOM2.enum_SymToleranceParameter.enum_mcSymToleranceCylindrical",
+      "Id": "DDD43165-426D-40B4-BFDB-259CEC766598"
+    },
+    {
+      "Name": "McCOM2.enum_SymToleranceParameter.enum_mcSymToleranceProfile",
+      "Id": "38D82957-02DF-477A-8F52-A8435D232997"
+    },
+    {
+      "Name": "McCOM2.enum_SymToleranceParameter.enum_mcSymToleranceParallel",
+      "Id": "0635F480-20B5-46D8-8FE9-70A35BA3AE86"
+    },
+    {
+      "Name": "McCOM2.enum_SymToleranceParameter.enum_mcSymTolerancePerpendicular",
+      "Id": "84D5E156-80EF-449F-9D27-568BA494E78A"
+    },
+    {
+      "Name": "McCOM2.enum_SymToleranceParameter.enum_mcSymToleranceTilt",
+      "Id": "625C44A2-A459-47B8-A2AB-929455F4989E"
+    },
+    {
+      "Name": "McCOM2.enum_SymToleranceParameter.enum_mcSymToleranceCoaxiality",
+      "Id": "EF6C0AC4-CC84-448B-BB10-1C6F0C00BD44"
+    },
+    {
+      "Name": "McCOM2.enum_SymToleranceParameter.enum_mcSymToleranceSymmetry",
+      "Id": "2E5A3CF0-4EBB-4DBB-B1B8-5445E89F9E82"
+    },
+    {
+      "Name": "McCOM2.enum_SymToleranceParameter.enum_mcSymTolerancePosition",
+      "Id": "77927DDC-432C-42E3-895D-29B705140FDF"
+    },
+    {
+      "Name": "McCOM2.enum_SymToleranceParameter.enum_mcSymToleranceCross",
+      "Id": "46D76275-1E3C-42FD-B117-9C56FFC0B143"
+    },
+    {
+      "Name": "McCOM2.enum_SymToleranceParameter.enum_mcSymToleranceBeat",
+      "Id": "24E0BBE4-09C1-4DB5-BB1E-F746D399B27C"
+    },
+    {
+      "Name": "McCOM2.enum_SymToleranceParameter.enum_mcSymToleranceFullBeat",
+      "Id": "A867C1D9-6954-42DB-B6DB-FB6537722DB9"
+    },
+    {
+      "Name": "McCOM2.enum_SymToleranceParameter.enum_mcSymToleranceFormProfile",
+      "Id": "3E7C4FF8-70CF-4EBB-ACD8-301B528779E1"
+    },
+    {
+      "Name": "McCOM2.enum_SymToleranceParameter.enum_mcSymToleranceFormSurface",
+      "Id": "6AAD343A-51AE-48F5-9E0F-874BABA722A8"
     }
   ]
 }
