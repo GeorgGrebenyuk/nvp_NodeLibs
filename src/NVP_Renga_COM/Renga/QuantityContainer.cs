@@ -1,5 +1,6 @@
 ﻿using NVP.API.Nodes;
 using System;
+using System.Linq;
 using System.Collections.Generic;
 
 using NVP_Manifest_Creator;
@@ -23,6 +24,10 @@ namespace Renga.QuantityContainer
 		ViewType = "Default")]
     public class QuantityIds : INode
 	{
+        /// <summary>
+        /// Типы расчетных свойств для всех категория объектов
+        /// </summary>
+        /// <returns></returns>
         public static Dictionary<string, Guid> QuantityIdentifiers_Objects()
         {
             return new Dictionary<string, Guid>
@@ -276,9 +281,57 @@ namespace Renga.QuantityContainer
         }
     }
 
-    /// <summary>
-    /// Типы расчетных свойств для всех категория объектов
-    /// </summary>
-    /// <returns></returns>
-    
+    [NVP_Manifest(
+        Id = "A63B25DD-9E93-4AF9-BC1C-4E3B6F221E6E",
+        PathAssembly = "NVP_Renga_COM.dll",
+        PathExecuteClass = "Renga.QuantityContainer.GetAll_Quantities2",
+        CoderName = "GeorgGrebenyuk",
+        Folder = "NVP_Renga_COM.Renga.QuantityContainer",
+        NodeName = "GetAll_Quantities2",
+        NodeType = "Loaded",
+        CADType = "None",
+        Text = "Возвращает все расчетные свойства в виде словаря",
+        ViewType = "Data")]
+    [NodeInput("GuidCollection", typeof(object))]
+
+    public class GetAll_Quantities2 : INode
+    {
+        public NodeResult Execute(INVPData context, List<NodeResult> inputs)
+        {
+            var _input0 = ((dynamic)inputs[0].Value)._i as Renga.IQuantityContainer;
+            Dictionary<string, double> items = new Dictionary<string, double>();
+            foreach (KeyValuePair<string, Guid> prop2id in QuantityIds.QuantityIdentifiers_Objects())
+            {
+                if (_input0.Contains(prop2id.Value))
+                {
+                    Renga.IQuantity quantity = _input0.Get(prop2id.Value);
+
+                    string quantity_name = QuantityIds.QuantityIdentifiers_Objects().
+						Where(a => a.Value.Equals(prop2id.Value)).First().Key;
+                    double quantity_value = -1.0;
+					switch (quantity.Type)
+					{
+                        case QuantityType.QuantityType_Area:
+                            quantity_value = quantity.AsArea(AreaUnit.AreaUnit_Meters2); break;
+                        case QuantityType.QuantityType_Count:
+                            quantity_value = quantity.AsCount(); break;
+                        case QuantityType.QuantityType_Length:
+                            quantity_value = quantity.AsLength(LengthUnit.LengthUnit_Meters); break;
+                        case QuantityType.QuantityType_Mass:
+                            quantity_value = quantity.AsMass(MassUnit.MassUnit_Kilograms); break;
+                        case QuantityType.QuantityType_Volume:
+                            quantity_value = quantity.AsVolume(VolumeUnit.VolumeUnit_Meters3); break;
+
+                    }
+
+					items.Add(quantity_name, quantity_value);
+					//Повторяющихся быть не может в прицнипе
+                }
+            }
+            return new NodeResult(items);
+        }
+    }
+
+
+
 }

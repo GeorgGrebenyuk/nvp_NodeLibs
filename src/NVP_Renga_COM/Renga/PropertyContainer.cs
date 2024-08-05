@@ -229,4 +229,64 @@ namespace Renga.PropertyContainer
 
         }
     }
+
+    [NVP_Manifest(
+        Id = "42EA8466-1C19-4C65-8954-C66CF71A2747",
+        PathAssembly = "NVP_Renga_COM.dll",
+        PathExecuteClass = "Renga.PropertyContainer.GetAll_Properties2",
+        CoderName = "GeorgGrebenyuk",
+        Folder = "NVP_Renga_COM.Renga.PropertyContainer",
+        NodeName = "GetAll_Properties2",
+        NodeType = "Loaded",
+        CADType = "None",
+        Text = "Возвращает все свойства в виде словаря",
+        ViewType = "Data")]
+    [NodeInput("PropertyContainer", typeof(object))]
+
+    public class GetAll_Properties2 : INode
+    {
+        public NodeResult Execute(INVPData context, List<NodeResult> inputs)
+        {
+            var _input0 = ((dynamic)inputs[0].Value)._i as Renga.IPropertyContainer;
+            var guids = _input0.GetIds();
+            Dictionary<string, object> properties = new Dictionary<string, object>();
+
+            for (int item_counter = 0; item_counter < guids.Count; item_counter++)
+            {
+                Guid id = guids.Get(item_counter);
+				var property = _input0.Get(id);
+				object prop_value = null;
+				switch (property.Type)
+				{
+                    case PropertyType.PropertyType_Angle:
+                        prop_value = property.GetAngleValue(AngleUnit.AngleUnit_Degrees); break;
+					case PropertyType.PropertyType_Area:
+                        prop_value = property.GetAreaValue(AreaUnit.AreaUnit_Meters2); break;
+                    case PropertyType.PropertyType_Boolean:
+                        prop_value = property.GetBooleanValue(); break;
+                    case PropertyType.PropertyType_Double:
+                        prop_value = property.GetDoubleValue(); break;
+                    case PropertyType.PropertyType_Enumeration:
+                        prop_value = property.GetEnumerationValue(); break;
+                    case PropertyType.PropertyType_Integer:
+                        prop_value = property.GetIntegerValue(); break;
+                    case PropertyType.PropertyType_Length:
+                        prop_value = property.GetLengthValue(LengthUnit.LengthUnit_Meters); break;
+                    case PropertyType.PropertyType_Logical:
+                        prop_value = property.GetLogicalValue(); break;
+                    case PropertyType.PropertyType_Mass:
+                        prop_value = property.GetMassValue(MassUnit.MassUnit_Kilograms); break;
+                    case PropertyType.PropertyType_String:
+                        prop_value = property.GetStringValue(); break;
+                    case PropertyType.PropertyType_Volume:
+                        prop_value = property.GetVolumeValue(VolumeUnit.VolumeUnit_Meters3); break;                 
+                }
+
+				if (!properties.ContainsKey(property.Name)) properties.Add(property.Name, prop_value);
+				else properties[property.Name] = prop_value;
+            }
+            return new NodeResult(properties);
+
+        }
+    }
 }

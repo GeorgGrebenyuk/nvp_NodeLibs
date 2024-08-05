@@ -20,6 +20,12 @@
 
 * [NVP_Renga_COM] добавлен нод QuantityContainer.QuantityIds, возвращающий все идентификаторы расчетных свойств Quantity;
 
+* [NVP_Renga_COM] добавлен нод PropertyContainer.GetAll_Properties2, возвращающий информацию всех обычных свойствах в виде словаря (имя свойства и значение)
+
+* [NVP_Renga_COM] добавлен нод QuantityContainer.GetAll_Quantities2, возвращающий информацию всех расчетных свойствах в виде словаря (имя свойства и значение);
+
+* [NVP_Renga_COM] добавлен нод ParameterContainer.GetAll_Parameters2, возвращающий информацию всех параметрах в виде словаря (имя параметраи значение);
+
 **Обновлено**:
 
 * Пример нодов nanoCAD для отрисовки окружности и штриховки;

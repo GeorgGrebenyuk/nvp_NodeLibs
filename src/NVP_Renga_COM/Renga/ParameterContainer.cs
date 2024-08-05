@@ -228,4 +228,49 @@ namespace Renga.ParameterContainer
             return new NodeResult(items);
         }
     }
+
+    [NVP_Manifest(
+        Id = "F66C0937-B633-4A4C-8EC1-95AC3574B958",
+        PathAssembly = "NVP_Renga_COM.dll",
+        PathExecuteClass = "Renga.ParameterContainer.GetAll_Parameters2",
+        CoderName = "GeorgGrebenyuk",
+        Folder = "NVP_Renga_COM.Renga.ParameterContainer",
+        NodeName = "GetAll_Parameters2",
+        NodeType = "Loaded",
+        CADType = "None",
+        Text = "Возвращает все параметры в виде словаря",
+        ViewType = "Data")]
+    [NodeInput("ParameterContainer", typeof(object))]
+
+    public class GetAll_Parameters2 : INode
+    {
+        public NodeResult Execute(INVPData context, List<NodeResult> inputs)
+        {
+            var _input0 = ((dynamic)inputs[0].Value)._i as Renga.IParameterContainer;
+            var guids = _input0.GetIds();
+            Dictionary<string, object> items = new Dictionary<string, object>();
+            for (int item_counter = 0; item_counter < guids.Count; item_counter++)
+            {
+                Guid id = guids.Get(item_counter);
+                Renga.IParameter param = _input0.Get(id);
+
+				object param_value = null;
+				switch (param.ValueType)
+				{
+					case ParameterValueType.ParameterValueType_Bool:
+						param_value = param.GetBoolValue(); break;
+                    case ParameterValueType.ParameterValueType_Int:
+						param_value = param.GetIntValue();break;
+					case ParameterValueType.ParameterValueType_Double:
+						param_value = param.GetDoubleValue(); break;
+					case ParameterValueType.ParameterValueType_String:
+						param_value = param.GetStringValue(); break;
+
+                }
+				if (!items.ContainsKey(param.Definition.Name)) items.Add(param.Definition.Name, param_value);
+				else items[param.Definition.Name] = param_value;
+            }
+            return new NodeResult(items);
+        }
+    }
 }
