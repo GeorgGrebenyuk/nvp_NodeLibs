@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 
 using NVP_Manifest_Creator;
+using Renga.Drawing;
 
 ///<summary>
 ///
@@ -112,4 +113,37 @@ namespace Renga.DrawingCollection
 
 		}
 	}
+
+    [NVP_Manifest(
+        Id = "361A4B1C-DC01-4AB2-BB64-B5AB29908B0C",
+        PathAssembly = "NVP_Renga_COM.dll",
+        PathExecuteClass = "Renga.DrawingCollection.GetAll_Drawings",
+        CoderName = "GeorgGrebenyuk",
+        Folder = "NVP_Renga_COM.Renga.DrawingCollection",
+        NodeName = "GetAll_Drawings",
+        NodeType = "Loaded",
+        CADType = "None",
+        Text = "Возвращает все объекты чертежей",
+        ViewType = "Data")]
+    [NodeInput("DrawingCollection", typeof(object))]
+
+    ///<summary>
+    ///
+    ///</summary>
+    public class GetAll_Drawings : INode
+    {
+        public NodeResult Execute(INVPData context, List<NodeResult> inputs)
+        {
+            var _input0 = ((dynamic)inputs[0].Value)._i as Renga.IDrawingCollection;
+			List<Drawing_Constructor> items = new List<Drawing_Constructor>();
+			for (int item_counter = 0; item_counter < _input0.Count; item_counter++)
+			{
+                Drawing_Constructor item = new Drawing_Constructor();
+                item._i = _input0.Get(item_counter);
+                items.Add(item);
+            }
+            return new NodeResult(items);
+
+        }
+    }
 }

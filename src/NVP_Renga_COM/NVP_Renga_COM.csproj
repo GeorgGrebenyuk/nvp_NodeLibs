@@ -38,9 +38,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="NVP_Renga_COM.nodeitem">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </None>
+    <Reference Include="Renga.NET.PluginUtility">
+      <HintPath>Renga.NET.PluginUtility.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 
 using NVP_Manifest_Creator;
+using Renga.Property;
 
 ///<summary>
 ///
@@ -196,4 +197,36 @@ namespace Renga.PropertyContainer
 
 		}
 	}
+
+    [NVP_Manifest(
+        Id = "B92203B7-907D-4DCB-B471-15711A3B3986",
+        PathAssembly = "NVP_Renga_COM.dll",
+        PathExecuteClass = "Renga.PropertyContainer.GetAll_Properties",
+        CoderName = "GeorgGrebenyuk",
+        Folder = "NVP_Renga_COM.Renga.PropertyContainer",
+        NodeName = "GetAll_Properties",
+        NodeType = "Loaded",
+        CADType = "None",
+        Text = "Возвращает все свойства",
+        ViewType = "Data")]
+    [NodeInput("PropertyContainer", typeof(object))]
+
+    public class GetAll_Properties : INode
+    {
+        public NodeResult Execute(INVPData context, List<NodeResult> inputs)
+        {
+            var _input0 = ((dynamic)inputs[0].Value)._i as Renga.IPropertyContainer;
+			var guids = _input0.GetIds();
+            List<Property_Constructor> items = new List<Property_Constructor>();
+            for (int item_counter = 0; item_counter < guids.Count; item_counter++)
+            {
+				Guid id = guids.Get(item_counter);
+				Property_Constructor item = new Property_Constructor();
+				item._i = _input0.Get(id);
+                items.Add(item);
+            }
+            return new NodeResult(items);
+
+        }
+    }
 }

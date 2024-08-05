@@ -20,4 +20,4 @@ TODO:
 
 Базовый путь `/Renga/`
 
-TODO:
+* `NVP_Renga_COM_Sample_Get project info.nvproj`: подключение к Renga, получение сущности проекта и его свойств;

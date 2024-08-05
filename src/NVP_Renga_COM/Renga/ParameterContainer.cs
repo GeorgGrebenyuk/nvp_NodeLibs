@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 
 using NVP_Manifest_Creator;
+using Renga.Parameter;
 
 ///<summary>
 ///
@@ -196,4 +197,35 @@ namespace Renga.ParameterContainer
 
 		}
 	}
+
+    [NVP_Manifest(
+        Id = "9FBBDDD5-CCE9-4CE9-AB7D-8CB577F324DF",
+        PathAssembly = "NVP_Renga_COM.dll",
+        PathExecuteClass = "Renga.ParameterContainer.GetAll_Parameters",
+        CoderName = "GeorgGrebenyuk",
+        Folder = "NVP_Renga_COM.Renga.ParameterContainer",
+        NodeName = "GetAll_Parameters",
+        NodeType = "Loaded",
+        CADType = "None",
+        Text = "Возвращает все параметры",
+        ViewType = "Data")]
+    [NodeInput("ParameterContainer", typeof(object))]
+
+    public class GetAll_Parameters : INode
+    {
+        public NodeResult Execute(INVPData context, List<NodeResult> inputs)
+        {
+            var _input0 = ((dynamic)inputs[0].Value)._i as Renga.IParameterContainer;
+            var guids = _input0.GetIds();
+            List<Parameter_Constructor> items = new List<Parameter_Constructor>();
+            for (int item_counter = 0; item_counter < guids.Count; item_counter++)
+            {
+                Guid id = guids.Get(item_counter);
+                Parameter_Constructor item = new Parameter_Constructor();
+                item._i = _input0.Get(id);
+                items.Add(item);
+            }
+            return new NodeResult(items);
+        }
+    }
 }

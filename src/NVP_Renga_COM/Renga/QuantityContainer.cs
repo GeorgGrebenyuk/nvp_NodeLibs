@@ -3,12 +3,86 @@ using System;
 using System.Collections.Generic;
 
 using NVP_Manifest_Creator;
+using Renga.Quantity;
 
 ///<summary>
 ///
 ///</summary>
 namespace Renga.QuantityContainer 
 {
+    [NVP_Manifest(
+		Id = "A63B25DD-9E93-4AF9-BC1C-4E3B6F221E6E",
+		PathAssembly = "NVP_Renga_COM.dll",
+		PathExecuteClass = "Renga.QuantityContainer.QuantityIds",
+		CoderName = "GeorgGrebenyuk",
+		Folder = "NVP_Renga_COM.Renga.QuantityContainer",
+		NodeName = "QuantityIds",
+		NodeType = "Loaded",
+		CADType = "None",
+		Text = "Идентификаторы всех расчетных свойств (Dictionary: string, Guid)",
+		ViewType = "Default")]
+    public class QuantityIds : INode
+	{
+        public static Dictionary<string, Guid> QuantityIdentifiers_Objects()
+        {
+            return new Dictionary<string, Guid>
+                {
+                    {"NominalThickness",Renga.QuantityIds.NominalThickness},
+                    {"NominalLength",Renga.QuantityIds.NominalLength},
+                    {"NominalWidth",Renga.QuantityIds.NominalWidth},
+                    {"NominalHeight",Renga.QuantityIds.NominalHeight},
+                    {"Perimeter",Renga.QuantityIds.Perimeter},
+                    {"OverallWidth",Renga.QuantityIds.OverallWidth},
+                    {"OverallHeight",Renga.QuantityIds.OverallHeight},
+                    {"OverallDepth",Renga.QuantityIds.OverallDepth},
+                    {"OverallLength",Renga.QuantityIds.OverallLength},
+                    {"Volume",Renga.QuantityIds.Volume},
+                    {"NetVolume",Renga.QuantityIds.NetVolume},
+                    {"NetMass",Renga.QuantityIds.NetMass},
+                    {"OuterSurfaceArea",Renga.QuantityIds.OuterSurfaceArea},
+                    {"CrossSectionOverallWidth",Renga.QuantityIds.CrossSectionOverallWidth},
+                    {"CrossSectionOverallHeight",Renga.QuantityIds.CrossSectionOverallHeight},
+                    {"NetCrossSectionArea",Renga.QuantityIds.NetCrossSectionArea},
+                    {"GrossCrossSectionArea",Renga.QuantityIds.GrossCrossSectionArea},
+                    {"GrossWallArea",Renga.QuantityIds.GrossWallArea},
+                    {"GrossCeilingArea",Renga.QuantityIds.GrossCeilingArea},
+                    {"Area",Renga.QuantityIds.Area},
+                    {"NominalArea",Renga.QuantityIds.NominalArea},
+                    {"NetArea",Renga.QuantityIds.NetArea},
+                    {"NetFootprintArea",Renga.QuantityIds.NetFootprintArea},
+                    {"NetFloorArea",Renga.QuantityIds.NetFloorArea},
+                    {"NetSideArea",Renga.QuantityIds.NetSideArea},
+                    {"NetPerimeter",Renga.QuantityIds.NetPerimeter},
+                    {"NetWallArea",Renga.QuantityIds.NetWallArea},
+                    {"NetCeilingArea",Renga.QuantityIds.NetCeilingArea},
+                    {"InnerSurfaceArea",Renga.QuantityIds.InnerSurfaceArea},
+                    {"InnerSurfaceInternalArea",Renga.QuantityIds.InnerSurfaceInternalArea},
+                    {"InnerSurfaceExternalArea",Renga.QuantityIds.InnerSurfaceExternalArea},
+                    {"GlazingArea",Renga.QuantityIds.GlazingArea},
+                    {"TotalSurfaceArea",Renga.QuantityIds.TotalSurfaceArea},
+                    {"GrossArea",Renga.QuantityIds.GrossArea},
+                    {"GrossPerimeter",Renga.QuantityIds.GrossPerimeter},
+                    {"GrossFloorArea",Renga.QuantityIds.GrossFloorArea},
+                    {"GrossVolume",Renga.QuantityIds.GrossVolume},
+                    {"NumberOfRiser",Renga.QuantityIds.NumberOfRiser},
+                    {"NumberOfTreads",Renga.QuantityIds.NumberOfTreads},
+                    {"RiserHeight",Renga.QuantityIds.RiserHeight},
+                    {"TreadLength",Renga.QuantityIds.TreadLength},
+                    {"TotalRebarLength",Renga.QuantityIds.TotalRebarLength},
+                    {"TotalRebarMass",Renga.QuantityIds.TotalRebarMass},
+                    {"RelativeObjectBottomElevation",Renga.QuantityIds.RelativeObjectBottomElevation},
+                    {"RelativeObjectTopElevation",Renga.QuantityIds.RelativeObjectTopElevation},
+                    {"RelativeObjectBaselineBottomElevation",Renga.QuantityIds.RelativeObjectBaselineBottomElevation},
+                    {"RelativeObjectBaselineTopElevation",Renga.QuantityIds.RelativeObjectBaselineTopElevation},
+                    {"SlopeAngle",Renga.QuantityIds.SlopeAngle}
+                };
+        }
+
+        public NodeResult Execute(INVPData context, List<NodeResult> inputs)
+        {
+            return new NodeResult(QuantityIdentifiers_Objects());
+        }
+    }
 
 	[NVP_Manifest(
 		Id = "7EB31ABF-651F-490F-900E-854E19F4CFB0", 
@@ -169,4 +243,42 @@ namespace Renga.QuantityContainer
 
 		}
 	}
+
+    [NVP_Manifest(
+        Id = "DCC8636B-E359-4B2D-B0A3-F341B2911ED7",
+        PathAssembly = "NVP_Renga_COM.dll",
+        PathExecuteClass = "Renga.QuantityContainer.GetAll_Quantities",
+        CoderName = "GeorgGrebenyuk",
+        Folder = "NVP_Renga_COM.Renga.QuantityContainer",
+        NodeName = "GetAll_Quantities",
+        NodeType = "Loaded",
+        CADType = "None",
+        Text = "Возвращает все расчетные свойства",
+        ViewType = "Data")]
+    [NodeInput("GuidCollection", typeof(object))]
+
+    public class GetAll_Quantities : INode
+    {
+        public NodeResult Execute(INVPData context, List<NodeResult> inputs)
+        {
+            var _input0 = ((dynamic)inputs[0].Value)._i as Renga.IQuantityContainer;
+            List<Quantity_Constructor> items = new List<Quantity_Constructor>();
+            foreach (KeyValuePair<string, Guid> prop2id in QuantityIds.QuantityIdentifiers_Objects())
+            {
+                if (_input0.Contains(prop2id.Value))
+                {
+					Quantity_Constructor item = new Quantity_Constructor();
+					item._i = _input0.Get(prop2id.Value);
+                    items.Add(item);
+                }
+            }
+            return new NodeResult(items);
+        }
+    }
+
+    /// <summary>
+    /// Типы расчетных свойств для всех категория объектов
+    /// </summary>
+    /// <returns></returns>
+    
 }
