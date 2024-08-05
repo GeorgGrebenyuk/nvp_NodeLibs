@@ -16,12 +16,14 @@ namespace NVP_COM_Common.List
     CADType = "None",
     Text = "Create an empty collection",
     ViewType = "Default")]
-    public class NVP_Common_List : INode
+    [NodeInput("Размер", typeof(int))]
+    public class NVP_Common_List_Create : INode
     {
-        //public object[] _elements;
+        public List<object> _elements;
         public NodeResult Execute(INVPData context, List<NodeResult> inputs)
         {
-            List<object> _elements = new List<object>();
+            int list_size = (int)inputs[0].Value;
+            _elements = new List<object>(list_size);
             return new NodeResult(_elements); ;
         }
     }
