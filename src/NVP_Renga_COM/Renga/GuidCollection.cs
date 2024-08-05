@@ -140,4 +140,62 @@ namespace Renga.GuidCollection
 
 		}
 	}
+
+    [NVP_Manifest(
+        Id = "A5164606-1738-4BC6-A50C-A180E3381F41",
+        PathAssembly = "NVP_Renga_COM.dll",
+        PathExecuteClass = "Renga.GuidCollection.GetAll_Guids",
+        CoderName = "GeorgGrebenyuk",
+        Folder = "NVP_Renga_COM.Renga.GuidCollection",
+        NodeName = "GetAll_Guids",
+        NodeType = "Loaded",
+        CADType = "None",
+        Text = "Возвращает все Guid'ы",
+        ViewType = "Data")]
+    [NodeInput("GuidCollection", typeof(object))]
+
+    public class GetAll_Guids : INode
+    {
+        public NodeResult Execute(INVPData context, List<NodeResult> inputs)
+        {
+            var _input0 = ((dynamic)inputs[0].Value)._i as Renga.IGuidCollection;
+            List<Guid> items = new List<Guid>();
+            for (int item_counter = 0; item_counter < _input0.Count; item_counter++)
+            {
+                Guid item = _input0.Get(item_counter);
+                items.Add(item);
+            }
+            return new NodeResult(items);
+
+        }
+    }
+
+    [NVP_Manifest(
+        Id = "1E4110EF-CE06-4069-8582-31C70605B1E5",
+        PathAssembly = "NVP_Renga_COM.dll",
+        PathExecuteClass = "Renga.GuidCollection.GetAll_GuidsS",
+        CoderName = "GeorgGrebenyuk",
+        Folder = "NVP_Renga_COM.Renga.GuidCollection",
+        NodeName = "GetAll_GuidsS",
+        NodeType = "Loaded",
+        CADType = "None",
+        Text = "Возвращает все Guid'ы в виде строк",
+        ViewType = "Data")]
+    [NodeInput("GuidCollection", typeof(object))]
+
+    public class GetAll_GuidsS : INode
+    {
+        public NodeResult Execute(INVPData context, List<NodeResult> inputs)
+        {
+            var _input0 = ((dynamic)inputs[0].Value)._i as Renga.IGuidCollection;
+            List<string> items = new List<string>();
+            for (int item_counter = 0; item_counter < _input0.Count; item_counter++)
+            {
+                string item = _input0.GetS(item_counter);
+                items.Add(item);
+            }
+            return new NodeResult(items);
+
+        }
+    }
 }
