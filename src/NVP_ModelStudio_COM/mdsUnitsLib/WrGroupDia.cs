@@ -12,7 +12,7 @@ namespace mdsUnitsLib.WrGroupDia
 
 	[NVP_Manifest(
 		Id = "62B555B0-1D4F-4D70-A466-D4DA436CB3DA", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.WrGroupDia.WrGroupDia_Constructor", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.WrGroupDia", 
@@ -36,7 +36,7 @@ namespace mdsUnitsLib.WrGroupDia
 
 	[NVP_Manifest(
 		Id = "EDE04C79-DAD7-44E8-9253-4057D8120C2B", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.WrGroupDia.WrGroupDia_ConstructorCast", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.WrGroupDia", 

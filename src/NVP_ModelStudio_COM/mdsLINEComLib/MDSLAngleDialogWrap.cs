@@ -12,7 +12,7 @@ namespace mdsLINEComLib.MDSLAngleDialogWrap
 
 	[NVP_Manifest(
 		Id = "F8D40A49-2FCE-4764-995E-91374C7FBC9C", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLAngleDialogWrap.MDSLAngleDialogWrap_Constructor", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLAngleDialogWrap", 
@@ -36,7 +36,7 @@ namespace mdsLINEComLib.MDSLAngleDialogWrap
 
 	[NVP_Manifest(
 		Id = "6C04DEEE-A9C7-4428-BC5E-46E20FBCBD12", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLAngleDialogWrap.MDSLAngleDialogWrap_ConstructorCast", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLAngleDialogWrap", 

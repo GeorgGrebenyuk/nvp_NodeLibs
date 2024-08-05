@@ -12,7 +12,7 @@ namespace mdsURSLib.GraphicsLink
 
 	[NVP_Manifest(
 		Id = "AB457CCE-5CA6-4D24-AF51-295E64A02066", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsURSLib.GraphicsLink.GraphicsLink_Constructor", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsURSLib.GraphicsLink", 
@@ -36,7 +36,7 @@ namespace mdsURSLib.GraphicsLink
 
 	[NVP_Manifest(
 		Id = "8FA863B4-B720-49D4-A089-E294386C0A24", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsURSLib.GraphicsLink.GraphicsLink_ConstructorCast", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsURSLib.GraphicsLink", 

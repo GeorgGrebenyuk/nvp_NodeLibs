@@ -12,7 +12,7 @@ namespace SchematiCSCOMLib.URSPropWrapper
 
 	[NVP_Manifest(
 		Id = "7B978FB3-04CF-43D1-A8D9-B423B20F51C4", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "SchematiCSCOMLib.URSPropWrapper.URSPropWrapper_Constructor", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.SchematiCSCOMLib.URSPropWrapper", 
@@ -36,7 +36,7 @@ namespace SchematiCSCOMLib.URSPropWrapper
 
 	[NVP_Manifest(
 		Id = "BBCB47D9-50EE-4D15-ABE5-44C5D2198ED9", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "SchematiCSCOMLib.URSPropWrapper.URSPropWrapper_ConstructorCast", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.SchematiCSCOMLib.URSPropWrapper", 

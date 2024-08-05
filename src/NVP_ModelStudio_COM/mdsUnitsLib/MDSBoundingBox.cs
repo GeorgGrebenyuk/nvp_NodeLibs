@@ -12,7 +12,7 @@ namespace mdsUnitsLib.MDSBoundingBox
 
 	[NVP_Manifest(
 		Id = "63275A64-70AC-48ED-9B75-7F14D4952186", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSBoundingBox.MDSBoundingBox_Constructor", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSBoundingBox", 
@@ -36,7 +36,7 @@ namespace mdsUnitsLib.MDSBoundingBox
 
 	[NVP_Manifest(
 		Id = "822CEE98-E63F-4AA6-9CD3-0D8153E723DA", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSBoundingBox.MDSBoundingBox_ConstructorCast", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSBoundingBox", 

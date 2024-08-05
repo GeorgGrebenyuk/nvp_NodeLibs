@@ -12,7 +12,7 @@ namespace ironObjComLib.IrnDiaProp
 
 	[NVP_Manifest(
 		Id = "65580A44-A645-457A-9BAB-119F9A0C5635", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.IrnDiaProp.IrnDiaProp_Constructor", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.IrnDiaProp", 
@@ -36,7 +36,7 @@ namespace ironObjComLib.IrnDiaProp
 
 	[NVP_Manifest(
 		Id = "0BF6478A-1B1C-4D21-BC10-83AC0EEB25DB", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.IrnDiaProp.IrnDiaProp_ConstructorCast", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.IrnDiaProp", 

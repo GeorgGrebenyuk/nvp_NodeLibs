@@ -12,7 +12,7 @@ namespace mdsELAYComLib.MDSELLinkPropWrapper
 
 	[NVP_Manifest(
 		Id = "D7B9C952-DCEB-4D8D-9FC1-17F9A1196F44", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsELAYComLib.MDSELLinkPropWrapper.MDSELLinkPropWrapper_Constructor", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsELAYComLib.MDSELLinkPropWrapper", 
@@ -36,7 +36,7 @@ namespace mdsELAYComLib.MDSELLinkPropWrapper
 
 	[NVP_Manifest(
 		Id = "E18AACA8-014D-4A21-8FA8-60C5DB1BEB92", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsELAYComLib.MDSELLinkPropWrapper.MDSELLinkPropWrapper_ConstructorCast", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsELAYComLib.MDSELLinkPropWrapper", 

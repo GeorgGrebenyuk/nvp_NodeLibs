@@ -12,7 +12,7 @@ namespace mdsLINEComLib.WireBreakDlgWrapper
 
 	[NVP_Manifest(
 		Id = "C9094AB3-587B-4884-BDD3-E74B485C6E07", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.WireBreakDlgWrapper.WireBreakDlgWrapper_Constructor", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.WireBreakDlgWrapper", 
@@ -36,7 +36,7 @@ namespace mdsLINEComLib.WireBreakDlgWrapper
 
 	[NVP_Manifest(
 		Id = "27A481DC-79B3-4195-B86E-8A75AECE17B9", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.WireBreakDlgWrapper.WireBreakDlgWrapper_ConstructorCast", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.WireBreakDlgWrapper", 

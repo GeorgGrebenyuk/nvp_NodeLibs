@@ -12,7 +12,7 @@ namespace mdsLINEComLib.MDSLTower
 
 	[NVP_Manifest(
 		Id = "128649D9-79B3-4FD1-9E14-7B02E94F8198", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLTower.MDSLTower_Constructor", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLTower", 
@@ -36,7 +36,7 @@ namespace mdsLINEComLib.MDSLTower
 
 	[NVP_Manifest(
 		Id = "B7D51779-DF20-4974-BA01-A68DEF5D30A8", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLTower.MDSLTower_ConstructorCast", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLTower", 
@@ -61,7 +61,7 @@ namespace mdsLINEComLib.MDSLTower
 
 	[NVP_Manifest(
 		Id = "ADE55066-1518-457A-B879-216BF60F2F32", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLTower.owner", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLTower", 
@@ -88,7 +88,7 @@ namespace mdsLINEComLib.MDSLTower
 
 	[NVP_Manifest(
 		Id = "378CCD22-27EC-4F81-8755-40549ED15C41", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLTower.prevBearing", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLTower", 
@@ -115,7 +115,7 @@ namespace mdsLINEComLib.MDSLTower
 
 	[NVP_Manifest(
 		Id = "F673559E-AF3F-481A-B5AE-717025E3C321", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLTower.nextBearing", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLTower", 
@@ -142,7 +142,7 @@ namespace mdsLINEComLib.MDSLTower
 
 	[NVP_Manifest(
 		Id = "C2E2EFB5-8848-438B-9D90-7957E6BF98B9", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLTower.isPrevBearing", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLTower", 
@@ -169,7 +169,7 @@ namespace mdsLINEComLib.MDSLTower
 
 	[NVP_Manifest(
 		Id = "AD6A4F66-2CF8-4CF9-ABE4-6B1104B97121", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLTower.isNextBearing", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLTower", 
@@ -196,7 +196,7 @@ namespace mdsLINEComLib.MDSLTower
 
 	[NVP_Manifest(
 		Id = "07C255A3-2CD2-44DB-B378-DE737E57FB47", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLTower.numInLine", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLTower", 
@@ -223,7 +223,7 @@ namespace mdsLINEComLib.MDSLTower
 
 	[NVP_Manifest(
 		Id = "67815A4A-4157-4C50-ABE7-5E905813702E", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLTower.HasOwner", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLTower", 
@@ -250,7 +250,7 @@ namespace mdsLINEComLib.MDSLTower
 
 	[NVP_Manifest(
 		Id = "48717425-7E5A-4EA3-9FF4-5F7DFF3DB87D", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLTower.Element", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLTower", 
@@ -277,7 +277,7 @@ namespace mdsLINEComLib.MDSLTower
 
 	[NVP_Manifest(
 		Id = "9CB760F1-0412-4D33-9717-9FECE775AEF1", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLTower.SketchFirst", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLTower", 
@@ -304,7 +304,7 @@ namespace mdsLINEComLib.MDSLTower
 
 	[NVP_Manifest(
 		Id = "BA16F8E7-F8E1-4D4F-932B-9786A36E79BB", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLTower.Wires", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLTower", 
@@ -331,7 +331,7 @@ namespace mdsLINEComLib.MDSLTower
 
 	[NVP_Manifest(
 		Id = "65432ADC-5679-48B2-92EA-56CCE9269CE7", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLTower.HasWireAtNode", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLTower", 
@@ -359,7 +359,7 @@ namespace mdsLINEComLib.MDSLTower
 
 	[NVP_Manifest(
 		Id = "299260D1-EB6B-4072-8279-1417E236A7E9", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLTower.FirstWireAtNode", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLTower", 
@@ -387,7 +387,7 @@ namespace mdsLINEComLib.MDSLTower
 
 	[NVP_Manifest(
 		Id = "8E1D9979-A0A3-4F09-BA3D-0EA249EB5E04", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLTower.WiresAtNode", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLTower", 
@@ -415,7 +415,7 @@ namespace mdsLINEComLib.MDSLTower
 
 	[NVP_Manifest(
 		Id = "842D8AA4-1758-4510-A0EF-330FF6F48E37", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLTower.TowerData", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLTower", 

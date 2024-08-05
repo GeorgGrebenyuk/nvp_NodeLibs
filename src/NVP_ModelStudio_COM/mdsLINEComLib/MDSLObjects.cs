@@ -12,7 +12,7 @@ namespace mdsLINEComLib.MDSLObjects
 
 	[NVP_Manifest(
 		Id = "5D54404F-CEDC-4858-8971-123180CB7D9E", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLObjects.MDSLObjects_Constructor", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLObjects", 
@@ -36,7 +36,7 @@ namespace mdsLINEComLib.MDSLObjects
 
 	[NVP_Manifest(
 		Id = "8F2D92B1-43F5-416A-9583-80CA73591A0F", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLObjects.MDSLObjects_ConstructorCast", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLObjects", 
@@ -61,7 +61,7 @@ namespace mdsLINEComLib.MDSLObjects
 
 	[NVP_Manifest(
 		Id = "86822CE0-25CD-4E4E-9149-54AC3091FB28", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLObjects.Item", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLObjects", 
@@ -88,7 +88,7 @@ namespace mdsLINEComLib.MDSLObjects
 
 	[NVP_Manifest(
 		Id = "4FCA3D1A-D9C2-4908-A2DE-8AC63022DC26", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLObjects.Count", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLObjects", 

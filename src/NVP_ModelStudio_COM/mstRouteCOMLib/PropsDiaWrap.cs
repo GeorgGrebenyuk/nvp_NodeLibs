@@ -12,7 +12,7 @@ namespace mstRouteCOMLib.PropsDiaWrap
 
 	[NVP_Manifest(
 		Id = "2754B391-7DB0-4E4B-BD6F-3A47DF2BB941", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstRouteCOMLib.PropsDiaWrap.PropsDiaWrap_Constructor", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstRouteCOMLib.PropsDiaWrap", 
@@ -36,7 +36,7 @@ namespace mstRouteCOMLib.PropsDiaWrap
 
 	[NVP_Manifest(
 		Id = "56F216C0-BD7B-4F9C-9421-7968C21572E0", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstRouteCOMLib.PropsDiaWrap.PropsDiaWrap_ConstructorCast", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstRouteCOMLib.PropsDiaWrap", 

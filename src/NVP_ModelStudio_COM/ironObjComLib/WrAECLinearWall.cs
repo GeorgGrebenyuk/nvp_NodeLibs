@@ -12,7 +12,7 @@ namespace ironObjComLib.WrAECLinearWall
 
 	[NVP_Manifest(
 		Id = "34D2BA9E-5E8B-459E-B6D9-C3CE4BCC2FB0", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECLinearWall.WrAECLinearWall_Constructor", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECLinearWall", 
@@ -36,7 +36,7 @@ namespace ironObjComLib.WrAECLinearWall
 
 	[NVP_Manifest(
 		Id = "D6332BB4-9D13-435B-9334-F5FCE52395DC", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECLinearWall.WrAECLinearWall_ConstructorCast", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECLinearWall", 

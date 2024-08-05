@@ -12,7 +12,7 @@ namespace ironObjComLib.WrAECPlate
 
 	[NVP_Manifest(
 		Id = "5969CAF6-19FC-4548-9788-CC8904B5DBB3", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECPlate.WrAECPlate_Constructor", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECPlate", 
@@ -36,7 +36,7 @@ namespace ironObjComLib.WrAECPlate
 
 	[NVP_Manifest(
 		Id = "3DB38CE0-B4E5-4A2E-B3B1-4FC9B9398FE5", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECPlate.WrAECPlate_ConstructorCast", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECPlate", 
@@ -61,7 +61,7 @@ namespace ironObjComLib.WrAECPlate
 
 	[NVP_Manifest(
 		Id = "098B45C4-BC26-42C7-9B3D-B84D66A00998", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECPlate.Thick", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECPlate", 
@@ -88,7 +88,7 @@ namespace ironObjComLib.WrAECPlate
 
 	[NVP_Manifest(
 		Id = "D099F0DE-0176-43D9-A9BC-3DDF486EC085", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECPlate.Set_Thick", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECPlate", 

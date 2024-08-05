@@ -12,7 +12,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "0BC56B54-8B0D-4E3F-A13F-73487AE79A45", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.MDSViewportFrame_Constructor", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -36,7 +36,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "D6625670-D5FD-44F8-A786-DB74C763B902", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.MDSViewportFrame_ConstructorCast", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -61,7 +61,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "27DF724E-5E56-4C62-BD32-435C2CA616FD", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.Name", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -88,7 +88,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "FF192A2E-082D-488F-9767-3C2F5E820768", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.Set_Name", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -116,7 +116,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "4274F9BA-0591-4BD6-B5EA-719F3576AD64", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.Profile", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -143,7 +143,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "B8D4EE24-6A6D-4C96-B7E2-EAA6F101F8D2", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.Set_Profile", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -171,7 +171,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "DD36F2FA-B800-41E7-864E-455789C793BA", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.Center", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -198,7 +198,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "1AE91B2D-D8AD-4150-89B1-A60A78154D92", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.Set_Center", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -226,7 +226,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "3F426FCA-5666-40CF-928A-5FE1629E484F", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.Direction", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -253,7 +253,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "1112E94D-2EFA-4321-8C4E-87211C0AA559", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.Set_Direction", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -281,7 +281,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "3FCE6169-89BD-4AB6-AC89-B419E376F4EA", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.Target", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -308,7 +308,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "C0980DF2-2EFD-420F-AC5F-32F72C5CB9B3", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.Set_Target", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -336,7 +336,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "72007F68-AB5A-4E48-B405-B292A7FE1D6E", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.Width", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -363,7 +363,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "65907842-75A5-4EB0-ABCD-49E581F60F39", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.Set_Width", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -391,7 +391,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "101E9D86-8EDA-488A-85BE-032176F1EECA", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.Height", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -418,7 +418,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "603EEDD8-B47E-42E5-8481-1E4F41F21240", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.Set_Height", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -446,7 +446,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "F5A0C179-808F-4334-8E2F-FBE3BC971933", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.CustomScale", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -473,7 +473,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "3706D1F5-171F-4F8D-9FE0-09A7ED52958A", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.Set_CustomScale", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -501,7 +501,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "2DFFA8E9-3EE1-4064-AD38-C8AA9C5E2A9D", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.Scale", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -528,7 +528,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "7EF5F7E2-E861-4A96-99C9-77E525839BAA", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.Set_Scale", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -556,7 +556,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "8A810476-705D-4EA0-8D02-070554FD901D", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.TwistAngle", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -583,7 +583,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "CF2C6573-3437-482A-9953-F71E07A8C83C", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.Set_TwistAngle", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -611,7 +611,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "0CC677DD-9BEB-4D2D-980F-4EE65FABAC20", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.FrontClip", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -638,7 +638,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "6CF66A0D-8B14-4010-B910-433A0F49EBDA", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.Set_FrontClip", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -666,7 +666,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "22AADB59-91FC-4F7A-8C30-74E9D8663920", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.FrontClipDistance", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -693,7 +693,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "3411DDD2-53FF-4135-AFA4-A5BEEC400291", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.Set_FrontClipDistance", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -721,7 +721,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "9B982EC7-E645-4C30-83B9-24564F6702B2", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.BackClip", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -748,7 +748,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "50138AD4-0093-4760-AEC8-78674E6B3F61", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.Set_BackClip", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -776,7 +776,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "240CB1E3-A0BC-41A1-A9DF-6EB1DD124672", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.BackClipDistance", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -803,7 +803,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "4E1F50B2-AD24-4E37-80EB-158BB2A10694", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.Set_BackClipDistance", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -831,7 +831,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "0516B345-A420-44D3-9CAD-13D4785F8940", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.XRefName", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -858,7 +858,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "6BA69ADE-BB7B-47BD-8CD8-8FAC67188B5B", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.Set_XRefName", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -886,7 +886,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "A7280BCB-0982-45DD-9E2C-053B5D831F5C", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.ProjectionType", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -913,7 +913,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "572865AE-E79E-4465-ACB6-8CD6E1CD054D", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.SelectionType", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -940,7 +940,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "8D9D579B-D592-4349-8B62-4A7CF4C8124C", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.Set_SelectionType", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -968,7 +968,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "CFC7E7E4-1478-4310-B994-F14B82F0F895", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.ObjectFilter", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -995,7 +995,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "481216E4-60B2-4DE4-97FC-2782E95D5E2E", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.Set_ObjectFilter", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -1023,7 +1023,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "44DAD469-5D97-4116-A6D0-4004C3F4FA48", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.Quality", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -1050,7 +1050,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "28B86AEE-43C1-4EA8-9EDC-31968BFAE6AD", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.Set_Quality", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -1078,7 +1078,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "D2DBC7EE-5A8A-4533-817B-9B2267710DB3", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.LOD", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -1105,7 +1105,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "C1FDDE53-223F-4C2F-B5C1-CA5DB6E9E418", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.Set_LOD", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -1133,7 +1133,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "CC9A89CE-E4FF-4906-A773-3BCACBCB3847", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.GenerateInvisibleLines", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -1160,7 +1160,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "EBD9B336-1814-4633-AB06-40922CF698C9", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.Set_GenerateInvisibleLines", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -1188,7 +1188,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "D5A31705-8385-4FFE-8ADD-0DDB9CB119FD", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.LabelTextVisible", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -1215,7 +1215,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "22F5B7D1-C803-4952-A31B-C23DE005DEE5", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.Set_LabelTextVisible", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -1243,7 +1243,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "02B1012F-25C4-49BF-9A44-E26FB96B5368", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.LabelTextExpression", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -1270,7 +1270,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "736C4DB3-8471-4ACC-9161-900FAB8398CC", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.Set_LabelTextExpression", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -1298,7 +1298,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "F82E4870-A94B-4FE7-A5E0-5C20CF205EA8", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.LabelTextStyle", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -1325,7 +1325,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "F90440E0-AC4C-499B-8159-91791EB3B8E1", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.Set_LabelTextStyle", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -1353,7 +1353,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "24C23CFD-22C9-4060-A986-9144896CF8B7", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.LabelTextHeight", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -1380,7 +1380,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "632274FF-A337-400A-A756-BE86600FE4FA", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.Set_LabelTextHeight", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -1408,7 +1408,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "D847350A-8A16-4C36-B875-2D029EC2B41E", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.LabelTextPosition", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -1435,7 +1435,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "92C1200C-2B51-4EC2-B692-9B2855783611", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.Set_LabelTextPosition", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -1463,7 +1463,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "F45C4E56-E8E2-4BB1-A906-079A151B9DEF", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.LabelTextOffsetX", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -1490,7 +1490,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "F2A66B71-3453-493F-81C9-AEC6A4605547", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.Set_LabelTextOffsetX", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -1518,7 +1518,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "95763CCD-240F-4053-9C74-4D6A85AA89D2", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.LabelTextOffsetY", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -1545,7 +1545,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "EAF3DD03-5B77-4EF5-B6B5-3AE0011946E0", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.Set_LabelTextOffsetY", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -1573,7 +1573,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "E111E780-46D4-4F40-832D-72021A24F10C", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.LabelFrame", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -1600,7 +1600,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "FBF6DAC7-908A-436F-BE6A-41F399DD177A", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.Set_LabelFrame", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -1628,7 +1628,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "FC15FDC5-CE91-49B0-9859-E507724E3039", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.LabelFrameOffsX", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -1655,7 +1655,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "E0AD6E80-2603-43FE-A57D-AAEC1CB8860F", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.Set_LabelFrameOffsX", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -1683,7 +1683,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "4F27F45B-F0B4-4E14-A721-06A8DA964563", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.LabelFrameOffsY", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -1710,7 +1710,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "ABE7B096-E4D4-4766-94FB-95097871A1A5", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.Set_LabelFrameOffsY", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -1738,7 +1738,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "BCA6F838-20B7-400F-9941-4600930C133C", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.FrameLayer", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -1765,7 +1765,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "FEE9833F-CD6C-48E0-91F1-4BDDE945FD7F", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.Set_FrameLayer", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -1793,7 +1793,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "8513408D-6D0E-4853-9816-1165950695E4", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.PrintFrame", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 
@@ -1820,7 +1820,7 @@ namespace mdsUnitsLib.MDSViewportFrame
 
 	[NVP_Manifest(
 		Id = "B9B78A8C-FDB5-4D5D-8807-EE838F24747D", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSViewportFrame.Set_PrintFrame", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSViewportFrame", 

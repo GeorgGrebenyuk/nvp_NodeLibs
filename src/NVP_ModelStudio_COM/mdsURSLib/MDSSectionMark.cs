@@ -12,7 +12,7 @@ namespace mdsURSLib.MDSSectionMark
 
 	[NVP_Manifest(
 		Id = "7606F641-4EBA-49C7-BC99-DE542D4A0C75", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsURSLib.MDSSectionMark.MDSSectionMark_Constructor", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsURSLib.MDSSectionMark", 
@@ -36,7 +36,7 @@ namespace mdsURSLib.MDSSectionMark
 
 	[NVP_Manifest(
 		Id = "E74DBEFC-4455-477C-9A25-CC5526A56F94", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsURSLib.MDSSectionMark.MDSSectionMark_ConstructorCast", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsURSLib.MDSSectionMark", 
@@ -61,7 +61,7 @@ namespace mdsURSLib.MDSSectionMark
 
 	[NVP_Manifest(
 		Id = "EE937C34-4C81-48C4-A22D-C0653BB8BDB5", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsURSLib.MDSSectionMark.SectNumber", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsURSLib.MDSSectionMark", 
@@ -88,7 +88,7 @@ namespace mdsURSLib.MDSSectionMark
 
 	[NVP_Manifest(
 		Id = "0CE408BD-7A9D-4ACB-B5A2-67CCF00661D4", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsURSLib.MDSSectionMark.Set_SectNumber", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsURSLib.MDSSectionMark", 
@@ -116,7 +116,7 @@ namespace mdsURSLib.MDSSectionMark
 
 	[NVP_Manifest(
 		Id = "A2A3661C-FD4E-4FC0-8800-933BDE661741", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsURSLib.MDSSectionMark.PageNumber", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsURSLib.MDSSectionMark", 
@@ -143,7 +143,7 @@ namespace mdsURSLib.MDSSectionMark
 
 	[NVP_Manifest(
 		Id = "BE2BBA6C-AE48-4FD5-8112-6BFD88CE42F0", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsURSLib.MDSSectionMark.Set_PageNumber", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsURSLib.MDSSectionMark", 
@@ -171,7 +171,7 @@ namespace mdsURSLib.MDSSectionMark
 
 	[NVP_Manifest(
 		Id = "91CD3774-B10E-4F83-A9D5-688F92DC5990", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsURSLib.MDSSectionMark.ViewportType", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsURSLib.MDSSectionMark", 
@@ -198,7 +198,7 @@ namespace mdsURSLib.MDSSectionMark
 
 	[NVP_Manifest(
 		Id = "D8D43454-FEA8-4592-836A-F137BE56FA84", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsURSLib.MDSSectionMark.TextStyle", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsURSLib.MDSSectionMark", 
@@ -225,7 +225,7 @@ namespace mdsURSLib.MDSSectionMark
 
 	[NVP_Manifest(
 		Id = "960571E2-0131-42A8-B636-C2C469FDCD9C", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsURSLib.MDSSectionMark.Set_TextStyle", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsURSLib.MDSSectionMark", 
@@ -253,7 +253,7 @@ namespace mdsURSLib.MDSSectionMark
 
 	[NVP_Manifest(
 		Id = "A5EC4811-8934-4FF4-A04C-1971F309A2AB", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsURSLib.MDSSectionMark.NumbTxtHght", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsURSLib.MDSSectionMark", 
@@ -280,7 +280,7 @@ namespace mdsURSLib.MDSSectionMark
 
 	[NVP_Manifest(
 		Id = "6CCAB4B4-A21D-43D3-A1BD-97C9BB9D47F9", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsURSLib.MDSSectionMark.Set_NumbTxtHght", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsURSLib.MDSSectionMark", 
@@ -308,7 +308,7 @@ namespace mdsURSLib.MDSSectionMark
 
 	[NVP_Manifest(
 		Id = "4390694D-3153-4153-8E8F-C4F62737BC3C", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsURSLib.MDSSectionMark.PageTxtHght", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsURSLib.MDSSectionMark", 
@@ -335,7 +335,7 @@ namespace mdsURSLib.MDSSectionMark
 
 	[NVP_Manifest(
 		Id = "48CA0DD3-0E40-4802-B39B-1FD3DA79ADD1", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsURSLib.MDSSectionMark.Set_PageTxtHght", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsURSLib.MDSSectionMark", 
@@ -363,7 +363,7 @@ namespace mdsURSLib.MDSSectionMark
 
 	[NVP_Manifest(
 		Id = "350A44B5-2F04-498E-8B79-1470D7B864E8", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsURSLib.MDSSectionMark.StrokeLng", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsURSLib.MDSSectionMark", 
@@ -390,7 +390,7 @@ namespace mdsURSLib.MDSSectionMark
 
 	[NVP_Manifest(
 		Id = "CAF96606-15CC-4589-8795-CF3ECDAC2C35", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsURSLib.MDSSectionMark.Set_StrokeLng", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsURSLib.MDSSectionMark", 

@@ -12,7 +12,7 @@ namespace ironObjComLib.IrnParentProp
 
 	[NVP_Manifest(
 		Id = "7A4A631B-75B1-4081-ABDD-C07E82D1EC13", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.IrnParentProp.IrnParentProp_Constructor", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.IrnParentProp", 
@@ -36,7 +36,7 @@ namespace ironObjComLib.IrnParentProp
 
 	[NVP_Manifest(
 		Id = "B61D751A-D02A-4890-B0BC-2001C8C1CD97", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.IrnParentProp.IrnParentProp_ConstructorCast", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.IrnParentProp", 

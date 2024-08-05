@@ -12,7 +12,7 @@ namespace ironObjComLib.WrAECArcSurface
 
 	[NVP_Manifest(
 		Id = "DB67FD89-3D46-4D2B-B3F0-79A1B1C09495", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECArcSurface.WrAECArcSurface_Constructor", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECArcSurface", 
@@ -36,7 +36,7 @@ namespace ironObjComLib.WrAECArcSurface
 
 	[NVP_Manifest(
 		Id = "84D1E160-071D-41C9-B570-1E9BF27C0570", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECArcSurface.WrAECArcSurface_ConstructorCast", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECArcSurface", 
@@ -61,7 +61,7 @@ namespace ironObjComLib.WrAECArcSurface
 
 	[NVP_Manifest(
 		Id = "3BC7EBB7-A063-4066-9FED-7135B66EF241", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECArcSurface.Radius", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECArcSurface", 
@@ -88,7 +88,7 @@ namespace ironObjComLib.WrAECArcSurface
 
 	[NVP_Manifest(
 		Id = "A3A42587-4125-476C-B6E2-C70BBC5B5A00", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECArcSurface.Set_Radius", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECArcSurface", 
@@ -116,7 +116,7 @@ namespace ironObjComLib.WrAECArcSurface
 
 	[NVP_Manifest(
 		Id = "2FACCFAD-E09F-4AF9-B7E2-5F50109327BD", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECArcSurface.Angle", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECArcSurface", 
@@ -143,7 +143,7 @@ namespace ironObjComLib.WrAECArcSurface
 
 	[NVP_Manifest(
 		Id = "35BFA980-DB83-4B09-A9B7-9AF9C79E7813", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECArcSurface.Set_Angle", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECArcSurface", 

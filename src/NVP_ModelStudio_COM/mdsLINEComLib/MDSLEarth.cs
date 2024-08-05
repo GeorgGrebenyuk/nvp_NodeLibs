@@ -12,7 +12,7 @@ namespace mdsLINEComLib.MDSLEarth
 
 	[NVP_Manifest(
 		Id = "2FAF4A00-528D-4413-85FB-6386719A7045", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLEarth.MDSLEarth_Constructor", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLEarth", 
@@ -36,7 +36,7 @@ namespace mdsLINEComLib.MDSLEarth
 
 	[NVP_Manifest(
 		Id = "4EF8F503-C293-4BC9-AF04-98DB8F6E6C73", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLEarth.MDSLEarth_ConstructorCast", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLEarth", 
@@ -61,7 +61,7 @@ namespace mdsLINEComLib.MDSLEarth
 
 	[NVP_Manifest(
 		Id = "3AFB6353-8D3A-462A-99B5-C025D59A003B", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLEarth.Element", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLEarth", 
@@ -88,7 +88,7 @@ namespace mdsLINEComLib.MDSLEarth
 
 	[NVP_Manifest(
 		Id = "D53405D5-901E-4E1D-863A-B6A76FE9ACD1", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLEarth.Set_Element", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLEarth", 
@@ -116,7 +116,7 @@ namespace mdsLINEComLib.MDSLEarth
 
 	[NVP_Manifest(
 		Id = "FCF4FE49-5523-49CD-9DBD-4503289310B3", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLEarth.GetElevation", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLEarth", 
@@ -143,7 +143,7 @@ namespace mdsLINEComLib.MDSLEarth
 
 	[NVP_Manifest(
 		Id = "92E639A0-BE2B-4905-8B50-863897A31BCD", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLEarth.GetPointsCount", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLEarth", 
@@ -170,7 +170,7 @@ namespace mdsLINEComLib.MDSLEarth
 
 	[NVP_Manifest(
 		Id = "93DC84E3-6DFE-4E7F-8994-FD6A130198EA", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLEarth.GetPoint", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLEarth", 
@@ -199,7 +199,7 @@ namespace mdsLINEComLib.MDSLEarth
 
 	[NVP_Manifest(
 		Id = "74917E47-2F61-4468-9ED8-708B4A977010", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLEarth.GetStation", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLEarth", 
@@ -228,7 +228,7 @@ namespace mdsLINEComLib.MDSLEarth
 
 	[NVP_Manifest(
 		Id = "9BA453BC-7041-4E53-B5CD-A19B4F42E30E", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLEarth.owner", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLEarth", 

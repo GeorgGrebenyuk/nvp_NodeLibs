@@ -13,7 +13,7 @@ namespace mdsURSLib.enum___MIDL___MIDL_itf_URS_0000_0006_0002
 
 	[NVP_Manifest(
 		Id = "B718EE90-60E9-4067-80E3-416C70175013", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsURSLib.enum___MIDL___MIDL_itf_URS_0000_0006_0002.enum_grBindNone", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsURSLib.enum___MIDL___MIDL_itf_URS_0000_0006_0002", 
@@ -38,7 +38,7 @@ namespace mdsURSLib.enum___MIDL___MIDL_itf_URS_0000_0006_0002
 
 	[NVP_Manifest(
 		Id = "C7F46A94-F073-4AB5-BA9C-EC23A7A041B7", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsURSLib.enum___MIDL___MIDL_itf_URS_0000_0006_0002.enum_grBindX", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsURSLib.enum___MIDL___MIDL_itf_URS_0000_0006_0002", 
@@ -63,7 +63,7 @@ namespace mdsURSLib.enum___MIDL___MIDL_itf_URS_0000_0006_0002
 
 	[NVP_Manifest(
 		Id = "50557C22-EDD2-4518-A7A0-61D8024748F6", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsURSLib.enum___MIDL___MIDL_itf_URS_0000_0006_0002.enum_grBindY", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsURSLib.enum___MIDL___MIDL_itf_URS_0000_0006_0002", 
@@ -88,7 +88,7 @@ namespace mdsURSLib.enum___MIDL___MIDL_itf_URS_0000_0006_0002
 
 	[NVP_Manifest(
 		Id = "5BF204E0-224B-49BE-96C4-A8B5C3473000", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsURSLib.enum___MIDL___MIDL_itf_URS_0000_0006_0002.enum_grBindZ", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsURSLib.enum___MIDL___MIDL_itf_URS_0000_0006_0002", 
@@ -113,7 +113,7 @@ namespace mdsURSLib.enum___MIDL___MIDL_itf_URS_0000_0006_0002
 
 	[NVP_Manifest(
 		Id = "24A24DC2-D1E2-4DE8-91EF-6601E8093895", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsURSLib.enum___MIDL___MIDL_itf_URS_0000_0006_0002.enum_grBindAll", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsURSLib.enum___MIDL___MIDL_itf_URS_0000_0006_0002", 

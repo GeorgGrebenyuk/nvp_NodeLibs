@@ -12,7 +12,7 @@ namespace mstRouteCOMLib.mstRoutePrototype
 
 	[NVP_Manifest(
 		Id = "A1980669-7404-4300-8E2D-155B8803ACCF", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstRouteCOMLib.mstRoutePrototype.mstRoutePrototype_Constructor", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstRouteCOMLib.mstRoutePrototype", 
@@ -36,7 +36,7 @@ namespace mstRouteCOMLib.mstRoutePrototype
 
 	[NVP_Manifest(
 		Id = "F17A6A27-87B6-447F-8D26-1D1087F96A9C", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstRouteCOMLib.mstRoutePrototype.mstRoutePrototype_ConstructorCast", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstRouteCOMLib.mstRoutePrototype", 
@@ -61,7 +61,7 @@ namespace mstRouteCOMLib.mstRoutePrototype
 
 	[NVP_Manifest(
 		Id = "4E9756D9-BF8C-4FDD-92CE-503AC3645991", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstRouteCOMLib.mstRoutePrototype.StartPosition", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstRouteCOMLib.mstRoutePrototype", 
@@ -88,7 +88,7 @@ namespace mstRouteCOMLib.mstRoutePrototype
 
 	[NVP_Manifest(
 		Id = "2F370381-16D3-4A8A-B2DB-65048A1A535C", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstRouteCOMLib.mstRoutePrototype.Set_StartPosition", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstRouteCOMLib.mstRoutePrototype", 
@@ -116,7 +116,7 @@ namespace mstRouteCOMLib.mstRoutePrototype
 
 	[NVP_Manifest(
 		Id = "83E9D0E8-8B07-424E-8403-3D98758A956A", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstRouteCOMLib.mstRoutePrototype.EndPosition", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstRouteCOMLib.mstRoutePrototype", 
@@ -143,7 +143,7 @@ namespace mstRouteCOMLib.mstRoutePrototype
 
 	[NVP_Manifest(
 		Id = "9E047657-B184-49DC-A60A-0AE26AB2B3BC", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstRouteCOMLib.mstRoutePrototype.Set_EndPosition", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstRouteCOMLib.mstRoutePrototype", 
@@ -171,7 +171,7 @@ namespace mstRouteCOMLib.mstRoutePrototype
 
 	[NVP_Manifest(
 		Id = "690DEC75-A8EA-4999-A3EF-A1C35BF9BF5D", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstRouteCOMLib.mstRoutePrototype.Element", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstRouteCOMLib.mstRoutePrototype", 
@@ -198,7 +198,7 @@ namespace mstRouteCOMLib.mstRoutePrototype
 
 	[NVP_Manifest(
 		Id = "CBC4449A-706F-49DE-8911-64C6E066EA56", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstRouteCOMLib.mstRoutePrototype.Set_Element", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstRouteCOMLib.mstRoutePrototype", 
@@ -226,7 +226,7 @@ namespace mstRouteCOMLib.mstRoutePrototype
 
 	[NVP_Manifest(
 		Id = "A19FC422-DE07-4ED0-8CD2-207FF6D4D6FB", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstRouteCOMLib.mstRoutePrototype.Shelves", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstRouteCOMLib.mstRoutePrototype", 
@@ -253,7 +253,7 @@ namespace mstRouteCOMLib.mstRoutePrototype
 
 	[NVP_Manifest(
 		Id = "541F0303-4F9A-4AD1-81E4-8DE4F495D45C", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstRouteCOMLib.mstRoutePrototype.Set_Shelves", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstRouteCOMLib.mstRoutePrototype", 
@@ -281,7 +281,7 @@ namespace mstRouteCOMLib.mstRoutePrototype
 
 	[NVP_Manifest(
 		Id = "9C895CAD-99E7-4D4E-86E9-0C74893266F4", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstRouteCOMLib.mstRoutePrototype.Normal", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstRouteCOMLib.mstRoutePrototype", 
@@ -308,7 +308,7 @@ namespace mstRouteCOMLib.mstRoutePrototype
 
 	[NVP_Manifest(
 		Id = "3AE41DA1-3AFA-48FA-93AE-B24564A697E0", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstRouteCOMLib.mstRoutePrototype.Set_Normal", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstRouteCOMLib.mstRoutePrototype", 
@@ -336,7 +336,7 @@ namespace mstRouteCOMLib.mstRoutePrototype
 
 	[NVP_Manifest(
 		Id = "FABC5689-4FE6-404C-A2BA-827D68616A98", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstRouteCOMLib.mstRoutePrototype.Length", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstRouteCOMLib.mstRoutePrototype", 
@@ -363,7 +363,7 @@ namespace mstRouteCOMLib.mstRoutePrototype
 
 	[NVP_Manifest(
 		Id = "3EF601A5-DF0F-4585-85F3-08C1BE53AB19", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstRouteCOMLib.mstRoutePrototype.Set_Length", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstRouteCOMLib.mstRoutePrototype", 
@@ -391,7 +391,7 @@ namespace mstRouteCOMLib.mstRoutePrototype
 
 	[NVP_Manifest(
 		Id = "0B505629-D279-4B6C-BA07-2B0D56C557E1", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstRouteCOMLib.mstRoutePrototype.Radius", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstRouteCOMLib.mstRoutePrototype", 
@@ -418,7 +418,7 @@ namespace mstRouteCOMLib.mstRoutePrototype
 
 	[NVP_Manifest(
 		Id = "70298D29-67BA-4576-85CB-5C4A35E4E992", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstRouteCOMLib.mstRoutePrototype.Set_Radius", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstRouteCOMLib.mstRoutePrototype", 
@@ -446,7 +446,7 @@ namespace mstRouteCOMLib.mstRoutePrototype
 
 	[NVP_Manifest(
 		Id = "149AF047-2DAD-49AC-9B2A-905FE4DC6C2D", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstRouteCOMLib.mstRoutePrototype.ProfileType", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstRouteCOMLib.mstRoutePrototype", 
@@ -473,7 +473,7 @@ namespace mstRouteCOMLib.mstRoutePrototype
 
 	[NVP_Manifest(
 		Id = "3A27069F-5563-49CE-AB56-94DB164B150C", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstRouteCOMLib.mstRoutePrototype.Set_ProfileType", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstRouteCOMLib.mstRoutePrototype", 
@@ -501,7 +501,7 @@ namespace mstRouteCOMLib.mstRoutePrototype
 
 	[NVP_Manifest(
 		Id = "706DF5C0-956A-4691-AC45-6D7D9F67BBBC", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstRouteCOMLib.mstRoutePrototype.BendType", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstRouteCOMLib.mstRoutePrototype", 
@@ -528,7 +528,7 @@ namespace mstRouteCOMLib.mstRoutePrototype
 
 	[NVP_Manifest(
 		Id = "123CFF26-05C6-4FF0-B828-378EE790C3CD", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstRouteCOMLib.mstRoutePrototype.Set_BendType", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstRouteCOMLib.mstRoutePrototype", 
@@ -556,7 +556,7 @@ namespace mstRouteCOMLib.mstRoutePrototype
 
 	[NVP_Manifest(
 		Id = "46819FFB-11AD-43D3-888E-96DF09710A01", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstRouteCOMLib.mstRoutePrototype.ShowDir", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstRouteCOMLib.mstRoutePrototype", 
@@ -583,7 +583,7 @@ namespace mstRouteCOMLib.mstRoutePrototype
 
 	[NVP_Manifest(
 		Id = "B5FB6608-AE92-4276-AF8D-CB2C171F353A", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstRouteCOMLib.mstRoutePrototype.Set_ShowDir", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstRouteCOMLib.mstRoutePrototype", 

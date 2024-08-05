@@ -12,7 +12,7 @@ namespace mstProjectCOMLib.mstProjectDummy
 
 	[NVP_Manifest(
 		Id = "1BA5BD61-6A27-46D8-9330-CDCC2BAAFFD6", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstProjectCOMLib.mstProjectDummy.mstProjectDummy_Constructor", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstProjectCOMLib.mstProjectDummy", 
@@ -36,7 +36,7 @@ namespace mstProjectCOMLib.mstProjectDummy
 
 	[NVP_Manifest(
 		Id = "00026221-8939-450F-A37D-3DBAAA336F9B", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstProjectCOMLib.mstProjectDummy.mstProjectDummy_ConstructorCast", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstProjectCOMLib.mstProjectDummy", 
@@ -61,7 +61,7 @@ namespace mstProjectCOMLib.mstProjectDummy
 
 	[NVP_Manifest(
 		Id = "89821053-767D-4835-B88D-9700D632F1E1", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstProjectCOMLib.mstProjectDummy.Element", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstProjectCOMLib.mstProjectDummy", 
@@ -88,7 +88,7 @@ namespace mstProjectCOMLib.mstProjectDummy
 
 	[NVP_Manifest(
 		Id = "D5BA23C4-E550-4DEE-BD28-80FA83D2A833", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstProjectCOMLib.mstProjectDummy.Set_Element", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstProjectCOMLib.mstProjectDummy", 
@@ -116,7 +116,7 @@ namespace mstProjectCOMLib.mstProjectDummy
 
 	[NVP_Manifest(
 		Id = "B2B86109-3839-48D9-A6D2-BAE387FC33C4", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstProjectCOMLib.mstProjectDummy.ParametricData", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstProjectCOMLib.mstProjectDummy", 
@@ -143,7 +143,7 @@ namespace mstProjectCOMLib.mstProjectDummy
 
 	[NVP_Manifest(
 		Id = "8C588BC4-E0A8-4CAB-A00D-4026E38D3610", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstProjectCOMLib.mstProjectDummy.UnitPosition", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstProjectCOMLib.mstProjectDummy", 
@@ -170,7 +170,7 @@ namespace mstProjectCOMLib.mstProjectDummy
 
 	[NVP_Manifest(
 		Id = "391CE7F2-999F-4653-8FA0-34A02EFA3393", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstProjectCOMLib.mstProjectDummy.UnitName", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstProjectCOMLib.mstProjectDummy", 
@@ -197,7 +197,7 @@ namespace mstProjectCOMLib.mstProjectDummy
 
 	[NVP_Manifest(
 		Id = "DD126E4C-5014-41E2-9936-C279724F25AD", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstProjectCOMLib.mstProjectDummy.AxisLength", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstProjectCOMLib.mstProjectDummy", 
@@ -224,7 +224,7 @@ namespace mstProjectCOMLib.mstProjectDummy
 
 	[NVP_Manifest(
 		Id = "A6AFF346-45A6-419B-A8C5-2D48F3FA25B2", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstProjectCOMLib.mstProjectDummy.Part_Name", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstProjectCOMLib.mstProjectDummy", 
@@ -251,7 +251,7 @@ namespace mstProjectCOMLib.mstProjectDummy
 
 	[NVP_Manifest(
 		Id = "8D7F2E93-73E4-4D8E-8A80-B3518D270B5A", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstProjectCOMLib.mstProjectDummy.Part_Tag", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstProjectCOMLib.mstProjectDummy", 
@@ -278,7 +278,7 @@ namespace mstProjectCOMLib.mstProjectDummy
 
 	[NVP_Manifest(
 		Id = "99EA33BC-14B7-4C70-A9E6-4385835E8DB0", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstProjectCOMLib.mstProjectDummy.Part_Manufacturer", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstProjectCOMLib.mstProjectDummy", 
@@ -305,7 +305,7 @@ namespace mstProjectCOMLib.mstProjectDummy
 
 	[NVP_Manifest(
 		Id = "BA2F49CA-6C95-4B27-97BC-D3EDA57BDDFF", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstProjectCOMLib.mstProjectDummy.Part_Standard", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstProjectCOMLib.mstProjectDummy", 
@@ -332,7 +332,7 @@ namespace mstProjectCOMLib.mstProjectDummy
 
 	[NVP_Manifest(
 		Id = "5297B5FD-0249-4FAA-8045-D609F4559B74", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstProjectCOMLib.mstProjectDummy.Part_Refdrawing", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstProjectCOMLib.mstProjectDummy", 
@@ -359,7 +359,7 @@ namespace mstProjectCOMLib.mstProjectDummy
 
 	[NVP_Manifest(
 		Id = "D0179833-EC17-4A93-BF2D-2D5BF29C28C1", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstProjectCOMLib.mstProjectDummy.Part_Material", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstProjectCOMLib.mstProjectDummy", 
@@ -386,7 +386,7 @@ namespace mstProjectCOMLib.mstProjectDummy
 
 	[NVP_Manifest(
 		Id = "A39ACBCA-5B44-4ACF-9F26-2A644EA9591D", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstProjectCOMLib.mstProjectDummy.Part_Material_Standard", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstProjectCOMLib.mstProjectDummy", 
@@ -413,7 +413,7 @@ namespace mstProjectCOMLib.mstProjectDummy
 
 	[NVP_Manifest(
 		Id = "2B81F6F4-B017-4177-8EFC-B7E2C29AF188", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstProjectCOMLib.mstProjectDummy.Part_Weight", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstProjectCOMLib.mstProjectDummy", 
@@ -440,7 +440,7 @@ namespace mstProjectCOMLib.mstProjectDummy
 
 	[NVP_Manifest(
 		Id = "36E998DB-DA46-4DE8-9328-844CFF3F8FC2", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstProjectCOMLib.mstProjectDummy.Part_Comment", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstProjectCOMLib.mstProjectDummy", 
@@ -467,7 +467,7 @@ namespace mstProjectCOMLib.mstProjectDummy
 
 	[NVP_Manifest(
 		Id = "0CEA213A-511D-4E2C-A44C-1EC5C000CCE6", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstProjectCOMLib.mstProjectDummy.Part_Group", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstProjectCOMLib.mstProjectDummy", 
@@ -494,7 +494,7 @@ namespace mstProjectCOMLib.mstProjectDummy
 
 	[NVP_Manifest(
 		Id = "1EBAFD7E-8F64-4F11-B729-9CFAF958C3F2", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstProjectCOMLib.mstProjectDummy.Part_Type", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstProjectCOMLib.mstProjectDummy", 
@@ -521,7 +521,7 @@ namespace mstProjectCOMLib.mstProjectDummy
 
 	[NVP_Manifest(
 		Id = "D2C02E7E-6A23-426A-A180-598F8D543F5C", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstProjectCOMLib.mstProjectDummy.Part_Reference", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstProjectCOMLib.mstProjectDummy", 
@@ -548,7 +548,7 @@ namespace mstProjectCOMLib.mstProjectDummy
 
 	[NVP_Manifest(
 		Id = "30E6601E-3780-42A4-8D93-CF2F011DC3E5", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstProjectCOMLib.mstProjectDummy.Part_Weight_Netto", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstProjectCOMLib.mstProjectDummy", 
@@ -575,7 +575,7 @@ namespace mstProjectCOMLib.mstProjectDummy
 
 	[NVP_Manifest(
 		Id = "2698801C-DE86-46AE-935C-34D93416C5C1", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstProjectCOMLib.mstProjectDummy.Part_Weight_Bruto", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstProjectCOMLib.mstProjectDummy", 
@@ -602,7 +602,7 @@ namespace mstProjectCOMLib.mstProjectDummy
 
 	[NVP_Manifest(
 		Id = "9251CD4F-973F-4691-BFCE-0604F91271E4", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstProjectCOMLib.mstProjectDummy.Explication_Include", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstProjectCOMLib.mstProjectDummy", 
@@ -629,7 +629,7 @@ namespace mstProjectCOMLib.mstProjectDummy
 
 	[NVP_Manifest(
 		Id = "8269DCF1-A27E-4B4C-913F-45FE2E8919F3", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstProjectCOMLib.mstProjectDummy.Explication_Number", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstProjectCOMLib.mstProjectDummy", 
@@ -656,7 +656,7 @@ namespace mstProjectCOMLib.mstProjectDummy
 
 	[NVP_Manifest(
 		Id = "3F65C034-BDC7-4B11-9ACB-D37AF3C26C6A", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstProjectCOMLib.mstProjectDummy.Explication_Group", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstProjectCOMLib.mstProjectDummy", 
@@ -683,7 +683,7 @@ namespace mstProjectCOMLib.mstProjectDummy
 
 	[NVP_Manifest(
 		Id = "68B98374-CAF7-427F-A18D-F8337ADEF5D5", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstProjectCOMLib.mstProjectDummy.Explication_Comment", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstProjectCOMLib.mstProjectDummy", 
@@ -710,7 +710,7 @@ namespace mstProjectCOMLib.mstProjectDummy
 
 	[NVP_Manifest(
 		Id = "9B81DA30-8887-4B81-BE55-37FD9A407AC7", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstProjectCOMLib.mstProjectDummy.Bom_Include", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstProjectCOMLib.mstProjectDummy", 
@@ -737,7 +737,7 @@ namespace mstProjectCOMLib.mstProjectDummy
 
 	[NVP_Manifest(
 		Id = "2677FDC9-F8FE-4D01-952F-78F515F45660", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstProjectCOMLib.mstProjectDummy.Bom_Number", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstProjectCOMLib.mstProjectDummy", 
@@ -764,7 +764,7 @@ namespace mstProjectCOMLib.mstProjectDummy
 
 	[NVP_Manifest(
 		Id = "0072CA12-DB25-410D-AB2A-0B5D020CC99C", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstProjectCOMLib.mstProjectDummy.Bom_Group", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstProjectCOMLib.mstProjectDummy", 
@@ -791,7 +791,7 @@ namespace mstProjectCOMLib.mstProjectDummy
 
 	[NVP_Manifest(
 		Id = "D3239A96-92B9-44F6-B73C-0CDAB471A18C", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstProjectCOMLib.mstProjectDummy.Bom_Qty", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstProjectCOMLib.mstProjectDummy", 
@@ -818,7 +818,7 @@ namespace mstProjectCOMLib.mstProjectDummy
 
 	[NVP_Manifest(
 		Id = "549A627E-EA0D-48E2-9147-46E8A8CD4839", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstProjectCOMLib.mstProjectDummy.Bom_Comment", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstProjectCOMLib.mstProjectDummy", 
@@ -845,7 +845,7 @@ namespace mstProjectCOMLib.mstProjectDummy
 
 	[NVP_Manifest(
 		Id = "408DBF74-3395-45F5-8EE4-19087038FA2C", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstProjectCOMLib.mstProjectDummy.AxisNodeStart", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstProjectCOMLib.mstProjectDummy", 
@@ -872,7 +872,7 @@ namespace mstProjectCOMLib.mstProjectDummy
 
 	[NVP_Manifest(
 		Id = "D9D25222-E692-40DF-87C6-5F298B8BBD80", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstProjectCOMLib.mstProjectDummy.AxisNodeEnd", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstProjectCOMLib.mstProjectDummy", 

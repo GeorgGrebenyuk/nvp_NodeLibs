@@ -12,7 +12,7 @@ namespace ironObjComLib.ConcreteDiaProp
 
 	[NVP_Manifest(
 		Id = "10090289-A296-426B-8B2A-3E430E742A54", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.ConcreteDiaProp.ConcreteDiaProp_Constructor", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.ConcreteDiaProp", 
@@ -36,7 +36,7 @@ namespace ironObjComLib.ConcreteDiaProp
 
 	[NVP_Manifest(
 		Id = "80635E7F-D8CF-4D2A-882A-8796C5AC4D59", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.ConcreteDiaProp.ConcreteDiaProp_ConstructorCast", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.ConcreteDiaProp", 

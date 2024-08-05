@@ -12,7 +12,7 @@ namespace mdsLINEComLib.MDSLIntermSketch
 
 	[NVP_Manifest(
 		Id = "37A1B275-B020-4F55-86A8-9D4581FFE860", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLIntermSketch.MDSLIntermSketch_Constructor", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLIntermSketch", 
@@ -36,7 +36,7 @@ namespace mdsLINEComLib.MDSLIntermSketch
 
 	[NVP_Manifest(
 		Id = "A02FA53E-D2E0-4562-B5BC-BEF8A64DB890", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLIntermSketch.MDSLIntermSketch_ConstructorCast", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLIntermSketch", 

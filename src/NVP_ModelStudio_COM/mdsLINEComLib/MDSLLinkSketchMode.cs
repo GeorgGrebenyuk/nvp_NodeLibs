@@ -12,7 +12,7 @@ namespace mdsLINEComLib.MDSLLinkSketchMode
 
 	[NVP_Manifest(
 		Id = "7A8BE0C5-0A5C-4C23-8FC6-EAA8E6D28AAB", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLLinkSketchMode.MDSLLinkSketchMode_Constructor", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLLinkSketchMode", 
@@ -36,7 +36,7 @@ namespace mdsLINEComLib.MDSLLinkSketchMode
 
 	[NVP_Manifest(
 		Id = "047D19C2-EB38-451D-8E75-73FBA425A06D", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLLinkSketchMode.MDSLLinkSketchMode_ConstructorCast", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLLinkSketchMode", 
@@ -61,7 +61,7 @@ namespace mdsLINEComLib.MDSLLinkSketchMode
 
 	[NVP_Manifest(
 		Id = "9BC11085-A297-4525-B8AB-35AA29F13788", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLLinkSketchMode.WireLength", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLLinkSketchMode", 
@@ -88,7 +88,7 @@ namespace mdsLINEComLib.MDSLLinkSketchMode
 
 	[NVP_Manifest(
 		Id = "E4523862-CC4B-4044-976B-1E0F96471760", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLLinkSketchMode.Sigma", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLLinkSketchMode", 
@@ -115,7 +115,7 @@ namespace mdsLINEComLib.MDSLLinkSketchMode
 
 	[NVP_Manifest(
 		Id = "BAB3970C-B684-43BD-9133-B41B7F5396AD", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLLinkSketchMode.Gamma", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLLinkSketchMode", 
@@ -142,7 +142,7 @@ namespace mdsLINEComLib.MDSLLinkSketchMode
 
 	[NVP_Manifest(
 		Id = "0F81D80D-08C8-49B5-9BB1-77E8E7EF1706", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLLinkSketchMode.InitialModeIndex", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLLinkSketchMode", 
@@ -169,7 +169,7 @@ namespace mdsLINEComLib.MDSLLinkSketchMode
 
 	[NVP_Manifest(
 		Id = "DEAD3B47-4657-4F60-BFC0-FA0B9FF122F2", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLLinkSketchMode.SpanLength", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLLinkSketchMode", 
@@ -196,7 +196,7 @@ namespace mdsLINEComLib.MDSLLinkSketchMode
 
 	[NVP_Manifest(
 		Id = "BF3DB480-53D1-4056-9045-AE117B49FF21", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLLinkSketchMode.InitialSigma", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLLinkSketchMode", 
@@ -223,7 +223,7 @@ namespace mdsLINEComLib.MDSLLinkSketchMode
 
 	[NVP_Manifest(
 		Id = "BF309B68-4001-402F-A82F-09B01E689EA4", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLLinkSketchMode.InitialGamma", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLLinkSketchMode", 
@@ -250,7 +250,7 @@ namespace mdsLINEComLib.MDSLLinkSketchMode
 
 	[NVP_Manifest(
 		Id = "647400EA-6F8E-4A48-9CB4-7EE78A4FD811", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLLinkSketchMode.InitialT", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLLinkSketchMode", 
@@ -277,7 +277,7 @@ namespace mdsLINEComLib.MDSLLinkSketchMode
 
 	[NVP_Manifest(
 		Id = "36CC059A-F89E-443F-9555-07FE08702F5D", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLLinkSketchMode.GetGammaStd", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLLinkSketchMode", 
@@ -304,7 +304,7 @@ namespace mdsLINEComLib.MDSLLinkSketchMode
 
 	[NVP_Manifest(
 		Id = "597D8169-103B-4D30-9698-637E358373CF", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLLinkSketchMode.MinX", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLLinkSketchMode", 
@@ -331,7 +331,7 @@ namespace mdsLINEComLib.MDSLLinkSketchMode
 
 	[NVP_Manifest(
 		Id = "D097510C-80B7-433E-B7B3-4C939BA1EFDB", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLLinkSketchMode.MinZ", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLLinkSketchMode", 
@@ -358,7 +358,7 @@ namespace mdsLINEComLib.MDSLLinkSketchMode
 
 	[NVP_Manifest(
 		Id = "D5823B43-9A62-4114-9217-AB016AC6D38E", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLLinkSketchMode.SlackMin", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLLinkSketchMode", 
@@ -385,7 +385,7 @@ namespace mdsLINEComLib.MDSLLinkSketchMode
 
 	[NVP_Manifest(
 		Id = "AC8FF635-1E78-4C03-BCFE-95D91E8EFF7F", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLLinkSketchMode.SlackMax", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLLinkSketchMode", 
@@ -412,7 +412,7 @@ namespace mdsLINEComLib.MDSLLinkSketchMode
 
 	[NVP_Manifest(
 		Id = "95706592-B9BD-4181-9ACE-19F02EE75FE8", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLLinkSketchMode.GetSlackMaxAt", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLLinkSketchMode", 
@@ -440,7 +440,7 @@ namespace mdsLINEComLib.MDSLLinkSketchMode
 
 	[NVP_Manifest(
 		Id = "7BE3F3B0-7061-40F6-A610-CC2C1A7ADF08", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLLinkSketchMode.Length", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLLinkSketchMode", 
@@ -467,7 +467,7 @@ namespace mdsLINEComLib.MDSLLinkSketchMode
 
 	[NVP_Manifest(
 		Id = "98C202E8-A6DA-4EBE-BA42-CB858DDC9E34", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLLinkSketchMode.SlackSpan", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLLinkSketchMode", 
@@ -495,7 +495,7 @@ namespace mdsLINEComLib.MDSLLinkSketchMode
 
 	[NVP_Manifest(
 		Id = "05FB0CFC-BB8D-4639-B8AD-7F64B96BDA25", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLLinkSketchMode.WindAngle", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLLinkSketchMode", 
@@ -522,7 +522,7 @@ namespace mdsLINEComLib.MDSLLinkSketchMode
 
 	[NVP_Manifest(
 		Id = "78D33BFA-31FB-4A5D-88DF-58562F7ECB73", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLLinkSketchMode.GetGammaNorm", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLLinkSketchMode", 
@@ -549,7 +549,7 @@ namespace mdsLINEComLib.MDSLLinkSketchMode
 
 	[NVP_Manifest(
 		Id = "DBF3DC7D-8D3A-4280-BBA3-F90107BC2ED3", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLLinkSketchMode.GetGammaCalc", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLLinkSketchMode", 

@@ -12,7 +12,7 @@ namespace mdsURSLib.MDSAxisDlg
 
 	[NVP_Manifest(
 		Id = "8BAA1F4F-6957-48CB-BA67-E431B94872FA", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsURSLib.MDSAxisDlg.MDSAxisDlg_Constructor", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsURSLib.MDSAxisDlg", 
@@ -36,7 +36,7 @@ namespace mdsURSLib.MDSAxisDlg
 
 	[NVP_Manifest(
 		Id = "E1364CF3-C784-4DDC-8C23-BC98643AC806", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsURSLib.MDSAxisDlg.MDSAxisDlg_ConstructorCast", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsURSLib.MDSAxisDlg", 

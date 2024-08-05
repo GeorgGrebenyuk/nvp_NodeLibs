@@ -12,7 +12,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "620F7F7F-C411-460D-A73E-502F4A20A04B", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.mstHVACPart_Constructor", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -36,7 +36,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "3434109E-711B-4BA4-8078-AB5E207FC000", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.mstHVACPart_ConstructorCast", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -61,7 +61,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "ED1F3548-72DC-4268-8C2E-0F85F5268457", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.Element", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -88,7 +88,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "FEFF0878-3B92-4ED7-A042-2343A24751C5", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.Set_Element", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -116,7 +116,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "D6A2F50D-5E39-40CB-8F00-0B9841D9D478", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.ParametricData", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -143,7 +143,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "25D068B9-AE4C-4D2A-83EC-74B08ADD1909", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.Set_ParametricData", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -171,7 +171,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "C0D4EDB8-9DC3-4EF9-A17A-2F269607F6A5", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.UnitPosition", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -198,7 +198,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "156255FE-7B9C-4B6A-B608-DB35044DBD32", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.Set_UnitPosition", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -226,7 +226,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "CBDAC3C9-583F-4B12-AB20-11CA2714EF4B", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.UnitName", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -253,7 +253,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "2608D492-A380-4BE8-B2CC-DFB7F42293A6", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.Set_UnitName", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -281,7 +281,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "90482D27-0521-4CE4-AFA1-1A732AFA2C34", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.Part_Name", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -308,7 +308,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "66DC6DAE-0225-4C2C-BC15-357EC86D7BA6", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.Set_Part_Name", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -336,7 +336,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "D20DA15C-3016-44EE-A64B-19ABD8B90EDB", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.Part_Tag", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -363,7 +363,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "58C6398A-8924-4398-94EA-A79898C8E80E", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.Set_Part_Tag", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -391,7 +391,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "6DFA5CD1-86D6-4639-A455-DC11DEF39651", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.Part_Manufacturer", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -418,7 +418,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "06B42B23-021A-4624-A85D-A2728E63FD7F", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.Set_Part_Manufacturer", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -446,7 +446,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "A67842E6-CFBA-43D0-820F-5CEE3EF6714A", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.Part_Standard", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -473,7 +473,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "79937B5A-AFF8-445E-8325-9221479842D4", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.Set_Part_Standard", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -501,7 +501,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "B5D95887-95BC-40CA-A95C-1BB0676C0229", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.Part_Refdrawing", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -528,7 +528,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "FA5A36A3-7D30-4A76-B7DF-4D93EB7E42C9", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.Set_Part_Refdrawing", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -556,7 +556,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "58CA54FF-EB47-464E-86E2-D88DC1A940FB", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.Part_Material", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -583,7 +583,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "14B5B404-3EE7-4E66-B380-85C5EAFF56F1", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.Set_Part_Material", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -611,7 +611,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "4B8A453B-3EDB-463F-9565-C541D626EFC7", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.Part_Material_Standard", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -638,7 +638,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "57E4194B-1981-4326-A301-BDDE3ECD7236", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.Set_Part_Material_Standard", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -666,7 +666,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "AFF27A10-4E41-4058-AA08-18F1D062D043", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.Part_Weight", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -693,7 +693,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "C761480B-79D5-43AD-9A91-531A85A39974", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.Set_Part_Weight", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -721,7 +721,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "9F4C6B6D-9EDA-42D7-8B1F-05CC8C744FA5", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.Part_Comment", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -748,7 +748,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "FDC05688-845A-4BFE-8F35-8059517ECD23", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.Set_Part_Comment", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -776,7 +776,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "874B5A0E-888A-40D6-A6AA-4286BB409F0F", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.Part_Group", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -803,7 +803,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "B56826B1-0905-4197-9BDA-0923C4380C18", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.Set_Part_Group", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -831,7 +831,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "72331965-A8FD-422E-A786-7FBA77560526", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.Part_Type", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -858,7 +858,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "9D8E5F79-4DD8-411D-9202-D46149B8EF0E", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.Set_Part_Type", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -886,7 +886,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "F7433131-201D-49E9-B3F5-3A104EA0AE9C", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.Part_Reference", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -913,7 +913,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "B4BAA739-4382-4C10-8121-4F1BC374973A", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.Set_Part_Reference", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -941,7 +941,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "6FFB2076-E552-4312-8E09-2446350682B1", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.Part_Weight_Netto", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -968,7 +968,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "F2B18963-DD4D-4D25-878E-0D4178BD7C9E", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.Set_Part_Weight_Netto", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -996,7 +996,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "18563EF6-4BBC-405D-BD0A-DDA8719C7F40", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.Part_Weight_Bruto", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -1023,7 +1023,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "F5DC75C5-0E56-481C-AC07-7F7FCD347F23", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.Set_Part_Weight_Bruto", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -1051,7 +1051,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "924347D9-A92A-47DA-8A18-5C15628A34BA", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.Explication_Include", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -1078,7 +1078,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "7AB3B64D-A085-485C-89A9-08B1E69F5C22", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.Set_Explication_Include", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -1106,7 +1106,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "DE079FD5-AB2B-4054-9163-D17AC7AE0A11", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.Explication_Number", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -1133,7 +1133,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "C7322DE6-1560-4239-A23C-8F10284B5EE8", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.Set_Explication_Number", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -1161,7 +1161,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "36CBBE01-70C3-44DE-818E-EA402AB3F412", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.Explication_Group", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -1188,7 +1188,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "E2B0E309-16BB-43FE-8489-2ABDEC8C315E", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.Set_Explication_Group", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -1216,7 +1216,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "2091B413-E9B4-4FE8-904A-F06E9A51F103", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.Explication_Comment", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -1243,7 +1243,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "14253058-C5FE-49D0-BD90-FAB533977626", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.Set_Explication_Comment", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -1271,7 +1271,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "E8A45810-B619-4FDB-8D25-A3EF73D29548", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.Bom_Include", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -1298,7 +1298,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "DDFFD567-E787-4065-B90B-7D6DD350D0DE", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.Set_Bom_Include", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -1326,7 +1326,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "C164A72A-F3EF-48C3-A8B2-91A8A4985E07", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.Bom_Number", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -1353,7 +1353,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "5D902762-379F-45BF-8B98-508CFEB0AD31", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.Set_Bom_Number", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -1381,7 +1381,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "065CC399-4911-4ADE-87CB-792C2B29B012", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.Bom_Group", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -1408,7 +1408,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "756C05B2-D04D-43A1-AC16-A9DF94615526", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.Set_Bom_Group", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -1436,7 +1436,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "08175DB6-1BDC-4132-B1A1-527C2FD8900F", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.Bom_Qty", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -1463,7 +1463,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "CC1F6B51-9001-4428-9352-F355B84923EB", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.Set_Bom_Qty", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -1491,7 +1491,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "B77DDA29-B9AE-4CFA-B6FF-32AEA0B9EBE2", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.Bom_Comment", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 
@@ -1518,7 +1518,7 @@ namespace mstHVACCOMLib.mstHVACPart
 
 	[NVP_Manifest(
 		Id = "340303C3-FE3D-48A1-A4E2-15331FF43339", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mstHVACCOMLib.mstHVACPart.Set_Bom_Comment", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mstHVACCOMLib.mstHVACPart", 

@@ -12,7 +12,7 @@ namespace ironObjComLib.ConcreteMarkProp
 
 	[NVP_Manifest(
 		Id = "0B83BE9E-A11E-45FD-B3B3-10F6F3098527", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.ConcreteMarkProp.ConcreteMarkProp_Constructor", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.ConcreteMarkProp", 
@@ -36,7 +36,7 @@ namespace ironObjComLib.ConcreteMarkProp
 
 	[NVP_Manifest(
 		Id = "25704D6C-6B80-42E9-93C8-909E04E72921", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.ConcreteMarkProp.ConcreteMarkProp_ConstructorCast", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.ConcreteMarkProp", 

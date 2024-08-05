@@ -12,7 +12,7 @@ namespace vCSViperCSObjComLib.WrOverpassAxis
 
 	[NVP_Manifest(
 		Id = "CFF0C04A-0476-484C-BB17-029304454CB1", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "vCSViperCSObjComLib.WrOverpassAxis.WrOverpassAxis_Constructor", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.vCSViperCSObjComLib.WrOverpassAxis", 
@@ -36,7 +36,7 @@ namespace vCSViperCSObjComLib.WrOverpassAxis
 
 	[NVP_Manifest(
 		Id = "EBC83010-5B31-45DC-A5AB-8E70909904F5", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "vCSViperCSObjComLib.WrOverpassAxis.WrOverpassAxis_ConstructorCast", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.vCSViperCSObjComLib.WrOverpassAxis", 

@@ -12,7 +12,7 @@ namespace ironObjComLib.WrAECTrench
 
 	[NVP_Manifest(
 		Id = "09CDBED8-AFAC-4CA3-9231-9E500FE1D403", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECTrench.WrAECTrench_Constructor", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECTrench", 
@@ -36,7 +36,7 @@ namespace ironObjComLib.WrAECTrench
 
 	[NVP_Manifest(
 		Id = "55F6018B-9139-495B-AA11-F0F82FC00D63", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECTrench.WrAECTrench_ConstructorCast", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECTrench", 
@@ -61,7 +61,7 @@ namespace ironObjComLib.WrAECTrench
 
 	[NVP_Manifest(
 		Id = "8CDF7E62-F298-4C65-A190-10CE96F36A7F", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECTrench.Element", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECTrench", 
@@ -88,7 +88,7 @@ namespace ironObjComLib.WrAECTrench
 
 	[NVP_Manifest(
 		Id = "E6FBD46C-4CBD-469D-B26E-82D469CD1D79", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECTrench.Set_Element", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECTrench", 
@@ -116,7 +116,7 @@ namespace ironObjComLib.WrAECTrench
 
 	[NVP_Manifest(
 		Id = "B97BEC2C-00CE-410F-B6E1-FDD69CAB4F24", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECTrench.TVolume", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECTrench", 
@@ -143,7 +143,7 @@ namespace ironObjComLib.WrAECTrench
 
 	[NVP_Manifest(
 		Id = "686E0F69-F14F-4B77-9997-489424258571", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECTrench.TDigVolume", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECTrench", 
@@ -170,7 +170,7 @@ namespace ironObjComLib.WrAECTrench
 
 	[NVP_Manifest(
 		Id = "942DE745-19F3-44EA-A1AB-D5D1B7338C93", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECTrench.TLength", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECTrench", 
@@ -197,7 +197,7 @@ namespace ironObjComLib.WrAECTrench
 
 	[NVP_Manifest(
 		Id = "7246B8C0-8936-40FF-9DAA-A2836113CFC6", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECTrench.DrawStartSlope", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECTrench", 
@@ -224,7 +224,7 @@ namespace ironObjComLib.WrAECTrench
 
 	[NVP_Manifest(
 		Id = "C493F244-47C7-458A-BFA9-DDCC6FB6B7FC", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECTrench.Set_DrawStartSlope", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECTrench", 
@@ -252,7 +252,7 @@ namespace ironObjComLib.WrAECTrench
 
 	[NVP_Manifest(
 		Id = "66EF751E-420C-4461-8600-60EAD982ABBB", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECTrench.AngleStartSlope", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECTrench", 
@@ -279,7 +279,7 @@ namespace ironObjComLib.WrAECTrench
 
 	[NVP_Manifest(
 		Id = "FC1A65EB-396A-4296-AA9F-C88DAD5895B3", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECTrench.Set_AngleStartSlope", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECTrench", 
@@ -307,7 +307,7 @@ namespace ironObjComLib.WrAECTrench
 
 	[NVP_Manifest(
 		Id = "FD796265-F35A-4801-96FD-B973DFEF07E2", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECTrench.DrawEndSlope", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECTrench", 
@@ -334,7 +334,7 @@ namespace ironObjComLib.WrAECTrench
 
 	[NVP_Manifest(
 		Id = "3E3E620E-7352-44D6-BC26-D132D505AE0F", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECTrench.Set_DrawEndSlope", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECTrench", 
@@ -362,7 +362,7 @@ namespace ironObjComLib.WrAECTrench
 
 	[NVP_Manifest(
 		Id = "4507FE75-9AAA-4626-9E7B-32154375E67C", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECTrench.AngleEndSlope", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECTrench", 
@@ -389,7 +389,7 @@ namespace ironObjComLib.WrAECTrench
 
 	[NVP_Manifest(
 		Id = "90D44CA1-6981-496E-89E2-8F23EAA7EDCB", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECTrench.Set_AngleEndSlope", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECTrench", 
@@ -417,7 +417,7 @@ namespace ironObjComLib.WrAECTrench
 
 	[NVP_Manifest(
 		Id = "E9D3DEF6-BD60-4265-8846-CFFA7DA65F1C", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECTrench.ProjectPresent", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECTrench", 
@@ -444,7 +444,7 @@ namespace ironObjComLib.WrAECTrench
 
 	[NVP_Manifest(
 		Id = "7133106C-951B-480C-BCA9-5AD0D07859A6", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECTrench.DigOutOver", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECTrench", 
@@ -471,7 +471,7 @@ namespace ironObjComLib.WrAECTrench
 
 	[NVP_Manifest(
 		Id = "612EE392-7F8B-45C5-A113-90D1A6CC72A4", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECTrench.Set_DigOutOver", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECTrench", 
@@ -499,7 +499,7 @@ namespace ironObjComLib.WrAECTrench
 
 	[NVP_Manifest(
 		Id = "67DB6817-12F9-4EA3-8281-2F43EA6B739C", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECTrench.FillingOver", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECTrench", 
@@ -526,7 +526,7 @@ namespace ironObjComLib.WrAECTrench
 
 	[NVP_Manifest(
 		Id = "8103903E-5015-4D73-9B05-86AF05E11630", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECTrench.Set_FillingOver", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECTrench", 
@@ -554,7 +554,7 @@ namespace ironObjComLib.WrAECTrench
 
 	[NVP_Manifest(
 		Id = "9F4B3C3F-C193-4F9B-8A8C-04A1EA8D3016", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECTrench.DrawOver", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECTrench", 
@@ -581,7 +581,7 @@ namespace ironObjComLib.WrAECTrench
 
 	[NVP_Manifest(
 		Id = "6699E2C4-8E69-45EF-9B63-107958A61A51", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECTrench.Set_DrawOver", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECTrench", 
@@ -609,7 +609,7 @@ namespace ironObjComLib.WrAECTrench
 
 	[NVP_Manifest(
 		Id = "A17C893F-63F4-4D16-A0CE-025787737867", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECTrench.GeoMode", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECTrench", 
@@ -636,7 +636,7 @@ namespace ironObjComLib.WrAECTrench
 
 	[NVP_Manifest(
 		Id = "B15BA82D-5511-449A-AE8C-2881E9F6AF53", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECTrench.GeoBad", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECTrench", 
@@ -663,7 +663,7 @@ namespace ironObjComLib.WrAECTrench
 
 	[NVP_Manifest(
 		Id = "4221D45C-28D9-4964-8245-423318E124BD", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECTrench.DrawOverStep", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECTrench", 
@@ -690,7 +690,7 @@ namespace ironObjComLib.WrAECTrench
 
 	[NVP_Manifest(
 		Id = "3258A55A-0BF8-4785-B1CC-CFB856EF7151", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECTrench.Set_DrawOverStep", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECTrench", 
@@ -718,7 +718,7 @@ namespace ironObjComLib.WrAECTrench
 
 	[NVP_Manifest(
 		Id = "10CBA832-3C7E-4013-8CD1-644040288DA6", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECTrench.PathStep", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECTrench", 
@@ -745,7 +745,7 @@ namespace ironObjComLib.WrAECTrench
 
 	[NVP_Manifest(
 		Id = "5CBDB74E-8A9E-4FE4-8EDD-E236979C981D", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECTrench.Set_PathStep", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECTrench", 

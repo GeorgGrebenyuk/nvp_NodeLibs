@@ -12,7 +12,7 @@ namespace mdsUnitsLib.WrMaterialStandardDia
 
 	[NVP_Manifest(
 		Id = "203FFD37-AA32-4CA4-B741-4ADF32AA150E", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.WrMaterialStandardDia.WrMaterialStandardDia_Constructor", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.WrMaterialStandardDia", 
@@ -36,7 +36,7 @@ namespace mdsUnitsLib.WrMaterialStandardDia
 
 	[NVP_Manifest(
 		Id = "F84B7296-FBE2-43C9-B102-5FB833886F68", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.WrMaterialStandardDia.WrMaterialStandardDia_ConstructorCast", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.WrMaterialStandardDia", 

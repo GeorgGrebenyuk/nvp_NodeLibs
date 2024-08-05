@@ -12,7 +12,7 @@ namespace vCSViperCSObjComLib.WrDiameterDia
 
 	[NVP_Manifest(
 		Id = "3FCD9C24-7930-472B-A5F3-2A1AE2897FFF", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "vCSViperCSObjComLib.WrDiameterDia.WrDiameterDia_Constructor", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.vCSViperCSObjComLib.WrDiameterDia", 
@@ -36,7 +36,7 @@ namespace vCSViperCSObjComLib.WrDiameterDia
 
 	[NVP_Manifest(
 		Id = "2DAAF859-437D-4002-B5B9-036324D1B8ED", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "vCSViperCSObjComLib.WrDiameterDia.WrDiameterDia_ConstructorCast", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.vCSViperCSObjComLib.WrDiameterDia", 

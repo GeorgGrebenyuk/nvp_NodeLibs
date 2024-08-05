@@ -12,7 +12,7 @@ namespace mdsLibManagerLib.CADLibrary
 
 	[NVP_Manifest(
 		Id = "BD5B98FA-082E-472E-9386-C3FC50BDF051", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLibManagerLib.CADLibrary.CADLibrary_Constructor", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLibManagerLib.CADLibrary", 
@@ -36,7 +36,7 @@ namespace mdsLibManagerLib.CADLibrary
 
 	[NVP_Manifest(
 		Id = "6F5E20E5-2FE2-4D88-ACF4-63AD1BC5BE2E", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLibManagerLib.CADLibrary.CADLibrary_ConstructorCast", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLibManagerLib.CADLibrary", 
@@ -61,7 +61,7 @@ namespace mdsLibManagerLib.CADLibrary
 
 	[NVP_Manifest(
 		Id = "C59FF85B-2320-4BFA-9FDA-94CFC2398B5C", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLibManagerLib.CADLibrary.IsConnected", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLibManagerLib.CADLibrary", 
@@ -88,7 +88,7 @@ namespace mdsLibManagerLib.CADLibrary
 
 	[NVP_Manifest(
 		Id = "3A99F366-2104-4002-8142-46C8647F4B33", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLibManagerLib.CADLibrary.GetLibObject", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLibManagerLib.CADLibrary", 
@@ -116,7 +116,7 @@ namespace mdsLibManagerLib.CADLibrary
 
 	[NVP_Manifest(
 		Id = "FA3EA09F-48F6-4B5D-AA21-283FC02CAD03", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLibManagerLib.CADLibrary.GetLibQuery", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLibManagerLib.CADLibrary", 
@@ -143,7 +143,7 @@ namespace mdsLibManagerLib.CADLibrary
 
 	[NVP_Manifest(
 		Id = "38D56C08-A261-4977-BE14-71235737EFA2", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLibManagerLib.CADLibrary.Insert", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLibManagerLib.CADLibrary", 

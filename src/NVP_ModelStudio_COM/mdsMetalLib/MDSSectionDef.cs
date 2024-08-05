@@ -12,7 +12,7 @@ namespace mdsMetalLib.MDSSectionDef
 
 	[NVP_Manifest(
 		Id = "9654019B-10CC-4640-93C6-69203A2E4810", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsMetalLib.MDSSectionDef.MDSSectionDef_Constructor", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsMetalLib.MDSSectionDef", 
@@ -36,7 +36,7 @@ namespace mdsMetalLib.MDSSectionDef
 
 	[NVP_Manifest(
 		Id = "D1F50B1A-4E5A-4B9E-9D70-D411C391C8FF", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsMetalLib.MDSSectionDef.MDSSectionDef_ConstructorCast", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsMetalLib.MDSSectionDef", 
@@ -61,7 +61,7 @@ namespace mdsMetalLib.MDSSectionDef
 
 	[NVP_Manifest(
 		Id = "21FA3D1F-C7D3-424B-A75A-E983BBFD1563", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsMetalLib.MDSSectionDef.Name", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsMetalLib.MDSSectionDef", 
@@ -88,7 +88,7 @@ namespace mdsMetalLib.MDSSectionDef
 
 	[NVP_Manifest(
 		Id = "922E0B8E-C965-4B59-A7DF-7D4867CE4B64", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsMetalLib.MDSSectionDef.Set_Name", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsMetalLib.MDSSectionDef", 
@@ -116,7 +116,7 @@ namespace mdsMetalLib.MDSSectionDef
 
 	[NVP_Manifest(
 		Id = "8783C5A2-2BF1-4A24-8D73-BDB1B6D24EF7", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsMetalLib.MDSSectionDef.TextStyleName", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsMetalLib.MDSSectionDef", 
@@ -143,7 +143,7 @@ namespace mdsMetalLib.MDSSectionDef
 
 	[NVP_Manifest(
 		Id = "8C3DED86-95ED-4A41-8106-797265F4B32F", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsMetalLib.MDSSectionDef.Set_TextStyleName", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsMetalLib.MDSSectionDef", 
@@ -171,7 +171,7 @@ namespace mdsMetalLib.MDSSectionDef
 
 	[NVP_Manifest(
 		Id = "ADBE2F51-603F-4E67-A3CD-61526B385D5E", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsMetalLib.MDSSectionDef.TextHeight", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsMetalLib.MDSSectionDef", 
@@ -198,7 +198,7 @@ namespace mdsMetalLib.MDSSectionDef
 
 	[NVP_Manifest(
 		Id = "EE1DD427-ABC4-4D0A-829E-ABA8C85F4FD8", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsMetalLib.MDSSectionDef.Set_TextHeight", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsMetalLib.MDSSectionDef", 
@@ -226,7 +226,7 @@ namespace mdsMetalLib.MDSSectionDef
 
 	[NVP_Manifest(
 		Id = "CD55DE92-A534-4D23-815E-3CDEDC521F55", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsMetalLib.MDSSectionDef.StrokeLng", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsMetalLib.MDSSectionDef", 
@@ -253,7 +253,7 @@ namespace mdsMetalLib.MDSSectionDef
 
 	[NVP_Manifest(
 		Id = "C370D85F-00FB-4B08-BFCE-8F0874F5A32C", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsMetalLib.MDSSectionDef.Set_StrokeLng", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsMetalLib.MDSSectionDef", 

@@ -12,7 +12,7 @@ namespace mdsURSLib.OwnershipLink
 
 	[NVP_Manifest(
 		Id = "C8C239EF-1AEC-48A6-8A08-F2EE312F3F93", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsURSLib.OwnershipLink.OwnershipLink_Constructor", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsURSLib.OwnershipLink", 
@@ -36,7 +36,7 @@ namespace mdsURSLib.OwnershipLink
 
 	[NVP_Manifest(
 		Id = "CBD8A0DE-9153-4EA9-8F2F-3EAE385E9AB4", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsURSLib.OwnershipLink.OwnershipLink_ConstructorCast", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsURSLib.OwnershipLink", 

@@ -12,7 +12,7 @@ namespace vCSViperCSObjComLib.WrPropDia
 
 	[NVP_Manifest(
 		Id = "1B07C8DA-5325-4CF8-B8EB-56A2620EC8AE", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "vCSViperCSObjComLib.WrPropDia.WrPropDia_Constructor", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.vCSViperCSObjComLib.WrPropDia", 
@@ -36,7 +36,7 @@ namespace vCSViperCSObjComLib.WrPropDia
 
 	[NVP_Manifest(
 		Id = "D520A3E0-E3F8-4860-986A-C1DB340308C7", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "vCSViperCSObjComLib.WrPropDia.WrPropDia_ConstructorCast", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.vCSViperCSObjComLib.WrPropDia", 

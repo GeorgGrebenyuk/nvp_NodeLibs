@@ -12,7 +12,7 @@ namespace vCSViperCSObjComLib.WrSegment
 
 	[NVP_Manifest(
 		Id = "CD08AE9E-F57B-466F-9517-5C946E6B5E13", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "vCSViperCSObjComLib.WrSegment.WrSegment_Constructor", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.vCSViperCSObjComLib.WrSegment", 
@@ -36,7 +36,7 @@ namespace vCSViperCSObjComLib.WrSegment
 
 	[NVP_Manifest(
 		Id = "29FE445C-DAF7-477B-81F1-C16B27647278", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "vCSViperCSObjComLib.WrSegment.WrSegment_ConstructorCast", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.vCSViperCSObjComLib.WrSegment", 
@@ -61,7 +61,7 @@ namespace vCSViperCSObjComLib.WrSegment
 
 	[NVP_Manifest(
 		Id = "A717E4C2-1408-491D-B457-D61A4B050007", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "vCSViperCSObjComLib.WrSegment.Element", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.vCSViperCSObjComLib.WrSegment", 
@@ -88,7 +88,7 @@ namespace vCSViperCSObjComLib.WrSegment
 
 	[NVP_Manifest(
 		Id = "0D36BBA1-7E4E-4B93-9677-E80800118146", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "vCSViperCSObjComLib.WrSegment.Set_Element", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.vCSViperCSObjComLib.WrSegment", 
@@ -116,7 +116,7 @@ namespace vCSViperCSObjComLib.WrSegment
 
 	[NVP_Manifest(
 		Id = "0E09D6D4-81B9-453A-81F1-CDCCA78EDBDF", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "vCSViperCSObjComLib.WrSegment.ViewMode", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.vCSViperCSObjComLib.WrSegment", 
@@ -143,7 +143,7 @@ namespace vCSViperCSObjComLib.WrSegment
 
 	[NVP_Manifest(
 		Id = "315B5DFC-CCD6-420D-9EDD-EB5A5168823F", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "vCSViperCSObjComLib.WrSegment.Set_ViewMode", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.vCSViperCSObjComLib.WrSegment", 
@@ -171,7 +171,7 @@ namespace vCSViperCSObjComLib.WrSegment
 
 	[NVP_Manifest(
 		Id = "D8889969-8687-4611-BC3C-97A1F3405199", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "vCSViperCSObjComLib.WrSegment.ElementSubSeg", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.vCSViperCSObjComLib.WrSegment", 
@@ -198,7 +198,7 @@ namespace vCSViperCSObjComLib.WrSegment
 
 	[NVP_Manifest(
 		Id = "41CEDC55-01A2-4CCD-85DA-C70FD88A4000", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "vCSViperCSObjComLib.WrSegment.Set_ElementSubSeg", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.vCSViperCSObjComLib.WrSegment", 
@@ -226,7 +226,7 @@ namespace vCSViperCSObjComLib.WrSegment
 
 	[NVP_Manifest(
 		Id = "E0B49E80-91B2-4344-AAB0-0E8C295B24D9", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "vCSViperCSObjComLib.WrSegment.PointStart", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.vCSViperCSObjComLib.WrSegment", 
@@ -253,7 +253,7 @@ namespace vCSViperCSObjComLib.WrSegment
 
 	[NVP_Manifest(
 		Id = "AEAED1EB-1332-4DA6-A139-53ED6DBE5D57", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "vCSViperCSObjComLib.WrSegment.PointEnd", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.vCSViperCSObjComLib.WrSegment", 

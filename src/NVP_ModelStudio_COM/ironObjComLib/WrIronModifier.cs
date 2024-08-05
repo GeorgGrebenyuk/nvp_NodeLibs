@@ -12,7 +12,7 @@ namespace ironObjComLib.WrIronModifier
 
 	[NVP_Manifest(
 		Id = "C2EEB334-75B2-43A8-A265-80C12E350E6A", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrIronModifier.WrIronModifier_Constructor", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronModifier", 
@@ -36,7 +36,7 @@ namespace ironObjComLib.WrIronModifier
 
 	[NVP_Manifest(
 		Id = "286A2071-8668-45E2-A4A8-4814AB980762", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrIronModifier.WrIronModifier_ConstructorCast", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronModifier", 
@@ -61,7 +61,7 @@ namespace ironObjComLib.WrIronModifier
 
 	[NVP_Manifest(
 		Id = "EA62891D-56F5-4FCF-BAB8-1755CA3BBD75", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrIronModifier.Element", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronModifier", 
@@ -88,7 +88,7 @@ namespace ironObjComLib.WrIronModifier
 
 	[NVP_Manifest(
 		Id = "57EEA37C-42DA-49A4-A050-1EE8000904C2", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrIronModifier.Set_Element", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronModifier", 
@@ -116,7 +116,7 @@ namespace ironObjComLib.WrIronModifier
 
 	[NVP_Manifest(
 		Id = "C50D2BA2-81FF-410F-B7D2-CE49B24367D4", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrIronModifier.Standoff", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronModifier", 
@@ -143,7 +143,7 @@ namespace ironObjComLib.WrIronModifier
 
 	[NVP_Manifest(
 		Id = "EB536952-821D-4A6E-9B31-42E306AECDC4", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrIronModifier.Set_Standoff", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronModifier", 

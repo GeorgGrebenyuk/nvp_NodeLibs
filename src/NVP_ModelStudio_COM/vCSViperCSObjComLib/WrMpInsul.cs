@@ -12,7 +12,7 @@ namespace vCSViperCSObjComLib.WrMpInsul
 
 	[NVP_Manifest(
 		Id = "B8D4ED1E-C734-4CB4-982A-5836689AB36F", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "vCSViperCSObjComLib.WrMpInsul.WrMpInsul_Constructor", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.vCSViperCSObjComLib.WrMpInsul", 
@@ -36,7 +36,7 @@ namespace vCSViperCSObjComLib.WrMpInsul
 
 	[NVP_Manifest(
 		Id = "308E1A17-D678-4430-9F49-9FAD0C82FE1A", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "vCSViperCSObjComLib.WrMpInsul.WrMpInsul_ConstructorCast", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.vCSViperCSObjComLib.WrMpInsul", 
@@ -61,7 +61,7 @@ namespace vCSViperCSObjComLib.WrMpInsul
 
 	[NVP_Manifest(
 		Id = "0AC054DF-E36C-4A42-A37E-1F73B2D72354", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "vCSViperCSObjComLib.WrMpInsul.ViewMode", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.vCSViperCSObjComLib.WrMpInsul", 
@@ -88,7 +88,7 @@ namespace vCSViperCSObjComLib.WrMpInsul
 
 	[NVP_Manifest(
 		Id = "8636B570-9F08-4C70-B125-CD03176D010F", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "vCSViperCSObjComLib.WrMpInsul.Set_ViewMode", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.vCSViperCSObjComLib.WrMpInsul", 
@@ -116,7 +116,7 @@ namespace vCSViperCSObjComLib.WrMpInsul
 
 	[NVP_Manifest(
 		Id = "DC528F51-1E50-4FB9-98B3-7499E7337AFD", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "vCSViperCSObjComLib.WrMpInsul.PipeCount", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.vCSViperCSObjComLib.WrMpInsul", 
@@ -143,7 +143,7 @@ namespace vCSViperCSObjComLib.WrMpInsul
 
 	[NVP_Manifest(
 		Id = "160B80F5-9F03-4FEA-BF94-C66C8D66667C", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "vCSViperCSObjComLib.WrMpInsul.GetPipe", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.vCSViperCSObjComLib.WrMpInsul", 
@@ -171,7 +171,7 @@ namespace vCSViperCSObjComLib.WrMpInsul
 
 	[NVP_Manifest(
 		Id = "6FF64C3B-57E5-4AF2-84D0-E0C2DAFE19AC", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "vCSViperCSObjComLib.WrMpInsul.Thickness", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.vCSViperCSObjComLib.WrMpInsul", 
@@ -198,7 +198,7 @@ namespace vCSViperCSObjComLib.WrMpInsul
 
 	[NVP_Manifest(
 		Id = "63F4A81B-FCE0-4C46-9B22-4501348085BB", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "vCSViperCSObjComLib.WrMpInsul.Set_Thickness", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.vCSViperCSObjComLib.WrMpInsul", 

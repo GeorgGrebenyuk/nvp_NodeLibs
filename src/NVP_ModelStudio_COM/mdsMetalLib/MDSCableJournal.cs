@@ -12,7 +12,7 @@ namespace mdsMetalLib.MDSCableJournal
 
 	[NVP_Manifest(
 		Id = "28DBB955-6DAD-4151-8929-6BA81858B7BF", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsMetalLib.MDSCableJournal.MDSCableJournal_Constructor", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsMetalLib.MDSCableJournal", 
@@ -36,7 +36,7 @@ namespace mdsMetalLib.MDSCableJournal
 
 	[NVP_Manifest(
 		Id = "50BAF180-3EF0-4E6C-BA0E-6A31F7E9011F", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsMetalLib.MDSCableJournal.MDSCableJournal_ConstructorCast", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsMetalLib.MDSCableJournal", 
@@ -61,7 +61,7 @@ namespace mdsMetalLib.MDSCableJournal
 
 	[NVP_Manifest(
 		Id = "8B8F5AD4-FF96-42F0-81B2-3ED2CF564668", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsMetalLib.MDSCableJournal.Element", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsMetalLib.MDSCableJournal", 
@@ -88,7 +88,7 @@ namespace mdsMetalLib.MDSCableJournal
 
 	[NVP_Manifest(
 		Id = "68BCDE40-8505-4B50-B2C8-0287AF3CEDEE", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsMetalLib.MDSCableJournal.GetLengthByConstruction", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsMetalLib.MDSCableJournal", 

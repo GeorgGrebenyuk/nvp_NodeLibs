@@ -12,7 +12,7 @@ namespace ironObjComLib.WrIronNode
 
 	[NVP_Manifest(
 		Id = "14A2DACE-9F10-4655-96CB-AD8C88AAED63", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrIronNode.WrIronNode_Constructor", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronNode", 
@@ -36,7 +36,7 @@ namespace ironObjComLib.WrIronNode
 
 	[NVP_Manifest(
 		Id = "B7FA7527-181B-4103-923D-CB378093D080", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrIronNode.WrIronNode_ConstructorCast", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronNode", 
@@ -61,7 +61,7 @@ namespace ironObjComLib.WrIronNode
 
 	[NVP_Manifest(
 		Id = "BE844037-9915-4864-83E9-6966483E00E6", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrIronNode.Item", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronNode", 
@@ -88,7 +88,7 @@ namespace ironObjComLib.WrIronNode
 
 	[NVP_Manifest(
 		Id = "5279F5EB-5CD7-4170-9F9A-39CBFCF4591D", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrIronNode.Element", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronNode", 
@@ -115,7 +115,7 @@ namespace ironObjComLib.WrIronNode
 
 	[NVP_Manifest(
 		Id = "F93469EC-A29F-4F97-96C8-C974D452D515", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrIronNode.Set_Element", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronNode", 
@@ -143,7 +143,7 @@ namespace ironObjComLib.WrIronNode
 
 	[NVP_Manifest(
 		Id = "C54A343D-789B-4233-B363-2AC49920E038", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrIronNode.UnitName", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronNode", 
@@ -170,7 +170,7 @@ namespace ironObjComLib.WrIronNode
 
 	[NVP_Manifest(
 		Id = "F92BB394-7ACC-4B2D-927D-98F5673674E4", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrIronNode.Set_UnitName", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronNode", 
@@ -198,7 +198,7 @@ namespace ironObjComLib.WrIronNode
 
 	[NVP_Manifest(
 		Id = "346FF75A-E501-479D-8BB2-4F631058BBC7", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrIronNode.GetAngle", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronNode", 
@@ -227,7 +227,7 @@ namespace ironObjComLib.WrIronNode
 
 	[NVP_Manifest(
 		Id = "5989D117-C94E-41F1-AADE-A6E2F1BDE32D", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrIronNode.GetAngleXY", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronNode", 
@@ -256,7 +256,7 @@ namespace ironObjComLib.WrIronNode
 
 	[NVP_Manifest(
 		Id = "73D87F01-CE58-44AF-9B53-5C4E11C5A51F", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrIronNode.GetAngleXZ", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronNode", 
@@ -285,7 +285,7 @@ namespace ironObjComLib.WrIronNode
 
 	[NVP_Manifest(
 		Id = "CA69F9AC-C06E-4E9D-839C-1CB7AD9505DE", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrIronNode.Position", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronNode", 
@@ -312,7 +312,7 @@ namespace ironObjComLib.WrIronNode
 
 	[NVP_Manifest(
 		Id = "5380F195-441D-4349-B02F-06266ED5F878", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrIronNode.BasePositionType", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronNode", 
@@ -339,7 +339,7 @@ namespace ironObjComLib.WrIronNode
 
 	[NVP_Manifest(
 		Id = "F8184244-4F54-4674-826D-D2C20ED00553", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrIronNode.Set_BasePositionType", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronNode", 
@@ -367,7 +367,7 @@ namespace ironObjComLib.WrIronNode
 
 	[NVP_Manifest(
 		Id = "0A53EDD2-7D03-4D3C-8F0E-BA1EC010ADE9", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrIronNode.BasePositionValue", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronNode", 
@@ -394,7 +394,7 @@ namespace ironObjComLib.WrIronNode
 
 	[NVP_Manifest(
 		Id = "43858F39-0938-4B8F-8D32-13F7C7BEA1D4", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrIronNode.Set_BasePositionValue", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronNode", 
@@ -422,7 +422,7 @@ namespace ironObjComLib.WrIronNode
 
 	[NVP_Manifest(
 		Id = "A27A6208-47CD-4980-872F-3EA689AE1F46", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrIronNode.AxisDirectionType", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronNode", 
@@ -449,7 +449,7 @@ namespace ironObjComLib.WrIronNode
 
 	[NVP_Manifest(
 		Id = "83EDE260-093F-44EB-873A-A75B3A7EECFE", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrIronNode.Set_AxisDirectionType", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronNode", 
@@ -477,7 +477,7 @@ namespace ironObjComLib.WrIronNode
 
 	[NVP_Manifest(
 		Id = "4CD8EA60-400C-4FF7-9809-C93614C054D4", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrIronNode.GetArea", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronNode", 
@@ -506,7 +506,7 @@ namespace ironObjComLib.WrIronNode
 
 	[NVP_Manifest(
 		Id = "2E876C59-5EFB-4385-BAB6-2AFAE42FECC2", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrIronNode.GetVolume", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronNode", 

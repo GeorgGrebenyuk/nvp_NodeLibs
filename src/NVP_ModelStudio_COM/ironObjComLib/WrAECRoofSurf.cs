@@ -12,7 +12,7 @@ namespace ironObjComLib.WrAECRoofSurf
 
 	[NVP_Manifest(
 		Id = "E7B7A467-05C4-4BAF-AF8F-CDA0476305CC", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECRoofSurf.WrAECRoofSurf_Constructor", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECRoofSurf", 
@@ -36,7 +36,7 @@ namespace ironObjComLib.WrAECRoofSurf
 
 	[NVP_Manifest(
 		Id = "BCA3B483-F618-4BFD-BF29-8FB45D4F1CBD", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECRoofSurf.WrAECRoofSurf_ConstructorCast", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECRoofSurf", 
@@ -61,7 +61,7 @@ namespace ironObjComLib.WrAECRoofSurf
 
 	[NVP_Manifest(
 		Id = "AD4D25ED-2CBF-4D41-A7EB-13A9E8A552D0", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECRoofSurf.Element", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECRoofSurf", 
@@ -88,7 +88,7 @@ namespace ironObjComLib.WrAECRoofSurf
 
 	[NVP_Manifest(
 		Id = "B9F81EFA-7C09-47D6-A0F0-CE265280AA22", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECRoofSurf.Set_Element", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECRoofSurf", 
@@ -116,7 +116,7 @@ namespace ironObjComLib.WrAECRoofSurf
 
 	[NVP_Manifest(
 		Id = "D900A585-2688-4B37-9D51-2977767A0947", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECRoofSurf.Position", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECRoofSurf", 
@@ -143,7 +143,7 @@ namespace ironObjComLib.WrAECRoofSurf
 
 	[NVP_Manifest(
 		Id = "C639AD8E-EC19-4188-9A49-40512F97830A", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECRoofSurf.Set_Position", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECRoofSurf", 
@@ -171,7 +171,7 @@ namespace ironObjComLib.WrAECRoofSurf
 
 	[NVP_Manifest(
 		Id = "087EA9EF-6719-4CD4-99D5-B47EBB0FFE63", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECRoofSurf.Angle", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECRoofSurf", 
@@ -198,7 +198,7 @@ namespace ironObjComLib.WrAECRoofSurf
 
 	[NVP_Manifest(
 		Id = "79AFF737-DC07-405D-9644-D9C6FB98F7A8", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECRoofSurf.Set_Angle", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECRoofSurf", 
@@ -226,7 +226,7 @@ namespace ironObjComLib.WrAECRoofSurf
 
 	[NVP_Manifest(
 		Id = "89695DC7-9FB5-47B9-A240-005218BE1E8A", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECRoofSurf.Thickness", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECRoofSurf", 
@@ -253,7 +253,7 @@ namespace ironObjComLib.WrAECRoofSurf
 
 	[NVP_Manifest(
 		Id = "29636E06-6482-43C0-B005-93A5AADFFB74", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECRoofSurf.Set_Thickness", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECRoofSurf", 
@@ -281,7 +281,7 @@ namespace ironObjComLib.WrAECRoofSurf
 
 	[NVP_Manifest(
 		Id = "E3C33EE1-9F67-4E33-A4E6-6C3662FF2F28", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECRoofSurf.BottomOffset", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECRoofSurf", 
@@ -308,7 +308,7 @@ namespace ironObjComLib.WrAECRoofSurf
 
 	[NVP_Manifest(
 		Id = "D18801F4-E32D-4BC8-B4E1-98F22118A78F", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECRoofSurf.Set_BottomOffset", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECRoofSurf", 
@@ -336,7 +336,7 @@ namespace ironObjComLib.WrAECRoofSurf
 
 	[NVP_Manifest(
 		Id = "A873B9BC-9CEB-4584-BEEB-9D251E7AD01A", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECRoofSurf.VetrSide", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECRoofSurf", 
@@ -363,7 +363,7 @@ namespace ironObjComLib.WrAECRoofSurf
 
 	[NVP_Manifest(
 		Id = "F0345AB1-8195-4544-9314-B7E43192B5D9", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECRoofSurf.Set_VetrSide", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECRoofSurf", 

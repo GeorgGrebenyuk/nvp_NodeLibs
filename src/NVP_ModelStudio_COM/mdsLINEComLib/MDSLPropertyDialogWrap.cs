@@ -12,7 +12,7 @@ namespace mdsLINEComLib.MDSLPropertyDialogWrap
 
 	[NVP_Manifest(
 		Id = "521A2AC6-75B3-4F1E-AAF4-0B7A183194C0", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLPropertyDialogWrap.MDSLPropertyDialogWrap_Constructor", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLPropertyDialogWrap", 
@@ -36,7 +36,7 @@ namespace mdsLINEComLib.MDSLPropertyDialogWrap
 
 	[NVP_Manifest(
 		Id = "61E0D900-3358-479C-AD9C-AC7C6CF07040", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLPropertyDialogWrap.MDSLPropertyDialogWrap_ConstructorCast", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLPropertyDialogWrap", 

@@ -12,7 +12,7 @@ namespace ironObjComLib.WrConcreteBeam
 
 	[NVP_Manifest(
 		Id = "322EC7D0-49D9-4EAD-AF58-315AA7D56960", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrConcreteBeam.WrConcreteBeam_Constructor", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrConcreteBeam", 
@@ -36,7 +36,7 @@ namespace ironObjComLib.WrConcreteBeam
 
 	[NVP_Manifest(
 		Id = "D66A6E90-AC74-47F7-A651-6DEA2B90B59C", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrConcreteBeam.WrConcreteBeam_ConstructorCast", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrConcreteBeam", 
@@ -61,7 +61,7 @@ namespace ironObjComLib.WrConcreteBeam
 
 	[NVP_Manifest(
 		Id = "33BD01FC-A763-4E82-A8CD-58B20CDBD68A", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrConcreteBeam.Element", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrConcreteBeam", 
@@ -88,7 +88,7 @@ namespace ironObjComLib.WrConcreteBeam
 
 	[NVP_Manifest(
 		Id = "A074B564-AE3F-4441-B7C3-836296175AA8", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrConcreteBeam.Set_Element", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrConcreteBeam", 
@@ -116,7 +116,7 @@ namespace ironObjComLib.WrConcreteBeam
 
 	[NVP_Manifest(
 		Id = "3ABC8E00-E757-4BDD-BEBC-2804C0A7225D", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrConcreteBeam.Parent", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrConcreteBeam", 
@@ -143,7 +143,7 @@ namespace ironObjComLib.WrConcreteBeam
 
 	[NVP_Manifest(
 		Id = "4AA42800-99A2-4397-B059-251160A2EAF6", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrConcreteBeam.Set_Parent", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrConcreteBeam", 
@@ -171,7 +171,7 @@ namespace ironObjComLib.WrConcreteBeam
 
 	[NVP_Manifest(
 		Id = "53D7D35F-0645-4AE9-A1CC-EA5A39460415", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrConcreteBeam.Name", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrConcreteBeam", 
@@ -198,7 +198,7 @@ namespace ironObjComLib.WrConcreteBeam
 
 	[NVP_Manifest(
 		Id = "02FD9FBB-D25C-4EA4-92F4-C81258F16BBD", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrConcreteBeam.Set_Name", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrConcreteBeam", 
@@ -226,7 +226,7 @@ namespace ironObjComLib.WrConcreteBeam
 
 	[NVP_Manifest(
 		Id = "AA833FBE-3767-4B16-88FF-1A6E9EBAE362", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrConcreteBeam.ProfileName", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrConcreteBeam", 
@@ -253,7 +253,7 @@ namespace ironObjComLib.WrConcreteBeam
 
 	[NVP_Manifest(
 		Id = "2BD8B2CD-4C6C-4026-9284-CA04CCC9203A", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrConcreteBeam.Set_ProfileName", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrConcreteBeam", 
@@ -281,7 +281,7 @@ namespace ironObjComLib.WrConcreteBeam
 
 	[NVP_Manifest(
 		Id = "F896CA67-9C20-4406-A833-91C0E1A69181", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrConcreteBeam.Length", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrConcreteBeam", 
@@ -308,7 +308,7 @@ namespace ironObjComLib.WrConcreteBeam
 
 	[NVP_Manifest(
 		Id = "7A14191D-5518-4E36-A48F-255C020EDF60", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrConcreteBeam.Set_Length", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrConcreteBeam", 
@@ -336,7 +336,7 @@ namespace ironObjComLib.WrConcreteBeam
 
 	[NVP_Manifest(
 		Id = "CF9B55C1-14AA-41F3-8CEE-B024A3FB9331", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrConcreteBeam.Weight", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrConcreteBeam", 
@@ -363,7 +363,7 @@ namespace ironObjComLib.WrConcreteBeam
 
 	[NVP_Manifest(
 		Id = "33C75E1D-CEEF-4500-8683-AF73EDA18BBF", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrConcreteBeam.Mark", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrConcreteBeam", 
@@ -390,7 +390,7 @@ namespace ironObjComLib.WrConcreteBeam
 
 	[NVP_Manifest(
 		Id = "652C9F82-5AEF-49E4-8A65-40437D0B2AE4", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrConcreteBeam.Set_Mark", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrConcreteBeam", 
@@ -418,7 +418,7 @@ namespace ironObjComLib.WrConcreteBeam
 
 	[NVP_Manifest(
 		Id = "1BDAE6EA-291E-4667-9587-672E509D80FB", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrConcreteBeam.StartPt", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrConcreteBeam", 
@@ -445,7 +445,7 @@ namespace ironObjComLib.WrConcreteBeam
 
 	[NVP_Manifest(
 		Id = "F44CBAC1-8B0C-4054-A012-6B73FA1F7A03", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrConcreteBeam.Set_StartPt", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrConcreteBeam", 
@@ -473,7 +473,7 @@ namespace ironObjComLib.WrConcreteBeam
 
 	[NVP_Manifest(
 		Id = "2346EAF6-906D-4D0D-8DFF-02F81975B30F", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrConcreteBeam.EndPt", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrConcreteBeam", 
@@ -500,7 +500,7 @@ namespace ironObjComLib.WrConcreteBeam
 
 	[NVP_Manifest(
 		Id = "34619AF4-4870-41B8-B934-653B93E6C793", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrConcreteBeam.Set_EndPt", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrConcreteBeam", 

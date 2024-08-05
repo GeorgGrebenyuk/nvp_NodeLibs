@@ -12,7 +12,7 @@ namespace mdsUnitsLib.MDSCOWBlockRef
 
 	[NVP_Manifest(
 		Id = "CB479F46-7F14-4AFC-9F8D-516795FCF58A", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSCOWBlockRef.MDSCOWBlockRef_Constructor", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSCOWBlockRef", 
@@ -36,7 +36,7 @@ namespace mdsUnitsLib.MDSCOWBlockRef
 
 	[NVP_Manifest(
 		Id = "B5B35109-8566-4FC0-9E20-F66EAAA02ED2", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSCOWBlockRef.MDSCOWBlockRef_ConstructorCast", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSCOWBlockRef", 
@@ -61,7 +61,7 @@ namespace mdsUnitsLib.MDSCOWBlockRef
 
 	[NVP_Manifest(
 		Id = "E5D696ED-32E2-40B5-B6CC-1F0FE2982A29", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSCOWBlockRef.UnitName", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSCOWBlockRef", 
@@ -88,7 +88,7 @@ namespace mdsUnitsLib.MDSCOWBlockRef
 
 	[NVP_Manifest(
 		Id = "9CC8AD42-6D02-412C-896E-0689BF887A7C", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSCOWBlockRef.Set_UnitName", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSCOWBlockRef", 
@@ -116,7 +116,7 @@ namespace mdsUnitsLib.MDSCOWBlockRef
 
 	[NVP_Manifest(
 		Id = "F9CC16DB-781A-4143-B6EE-118E4AD1A798", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSCOWBlockRef.Element", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSCOWBlockRef", 
@@ -143,7 +143,7 @@ namespace mdsUnitsLib.MDSCOWBlockRef
 
 	[NVP_Manifest(
 		Id = "35F66488-DBBF-43DB-9EA6-52C72299931C", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSCOWBlockRef.Set_Element", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSCOWBlockRef", 
@@ -171,7 +171,7 @@ namespace mdsUnitsLib.MDSCOWBlockRef
 
 	[NVP_Manifest(
 		Id = "08E3E0AE-74C5-4CB8-B24A-D85B6CF438B0", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSCOWBlockRef.UnitPosition", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSCOWBlockRef", 
@@ -198,7 +198,7 @@ namespace mdsUnitsLib.MDSCOWBlockRef
 
 	[NVP_Manifest(
 		Id = "7B29D3EF-BCC1-45C7-9050-67ABEB0DE2EC", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSCOWBlockRef.Set_UnitPosition", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSCOWBlockRef", 

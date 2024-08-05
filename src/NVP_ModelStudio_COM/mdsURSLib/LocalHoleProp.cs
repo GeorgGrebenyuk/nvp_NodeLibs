@@ -12,7 +12,7 @@ namespace mdsURSLib.LocalHoleProp
 
 	[NVP_Manifest(
 		Id = "60CB88A7-4E18-401B-9251-312E4DDC9AE6", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsURSLib.LocalHoleProp.LocalHoleProp_Constructor", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsURSLib.LocalHoleProp", 
@@ -36,7 +36,7 @@ namespace mdsURSLib.LocalHoleProp
 
 	[NVP_Manifest(
 		Id = "D457EE0C-EA9B-4442-824F-8BE639DE5F9D", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsURSLib.LocalHoleProp.LocalHoleProp_ConstructorCast", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsURSLib.LocalHoleProp", 

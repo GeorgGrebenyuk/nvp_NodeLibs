@@ -12,7 +12,7 @@ namespace mdsLINEComLib.MDSLLinkSketchPropWrapper
 
 	[NVP_Manifest(
 		Id = "6BDE977C-A1D4-40BD-8707-A2F25E527393", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLLinkSketchPropWrapper.MDSLLinkSketchPropWrapper_Constructor", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLLinkSketchPropWrapper", 
@@ -36,7 +36,7 @@ namespace mdsLINEComLib.MDSLLinkSketchPropWrapper
 
 	[NVP_Manifest(
 		Id = "C28B74CE-04AF-406D-BC6E-D8C5A34D6C1D", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsLINEComLib.MDSLLinkSketchPropWrapper.MDSLLinkSketchPropWrapper_ConstructorCast", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLLinkSketchPropWrapper", 

@@ -12,7 +12,7 @@ namespace mdsMetalLib.MDSMetalParamsDlg
 
 	[NVP_Manifest(
 		Id = "7F3C087D-7D80-4531-980A-FB0F659BAC13", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsMetalLib.MDSMetalParamsDlg.MDSMetalParamsDlg_Constructor", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsMetalLib.MDSMetalParamsDlg", 
@@ -36,7 +36,7 @@ namespace mdsMetalLib.MDSMetalParamsDlg
 
 	[NVP_Manifest(
 		Id = "A45F91A8-F7FF-4637-9CA9-E0C813C2F244", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsMetalLib.MDSMetalParamsDlg.MDSMetalParamsDlg_ConstructorCast", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsMetalLib.MDSMetalParamsDlg", 

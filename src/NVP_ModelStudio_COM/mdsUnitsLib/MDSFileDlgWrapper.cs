@@ -12,7 +12,7 @@ namespace mdsUnitsLib.MDSFileDlgWrapper
 
 	[NVP_Manifest(
 		Id = "6AB577BF-F070-4C25-AEE1-EA541548B703", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSFileDlgWrapper.MDSFileDlgWrapper_Constructor", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSFileDlgWrapper", 
@@ -36,7 +36,7 @@ namespace mdsUnitsLib.MDSFileDlgWrapper
 
 	[NVP_Manifest(
 		Id = "A81F519A-7529-415A-9B8C-1CC2E6C3B6CD", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSFileDlgWrapper.MDSFileDlgWrapper_ConstructorCast", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSFileDlgWrapper", 

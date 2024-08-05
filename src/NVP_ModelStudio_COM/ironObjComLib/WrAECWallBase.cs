@@ -12,7 +12,7 @@ namespace ironObjComLib.WrAECWallBase
 
 	[NVP_Manifest(
 		Id = "88896EA4-E877-4D62-B04B-5C8122B2F282", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECWallBase.WrAECWallBase_Constructor", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECWallBase", 
@@ -36,7 +36,7 @@ namespace ironObjComLib.WrAECWallBase
 
 	[NVP_Manifest(
 		Id = "8F227A96-8609-420C-A2AE-62646FC36C45", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECWallBase.WrAECWallBase_ConstructorCast", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECWallBase", 
@@ -61,7 +61,7 @@ namespace ironObjComLib.WrAECWallBase
 
 	[NVP_Manifest(
 		Id = "5F8E23BF-56A2-4D0B-8401-314BF099DFFF", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECWallBase.Thick", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECWallBase", 
@@ -88,7 +88,7 @@ namespace ironObjComLib.WrAECWallBase
 
 	[NVP_Manifest(
 		Id = "D3E7A4EE-DCA3-4B7E-954A-1BCA8D76FAD2", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECWallBase.Set_Thick", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECWallBase", 
@@ -116,7 +116,7 @@ namespace ironObjComLib.WrAECWallBase
 
 	[NVP_Manifest(
 		Id = "D25AB15D-64DE-483F-ABBB-550C3CF07279", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECWallBase.Height", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECWallBase", 
@@ -143,7 +143,7 @@ namespace ironObjComLib.WrAECWallBase
 
 	[NVP_Manifest(
 		Id = "E3F30813-0DFB-4EFF-8D7A-C9D4422C72F2", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "ironObjComLib.WrAECWallBase.Set_Height", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECWallBase", 

@@ -12,7 +12,7 @@ namespace mdsUnitsLib.MDSGrounding
 
 	[NVP_Manifest(
 		Id = "E8038E18-1C16-4764-9C88-3469BC0B5E50", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSGrounding.MDSGrounding_Constructor", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSGrounding", 
@@ -36,7 +36,7 @@ namespace mdsUnitsLib.MDSGrounding
 
 	[NVP_Manifest(
 		Id = "C9C08ACC-00EE-408D-9F4B-D17C0AEDA383", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSGrounding.MDSGrounding_ConstructorCast", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSGrounding", 
@@ -61,7 +61,7 @@ namespace mdsUnitsLib.MDSGrounding
 
 	[NVP_Manifest(
 		Id = "2508AF14-DB0F-4BB5-AE0A-66CB98A08A83", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSGrounding.GetLength", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSGrounding", 
@@ -88,7 +88,7 @@ namespace mdsUnitsLib.MDSGrounding
 
 	[NVP_Manifest(
 		Id = "93523808-D7A9-4253-9E7F-0ADBF293849D", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSGrounding.GetLengthSeparated", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSGrounding", 
@@ -116,7 +116,7 @@ namespace mdsUnitsLib.MDSGrounding
 
 	[NVP_Manifest(
 		Id = "A7CA2D08-71D6-4BD3-9B65-B8085243D956", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSGrounding.GetArea", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSGrounding", 
@@ -143,7 +143,7 @@ namespace mdsUnitsLib.MDSGrounding
 
 	[NVP_Manifest(
 		Id = "E489C260-47AB-4E44-8A65-2F30050EAB94", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsUnitsLib.MDSGrounding.GetAreaSeparated", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSGrounding", 

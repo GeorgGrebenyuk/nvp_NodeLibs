@@ -12,7 +12,7 @@ namespace mdsELAYComLib.MDSELLinkMode
 
 	[NVP_Manifest(
 		Id = "54AC2DED-D905-4F8E-8C82-3BE2B941A586", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsELAYComLib.MDSELLinkMode.MDSELLinkMode_Constructor", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsELAYComLib.MDSELLinkMode", 
@@ -36,7 +36,7 @@ namespace mdsELAYComLib.MDSELLinkMode
 
 	[NVP_Manifest(
 		Id = "AF970556-BF39-4B93-BB11-96FD2C45789F", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsELAYComLib.MDSELLinkMode.MDSELLinkMode_ConstructorCast", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsELAYComLib.MDSELLinkMode", 
@@ -61,7 +61,7 @@ namespace mdsELAYComLib.MDSELLinkMode
 
 	[NVP_Manifest(
 		Id = "57BC8839-F0D4-450F-9DCC-F44FBB86C88E", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsELAYComLib.MDSELLinkMode.WireLength", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsELAYComLib.MDSELLinkMode", 
@@ -88,7 +88,7 @@ namespace mdsELAYComLib.MDSELLinkMode
 
 	[NVP_Manifest(
 		Id = "D490FC6F-5E17-493C-B1C0-C6AA982619FB", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsELAYComLib.MDSELLinkMode.Sigma", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsELAYComLib.MDSELLinkMode", 
@@ -115,7 +115,7 @@ namespace mdsELAYComLib.MDSELLinkMode
 
 	[NVP_Manifest(
 		Id = "7C718874-BA23-4E9A-93CC-5D78B4601E86", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsELAYComLib.MDSELLinkMode.Gamma", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsELAYComLib.MDSELLinkMode", 
@@ -142,7 +142,7 @@ namespace mdsELAYComLib.MDSELLinkMode
 
 	[NVP_Manifest(
 		Id = "3D810700-AA57-4FD7-A02C-E19DF3F36BCD", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsELAYComLib.MDSELLinkMode.InitialModeIndex", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsELAYComLib.MDSELLinkMode", 
@@ -169,7 +169,7 @@ namespace mdsELAYComLib.MDSELLinkMode
 
 	[NVP_Manifest(
 		Id = "40D048E2-F273-481E-BEE4-AD918050E977", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsELAYComLib.MDSELLinkMode.SpanLength", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsELAYComLib.MDSELLinkMode", 
@@ -196,7 +196,7 @@ namespace mdsELAYComLib.MDSELLinkMode
 
 	[NVP_Manifest(
 		Id = "4D2713C0-5D07-41AC-8BF8-213724DA7ED2", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsELAYComLib.MDSELLinkMode.InitialSigma", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsELAYComLib.MDSELLinkMode", 
@@ -223,7 +223,7 @@ namespace mdsELAYComLib.MDSELLinkMode
 
 	[NVP_Manifest(
 		Id = "FD9E7650-4817-4608-88E7-D05155BA6BFF", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsELAYComLib.MDSELLinkMode.InitialGamma", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsELAYComLib.MDSELLinkMode", 
@@ -250,7 +250,7 @@ namespace mdsELAYComLib.MDSELLinkMode
 
 	[NVP_Manifest(
 		Id = "D260566A-1B27-4E11-AB19-B7E58A536905", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsELAYComLib.MDSELLinkMode.InitialT", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsELAYComLib.MDSELLinkMode", 
@@ -277,7 +277,7 @@ namespace mdsELAYComLib.MDSELLinkMode
 
 	[NVP_Manifest(
 		Id = "8AB54C04-91F5-488E-89E3-8CB390ED4872", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsELAYComLib.MDSELLinkMode.GetGammaStd", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsELAYComLib.MDSELLinkMode", 
@@ -304,7 +304,7 @@ namespace mdsELAYComLib.MDSELLinkMode
 
 	[NVP_Manifest(
 		Id = "62DDF39B-2ABC-493B-B6E5-A2675CC7460F", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsELAYComLib.MDSELLinkMode.MinX", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsELAYComLib.MDSELLinkMode", 
@@ -331,7 +331,7 @@ namespace mdsELAYComLib.MDSELLinkMode
 
 	[NVP_Manifest(
 		Id = "6252E869-B9FE-4F61-BB88-DA5392E15739", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsELAYComLib.MDSELLinkMode.MinZ", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsELAYComLib.MDSELLinkMode", 
@@ -358,7 +358,7 @@ namespace mdsELAYComLib.MDSELLinkMode
 
 	[NVP_Manifest(
 		Id = "017E1CAE-76BA-4A8E-9295-83F5107DB06E", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsELAYComLib.MDSELLinkMode.SlackMin", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsELAYComLib.MDSELLinkMode", 
@@ -385,7 +385,7 @@ namespace mdsELAYComLib.MDSELLinkMode
 
 	[NVP_Manifest(
 		Id = "1AAF2658-FA51-4B7F-A852-F4400A085CEF", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsELAYComLib.MDSELLinkMode.SlackMax", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsELAYComLib.MDSELLinkMode", 
@@ -412,7 +412,7 @@ namespace mdsELAYComLib.MDSELLinkMode
 
 	[NVP_Manifest(
 		Id = "2D443E86-9205-41F5-9B40-ABBA8F82FFFF", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsELAYComLib.MDSELLinkMode.GetSlackMaxAt", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsELAYComLib.MDSELLinkMode", 
@@ -440,7 +440,7 @@ namespace mdsELAYComLib.MDSELLinkMode
 
 	[NVP_Manifest(
 		Id = "771819AA-3E9E-453F-B194-93124C771D7E", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsELAYComLib.MDSELLinkMode.Length", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsELAYComLib.MDSELLinkMode", 
@@ -467,7 +467,7 @@ namespace mdsELAYComLib.MDSELLinkMode
 
 	[NVP_Manifest(
 		Id = "F628EA81-0237-479C-B5A9-64EC729620B0", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsELAYComLib.MDSELLinkMode.GetWireLengthAt", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsELAYComLib.MDSELLinkMode", 
@@ -494,7 +494,7 @@ namespace mdsELAYComLib.MDSELLinkMode
 
 	[NVP_Manifest(
 		Id = "8B947BCC-3FD4-4C1B-A940-2AC0CD7D6EDB", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsELAYComLib.MDSELLinkMode.WindAngle", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsELAYComLib.MDSELLinkMode", 
@@ -521,7 +521,7 @@ namespace mdsELAYComLib.MDSELLinkMode
 
 	[NVP_Manifest(
 		Id = "36A6853F-7BD4-4B7B-BF8F-C65DF5E9BE33", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsELAYComLib.MDSELLinkMode.GetGammaNorm", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsELAYComLib.MDSELLinkMode", 
@@ -548,7 +548,7 @@ namespace mdsELAYComLib.MDSELLinkMode
 
 	[NVP_Manifest(
 		Id = "9B446FBA-5266-4A9A-B36B-4F630AB574A3", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsELAYComLib.MDSELLinkMode.GetSlackMinAt", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsELAYComLib.MDSELLinkMode", 
@@ -576,7 +576,7 @@ namespace mdsELAYComLib.MDSELLinkMode
 
 	[NVP_Manifest(
 		Id = "009B0FA9-83E2-425E-AD9F-6CFC6BDF009A", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsELAYComLib.MDSELLinkMode.SlackMiddle", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsELAYComLib.MDSELLinkMode", 
@@ -603,7 +603,7 @@ namespace mdsELAYComLib.MDSELLinkMode
 
 	[NVP_Manifest(
 		Id = "ACFE371C-0BFD-4277-833F-C156A362B2E6", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsELAYComLib.MDSELLinkMode.Deviation", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsELAYComLib.MDSELLinkMode", 
@@ -630,7 +630,7 @@ namespace mdsELAYComLib.MDSELLinkMode
 
 	[NVP_Manifest(
 		Id = "CC51BC65-38CD-40C3-BCB0-A81CCD9A8FCF", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsELAYComLib.MDSELLinkMode.GetDeviationAt", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsELAYComLib.MDSELLinkMode", 
@@ -658,7 +658,7 @@ namespace mdsELAYComLib.MDSELLinkMode
 
 	[NVP_Manifest(
 		Id = "4A78A0C5-210A-4596-8666-466D7A72EB9F", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsELAYComLib.MDSELLinkMode.GetSlackMiddleAt", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsELAYComLib.MDSELLinkMode", 
@@ -686,7 +686,7 @@ namespace mdsELAYComLib.MDSELLinkMode
 
 	[NVP_Manifest(
 		Id = "60EB300C-BD39-451B-90EC-6878254617C6", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsELAYComLib.MDSELLinkMode.CalcT", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsELAYComLib.MDSELLinkMode", 
@@ -713,7 +713,7 @@ namespace mdsELAYComLib.MDSELLinkMode
 
 	[NVP_Manifest(
 		Id = "49FB284E-5E87-4E1A-B6CD-5D3BD24EC178", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsELAYComLib.MDSELLinkMode.CalcIceThickness", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsELAYComLib.MDSELLinkMode", 

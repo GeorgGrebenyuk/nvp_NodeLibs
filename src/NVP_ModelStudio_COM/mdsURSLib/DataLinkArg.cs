@@ -12,7 +12,7 @@ namespace mdsURSLib.DataLinkArg
 
 	[NVP_Manifest(
 		Id = "BF3B01E9-9E6D-4C2D-B997-2AFE7A346AD9", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsURSLib.DataLinkArg.DataLinkArg_Constructor", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsURSLib.DataLinkArg", 
@@ -36,7 +36,7 @@ namespace mdsURSLib.DataLinkArg
 
 	[NVP_Manifest(
 		Id = "C09ACAE1-8364-422E-BA25-6A8879F83883", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
+		PathAssembly = "NVP_ModelStudio_COM.dll", 
 		PathExecuteClass = "mdsURSLib.DataLinkArg.DataLinkArg_ConstructorCast", 
 		CoderName = "GeorgGrebenyuk", 
 		Folder = "NVP_nanoCAD_COM.mdsURSLib.DataLinkArg", 
