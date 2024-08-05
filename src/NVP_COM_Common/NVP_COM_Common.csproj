@@ -27,13 +27,4 @@
     </Reference>
   </ItemGroup>
 
-  <ItemGroup>
-    <None Update="NVP_COM_Common.nodeitem">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </None>
-    <None Update="NVP_COM_Common_ProgIDs.nodeitem">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-
 </Project>
