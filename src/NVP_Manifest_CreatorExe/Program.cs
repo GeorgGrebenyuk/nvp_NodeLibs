@@ -4,6 +4,7 @@ using System.Xml.Linq;
 using System.IO;
 using System.Collections.Generic;
 using System.Xml.Serialization;
+using System.Text;
 
 namespace NVP_Manifest_Creator
 {
@@ -67,7 +68,7 @@ namespace NVP_Manifest_Creator
     public class AppExe
     {
         private const string _CoderName = "GeorgGrebenyuk";
-        public static void Main(string[] args)
+        private static void Run()
         {
             string sade_directory = AppDomain.CurrentDomain.BaseDirectory;
             string root_repo_path = new DirectoryInfo(sade_directory).Parent.Parent.Parent.FullName;
@@ -89,14 +90,14 @@ namespace NVP_Manifest_Creator
                     types = assembly.GetTypes();
                 }
                 catch { }
-//#if NET6_0 
-//                assembly = Assembly.LoadFrom(dll_path);
-//                types = assembly.GetTypes();
-//#elif NET48
-//                assembly = Assembly.ReflectionOnlyLoadFrom(dll_path);
-//                types = assembly.GetTypes();
-                
-//#endif
+                //#if NET6_0 
+                //                assembly = Assembly.LoadFrom(dll_path);
+                //                types = assembly.GetTypes();
+                //#elif NET48
+                //                assembly = Assembly.ReflectionOnlyLoadFrom(dll_path);
+                //                types = assembly.GetTypes();
+
+                //#endif
 
                 foreach (Type type in types)
                 {
@@ -119,11 +120,12 @@ namespace NVP_Manifest_Creator
                         NVP_Manifest_attrs_need.PathExecuteClass = nvp_node_path;
                         NVP_Manifest_attrs_need.Folder = dll_name + "." + type.Namespace;
                         NVP_Manifest_attrs_need.CoderName = _CoderName;
+                        NVP_Manifest_attrs_need.NodeName = type.Name;
 
                         if (guids_map.ElementsMap2.ContainsKey(nvp_node_path)) NVP_Manifest_attrs_need.Id = guids_map.ElementsMap2[nvp_node_path];
                         else
                         {
-                            if (NVP_Manifest_attrs_need.Id != null) 
+                            if (NVP_Manifest_attrs_need.Id != null)
                             {
                                 guids_map.ElementsMap2.Add(nvp_node_path, NVP_Manifest_attrs_need.Id);
                             }
@@ -176,7 +178,7 @@ namespace NVP_Manifest_Creator
                         }
 
                         //Сохраняем сразу во вложенной папке NPV_Data
-                        string nodeitemPath = Path.Combine(Path.GetDirectoryName(dll_path), 
+                        string nodeitemPath = Path.Combine(Path.GetDirectoryName(dll_path),
                             Path.GetFileNameWithoutExtension(dll_path) + "_" + nodeitem_File.Key + ".nodeitem");
 
                         _doc.Add(_doc_nodeitem_Nodes);
@@ -189,6 +191,36 @@ namespace NVP_Manifest_Creator
                     Console.WriteLine("guids map SAVE " + guids_map_path);
                 }
             }
+        }
+
+        private static void CleanManifestAttrs()
+        {
+            foreach (string cs_path in Directory.GetFiles(@"C:\Users\Georg\Documents\GitHub\nvp_NodeLibs_ActiveX\src", "*.cs", SearchOption.AllDirectories))
+            {
+                StringBuilder cs = new StringBuilder();
+
+                foreach (string cs_data in File.ReadLines(cs_path))
+                {
+                    if (
+                        cs_data.Contains("Id = \"") |
+                        cs_data.Contains("PathAssembly = \"") |
+                        cs_data.Contains("PathExecuteClass = \"") |
+                        cs_data.Contains("CoderName = \"") |
+                        cs_data.Contains("Folder = \"") |
+                        cs_data.Contains("NodeName = \"") |
+                        cs_data.Contains("NodeName = \"") |
+                        cs_data.Contains("CADType = \"None\"") |
+                        cs_data.Contains("NodeType = \"Loaded\"")) continue;
+                    else cs.AppendLine(cs_data);
+                }
+                File.WriteAllText(cs_path, cs.ToString(), Encoding.UTF8);
+            }
+        }
+        public static void Main(string[] args)
+        {
+            //Run();
+            CleanManifestAttrs();
+
 
             Console.WriteLine("\nEnd!");
 #if DEBUG
