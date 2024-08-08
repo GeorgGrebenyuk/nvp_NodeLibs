@@ -32,14 +32,14 @@ namespace NVP_Manifest_Creator
             Auxiliary_Guids_Map data;
             XmlSerializer xmlSerializer = new XmlSerializer(typeof(Auxiliary_Guids_Map));
 
-            using (FileStream fs = new FileStream(filePath, FileMode.OpenOrCreate))
+            using (FileStream fs = new FileStream(filePath, FileMode.Open))
             {
                 data = xmlSerializer.Deserialize(fs) as Auxiliary_Guids_Map;
             }
 
             foreach (var item in data.ElementsMap)
             {
-                data.ElementsMap2.Add(item.Path, item.Id);
+                if (!data.ElementsMap2.ContainsKey(item.Path)) data.ElementsMap2.Add(item.Path, item.Id);
             }
 
             return data;
@@ -47,6 +47,7 @@ namespace NVP_Manifest_Creator
 
         public void Save(string savePath)
         {
+            ElementsMap = new List<Auxiliary_Guids_Map_Item>();
             foreach (var item in ElementsMap2)
             {
                 Auxiliary_Guids_Map_Item def = new Auxiliary_Guids_Map_Item();
@@ -56,7 +57,8 @@ namespace NVP_Manifest_Creator
             }
             XmlSerializer formatter = new XmlSerializer(typeof(Auxiliary_Guids_Map));
             // сохранение массива в файл
-            using (FileStream fs = new FileStream(savePath, FileMode.OpenOrCreate))
+            if (File.Exists(savePath)) File.Delete(savePath);
+            using (FileStream fs = new FileStream(savePath, FileMode.CreateNew))
             {
                 formatter.Serialize(fs, this);
             }
@@ -115,7 +117,7 @@ namespace NVP_Manifest_Creator
 
                         NVP_Manifest_attrs_need.PathAssembly = dll_nameDLL;
                         NVP_Manifest_attrs_need.PathExecuteClass = nvp_node_path;
-                        NVP_Manifest_attrs_need.Folder = type.Namespace;
+                        NVP_Manifest_attrs_need.Folder = dll_name + "." + type.Namespace;
                         NVP_Manifest_attrs_need.CoderName = _CoderName;
 
                         if (guids_map.ElementsMap2.ContainsKey(nvp_node_path)) NVP_Manifest_attrs_need.Id = guids_map.ElementsMap2[nvp_node_path];
@@ -184,6 +186,7 @@ namespace NVP_Manifest_Creator
                     }
 
                     guids_map.Save(guids_map_path);
+                    Console.WriteLine("guids map SAVE " + guids_map_path);
                 }
             }
 

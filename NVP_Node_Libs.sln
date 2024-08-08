@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35004.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NVP_nanoCAD_COM", "src\NVP_nanoCAD\NVP_nanoCAD_COM.csproj", "{81839E90-1973-487A-BB35-D15E7EBCD051}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NVP_nanoCAD_COM", "src\NVP_nanoCAD_COM\NVP_nanoCAD_COM.csproj", "{81839E90-1973-487A-BB35-D15E7EBCD051}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NVP_COM_Common", "src\NVP_COM_Common\NVP_COM_Common.csproj", "{590DB945-2803-4CD3-B866-DA26C78B9643}"
 EndProject
