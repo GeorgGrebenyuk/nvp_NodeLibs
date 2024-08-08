@@ -2,8 +2,6 @@
 using System;
 using System.Collections.Generic;
 using NVP_Manifest_Creator;
-using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,7 +20,7 @@ namespace NVP_COM_Common.NVP_COM_ProgIds
     CADType = "None",
     Text = "The id of LibManager.CADLibrary (Библиотека стандартных компонентов)",
     ViewType = "Data")]
-    public class NVP_COM_ProgID_LibManager_CADLibrary : INode
+    public class ProgID_LibManager_CADLibrary : INode
     {
         public NodeResult Execute(INVPData context, List<NodeResult> inputs)
         {
@@ -43,7 +41,7 @@ namespace NVP_COM_Common.NVP_COM_ProgIds
     CADType = "None",
     Text = "The id of McCOM2.Server (nanoCAD SPDS, Mechanica)",
     ViewType = "Data")]
-    public class NVP_COM_ProgID_McCOM2 : INode
+    public class ProgID_McCOM2 : INode
     {
         public NodeResult Execute(INVPData context, List<NodeResult> inputs)
         {
@@ -62,7 +60,7 @@ namespace NVP_COM_Common.NVP_COM_ProgIds
     CADType = "None",
     Text = "The id of nanoCAD",
     ViewType = "Data")]
-    public class NVP_COM_ProgID_nanoCAD_Universal : INode
+    public class ProgID_nanoCAD_Universal : INode
     {
         public NodeResult Execute(INVPData context, List<NodeResult> inputs)
         {
@@ -81,7 +79,7 @@ namespace NVP_COM_Common.NVP_COM_ProgIds
     CADType = "None",
     Text = "The id of nanoCAD 3.5",
     ViewType = "Data")]
-    public class NVP_COM_ProgID_nanoCAD_3_5 : INode
+    public class ProgID_nanoCAD_3_5 : INode
     {
         public NodeResult Execute(INVPData context, List<NodeResult> inputs)
         {
@@ -100,7 +98,7 @@ namespace NVP_COM_Common.NVP_COM_ProgIds
     CADType = "None",
     Text = "The id of nanoCAD 9.0",
     ViewType = "Data")]
-    public class NVP_COM_ProgID_nanoCAD_9_0 : INode
+    public class ProgID_nanoCAD_9_0 : INode
     {
         public NodeResult Execute(INVPData context, List<NodeResult> inputs)
         {
@@ -119,7 +117,7 @@ namespace NVP_COM_Common.NVP_COM_ProgIds
     CADType = "None",
     Text = "The id of nanoCAD 10.0",
     ViewType = "Data")]
-    public class NVP_COM_ProgID_nanoCAD_10_0 : INode
+    public class ProgID_nanoCAD_10_0 : INode
     {
         public NodeResult Execute(INVPData context, List<NodeResult> inputs)
         {
@@ -138,7 +136,7 @@ namespace NVP_COM_Common.NVP_COM_ProgIds
     CADType = "None",
     Text = "The id of nanoCAD 11.0",
     ViewType = "Data")]
-    public class NVP_COM_ProgID_nanoCAD_11_0 : INode
+    public class ProgID_nanoCAD_11_0 : INode
     {
         public NodeResult Execute(INVPData context, List<NodeResult> inputs)
         {
@@ -157,7 +155,7 @@ namespace NVP_COM_Common.NVP_COM_ProgIds
     CADType = "None",
     Text = "The id of nanoCAD 12.0",
     ViewType = "Data")]
-    public class NVP_COM_ProgID_nanoCAD_12_0 : INode
+    public class ProgID_nanoCAD_12_0 : INode
     {
         public NodeResult Execute(INVPData context, List<NodeResult> inputs)
         {
@@ -176,7 +174,7 @@ namespace NVP_COM_Common.NVP_COM_ProgIds
     CADType = "None",
     Text = "The id of nanoCAD 21.0",
     ViewType = "Data")]
-    public class NVP_COM_ProgID_nanoCAD_21_0 : INode
+    public class ProgID_nanoCAD_21_0 : INode
     {
         public NodeResult Execute(INVPData context, List<NodeResult> inputs)
         {
@@ -195,7 +193,7 @@ namespace NVP_COM_Common.NVP_COM_ProgIds
     CADType = "None",
     Text = "The id of nanoCAD 22.0",
     ViewType = "Data")]
-    public class NVP_COM_ProgID_nanoCAD_22_0 : INode
+    public class ProgID_nanoCAD_22_0 : INode
     {
         public NodeResult Execute(INVPData context, List<NodeResult> inputs)
         {
@@ -214,7 +212,7 @@ namespace NVP_COM_Common.NVP_COM_ProgIds
     CADType = "None",
     Text = "The id of nanoCAD 23.0",
     ViewType = "Data")]
-    public class NVP_COM_ProgID_nanoCAD_23_0 : INode
+    public class ProgID_nanoCAD_23_0 : INode
     {
         public NodeResult Execute(INVPData context, List<NodeResult> inputs)
         {
@@ -233,7 +231,7 @@ namespace NVP_COM_Common.NVP_COM_ProgIds
     CADType = "None",
     Text = "The id of nanoCAD 24.0",
     ViewType = "Data")]
-    public class NVP_COM_ProgID_nanoCAD_24_0 : INode
+    public class ProgID_nanoCAD_24_0 : INode
     {
         public NodeResult Execute(INVPData context, List<NodeResult> inputs)
         {
@@ -252,7 +250,7 @@ namespace NVP_COM_Common.NVP_COM_ProgIds
     CADType = "None",
     Text = "The id of nanoCAD 24.1",
     ViewType = "Data")]
-    public class NVP_COM_ProgID_nanoCAD_24_1 : INode
+    public class ProgID_nanoCAD_24_1 : INode
     {
         public NodeResult Execute(INVPData context, List<NodeResult> inputs)
         {
@@ -275,7 +273,7 @@ namespace NVP_COM_Common.NVP_COM_ProgIds
     CADType = "None",
     Text = "The id of Renga",
     ViewType = "Data")]
-    public class NVP_COM_ProgID_Renga : INode
+    public class ProgID_Renga : INode
     {
         public NodeResult Execute(INVPData context, List<NodeResult> inputs)
         {

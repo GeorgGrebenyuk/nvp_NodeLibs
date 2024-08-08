@@ -138,7 +138,7 @@ namespace NVP_Manifest_Creator
 
                         if (NVP_Manifest_attrs_need.CADType == null) NVP_Manifest_attrs_need.CADType = "None";
                         if (NVP_Manifest_attrs_need.NodeType == null) NVP_Manifest_attrs_need.NodeType = "Loaded";
-                        if (NVP_Manifest_attrs_need.ViewType == null) NVP_Manifest_attrs_need.ViewType = "Modifier";
+                        if (NVP_Manifest_attrs_need.ViewType == null) NVP_Manifest_attrs_need.ViewType = "Default";
                         if (NVP_Manifest_attrs_need.Text == null) NVP_Manifest_attrs_need.Text = "";
 
 
@@ -208,9 +208,9 @@ namespace NVP_Manifest_Creator
                         cs_data.Contains("CoderName = \"") |
                         cs_data.Contains("Folder = \"") |
                         cs_data.Contains("NodeName = \"") |
-                        cs_data.Contains("NodeName = \"") |
-                        cs_data.Contains("CADType = \"None\"") |
-                        cs_data.Contains("NodeType = \"Loaded\"")) continue;
+                        cs_data.Contains("NodeType = \"Loaded\"") |
+                        cs_data.Contains("CADType = \"None\"")|
+                        cs_data.Contains("Text = \"\"")) continue;
                     else cs.AppendLine(cs_data);
                 }
                 File.WriteAllText(cs_path, cs.ToString(), Encoding.UTF8);

@@ -17,7 +17,7 @@ namespace NVP_COM_Common.List
     Text = "Create an empty collection",
     ViewType = "Default")]
     [NodeInput("Размер", typeof(int))]
-    public class NVP_Common_List_Create : INode
+    public class List_Create : INode
     {
         public List<object> _elements;
         public NodeResult Execute(INVPData context, List<NodeResult> inputs)
@@ -41,7 +41,7 @@ namespace NVP_COM_Common.List
     ViewType = "Data")]
     [NodeInput("List", typeof(object))]
     [NodeInput("Any object", typeof(object))]
-    public class NVP_Common_List_Add : INode
+    public class List_Add : INode
     {
         public NodeResult Execute(INVPData context, List<NodeResult> inputs)
         {
@@ -63,7 +63,7 @@ namespace NVP_COM_Common.List
     Text = "Get all elements",
     ViewType = "Data")]
     [NodeInput("List", typeof(object))]
-    public class NVP_Common_List_GetElements : INode
+    public class List_GetElements : INode
     {
         public NodeResult Execute(INVPData context, List<NodeResult> inputs)
         {
@@ -85,7 +85,7 @@ namespace NVP_COM_Common.List
     Text = "Convert List to Array",
     ViewType = "Modifier")]
     [NodeInput("List", typeof(object))]
-    public class NVP_Common_List_ToArray : INode
+    public class List_ToArray : INode
     {
         public NodeResult Execute(INVPData context, List<NodeResult> inputs)
         {

@@ -28,7 +28,7 @@ namespace NVP_COM_Common
     Text = "Get _i object (COM-interface)",
     ViewType = "Modifier")]
     [NodeInput("dynamic", typeof(object))]
-    public class NVP_COM_GetInterface : INode
+    public class GetInterface : INode
     {
         public NodeResult Execute(INVPData context, List<NodeResult> inputs)
         {
@@ -51,7 +51,7 @@ namespace NVP_COM_Common
     CADType = "None",
     Text = "Get COM (Running Object Table) processes ID",
     ViewType = "Modifier")]
-    public class NVP_COM_GetROT : INode
+    public class GetROT : INode
     {
         public NodeResult Execute(INVPData context, List<NodeResult> inputs)
         {
@@ -169,7 +169,7 @@ namespace NVP_COM_Common
     CADType = "None",
     Text = "Check input object of null",
     ViewType = "Modifier")]
-    public class NVP_COM_IsNull : INode
+    public class IsNull : INode
     {
         public NodeResult Execute(INVPData context, List<NodeResult> inputs)
         {
@@ -194,7 +194,7 @@ namespace NVP_COM_Common
     CADType = "None",
     Text = "Create an instance of COM interface by it's ProgID or getting existing (for applications and COM-servers)",
     ViewType = "Modifier")]
-    public class NVP_COM_CreateInstance : INode
+    public class CreateInstance : INode
     {
         public NodeResult Execute(INVPData context, List<NodeResult> inputs)
         {
