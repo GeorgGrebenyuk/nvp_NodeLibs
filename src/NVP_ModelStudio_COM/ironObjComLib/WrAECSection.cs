@@ -11,15 +11,6 @@ namespace ironObjComLib.WrAECSection
 {
 
 	[NVP_Manifest(
-		Id = "63FBD934-63CD-4934-AF40-09CA0CE2426D", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "ironObjComLib.WrAECSection.WrAECSection_Constructor", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECSection", 
-		NodeName = "_WrAECSection_Constructor", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class WrAECSection_Constructor : INode 
@@ -35,15 +26,6 @@ namespace ironObjComLib.WrAECSection
 	}
 
 	[NVP_Manifest(
-		Id = "B7778E6E-1B6D-45AB-BE11-52E8D3EB8F81", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "ironObjComLib.WrAECSection.WrAECSection_ConstructorCast", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECSection", 
-		NodeName = "_WrAECSection_ConstructorCast", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class WrAECSection_ConstructorCast : INode 
@@ -60,14 +42,6 @@ namespace ironObjComLib.WrAECSection
 
 
 	[NVP_Manifest(
-		Id = "506F7DE0-4C0B-4C7C-9FF8-5871ACD7C001", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "ironObjComLib.WrAECSection.Element", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECSection", 
-		NodeName = "Element", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Параметры", 
 		ViewType = "Data")]
 	[NodeInput("WrAECSection", typeof(object))]
@@ -87,14 +61,6 @@ namespace ironObjComLib.WrAECSection
 
 
 	[NVP_Manifest(
-		Id = "6C0265F8-5215-434E-B1C3-7511B18E23D4", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "ironObjComLib.WrAECSection.Set_Element", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECSection", 
-		NodeName = "Set_Element", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Параметры", 
 		ViewType = "Modifier")]
 	[NodeInput("WrAECSection", typeof(object))]

@@ -11,15 +11,6 @@ namespace McCOM2.SymWeld
 {
 
 	[NVP_Manifest(
-		Id = "E72E1069-A201-4678-8C80-A377D174CB07", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SymWeld.SymWeld_Constructor", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SymWeld", 
-		NodeName = "_SymWeld_Constructor", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class SymWeld_Constructor : INode 
@@ -35,15 +26,6 @@ namespace McCOM2.SymWeld
 	}
 
 	[NVP_Manifest(
-		Id = "8FC192A3-C5BD-40BC-BB68-EEBAAF1680C1", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SymWeld.SymWeld_ConstructorCast", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SymWeld", 
-		NodeName = "_SymWeld_ConstructorCast", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class SymWeld_ConstructorCast : INode 
@@ -60,14 +42,6 @@ namespace McCOM2.SymWeld
 
 
 	[NVP_Manifest(
-		Id = "1FD3CDF7-73FC-44BA-9A67-C1038A4BB5E6", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SymWeld.Type", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SymWeld", 
-		NodeName = "Type", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x00000565", 
 		ViewType = "Data")]
 	[NodeInput("SymWeld", typeof(object))]
@@ -87,14 +61,6 @@ namespace McCOM2.SymWeld
 
 
 	[NVP_Manifest(
-		Id = "A71E02F9-7D61-4C17-AE5A-F617BCCEFD90", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SymWeld.Set_Type", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SymWeld", 
-		NodeName = "Set_Type", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x00000565", 
 		ViewType = "Modifier")]
 	[NodeInput("SymWeld", typeof(object))]
@@ -115,14 +81,6 @@ namespace McCOM2.SymWeld
 
 
 	[NVP_Manifest(
-		Id = "7F83853B-D437-4FDB-AA31-F4B6DCCB07B1", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SymWeld.Direction", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SymWeld", 
-		NodeName = "Direction", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x0000055b", 
 		ViewType = "Data")]
 	[NodeInput("SymWeld", typeof(object))]
@@ -143,14 +101,6 @@ namespace McCOM2.SymWeld
 
 
 	[NVP_Manifest(
-		Id = "28E08CF9-68E1-4BDB-B482-2D893827997C", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SymWeld.Set_Direction", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SymWeld", 
-		NodeName = "Set_Direction", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x0000055b", 
 		ViewType = "Modifier")]
 	[NodeInput("SymWeld", typeof(object))]

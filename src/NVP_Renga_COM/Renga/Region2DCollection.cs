@@ -11,15 +11,6 @@ namespace Renga.Region2DCollection
 {
 
 	[NVP_Manifest(
-		Id = "0C0419F6-BEAD-4F81-A551-B1CF693085A1", 
-		PathAssembly = "NVP_Renga_COM.dll", 
-		PathExecuteClass = "Renga.Region2DCollection.Region2DCollection_Constructor", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_Renga_COM.Renga.Region2DCollection", 
-		NodeName = "_Region2DCollection_Constructor", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class Region2DCollection_Constructor : INode 
@@ -35,15 +26,6 @@ namespace Renga.Region2DCollection
 	}
 
 	[NVP_Manifest(
-		Id = "2F45C486-C7DA-42E1-8568-A413BD09D189", 
-		PathAssembly = "NVP_Renga_COM.dll", 
-		PathExecuteClass = "Renga.Region2DCollection.Region2DCollection_ConstructorCast", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_Renga_COM.Renga.Region2DCollection", 
-		NodeName = "_Region2DCollection_ConstructorCast", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class Region2DCollection_ConstructorCast : INode 
@@ -60,15 +42,6 @@ namespace Renga.Region2DCollection
 
 
 	[NVP_Manifest(
-		Id = "CF222DCC-5409-4098-84D6-D634551FFDE5", 
-		PathAssembly = "NVP_Renga_COM.dll", 
-		PathExecuteClass = "Renga.Region2DCollection.Count", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_Renga_COM.Renga.Region2DCollection", 
-		NodeName = "Count", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Data")]
 	[NodeInput("Region2DCollection", typeof(object))]
 
@@ -87,15 +60,6 @@ namespace Renga.Region2DCollection
 
 
 	[NVP_Manifest(
-		Id = "103D60A7-34BE-4DD3-B1D9-0510ED05DEBD", 
-		PathAssembly = "NVP_Renga_COM.dll", 
-		PathExecuteClass = "Renga.Region2DCollection.Get", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_Renga_COM.Renga.Region2DCollection", 
-		NodeName = "Get", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Data")]
 	[NodeInput("Region2DCollection", typeof(object))]
 	[NodeInput("index", typeof(System.Int32))]

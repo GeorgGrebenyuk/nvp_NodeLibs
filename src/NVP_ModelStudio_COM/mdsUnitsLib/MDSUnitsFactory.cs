@@ -11,15 +11,6 @@ namespace mdsUnitsLib.MDSUnitsFactory
 {
 
 	[NVP_Manifest(
-		Id = "EC1B6099-7508-4153-9CF7-5E8454872E45", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsUnitsLib.MDSUnitsFactory.MDSUnitsFactory_Constructor", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSUnitsFactory", 
-		NodeName = "_MDSUnitsFactory_Constructor", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class MDSUnitsFactory_Constructor : INode 
@@ -35,15 +26,6 @@ namespace mdsUnitsLib.MDSUnitsFactory
 	}
 
 	[NVP_Manifest(
-		Id = "920A3EA7-7046-42B5-8BC9-9342866848D8", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsUnitsLib.MDSUnitsFactory.MDSUnitsFactory_ConstructorCast", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSUnitsFactory", 
-		NodeName = "_MDSUnitsFactory_ConstructorCast", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class MDSUnitsFactory_ConstructorCast : INode 
@@ -60,14 +42,6 @@ namespace mdsUnitsLib.MDSUnitsFactory
 
 
 	[NVP_Manifest(
-		Id = "E39F4A5D-FBEB-4010-B550-9E0E2BE57A6A", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsUnitsLib.MDSUnitsFactory.CreateUnit", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSUnitsFactory", 
-		NodeName = "CreateUnit", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Создание компонента оборудования", 
 		ViewType = "Data")]
 	[NodeInput("MDSUnitsFactory", typeof(object))]

@@ -11,15 +11,6 @@ namespace McCOM2.McCOMCalculator
 {
 
 	[NVP_Manifest(
-		Id = "D5EA1B3C-D6C9-448C-BFE9-B5E677CCCC39", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.McCOMCalculator.McCOMCalculator_Constructor", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.McCOMCalculator", 
-		NodeName = "_McCOMCalculator_Constructor", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class McCOMCalculator_Constructor : INode 
@@ -35,15 +26,6 @@ namespace McCOM2.McCOMCalculator
 	}
 
 	[NVP_Manifest(
-		Id = "A6831137-0E40-467A-BB6D-80C23CF31064", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.McCOMCalculator.McCOMCalculator_ConstructorCast", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.McCOMCalculator", 
-		NodeName = "_McCOMCalculator_ConstructorCast", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class McCOMCalculator_ConstructorCast : INode 
@@ -60,14 +42,6 @@ namespace McCOM2.McCOMCalculator
 
 
 	[NVP_Manifest(
-		Id = "576E0883-EB48-4841-A218-D99419452083", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.McCOMCalculator.OnCreate", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.McCOMCalculator", 
-		NodeName = "OnCreate", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "method OnCreate", 
 		ViewType = "Modifier")]
 	[NodeInput("McCOMCalculator", typeof(object))]
@@ -88,14 +62,6 @@ namespace McCOM2.McCOMCalculator
 
 
 	[NVP_Manifest(
-		Id = "5F4FA167-86B1-4AA8-AB21-5777875705FB", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.McCOMCalculator.OnEdit", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.McCOMCalculator", 
-		NodeName = "OnEdit", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "method OnEdit", 
 		ViewType = "Modifier")]
 	[NodeInput("McCOMCalculator", typeof(object))]
@@ -116,14 +82,6 @@ namespace McCOM2.McCOMCalculator
 
 
 	[NVP_Manifest(
-		Id = "FD26AF35-34D4-4AF6-8376-A8B3DEF56038", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.McCOMCalculator.GetValueByName", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.McCOMCalculator", 
-		NodeName = "GetValueByName", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "method Value", 
 		ViewType = "Data")]
 	[NodeInput("McCOMCalculator", typeof(object))]
@@ -144,14 +102,6 @@ namespace McCOM2.McCOMCalculator
 
 
 	[NVP_Manifest(
-		Id = "8A7DE76D-B5BA-4471-8143-567035F62666", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.McCOMCalculator.PutValueByName", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.McCOMCalculator", 
-		NodeName = "PutValueByName", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "method Value", 
 		ViewType = "Modifier")]
 	[NodeInput("McCOMCalculator", typeof(object))]
@@ -173,14 +123,6 @@ namespace McCOM2.McCOMCalculator
 
 
 	[NVP_Manifest(
-		Id = "70E8E649-BD9B-45F5-BBF4-0BC9411BA188", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.McCOMCalculator.OnRead", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.McCOMCalculator", 
-		NodeName = "OnRead", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "method OnRead", 
 		ViewType = "Modifier")]
 	[NodeInput("McCOMCalculator", typeof(object))]
@@ -201,14 +143,6 @@ namespace McCOM2.McCOMCalculator
 
 
 	[NVP_Manifest(
-		Id = "8533F6AC-4689-45EF-9FC2-D982B7C5E570", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.McCOMCalculator.OnWrite", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.McCOMCalculator", 
-		NodeName = "OnWrite", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "method OnWrite", 
 		ViewType = "Data")]
 	[NodeInput("McCOMCalculator", typeof(object))]
@@ -228,14 +162,6 @@ namespace McCOM2.McCOMCalculator
 
 
 	[NVP_Manifest(
-		Id = "60D62494-44F9-471B-AA15-3B221B0270C4", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.McCOMCalculator.GetValueByIndex", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.McCOMCalculator", 
-		NodeName = "GetValueByIndex", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "method ValueByIndex", 
 		ViewType = "Data")]
 	[NodeInput("McCOMCalculator", typeof(object))]
@@ -256,14 +182,6 @@ namespace McCOM2.McCOMCalculator
 
 
 	[NVP_Manifest(
-		Id = "706AA924-714F-4F71-8423-1B21DF2CA57A", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.McCOMCalculator.PutValueByIndex", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.McCOMCalculator", 
-		NodeName = "PutValueByIndex", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "method ValueByIndex", 
 		ViewType = "Modifier")]
 	[NodeInput("McCOMCalculator", typeof(object))]
@@ -285,14 +203,6 @@ namespace McCOM2.McCOMCalculator
 
 
 	[NVP_Manifest(
-		Id = "0E9D4EC7-30B6-4E09-ADAD-DBA6167595D6", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.McCOMCalculator.GetKeywords", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.McCOMCalculator", 
-		NodeName = "GetKeywords", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "method Keywords for report", 
 		ViewType = "Modifier")]
 	[NodeInput("McCOMCalculator", typeof(object))]

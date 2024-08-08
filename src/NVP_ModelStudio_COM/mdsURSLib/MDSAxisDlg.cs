@@ -11,15 +11,6 @@ namespace mdsURSLib.MDSAxisDlg
 {
 
 	[NVP_Manifest(
-		Id = "8BAA1F4F-6957-48CB-BA67-E431B94872FA", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsURSLib.MDSAxisDlg.MDSAxisDlg_Constructor", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsURSLib.MDSAxisDlg", 
-		NodeName = "_MDSAxisDlg_Constructor", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class MDSAxisDlg_Constructor : INode 
@@ -35,15 +26,6 @@ namespace mdsURSLib.MDSAxisDlg
 	}
 
 	[NVP_Manifest(
-		Id = "E1364CF3-C784-4DDC-8C23-BC98643AC806", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsURSLib.MDSAxisDlg.MDSAxisDlg_ConstructorCast", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsURSLib.MDSAxisDlg", 
-		NodeName = "_MDSAxisDlg_ConstructorCast", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class MDSAxisDlg_ConstructorCast : INode 

@@ -11,15 +11,6 @@ namespace McCOM2.SymSpdsAxis
 {
 
 	[NVP_Manifest(
-		Id = "A265A9E9-39BA-4D1E-9343-306B6228FE0C", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SymSpdsAxis.SymSpdsAxis_Constructor", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SymSpdsAxis", 
-		NodeName = "_SymSpdsAxis_Constructor", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class SymSpdsAxis_Constructor : INode 
@@ -35,15 +26,6 @@ namespace McCOM2.SymSpdsAxis
 	}
 
 	[NVP_Manifest(
-		Id = "D559C279-69A9-4879-9D31-A646901DF6B6", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SymSpdsAxis.SymSpdsAxis_ConstructorCast", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SymSpdsAxis", 
-		NodeName = "_SymSpdsAxis_ConstructorCast", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class SymSpdsAxis_ConstructorCast : INode 
@@ -60,14 +42,6 @@ namespace McCOM2.SymSpdsAxis
 
 
 	[NVP_Manifest(
-		Id = "319B8FEF-9A5E-40DE-8D1E-B45C963725B3", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SymSpdsAxis.Index", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SymSpdsAxis", 
-		NodeName = "Index", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x00000604", 
 		ViewType = "Data")]
 	[NodeInput("SymSpdsAxis", typeof(object))]
@@ -87,14 +61,6 @@ namespace McCOM2.SymSpdsAxis
 
 
 	[NVP_Manifest(
-		Id = "40DFD6B9-30D3-42A4-8858-F5C2C12976B1", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SymSpdsAxis.Set_Index", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SymSpdsAxis", 
-		NodeName = "Set_Index", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x00000604", 
 		ViewType = "Modifier")]
 	[NodeInput("SymSpdsAxis", typeof(object))]
@@ -115,14 +81,6 @@ namespace McCOM2.SymSpdsAxis
 
 
 	[NVP_Manifest(
-		Id = "B9B86C84-C1B9-4E2D-BA72-49EA3D4372F3", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SymSpdsAxis.TextPosition", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SymSpdsAxis", 
-		NodeName = "TextPosition", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x00000605", 
 		ViewType = "Data")]
 	[NodeInput("SymSpdsAxis", typeof(object))]
@@ -142,14 +100,6 @@ namespace McCOM2.SymSpdsAxis
 
 
 	[NVP_Manifest(
-		Id = "9FE2CCC3-5D8B-4FA9-B4E5-67378E870E54", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SymSpdsAxis.Set_TextPosition", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SymSpdsAxis", 
-		NodeName = "Set_TextPosition", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x00000605", 
 		ViewType = "Modifier")]
 	[NodeInput("SymSpdsAxis", typeof(object))]
@@ -170,14 +120,6 @@ namespace McCOM2.SymSpdsAxis
 
 
 	[NVP_Manifest(
-		Id = "CFC55170-8934-4553-9D6C-6E2AF2A34E52", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SymSpdsAxis.Position", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SymSpdsAxis", 
-		NodeName = "Position", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x00000606", 
 		ViewType = "Data")]
 	[NodeInput("SymSpdsAxis", typeof(object))]
@@ -197,14 +139,6 @@ namespace McCOM2.SymSpdsAxis
 
 
 	[NVP_Manifest(
-		Id = "8500B6A4-D08B-4D0D-9861-511D7A79B585", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SymSpdsAxis.Set_Position", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SymSpdsAxis", 
-		NodeName = "Set_Position", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x00000606", 
 		ViewType = "Modifier")]
 	[NodeInput("SymSpdsAxis", typeof(object))]

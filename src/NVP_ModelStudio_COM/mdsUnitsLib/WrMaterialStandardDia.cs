@@ -11,15 +11,6 @@ namespace mdsUnitsLib.WrMaterialStandardDia
 {
 
 	[NVP_Manifest(
-		Id = "203FFD37-AA32-4CA4-B741-4ADF32AA150E", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsUnitsLib.WrMaterialStandardDia.WrMaterialStandardDia_Constructor", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.WrMaterialStandardDia", 
-		NodeName = "_WrMaterialStandardDia_Constructor", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class WrMaterialStandardDia_Constructor : INode 
@@ -35,15 +26,6 @@ namespace mdsUnitsLib.WrMaterialStandardDia
 	}
 
 	[NVP_Manifest(
-		Id = "F84B7296-FBE2-43C9-B102-5FB833886F68", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsUnitsLib.WrMaterialStandardDia.WrMaterialStandardDia_ConstructorCast", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.WrMaterialStandardDia", 
-		NodeName = "_WrMaterialStandardDia_ConstructorCast", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class WrMaterialStandardDia_ConstructorCast : INode 

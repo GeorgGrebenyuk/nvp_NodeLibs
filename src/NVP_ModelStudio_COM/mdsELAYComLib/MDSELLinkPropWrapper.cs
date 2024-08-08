@@ -11,15 +11,6 @@ namespace mdsELAYComLib.MDSELLinkPropWrapper
 {
 
 	[NVP_Manifest(
-		Id = "D7B9C952-DCEB-4D8D-9FC1-17F9A1196F44", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsELAYComLib.MDSELLinkPropWrapper.MDSELLinkPropWrapper_Constructor", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsELAYComLib.MDSELLinkPropWrapper", 
-		NodeName = "_MDSELLinkPropWrapper_Constructor", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class MDSELLinkPropWrapper_Constructor : INode 
@@ -35,15 +26,6 @@ namespace mdsELAYComLib.MDSELLinkPropWrapper
 	}
 
 	[NVP_Manifest(
-		Id = "E18AACA8-014D-4A21-8FA8-60C5DB1BEB92", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsELAYComLib.MDSELLinkPropWrapper.MDSELLinkPropWrapper_ConstructorCast", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsELAYComLib.MDSELLinkPropWrapper", 
-		NodeName = "_MDSELLinkPropWrapper_ConstructorCast", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class MDSELLinkPropWrapper_ConstructorCast : INode 

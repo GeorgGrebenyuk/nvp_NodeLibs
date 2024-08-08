@@ -11,15 +11,6 @@ namespace vCSViperCSObjComLib.WrOverpassAxis
 {
 
 	[NVP_Manifest(
-		Id = "CFF0C04A-0476-484C-BB17-029304454CB1", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "vCSViperCSObjComLib.WrOverpassAxis.WrOverpassAxis_Constructor", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.vCSViperCSObjComLib.WrOverpassAxis", 
-		NodeName = "_WrOverpassAxis_Constructor", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class WrOverpassAxis_Constructor : INode 
@@ -35,15 +26,6 @@ namespace vCSViperCSObjComLib.WrOverpassAxis
 	}
 
 	[NVP_Manifest(
-		Id = "EBC83010-5B31-45DC-A5AB-8E70909904F5", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "vCSViperCSObjComLib.WrOverpassAxis.WrOverpassAxis_ConstructorCast", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.vCSViperCSObjComLib.WrOverpassAxis", 
-		NodeName = "_WrOverpassAxis_ConstructorCast", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class WrOverpassAxis_ConstructorCast : INode 

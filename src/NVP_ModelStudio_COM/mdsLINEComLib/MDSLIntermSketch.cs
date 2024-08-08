@@ -11,15 +11,6 @@ namespace mdsLINEComLib.MDSLIntermSketch
 {
 
 	[NVP_Manifest(
-		Id = "37A1B275-B020-4F55-86A8-9D4581FFE860", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsLINEComLib.MDSLIntermSketch.MDSLIntermSketch_Constructor", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLIntermSketch", 
-		NodeName = "_MDSLIntermSketch_Constructor", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class MDSLIntermSketch_Constructor : INode 
@@ -35,15 +26,6 @@ namespace mdsLINEComLib.MDSLIntermSketch
 	}
 
 	[NVP_Manifest(
-		Id = "A02FA53E-D2E0-4562-B5BC-BEF8A64DB890", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsLINEComLib.MDSLIntermSketch.MDSLIntermSketch_ConstructorCast", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLIntermSketch", 
-		NodeName = "_MDSLIntermSketch_ConstructorCast", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class MDSLIntermSketch_ConstructorCast : INode 

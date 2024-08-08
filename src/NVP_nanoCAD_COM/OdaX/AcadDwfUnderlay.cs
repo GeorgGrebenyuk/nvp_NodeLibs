@@ -11,15 +11,6 @@ namespace OdaX.AcadDwfUnderlay
 {
 
 	[NVP_Manifest(
-		Id = "1C297150-26E8-4D44-A1AA-51451C888FC2", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "OdaX.AcadDwfUnderlay.AcadDwfUnderlay_Constructor", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.OdaX.AcadDwfUnderlay", 
-		NodeName = "_AcadDwfUnderlay_Constructor", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class AcadDwfUnderlay_Constructor : INode 
@@ -35,15 +26,6 @@ namespace OdaX.AcadDwfUnderlay
 	}
 
 	[NVP_Manifest(
-		Id = "6C6DB3CD-D1C5-4A18-A38F-0DC467F0F449", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "OdaX.AcadDwfUnderlay.AcadDwfUnderlay_ConstructorCast", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.OdaX.AcadDwfUnderlay", 
-		NodeName = "_AcadDwfUnderlay_ConstructorCast", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class AcadDwfUnderlay_ConstructorCast : INode 
@@ -60,14 +42,6 @@ namespace OdaX.AcadDwfUnderlay
 
 
 	[NVP_Manifest(
-		Id = "FBC0989D-CA95-4898-BA53-7BE39B1ABEA4", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "OdaX.AcadDwfUnderlay.DWFFormat", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.OdaX.AcadDwfUnderlay", 
-		NodeName = "DWFFormat", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Specifies the format of DWF file", 
 		ViewType = "Data")]
 	[NodeInput("AcadDwfUnderlay", typeof(object))]
@@ -87,14 +61,6 @@ namespace OdaX.AcadDwfUnderlay
 
 
 	[NVP_Manifest(
-		Id = "B3519D0B-A00C-4E7C-9D2F-43B9ED4C6E58", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "OdaX.AcadDwfUnderlay.Set_DWFFormat", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.OdaX.AcadDwfUnderlay", 
-		NodeName = "Set_DWFFormat", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Specifies the format of DWF file", 
 		ViewType = "Modifier")]
 	[NodeInput("AcadDwfUnderlay", typeof(object))]

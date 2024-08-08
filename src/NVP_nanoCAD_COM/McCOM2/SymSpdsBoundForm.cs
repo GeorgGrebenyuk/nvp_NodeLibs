@@ -11,15 +11,6 @@ namespace McCOM2.SymSpdsBoundForm
 {
 
 	[NVP_Manifest(
-		Id = "55AD472C-62D3-4AF9-895A-D175D7539CA0", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SymSpdsBoundForm.SymSpdsBoundForm_Constructor", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SymSpdsBoundForm", 
-		NodeName = "_SymSpdsBoundForm_Constructor", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class SymSpdsBoundForm_Constructor : INode 
@@ -35,15 +26,6 @@ namespace McCOM2.SymSpdsBoundForm
 	}
 
 	[NVP_Manifest(
-		Id = "E28D2511-A20C-4381-A80D-DD0ABC1BAD37", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SymSpdsBoundForm.SymSpdsBoundForm_ConstructorCast", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SymSpdsBoundForm", 
-		NodeName = "_SymSpdsBoundForm_ConstructorCast", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class SymSpdsBoundForm_ConstructorCast : INode 
@@ -60,14 +42,6 @@ namespace McCOM2.SymSpdsBoundForm
 
 
 	[NVP_Manifest(
-		Id = "37024516-9354-48F0-9D34-A8CD7B0078D3", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SymSpdsBoundForm.Type", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SymSpdsBoundForm", 
-		NodeName = "Type", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x00000345", 
 		ViewType = "Data")]
 	[NodeInput("SymSpdsBoundForm", typeof(object))]
@@ -87,14 +61,6 @@ namespace McCOM2.SymSpdsBoundForm
 
 
 	[NVP_Manifest(
-		Id = "7556FBCB-44F4-44E6-8381-77C48FD8C189", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SymSpdsBoundForm.Set_Type", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SymSpdsBoundForm", 
-		NodeName = "Set_Type", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x00000345", 
 		ViewType = "Modifier")]
 	[NodeInput("SymSpdsBoundForm", typeof(object))]
@@ -115,14 +81,6 @@ namespace McCOM2.SymSpdsBoundForm
 
 
 	[NVP_Manifest(
-		Id = "B6921B88-BA4C-4CC2-ADE2-3A982EB1D8F7", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SymSpdsBoundForm.Direction", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SymSpdsBoundForm", 
-		NodeName = "Direction", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x0000033b", 
 		ViewType = "Data")]
 	[NodeInput("SymSpdsBoundForm", typeof(object))]
@@ -142,14 +100,6 @@ namespace McCOM2.SymSpdsBoundForm
 
 
 	[NVP_Manifest(
-		Id = "2E98D4E9-EADB-40ED-BE7E-B66577733EEB", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SymSpdsBoundForm.Set_Direction", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SymSpdsBoundForm", 
-		NodeName = "Set_Direction", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x0000033b", 
 		ViewType = "Modifier")]
 	[NodeInput("SymSpdsBoundForm", typeof(object))]

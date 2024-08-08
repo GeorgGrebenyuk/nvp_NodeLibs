@@ -11,15 +11,6 @@ namespace mdsUnitsLib.MDSFunctionDlgWrapper
 {
 
 	[NVP_Manifest(
-		Id = "145FFB6A-AC5D-463D-983D-6F0E9208DC1F", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsUnitsLib.MDSFunctionDlgWrapper.MDSFunctionDlgWrapper_Constructor", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSFunctionDlgWrapper", 
-		NodeName = "_MDSFunctionDlgWrapper_Constructor", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class MDSFunctionDlgWrapper_Constructor : INode 
@@ -35,15 +26,6 @@ namespace mdsUnitsLib.MDSFunctionDlgWrapper
 	}
 
 	[NVP_Manifest(
-		Id = "E90BBB3D-8202-404B-BAA7-B8CA14ED1E96", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsUnitsLib.MDSFunctionDlgWrapper.MDSFunctionDlgWrapper_ConstructorCast", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSFunctionDlgWrapper", 
-		NodeName = "_MDSFunctionDlgWrapper_ConstructorCast", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class MDSFunctionDlgWrapper_ConstructorCast : INode 

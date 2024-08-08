@@ -11,15 +11,6 @@ namespace mdsUnitsLib.MDSBoundingBox
 {
 
 	[NVP_Manifest(
-		Id = "63275A64-70AC-48ED-9B75-7F14D4952186", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsUnitsLib.MDSBoundingBox.MDSBoundingBox_Constructor", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSBoundingBox", 
-		NodeName = "_MDSBoundingBox_Constructor", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class MDSBoundingBox_Constructor : INode 
@@ -35,15 +26,6 @@ namespace mdsUnitsLib.MDSBoundingBox
 	}
 
 	[NVP_Manifest(
-		Id = "822CEE98-E63F-4AA6-9CD3-0D8153E723DA", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsUnitsLib.MDSBoundingBox.MDSBoundingBox_ConstructorCast", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSBoundingBox", 
-		NodeName = "_MDSBoundingBox_ConstructorCast", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class MDSBoundingBox_ConstructorCast : INode 

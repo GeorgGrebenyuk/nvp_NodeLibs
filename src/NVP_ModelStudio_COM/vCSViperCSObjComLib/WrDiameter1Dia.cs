@@ -11,15 +11,6 @@ namespace vCSViperCSObjComLib.WrDiameter1Dia
 {
 
 	[NVP_Manifest(
-		Id = "11D99581-FB00-4158-9B35-4080A9290000", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "vCSViperCSObjComLib.WrDiameter1Dia.WrDiameter1Dia_Constructor", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.vCSViperCSObjComLib.WrDiameter1Dia", 
-		NodeName = "_WrDiameter1Dia_Constructor", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class WrDiameter1Dia_Constructor : INode 
@@ -35,15 +26,6 @@ namespace vCSViperCSObjComLib.WrDiameter1Dia
 	}
 
 	[NVP_Manifest(
-		Id = "E4A975BD-023B-43AC-919D-A729CF493A9B", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "vCSViperCSObjComLib.WrDiameter1Dia.WrDiameter1Dia_ConstructorCast", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.vCSViperCSObjComLib.WrDiameter1Dia", 
-		NodeName = "_WrDiameter1Dia_ConstructorCast", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class WrDiameter1Dia_ConstructorCast : INode 

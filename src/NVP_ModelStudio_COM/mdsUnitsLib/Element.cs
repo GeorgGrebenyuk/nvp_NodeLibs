@@ -11,15 +11,6 @@ namespace mdsUnitsLib.Element
 {
 
 	[NVP_Manifest(
-		Id = "F40DB3EE-F95B-4D2B-BC8B-26BC87F71602", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsUnitsLib.Element.Element_Constructor", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.Element", 
-		NodeName = "_Element_Constructor", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class Element_Constructor : INode 
@@ -35,15 +26,6 @@ namespace mdsUnitsLib.Element
 	}
 
 	[NVP_Manifest(
-		Id = "1CDF6F2F-8EEE-4EEA-AA83-17AA3F64A83E", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsUnitsLib.Element.Element_ConstructorCast", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.Element", 
-		NodeName = "_Element_ConstructorCast", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class Element_ConstructorCast : INode 
@@ -60,14 +42,6 @@ namespace mdsUnitsLib.Element
 
 
 	[NVP_Manifest(
-		Id = "20AA5AEF-135A-4073-BE3B-78F6CBB0256B", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsUnitsLib.Element.Name", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.Element", 
-		NodeName = "Name", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Имя элемента", 
 		ViewType = "Data")]
 	[NodeInput("Element", typeof(object))]
@@ -87,14 +61,6 @@ namespace mdsUnitsLib.Element
 
 
 	[NVP_Manifest(
-		Id = "879B9FEC-2116-41C7-9EB3-0523F44CE085", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsUnitsLib.Element.Set_Name", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.Element", 
-		NodeName = "Set_Name", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Имя элемента", 
 		ViewType = "Modifier")]
 	[NodeInput("Element", typeof(object))]
@@ -115,14 +81,6 @@ namespace mdsUnitsLib.Element
 
 
 	[NVP_Manifest(
-		Id = "7E0A15C3-55A4-4F4D-8F88-80DFE1E105E7", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsUnitsLib.Element.Parameters", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.Element", 
-		NodeName = "Parameters", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Параметры", 
 		ViewType = "Data")]
 	[NodeInput("Element", typeof(object))]
@@ -142,14 +100,6 @@ namespace mdsUnitsLib.Element
 
 
 	[NVP_Manifest(
-		Id = "037F6765-0B63-4AEA-ADD8-95D71D3271A4", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsUnitsLib.Element.Parent", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.Element", 
-		NodeName = "Parent", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Родительский элемент", 
 		ViewType = "Data")]
 	[NodeInput("Element", typeof(object))]
@@ -169,14 +119,6 @@ namespace mdsUnitsLib.Element
 
 
 	[NVP_Manifest(
-		Id = "73E65D7E-553C-4236-88D3-351D1133E219", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsUnitsLib.Element.Set_Parent", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.Element", 
-		NodeName = "Set_Parent", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Родительский элемент", 
 		ViewType = "Modifier")]
 	[NodeInput("Element", typeof(object))]
@@ -197,14 +139,6 @@ namespace mdsUnitsLib.Element
 
 
 	[NVP_Manifest(
-		Id = "66638530-C3EF-40EA-98F9-DC40D9B557A5", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsUnitsLib.Element.SubElements", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.Element", 
-		NodeName = "SubElements", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Подчиненные элементы", 
 		ViewType = "Data")]
 	[NodeInput("Element", typeof(object))]
@@ -224,14 +158,6 @@ namespace mdsUnitsLib.Element
 
 
 	[NVP_Manifest(
-		Id = "1A4C536A-79CA-48C2-BA39-A009A472DCC5", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsUnitsLib.Element.Description", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.Element", 
-		NodeName = "Description", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Описание", 
 		ViewType = "Data")]
 	[NodeInput("Element", typeof(object))]
@@ -251,14 +177,6 @@ namespace mdsUnitsLib.Element
 
 
 	[NVP_Manifest(
-		Id = "89A22D9F-CEB6-48CC-826A-5176477813CC", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsUnitsLib.Element.IsValid", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.Element", 
-		NodeName = "IsValid", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Действительный ли элемент", 
 		ViewType = "Data")]
 	[NodeInput("Element", typeof(object))]
@@ -278,14 +196,6 @@ namespace mdsUnitsLib.Element
 
 
 	[NVP_Manifest(
-		Id = "6C6D13E2-C6E6-4762-B717-88E81EE76533", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsUnitsLib.Element.ElementId", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.Element", 
-		NodeName = "ElementId", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Уникальный номер", 
 		ViewType = "Data")]
 	[NodeInput("Element", typeof(object))]
@@ -305,14 +215,6 @@ namespace mdsUnitsLib.Element
 
 
 	[NVP_Manifest(
-		Id = "CBA21185-D21A-44D1-A030-49D49F64F51D", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsUnitsLib.Element.ObjectId", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.Element", 
-		NodeName = "ObjectId", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Идентификатор объекта", 
 		ViewType = "Data")]
 	[NodeInput("Element", typeof(object))]
@@ -332,14 +234,6 @@ namespace mdsUnitsLib.Element
 
 
 	[NVP_Manifest(
-		Id = "8FCBFBEC-96E0-4357-A906-BA1AC6A16740", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsUnitsLib.Element.Implementation", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.Element", 
-		NodeName = "Implementation", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "property Implementation", 
 		ViewType = "Data")]
 	[NodeInput("Element", typeof(object))]
@@ -359,14 +253,6 @@ namespace mdsUnitsLib.Element
 
 
 	[NVP_Manifest(
-		Id = "CE84EEFF-87F8-45D0-AA7A-7C65139CE776", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsUnitsLib.Element.CopyFrom", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.Element", 
-		NodeName = "CopyFrom", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Копировать данные", 
 		ViewType = "Modifier")]
 	[NodeInput("Element", typeof(object))]
@@ -387,14 +273,6 @@ namespace mdsUnitsLib.Element
 
 
 	[NVP_Manifest(
-		Id = "D3878579-4B28-4685-AABB-D524331910A3", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsUnitsLib.Element.GetPath", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.Element", 
-		NodeName = "GetPath", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Путь до текущего элемента", 
 		ViewType = "Data")]
 	[NodeInput("Element", typeof(object))]
@@ -415,14 +293,6 @@ namespace mdsUnitsLib.Element
 
 
 	[NVP_Manifest(
-		Id = "25ABB5AA-D678-451F-93A3-77D0E261DF25", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsUnitsLib.Element.GetParentByLevel", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.Element", 
-		NodeName = "GetParentByLevel", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Получение родителя заданного уровня", 
 		ViewType = "Data")]
 	[NodeInput("Element", typeof(object))]
@@ -443,14 +313,6 @@ namespace mdsUnitsLib.Element
 
 
 	[NVP_Manifest(
-		Id = "783ACFE1-565D-4A3C-8924-F67E67C6BABE", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsUnitsLib.Element.GetValue", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.Element", 
-		NodeName = "GetValue", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Значение параметра", 
 		ViewType = "Data")]
 	[NodeInput("Element", typeof(object))]
@@ -471,14 +333,6 @@ namespace mdsUnitsLib.Element
 
 
 	[NVP_Manifest(
-		Id = "7004DF94-7678-410F-8E02-682EC2196106", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsUnitsLib.Element.GetValueComment", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.Element", 
-		NodeName = "GetValueComment", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Комментарий к значению параметра", 
 		ViewType = "Data")]
 	[NodeInput("Element", typeof(object))]
@@ -499,14 +353,6 @@ namespace mdsUnitsLib.Element
 
 
 	[NVP_Manifest(
-		Id = "053D758A-009A-4601-A13B-AA39B431768F", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsUnitsLib.Element.AddChild", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.Element", 
-		NodeName = "AddChild", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Добавить подчиненный элемент", 
 		ViewType = "Data")]
 	[NodeInput("Element", typeof(object))]
@@ -527,14 +373,6 @@ namespace mdsUnitsLib.Element
 
 
 	[NVP_Manifest(
-		Id = "FBDEA3CA-D590-4509-9662-3248BE17E642", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsUnitsLib.Element.HasParent", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.Element", 
-		NodeName = "HasParent", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Имеется ли валидный родитель", 
 		ViewType = "Data")]
 	[NodeInput("Element", typeof(object))]
@@ -554,14 +392,6 @@ namespace mdsUnitsLib.Element
 
 
 	[NVP_Manifest(
-		Id = "6398DDE0-2795-4809-BCAC-F2331E34638B", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsUnitsLib.Element.GetById", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.Element", 
-		NodeName = "GetById", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Получение подобъекта по идентификатору", 
 		ViewType = "Data")]
 	[NodeInput("Element", typeof(object))]

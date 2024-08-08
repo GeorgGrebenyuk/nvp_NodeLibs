@@ -11,15 +11,6 @@ namespace McCOM2.Control
 {
 
 	[NVP_Manifest(
-		Id = "3246054A-D4F6-41EF-B91D-00F8BCFEE90A", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.Control.Control_Constructor", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.Control", 
-		NodeName = "_Control_Constructor", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class Control_Constructor : INode 
@@ -35,15 +26,6 @@ namespace McCOM2.Control
 	}
 
 	[NVP_Manifest(
-		Id = "3036B1DF-D9E0-4B5C-8900-B84C7FE403BB", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.Control.Control_ConstructorCast", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.Control", 
-		NodeName = "_Control_ConstructorCast", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class Control_ConstructorCast : INode 
@@ -60,14 +42,6 @@ namespace McCOM2.Control
 
 
 	[NVP_Manifest(
-		Id = "4D5A317A-EDFD-4B85-8B54-AD5F8215103D", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.Control.Value", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.Control", 
-		NodeName = "Value", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x000005d9", 
 		ViewType = "Data")]
 	[NodeInput("Control", typeof(object))]
@@ -87,14 +61,6 @@ namespace McCOM2.Control
 
 
 	[NVP_Manifest(
-		Id = "F541554A-5236-4454-BFC3-617BBB21E6FB", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.Control.Set_Value", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.Control", 
-		NodeName = "Set_Value", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x000005d9", 
 		ViewType = "Modifier")]
 	[NodeInput("Control", typeof(object))]
@@ -115,14 +81,6 @@ namespace McCOM2.Control
 
 
 	[NVP_Manifest(
-		Id = "743451C1-880A-43AC-9D66-335810D5E97B", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.Control.ClassName", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.Control", 
-		NodeName = "ClassName", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x000005da", 
 		ViewType = "Data")]
 	[NodeInput("Control", typeof(object))]
@@ -142,14 +100,6 @@ namespace McCOM2.Control
 
 
 	[NVP_Manifest(
-		Id = "F8DF1B61-DD9A-4AA6-B1D1-184E454EC2B1", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.Control.Name", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.Control", 
-		NodeName = "Name", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x000005db", 
 		ViewType = "Data")]
 	[NodeInput("Control", typeof(object))]
@@ -169,14 +119,6 @@ namespace McCOM2.Control
 
 
 	[NVP_Manifest(
-		Id = "8A6787AD-94AC-437D-AEBD-5427A216FFC1", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.Control.Visible", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.Control", 
-		NodeName = "Visible", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x000005dc", 
 		ViewType = "Data")]
 	[NodeInput("Control", typeof(object))]
@@ -196,14 +138,6 @@ namespace McCOM2.Control
 
 
 	[NVP_Manifest(
-		Id = "68171176-9586-4492-8D87-9C91916CAC3C", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.Control.Set_Visible", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.Control", 
-		NodeName = "Set_Visible", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x000005dc", 
 		ViewType = "Modifier")]
 	[NodeInput("Control", typeof(object))]
@@ -224,15 +158,6 @@ namespace McCOM2.Control
 
 
 	[NVP_Manifest(
-		Id = "373E10C1-AA95-4E3A-8096-7462B7D0D25A", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.Control.Enabled", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.Control", 
-		NodeName = "Enabled", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Data")]
 	[NodeInput("Control", typeof(object))]
 
@@ -251,15 +176,6 @@ namespace McCOM2.Control
 
 
 	[NVP_Manifest(
-		Id = "276B21A6-0D38-41F5-B845-7F35064CC92A", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.Control.Set_Enabled", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.Control", 
-		NodeName = "Set_Enabled", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("Control", typeof(object))]
 	[NodeInput("pvbValue", typeof(System.Object))]
@@ -279,14 +195,6 @@ namespace McCOM2.Control
 
 
 	[NVP_Manifest(
-		Id = "A2842524-B252-4BCF-9BE8-6F81A69F44B4", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.Control.Form", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.Control", 
-		NodeName = "Form", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x000005ef", 
 		ViewType = "Data")]
 	[NodeInput("Control", typeof(object))]
@@ -306,14 +214,6 @@ namespace McCOM2.Control
 
 
 	[NVP_Manifest(
-		Id = "16778F51-33CD-47F2-B447-4A31943AE4C5", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.Control.Left", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.Control", 
-		NodeName = "Left", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x000005df", 
 		ViewType = "Data")]
 	[NodeInput("Control", typeof(object))]
@@ -333,14 +233,6 @@ namespace McCOM2.Control
 
 
 	[NVP_Manifest(
-		Id = "46446FAF-D498-43C6-8BFD-E4530E8F2832", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.Control.Set_Left", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.Control", 
-		NodeName = "Set_Left", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x000005df", 
 		ViewType = "Modifier")]
 	[NodeInput("Control", typeof(object))]
@@ -361,14 +253,6 @@ namespace McCOM2.Control
 
 
 	[NVP_Manifest(
-		Id = "8DC0ECFF-1E57-4C8A-ABBB-A3796AC53001", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.Control.Top", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.Control", 
-		NodeName = "Top", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x000005e0", 
 		ViewType = "Data")]
 	[NodeInput("Control", typeof(object))]
@@ -388,14 +272,6 @@ namespace McCOM2.Control
 
 
 	[NVP_Manifest(
-		Id = "68E90BD2-E5E4-4D28-8463-87DFFD6B3FDD", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.Control.Set_Top", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.Control", 
-		NodeName = "Set_Top", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x000005e0", 
 		ViewType = "Modifier")]
 	[NodeInput("Control", typeof(object))]
@@ -416,14 +292,6 @@ namespace McCOM2.Control
 
 
 	[NVP_Manifest(
-		Id = "A2C1D86C-D1A8-46C4-96A3-5329897D0A5F", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.Control.Right", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.Control", 
-		NodeName = "Right", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x000005e1", 
 		ViewType = "Data")]
 	[NodeInput("Control", typeof(object))]
@@ -443,14 +311,6 @@ namespace McCOM2.Control
 
 
 	[NVP_Manifest(
-		Id = "7E820F0C-D53C-42DA-89B7-82FFCA3616AF", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.Control.Set_Right", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.Control", 
-		NodeName = "Set_Right", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x000005e1", 
 		ViewType = "Modifier")]
 	[NodeInput("Control", typeof(object))]
@@ -471,14 +331,6 @@ namespace McCOM2.Control
 
 
 	[NVP_Manifest(
-		Id = "58158126-E39E-4ADA-BD88-76CE80546F8D", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.Control.Bottom", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.Control", 
-		NodeName = "Bottom", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x000005e2", 
 		ViewType = "Data")]
 	[NodeInput("Control", typeof(object))]
@@ -498,14 +350,6 @@ namespace McCOM2.Control
 
 
 	[NVP_Manifest(
-		Id = "C645C7AC-50B4-4129-9B43-9BEAEEC29BFA", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.Control.Set_Bottom", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.Control", 
-		NodeName = "Set_Bottom", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x000005e2", 
 		ViewType = "Modifier")]
 	[NodeInput("Control", typeof(object))]
@@ -526,14 +370,6 @@ namespace McCOM2.Control
 
 
 	[NVP_Manifest(
-		Id = "74A9CE68-1C7B-41E0-8D83-30BCF4D2EABF", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.Control.Width", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.Control", 
-		NodeName = "Width", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x000005e3", 
 		ViewType = "Data")]
 	[NodeInput("Control", typeof(object))]
@@ -553,14 +389,6 @@ namespace McCOM2.Control
 
 
 	[NVP_Manifest(
-		Id = "7BB32A18-CAF0-4C4B-B52C-F4B4EC6B310E", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.Control.Set_Width", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.Control", 
-		NodeName = "Set_Width", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x000005e3", 
 		ViewType = "Modifier")]
 	[NodeInput("Control", typeof(object))]
@@ -581,14 +409,6 @@ namespace McCOM2.Control
 
 
 	[NVP_Manifest(
-		Id = "EF161942-27A9-4FB2-B3BD-49A73A682EE3", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.Control.Height", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.Control", 
-		NodeName = "Height", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x000005e4", 
 		ViewType = "Data")]
 	[NodeInput("Control", typeof(object))]
@@ -608,14 +428,6 @@ namespace McCOM2.Control
 
 
 	[NVP_Manifest(
-		Id = "1DDD4C4E-FBA3-4D08-9FD8-88D72253EBED", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.Control.Set_Height", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.Control", 
-		NodeName = "Set_Height", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x000005e4", 
 		ViewType = "Modifier")]
 	[NodeInput("Control", typeof(object))]

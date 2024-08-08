@@ -11,15 +11,6 @@ namespace mdsLINEComLib.MDSLObjects
 {
 
 	[NVP_Manifest(
-		Id = "5D54404F-CEDC-4858-8971-123180CB7D9E", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsLINEComLib.MDSLObjects.MDSLObjects_Constructor", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLObjects", 
-		NodeName = "_MDSLObjects_Constructor", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class MDSLObjects_Constructor : INode 
@@ -35,15 +26,6 @@ namespace mdsLINEComLib.MDSLObjects
 	}
 
 	[NVP_Manifest(
-		Id = "8F2D92B1-43F5-416A-9583-80CA73591A0F", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsLINEComLib.MDSLObjects.MDSLObjects_ConstructorCast", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLObjects", 
-		NodeName = "_MDSLObjects_ConstructorCast", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class MDSLObjects_ConstructorCast : INode 
@@ -60,14 +42,6 @@ namespace mdsLINEComLib.MDSLObjects
 
 
 	[NVP_Manifest(
-		Id = "86822CE0-25CD-4E4E-9149-54AC3091FB28", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsLINEComLib.MDSLObjects.Item", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLObjects", 
-		NodeName = "Item", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "property Item", 
 		ViewType = "Data")]
 	[NodeInput("MDSLObjects", typeof(object))]
@@ -87,14 +61,6 @@ namespace mdsLINEComLib.MDSLObjects
 
 
 	[NVP_Manifest(
-		Id = "4FCA3D1A-D9C2-4908-A2DE-8AC63022DC26", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsLINEComLib.MDSLObjects.Count", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLObjects", 
-		NodeName = "Count", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "property Count", 
 		ViewType = "Data")]
 	[NodeInput("MDSLObjects", typeof(object))]

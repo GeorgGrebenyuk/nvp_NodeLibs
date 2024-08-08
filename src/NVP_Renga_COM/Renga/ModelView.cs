@@ -11,15 +11,6 @@ namespace Renga.ModelView
 {
 
 	[NVP_Manifest(
-		Id = "8AA87BC2-858B-4678-B0F1-FDEC99FD0E88", 
-		PathAssembly = "NVP_Renga_COM.dll", 
-		PathExecuteClass = "Renga.ModelView.ModelView_Constructor", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_Renga_COM.Renga.ModelView", 
-		NodeName = "_ModelView_Constructor", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class ModelView_Constructor : INode 
@@ -35,15 +26,6 @@ namespace Renga.ModelView
 	}
 
 	[NVP_Manifest(
-		Id = "9698DDF4-B306-4198-87D8-E5819D2A560A", 
-		PathAssembly = "NVP_Renga_COM.dll", 
-		PathExecuteClass = "Renga.ModelView.ModelView_ConstructorCast", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_Renga_COM.Renga.ModelView", 
-		NodeName = "_ModelView_ConstructorCast", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class ModelView_ConstructorCast : INode 
@@ -60,15 +42,6 @@ namespace Renga.ModelView
 
 
 	[NVP_Manifest(
-		Id = "C60E4300-4333-4FAA-A016-39E9FFE8D309", 
-		PathAssembly = "NVP_Renga_COM.dll", 
-		PathExecuteClass = "Renga.ModelView.SetObjectsVisibility", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_Renga_COM.Renga.ModelView", 
-		NodeName = "SetObjectsVisibility", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("ModelView", typeof(object))]
 
@@ -87,15 +60,6 @@ namespace Renga.ModelView
 
 
 	[NVP_Manifest(
-		Id = "C37E7683-C7CC-4F3A-8853-0716F2340D31", 
-		PathAssembly = "NVP_Renga_COM.dll", 
-		PathExecuteClass = "Renga.ModelView.IsObjectVisible", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_Renga_COM.Renga.ModelView", 
-		NodeName = "IsObjectVisible", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Data")]
 	[NodeInput("ModelView", typeof(object))]
 	[NodeInput("objectId", typeof(System.Int32))]
@@ -115,15 +79,6 @@ namespace Renga.ModelView
 
 
 	[NVP_Manifest(
-		Id = "BE8415FF-6965-4F57-9468-630FA37D29C3", 
-		PathAssembly = "NVP_Renga_COM.dll", 
-		PathExecuteClass = "Renga.ModelView.SetObjectsVisualStyle", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_Renga_COM.Renga.ModelView", 
-		NodeName = "SetObjectsVisualStyle", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("ModelView", typeof(object))]
 
@@ -142,15 +97,6 @@ namespace Renga.ModelView
 
 
 	[NVP_Manifest(
-		Id = "C3EC6476-9720-4D7E-8460-ABEC1F2138CF", 
-		PathAssembly = "NVP_Renga_COM.dll", 
-		PathExecuteClass = "Renga.ModelView.GetObjectVisualStyle", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_Renga_COM.Renga.ModelView", 
-		NodeName = "GetObjectVisualStyle", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Data")]
 	[NodeInput("ModelView", typeof(object))]
 	[NodeInput("objectId", typeof(System.Int32))]
@@ -170,15 +116,6 @@ namespace Renga.ModelView
 
 
 	[NVP_Manifest(
-		Id = "7EADEBAA-3ED4-4FA5-83A7-32FEC1016A5A", 
-		PathAssembly = "NVP_Renga_COM.dll", 
-		PathExecuteClass = "Renga.ModelView.Set_VisualStyle", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_Renga_COM.Renga.ModelView", 
-		NodeName = "Set_VisualStyle", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("ModelView", typeof(object))]
 	[NodeInput("Renga.VisualStyle", typeof(System.Object))]
@@ -198,15 +135,6 @@ namespace Renga.ModelView
 
 
 	[NVP_Manifest(
-		Id = "BB433E62-5DD5-4F63-BD41-BDD5523020DD", 
-		PathAssembly = "NVP_Renga_COM.dll", 
-		PathExecuteClass = "Renga.ModelView.VisualStyle", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_Renga_COM.Renga.ModelView", 
-		NodeName = "VisualStyle", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Data")]
 	[NodeInput("ModelView", typeof(object))]
 
@@ -225,15 +153,6 @@ namespace Renga.ModelView
 
 
 	[NVP_Manifest(
-		Id = "5BABA8C2-CFC1-4996-B752-47C931AE2C29", 
-		PathAssembly = "NVP_Renga_COM.dll", 
-		PathExecuteClass = "Renga.ModelView.ShowObjects", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_Renga_COM.Renga.ModelView", 
-		NodeName = "ShowObjects", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("ModelView", typeof(object))]
 

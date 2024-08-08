@@ -11,15 +11,6 @@ namespace ironObjComLib.WrAECWallBase
 {
 
 	[NVP_Manifest(
-		Id = "88896EA4-E877-4D62-B04B-5C8122B2F282", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "ironObjComLib.WrAECWallBase.WrAECWallBase_Constructor", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECWallBase", 
-		NodeName = "_WrAECWallBase_Constructor", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class WrAECWallBase_Constructor : INode 
@@ -35,15 +26,6 @@ namespace ironObjComLib.WrAECWallBase
 	}
 
 	[NVP_Manifest(
-		Id = "8F227A96-8609-420C-A2AE-62646FC36C45", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "ironObjComLib.WrAECWallBase.WrAECWallBase_ConstructorCast", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECWallBase", 
-		NodeName = "_WrAECWallBase_ConstructorCast", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class WrAECWallBase_ConstructorCast : INode 
@@ -60,14 +42,6 @@ namespace ironObjComLib.WrAECWallBase
 
 
 	[NVP_Manifest(
-		Id = "5F8E23BF-56A2-4D0B-8401-314BF099DFFF", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "ironObjComLib.WrAECWallBase.Thick", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECWallBase", 
-		NodeName = "Thick", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "property AEC_PART_THICKNESS", 
 		ViewType = "Data")]
 	[NodeInput("WrAECWallBase", typeof(object))]
@@ -87,14 +61,6 @@ namespace ironObjComLib.WrAECWallBase
 
 
 	[NVP_Manifest(
-		Id = "D3E7A4EE-DCA3-4B7E-954A-1BCA8D76FAD2", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "ironObjComLib.WrAECWallBase.Set_Thick", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECWallBase", 
-		NodeName = "Set_Thick", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "property AEC_PART_THICKNESS", 
 		ViewType = "Modifier")]
 	[NodeInput("WrAECWallBase", typeof(object))]
@@ -115,14 +81,6 @@ namespace ironObjComLib.WrAECWallBase
 
 
 	[NVP_Manifest(
-		Id = "D25AB15D-64DE-483F-ABBB-550C3CF07279", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "ironObjComLib.WrAECWallBase.Height", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECWallBase", 
-		NodeName = "Height", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "property AEC_PART_HEIGHT", 
 		ViewType = "Data")]
 	[NodeInput("WrAECWallBase", typeof(object))]
@@ -142,14 +100,6 @@ namespace ironObjComLib.WrAECWallBase
 
 
 	[NVP_Manifest(
-		Id = "E3F30813-0DFB-4EFF-8D7A-C9D4422C72F2", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "ironObjComLib.WrAECWallBase.Set_Height", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrAECWallBase", 
-		NodeName = "Set_Height", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "property AEC_PART_HEIGHT", 
 		ViewType = "Modifier")]
 	[NodeInput("WrAECWallBase", typeof(object))]

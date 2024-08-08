@@ -11,15 +11,6 @@ namespace mdsUnitsLib.Parameters
 {
 
 	[NVP_Manifest(
-		Id = "34BB3D43-D1FE-4908-867F-D82231E84105", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsUnitsLib.Parameters.Parameters_Constructor", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.Parameters", 
-		NodeName = "_Parameters_Constructor", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class Parameters_Constructor : INode 
@@ -35,15 +26,6 @@ namespace mdsUnitsLib.Parameters
 	}
 
 	[NVP_Manifest(
-		Id = "A208A649-B6B1-46D1-9088-FB74D0C7F99F", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsUnitsLib.Parameters.Parameters_ConstructorCast", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.Parameters", 
-		NodeName = "_Parameters_ConstructorCast", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class Parameters_ConstructorCast : INode 
@@ -60,14 +42,6 @@ namespace mdsUnitsLib.Parameters
 
 
 	[NVP_Manifest(
-		Id = "2B2E9CCB-F4E5-498B-AEDB-8582039AE578", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsUnitsLib.Parameters.Item", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.Parameters", 
-		NodeName = "Item", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "method Item", 
 		ViewType = "Data")]
 	[NodeInput("Parameters", typeof(object))]
@@ -87,14 +61,6 @@ namespace mdsUnitsLib.Parameters
 
 
 	[NVP_Manifest(
-		Id = "A0A583E7-55B7-414A-84C2-D69953628690", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsUnitsLib.Parameters.Count", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.Parameters", 
-		NodeName = "Count", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "property Count", 
 		ViewType = "Data")]
 	[NodeInput("Parameters", typeof(object))]
@@ -114,14 +80,6 @@ namespace mdsUnitsLib.Parameters
 
 
 	[NVP_Manifest(
-		Id = "76CEF037-BD1B-4AB7-B0C1-1EC54C36B36E", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsUnitsLib.Parameters.SetParameter", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.Parameters", 
-		NodeName = "SetParameter", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "method SetParameter", 
 		ViewType = "Modifier")]
 	[NodeInput("Parameters", typeof(object))]
@@ -145,14 +103,6 @@ namespace mdsUnitsLib.Parameters
 
 
 	[NVP_Manifest(
-		Id = "1C979C7E-4794-4273-A548-5832D6527CD1", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsUnitsLib.Parameters.DeleteParameter", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.Parameters", 
-		NodeName = "DeleteParameter", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "method DeleteParameter", 
 		ViewType = "Modifier")]
 	[NodeInput("Parameters", typeof(object))]
@@ -173,14 +123,6 @@ namespace mdsUnitsLib.Parameters
 
 
 	[NVP_Manifest(
-		Id = "CF94DCA5-1F08-4A0A-B7B4-DA14F836DF3D", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsUnitsLib.Parameters.DeleteAll", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.Parameters", 
-		NodeName = "DeleteAll", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "method DeleteAll", 
 		ViewType = "Modifier")]
 	[NodeInput("Parameters", typeof(object))]
@@ -200,14 +142,6 @@ namespace mdsUnitsLib.Parameters
 
 
 	[NVP_Manifest(
-		Id = "DEE29DCF-39CB-4214-ADD3-B2128C8AFD80", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsUnitsLib.Parameters.Has", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.Parameters", 
-		NodeName = "Has", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "method Has", 
 		ViewType = "Data")]
 	[NodeInput("Parameters", typeof(object))]

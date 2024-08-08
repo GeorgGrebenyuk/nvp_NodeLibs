@@ -11,15 +11,6 @@ namespace mdsLINEComLib.Elements
 {
 
 	[NVP_Manifest(
-		Id = "0E513AEF-3432-4D97-8B39-CFD9D40053F9", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsLINEComLib.Elements.Elements_Constructor", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.Elements", 
-		NodeName = "_Elements_Constructor", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class Elements_Constructor : INode 
@@ -35,15 +26,6 @@ namespace mdsLINEComLib.Elements
 	}
 
 	[NVP_Manifest(
-		Id = "E5A63180-2D15-46EF-AB18-5C3279926B78", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsLINEComLib.Elements.Elements_ConstructorCast", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.Elements", 
-		NodeName = "_Elements_ConstructorCast", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class Elements_ConstructorCast : INode 
@@ -60,14 +42,6 @@ namespace mdsLINEComLib.Elements
 
 
 	[NVP_Manifest(
-		Id = "134047D2-F301-4B49-9EB4-09B6B3AC39A0", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsLINEComLib.Elements.Item", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.Elements", 
-		NodeName = "Item", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "method Item", 
 		ViewType = "Data")]
 	[NodeInput("Elements", typeof(object))]
@@ -87,14 +61,6 @@ namespace mdsLINEComLib.Elements
 
 
 	[NVP_Manifest(
-		Id = "B549A03A-AC42-4F9C-833B-A50E267C3C20", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsLINEComLib.Elements.Count", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.Elements", 
-		NodeName = "Count", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "property Count", 
 		ViewType = "Data")]
 	[NodeInput("Elements", typeof(object))]
@@ -114,14 +80,6 @@ namespace mdsLINEComLib.Elements
 
 
 	[NVP_Manifest(
-		Id = "FD299DDD-12BF-4B23-9AEB-6FBD736A4836", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsLINEComLib.Elements.Add", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.Elements", 
-		NodeName = "Add", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "method Add", 
 		ViewType = "Modifier")]
 	[NodeInput("Elements", typeof(object))]
@@ -142,14 +100,6 @@ namespace mdsLINEComLib.Elements
 
 
 	[NVP_Manifest(
-		Id = "574C39B7-83A9-46FA-AFD9-0E2FAB91D1FC", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsLINEComLib.Elements.Remove", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.Elements", 
-		NodeName = "Remove", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "method Remove", 
 		ViewType = "Modifier")]
 	[NodeInput("Elements", typeof(object))]

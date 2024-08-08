@@ -11,15 +11,6 @@ namespace OdaX.OPMPropertyExtension
 {
 
 	[NVP_Manifest(
-		Id = "97E37B84-1CFB-47FB-A919-EC69E906A1A9", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "OdaX.OPMPropertyExtension.OPMPropertyExtension_Constructor", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.OdaX.OPMPropertyExtension", 
-		NodeName = "_OPMPropertyExtension_Constructor", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class OPMPropertyExtension_Constructor : INode 
@@ -35,15 +26,6 @@ namespace OdaX.OPMPropertyExtension
 	}
 
 	[NVP_Manifest(
-		Id = "E8010EA1-4B08-4CDE-9F57-214D15F6B441", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "OdaX.OPMPropertyExtension.OPMPropertyExtension_ConstructorCast", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.OdaX.OPMPropertyExtension", 
-		NodeName = "_OPMPropertyExtension_ConstructorCast", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class OPMPropertyExtension_ConstructorCast : INode 

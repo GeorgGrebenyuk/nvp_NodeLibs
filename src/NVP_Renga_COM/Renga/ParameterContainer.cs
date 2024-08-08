@@ -12,15 +12,6 @@ namespace Renga.ParameterContainer
 {
 
 	[NVP_Manifest(
-		Id = "6403D8F4-F1F3-4C94-B8F5-E52C070F9238", 
-		PathAssembly = "NVP_Renga_COM.dll", 
-		PathExecuteClass = "Renga.ParameterContainer.ParameterContainer_Constructor", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_Renga_COM.Renga.ParameterContainer", 
-		NodeName = "_ParameterContainer_Constructor", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class ParameterContainer_Constructor : INode 
@@ -36,15 +27,6 @@ namespace Renga.ParameterContainer
 	}
 
 	[NVP_Manifest(
-		Id = "F049A6D5-66FF-4630-8581-4CE2701535D7", 
-		PathAssembly = "NVP_Renga_COM.dll", 
-		PathExecuteClass = "Renga.ParameterContainer.ParameterContainer_ConstructorCast", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_Renga_COM.Renga.ParameterContainer", 
-		NodeName = "_ParameterContainer_ConstructorCast", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class ParameterContainer_ConstructorCast : INode 
@@ -61,15 +43,6 @@ namespace Renga.ParameterContainer
 
 
 	[NVP_Manifest(
-		Id = "A83F1E25-3B58-4CAE-9354-55318F3B474D", 
-		PathAssembly = "NVP_Renga_COM.dll", 
-		PathExecuteClass = "Renga.ParameterContainer.GetIds", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_Renga_COM.Renga.ParameterContainer", 
-		NodeName = "GetIds", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Data")]
 	[NodeInput("ParameterContainer", typeof(object))]
 
@@ -88,15 +61,6 @@ namespace Renga.ParameterContainer
 
 
 	[NVP_Manifest(
-		Id = "6FF0F5AA-C997-4F2A-B6B9-B9744AB21FFA", 
-		PathAssembly = "NVP_Renga_COM.dll", 
-		PathExecuteClass = "Renga.ParameterContainer.Contains", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_Renga_COM.Renga.ParameterContainer", 
-		NodeName = "Contains", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Data")]
 	[NodeInput("ParameterContainer", typeof(object))]
 	[NodeInput("Id", typeof(System.Object))]
@@ -116,15 +80,6 @@ namespace Renga.ParameterContainer
 
 
 	[NVP_Manifest(
-		Id = "3B5C56D3-4ECC-4CD3-8689-8B8441572C7F", 
-		PathAssembly = "NVP_Renga_COM.dll", 
-		PathExecuteClass = "Renga.ParameterContainer.Get", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_Renga_COM.Renga.ParameterContainer", 
-		NodeName = "Get", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Data")]
 	[NodeInput("ParameterContainer", typeof(object))]
 	[NodeInput("Id", typeof(System.Object))]
@@ -144,15 +99,6 @@ namespace Renga.ParameterContainer
 
 
 	[NVP_Manifest(
-		Id = "996FE039-B7ED-4020-8335-782176F644D0", 
-		PathAssembly = "NVP_Renga_COM.dll", 
-		PathExecuteClass = "Renga.ParameterContainer.ContainsS", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_Renga_COM.Renga.ParameterContainer", 
-		NodeName = "ContainsS", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Data")]
 	[NodeInput("ParameterContainer", typeof(object))]
 	[NodeInput("Id", typeof(System.String))]
@@ -172,15 +118,6 @@ namespace Renga.ParameterContainer
 
 
 	[NVP_Manifest(
-		Id = "5A59B499-72AF-465E-BD21-FA297712862E", 
-		PathAssembly = "NVP_Renga_COM.dll", 
-		PathExecuteClass = "Renga.ParameterContainer.GetS", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_Renga_COM.Renga.ParameterContainer", 
-		NodeName = "GetS", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Data")]
 	[NodeInput("ParameterContainer", typeof(object))]
 	[NodeInput("Id", typeof(System.String))]
@@ -199,14 +136,6 @@ namespace Renga.ParameterContainer
 	}
 
     [NVP_Manifest(
-        Id = "9FBBDDD5-CCE9-4CE9-AB7D-8CB577F324DF",
-        PathAssembly = "NVP_Renga_COM.dll",
-        PathExecuteClass = "Renga.ParameterContainer.GetAll_Parameters",
-        CoderName = "GeorgGrebenyuk",
-        Folder = "NVP_Renga_COM.Renga.ParameterContainer",
-        NodeName = "GetAll_Parameters",
-        NodeType = "Loaded",
-        CADType = "None",
         Text = "Возвращает все параметры",
         ViewType = "Data")]
     [NodeInput("ParameterContainer", typeof(object))]
@@ -230,14 +159,6 @@ namespace Renga.ParameterContainer
     }
 
     [NVP_Manifest(
-        Id = "F66C0937-B633-4A4C-8EC1-95AC3574B958",
-        PathAssembly = "NVP_Renga_COM.dll",
-        PathExecuteClass = "Renga.ParameterContainer.GetAll_Parameters2",
-        CoderName = "GeorgGrebenyuk",
-        Folder = "NVP_Renga_COM.Renga.ParameterContainer",
-        NodeName = "GetAll_Parameters2",
-        NodeType = "Loaded",
-        CADType = "None",
         Text = "Возвращает все параметры в виде словаря",
         ViewType = "Data")]
     [NodeInput("ParameterContainer", typeof(object))]

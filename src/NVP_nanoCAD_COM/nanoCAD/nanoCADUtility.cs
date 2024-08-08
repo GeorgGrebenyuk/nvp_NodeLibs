@@ -11,15 +11,6 @@ namespace nanoCAD.nanoCADUtility
 {
 
 	[NVP_Manifest(
-		Id = "CD55B3AE-3A8D-4F37-9D05-43155592C941", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "nanoCAD.nanoCADUtility.nanoCADUtility_Constructor", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.nanoCAD.nanoCADUtility", 
-		NodeName = "_nanoCADUtility_Constructor", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class nanoCADUtility_Constructor : INode 
@@ -35,15 +26,6 @@ namespace nanoCAD.nanoCADUtility
 	}
 
 	[NVP_Manifest(
-		Id = "837916B5-4019-44D7-9B0F-ED18E9790E34", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "nanoCAD.nanoCADUtility.nanoCADUtility_ConstructorCast", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.nanoCAD.nanoCADUtility", 
-		NodeName = "_nanoCADUtility_ConstructorCast", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class nanoCADUtility_ConstructorCast : INode 
@@ -60,14 +42,6 @@ namespace nanoCAD.nanoCADUtility
 
 
 	[NVP_Manifest(
-		Id = "8A541D06-1090-4A69-A894-05EDF7B38AB2", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "nanoCAD.nanoCADUtility.AngleToReal", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.nanoCAD.nanoCADUtility", 
-		NodeName = "AngleToReal", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "double) value", 
 		ViewType = "Data")]
 	[NodeInput("nanoCADUtility", typeof(object))]
@@ -89,14 +63,6 @@ namespace nanoCAD.nanoCADUtility
 
 
 	[NVP_Manifest(
-		Id = "4E2A9122-0E04-4FCE-A5D2-52E611E7FD3B", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "nanoCAD.nanoCADUtility.AngleToString", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.nanoCAD.nanoCADUtility", 
-		NodeName = "AngleToString", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "double) value to a string", 
 		ViewType = "Data")]
 	[NodeInput("nanoCADUtility", typeof(object))]
@@ -119,14 +85,6 @@ namespace nanoCAD.nanoCADUtility
 
 
 	[NVP_Manifest(
-		Id = "D028AA6A-4FBD-4E41-877F-CEB282832EAC", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "nanoCAD.nanoCADUtility.DistanceToReal", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.nanoCAD.nanoCADUtility", 
-		NodeName = "DistanceToReal", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "double) value", 
 		ViewType = "Data")]
 	[NodeInput("nanoCADUtility", typeof(object))]
@@ -148,14 +106,6 @@ namespace nanoCAD.nanoCADUtility
 
 
 	[NVP_Manifest(
-		Id = "5781C067-AF4F-43E0-A6D5-7629FEF463B0", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "nanoCAD.nanoCADUtility.RealToString", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.nanoCAD.nanoCADUtility", 
-		NodeName = "RealToString", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "double) value to a string", 
 		ViewType = "Data")]
 	[NodeInput("nanoCADUtility", typeof(object))]
@@ -178,14 +128,6 @@ namespace nanoCAD.nanoCADUtility
 
 
 	[NVP_Manifest(
-		Id = "82C595CD-D5AC-4F2C-BC09-66F53FC96A81", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "nanoCAD.nanoCADUtility.TranslateCoordinates", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.nanoCAD.nanoCADUtility", 
-		NodeName = "TranslateCoordinates", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Translates a point from one coordinate system to another coordinate system", 
 		ViewType = "Data")]
 	[NodeInput("nanoCADUtility", typeof(object))]
@@ -210,14 +152,6 @@ namespace nanoCAD.nanoCADUtility
 
 
 	[NVP_Manifest(
-		Id = "851549FA-AE57-454B-823D-85ED4738FB4B", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "nanoCAD.nanoCADUtility.InitializeUserInput", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.nanoCAD.nanoCADUtility", 
-		NodeName = "InitializeUserInput", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Initializes the GetKeyword method", 
 		ViewType = "Modifier")]
 	[NodeInput("nanoCADUtility", typeof(object))]
@@ -239,14 +173,6 @@ namespace nanoCAD.nanoCADUtility
 
 
 	[NVP_Manifest(
-		Id = "F1358486-6E8A-4D16-A18C-A60A7F5CFEEB", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "nanoCAD.nanoCADUtility.GetInteger", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.nanoCAD.nanoCADUtility", 
-		NodeName = "GetInteger", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Gets an integer value from the user", 
 		ViewType = "Data")]
 	[NodeInput("nanoCADUtility", typeof(object))]
@@ -267,14 +193,6 @@ namespace nanoCAD.nanoCADUtility
 
 
 	[NVP_Manifest(
-		Id = "FE0AF87C-0CFA-4E0D-AD8D-FF350AC950BA", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "nanoCAD.nanoCADUtility.GetReal", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.nanoCAD.nanoCADUtility", 
-		NodeName = "GetReal", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "double) value from the user", 
 		ViewType = "Data")]
 	[NodeInput("nanoCADUtility", typeof(object))]
@@ -295,14 +213,6 @@ namespace nanoCAD.nanoCADUtility
 
 
 	[NVP_Manifest(
-		Id = "619D4785-29AA-480D-B878-F383A1CF9A8A", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "nanoCAD.nanoCADUtility.GetInput", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.nanoCAD.nanoCADUtility", 
-		NodeName = "GetInput", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Converts an input string from the user into a keyword index", 
 		ViewType = "Data")]
 	[NodeInput("nanoCADUtility", typeof(object))]
@@ -322,14 +232,6 @@ namespace nanoCAD.nanoCADUtility
 
 
 	[NVP_Manifest(
-		Id = "BC08985B-C7D8-4E15-A438-73E326BF5EC9", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "nanoCAD.nanoCADUtility.GetKeyword", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.nanoCAD.nanoCADUtility", 
-		NodeName = "GetKeyword", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Gets a keyword string from the user", 
 		ViewType = "Data")]
 	[NodeInput("nanoCADUtility", typeof(object))]
@@ -350,14 +252,6 @@ namespace nanoCAD.nanoCADUtility
 
 
 	[NVP_Manifest(
-		Id = "48F1B524-9722-4929-AB81-E51E3C3FD779", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "nanoCAD.nanoCADUtility.GetString", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.nanoCAD.nanoCADUtility", 
-		NodeName = "GetString", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Gets a string from the user", 
 		ViewType = "Data")]
 	[NodeInput("nanoCADUtility", typeof(object))]
@@ -379,14 +273,6 @@ namespace nanoCAD.nanoCADUtility
 
 
 	[NVP_Manifest(
-		Id = "A32A4195-43B5-41F2-AEE8-27E570ED95E6", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "nanoCAD.nanoCADUtility.GetAngle", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.nanoCAD.nanoCADUtility", 
-		NodeName = "GetAngle", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Gets the angle specified. Considers the setting of the ANGBASE system variable", 
 		ViewType = "Data")]
 	[NodeInput("nanoCADUtility", typeof(object))]
@@ -408,14 +294,6 @@ namespace nanoCAD.nanoCADUtility
 
 
 	[NVP_Manifest(
-		Id = "D7040C14-1CFC-429A-9E68-00F1568B7665", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "nanoCAD.nanoCADUtility.AngleFromXAxis", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.nanoCAD.nanoCADUtility", 
-		NodeName = "AngleFromXAxis", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Gets the angle of a line from the X axis", 
 		ViewType = "Data")]
 	[NodeInput("nanoCADUtility", typeof(object))]
@@ -437,14 +315,6 @@ namespace nanoCAD.nanoCADUtility
 
 
 	[NVP_Manifest(
-		Id = "C816734D-FE2D-462D-91FB-90ACCDDBA4CC", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "nanoCAD.nanoCADUtility.GetCorner", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.nanoCAD.nanoCADUtility", 
-		NodeName = "GetCorner", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Gets a corner of a rectangle", 
 		ViewType = "Data")]
 	[NodeInput("nanoCADUtility", typeof(object))]
@@ -466,14 +336,6 @@ namespace nanoCAD.nanoCADUtility
 
 
 	[NVP_Manifest(
-		Id = "31A512A0-F754-44CC-B03E-A857D0D282BA", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "nanoCAD.nanoCADUtility.GetDistance", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.nanoCAD.nanoCADUtility", 
-		NodeName = "GetDistance", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Gets the distance from the prompt line or a selected set of points on the screen", 
 		ViewType = "Data")]
 	[NodeInput("nanoCADUtility", typeof(object))]
@@ -495,14 +357,6 @@ namespace nanoCAD.nanoCADUtility
 
 
 	[NVP_Manifest(
-		Id = "A59D520B-B0E0-4A7C-AAEB-3A7F6060B4B2", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "nanoCAD.nanoCADUtility.GetOrientation", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.nanoCAD.nanoCADUtility", 
-		NodeName = "GetOrientation", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Gets the angle specified. Ignores the setting of the ANGBASE system variable", 
 		ViewType = "Data")]
 	[NodeInput("nanoCADUtility", typeof(object))]
@@ -524,14 +378,6 @@ namespace nanoCAD.nanoCADUtility
 
 
 	[NVP_Manifest(
-		Id = "E8F28C48-F0CC-419E-8738-508DA2366538", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "nanoCAD.nanoCADUtility.GetPoint", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.nanoCAD.nanoCADUtility", 
-		NodeName = "GetPoint", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Gets the point selected", 
 		ViewType = "Data")]
 	[NodeInput("nanoCADUtility", typeof(object))]
@@ -553,14 +399,6 @@ namespace nanoCAD.nanoCADUtility
 
 
 	[NVP_Manifest(
-		Id = "81B4DB71-BE80-42D6-9992-3DCC28B11FC3", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "nanoCAD.nanoCADUtility.PolarPoint", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.nanoCAD.nanoCADUtility", 
-		NodeName = "PolarPoint", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Gets the point at a specified angle and distance from a given point", 
 		ViewType = "Data")]
 	[NodeInput("nanoCADUtility", typeof(object))]
@@ -583,14 +421,6 @@ namespace nanoCAD.nanoCADUtility
 
 
 	[NVP_Manifest(
-		Id = "B45069BE-D1D4-4912-91D3-323DE5539DB6", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "nanoCAD.nanoCADUtility.CreateTypedArray", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.nanoCAD.nanoCADUtility", 
-		NodeName = "CreateTypedArray", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Creates a variant that contains an array of typed arguments", 
 		ViewType = "Data")]
 	[NodeInput("nanoCADUtility", typeof(object))]
@@ -612,14 +442,6 @@ namespace nanoCAD.nanoCADUtility
 
 
 	[NVP_Manifest(
-		Id = "6B8D31C5-4114-4DFE-B4AF-F85B7B5AC0E5", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "nanoCAD.nanoCADUtility.GetEntity", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.nanoCAD.nanoCADUtility", 
-		NodeName = "GetEntity", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Gets an object interactively", 
 		ViewType = "Modifier")]
 	[NodeInput("nanoCADUtility", typeof(object))]
@@ -642,14 +464,6 @@ namespace nanoCAD.nanoCADUtility
 
 
 	[NVP_Manifest(
-		Id = "5A06D6C5-6322-4839-B8C1-33EFBA9C4EE3", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "nanoCAD.nanoCADUtility.Prompt", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.nanoCAD.nanoCADUtility", 
-		NodeName = "Prompt", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Posts a prompt to the command line", 
 		ViewType = "Modifier")]
 	[NodeInput("nanoCADUtility", typeof(object))]
@@ -670,14 +484,6 @@ namespace nanoCAD.nanoCADUtility
 
 
 	[NVP_Manifest(
-		Id = "91662FA8-8FE2-4426-88FE-4F0CA64DA3FB", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "nanoCAD.nanoCADUtility.GetSubEntity", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.nanoCAD.nanoCADUtility", 
-		NodeName = "GetSubEntity", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Gets an object or subentity interactively", 
 		ViewType = "Modifier")]
 	[NodeInput("nanoCADUtility", typeof(object))]
@@ -702,14 +508,6 @@ namespace nanoCAD.nanoCADUtility
 
 
 	[NVP_Manifest(
-		Id = "9CCC71F7-8DCC-4926-BEA1-3691E6CACE3B", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "nanoCAD.nanoCADUtility.IsURL", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.nanoCAD.nanoCADUtility", 
-		NodeName = "IsURL", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Validates a given URL", 
 		ViewType = "Data")]
 	[NodeInput("nanoCADUtility", typeof(object))]
@@ -730,14 +528,6 @@ namespace nanoCAD.nanoCADUtility
 
 
 	[NVP_Manifest(
-		Id = "BEEB69A3-3209-4D20-BA74-CF1C3ADB3EAA", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "nanoCAD.nanoCADUtility.GetRemoteFile", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.nanoCAD.nanoCADUtility", 
-		NodeName = "GetRemoteFile", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Downloads the file specified by a URL", 
 		ViewType = "Modifier")]
 	[NodeInput("nanoCADUtility", typeof(object))]
@@ -760,14 +550,6 @@ namespace nanoCAD.nanoCADUtility
 
 
 	[NVP_Manifest(
-		Id = "82EB8B43-D6AA-4FD2-A5BE-5E124FC00CB1", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "nanoCAD.nanoCADUtility.PutRemoteFile", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.nanoCAD.nanoCADUtility", 
-		NodeName = "PutRemoteFile", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Uploads a file to a remote location specified by a URL", 
 		ViewType = "Modifier")]
 	[NodeInput("nanoCADUtility", typeof(object))]
@@ -789,14 +571,6 @@ namespace nanoCAD.nanoCADUtility
 
 
 	[NVP_Manifest(
-		Id = "C3A887AB-DC0E-4609-9D73-6415191CC3D5", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "nanoCAD.nanoCADUtility.IsRemoteFile", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.nanoCAD.nanoCADUtility", 
-		NodeName = "IsRemoteFile", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Returns the URL that a remote file was downloaded from", 
 		ViewType = "Data")]
 	[NodeInput("nanoCADUtility", typeof(object))]
@@ -818,14 +592,6 @@ namespace nanoCAD.nanoCADUtility
 
 
 	[NVP_Manifest(
-		Id = "AF8C135F-F7B8-4800-A914-1D434A9C7158", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "nanoCAD.nanoCADUtility.LaunchBrowserDialog", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.nanoCAD.nanoCADUtility", 
-		NodeName = "LaunchBrowserDialog", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Launches the Web Browser dialog that allows the user to navigate to any URL and select a URL", 
 		ViewType = "Data")]
 	[NodeInput("nanoCADUtility", typeof(object))]
@@ -851,14 +617,6 @@ namespace nanoCAD.nanoCADUtility
 
 
 	[NVP_Manifest(
-		Id = "EAF62618-3CA7-4823-B682-E48BBEF2E6CC", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "nanoCAD.nanoCADUtility.CreateSafeArrayFromVector", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.nanoCAD.nanoCADUtility", 
-		NodeName = "CreateSafeArrayFromVector", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Creates a safearray from variant", 
 		ViewType = "Modifier")]
 	[NodeInput("nanoCADUtility", typeof(object))]
@@ -879,14 +637,6 @@ namespace nanoCAD.nanoCADUtility
 
 
 	[NVP_Manifest(
-		Id = "3B9910D1-EBA8-4E57-93E2-E234BD4104CA", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "nanoCAD.nanoCADUtility.CreateTypedArrayFromJSArray", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.nanoCAD.nanoCADUtility", 
-		NodeName = "CreateTypedArrayFromJSArray", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Creates a safearray from variant", 
 		ViewType = "Data")]
 	[NodeInput("nanoCADUtility", typeof(object))]
@@ -908,14 +658,6 @@ namespace nanoCAD.nanoCADUtility
 
 
 	[NVP_Manifest(
-		Id = "67A8AB65-2B6F-47F9-AE36-24F2F42222FC", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "nanoCAD.nanoCADUtility.AnalyzeEnt", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.nanoCAD.nanoCADUtility", 
-		NodeName = "AnalyzeEnt", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Analyze an ent", 
 		ViewType = "Modifier")]
 	[NodeInput("nanoCADUtility", typeof(object))]
@@ -936,14 +678,6 @@ namespace nanoCAD.nanoCADUtility
 
 
 	[NVP_Manifest(
-		Id = "A6360517-B477-4023-B8BE-4981F42466B9", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "nanoCAD.nanoCADUtility.GetPolyline", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.nanoCAD.nanoCADUtility", 
-		NodeName = "GetPolyline", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Analyze an ent", 
 		ViewType = "Data")]
 	[NodeInput("nanoCADUtility", typeof(object))]
@@ -966,14 +700,6 @@ namespace nanoCAD.nanoCADUtility
 
 
 	[NVP_Manifest(
-		Id = "F1E4BF23-9646-40A6-9F9A-84667586619D", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "nanoCAD.nanoCADUtility.Matrix4x4", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.nanoCAD.nanoCADUtility", 
-		NodeName = "Matrix4x4", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Create Matrix - safe array", 
 		ViewType = "Data")]
 	[NodeInput("nanoCADUtility", typeof(object))]
@@ -994,14 +720,6 @@ namespace nanoCAD.nanoCADUtility
 
 
 	[NVP_Manifest(
-		Id = "1495A771-7BE3-4E1B-AF6C-832174E45E23", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "nanoCAD.nanoCADUtility.TranslateString", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.nanoCAD.nanoCADUtility", 
-		NodeName = "TranslateString", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Translates string", 
 		ViewType = "Data")]
 	[NodeInput("nanoCADUtility", typeof(object))]
@@ -1022,14 +740,6 @@ namespace nanoCAD.nanoCADUtility
 
 
 	[NVP_Manifest(
-		Id = "29CA37ED-034F-446A-B728-831DB3FFF8EC", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "nanoCAD.nanoCADUtility.ChooseFile", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.nanoCAD.nanoCADUtility", 
-		NodeName = "ChooseFile", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Displays ChooseFile dialog", 
 		ViewType = "Data")]
 	[NodeInput("nanoCADUtility", typeof(object))]
@@ -1053,14 +763,6 @@ namespace nanoCAD.nanoCADUtility
 
 
 	[NVP_Manifest(
-		Id = "3EAC9D99-D65D-4B76-89AE-7538BC5BB0EF", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "nanoCAD.nanoCADUtility.ChooseFolder", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.nanoCAD.nanoCADUtility", 
-		NodeName = "ChooseFolder", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Displays ChooseFolder dialog", 
 		ViewType = "Data")]
 	[NodeInput("nanoCADUtility", typeof(object))]
@@ -1082,14 +784,6 @@ namespace nanoCAD.nanoCADUtility
 
 
 	[NVP_Manifest(
-		Id = "395666E8-0F78-4288-B78B-CF6F8E631B90", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "nanoCAD.nanoCADUtility.ShellExec", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.nanoCAD.nanoCADUtility", 
-		NodeName = "ShellExec", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "ShellExec", 
 		ViewType = "Modifier")]
 	[NodeInput("nanoCADUtility", typeof(object))]
@@ -1114,14 +808,6 @@ namespace nanoCAD.nanoCADUtility
 
 
 	[NVP_Manifest(
-		Id = "A82DB865-4C34-462F-B766-F1171F59B215", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "nanoCAD.nanoCADUtility.NewDatabase", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.nanoCAD.nanoCADUtility", 
-		NodeName = "NewDatabase", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Create new empty database", 
 		ViewType = "Data")]
 	[NodeInput("nanoCADUtility", typeof(object))]
@@ -1141,14 +827,6 @@ namespace nanoCAD.nanoCADUtility
 
 
 	[NVP_Manifest(
-		Id = "DBD0F0EC-3D58-4271-BD83-49215671C3B5", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "nanoCAD.nanoCADUtility.OpenDatabase", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.nanoCAD.nanoCADUtility", 
-		NodeName = "OpenDatabase", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Open database", 
 		ViewType = "Data")]
 	[NodeInput("nanoCADUtility", typeof(object))]
@@ -1169,14 +847,6 @@ namespace nanoCAD.nanoCADUtility
 
 
 	[NVP_Manifest(
-		Id = "51A9FE7C-D43F-45B2-A265-409CB178AA53", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "nanoCAD.nanoCADUtility.SaveDatabase", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.nanoCAD.nanoCADUtility", 
-		NodeName = "SaveDatabase", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Save database", 
 		ViewType = "Modifier")]
 	[NodeInput("nanoCADUtility", typeof(object))]
@@ -1199,14 +869,6 @@ namespace nanoCAD.nanoCADUtility
 
 
 	[NVP_Manifest(
-		Id = "844FA270-6576-4DCF-9CCE-CA92E94D71CF", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "nanoCAD.nanoCADUtility.ShowMenu", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.nanoCAD.nanoCADUtility", 
-		NodeName = "ShowMenu", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Show menu", 
 		ViewType = "Data")]
 	[NodeInput("nanoCADUtility", typeof(object))]
@@ -1229,14 +891,6 @@ namespace nanoCAD.nanoCADUtility
 
 
 	[NVP_Manifest(
-		Id = "751748C5-7690-4A8E-9821-D29D97BB920E", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "nanoCAD.nanoCADUtility.GetWinNum", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.nanoCAD.nanoCADUtility", 
-		NodeName = "GetWinNum", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "hostGetWinNum", 
 		ViewType = "Data")]
 	[NodeInput("nanoCADUtility", typeof(object))]
@@ -1257,14 +911,6 @@ namespace nanoCAD.nanoCADUtility
 
 
 	[NVP_Manifest(
-		Id = "26580C3D-BAD7-4570-9D8A-E4B511DE6763", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "nanoCAD.nanoCADUtility.CoordFromPixelToWorld", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.nanoCAD.nanoCADUtility", 
-		NodeName = "CoordFromPixelToWorld", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "hostCoordFromPixelToWorld", 
 		ViewType = "Data")]
 	[NodeInput("nanoCADUtility", typeof(object))]
@@ -1286,14 +932,6 @@ namespace nanoCAD.nanoCADUtility
 
 
 	[NVP_Manifest(
-		Id = "78B8100A-9705-4784-BE0F-A339E62063A8", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "nanoCAD.nanoCADUtility.CoordFromWorldToPixel", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.nanoCAD.nanoCADUtility", 
-		NodeName = "CoordFromWorldToPixel", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "hostCoordFromWorldToPixel", 
 		ViewType = "Data")]
 	[NodeInput("nanoCADUtility", typeof(object))]
@@ -1315,14 +953,6 @@ namespace nanoCAD.nanoCADUtility
 
 
 	[NVP_Manifest(
-		Id = "EB86F53A-AF10-4A0C-BCE5-3AAAFA54FD43", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "nanoCAD.nanoCADUtility.GetObjectIdString", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.nanoCAD.nanoCADUtility", 
-		NodeName = "GetObjectIdString", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Converts ObjectId to string", 
 		ViewType = "Data")]
 	[NodeInput("nanoCADUtility", typeof(object))]

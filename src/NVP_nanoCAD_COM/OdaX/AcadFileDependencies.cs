@@ -11,15 +11,6 @@ namespace OdaX.AcadFileDependencies
 {
 
 	[NVP_Manifest(
-		Id = "E98ED47D-5D9C-434D-9EAF-6F44B5E1261A", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "OdaX.AcadFileDependencies.AcadFileDependencies_Constructor", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.OdaX.AcadFileDependencies", 
-		NodeName = "_AcadFileDependencies_Constructor", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class AcadFileDependencies_Constructor : INode 
@@ -35,15 +26,6 @@ namespace OdaX.AcadFileDependencies
 	}
 
 	[NVP_Manifest(
-		Id = "CDF4069C-C0CB-4750-A1A2-A230EB98533C", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "OdaX.AcadFileDependencies.AcadFileDependencies_ConstructorCast", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.OdaX.AcadFileDependencies", 
-		NodeName = "_AcadFileDependencies_ConstructorCast", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class AcadFileDependencies_ConstructorCast : INode 
@@ -60,14 +42,6 @@ namespace OdaX.AcadFileDependencies
 
 
 	[NVP_Manifest(
-		Id = "425A5439-8540-4F95-B3F3-AF0EBCAA5890", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "OdaX.AcadFileDependencies.Item", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.OdaX.AcadFileDependencies", 
-		NodeName = "Item", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Returns an object at a given index in the collection.", 
 		ViewType = "Data")]
 	[NodeInput("AcadFileDependencies", typeof(object))]
@@ -88,14 +62,6 @@ namespace OdaX.AcadFileDependencies
 
 
 	[NVP_Manifest(
-		Id = "75985B3E-82B8-4B4C-823B-EE2145BE2435", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "OdaX.AcadFileDependencies.Application", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.OdaX.AcadFileDependencies", 
-		NodeName = "Application", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Returns the Application object.", 
 		ViewType = "Data")]
 	[NodeInput("AcadFileDependencies", typeof(object))]
@@ -115,14 +81,6 @@ namespace OdaX.AcadFileDependencies
 
 
 	[NVP_Manifest(
-		Id = "7E0EF53A-9B61-4369-A46A-DB5E6A7B325A", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "OdaX.AcadFileDependencies.Count", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.OdaX.AcadFileDependencies", 
-		NodeName = "Count", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Returns the number of items in the collection.", 
 		ViewType = "Data")]
 	[NodeInput("AcadFileDependencies", typeof(object))]
@@ -142,14 +100,6 @@ namespace OdaX.AcadFileDependencies
 
 
 	[NVP_Manifest(
-		Id = "818FC499-23AD-43A9-831A-874E837B3E01", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "OdaX.AcadFileDependencies.CreateEntry", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.OdaX.AcadFileDependencies", 
-		NodeName = "CreateEntry", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Creates an entry in the File Dependencis list.", 
 		ViewType = "Data")]
 	[NodeInput("AcadFileDependencies", typeof(object))]
@@ -173,14 +123,6 @@ namespace OdaX.AcadFileDependencies
 
 
 	[NVP_Manifest(
-		Id = "023F359B-C6EC-4CDD-B4E8-41FE4033D12B", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "OdaX.AcadFileDependencies.IndexOf", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.OdaX.AcadFileDependencies", 
-		NodeName = "IndexOf", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Returns the index in the collection of a specified entry.", 
 		ViewType = "Data")]
 	[NodeInput("AcadFileDependencies", typeof(object))]
@@ -202,14 +144,6 @@ namespace OdaX.AcadFileDependencies
 
 
 	[NVP_Manifest(
-		Id = "C6765EFE-E3AD-41B8-80F7-62504898B549", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "OdaX.AcadFileDependencies.RemoveEntry", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.OdaX.AcadFileDependencies", 
-		NodeName = "RemoveEntry", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Removes an entry from the File Dependencies list.", 
 		ViewType = "Modifier")]
 	[NodeInput("AcadFileDependencies", typeof(object))]
@@ -231,14 +165,6 @@ namespace OdaX.AcadFileDependencies
 
 
 	[NVP_Manifest(
-		Id = "93E34598-59A6-4E96-9C6F-CE7878907695", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "OdaX.AcadFileDependencies.UpdateEntry", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.OdaX.AcadFileDependencies", 
-		NodeName = "UpdateEntry", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Updates an entry in the File Dependencies list.", 
 		ViewType = "Modifier")]
 	[NodeInput("AcadFileDependencies", typeof(object))]

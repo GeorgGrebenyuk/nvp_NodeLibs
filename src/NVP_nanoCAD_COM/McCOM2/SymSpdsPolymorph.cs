@@ -11,15 +11,6 @@ namespace McCOM2.SymSpdsPolymorph
 {
 
 	[NVP_Manifest(
-		Id = "82CF46C3-7E2A-4F56-B43C-18011BE6E044", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SymSpdsPolymorph.SymSpdsPolymorph_Constructor", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SymSpdsPolymorph", 
-		NodeName = "_SymSpdsPolymorph_Constructor", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class SymSpdsPolymorph_Constructor : INode 
@@ -35,15 +26,6 @@ namespace McCOM2.SymSpdsPolymorph
 	}
 
 	[NVP_Manifest(
-		Id = "17CA3B84-8FC5-48F6-8D4D-50A07C3302C4", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SymSpdsPolymorph.SymSpdsPolymorph_ConstructorCast", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SymSpdsPolymorph", 
-		NodeName = "_SymSpdsPolymorph_ConstructorCast", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class SymSpdsPolymorph_ConstructorCast : INode 
@@ -60,14 +42,6 @@ namespace McCOM2.SymSpdsPolymorph
 
 
 	[NVP_Manifest(
-		Id = "074F972A-9866-41ED-B5CD-60C705D51F04", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SymSpdsPolymorph.Text", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SymSpdsPolymorph", 
-		NodeName = "Text", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x0000048d", 
 		ViewType = "Data")]
 	[NodeInput("SymSpdsPolymorph", typeof(object))]
@@ -87,14 +61,6 @@ namespace McCOM2.SymSpdsPolymorph
 
 
 	[NVP_Manifest(
-		Id = "553D2119-6C72-43BA-B7A1-50E5EE79188D", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SymSpdsPolymorph.Set_Text", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SymSpdsPolymorph", 
-		NodeName = "Set_Text", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x0000048d", 
 		ViewType = "Modifier")]
 	[NodeInput("SymSpdsPolymorph", typeof(object))]
@@ -115,14 +81,6 @@ namespace McCOM2.SymSpdsPolymorph
 
 
 	[NVP_Manifest(
-		Id = "29E6157A-8964-4BA0-B9B4-F75B87AB25ED", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SymSpdsPolymorph.Position", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SymSpdsPolymorph", 
-		NodeName = "Position", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x0000048a", 
 		ViewType = "Data")]
 	[NodeInput("SymSpdsPolymorph", typeof(object))]
@@ -142,14 +100,6 @@ namespace McCOM2.SymSpdsPolymorph
 
 
 	[NVP_Manifest(
-		Id = "B9EEBED5-BEE2-4C05-8D3D-A59778D72414", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SymSpdsPolymorph.Set_Position", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SymSpdsPolymorph", 
-		NodeName = "Set_Position", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x0000048a", 
 		ViewType = "Modifier")]
 	[NodeInput("SymSpdsPolymorph", typeof(object))]
@@ -170,14 +120,6 @@ namespace McCOM2.SymSpdsPolymorph
 
 
 	[NVP_Manifest(
-		Id = "76227A0B-8A20-42B9-B01F-7DAA93747AB6", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SymSpdsPolymorph.Shape", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SymSpdsPolymorph", 
-		NodeName = "Shape", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x0000048c", 
 		ViewType = "Data")]
 	[NodeInput("SymSpdsPolymorph", typeof(object))]
@@ -197,14 +139,6 @@ namespace McCOM2.SymSpdsPolymorph
 
 
 	[NVP_Manifest(
-		Id = "FE1B5B61-821C-4EC4-B05A-C9AF17CD008B", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SymSpdsPolymorph.Set_Shape", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SymSpdsPolymorph", 
-		NodeName = "Set_Shape", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x0000048c", 
 		ViewType = "Modifier")]
 	[NodeInput("SymSpdsPolymorph", typeof(object))]

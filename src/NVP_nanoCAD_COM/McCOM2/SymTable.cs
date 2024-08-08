@@ -11,15 +11,6 @@ namespace McCOM2.SymTable
 {
 
 	[NVP_Manifest(
-		Id = "37815249-B470-4169-8708-B1DBD70F6499", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SymTable.SymTable_Constructor", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SymTable", 
-		NodeName = "_SymTable_Constructor", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class SymTable_Constructor : INode 
@@ -35,15 +26,6 @@ namespace McCOM2.SymTable
 	}
 
 	[NVP_Manifest(
-		Id = "3FE49A70-D7C1-46A7-BBE9-BF52E2C1607B", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SymTable.SymTable_ConstructorCast", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SymTable", 
-		NodeName = "_SymTable_ConstructorCast", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class SymTable_ConstructorCast : INode 
@@ -60,14 +42,6 @@ namespace McCOM2.SymTable
 
 
 	[NVP_Manifest(
-		Id = "E2C6E426-89D2-4170-A34B-67E86C89A6CF", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SymTable.Cell", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SymTable", 
-		NodeName = "Cell", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x000004ce", 
 		ViewType = "Data")]
 	[NodeInput("SymTable", typeof(object))]
@@ -89,14 +63,6 @@ namespace McCOM2.SymTable
 
 
 	[NVP_Manifest(
-		Id = "A76187BC-A968-48F0-85FF-B4E760074D76", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SymTable.Format", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SymTable", 
-		NodeName = "Format", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x000004d5", 
 		ViewType = "Data")]
 	[NodeInput("SymTable", typeof(object))]
@@ -116,14 +82,6 @@ namespace McCOM2.SymTable
 
 
 	[NVP_Manifest(
-		Id = "080B8DF2-1120-4709-B746-007E52669189", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SymTable.Rows", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SymTable", 
-		NodeName = "Rows", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x000004e1", 
 		ViewType = "Data")]
 	[NodeInput("SymTable", typeof(object))]
@@ -144,14 +102,6 @@ namespace McCOM2.SymTable
 
 
 	[NVP_Manifest(
-		Id = "91E72DD5-77CB-4B23-B193-0622125ADAB1", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SymTable.Cols", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SymTable", 
-		NodeName = "Cols", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x000004d3", 
 		ViewType = "Data")]
 	[NodeInput("SymTable", typeof(object))]
@@ -172,14 +122,6 @@ namespace McCOM2.SymTable
 
 
 	[NVP_Manifest(
-		Id = "CE5F6098-901B-45B3-B367-E675A86C1F6C", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SymTable.RowCount", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SymTable", 
-		NodeName = "RowCount", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x000004e0", 
 		ViewType = "Data")]
 	[NodeInput("SymTable", typeof(object))]
@@ -199,14 +141,6 @@ namespace McCOM2.SymTable
 
 
 	[NVP_Manifest(
-		Id = "85C0D3FD-712D-41D0-A81D-17F1257F5123", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SymTable.Set_RowCount", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SymTable", 
-		NodeName = "Set_RowCount", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x000004e0", 
 		ViewType = "Modifier")]
 	[NodeInput("SymTable", typeof(object))]
@@ -227,14 +161,6 @@ namespace McCOM2.SymTable
 
 
 	[NVP_Manifest(
-		Id = "9D312563-E78E-4A8B-8C10-30769C43A2FF", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SymTable.ColCount", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SymTable", 
-		NodeName = "ColCount", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x000004d1", 
 		ViewType = "Data")]
 	[NodeInput("SymTable", typeof(object))]
@@ -254,14 +180,6 @@ namespace McCOM2.SymTable
 
 
 	[NVP_Manifest(
-		Id = "00BFFD69-D312-4538-91EF-20FC8B7C85B7", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SymTable.Set_ColCount", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SymTable", 
-		NodeName = "Set_ColCount", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x000004d1", 
 		ViewType = "Modifier")]
 	[NodeInput("SymTable", typeof(object))]
@@ -282,14 +200,6 @@ namespace McCOM2.SymTable
 
 
 	[NVP_Manifest(
-		Id = "3EE817BB-F37B-4B40-B0ED-9A7390CC9C95", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SymTable.Save", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SymTable", 
-		NodeName = "Save", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x000004ca", 
 		ViewType = "Modifier")]
 	[NodeInput("SymTable", typeof(object))]
@@ -310,14 +220,6 @@ namespace McCOM2.SymTable
 
 
 	[NVP_Manifest(
-		Id = "0A216A35-4867-47A8-A3F9-F72EFC14D03B", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SymTable.Load", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SymTable", 
-		NodeName = "Load", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x000004c8", 
 		ViewType = "Modifier")]
 	[NodeInput("SymTable", typeof(object))]
@@ -338,14 +240,6 @@ namespace McCOM2.SymTable
 
 
 	[NVP_Manifest(
-		Id = "39E5DFA8-FB31-4DA7-9FF6-D324183158E8", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SymTable.Position", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SymTable", 
-		NodeName = "Position", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x000004de", 
 		ViewType = "Data")]
 	[NodeInput("SymTable", typeof(object))]
@@ -365,14 +259,6 @@ namespace McCOM2.SymTable
 
 
 	[NVP_Manifest(
-		Id = "EBB2B7EA-CAE8-41C1-B1D8-1A43230621D4", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SymTable.Set_Position", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SymTable", 
-		NodeName = "Set_Position", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x000004de", 
 		ViewType = "Modifier")]
 	[NodeInput("SymTable", typeof(object))]
@@ -393,14 +279,6 @@ namespace McCOM2.SymTable
 
 
 	[NVP_Manifest(
-		Id = "9D2C5EB6-547F-4784-B521-82A6B194345D", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SymTable.CellFromPoint", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SymTable", 
-		NodeName = "CellFromPoint", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x000004cf", 
 		ViewType = "Data")]
 	[NodeInput("SymTable", typeof(object))]
@@ -421,14 +299,6 @@ namespace McCOM2.SymTable
 
 
 	[NVP_Manifest(
-		Id = "9F565E16-F32A-4080-A162-33F33E0A0B70", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SymTable.Width", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SymTable", 
-		NodeName = "Width", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x000004e4", 
 		ViewType = "Data")]
 	[NodeInput("SymTable", typeof(object))]
@@ -448,14 +318,6 @@ namespace McCOM2.SymTable
 
 
 	[NVP_Manifest(
-		Id = "34367547-E0EE-46BE-9BD6-5C8F669E75EB", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SymTable.Height", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SymTable", 
-		NodeName = "Height", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x000004d6", 
 		ViewType = "Data")]
 	[NodeInput("SymTable", typeof(object))]
@@ -475,14 +337,6 @@ namespace McCOM2.SymTable
 
 
 	[NVP_Manifest(
-		Id = "11C72ECA-6E74-4D70-9D95-A60E6E44C554", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SymTable.Group", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SymTable", 
-		NodeName = "Group", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x000004c6", 
 		ViewType = "Modifier")]
 	[NodeInput("SymTable", typeof(object))]
@@ -506,14 +360,6 @@ namespace McCOM2.SymTable
 
 
 	[NVP_Manifest(
-		Id = "3AE86D4E-1249-4886-A8F0-0E0109C6164A", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SymTable.Ungroup", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SymTable", 
-		NodeName = "Ungroup", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x000004cc", 
 		ViewType = "Modifier")]
 	[NodeInput("SymTable", typeof(object))]
@@ -537,14 +383,6 @@ namespace McCOM2.SymTable
 
 
 	[NVP_Manifest(
-		Id = "97F5F020-C517-4AE8-A708-AE76A7B651E7", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SymTable.Insert", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SymTable", 
-		NodeName = "Insert", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x00000610", 
 		ViewType = "Modifier")]
 	[NodeInput("SymTable", typeof(object))]

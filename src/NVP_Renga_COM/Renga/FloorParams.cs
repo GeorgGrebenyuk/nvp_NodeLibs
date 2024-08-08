@@ -11,15 +11,6 @@ namespace Renga.FloorParams
 {
 
 	[NVP_Manifest(
-		Id = "680C5023-F9AE-4A7F-BEF9-B6F645A21ED2", 
-		PathAssembly = "NVP_Renga_COM.dll", 
-		PathExecuteClass = "Renga.FloorParams.FloorParams_Constructor", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_Renga_COM.Renga.FloorParams", 
-		NodeName = "_FloorParams_Constructor", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class FloorParams_Constructor : INode 
@@ -35,15 +26,6 @@ namespace Renga.FloorParams
 	}
 
 	[NVP_Manifest(
-		Id = "58BFE7B5-E930-43F5-84E4-37BCD5224C4B", 
-		PathAssembly = "NVP_Renga_COM.dll", 
-		PathExecuteClass = "Renga.FloorParams.FloorParams_ConstructorCast", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_Renga_COM.Renga.FloorParams", 
-		NodeName = "_FloorParams_ConstructorCast", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class FloorParams_ConstructorCast : INode 
@@ -60,15 +42,6 @@ namespace Renga.FloorParams
 
 
 	[NVP_Manifest(
-		Id = "1C782445-A9FE-4906-82AF-F00FDE3A6E6E", 
-		PathAssembly = "NVP_Renga_COM.dll", 
-		PathExecuteClass = "Renga.FloorParams.GetContour", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_Renga_COM.Renga.FloorParams", 
-		NodeName = "GetContour", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Data")]
 	[NodeInput("FloorParams", typeof(object))]
 
@@ -87,15 +60,6 @@ namespace Renga.FloorParams
 
 
 	[NVP_Manifest(
-		Id = "55FEFEB7-6C5C-40D3-B13B-38B01AAB63C8", 
-		PathAssembly = "NVP_Renga_COM.dll", 
-		PathExecuteClass = "Renga.FloorParams.Thickness", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_Renga_COM.Renga.FloorParams", 
-		NodeName = "Thickness", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Data")]
 	[NodeInput("FloorParams", typeof(object))]
 
@@ -114,15 +78,6 @@ namespace Renga.FloorParams
 
 
 	[NVP_Manifest(
-		Id = "80625B31-099B-44FD-8A31-2C8478D4A48B", 
-		PathAssembly = "NVP_Renga_COM.dll", 
-		PathExecuteClass = "Renga.FloorParams.VerticalOffset", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_Renga_COM.Renga.FloorParams", 
-		NodeName = "VerticalOffset", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Data")]
 	[NodeInput("FloorParams", typeof(object))]
 
@@ -141,15 +96,6 @@ namespace Renga.FloorParams
 
 
 	[NVP_Manifest(
-		Id = "31AE4675-F8EF-48DA-B09B-360FD240126B", 
-		PathAssembly = "NVP_Renga_COM.dll", 
-		PathExecuteClass = "Renga.FloorParams.GetDependentObjectIds", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_Renga_COM.Renga.FloorParams", 
-		NodeName = "GetDependentObjectIds", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("FloorParams", typeof(object))]
 

@@ -11,15 +11,6 @@ namespace mdsLINEComLib.MDSLAngleDialogWrap
 {
 
 	[NVP_Manifest(
-		Id = "F8D40A49-2FCE-4764-995E-91374C7FBC9C", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsLINEComLib.MDSLAngleDialogWrap.MDSLAngleDialogWrap_Constructor", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLAngleDialogWrap", 
-		NodeName = "_MDSLAngleDialogWrap_Constructor", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class MDSLAngleDialogWrap_Constructor : INode 
@@ -35,15 +26,6 @@ namespace mdsLINEComLib.MDSLAngleDialogWrap
 	}
 
 	[NVP_Manifest(
-		Id = "6C04DEEE-A9C7-4428-BC5E-46E20FBCBD12", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsLINEComLib.MDSLAngleDialogWrap.MDSLAngleDialogWrap_ConstructorCast", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsLINEComLib.MDSLAngleDialogWrap", 
-		NodeName = "_MDSLAngleDialogWrap_ConstructorCast", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class MDSLAngleDialogWrap_ConstructorCast : INode 

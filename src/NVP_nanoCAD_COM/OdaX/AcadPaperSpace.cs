@@ -11,15 +11,6 @@ namespace OdaX.AcadPaperSpace
 {
 
 	[NVP_Manifest(
-		Id = "8EE6E41A-2AFE-48C6-8FE4-99DDF364E443", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "OdaX.AcadPaperSpace.AcadPaperSpace_Constructor", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.OdaX.AcadPaperSpace", 
-		NodeName = "_AcadPaperSpace_Constructor", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class AcadPaperSpace_Constructor : INode 
@@ -35,15 +26,6 @@ namespace OdaX.AcadPaperSpace
 	}
 
 	[NVP_Manifest(
-		Id = "FC807655-44D9-4B17-918A-7EB7DA441E5C", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "OdaX.AcadPaperSpace.AcadPaperSpace_ConstructorCast", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.OdaX.AcadPaperSpace", 
-		NodeName = "_AcadPaperSpace_ConstructorCast", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class AcadPaperSpace_ConstructorCast : INode 
@@ -60,14 +42,6 @@ namespace OdaX.AcadPaperSpace
 
 
 	[NVP_Manifest(
-		Id = "FF30339A-0E03-4772-A0F8-590C2626215E", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "OdaX.AcadPaperSpace.AddPViewport", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.OdaX.AcadPaperSpace", 
-		NodeName = "AddPViewport", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Adds a paperspace viewport to paperspace.", 
 		ViewType = "Data")]
 	[NodeInput("AcadPaperSpace", typeof(object))]

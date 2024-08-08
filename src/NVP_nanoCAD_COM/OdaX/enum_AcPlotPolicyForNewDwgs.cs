@@ -12,15 +12,6 @@ namespace OdaX.enum_AcPlotPolicyForNewDwgs
 
 
 	[NVP_Manifest(
-		Id = "20D72BF9-907E-405B-8CBA-89E741346437", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "OdaX.enum_AcPlotPolicyForNewDwgs.enum_acPolicyNewDefault", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.OdaX.enum_AcPlotPolicyForNewDwgs", 
-		NodeName = "enum_acPolicyNewDefault", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Default")]
 
 	///<summary>
@@ -37,15 +28,6 @@ namespace OdaX.enum_AcPlotPolicyForNewDwgs
 
 
 	[NVP_Manifest(
-		Id = "DF5548E7-2DCC-4FEB-A2F7-4B092C9886AE", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "OdaX.enum_AcPlotPolicyForNewDwgs.enum_acPolicyNewLegacy", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.OdaX.enum_AcPlotPolicyForNewDwgs", 
-		NodeName = "enum_acPolicyNewLegacy", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Default")]
 
 	///<summary>

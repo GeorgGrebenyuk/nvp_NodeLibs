@@ -11,15 +11,6 @@ namespace ironObjComLib.WrIronBoltJoint
 {
 
 	[NVP_Manifest(
-		Id = "2C034E6A-5368-4E2F-8525-6987B9D6B526", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "ironObjComLib.WrIronBoltJoint.WrIronBoltJoint_Constructor", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronBoltJoint", 
-		NodeName = "_WrIronBoltJoint_Constructor", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class WrIronBoltJoint_Constructor : INode 
@@ -35,15 +26,6 @@ namespace ironObjComLib.WrIronBoltJoint
 	}
 
 	[NVP_Manifest(
-		Id = "A9AA9DE7-B39C-4CC4-A2AD-D910674AA441", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "ironObjComLib.WrIronBoltJoint.WrIronBoltJoint_ConstructorCast", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronBoltJoint", 
-		NodeName = "_WrIronBoltJoint_ConstructorCast", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class WrIronBoltJoint_ConstructorCast : INode 
@@ -60,14 +42,6 @@ namespace ironObjComLib.WrIronBoltJoint
 
 
 	[NVP_Manifest(
-		Id = "E408EF98-C236-4FA5-B4AF-9FE129820B6F", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "ironObjComLib.WrIronBoltJoint.Element", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronBoltJoint", 
-		NodeName = "Element", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Параметры", 
 		ViewType = "Data")]
 	[NodeInput("WrIronBoltJoint", typeof(object))]
@@ -87,14 +61,6 @@ namespace ironObjComLib.WrIronBoltJoint
 
 
 	[NVP_Manifest(
-		Id = "76242459-A732-44F2-97AE-B5F3594FD897", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "ironObjComLib.WrIronBoltJoint.Set_Element", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronBoltJoint", 
-		NodeName = "Set_Element", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Параметры", 
 		ViewType = "Modifier")]
 	[NodeInput("WrIronBoltJoint", typeof(object))]
@@ -115,14 +81,6 @@ namespace ironObjComLib.WrIronBoltJoint
 
 
 	[NVP_Manifest(
-		Id = "22FF8F34-F016-4ABD-ADCF-193BF8FFBF0F", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "ironObjComLib.WrIronBoltJoint.Class", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronBoltJoint", 
-		NodeName = "Class", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "property Class", 
 		ViewType = "Data")]
 	[NodeInput("WrIronBoltJoint", typeof(object))]
@@ -142,14 +100,6 @@ namespace ironObjComLib.WrIronBoltJoint
 
 
 	[NVP_Manifest(
-		Id = "21CDC838-6A6E-4309-AD05-54F6527901CA", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "ironObjComLib.WrIronBoltJoint.Set_Class", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronBoltJoint", 
-		NodeName = "Set_Class", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "property Class", 
 		ViewType = "Modifier")]
 	[NodeInput("WrIronBoltJoint", typeof(object))]
@@ -170,14 +120,6 @@ namespace ironObjComLib.WrIronBoltJoint
 
 
 	[NVP_Manifest(
-		Id = "688D0360-C8BF-467F-81E6-72502D9AC7E4", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "ironObjComLib.WrIronBoltJoint.ArrayMode", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronBoltJoint", 
-		NodeName = "ArrayMode", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "property Array or Single creation type mode", 
 		ViewType = "Data")]
 	[NodeInput("WrIronBoltJoint", typeof(object))]
@@ -197,14 +139,6 @@ namespace ironObjComLib.WrIronBoltJoint
 
 
 	[NVP_Manifest(
-		Id = "1D3CFFB5-C0B7-4F99-A7DF-F0E165B18AE5", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "ironObjComLib.WrIronBoltJoint.Set_ArrayMode", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronBoltJoint", 
-		NodeName = "Set_ArrayMode", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "property Array or Single creation type mode", 
 		ViewType = "Modifier")]
 	[NodeInput("WrIronBoltJoint", typeof(object))]
@@ -225,14 +159,6 @@ namespace ironObjComLib.WrIronBoltJoint
 
 
 	[NVP_Manifest(
-		Id = "51AB4EE3-4F06-4839-9737-7320A5CFE4EF", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "ironObjComLib.WrIronBoltJoint.ChessMode", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronBoltJoint", 
-		NodeName = "ChessMode", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "property of Chess order", 
 		ViewType = "Data")]
 	[NodeInput("WrIronBoltJoint", typeof(object))]
@@ -252,14 +178,6 @@ namespace ironObjComLib.WrIronBoltJoint
 
 
 	[NVP_Manifest(
-		Id = "FFA302A6-85D3-4EE4-A018-7853A329F7C2", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "ironObjComLib.WrIronBoltJoint.Set_ChessMode", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronBoltJoint", 
-		NodeName = "Set_ChessMode", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "property of Chess order", 
 		ViewType = "Modifier")]
 	[NodeInput("WrIronBoltJoint", typeof(object))]
@@ -280,14 +198,6 @@ namespace ironObjComLib.WrIronBoltJoint
 
 
 	[NVP_Manifest(
-		Id = "93A8AD84-3A9F-40FD-B0A1-98B3452F1CBC", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "ironObjComLib.WrIronBoltJoint.Strength", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronBoltJoint", 
-		NodeName = "Strength", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "property of Strength of Chees order", 
 		ViewType = "Data")]
 	[NodeInput("WrIronBoltJoint", typeof(object))]
@@ -307,14 +217,6 @@ namespace ironObjComLib.WrIronBoltJoint
 
 
 	[NVP_Manifest(
-		Id = "1CE9BFD2-9292-45B8-AE21-3196F9DACBCB", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "ironObjComLib.WrIronBoltJoint.Set_Strength", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronBoltJoint", 
-		NodeName = "Set_Strength", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "property of Strength of Chees order", 
 		ViewType = "Modifier")]
 	[NodeInput("WrIronBoltJoint", typeof(object))]
@@ -335,14 +237,6 @@ namespace ironObjComLib.WrIronBoltJoint
 
 
 	[NVP_Manifest(
-		Id = "8D663220-8D61-4919-A559-C4C0188F1321", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "ironObjComLib.WrIronBoltJoint.Rows", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronBoltJoint", 
-		NodeName = "Rows", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "property Rows count", 
 		ViewType = "Data")]
 	[NodeInput("WrIronBoltJoint", typeof(object))]
@@ -362,14 +256,6 @@ namespace ironObjComLib.WrIronBoltJoint
 
 
 	[NVP_Manifest(
-		Id = "D5E66257-601E-4389-87F6-144EE27FC744", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "ironObjComLib.WrIronBoltJoint.Set_Rows", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronBoltJoint", 
-		NodeName = "Set_Rows", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "property Rows count", 
 		ViewType = "Modifier")]
 	[NodeInput("WrIronBoltJoint", typeof(object))]
@@ -390,14 +276,6 @@ namespace ironObjComLib.WrIronBoltJoint
 
 
 	[NVP_Manifest(
-		Id = "E747AE8D-E0F9-497C-9184-A070655754FE", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "ironObjComLib.WrIronBoltJoint.RowDistance", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronBoltJoint", 
-		NodeName = "RowDistance", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "property Row distance", 
 		ViewType = "Data")]
 	[NodeInput("WrIronBoltJoint", typeof(object))]
@@ -417,14 +295,6 @@ namespace ironObjComLib.WrIronBoltJoint
 
 
 	[NVP_Manifest(
-		Id = "DDF09FA0-2036-42ED-BC8D-4C879E89C67A", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "ironObjComLib.WrIronBoltJoint.Set_RowDistance", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronBoltJoint", 
-		NodeName = "Set_RowDistance", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "property Row distance", 
 		ViewType = "Modifier")]
 	[NodeInput("WrIronBoltJoint", typeof(object))]
@@ -445,14 +315,6 @@ namespace ironObjComLib.WrIronBoltJoint
 
 
 	[NVP_Manifest(
-		Id = "0A4848B0-01A0-46BE-BE68-EADB0E2F127C", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "ironObjComLib.WrIronBoltJoint.Columns", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronBoltJoint", 
-		NodeName = "Columns", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "property Columns count", 
 		ViewType = "Data")]
 	[NodeInput("WrIronBoltJoint", typeof(object))]
@@ -472,14 +334,6 @@ namespace ironObjComLib.WrIronBoltJoint
 
 
 	[NVP_Manifest(
-		Id = "E7F62924-91B8-462F-8D7F-708D9937ED98", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "ironObjComLib.WrIronBoltJoint.Set_Columns", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronBoltJoint", 
-		NodeName = "Set_Columns", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "property Columns count", 
 		ViewType = "Modifier")]
 	[NodeInput("WrIronBoltJoint", typeof(object))]
@@ -500,14 +354,6 @@ namespace ironObjComLib.WrIronBoltJoint
 
 
 	[NVP_Manifest(
-		Id = "DC89EFA0-786C-44CE-94C5-50FE509BC632", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "ironObjComLib.WrIronBoltJoint.ColumnDistance", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronBoltJoint", 
-		NodeName = "ColumnDistance", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "property Column distance", 
 		ViewType = "Data")]
 	[NodeInput("WrIronBoltJoint", typeof(object))]
@@ -527,14 +373,6 @@ namespace ironObjComLib.WrIronBoltJoint
 
 
 	[NVP_Manifest(
-		Id = "51D46164-BC63-4802-91AF-3B0EE1C6B5A9", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "ironObjComLib.WrIronBoltJoint.Set_ColumnDistance", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronBoltJoint", 
-		NodeName = "Set_ColumnDistance", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "property Column distance", 
 		ViewType = "Modifier")]
 	[NodeInput("WrIronBoltJoint", typeof(object))]
@@ -555,14 +393,6 @@ namespace ironObjComLib.WrIronBoltJoint
 
 
 	[NVP_Manifest(
-		Id = "ABFD926F-47EB-4AA7-8452-1A35114447F7", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "ironObjComLib.WrIronBoltJoint.Length", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronBoltJoint", 
-		NodeName = "Length", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "property Length", 
 		ViewType = "Data")]
 	[NodeInput("WrIronBoltJoint", typeof(object))]
@@ -582,14 +412,6 @@ namespace ironObjComLib.WrIronBoltJoint
 
 
 	[NVP_Manifest(
-		Id = "160C1505-5AF3-4117-9C23-3B0D0E263762", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "ironObjComLib.WrIronBoltJoint.Boltheight", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronBoltJoint", 
-		NodeName = "Boltheight", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "property Bolthead height", 
 		ViewType = "Data")]
 	[NodeInput("WrIronBoltJoint", typeof(object))]
@@ -609,14 +431,6 @@ namespace ironObjComLib.WrIronBoltJoint
 
 
 	[NVP_Manifest(
-		Id = "5BC71E78-2DA8-4E93-9896-6B6A547C18F0", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "ironObjComLib.WrIronBoltJoint.ShimExternalDiameter", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronBoltJoint", 
-		NodeName = "ShimExternalDiameter", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "property Shim external diameter", 
 		ViewType = "Data")]
 	[NodeInput("WrIronBoltJoint", typeof(object))]
@@ -636,14 +450,6 @@ namespace ironObjComLib.WrIronBoltJoint
 
 
 	[NVP_Manifest(
-		Id = "7E156CE1-2813-4A9C-A0FC-EDB8A77BB7F1", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "ironObjComLib.WrIronBoltJoint.ShimWebDiameter", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronBoltJoint", 
-		NodeName = "ShimWebDiameter", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "property Shim web diameter", 
 		ViewType = "Data")]
 	[NodeInput("WrIronBoltJoint", typeof(object))]
@@ -663,14 +469,6 @@ namespace ironObjComLib.WrIronBoltJoint
 
 
 	[NVP_Manifest(
-		Id = "AF7CB324-101F-430C-AAE2-E9CB72168871", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "ironObjComLib.WrIronBoltJoint.ShimHeight", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronBoltJoint", 
-		NodeName = "ShimHeight", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "property Shim height", 
 		ViewType = "Data")]
 	[NodeInput("WrIronBoltJoint", typeof(object))]
@@ -690,14 +488,6 @@ namespace ironObjComLib.WrIronBoltJoint
 
 
 	[NVP_Manifest(
-		Id = "9BAFA31C-EB59-4843-B331-E6C62D72036D", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "ironObjComLib.WrIronBoltJoint.NutDiameter", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronBoltJoint", 
-		NodeName = "NutDiameter", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "property Nut diameter", 
 		ViewType = "Data")]
 	[NodeInput("WrIronBoltJoint", typeof(object))]
@@ -717,14 +507,6 @@ namespace ironObjComLib.WrIronBoltJoint
 
 
 	[NVP_Manifest(
-		Id = "C5F93425-2BC8-42F1-B54B-C080D065A313", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "ironObjComLib.WrIronBoltJoint.NutHeight", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronBoltJoint", 
-		NodeName = "NutHeight", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "property Nut height", 
 		ViewType = "Data")]
 	[NodeInput("WrIronBoltJoint", typeof(object))]
@@ -744,14 +526,6 @@ namespace ironObjComLib.WrIronBoltJoint
 
 
 	[NVP_Manifest(
-		Id = "DF758708-1420-4F6A-BF4C-0DA1EB7373B0", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "ironObjComLib.WrIronBoltJoint.NutLength", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronBoltJoint", 
-		NodeName = "NutLength", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "property Nut length", 
 		ViewType = "Data")]
 	[NodeInput("WrIronBoltJoint", typeof(object))]
@@ -771,14 +545,6 @@ namespace ironObjComLib.WrIronBoltJoint
 
 
 	[NVP_Manifest(
-		Id = "EA8DC839-FCAE-40DB-920C-D6B44AC294F2", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "ironObjComLib.WrIronBoltJoint.Nut1Enabled", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronBoltJoint", 
-		NodeName = "Nut1Enabled", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "property First nut was enabled", 
 		ViewType = "Data")]
 	[NodeInput("WrIronBoltJoint", typeof(object))]
@@ -798,14 +564,6 @@ namespace ironObjComLib.WrIronBoltJoint
 
 
 	[NVP_Manifest(
-		Id = "39B617D1-2347-440E-BEAB-21EB24B5E3C5", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "ironObjComLib.WrIronBoltJoint.Set_Nut1Enabled", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronBoltJoint", 
-		NodeName = "Set_Nut1Enabled", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "property First nut was enabled", 
 		ViewType = "Modifier")]
 	[NodeInput("WrIronBoltJoint", typeof(object))]
@@ -826,14 +584,6 @@ namespace ironObjComLib.WrIronBoltJoint
 
 
 	[NVP_Manifest(
-		Id = "F87A78B8-12BF-4135-A31C-35667BC80B5C", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "ironObjComLib.WrIronBoltJoint.Nut2Enabled", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronBoltJoint", 
-		NodeName = "Nut2Enabled", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "property Second nut was enabled", 
 		ViewType = "Data")]
 	[NodeInput("WrIronBoltJoint", typeof(object))]
@@ -853,14 +603,6 @@ namespace ironObjComLib.WrIronBoltJoint
 
 
 	[NVP_Manifest(
-		Id = "0248F1F7-3BAB-44BE-8E8E-A171E7794072", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "ironObjComLib.WrIronBoltJoint.Set_Nut2Enabled", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronBoltJoint", 
-		NodeName = "Set_Nut2Enabled", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "property Second nut was enabled", 
 		ViewType = "Modifier")]
 	[NodeInput("WrIronBoltJoint", typeof(object))]
@@ -881,14 +623,6 @@ namespace ironObjComLib.WrIronBoltJoint
 
 
 	[NVP_Manifest(
-		Id = "8269ADBD-7C2E-4642-9568-1710BC5C91D8", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "ironObjComLib.WrIronBoltJoint.ShimheadEnabled", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronBoltJoint", 
-		NodeName = "ShimheadEnabled", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "property Shim bolthead was enabled", 
 		ViewType = "Data")]
 	[NodeInput("WrIronBoltJoint", typeof(object))]
@@ -908,14 +642,6 @@ namespace ironObjComLib.WrIronBoltJoint
 
 
 	[NVP_Manifest(
-		Id = "1F983DDE-CE34-4C8E-8E6B-EE034EA2183D", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "ironObjComLib.WrIronBoltJoint.Set_ShimheadEnabled", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronBoltJoint", 
-		NodeName = "Set_ShimheadEnabled", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "property Shim bolthead was enabled", 
 		ViewType = "Modifier")]
 	[NodeInput("WrIronBoltJoint", typeof(object))]
@@ -936,14 +662,6 @@ namespace ironObjComLib.WrIronBoltJoint
 
 
 	[NVP_Manifest(
-		Id = "A25BE72B-FF6C-42D8-A79B-255FB4E7886D", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "ironObjComLib.WrIronBoltJoint.ShimArray", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronBoltJoint", 
-		NodeName = "ShimArray", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "property Shim array count", 
 		ViewType = "Data")]
 	[NodeInput("WrIronBoltJoint", typeof(object))]
@@ -963,14 +681,6 @@ namespace ironObjComLib.WrIronBoltJoint
 
 
 	[NVP_Manifest(
-		Id = "BEB8EE52-F6FF-4F53-B9F3-F99F52F44704", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "ironObjComLib.WrIronBoltJoint.Set_ShimArray", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronBoltJoint", 
-		NodeName = "Set_ShimArray", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "property Shim array count", 
 		ViewType = "Modifier")]
 	[NodeInput("WrIronBoltJoint", typeof(object))]
@@ -991,14 +701,6 @@ namespace ironObjComLib.WrIronBoltJoint
 
 
 	[NVP_Manifest(
-		Id = "43A5BE0D-E23B-4457-B0DB-4710786540A9", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "ironObjComLib.WrIronBoltJoint.PackLength", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.ironObjComLib.WrIronBoltJoint", 
-		NodeName = "PackLength", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "property Packet length", 
 		ViewType = "Data")]
 	[NodeInput("WrIronBoltJoint", typeof(object))]

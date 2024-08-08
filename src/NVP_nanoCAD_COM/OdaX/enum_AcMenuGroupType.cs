@@ -12,15 +12,6 @@ namespace OdaX.enum_AcMenuGroupType
 
 
 	[NVP_Manifest(
-		Id = "B092F047-DE31-4383-98DF-422D584EDFC4", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "OdaX.enum_AcMenuGroupType.enum_acBaseMenuGroup", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.OdaX.enum_AcMenuGroupType", 
-		NodeName = "enum_acBaseMenuGroup", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Default")]
 
 	///<summary>
@@ -37,15 +28,6 @@ namespace OdaX.enum_AcMenuGroupType
 
 
 	[NVP_Manifest(
-		Id = "2CB7C9CE-26E3-4573-83D8-1487638676A5", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "OdaX.enum_AcMenuGroupType.enum_acPartialMenuGroup", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.OdaX.enum_AcMenuGroupType", 
-		NodeName = "enum_acPartialMenuGroup", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Default")]
 
 	///<summary>

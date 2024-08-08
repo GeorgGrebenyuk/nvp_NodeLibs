@@ -11,15 +11,6 @@ namespace McCOM2.Server2
 {
 
 	[NVP_Manifest(
-		Id = "52300F22-0154-45FD-9EB5-EDFDDC12F594", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.Server2.Server2_Constructor", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.Server2", 
-		NodeName = "_Server2_Constructor", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class Server2_Constructor : INode 
@@ -35,15 +26,6 @@ namespace McCOM2.Server2
 	}
 
 	[NVP_Manifest(
-		Id = "21EBC5BB-591F-4054-A1C3-63FAB127017D", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.Server2.Server2_ConstructorCast", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.Server2", 
-		NodeName = "_Server2_ConstructorCast", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class Server2_ConstructorCast : INode 
@@ -60,14 +42,6 @@ namespace McCOM2.Server2
 
 
 	[NVP_Manifest(
-		Id = "E304DDD5-21D0-4418-9D85-1CCC0B954F85", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.Server2.Message64", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.Server2", 
-		NodeName = "Message64", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x00000607", 
 		ViewType = "Data")]
 	[NodeInput("Server2", typeof(object))]
@@ -90,14 +64,6 @@ namespace McCOM2.Server2
 
 
 	[NVP_Manifest(
-		Id = "A10AD7EB-C756-4401-B208-AF5BE85239E3", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.Server2.Update", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.Server2", 
-		NodeName = "Update", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x00000608", 
 		ViewType = "Modifier")]
 	[NodeInput("Server2", typeof(object))]

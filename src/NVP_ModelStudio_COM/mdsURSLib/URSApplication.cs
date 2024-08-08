@@ -11,15 +11,6 @@ namespace mdsURSLib.URSApplication
 {
 
 	[NVP_Manifest(
-		Id = "E2FFA658-19C1-4CFE-AFC0-EC7EFCC0412E", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsURSLib.URSApplication.URSApplication_Constructor", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsURSLib.URSApplication", 
-		NodeName = "_URSApplication_Constructor", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class URSApplication_Constructor : INode 
@@ -35,15 +26,6 @@ namespace mdsURSLib.URSApplication
 	}
 
 	[NVP_Manifest(
-		Id = "77535557-4ED1-4E1C-93BB-D0A568ED0443", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsURSLib.URSApplication.URSApplication_ConstructorCast", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsURSLib.URSApplication", 
-		NodeName = "_URSApplication_ConstructorCast", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class URSApplication_ConstructorCast : INode 
@@ -60,14 +42,6 @@ namespace mdsURSLib.URSApplication
 
 
 	[NVP_Manifest(
-		Id = "CFD3E0F5-96AF-4BAE-8DDE-E40D8B0C8C00", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsURSLib.URSApplication.CreateReport", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsURSLib.URSApplication", 
-		NodeName = "CreateReport", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "method CreateReport", 
 		ViewType = "Data")]
 	[NodeInput("URSApplication", typeof(object))]
@@ -88,14 +62,6 @@ namespace mdsURSLib.URSApplication
 
 
 	[NVP_Manifest(
-		Id = "0454BA1F-A229-46E6-B621-57EB3D6ADBF4", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsURSLib.URSApplication.BindData", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsURSLib.URSApplication", 
-		NodeName = "BindData", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "method BindData", 
 		ViewType = "Modifier")]
 	[NodeInput("URSApplication", typeof(object))]
@@ -118,14 +84,6 @@ namespace mdsURSLib.URSApplication
 
 
 	[NVP_Manifest(
-		Id = "B16F6248-6C82-4041-97C0-EE8E3E2F0C0D", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsURSLib.URSApplication.Query", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsURSLib.URSApplication", 
-		NodeName = "Query", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "method Query", 
 		ViewType = "Data")]
 	[NodeInput("URSApplication", typeof(object))]
@@ -147,14 +105,6 @@ namespace mdsURSLib.URSApplication
 
 
 	[NVP_Manifest(
-		Id = "C858B6CA-A09C-4C99-90DB-20C41AF174B4", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsURSLib.URSApplication.BindAttributeData", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsURSLib.URSApplication", 
-		NodeName = "BindAttributeData", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "method BindAttributeData", 
 		ViewType = "Modifier")]
 	[NodeInput("URSApplication", typeof(object))]

@@ -11,15 +11,6 @@ namespace mdsUnitsLib.MDSDataObject
 {
 
 	[NVP_Manifest(
-		Id = "C117C72F-F37A-472F-86C3-6672DF89EAF7", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsUnitsLib.MDSDataObject.MDSDataObject_Constructor", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSDataObject", 
-		NodeName = "_MDSDataObject_Constructor", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class MDSDataObject_Constructor : INode 
@@ -35,15 +26,6 @@ namespace mdsUnitsLib.MDSDataObject
 	}
 
 	[NVP_Manifest(
-		Id = "0434AD75-FE9D-4F86-81BC-9352DB51C80C", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsUnitsLib.MDSDataObject.MDSDataObject_ConstructorCast", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSDataObject", 
-		NodeName = "_MDSDataObject_ConstructorCast", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class MDSDataObject_ConstructorCast : INode 
@@ -60,14 +42,6 @@ namespace mdsUnitsLib.MDSDataObject
 
 
 	[NVP_Manifest(
-		Id = "2BD93DCE-B5CD-429F-A2B8-E8331E04546E", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsUnitsLib.MDSDataObject.Element", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSDataObject", 
-		NodeName = "Element", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "property Element", 
 		ViewType = "Data")]
 	[NodeInput("MDSDataObject", typeof(object))]
@@ -87,14 +61,6 @@ namespace mdsUnitsLib.MDSDataObject
 
 
 	[NVP_Manifest(
-		Id = "61DB64FE-3E58-4A5D-B4DA-72D07292678A", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mdsUnitsLib.MDSDataObject.Set_Element", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mdsUnitsLib.MDSDataObject", 
-		NodeName = "Set_Element", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "property Element", 
 		ViewType = "Modifier")]
 	[NodeInput("MDSDataObject", typeof(object))]

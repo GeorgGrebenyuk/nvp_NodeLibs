@@ -11,15 +11,6 @@ namespace McCOM2.SpdsGridAxesSet
 {
 
 	[NVP_Manifest(
-		Id = "1BDD324B-E694-4684-B927-E1929529A5B8", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SpdsGridAxesSet.SpdsGridAxesSet_Constructor", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SpdsGridAxesSet", 
-		NodeName = "_SpdsGridAxesSet_Constructor", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class SpdsGridAxesSet_Constructor : INode 
@@ -35,15 +26,6 @@ namespace McCOM2.SpdsGridAxesSet
 	}
 
 	[NVP_Manifest(
-		Id = "335C855A-D895-4483-B6A3-B5F51C73DD3E", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SpdsGridAxesSet.SpdsGridAxesSet_ConstructorCast", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SpdsGridAxesSet", 
-		NodeName = "_SpdsGridAxesSet_ConstructorCast", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class SpdsGridAxesSet_ConstructorCast : INode 
@@ -60,14 +42,6 @@ namespace McCOM2.SpdsGridAxesSet
 
 
 	[NVP_Manifest(
-		Id = "69A84F1B-77D0-4D1F-941A-4B6D91E43F5B", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SpdsGridAxesSet.Index", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SpdsGridAxesSet", 
-		NodeName = "Index", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x000005f4", 
 		ViewType = "Data")]
 	[NodeInput("SpdsGridAxesSet", typeof(object))]
@@ -87,14 +61,6 @@ namespace McCOM2.SpdsGridAxesSet
 
 
 	[NVP_Manifest(
-		Id = "E42BB912-12B0-4892-8468-FD379C158D22", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SpdsGridAxesSet.Set_Index", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SpdsGridAxesSet", 
-		NodeName = "Set_Index", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x000005f4", 
 		ViewType = "Modifier")]
 	[NodeInput("SpdsGridAxesSet", typeof(object))]
@@ -115,14 +81,6 @@ namespace McCOM2.SpdsGridAxesSet
 
 
 	[NVP_Manifest(
-		Id = "C2E21FAA-368A-4DD7-95FB-7C133D173E61", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SpdsGridAxesSet.Distance", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SpdsGridAxesSet", 
-		NodeName = "Distance", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x000005f5", 
 		ViewType = "Data")]
 	[NodeInput("SpdsGridAxesSet", typeof(object))]
@@ -142,14 +100,6 @@ namespace McCOM2.SpdsGridAxesSet
 
 
 	[NVP_Manifest(
-		Id = "52EBD93A-ED23-4CD5-B8BE-6E6C2440B27E", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SpdsGridAxesSet.Set_Distance", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SpdsGridAxesSet", 
-		NodeName = "Set_Distance", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x000005f5", 
 		ViewType = "Modifier")]
 	[NodeInput("SpdsGridAxesSet", typeof(object))]
@@ -170,14 +120,6 @@ namespace McCOM2.SpdsGridAxesSet
 
 
 	[NVP_Manifest(
-		Id = "BC12C9D4-2383-4A90-AF86-29A97A7F54ED", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SpdsGridAxesSet.Owner", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SpdsGridAxesSet", 
-		NodeName = "Owner", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x000005f6", 
 		ViewType = "Data")]
 	[NodeInput("SpdsGridAxesSet", typeof(object))]
@@ -197,14 +139,6 @@ namespace McCOM2.SpdsGridAxesSet
 
 
 	[NVP_Manifest(
-		Id = "A7D6A8E8-B1C0-4630-B78F-B8D5CF6A71E0", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SpdsGridAxesSet.Count", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SpdsGridAxesSet", 
-		NodeName = "Count", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x000005f7", 
 		ViewType = "Data")]
 	[NodeInput("SpdsGridAxesSet", typeof(object))]
@@ -224,14 +158,6 @@ namespace McCOM2.SpdsGridAxesSet
 
 
 	[NVP_Manifest(
-		Id = "E7B609AE-8EAF-452C-A7E2-90FB361185FD", 
-		PathAssembly = "NVP_nanoCAD_COM.dll", 
-		PathExecuteClass = "McCOM2.SpdsGridAxesSet.Set_Count", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.McCOM2.SpdsGridAxesSet", 
-		NodeName = "Set_Count", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "0x000005f7", 
 		ViewType = "Modifier")]
 	[NodeInput("SpdsGridAxesSet", typeof(object))]

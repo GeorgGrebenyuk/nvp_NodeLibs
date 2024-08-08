@@ -11,15 +11,6 @@ namespace Renga.GridMaterial
 {
 
 	[NVP_Manifest(
-		Id = "6900B2CF-B6F7-4971-AFEA-0475BC0856DD", 
-		PathAssembly = "NVP_Renga_COM.dll", 
-		PathExecuteClass = "Renga.GridMaterial.GridMaterial_Constructor", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_Renga_COM.Renga.GridMaterial", 
-		NodeName = "_GridMaterial_Constructor", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class GridMaterial_Constructor : INode 
@@ -35,15 +26,6 @@ namespace Renga.GridMaterial
 	}
 
 	[NVP_Manifest(
-		Id = "5D315A6C-DD5D-42C9-B7D4-61FF87D11B25", 
-		PathAssembly = "NVP_Renga_COM.dll", 
-		PathExecuteClass = "Renga.GridMaterial.GridMaterial_ConstructorCast", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_Renga_COM.Renga.GridMaterial", 
-		NodeName = "_GridMaterial_ConstructorCast", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class GridMaterial_ConstructorCast : INode 
@@ -60,15 +42,6 @@ namespace Renga.GridMaterial
 
 
 	[NVP_Manifest(
-		Id = "0ED8E34D-423A-43D0-8118-3122BAA3A784", 
-		PathAssembly = "NVP_Renga_COM.dll", 
-		PathExecuteClass = "Renga.GridMaterial.Id", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_Renga_COM.Renga.GridMaterial", 
-		NodeName = "Id", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Data")]
 	[NodeInput("GridMaterial", typeof(object))]
 
@@ -87,15 +60,6 @@ namespace Renga.GridMaterial
 
 
 	[NVP_Manifest(
-		Id = "E5ADE5A0-7638-460E-A294-C96966257572", 
-		PathAssembly = "NVP_Renga_COM.dll", 
-		PathExecuteClass = "Renga.GridMaterial.Color", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_Renga_COM.Renga.GridMaterial", 
-		NodeName = "Color", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Data")]
 	[NodeInput("GridMaterial", typeof(object))]
 
@@ -114,15 +78,6 @@ namespace Renga.GridMaterial
 
 
 	[NVP_Manifest(
-		Id = "7EF68E7A-E567-4B2F-A98B-823203BD1A56", 
-		PathAssembly = "NVP_Renga_COM.dll", 
-		PathExecuteClass = "Renga.GridMaterial.GetColorComponents", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_Renga_COM.Renga.GridMaterial", 
-		NodeName = "GetColorComponents", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("GridMaterial", typeof(object))]
 	[NodeInput("short*", typeof(System.Object))]

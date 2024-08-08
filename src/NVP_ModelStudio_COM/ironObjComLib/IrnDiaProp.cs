@@ -11,15 +11,6 @@ namespace ironObjComLib.IrnDiaProp
 {
 
 	[NVP_Manifest(
-		Id = "65580A44-A645-457A-9BAB-119F9A0C5635", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "ironObjComLib.IrnDiaProp.IrnDiaProp_Constructor", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.ironObjComLib.IrnDiaProp", 
-		NodeName = "_IrnDiaProp_Constructor", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class IrnDiaProp_Constructor : INode 
@@ -35,15 +26,6 @@ namespace ironObjComLib.IrnDiaProp
 	}
 
 	[NVP_Manifest(
-		Id = "0BF6478A-1B1C-4D21-BC10-83AC0EEB25DB", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "ironObjComLib.IrnDiaProp.IrnDiaProp_ConstructorCast", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.ironObjComLib.IrnDiaProp", 
-		NodeName = "_IrnDiaProp_ConstructorCast", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class IrnDiaProp_ConstructorCast : INode 

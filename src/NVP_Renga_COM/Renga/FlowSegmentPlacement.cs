@@ -11,15 +11,6 @@ namespace Renga.FlowSegmentPlacement
 {
 
 	[NVP_Manifest(
-		Id = "9ADC8619-2A55-4E66-A2C3-7FE616E8DDBE", 
-		PathAssembly = "NVP_Renga_COM.dll", 
-		PathExecuteClass = "Renga.FlowSegmentPlacement.FlowSegmentPlacement_Constructor", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_Renga_COM.Renga.FlowSegmentPlacement", 
-		NodeName = "_FlowSegmentPlacement_Constructor", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class FlowSegmentPlacement_Constructor : INode 
@@ -35,15 +26,6 @@ namespace Renga.FlowSegmentPlacement
 	}
 
 	[NVP_Manifest(
-		Id = "041184BD-AC13-4FD8-9155-B1CD62882C92", 
-		PathAssembly = "NVP_Renga_COM.dll", 
-		PathExecuteClass = "Renga.FlowSegmentPlacement.FlowSegmentPlacement_ConstructorCast", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_Renga_COM.Renga.FlowSegmentPlacement", 
-		NodeName = "_FlowSegmentPlacement_ConstructorCast", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class FlowSegmentPlacement_ConstructorCast : INode 
@@ -60,15 +42,6 @@ namespace Renga.FlowSegmentPlacement
 
 
 	[NVP_Manifest(
-		Id = "A779CD5A-887A-42BB-B428-20B2E7E250E3", 
-		PathAssembly = "NVP_Renga_COM.dll", 
-		PathExecuteClass = "Renga.FlowSegmentPlacement.Id", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_Renga_COM.Renga.FlowSegmentPlacement", 
-		NodeName = "Id", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Data")]
 	[NodeInput("FlowSegmentPlacement", typeof(object))]
 
@@ -87,15 +60,6 @@ namespace Renga.FlowSegmentPlacement
 
 
 	[NVP_Manifest(
-		Id = "71A2CCC6-1F02-4273-A924-B004A2528448", 
-		PathAssembly = "NVP_Renga_COM.dll", 
-		PathExecuteClass = "Renga.FlowSegmentPlacement.GetBaseline", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_Renga_COM.Renga.FlowSegmentPlacement", 
-		NodeName = "GetBaseline", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Data")]
 	[NodeInput("FlowSegmentPlacement", typeof(object))]
 

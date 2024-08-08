@@ -114,6 +114,7 @@ namespace NVP_Manifest_Creator
                         {
                             cs_path = cs_path.Substring(0, cs_path.IndexOf("."));
                         }
+                        else cs_path = dll_name;
 
 
                         NVP_Manifest_attrs_need.PathAssembly = dll_nameDLL;
@@ -178,8 +179,10 @@ namespace NVP_Manifest_Creator
                         }
 
                         //Сохраняем сразу во вложенной папке NPV_Data
-                        string nodeitemPath = Path.Combine(Path.GetDirectoryName(dll_path),
-                            Path.GetFileNameWithoutExtension(dll_path) + "_" + nodeitem_File.Key + ".nodeitem");
+                        string file_name = Path.GetFileNameWithoutExtension(dll_path) + "_" + nodeitem_File.Key + ".nodeitem";
+                        if (nodeitem_File.Key == dll_name) file_name = Path.GetFileNameWithoutExtension(dll_path) + ".nodeitem";
+
+                        string nodeitemPath = Path.Combine(Path.GetDirectoryName(dll_path), file_name);
 
                         _doc.Add(_doc_nodeitem_Nodes);
                         _doc.Save(nodeitemPath);
@@ -218,8 +221,8 @@ namespace NVP_Manifest_Creator
         }
         public static void Main(string[] args)
         {
-            //Run();
-            CleanManifestAttrs();
+            Run();
+            //CleanManifestAttrs();
 
 
             Console.WriteLine("\nEnd!");

@@ -11,15 +11,6 @@ namespace SchematiCSCOMLib.MSLinkSegment
 {
 
 	[NVP_Manifest(
-		Id = "C1B4857D-C345-4072-AC08-508F4190E74D", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "SchematiCSCOMLib.MSLinkSegment.MSLinkSegment_Constructor", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.SchematiCSCOMLib.MSLinkSegment", 
-		NodeName = "_MSLinkSegment_Constructor", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class MSLinkSegment_Constructor : INode 
@@ -35,15 +26,6 @@ namespace SchematiCSCOMLib.MSLinkSegment
 	}
 
 	[NVP_Manifest(
-		Id = "B045835B-E9B8-484B-B2FE-E2F133134196", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "SchematiCSCOMLib.MSLinkSegment.MSLinkSegment_ConstructorCast", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.SchematiCSCOMLib.MSLinkSegment", 
-		NodeName = "_MSLinkSegment_ConstructorCast", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class MSLinkSegment_ConstructorCast : INode 
@@ -60,14 +42,6 @@ namespace SchematiCSCOMLib.MSLinkSegment
 
 
 	[NVP_Manifest(
-		Id = "FFB7FDBA-27DC-4684-BB79-D836348CF238", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "SchematiCSCOMLib.MSLinkSegment.Element", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.SchematiCSCOMLib.MSLinkSegment", 
-		NodeName = "Element", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "Параметры сегмента", 
 		ViewType = "Data")]
 	[NodeInput("MSLinkSegment", typeof(object))]

@@ -11,15 +11,6 @@ namespace mstRouteCOMLib.mstRouteShelves
 {
 
 	[NVP_Manifest(
-		Id = "8072BA58-5571-4812-B80C-B02E783158AE", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mstRouteCOMLib.mstRouteShelves.mstRouteShelves_Constructor", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mstRouteCOMLib.mstRouteShelves", 
-		NodeName = "_mstRouteShelves_Constructor", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class mstRouteShelves_Constructor : INode 
@@ -35,15 +26,6 @@ namespace mstRouteCOMLib.mstRouteShelves
 	}
 
 	[NVP_Manifest(
-		Id = "3D29AA93-35BB-4A82-9A69-9E740762FFDE", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mstRouteCOMLib.mstRouteShelves.mstRouteShelves_ConstructorCast", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mstRouteCOMLib.mstRouteShelves", 
-		NodeName = "_mstRouteShelves_ConstructorCast", 
-		NodeType = "Loaded", 
-		CADType = "None", 
-		Text = "", 
 		ViewType = "Modifier")]
 	[NodeInput("dynamic", typeof(object))]
 	public class mstRouteShelves_ConstructorCast : INode 
@@ -60,14 +42,6 @@ namespace mstRouteCOMLib.mstRouteShelves
 
 
 	[NVP_Manifest(
-		Id = "28154680-6B1C-46F9-996C-2EB486857872", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mstRouteCOMLib.mstRouteShelves.Item", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mstRouteCOMLib.mstRouteShelves", 
-		NodeName = "Item", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "method Item", 
 		ViewType = "Data")]
 	[NodeInput("mstRouteShelves", typeof(object))]
@@ -87,14 +61,6 @@ namespace mstRouteCOMLib.mstRouteShelves
 
 
 	[NVP_Manifest(
-		Id = "BDEB22B0-4166-487C-A1A1-EFA5B9F7B54B", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mstRouteCOMLib.mstRouteShelves.Count", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mstRouteCOMLib.mstRouteShelves", 
-		NodeName = "Count", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "property Count", 
 		ViewType = "Data")]
 	[NodeInput("mstRouteShelves", typeof(object))]
@@ -114,14 +80,6 @@ namespace mstRouteCOMLib.mstRouteShelves
 
 
 	[NVP_Manifest(
-		Id = "C164A636-360E-4FBC-B773-17A57CEBE0BA", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mstRouteCOMLib.mstRouteShelves.Add", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mstRouteCOMLib.mstRouteShelves", 
-		NodeName = "Add", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "method Add", 
 		ViewType = "Data")]
 	[NodeInput("mstRouteShelves", typeof(object))]
@@ -146,14 +104,6 @@ namespace mstRouteCOMLib.mstRouteShelves
 
 
 	[NVP_Manifest(
-		Id = "962C1A74-B151-4A08-A62A-4B03CE64B8C7", 
-		PathAssembly = "NVP_ModelStudio_COM.dll", 
-		PathExecuteClass = "mstRouteCOMLib.mstRouteShelves.Remove", 
-		CoderName = "GeorgGrebenyuk", 
-		Folder = "NVP_nanoCAD_COM.mstRouteCOMLib.mstRouteShelves", 
-		NodeName = "Remove", 
-		NodeType = "Loaded", 
-		CADType = "None", 
 		Text = "method Remove", 
 		ViewType = "Modifier")]
 	[NodeInput("mstRouteShelves", typeof(object))]
