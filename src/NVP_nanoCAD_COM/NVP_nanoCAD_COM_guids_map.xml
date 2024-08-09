@@ -25157,5 +25157,65 @@
       <Path>McCOM2.BOM.Export</Path>
       <Id>D68D55C0-1B52-466E-80EF-CC83770EC44E</Id>
     </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>OdaX.AcadViews.GetAll_Views</Path>
+      <Id>21C3C420-F120-4EB5-A717-7E1D55F0AB43</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>OdaX.AcadViewports.GetAll_Viewports</Path>
+      <Id>CCF115EA-F412-4AB0-BA12-912682A1CEA3</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>OdaX.AcadUCSs.GetAll_UCSs</Path>
+      <Id>966577BF-C4EC-4B72-B90E-954A0DD99370</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>OdaX.AcadRegisteredApplications.GetAll_RegisteredApplications</Path>
+      <Id>D2E7BFBC-DADF-45A8-962D-CD81BBE5AF57</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>OdaX.AcadPlotConfigurations.GetAll_PlotConfigurations</Path>
+      <Id>EF4E735D-E402-40B0-9B2D-53F259E34E93</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>OdaX.AcadMaterials.GetAll_Materials</Path>
+      <Id>70FD5B25-B049-4EFD-86A2-690FFF64F27D</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>OdaX.AcadLineTypes.GetAll_LineTypes</Path>
+      <Id>B701F3D6-4751-47B6-BBA9-B652A5447BDE</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>OdaX.AcadLayouts.GetAll_Layouts</Path>
+      <Id>499456D2-CC30-4197-B22D-177E303F1CE2</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>OdaX.AcadLayers.GetAll_Layers</Path>
+      <Id>8DC37267-2B6B-4E15-99E0-37B2AAE68930</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>OdaX.AcadHyperlinks.GetAll_Links</Path>
+      <Id>0E3D73BB-BE2C-46E5-BE1B-8CA0F1566F41</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>OdaX.AcadGroups.GetAll_Groups</Path>
+      <Id>14DC4C88-CC08-481C-85F8-F7210D7A85DB</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>OdaX.AcadBlocks.GetAll_Blocks</Path>
+      <Id>D4D13D9C-FC9A-4DD8-9AA9-682E65220E9F</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>OdaX.AcadBlock.GetAll_Entities</Path>
+      <Id>1BB593C9-27CC-4C7C-AFCA-6D6CD1F542EA</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>nanoCAD.nanoCADSelectionSets.GetAll_SelectionSets</Path>
+      <Id>DC1C51DD-5BA1-467D-A14B-905EEA50267D</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>nanoCAD.nanoCADDocuments.GetAll_Documents</Path>
+      <Id>389C5B1E-C310-4BFB-9649-7CBBDA762955</Id>
+    </Auxiliary_Guids_Map_Item>
   </ElementsMap>
 </Auxiliary_Guids_Map>
