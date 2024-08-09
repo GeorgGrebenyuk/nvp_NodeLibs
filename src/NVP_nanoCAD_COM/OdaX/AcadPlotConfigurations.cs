@@ -99,4 +99,25 @@ namespace OdaX.AcadPlotConfigurations
 
 		}
 	}
+
+    [NVP_Manifest(
+        Text = "Возвращает все Конфигурации печати в виде OdaX.AcadPlotConfiguration",
+        ViewType = "Data")]
+    [NodeInput("AcadPlotConfigurations", typeof(object))]
+    public class GetAll_PlotConfigurations : INode
+    {
+        public NodeResult Execute(INVPData context, List<NodeResult> inputs)
+        {
+            var _input0 = ((dynamic)inputs[0].Value)._i as OdaX.IAcadPlotConfigurations;
+            List<OdaX.AcadPlotConfiguration.AcadPlotConfiguration_Constructor> items = new List<OdaX.AcadPlotConfiguration.AcadPlotConfiguration_Constructor>();
+            for (int item_counter = 0; item_counter < _input0.Count; item_counter++)
+            {
+                OdaX.AcadPlotConfiguration.AcadPlotConfiguration_Constructor item = new OdaX.AcadPlotConfiguration.AcadPlotConfiguration_Constructor();
+                item._i = _input0.Item(item_counter);
+                items.Add(item);
+            }
+            return new NodeResult(items);
+
+        }
+    }
 }

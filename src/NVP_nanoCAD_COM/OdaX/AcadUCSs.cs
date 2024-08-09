@@ -101,4 +101,25 @@ namespace OdaX.AcadUCSs
 
 		}
 	}
+
+    [NVP_Manifest(
+        Text = "Возвращает все ПСК чертежа в виде OdaX.AcadUCS",
+        ViewType = "Data")]
+    [NodeInput("AcadUCSs", typeof(object))]
+    public class GetAll_UCSs : INode
+    {
+        public NodeResult Execute(INVPData context, List<NodeResult> inputs)
+        {
+            var _input0 = ((dynamic)inputs[0].Value)._i as OdaX.IAcadUCSs;
+            List<OdaX.AcadUCS.AcadUCS_Constructor> items = new List<OdaX.AcadUCS.AcadUCS_Constructor>();
+            for (int item_counter = 0; item_counter < _input0.Count; item_counter++)
+            {
+                OdaX.AcadUCS.AcadUCS_Constructor item = new OdaX.AcadUCS.AcadUCS_Constructor();
+                item._i = _input0.Item(item_counter);
+                items.Add(item);
+            }
+            return new NodeResult(items);
+
+        }
+    }
 }

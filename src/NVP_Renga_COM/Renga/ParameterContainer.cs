@@ -136,7 +136,7 @@ namespace Renga.ParameterContainer
 	}
 
     [NVP_Manifest(
-        Text = "Возвращает все параметры",
+        Text = "Возвращает все параметры в виде Renga.Parameter",
         ViewType = "Data")]
     [NodeInput("ParameterContainer", typeof(object))]
 

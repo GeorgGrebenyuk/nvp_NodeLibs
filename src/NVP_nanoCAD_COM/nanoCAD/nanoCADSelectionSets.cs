@@ -117,4 +117,25 @@ namespace nanoCAD.nanoCADSelectionSets
 
 		}
 	}
+
+    [NVP_Manifest(
+        Text = "Возвращает все Наборы выбора в виде nanoCAD.nanoCADSelectionSet",
+        ViewType = "Data")]
+    [NodeInput("nanoCADSelectionSets", typeof(object))]
+    public class GetAll_SelectionSets : INode
+    {
+        public NodeResult Execute(INVPData context, List<NodeResult> inputs)
+        {
+            var _input0 = ((dynamic)inputs[0].Value)._i as nanoCAD.InanoCADSelectionSets;
+            List<nanoCAD.nanoCADSelectionSet.nanoCADSelectionSet_Constructor> items = new List<nanoCAD.nanoCADSelectionSet.nanoCADSelectionSet_Constructor>();
+            for (int item_counter = 0; item_counter < _input0.Count; item_counter++)
+            {
+                nanoCAD.nanoCADSelectionSet.nanoCADSelectionSet_Constructor item = new nanoCAD.nanoCADSelectionSet.nanoCADSelectionSet_Constructor();
+                item._i = _input0[item_counter];
+                items.Add(item);
+            }
+            return new NodeResult(items);
+
+        }
+    }
 }

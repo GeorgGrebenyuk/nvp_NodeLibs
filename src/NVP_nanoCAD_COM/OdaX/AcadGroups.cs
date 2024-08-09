@@ -98,4 +98,25 @@ namespace OdaX.AcadGroups
 
 		}
 	}
+
+    [NVP_Manifest(
+        Text = "Возвращает все Группы в виде OdaX.AcadHyperlink",
+        ViewType = "Data")]
+    [NodeInput("AcadHyperlinks", typeof(object))]
+    public class GetAll_Groups : INode
+    {
+        public NodeResult Execute(INVPData context, List<NodeResult> inputs)
+        {
+            var _input0 = ((dynamic)inputs[0].Value)._i as OdaX.IAcadGroups;
+            List<OdaX.AcadGroup.AcadGroup_Constructor> items = new List<OdaX.AcadGroup.AcadGroup_Constructor>();
+            for (int item_counter = 0; item_counter < _input0.Count; item_counter++)
+            {
+                OdaX.AcadGroup.AcadGroup_Constructor item = new OdaX.AcadGroup.AcadGroup_Constructor();
+                item._i = _input0.Item(item_counter);
+                items.Add(item);
+            }
+            return new NodeResult(items);
+
+        }
+    }
 }

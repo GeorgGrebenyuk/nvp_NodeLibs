@@ -79,7 +79,7 @@ namespace Renga.DrawingCollection
 	}
 
     [NVP_Manifest(
-        Text = "Возвращает все объекты чертежей",
+        Text = "Возвращает все объекты чертежей в виде Renga.Drawing",
         ViewType = "Data")]
     [NodeInput("DrawingCollection", typeof(object))]
 

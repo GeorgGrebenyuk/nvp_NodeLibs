@@ -1728,4 +1728,25 @@ namespace OdaX.AcadBlock
 
 		}
 	}
+
+    [NVP_Manifest(
+        Text = "Возвращает все Объекты модели в данном блоке в виде OdaX.AcadEntity",
+        ViewType = "Data")]
+    [NodeInput("AcadBlock", typeof(object))]
+    public class GetAll_Entities : INode
+    {
+        public NodeResult Execute(INVPData context, List<NodeResult> inputs)
+        {
+            var _input0 = ((dynamic)inputs[0].Value)._i as OdaX.IAcadBlock;
+            List<OdaX.AcadEntity.AcadEntity_Constructor> items = new List<OdaX.AcadEntity.AcadEntity_Constructor>();
+            for (int item_counter = 0; item_counter < _input0.Count; item_counter++)
+            {
+                OdaX.AcadEntity.AcadEntity_Constructor item = new OdaX.AcadEntity.AcadEntity_Constructor();
+                item._i = _input0.Item(item_counter);
+                items.Add(item);
+            }
+            return new NodeResult(items);
+
+        }
+    }
 }

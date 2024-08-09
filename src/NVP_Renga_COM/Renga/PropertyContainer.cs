@@ -136,7 +136,7 @@ namespace Renga.PropertyContainer
 	}
 
     [NVP_Manifest(
-        Text = "Возвращает все свойства",
+        Text = "Возвращает все свойства в виде Renga.Property",
         ViewType = "Data")]
     [NodeInput("PropertyContainer", typeof(object))]
 

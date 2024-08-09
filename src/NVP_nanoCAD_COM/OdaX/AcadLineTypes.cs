@@ -119,4 +119,25 @@ namespace OdaX.AcadLineTypes
 			return null;
 		}
 	}
+
+    [NVP_Manifest(
+        Text = "Возвращает все Листы в виде OdaX.AcadLineType",
+        ViewType = "Data")]
+    [NodeInput("AcadLineTypes", typeof(object))]
+    public class GetAll_LineTypes : INode
+    {
+        public NodeResult Execute(INVPData context, List<NodeResult> inputs)
+        {
+            var _input0 = ((dynamic)inputs[0].Value)._i as OdaX.IAcadLineTypes;
+            List<OdaX.AcadLineType.AcadLineType_Constructor> items = new List<OdaX.AcadLineType.AcadLineType_Constructor>();
+            for (int item_counter = 0; item_counter < _input0.Count; item_counter++)
+            {
+                OdaX.AcadLineType.AcadLineType_Constructor item = new OdaX.AcadLineType.AcadLineType_Constructor();
+                item._i = _input0.Item(item_counter);
+                items.Add(item);
+            }
+            return new NodeResult(items);
+
+        }
+    }
 }

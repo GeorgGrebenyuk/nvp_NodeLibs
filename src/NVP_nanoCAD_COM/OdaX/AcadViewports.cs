@@ -118,4 +118,25 @@ namespace OdaX.AcadViewports
 			return null;
 		}
 	}
+
+    [NVP_Manifest(
+        Text = "Возвращает все ВЭ чертежа в виде OdaX.AcadViewport",
+        ViewType = "Data")]
+    [NodeInput("AcadUCSs", typeof(object))]
+    public class GetAll_Viewports : INode
+    {
+        public NodeResult Execute(INVPData context, List<NodeResult> inputs)
+        {
+            var _input0 = ((dynamic)inputs[0].Value)._i as OdaX.IAcadViewports;
+            List<OdaX.AcadViewport.AcadViewport_Constructor> items = new List<OdaX.AcadViewport.AcadViewport_Constructor>();
+            for (int item_counter = 0; item_counter < _input0.Count; item_counter++)
+            {
+                OdaX.AcadViewport.AcadViewport_Constructor item = new OdaX.AcadViewport.AcadViewport_Constructor();
+                item._i = _input0.Item(item_counter);
+                items.Add(item);
+            }
+            return new NodeResult(items);
+
+        }
+    }
 }

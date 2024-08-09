@@ -98,4 +98,25 @@ namespace OdaX.AcadViews
 
 		}
 	}
+
+    [NVP_Manifest(
+        Text = "Возвращает все Виды чертежа в виде OdaX.AcadView",
+        ViewType = "Data")]
+    [NodeInput("AcadViews", typeof(object))]
+    public class GetAll_Views : INode
+    {
+        public NodeResult Execute(INVPData context, List<NodeResult> inputs)
+        {
+            var _input0 = ((dynamic)inputs[0].Value)._i as OdaX.IAcadViews;
+            List<OdaX.AcadView.AcadView_Constructor> items = new List<OdaX.AcadView.AcadView_Constructor>();
+            for (int item_counter = 0; item_counter < _input0.Count; item_counter++)
+            {
+                OdaX.AcadView.AcadView_Constructor item = new OdaX.AcadView.AcadView_Constructor();
+                item._i = _input0.Item(item_counter);
+                items.Add(item);
+            }
+            return new NodeResult(items);
+
+        }
+    }
 }

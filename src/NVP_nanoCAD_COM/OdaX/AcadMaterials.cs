@@ -98,4 +98,25 @@ namespace OdaX.AcadMaterials
 
 		}
 	}
+
+    [NVP_Manifest(
+        Text = "Возвращает все Материалы в виде OdaX.AcadMaterial",
+        ViewType = "Data")]
+    [NodeInput("AcadMaterials", typeof(object))]
+    public class GetAll_Materials : INode
+    {
+        public NodeResult Execute(INVPData context, List<NodeResult> inputs)
+        {
+            var _input0 = ((dynamic)inputs[0].Value)._i as OdaX.IAcadMaterials;
+            List<OdaX.AcadMaterial.AcadMaterial_Constructor> items = new List<OdaX.AcadMaterial.AcadMaterial_Constructor>();
+            for (int item_counter = 0; item_counter < _input0.Count; item_counter++)
+            {
+                OdaX.AcadMaterial.AcadMaterial_Constructor item = new OdaX.AcadMaterial.AcadMaterial_Constructor();
+                item._i = _input0.Item(item_counter);
+                items.Add(item);
+            }
+            return new NodeResult(items);
+
+        }
+    }
 }

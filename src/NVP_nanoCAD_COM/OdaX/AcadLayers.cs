@@ -117,4 +117,25 @@ namespace OdaX.AcadLayers
 			return null;
 		}
 	}
+
+    [NVP_Manifest(
+        Text = "Возвращает все Слои в виде OdaX.AcadLayer",
+        ViewType = "Data")]
+    [NodeInput("AcadLayers", typeof(object))]
+    public class GetAll_Layers : INode
+    {
+        public NodeResult Execute(INVPData context, List<NodeResult> inputs)
+        {
+            var _input0 = ((dynamic)inputs[0].Value)._i as OdaX.IAcadLayers;
+            List<OdaX.AcadLayer.AcadLayer_Constructor> items = new List<OdaX.AcadLayer.AcadLayer_Constructor>();
+            for (int item_counter = 0; item_counter < _input0.Count; item_counter++)
+            {
+                OdaX.AcadLayer.AcadLayer_Constructor item = new OdaX.AcadLayer.AcadLayer_Constructor();
+                item._i = _input0.Item(item_counter);
+                items.Add(item);
+            }
+            return new NodeResult(items);
+
+        }
+    }
 }

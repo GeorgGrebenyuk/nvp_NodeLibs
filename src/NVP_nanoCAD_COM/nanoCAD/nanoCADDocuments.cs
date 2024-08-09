@@ -158,4 +158,25 @@ namespace nanoCAD.nanoCADDocuments
 			return null;
 		}
 	}
+
+    [NVP_Manifest(
+        Text = "Возвращает все Документы в виде nanoCAD.nanoCADDocument",
+        ViewType = "Data")]
+    [NodeInput("nanoCADDocuments", typeof(object))]
+    public class GetAll_Documents: INode
+    {
+        public NodeResult Execute(INVPData context, List<NodeResult> inputs)
+        {
+            var _input0 = ((dynamic)inputs[0].Value)._i as nanoCAD.InanoCADDocuments;
+            List<nanoCAD.nanoCADDocument.nanoCADDocument_Constructor> items = new List<nanoCAD.nanoCADDocument.nanoCADDocument_Constructor>();
+            for (int item_counter = 0; item_counter < _input0.Count; item_counter++)
+            {
+                nanoCAD.nanoCADDocument.nanoCADDocument_Constructor item = new nanoCAD.nanoCADDocument.nanoCADDocument_Constructor();
+                item._i = _input0[item_counter];
+                items.Add(item);
+            }
+            return new NodeResult(items);
+
+        }
+    }
 }

@@ -188,9 +188,9 @@ namespace Renga.QuantityContainer
 	}
 
     [NVP_Manifest(
-        Text = "Возвращает все расчетные свойства",
+        Text = "Возвращает все расчетные свойства в виде Renga.Quantity",
         ViewType = "Data")]
-    [NodeInput("GuidCollection", typeof(object))]
+    [NodeInput("QuantityContainer", typeof(object))]
 
     public class GetAll_Quantities : INode
     {
@@ -214,7 +214,7 @@ namespace Renga.QuantityContainer
     [NVP_Manifest(
         Text = "Возвращает все расчетные свойства в виде словаря",
         ViewType = "Data")]
-    [NodeInput("GuidCollection", typeof(object))]
+    [NodeInput("QuantityContainer", typeof(object))]
 
     public class GetAll_Quantities2 : INode
     {
