@@ -33,7 +33,7 @@ xcopy "bin\Release\net6.0\*.nodeitem" "bin\Release\net6.0\NPV_Data\" /Y /I
 ::Move all data to ZIP in root of repository
 IF EXIST "NPV_NodeLibs_ActiveX_net6.0" del "NPV_NodeLibs_ActiveX_net6.0" /S /Q
 xcopy "bin\Release\net6.0\NPV_Data\*.*" "NPV_NodeLibs_ActiveX_net6.0\"  /Y /I
-zip -r "NPV_NodeLibs_ActiveX_net6.0.zip" "NPV_NodeLibs_ActiveX_net6.0"
+"C:\Program Files\7-Zip\7z" a -tzip "NPV_NodeLibs_ActiveX_net6.0.zip" "NPV_NodeLibs_ActiveX_net6.0"
 rmdir "NPV_NodeLibs_ActiveX_net6.0" /S /Q
 REM Step 3.2 For net48
 
@@ -52,6 +52,6 @@ xcopy "bin\Release\net48\*.nodeitem" "bin\Release\net48\NPV_Data\" /Y /I
 ::Move all data to ZIP in root of repository
 IF EXIST "NPV_NodeLibs_ActiveX_net48" del "NPV_NodeLibs_ActiveX_net48" /S /Q
 xcopy "bin\Release\net48\NPV_Data\*.*" "NPV_NodeLibs_ActiveX_net48\" /Y /I
-zip -r "NPV_NodeLibs_ActiveX_net48.zip" "NPV_NodeLibs_ActiveX_net48"
+"C:\Program Files\7-Zip\7z" a -tzip "NPV_NodeLibs_ActiveX_net48.zip" "NPV_NodeLibs_ActiveX_net48"
 rmdir "NPV_NodeLibs_ActiveX_net48" /S /Q
 ::pause >nul
