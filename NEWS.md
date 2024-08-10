@@ -1,5 +1,23 @@
 # История обновления версий
 
+## v0.0.4
+
+11.08.2024
+
+**Изменения в нодах**:
+
+* [NVP_nanoCAD_COM] Добавлены вспомогательные ноды в AcadBlock: GetAll_EntitiesMST , GetAll_EntitiesByName и GetAll_EntitiesByNames (все объекты по имени типу - одиночному или в виде списка);
+* [NVP_nanoCAD_COM] Добавлены вспомогательные ноды в AcadSummaryInfo: GetAll_CustomInfo (возвращают словарь со всеми пользовательскими свойствами) и Add_GroupOfCustomInfo (добавляют набор новых пользовательских свойств с режимом поведения при наличии таковых);
+* [NVP_ModelStudio_COM] Добавлен вспомогательный нод GetAll_EntitiesMST в группу mdsUnitsLib.Selection (возвращают все объекты ModelStudioCS в виде MDSParametricEnt);
+
+**Прочие изменения**:
+
+* Добавлен пример `NVP_NCAD_COM_Sample_Explore document.nvproj`;
+
+* Добавлен раздел с [документацией по нодам](./docs/UserGuide.md) (добавлены отдельные руководство по пакетам для nanoCAD, ModelStudio CS);
+
+* Настоящий репозиторий сменил название с `nvp_NodeLibs_ActiveX` на `NPV_NodeLibs`;
+
 ## v0.0.3
 
  09.08.2024
