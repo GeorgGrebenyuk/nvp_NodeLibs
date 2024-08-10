@@ -6,9 +6,9 @@
   uuid(0186D491-6D1A-496D-8E1C-94427E1F66D2),
   version(1.0),
   helpstring("Model Studio CS Schema 1.0 Type Library"),
-  custom(DE77BA64-517C-11D1-A2DA-0000F8773CE9, 134283890),
+  custom(DE77BA64-517C-11D1-A2DA-0000F8773CE9, 134283892),
   custom(DE77BA63-517C-11D1-A2DA-0000F8773CE9, 2147483647),
-  custom(DE77BA65-517C-11D1-A2DA-0000F8773CE9, "Created by MIDL version 8.01.0626 at Tue Jan 19 06:14:07 2038
+  custom(DE77BA65-517C-11D1-A2DA-0000F8773CE9, "Created by MIDL version 8.01.0628 at Tue Jan 19 06:14:07 2038
 ")
 
 ]
@@ -16,7 +16,7 @@ library SchematiCSCOMLib
 {
     // TLib : Model Studio Objects 1.0 Type Library : {1AE1985C-5D87-4E89-8E67-068628FC3CD6}
     importlib("UnitsCSCom.nrx");
-    // TLib : OdaX 23.2 (x64) Type Library : {0DFA2554-8A2B-44D0-BE8F-85EEB803AEE9}
+    // TLib : OdaX 23.10 (x64) Type Library : {0DFA2554-8A2B-44D0-BE8F-85EEB803AEE9}
     importlib("OdaX_csd.dll");
     // TLib : OLE Automation : {00020430-0000-0000-C000-000000000046}
     importlib("stdole2.tlb");
@@ -205,6 +205,10 @@ library SchematiCSCOMLib
         HRESULT GetReducerDirection(
                         [in] BSTR strDirectionParamName, 
                         [out, retval] double* pXDirOut);
+        [id(0x0000003f), helpstring("Связанные конечные узлы (Получает номер узла)")]
+        HRESULT GetLinkedNodes(
+                        [in] long nNodeNumber, 
+                        [out, retval] IMDSNodes** pVal);
     };
 
     [
@@ -477,16 +481,18 @@ library SchematiCSCOMLib
         HRESULT Element([out, retval] IElement** pVal);
         [id(0x00000001), propput, helpstring("Параметры")]
         HRESULT Element([in] IElement* pVal);
-        [id(0x0000005a), propget, helpstring("Назначение")]
-        HRESULT Destination([out, retval] BSTR* pVal);
-        [id(0x0000005a), propput, helpstring("Назначение")]
-        HRESULT Destination([in] BSTR pVal);
         [id(0x0000005b), propget, helpstring("Имя текущей ссылки")]
         HRESULT NameSelf([out, retval] BSTR* pVal);
         [id(0x0000005b), propput, helpstring("Имя текущей ссылки")]
         HRESULT NameSelf([in] BSTR pVal);
+        [id(0x0000005f), propget, helpstring("Положение на линии связи")]
+        HRESULT LinkDir([out, retval] BSTR* pVal);
         [id(0x0000005c), propget, helpstring("Состояние ссылки")]
         HRESULT BindState([out, retval] BSTR* pVal);
+        [id(0x0000005a), propget, helpstring("Назначение")]
+        HRESULT Destination([out, retval] BSTR* pVal);
+        [id(0x0000005a), propput, helpstring("Назначение")]
+        HRESULT Destination([in] BSTR pVal);
         [id(0x0000005d), propget, helpstring("Handle текущей ссылки")]
         HRESULT HandleSelf([out, retval] BSTR* pVal);
         [id(0x0000005e), propget, helpstring("Handle другой ссылки")]

@@ -6,15 +6,15 @@
   uuid(1AE1985C-5D87-4E89-8E67-068628FC3CD6),
   version(1.0),
   helpstring("Model Studio Objects 1.0 Type Library"),
-  custom(DE77BA64-517C-11D1-A2DA-0000F8773CE9, 134283890),
+  custom(DE77BA64-517C-11D1-A2DA-0000F8773CE9, 134283892),
   custom(DE77BA63-517C-11D1-A2DA-0000F8773CE9, 2147483647),
-  custom(DE77BA65-517C-11D1-A2DA-0000F8773CE9, "Created by MIDL version 8.01.0626 at Tue Jan 19 06:14:07 2038
+  custom(DE77BA65-517C-11D1-A2DA-0000F8773CE9, "Created by MIDL version 8.01.0628 at Tue Jan 19 06:14:07 2038
 ")
 
 ]
 library mdsUnitsLib
 {
-    // TLib : OdaX 23.2 (x64) Type Library : {0DFA2554-8A2B-44D0-BE8F-85EEB803AEE9}
+    // TLib : OdaX 23.10 (x64) Type Library : {0DFA2554-8A2B-44D0-BE8F-85EEB803AEE9}
     importlib("OdaX_csd.dll");
     // TLib : OLE Automation : {00020430-0000-0000-C000-000000000046}
     importlib("stdole2.tlb");
@@ -166,6 +166,12 @@ library mdsUnitsLib
         HRESULT GetById(
                         [in] long nElementId, 
                         [out, retval] IElement** pRes);
+        [id(0x00000012), propget, helpstring("Корневой элемент")]
+        HRESULT Root([out, retval] IElement** pVal);
+        [id(0x00000013), propget, helpstring("Все подчиненные элементы, включая вложенные")]
+        HRESULT SubElementsAll([out, retval] IElements** pVal);
+        [id(0x00000014), propget, helpstring("Элементы на пути от корня к данному элементу")]
+        HRESULT PathFromRoot([out, retval] IElements** pVal);
     };
 
     [
@@ -1228,6 +1234,12 @@ library mdsUnitsLib
                         [in, optional] VARIANT varvecY, 
                         [in, optional] VARIANT varvecZ, 
                         [out, retval] IDispatch** iDisp);
+        [id(0x00000002), helpstring("Создание вектора (точки)")]
+        HRESULT MakeVector(
+                        [in] double x, 
+                        [in] double y, 
+                        [in] double z, 
+                        [out, retval] VARIANT* res);
     };
 
     [

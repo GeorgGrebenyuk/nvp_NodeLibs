@@ -6,15 +6,15 @@
   uuid(70A33123-81A3-4C4B-8A90-CFEDD3A35994),
   version(1.0),
   helpstring("Model Studio Unified Reporting Service 1.0 Type Library"),
-  custom(DE77BA64-517C-11D1-A2DA-0000F8773CE9, 134283890),
+  custom(DE77BA64-517C-11D1-A2DA-0000F8773CE9, 134283892),
   custom(DE77BA63-517C-11D1-A2DA-0000F8773CE9, 2147483647),
-  custom(DE77BA65-517C-11D1-A2DA-0000F8773CE9, "Created by MIDL version 8.01.0626 at Tue Jan 19 06:14:07 2038
+  custom(DE77BA65-517C-11D1-A2DA-0000F8773CE9, "Created by MIDL version 8.01.0628 at Tue Jan 19 06:14:07 2038
 ")
 
 ]
 library mdsURSLib
 {
-    // TLib : OdaX 23.2 (x64) Type Library : {0DFA2554-8A2B-44D0-BE8F-85EEB803AEE9}
+    // TLib : OdaX 23.10 (x64) Type Library : {0DFA2554-8A2B-44D0-BE8F-85EEB803AEE9}
     importlib("OdaX_csd.dll");
     // TLib : OLE Automation : {00020430-0000-0000-C000-000000000046}
     importlib("stdole2.tlb");
@@ -294,6 +294,10 @@ library mdsURSLib
         HRESULT FreeMarkLocation([out, retval] VARIANT_BOOL* pVal);
         [id(0x00000013), propput, helpstring("property freemarklocation")]
         HRESULT FreeMarkLocation([in] VARIANT_BOOL pVal);
+        [id(0x00000014), propget, helpstring("property TextOffsetY")]
+        HRESULT TextOffsetY([out, retval] double* pVal);
+        [id(0x00000014), propput, helpstring("property TextOffsetY")]
+        HRESULT TextOffsetY([in] double pVal);
     };
 
     [

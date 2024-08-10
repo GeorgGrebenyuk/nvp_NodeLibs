@@ -6,9 +6,9 @@
   uuid(DABD1F91-8747-4606-BDBE-EE5EE247CC38),
   version(1.0),
   helpstring("Model Studio Cable 1.0 Type Library"),
-  custom(DE77BA64-517C-11D1-A2DA-0000F8773CE9, 134283890),
+  custom(DE77BA64-517C-11D1-A2DA-0000F8773CE9, 134283892),
   custom(DE77BA63-517C-11D1-A2DA-0000F8773CE9, 2147483647),
-  custom(DE77BA65-517C-11D1-A2DA-0000F8773CE9, "Created by MIDL version 8.01.0626 at Tue Jan 19 06:14:07 2038
+  custom(DE77BA65-517C-11D1-A2DA-0000F8773CE9, "Created by MIDL version 8.01.0628 at Tue Jan 19 06:14:07 2038
 ")
 
 ]
@@ -16,7 +16,7 @@ library mdsMetalLib
 {
     // TLib : OLE Automation : {00020430-0000-0000-C000-000000000046}
     importlib("stdole2.tlb");
-    // TLib : OdaX 23.2 (x64) Type Library : {0DFA2554-8A2B-44D0-BE8F-85EEB803AEE9}
+    // TLib : OdaX 23.10 (x64) Type Library : {0DFA2554-8A2B-44D0-BE8F-85EEB803AEE9}
     importlib("OdaX_csd.dll");
 
     // Forward declare all types defined in this typelib
@@ -69,6 +69,8 @@ library mdsMetalLib
                         [out, retval] double* Length);
         [id(0x0000000c), propget, helpstring("Кабельный журнал")]
         HRESULT Journal([out, retval] IDispatch** pVal);
+        [id(0x0000000e), helpstring("Длина греющего кабеля")]
+        HRESULT GetHeatingCableLength([out, retval] double* pVal);
     };
 
     [
@@ -151,6 +153,14 @@ library mdsMetalLib
         HRESULT StrokeLng([out, retval] double* pVal);
         [id(0x00000006), propput, helpstring("property StrokeLng")]
         HRESULT StrokeLng([in] double pVal);
+        [id(0x00000007), propget, helpstring("property BaseLevel")]
+        HRESULT BaseLevel([out, retval] double* pVal);
+        [id(0x00000007), propput, helpstring("property BaseLevel")]
+        HRESULT BaseLevel([in] double pVal);
+        [id(0x00000008), propget, helpstring("property Height")]
+        HRESULT Height([out, retval] double* pVal);
+        [id(0x00000008), propput, helpstring("property Height")]
+        HRESULT Height([in] double pVal);
     };
 
     [
@@ -181,5 +191,9 @@ library mdsMetalLib
     interface IMDSFASZone : IAcadEntity {
         [id(0x00000001), propget, helpstring("property Name")]
         HRESULT Name([out, retval] BSTR* pVal);
+        [id(0x00000002), propget, helpstring("property Height")]
+        HRESULT Height([out, retval] double* pVal);
+        [id(0x00000002), propput, helpstring("property Height")]
+        HRESULT Height([in] double pVal);
     };
 };
