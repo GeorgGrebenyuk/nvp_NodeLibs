@@ -25217,5 +25217,25 @@
       <Path>nanoCAD.nanoCADDocuments.GetAll_Documents</Path>
       <Id>389C5B1E-C310-4BFB-9649-7CBBDA762955</Id>
     </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>OdaX.AcadSummaryInfo.GetAll_CustomInfo</Path>
+      <Id>A3B52E66-32EF-4579-AD6F-7780C2688369</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>OdaX.AcadSummaryInfo.Add_GroupOfCustomInfo</Path>
+      <Id>FEBA4114-1EE7-44D2-B6E7-52FCFCD1B494</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>OdaX.AcadBlock.GetAll_EntitiesMST</Path>
+      <Id>63F09F07-9B7C-4DAA-AF11-C67D8EFE1CCF</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>OdaX.AcadBlock.GetAll_EntitiesByName</Path>
+      <Id>93306547-B9A3-4D7E-8A28-A9D48659DFEF</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>OdaX.AcadBlock.GetAll_EntitiesByNames</Path>
+      <Id>08596E12-0C06-43E1-A4F1-B38FB4769263</Id>
+    </Auxiliary_Guids_Map_Item>
   </ElementsMap>
 </Auxiliary_Guids_Map>

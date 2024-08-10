@@ -151,7 +151,7 @@ namespace NVP_Manifest_Creator
 
                 if (is_any_nodes)
                 {
-                    string base_dir = Path.Combine(Path.GetDirectoryName(dll_path), "NPV_Data");
+                    string base_dir = Path.Combine(Path.GetDirectoryName(dll_path), "NVP_Data");
                     if (!Directory.Exists(base_dir)) Directory.CreateDirectory(base_dir);
 
                     foreach (var nodeitem_File in nodeitems)
@@ -178,7 +178,7 @@ namespace NVP_Manifest_Creator
                             _doc_nodeitem_Nodes.Add(el_NodeInfo);
                         }
 
-                        //Сохраняем сразу во вложенной папке NPV_Data
+                        //Сохраняем сразу во вложенной папке NVP_Data
                         string file_name = Path.GetFileNameWithoutExtension(dll_path) + "_" + nodeitem_File.Key + ".nodeitem";
                         if (nodeitem_File.Key == dll_name) file_name = Path.GetFileNameWithoutExtension(dll_path) + ".nodeitem";
 

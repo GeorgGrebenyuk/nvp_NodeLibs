@@ -517,4 +517,64 @@ namespace OdaX.AcadSummaryInfo
 			return null;
 		}
 	}
+
+    [NVP_Manifest(
+        Text = "Возвращает все пользовательские свойства чертежа",
+        ViewType = "Data")]
+    [NodeInput("AcadSummaryInfo", typeof(object))]
+
+    ///<summary>
+    ///Removes custom information using its key.
+    ///</summary>
+    public class GetAll_CustomInfo : INode
+    {
+        public NodeResult Execute(INVPData context, List<NodeResult> inputs)
+        {
+            dynamic _input0 = inputs[0].Value;
+			OdaX.IAcadSummaryInfo _info = _input0._i as OdaX.IAcadSummaryInfo;
+            Dictionary<string, string> items = new Dictionary<string, string>();
+			for (int i = 0; i < _info.NumCustomInfo(); i++)
+			{
+				string custom_prop_name = "";
+				string custom_prop_string = "";
+				_info.GetCustomByIndex(i, out custom_prop_name, out custom_prop_string);
+                
+				if (!items.ContainsKey(custom_prop_name)) items.Add(custom_prop_name , custom_prop_string);
+            }	
+            return new NodeResult(items);
+        }
+    }
+
+    [NVP_Manifest(
+        Text = "Добавляет новые пользовательские свойства. Если Перезапись = true, то при наличии одноименных свойств их значения будут перезаписаны на новые, в противном случае будут оставлены, как есть",
+        ViewType = "Data")]
+    [NodeInput("AcadSummaryInfo", typeof(object))]
+    [NodeInput("Новые свойства", typeof(Dictionary<string, string>))]
+    [NodeInput("Перезапись", typeof(bool))]
+    ///<summary>
+    ///Removes custom information using its key.
+    ///</summary>
+    public class Add_GroupOfCustomInfo : INode
+    {
+        public NodeResult Execute(INVPData context, List<NodeResult> inputs)
+        {
+            dynamic _input0 = inputs[0].Value;
+			Dictionary<string, string> _input1 = inputs[1].Value as Dictionary<string, string>;
+			bool _input2 = (bool)inputs[2].Value;
+            OdaX.IAcadSummaryInfo _info = _input0._i as OdaX.IAcadSummaryInfo;
+
+			var existed_data = new GetAll_CustomInfo().Execute(context, new List<NodeResult>() { inputs[0] }).Value as Dictionary<string, string>;
+
+            foreach (var oneDef in _input1) 
+			{
+				if (existed_data.ContainsKey(oneDef.Key) && _input2)
+				{
+					if (_input2) _info.SetCustomByKey(oneDef.Key, oneDef.Value);
+				}
+				else _info.AddCustomInfo(oneDef.Key, oneDef.Value);
+            }
+           
+            return new NodeResult(null);
+        }
+    }
 }

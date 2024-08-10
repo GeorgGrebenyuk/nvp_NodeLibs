@@ -3,6 +3,8 @@ using System;
 using System.Collections.Generic;
 
 using NVP_Manifest_Creator;
+using System.Linq;
+using NVP_nanoCAD_COM;
 
 ///<summary>
 ///TeighaX Interface of a block definition containing a name and a set of objects
@@ -1744,6 +1746,76 @@ namespace OdaX.AcadBlock
                 OdaX.AcadEntity.AcadEntity_Constructor item = new OdaX.AcadEntity.AcadEntity_Constructor();
                 item._i = _input0.Item(item_counter);
                 items.Add(item);
+            }
+            return new NodeResult(items);
+
+        }
+    }
+
+    
+
+    [NVP_Manifest(
+        Text = "Возвращает все Объекты модели в данном блоке в виде OdaX.AcadEntity для данного Типа и с режимом сравнения типа (true: ==, false: Contains)",
+        ViewType = "Data")]
+    [NodeInput("AcadBlock", typeof(object))]
+    [NodeInput("Тип", typeof(string))]
+    [NodeInput("Точное соответствие", typeof(bool))]
+    public class GetAll_EntitiesByName : INode
+    {
+        public NodeResult Execute(INVPData context, List<NodeResult> inputs)
+        {
+            var _input0 = ((dynamic)inputs[0].Value)._i as OdaX.IAcadBlock;
+			string _input1 = inputs[1].Value.ToString();
+			bool _input2 = (bool)inputs[2].Value;
+            List<OdaX.AcadEntity.AcadEntity_Constructor> items = new List<OdaX.AcadEntity.AcadEntity_Constructor>();
+            for (int item_counter = 0; item_counter < _input0.Count; item_counter++)
+            {
+                OdaX.AcadEntity.AcadEntity_Constructor item = new OdaX.AcadEntity.AcadEntity_Constructor();
+                item._i = _input0.Item(item_counter);
+
+				bool can_add = false;
+				string entName = item._i.EntityName;
+
+				if (_input2 && entName == _input1) can_add = true;
+				else if (!_input2 && entName.Contains(_input1)) can_add = true;
+
+                if (can_add) items.Add(item);
+            }
+            return new NodeResult(items);
+
+        }
+    }
+
+    [NVP_Manifest(
+        Text = "Возвращает все Объекты модели в данном блоке в виде OdaX.AcadEntity для данного Типа и с режимом сравнения типов (true: ==, false: Contains)",
+        ViewType = "Data")]
+    [NodeInput("AcadBlock", typeof(object))]
+    [NodeInput("Список типов", typeof(List<string>))]
+    [NodeInput("Точное соответствие", typeof(bool))]
+    public class GetAll_EntitiesByNames : INode
+    {
+        public NodeResult Execute(INVPData context, List<NodeResult> inputs)
+        {
+            var _input0 = ((dynamic)inputs[0].Value)._i as OdaX.IAcadBlock;
+            List<string> _input1 = inputs[1].Value as List<string>;
+            bool _input2 = (bool)inputs[2].Value;
+            List<OdaX.AcadEntity.AcadEntity_Constructor> items = new List<OdaX.AcadEntity.AcadEntity_Constructor>();
+            for (int item_counter = 0; item_counter < _input0.Count; item_counter++)
+            {
+                OdaX.AcadEntity.AcadEntity_Constructor item = new OdaX.AcadEntity.AcadEntity_Constructor();
+                item._i = _input0.Item(item_counter);
+
+                bool can_add = false;
+                string entName = item._i.EntityName;
+
+				foreach (string _input1_str in _input1)
+				{
+                    if (_input2 && entName == _input1_str) can_add = true;
+                    else if (!_input2 && entName.Contains(_input1_str)) can_add = true;
+					if (can_add) break;
+                }
+
+                if (can_add) items.Add(item);
             }
             return new NodeResult(items);
 
