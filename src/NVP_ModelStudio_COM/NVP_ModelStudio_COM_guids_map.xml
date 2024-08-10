@@ -10561,5 +10561,21 @@
       <Path>CSMSStormComLib.csLightningProtectionWrp.ConductorParameterCalc</Path>
       <Id>370FAED1-9A3B-4DBA-A8FB-4E55DB03AE50</Id>
     </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>mdsUnitsLib.Selection.GetAll_EntitiesMST</Path>
+      <Id>6C35A5AC-A15A-4D2B-A6AF-F34DD81BAF2D</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>mdsUnitsLib.Element.GetAll_Parameters</Path>
+      <Id>261B595A-F2AA-43E6-9A69-50C8B108988E</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>mdsUnitsLib.Selection.GetAll_EntitiesMST2</Path>
+      <Id>B4967571-92FA-4DF4-BF91-F0A92B818CFE</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>mdsUnitsLib.Selection.GetAll_EntitiesMST3</Path>
+      <Id>6796EFF1-2E04-4872-ABCC-D22BCA0035B7</Id>
+    </Auxiliary_Guids_Map_Item>
   </ElementsMap>
 </Auxiliary_Guids_Map>

@@ -89,5 +89,13 @@
       <Path>List.List_ToArray</Path>
       <Id>979A150F-37C3-47EA-86DB-3B0DFEA993AB</Id>
     </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>List.FilterByBoolMask</Path>
+      <Id>D78F59DD-ED4D-421F-8AEB-36A333BFEF47</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>List.FilterByCondition</Path>
+      <Id>262F95AC-33D4-4E18-94AF-F333FD94BA37</Id>
+    </Auxiliary_Guids_Map_Item>
   </ElementsMap>
 </Auxiliary_Guids_Map>

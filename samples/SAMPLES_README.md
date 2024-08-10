@@ -14,7 +14,7 @@
 
 Базовый путь `/CS_ModelStudio/`
 
-TODO:
+* `NVP_MST_COM_Sample_Explore objects.nvproj`: получение объектов модели ModelStudioCS (их Имен и параметров);
 
 ## Renga
 

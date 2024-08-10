@@ -412,20 +412,28 @@ namespace mdsUnitsLib.Element
 
 
     [NVP_Manifest(
-        Text = "Получение всех параметров. Если режим Объединить == true, то все вложенные группы будут объединены в одну, а в качестве значения будет использовано первое значение (без перезаписи). В противном случае выйдет набор вложенных словарей",
+        Text = "Получение всех параметров в виде словаря (ключ, значение)",
         ViewType = "Data")]
     [NodeInput("Element", typeof(object))]
-    [NodeInput("Объединить", typeof(bool))]
     public class GetAll_Parameters : INode
 	{
         public NodeResult Execute(INVPData context, List<NodeResult> inputs)
         {
             dynamic _input0 = inputs[0].Value;
-			mdsUnitsLib.IElement element = _input0 as mdsUnitsLib.IElement;
-			mdsUnitsLib.IParameters parameters = element.Parameters;
-            
-            return new NodeResult(_input0._i.GetById(inputs[1].Value));
+			mdsUnitsLib.IElement element = _input0._i as mdsUnitsLib.IElement;
+            //context.Console.Write($"Параметры для {element.Name}\n");
+            mdsUnitsLib.IParameters parameters = element.Parameters;
 
+			Dictionary<string, string> o_params = new Dictionary<string, string>();
+			foreach (parameter param in parameters)
+			{
+				if (!o_params.ContainsKey(param.Name))
+				{
+                    o_params.Add(param.Name, param.Value);
+                    //context.Console.Write($"{param.Name}:\t{param.Value}\n");
+                }
+            }
+            return new NodeResult(o_params);
         }
     }
 }

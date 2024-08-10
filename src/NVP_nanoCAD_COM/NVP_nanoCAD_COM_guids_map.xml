@@ -25237,5 +25237,9 @@
       <Path>OdaX.AcadBlock.GetAll_EntitiesByNames</Path>
       <Id>08596E12-0C06-43E1-A4F1-B38FB4769263</Id>
     </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>OdaX.AcadBlock.GetAll_EntitiesMST2</Path>
+      <Id>0BD6B0AE-23CB-40FF-A889-C6A7A46FB511</Id>
+    </Auxiliary_Guids_Map_Item>
   </ElementsMap>
 </Auxiliary_Guids_Map>

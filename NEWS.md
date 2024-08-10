@@ -6,9 +6,10 @@
 
 **Изменения в нодах**:
 
-* [NVP_nanoCAD_COM] Добавлены вспомогательные ноды в AcadBlock: GetAll_EntitiesMST , GetAll_EntitiesByName и GetAll_EntitiesByNames (все объекты по имени типу - одиночному или в виде списка);
+* [NVP_nanoCAD_COM] Добавлены вспомогательные ноды в AcadBlock: GetAll_EntitiesMST , GetAll_EntitiesByName и GetAll_EntitiesByNames (все объекты по имени типу - одиночному или в виде списка), а также GetAll_EntitiesMST (все объекты ModelStudioCS);
 * [NVP_nanoCAD_COM] Добавлены вспомогательные ноды в AcadSummaryInfo: GetAll_CustomInfo (возвращают словарь со всеми пользовательскими свойствами) и Add_GroupOfCustomInfo (добавляют набор новых пользовательских свойств с режимом поведения при наличии таковых);
-* [NVP_ModelStudio_COM] Добавлен вспомогательный нод GetAll_EntitiesMST в группу mdsUnitsLib.Selection (возвращают все объекты ModelStudioCS в виде MDSParametricEnt);
+* [NVP_ModelStudio_COM] Добавлен вспомогательный нод GetAll_EntitiesMST2 в группу mdsUnitsLib.Selection (возвращают все объекты ModelStudioCS в виде mdsUnitsLib.Element);
+* [NVP_COM_Common] Удалены ноды из NVP_COM_Common.List и заменены новыми: FilterByCondition, FilterByBoolMask;
 
 **Прочие изменения**:
 
