@@ -5,7 +5,7 @@
 
 # Пользователю
 
-Загрузить из [Releases](https://github.com/GeorgGrebenyuk/nvp_NodeLibs_ActiveX/releases/latest) последнюю версию и распаковать в папку \Nodepack для используемой версии NVP в зависимости от целевого фрейморка: `net48` -- `NPV_NodeLibs_ActiveX_net48.zip` или `net6.0` -- `NPV_NodeLibs_ActiveX_net6.0.zip`. 
+Загрузить из [Releases](https://github.com/GeorgGrebenyuk/nvp_NodeLibs_ActiveX/releases/latest) последнюю версию и распаковать в папку \Nodepack для используемой версии NVP в зависимости от целевого фрейморка: `net48` -- `NPV_NodeLibs_net48.zip` или `net6.0` -- `NPV_NodeLibs_net6.0.zip`. 
 
 ## Примеры
 
@@ -15,11 +15,9 @@
 
 См. файл [NEWS](./NEWS.md)
 
-## Общие замечания
+## Использование и справка по нодам
 
-Настоящие пакеты нодов используют технологию "внешний COM" для взаимодействия с целевыми программами. Эта технология является специфичной для ОС Windows и потому на Linux не будет работать (внутренний COM в каком-то виде там есть, но для закрытия задач данных библиотек не годится).
-
-Для начала работы с целевым приложением (nanoCAD, Renga) его необходимо получить. Для этого необходимо взять идентификатор (ProgId) целевого приложения из коллекции нодов `NVP_COM_Commom.ProgIds` и подать на вход ноду из группы `NVP_COM_Commom` **CreateInstance**. Результат нода  **CreateInstance** необходимо подать на вход ноду **\_nanoCADApplication_Constructor** (группа NVP_COM_nanoCAD.nanoCADApplication) или **\_Application_Constructor** (группа NVP_COM_Renga.Application);
+См. отдельный файл [UserGuide.md](.\docs\UserGuide.md).
 
 ## Состав пакета
 
