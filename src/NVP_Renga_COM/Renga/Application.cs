@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 
 using NVP_Manifest_Creator;
+using Renga.Project;
 
 ///<summary>
 ///
@@ -423,4 +424,23 @@ namespace Renga.Application
 
 		}
 	}
+
+    [NVP_Manifest(
+		Text = "Возвращает активный проект для активного приложения Renga в виде Project_Constructor",
+        ViewType = "Data")]
+    public class ActiveProject : INode
+    {
+        public NodeResult Execute(INVPData context, List<NodeResult> inputs)
+        {
+			var renga_instance = Common.Marshal2.GetActiveObject("Renga.Application.1") as Renga.IApplication;
+			var renga_project = renga_instance.Project;
+			Project_Constructor project = new Project_Constructor();
+            project._i = renga_project;
+
+            return new NodeResult(project);
+
+        }
+    }
+
+
 }

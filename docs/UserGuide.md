@@ -8,9 +8,9 @@
 
 * NVP_nanoCAD_COM ([см. отдельное руководство](./UserGuide_ncad.md));
 
-* NVP_Renga_COM;
+* NVP_Renga_COM ([см. отдельное руководство](./UserGuide_renga.md));
 
-* NVP_ModelStudio_COM ((см. отдельное руководство)[./UserGuide_mst.md]);
+* NVP_ModelStudio_COM ([см. отдельное руководство](./UserGuide_mst.md));
 
 Эта технология является специфичной для ОС Windows и потому на Linux не будет работать (внутренний COM в каком-то виде там есть, но для закрытия задач данных библиотек не годится).
 

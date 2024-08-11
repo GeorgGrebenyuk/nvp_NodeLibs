@@ -9,15 +9,21 @@
 * [NVP_nanoCAD_COM] Добавлены вспомогательные ноды в AcadBlock: GetAll_EntitiesMST , GetAll_EntitiesByName и GetAll_EntitiesByNames (все объекты по имени типу - одиночному или в виде списка), а также GetAll_EntitiesMST (все объекты ModelStudioCS);
 * [NVP_nanoCAD_COM] Добавлены вспомогательные ноды в AcadSummaryInfo: GetAll_CustomInfo (возвращают словарь со всеми пользовательскими свойствами) и Add_GroupOfCustomInfo (добавляют набор новых пользовательских свойств с режимом поведения при наличии таковых);
 * [NVP_ModelStudio_COM] Добавлен вспомогательный нод GetAll_EntitiesMST2 в группу mdsUnitsLib.Selection (возвращают все объекты ModelStudioCS в виде mdsUnitsLib.Element);
+* [NVP_ModelStudio_COM] Удалены классы ironObjComLib.ConcreteDiaProp, ironObjComLib.ConcreteMarkProp, ironObjComLib.ConcreteParentProp, ironObjComLib.WrConcreteBeam, ironObjComLib.WrConcreteColumn, ironObjComLib.WrIronBoltJoint, ironObjComLib.WrReinfAsm, ironObjComLib.WrReinfSpiral (недоступны в релизы MST от 05.07.2024);
+* [NVP_ModelStudio_COM] Удалены классы mdsLINEComLib.enum___MIDL___MIDL_itf_ProfileViewCOM_0001_0079_0001, mdsLibManagerLib.enum___MIDL___MIDL_itf_LibManager_0000_0000_0002, mdsURSLib.enum___MIDL___MIDL_itf_URS_0000_0006_0001, mdsURSLib.enum___MIDL___MIDL_itf_URS_0000_0006_0002;
 * [NVP_COM_Common] Удалены ноды из NVP_COM_Common.List и заменены новыми: FilterByCondition, FilterByBoolMask;
+* [NVP_Renga_COM] В группу Selection добавлены вспомогательные ноды GetObjectsFromModelByClass, GetObjectsFromModelByType, GetObjectsFromModelByTypes, для них же добавлены группы нодов ObjectTypes и enum_SelectionType;
+* [NVP_Renga_COM] В группу Application добавлен нод ActiveProject, возвращающий Project_Constructor для активного проекта в активном сеансе Renga; 
 
 **Прочие изменения**:
 
-* Добавлен пример `NVP_NCAD_COM_Sample_Explore document.nvproj`;
+* Добавлены примеры `NVP_NCAD_COM_Sample_Explore document.nvproj`, `NVP_MST_COM_Sample_Explore objects.nvproj`;
 
-* Добавлен раздел с [документацией по нодам](./docs/UserGuide.md) (добавлены отдельные руководство по пакетам для nanoCAD, ModelStudio CS);
+* Добавлен раздел с [документацией по нодам](./docs/UserGuide.md) (добавлены отдельные руководство по пакетам для nanoCAD, ModelStudio CS, Renga);
 
 * Настоящий репозиторий сменил название с `nvp_NodeLibs_ActiveX` на `NPV_NodeLibs`;
+
+* Библиотеки `NVP_Renga_COM.dll` и `NVP_nanoCAD_COM.dll` теперь зависят от `NVP_COM_Common.dll` и потому должны использоваться совместно;
 
 ## v0.0.3
 

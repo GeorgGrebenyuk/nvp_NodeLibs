@@ -13,10 +13,6 @@ namespace Renga.enum_EventType
 
 	[NVP_Manifest(
 		ViewType = "Default")]
-
-	///<summary>
-	///
-	///</summary>
 	public class enum_EventType_EventTypeNone : INode
 	{
 		public NodeResult Execute(INVPData context, List<NodeResult> inputs)
