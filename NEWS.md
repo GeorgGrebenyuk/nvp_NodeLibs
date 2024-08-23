@@ -1,5 +1,39 @@
 # История обновления версий
 
+## v0.0.5
+
+23.08.2024
+
+**Изменения в нодах:**
+
+* [NVP_Renga_COM] Добавлена группа нодов Utilities с функциями групповых изменений модели в составе нодов SetPropertyToObject, SetPropertiesToObject, SetPropertiesToObjects, SetPropertyToObjects, каждая из которых внутри имеет транзакцию для записи;
+
+* [NVP_Renga_COM] Группа нодов Selection - удалены ноды-конструкторы, как ненужные и переопределена механика нодов GetSelectedObjects и SetSelectedObjects
+
+* [NVP_Renga_COM] ModelObject - добавлены новые ноды GetProperties2, GetQuantities2, GetParameters2 возвращающие целевые свойства сразу в виде "классов-конструкторов";
+
+* [NVP_Renga_COM] ModelObject добавлен нод UniqueIdS, возвращающий идентификатор объекта в виде строкового guid;
+
+* [NVP_Renga_COM] enum_SelectionType: добавлены режимы выбора для Помещений (enum_SelectionType_IRoom) и Сборок (enum_SelectionType_IModel);
+
+* [NVP_Renga_COM] В группе enum_ParameterType изменения: нод enum_ParameterType_IntEnumeration переименован в enum_ParameterType_AppDefinedEnum, добавлен enum_ParameterType_UserDefinedEnum
+
+* [NVP_Renga_COM] Удалены группы нодов Operation, ApplicationEvents (неактуальны для NVP);
+
+* [NVP_Common] Добавлена группа нодов по работе со словарями (Dictionary), состав функций перенесён из стандартной поставки нодов Autodesk Dynamo и расширен некоторыми иными методами;
+
+* Создан новый проект и группа нодов NVP_Common, куда перенесена группа нодов по работе со списками из состава NVP_COM_Common.List, идентификаторы нодов остались теми же (изменений в скриптах делать не потребуется);
+
+* Все ноды, имеющие в названии "\_Constructor" теперь отображаются в группах нодов с префиксом "\_", чтобы находиться в начале списка нодов группы;
+
+**Прочие изменения**:
+
+* [NVP_Renga_COM] Добавлен пример `NVP_Renga_COM_Sample_Квартирография 1.nvproj` и обновлены ранние примеры;
+
+* [NVP_Renga_COM] Библиотека `Renga.NET.PluginUtility.dll` была обновлена для новейшего SDK версии 2.35;
+
+* [NVP_Renga_COM] Удалена зависимость от `Renga.NET.PluginUtility.dll`;
+
 ## v0.0.4
 
 11.08.2024
