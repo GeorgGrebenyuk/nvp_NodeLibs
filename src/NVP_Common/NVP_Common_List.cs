@@ -6,6 +6,30 @@ using System.Collections;
 
 namespace List
 {
+    #region Constructors
+    [NVP_Manifest(
+            Text = "Создает список путем копирования значения N раз",
+            ViewType = "Modifier")]
+    [NodeInput("Объект", typeof(object))]
+    [NodeInput("Количество повторений", typeof(int))]
+    public class CreateByCycleObject : INode
+    {
+        public NodeResult Execute(INVPData context, List<NodeResult> inputs)
+        {
+            object item = inputs[0].Value;
+            int count = (int)inputs[1].Value;
+
+            List<object> results = new List<object>();
+            for (int i = 0; i < count; i++)
+            {
+                results.Add(item);
+            }
+
+            return new NodeResult(results); ;
+        }
+    }
+    #endregion
+    #region Mrthods
     [NVP_Manifest(
         Text = "Делает выборку из списка для сравниваемого объекта, если режим = true, то ищется прямое соответствие, если false -- то частичное (только для строк). Если Режим возврата = true, то вернутся только позиции удовлетворяющие запросы, если false -- то не удовлетворяющие",
         ViewType = "Modifier")]
@@ -72,6 +96,6 @@ namespace List
         }
     }
 
-
+    #endregion
 
 }

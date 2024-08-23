@@ -73,29 +73,5 @@
       <Path>ProgIds.ProgID_Renga</Path>
       <Id>EB58B46D-B47E-4E4C-933E-3BE0B30361F1</Id>
     </Auxiliary_Guids_Map_Item>
-    <Auxiliary_Guids_Map_Item>
-      <Path>List.List_Create</Path>
-      <Id>A876F8C4-9C07-4BED-B7FC-6B998A7E3153</Id>
-    </Auxiliary_Guids_Map_Item>
-    <Auxiliary_Guids_Map_Item>
-      <Path>List.List_Add</Path>
-      <Id>958E6F20-8D6D-4BF0-AE52-5396C926EE9A</Id>
-    </Auxiliary_Guids_Map_Item>
-    <Auxiliary_Guids_Map_Item>
-      <Path>List.List_GetElements</Path>
-      <Id>697A58CD-9D3B-44C1-8E7A-38F19CD3D91D</Id>
-    </Auxiliary_Guids_Map_Item>
-    <Auxiliary_Guids_Map_Item>
-      <Path>List.List_ToArray</Path>
-      <Id>979A150F-37C3-47EA-86DB-3B0DFEA993AB</Id>
-    </Auxiliary_Guids_Map_Item>
-    <Auxiliary_Guids_Map_Item>
-      <Path>List.FilterByBoolMask</Path>
-      <Id>D78F59DD-ED4D-421F-8AEB-36A333BFEF47</Id>
-    </Auxiliary_Guids_Map_Item>
-    <Auxiliary_Guids_Map_Item>
-      <Path>List.FilterByCondition</Path>
-      <Id>262F95AC-33D4-4E18-94AF-F333FD94BA37</Id>
-    </Auxiliary_Guids_Map_Item>
   </ElementsMap>
 </Auxiliary_Guids_Map>
