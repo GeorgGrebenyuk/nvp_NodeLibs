@@ -26,6 +26,8 @@ xcopy "bin\Release\net6.0\NVP_nanoCAD_COM.*" "bin\Release\net6.0\NVP_Data\" /Y /
 xcopy "bin\Release\net6.0\NVP_ModelStudio_COM.*" "bin\Release\net6.0\NVP_Data\" /Y /I
 ::Copy NVP_COM_Common
 xcopy "bin\Release\net6.0\NVP_COM_Common.*" "bin\Release\net6.0\NVP_Data\" /Y /I
+::Copy NVP_Common
+xcopy "bin\Release\net6.0\NVP_Common.*" "bin\Release\net6.0\NVP_Data\" /Y /I
 ::Copy NVP_Renga_COM
 xcopy "bin\Release\net6.0\NVP_Renga_COM.*" "bin\Release\net6.0\NVP_Data\" /Y /I
 ::Copy all *.nodeitem
@@ -45,6 +47,8 @@ xcopy "bin\Release\net48\NVP_nanoCAD_COM.*" "bin\Release\net48\NVP_Data\" /Y /I
 xcopy "bin\Release\net48\NVP_ModelStudio_COM.*" "bin\Release\net48\NVP_Data\" /Y /I
 ::Copy NVP_COM_Common
 xcopy "bin\Release\net48\NVP_COM_Common.*" "bin\Release\net48\NVP_Data\" /Y /I
+::Copy NVP_Common
+xcopy "bin\Release\net48\NVP_Common.*" "bin\Release\net48\NVP_Data\" /Y /I
 ::Copy NVP_Renga_COM
 xcopy "bin\Release\net48\NVP_Renga_COM.*" "bin\Release\net48\NVP_Data\" /Y /I
 ::Copy all *.nodeitem
