@@ -4545,5 +4545,61 @@
       <Path>Renga.Application.ActiveProject</Path>
       <Id>E5BC7C0E-3EB2-4B23-B7BA-0763294B90EE</Id>
     </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>Renga.ModelObject.GetProperties2</Path>
+      <Id>F4A1CDB6-1832-4322-9E3E-4E2E3125DA41</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>Renga.ModelObject.GetQuantities2</Path>
+      <Id>F6AC0618-D8CB-408F-A554-AF0DEBDDEAFF</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>Renga.ModelObject.GetParameters</Path>
+      <Id>0A25CA19-4587-4EA8-B8D1-D61DB0105262</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>Renga.ModelObject.GetParameters2</Path>
+      <Id>2D8ED85A-649D-4B44-9ACB-7D9B47414F84</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>Renga.ModelObject.UniqueIdS</Path>
+      <Id>22F01313-9A2C-4074-B8A2-14FF77EED731</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>Renga.enum_SelectionType.enum_SelectionType_IRoom</Path>
+      <Id>F7FEB48C-FB38-4C37-807A-9283A4081B38</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>Renga.enum_SelectionType.enum_SelectionType_IModel</Path>
+      <Id>4A3C8324-FEEB-4A8A-A8B4-0E38755C111F</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>Renga.enum_ParameterType.enum_ParameterType_AppDefinedEnum</Path>
+      <Id>4CA00945-9803-4644-9C10-A31FCFEC941E</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>Renga.enum_ParameterType.enum_ParameterType_UserDefinedEnum</Path>
+      <Id>D8777226-1489-4FEB-BE97-668664DB92BC</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>Renga.PropertyContainer.SetPropertiesValues</Path>
+      <Id>308424EF-46CC-4758-A708-11C3C040F089</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>Renga.Utilities.SetPropertiesToObject</Path>
+      <Id>8E629DF6-3083-4D96-9D9E-63927D43BCD9</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>Renga.Utilities.SetPropertiesToObjects</Path>
+      <Id>F88C48BF-C834-49E1-831F-1A1011B77B2E</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>Renga.Utilities.SetPropertyToObject</Path>
+      <Id>722B4BC7-550A-4173-8B77-352219DA9490</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>Renga.Utilities.SetPropertyToObjects</Path>
+      <Id>AFDEF486-2E0D-4E4C-B966-B4875A5E3766</Id>
+    </Auxiliary_Guids_Map_Item>
   </ElementsMap>
 </Auxiliary_Guids_Map>

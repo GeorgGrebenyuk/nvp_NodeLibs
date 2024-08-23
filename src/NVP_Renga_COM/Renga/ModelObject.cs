@@ -3,6 +3,9 @@ using System;
 using System.Collections.Generic;
 
 using NVP_Manifest_Creator;
+using Renga.PropertyContainer;
+using Renga.QuantityContainer;
+using Renga.ParameterContainer;
 
 ///<summary>
 ///
@@ -107,13 +110,33 @@ namespace Renga.ModelObject
 		public NodeResult Execute(INVPData context, List<NodeResult> inputs)
 		{
 			dynamic _input0 = inputs[0].Value;
-			return new NodeResult(_input0._i.GetProperties);
+			return new NodeResult(_input0._i.GetProperties());
 
 		}
 	}
 
+    [NVP_Manifest(
+		Text = "Возвращает набор свойств в виде PropertyContainer_Constructor",
+        ViewType = "Data")]
+    [NodeInput("ModelObject", typeof(object))]
 
-	[NVP_Manifest(
+    ///<summary>
+    ///
+    ///</summary>
+    public class GetProperties2 : INode
+    {
+        public NodeResult Execute(INVPData context, List<NodeResult> inputs)
+        {
+			dynamic _input0 = inputs[0].Value;
+			var i = _input0._i as Renga.IModelObject;
+			PropertyContainer_Constructor feature = new PropertyContainer_Constructor();
+            feature._i = i.GetProperties();
+            return new NodeResult(feature);
+        }
+    }
+
+
+    [NVP_Manifest(
 		ViewType = "Data")]
 	[NodeInput("ModelObject", typeof(object))]
 
@@ -125,13 +148,70 @@ namespace Renga.ModelObject
 		public NodeResult Execute(INVPData context, List<NodeResult> inputs)
 		{
 			dynamic _input0 = inputs[0].Value;
-			return new NodeResult(_input0._i.GetQuantities);
+			return new NodeResult(_input0._i.GetQuantities());
 
 		}
 	}
 
+    [NVP_Manifest(
+        Text = "Возвращает набор свойств в виде QuantityContainer_Constructor",
+        ViewType = "Data")]
+    [NodeInput("ModelObject", typeof(object))]
 
-	[NVP_Manifest(
+    ///<summary>
+    ///
+    ///</summary>
+    public class GetQuantities2 : INode
+    {
+        public NodeResult Execute(INVPData context, List<NodeResult> inputs)
+        {
+            dynamic _input0 = inputs[0].Value;
+            var i = _input0._i as Renga.IModelObject;
+            QuantityContainer_Constructor feature = new QuantityContainer_Constructor();
+            feature._i = i.GetQuantities();
+            return new NodeResult(feature);
+        }
+    }
+
+    [NVP_Manifest(
+        ViewType = "Data")]
+    [NodeInput("ModelObject", typeof(object))]
+
+    ///<summary>
+    ///
+    ///</summary>
+    public class GetParameters : INode
+    {
+        public NodeResult Execute(INVPData context, List<NodeResult> inputs)
+        {
+            dynamic _input0 = inputs[0].Value;
+            return new NodeResult(_input0._i.GetParameters());
+
+        }
+    }
+
+    [NVP_Manifest(
+        Text = "Возвращает набор свойств в виде ParameterContainer_Constructor",
+        ViewType = "Data")]
+    [NodeInput("ModelObject", typeof(object))]
+
+    ///<summary>
+    ///
+    ///</summary>
+    public class GetParameters2 : INode
+    {
+        public NodeResult Execute(INVPData context, List<NodeResult> inputs)
+        {
+            dynamic _input0 = inputs[0].Value;
+            var i = _input0._i as Renga.IModelObject;
+            ParameterContainer_Constructor feature = new ParameterContainer_Constructor();
+            feature._i = i.GetParameters();
+            return new NodeResult(feature);
+        }
+    }
+
+
+    [NVP_Manifest(
 		ViewType = "Data")]
 	[NodeInput("ModelObject", typeof(object))]
 
@@ -147,4 +227,21 @@ namespace Renga.ModelObject
 
 		}
 	}
+
+    [NVP_Manifest(
+		ViewType = "Data")]
+    [NodeInput("ModelObject", typeof(object))]
+
+    ///<summary>
+    ///
+    ///</summary>
+    public class UniqueIdS : INode
+    {
+        public NodeResult Execute(INVPData context, List<NodeResult> inputs)
+        {
+            dynamic _input0 = inputs[0].Value;
+            return new NodeResult(_input0._i.UniqueIdS);
+
+        }
+    }
 }

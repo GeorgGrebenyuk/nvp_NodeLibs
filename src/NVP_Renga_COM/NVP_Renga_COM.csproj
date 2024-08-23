@@ -38,10 +38,4 @@
     </Reference>
   </ItemGroup>
 
-  <ItemGroup>
-    <Reference Include="Renga.NET.PluginUtility">
-      <HintPath>Renga.NET.PluginUtility.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-
 </Project>

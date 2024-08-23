@@ -4,6 +4,8 @@ using System.Collections.Generic;
 
 using NVP_Manifest_Creator;
 using Renga.Property;
+using System.Collections;
+using Renga.Utilities;
 
 ///<summary>
 ///
@@ -176,38 +178,17 @@ namespace Renga.PropertyContainer
             {
                 Guid id = guids.Get(item_counter);
 				var property = _input0.Get(id);
-				object prop_value = null;
-				switch (property.Type)
-				{
-                    case PropertyType.PropertyType_Angle:
-                        prop_value = property.GetAngleValue(AngleUnit.AngleUnit_Degrees); break;
-					case PropertyType.PropertyType_Area:
-                        prop_value = property.GetAreaValue(AreaUnit.AreaUnit_Meters2); break;
-                    case PropertyType.PropertyType_Boolean:
-                        prop_value = property.GetBooleanValue(); break;
-                    case PropertyType.PropertyType_Double:
-                        prop_value = property.GetDoubleValue(); break;
-                    case PropertyType.PropertyType_Enumeration:
-                        prop_value = property.GetEnumerationValue(); break;
-                    case PropertyType.PropertyType_Integer:
-                        prop_value = property.GetIntegerValue(); break;
-                    case PropertyType.PropertyType_Length:
-                        prop_value = property.GetLengthValue(LengthUnit.LengthUnit_Meters); break;
-                    case PropertyType.PropertyType_Logical:
-                        prop_value = property.GetLogicalValue(); break;
-                    case PropertyType.PropertyType_Mass:
-                        prop_value = property.GetMassValue(MassUnit.MassUnit_Kilograms); break;
-                    case PropertyType.PropertyType_String:
-                        prop_value = property.GetStringValue(); break;
-                    case PropertyType.PropertyType_Volume:
-                        prop_value = property.GetVolumeValue(VolumeUnit.VolumeUnit_Meters3); break;                 
-                }
+				object prop_value = Utils.GetPropertyValue(property);
 
-				if (!properties.ContainsKey(property.Name)) properties.Add(property.Name, prop_value);
+
+
+                if (!properties.ContainsKey(property.Name)) properties.Add(property.Name, prop_value);
 				else properties[property.Name] = prop_value;
             }
             return new NodeResult(properties);
 
         }
     }
+
+    
 }

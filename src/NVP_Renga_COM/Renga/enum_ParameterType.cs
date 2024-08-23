@@ -129,11 +129,11 @@ namespace Renga.enum_ParameterType
 	///<summary>
 	///
 	///</summary>
-	public class enum_ParameterType_IntEnumeration : INode
+	public class enum_ParameterType_AppDefinedEnum : INode
 	{
 		public NodeResult Execute(INVPData context, List<NodeResult> inputs)
 		{
-			return new NodeResult(Renga.ParameterType.ParameterType_IntEnumeration);
+			return new NodeResult(Renga.ParameterType.ParameterType_AppDefinedEnum);
 
 		}
 	}
@@ -281,4 +281,19 @@ namespace Renga.enum_ParameterType
 
 		}
 	}
+
+    [NVP_Manifest(
+    ViewType = "Default")]
+
+    ///<summary>
+    ///
+    ///</summary>
+    public class enum_ParameterType_UserDefinedEnum : INode
+    {
+        public NodeResult Execute(INVPData context, List<NodeResult> inputs)
+        {
+            return new NodeResult(Renga.ParameterType.ParameterType_UserDefinedEnum);
+
+        }
+    }
 }

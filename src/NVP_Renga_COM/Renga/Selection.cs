@@ -5,50 +5,17 @@ using System.Collections.Generic;
 
 using NVP_Manifest_Creator;
 using Renga.ModelObject;
+using System.Linq;
 
 ///<summary>
 ///
 ///</summary>
 namespace Renga.Selection 
 {
-	
-
-
-
 	[NVP_Manifest(
-		ViewType = "Modifier")]
-	[NodeInput("dynamic", typeof(object))]
-	public class Selection_Constructor : INode 
-	{
-		public Renga.ISelection _i;
-		public NodeResult Execute(INVPData context, List<NodeResult> inputs)
-		{
-			dynamic _input0 = inputs[0].Value;
-			this._i = _input0 as Renga.ISelection;
-			if (this._i == null) throw new Exception("Invalid casting");
-			return new NodeResult(this);
-		}
-	}
-
-	[NVP_Manifest(
-		ViewType = "Modifier")]
-	[NodeInput("dynamic", typeof(object))]
-	public class Selection_ConstructorCast : INode 
-	{
-		public Renga.ISelection _i;
-		public NodeResult Execute(INVPData context, List<NodeResult> inputs)
-		{
-			dynamic _input0 = inputs[0].Value;
-			this._i = _input0._i as Renga.ISelection;
-			if (this._i == null) throw new Exception("Invalid casting");
-			return new NodeResult(this);
-		}
-	}
-
-
-	[NVP_Manifest(
-		ViewType = "Modifier")]
-	[NodeInput("Selection", typeof(object))]
+        Text = "Возвращает набор объектов, выделенных в модели",
+		ViewType = "Data")]
+    [NodeInput("Renga.Application", typeof(object))]
 
 	///<summary>
 	///
@@ -58,23 +25,42 @@ namespace Renga.Selection
 		public NodeResult Execute(INVPData context, List<NodeResult> inputs)
 		{
 			dynamic _input0 = inputs[0].Value;
-			_input0._i.GetSelectedObjects();
-			return null;
+            Renga.IApplication renga_app = _input0._i as Renga.IApplication;
+            var renga_selection = renga_app.Selection;
+            int[] ids = renga_selection.GetSelectedObjects().Cast<int>().ToArray();
+
+            var model_objects = renga_app.Project.Model.GetObjects();
+            List<ModelObject_Constructor> objects = new List<ModelObject_Constructor>();
+            foreach (int id in ids)
+            {
+                var model_object = model_objects.GetById(ids[id]);
+                ModelObject_Constructor obj = new ModelObject_Constructor();
+                obj._i = model_object;
+                objects.Add(obj);
+            }
+            return new NodeResult(ids);
 		}
 	}
 
 
 	[NVP_Manifest(
 		ViewType = "Modifier")]
-	[NodeInput("Selection", typeof(object))]
-	public class SetSelectedObjects : INode
+    [NodeInput("Renga.Application", typeof(object))]
+    [NodeInput("Список ModelObject.Id (int)", typeof(object))]
+    public class SetSelectedObjects : INode
 	{
 		public NodeResult Execute(INVPData context, List<NodeResult> inputs)
 		{
-			dynamic _input0 = inputs[0].Value;
-			_input0._i.SetSelectedObjects();
-			return null;
-		}
+            dynamic _input0 = inputs[0].Value;
+            Renga.IApplication renga_app = _input0._i as Renga.IApplication;
+            var renga_selection = renga_app.Selection;
+
+            IList ids = (IList)inputs[1].Value;
+            int[] ids2 = ids.Cast<int>().ToArray();
+            renga_selection.SetSelectedObjects(ids2);
+
+            return new NodeResult(null);
+        }
 	}
 
 

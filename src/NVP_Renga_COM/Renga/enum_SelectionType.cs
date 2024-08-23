@@ -26,7 +26,9 @@ namespace Renga.enum_SelectionType
         IWallParams,
         IWindowParams,
         IModelObject,
-        ILevelObject
+        ILevelObject,
+        IRoom,
+        IModel
     }
 
     [NVP_Manifest(
@@ -253,6 +255,30 @@ namespace Renga.enum_SelectionType
         public NodeResult Execute(INVPData context, List<NodeResult> inputs)
         {
             return new NodeResult(SelectionType.IModelObject);
+
+        }
+    }
+
+    [NVP_Manifest(
+        Text = "Объект-помещение",
+        ViewType = "Default")]
+    public class enum_SelectionType_IRoom : INode
+    {
+        public NodeResult Execute(INVPData context, List<NodeResult> inputs)
+        {
+            return new NodeResult(SelectionType.IRoom);
+
+        }
+    }
+
+    [NVP_Manifest(
+        Text = "Объект-сборка",
+        ViewType = "Default")]
+    public class enum_SelectionType_IModel : INode
+    {
+        public NodeResult Execute(INVPData context, List<NodeResult> inputs)
+        {
+            return new NodeResult(SelectionType.IModel);
 
         }
     }
