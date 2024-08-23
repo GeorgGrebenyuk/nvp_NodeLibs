@@ -122,6 +122,9 @@ namespace NVP_Manifest_Creator
                         NVP_Manifest_attrs_need.Folder = dll_name + "." + type.Namespace;
                         NVP_Manifest_attrs_need.CoderName = _CoderName;
                         NVP_Manifest_attrs_need.NodeName = type.Name;
+                        //исключение для нодов-конструкторов, делаем им префикс "_"
+                        if (NVP_Manifest_attrs_need.NodeName.Contains("_Constructor") && NVP_Manifest_attrs_need.NodeName[0] != '_') NVP_Manifest_attrs_need.NodeName = "_" + NVP_Manifest_attrs_need.NodeName;
+
 
                         if (guids_map.ElementsMap2.ContainsKey(nvp_node_path)) NVP_Manifest_attrs_need.Id = guids_map.ElementsMap2[nvp_node_path];
                         else
