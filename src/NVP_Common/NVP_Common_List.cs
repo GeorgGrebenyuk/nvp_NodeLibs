@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using NVP_Manifest_Creator;
 using System.Collections;
+using System.Linq;
 
 namespace List
 {
@@ -29,7 +30,40 @@ namespace List
         }
     }
     #endregion
-    #region Mrthods
+    #region Methods
+
+    [NVP_Manifest(
+            Text = "Добавляет объект в список",
+            ViewType = "Modifier")]
+    [NodeInput("Исходный список", typeof(object))]
+    [NodeInput("Объект", typeof(object))]
+    public class AddItem : INode
+    {
+        public NodeResult Execute(INVPData context, List<NodeResult> inputs)
+        {
+            IList _list = (IList)inputs[0].Value;
+            _list.Add(inputs[1].Value);
+            return new NodeResult(_list);
+        }
+    }
+
+    [NVP_Manifest(
+            Text = "Добавляет объекты в список",
+            ViewType = "Modifier")]
+    [NodeInput("Исходный список", typeof(object))]
+    [NodeInput("Список объектов", typeof(object))]
+    public class AddItems : INode
+    {
+        public NodeResult Execute(INVPData context, List<NodeResult> inputs)
+        {
+            IList _list1 = (IList)inputs[0].Value;
+            IList _list2 = (IList)inputs[1].Value;
+
+            var _list3 = _list1.Cast<object>().Concat(_list2.Cast<object>()).ToList();
+            return new NodeResult(_list3);
+        }
+    }
+
     [NVP_Manifest(
         Text = "Делает выборку из списка для сравниваемого объекта, если режим = true, то ищется прямое соответствие, если false -- то частичное (только для строк). Если Режим возврата = true, то вернутся только позиции удовлетворяющие запросы, если false -- то не удовлетворяющие",
         ViewType = "Modifier")]
