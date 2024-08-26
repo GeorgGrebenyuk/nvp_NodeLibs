@@ -8,17 +8,15 @@
 
 Загрузить из [Releases](https://github.com/GeorgGrebenyuk/nvp_NodeLibs_ActiveX/releases/latest) последнюю версию и распаковать в папку \Nodepack для используемой версии NVP в зависимости от целевого фрейморка: `net48` -- `NPV_NodeLibs_net48.zip` или `net6.0` -- `NPV_NodeLibs_net6.0.zip`. 
 
-## Примеры
+## Использование и справка по нодам
 
-См. папку `./samples` и [файл описания доступных примеров](./samples/SAMPLES_README.md) (скриптов `*.nvproj`).
+* Информация о пакетах и особенностях их использования приведена см. [здесь](./docs/UserGuide.md);
+* Примеры скриптов см. [здесь](./samples/SAMPLES_README.md);
+* Готовые сценарии (скрипты) под рабочие задачи и об их применении см. [здесь](./docs/UserGuide_common_Tasks.md);
 
 ## История обновлений
 
 См. файл [NEWS](./NEWS.md)
-
-## Использование и справка по нодам
-
-См. отдельный файл [UserGuide.md](./docs/UserGuide.md).
 
 ## Состав пакета
 
