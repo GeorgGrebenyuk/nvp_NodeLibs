@@ -4601,5 +4601,13 @@
       <Path>Renga.Utilities.SetPropertyToObjects</Path>
       <Id>AFDEF486-2E0D-4E4C-B966-B4875A5E3766</Id>
     </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>Renga.Utilities.CreateProperties</Path>
+      <Id>025B7DA4-A397-4EAE-83FF-09C53C792EFF</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>Renga.Selection.GetObjectsFromModelByTypeAndLevel</Path>
+      <Id>C4DA14A1-C9BB-4629-A07B-8F2F3E06F375</Id>
+    </Auxiliary_Guids_Map_Item>
   </ElementsMap>
 </Auxiliary_Guids_Map>

@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using NVP_Manifest_Creator;
 using Renga.ModelObject;
 using System.Linq;
+using Renga.Utilities;
 
 ///<summary>
 ///
@@ -290,22 +291,15 @@ namespace Renga.Selection
         {
             dynamic _input0 = inputs[0].Value;
             Guid sel_type = (Guid)inputs[1].Value;
-
             Renga.IModel model = _input0._i as Renga.IModel;
-            var model_collection = model.GetObjects();
+            var need_objects = Renga.Utilities.Utils.GetObjectsFromModelByTypes(model, new Guid[] { sel_type });
 
             List<ModelObject_Constructor> objects = new List<ModelObject_Constructor>();
-
-            for (int i = 0; i < model_collection.Count; i++)
+            foreach (var obj in need_objects)
             {
-                var single_object = model_collection.GetByIndex(i);
-
-                if (single_object.ObjectType.Equals(sel_type))
-                {
-                    ModelObject_Constructor o = new ModelObject_Constructor();
-                    o._i = single_object;
-                    objects.Add(o);
-                }
+                ModelObject_Constructor o = new ModelObject_Constructor();
+                o._i = obj;
+                objects.Add(o);
             }
             return new NodeResult(objects);
         }
@@ -322,25 +316,47 @@ namespace Renga.Selection
         {
             dynamic _input0 = inputs[0].Value;
             IList sel_types = (IList)inputs[1].Value;
-
+            Guid[] sel_types2 = sel_types.Cast<Guid>().ToArray();
             Renga.IModel model = _input0._i as Renga.IModel;
-            var model_collection = model.GetObjects();
+            var need_objects = Utils.GetObjectsFromModelByTypes(model, sel_types2);
 
             List<ModelObject_Constructor> objects = new List<ModelObject_Constructor>();
-
-            for (int i = 0; i < model_collection.Count; i++)
+            foreach (var obj in need_objects)
             {
-                var single_object = model_collection.GetByIndex(i);
+                ModelObject_Constructor o = new ModelObject_Constructor();
+                o._i = obj;
+                objects.Add(o);
+            }
+            return new NodeResult(objects);
+        }
+    }
 
-                foreach (var id in sel_types)
+    [NVP_Manifest(
+        Text = "Осществляет выбор объектов модели в виде словаря для заданного типа объекта с сортировкой по уровням. Если Режим = true, то в виде ModelObject_Constructor, если false -- то как ModelObject.Id",
+        ViewType = "Modifier")]
+    [NodeInput("Model", typeof(object))]
+    [NodeInput("Renga.ObjectTypes", typeof(Guid))]
+    public class GetObjectsFromModelByTypeAndLevel : INode
+    {
+        public NodeResult Execute(INVPData context, List<NodeResult> inputs)
+        {
+            dynamic _input0 = inputs[0].Value;
+            Guid sel_type = (Guid)inputs[1].Value;
+            Renga.IModel model = _input0._i as Renga.IModel;
+
+            var level2objects = Utils.GetObjectsOnLevelsByTypes(model, new Guid[] { sel_type });
+            Dictionary<string, List<ModelObject_Constructor>> objects = new Dictionary<string, List<ModelObject_Constructor>>();
+
+            foreach (var level2objects_One in level2objects)
+            {
+                List<ModelObject_Constructor> objects_One = new List<ModelObject_Constructor> ();
+                foreach (var com_object in level2objects_One.Value)
                 {
-                    if (single_object.ObjectType.Equals(id))
-                    {
-                        ModelObject_Constructor o = new ModelObject_Constructor();
-                        o._i = single_object;
-                        objects.Add(o);
-                    }
+                    ModelObject_Constructor o = new ModelObject_Constructor();
+                    o._i = com_object;//._i
+                    objects_One.Add(o); 
                 }
+                objects.Add((string)level2objects_One.Key, objects_One);
             }
             return new NodeResult(objects);
         }

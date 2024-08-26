@@ -4,14 +4,21 @@ using System.Collections.Generic;
 
 using NVP_Manifest_Creator;
 using System.Collections;
+using System.Linq;
 
 ///<summary>
 /// Вспомогательные ноды
 ///</summary>
 namespace Renga.Utilities
 {
+    //public class BaseI_Renga
+    //{
+    //    public dynamic _i;
+    //    public BaseI_Renga(dynamic i) { _i = i; }
+    //}
     public class Utils
     {
+        
         public static object GetPropertyValue(Renga.IProperty _property)
         {
             object prop_value = null;
@@ -102,7 +109,6 @@ namespace Renga.Utilities
                 }
             }
         }
-
         public static void SetPropertiesToObject2(Renga.IModelObject _object, IList _prop_names, IList _prop_values)
         {
             var prop_defs = _object.GetProperties();
@@ -119,6 +125,98 @@ namespace Renga.Utilities
                     Utils.SetPropertyValue(property, prop_value);
 
                 }
+            }
+        }
+
+        public static List<Renga.IModelObject> GetObjectsFromModelByTypes(Renga.IModel _model, Guid[] _ids)
+        {
+            var model_collection = _model.GetObjects();
+
+            List<Renga.IModelObject> objects = new List<Renga.IModelObject>();
+
+            for (int i = 0; i < model_collection.Count; i++)
+            {
+                var single_object = model_collection.GetByIndex(i);
+
+                foreach (var id in _ids)
+                {
+                    if (single_object.ObjectType.Equals(id))
+                    {
+                        objects.Add(single_object);
+                    }
+                }
+            }
+            return objects;
+        }
+        public static Dictionary<string, List<Renga.IModelObject>> GetObjectsOnLevelsByTypes(Renga.IModel _model, Guid[] _ids)
+        {
+            var Levels = Renga.Utilities.Utils.GetObjectsFromModelByTypes(_model, new Guid[] { Renga.ObjectTypes.RengaObjectTypes.Level });
+            Dictionary<int, Renga.ILevel> Level2Name = new Dictionary<int, Renga.ILevel>();
+            foreach (var level in Levels)
+            {
+                Level2Name.Add(level.Id, level.GetInterfaceByName("ILevel"));
+            }
+            Dictionary<string, List<Renga.IModelObject>> objects = new Dictionary<string, List<Renga.IModelObject>>();
+            var model_collection = _model.GetObjects();
+            for (int i = 0; i < model_collection.Count; i++)
+            {
+                var single_object = model_collection.GetByIndex(i);
+
+                foreach (var id in _ids)
+                {
+                    if (single_object.ObjectType.Equals(id))
+                    {
+                        Renga.ILevelObject single_object_in_Level = single_object.GetInterfaceByName("ILevelObject");
+                        if (single_object_in_Level != null)
+                        {
+                            //BaseI_Renga inst = new BaseI_Renga(single_object);
+
+                            var level = Level2Name[single_object_in_Level.LevelId];
+                            if (!objects.ContainsKey(level.LevelName))
+                            {
+
+                                //List<BaseI_Renga> objects_one = new List<BaseI_Renga>() { inst };
+                                List<Renga.IModelObject> objects_one = new List<IModelObject> { single_object };
+                                objects.Add(level.LevelName, objects_one);
+                            }
+                            else objects[level.LevelName].Add(single_object); //inst
+                        }
+                    }
+                }
+            }
+            return objects;
+        }
+        public static void CreateProperties(Renga.IProject _project, List<string> _names, List<int> _types, List<object> _guids, List<List<object>> _to_types)
+        {
+            Renga.IPropertyManager renga_props_manager = _project.PropertyManager;
+            for (int prop_counter = 0; prop_counter < _names.Count; prop_counter++)
+            {
+                string prop_name = _names[prop_counter];
+                PropertyType prop_type = (PropertyType)_types[prop_counter];
+                List<object> prop_to_types = _to_types[prop_counter];
+                Guid guid = Guid.NewGuid();
+                if (_guids != null)
+                {
+                    var guid_raw = _guids[prop_counter];
+                    if (guid_raw.GetType() == typeof(Guid)) guid = (Guid)guid_raw;
+                    else Guid.TryParse((string)guid_raw, out guid);
+                }
+
+                if (!renga_props_manager.IsPropertyRegistered(guid))
+                {
+                    var prop_def = renga_props_manager.CreatePropertyDescription(prop_name, prop_type);
+                    renga_props_manager.RegisterProperty2(guid, prop_def);
+                    foreach (var obj_type in prop_to_types)
+                    {
+                        renga_props_manager.AssignPropertyToType(guid, (Guid)obj_type);
+                    }
+                }
+                else
+                {
+                    string err = $"Свойство Name = {prop_name}; guid = {guid} уже существует";
+                }
+
+                
             }
         }
     }
@@ -262,6 +360,37 @@ namespace Renga.Utilities
                 else Utils.SetPropertiesToObject(obj, prop_names, prop_values);
             }
             oper.Apply();
+            return new NodeResult(null);
+        }
+    }
+
+    [NVP_Manifest(
+        Text = "Создает определения свойств",
+        ViewType = "Modifier")]
+    [NodeInput("Renga.Project", typeof(object))]
+    [NodeInput("Список имен свойств", typeof(object))]
+    [NodeInput("Список enum_PropertyType", typeof(object))]
+    [NodeInput("Список идентификаторов", typeof(object))]
+    [NodeInput("Список списков ObjectTypes", typeof(object))]
+    public class CreateProperties : INode
+    {
+        public NodeResult Execute(INVPData context, List<NodeResult> inputs)
+        {
+            dynamic renga_project_raw = inputs[0].Value;
+            Renga.IProject proj = renga_project_raw._i as Renga.IProject;
+
+            IList input_1_prop_Names = (IList)inputs[1].Value;
+            IList input_2_prop_Types = (IList)inputs[2].Value;
+            IList input_3_prop_Ids = (IList)inputs[3].Value;
+            IList input_4_prop_Names = (IList)inputs[4].Value;
+
+            List<string> prop_Names = input_1_prop_Names.Cast<string>().ToList();
+            List<int> prop_Types = input_2_prop_Types.Cast<int>().ToList();
+            List<object> prop_Ids = input_3_prop_Ids.Cast<object>().ToList();
+            List<List<object>> prop_ToTypes = input_4_prop_Names.Cast<List<object>>().ToList();
+
+            Utils.CreateProperties(proj, prop_Names, prop_Types, prop_Ids, prop_ToTypes);
+
             return new NodeResult(null);
         }
     }
