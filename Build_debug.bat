@@ -30,6 +30,10 @@ xcopy "bin\Debug\net6.0\NVP_COM_Common.*" "bin\Debug\net6.0\NVP_Data\" /Y /I
 xcopy "bin\Debug\net6.0\NVP_Common.*" "bin\Debug\net6.0\NVP_Data\" /Y /I
 ::Copy NVP_Renga_COM
 xcopy "bin\Debug\net6.0\NVP_Renga_COM.*" "bin\Debug\net6.0\NVP_Data\" /Y /I
+::Copy NVP_nanoCAD_Platform_NET
+xcopy "bin\Debug\net6.0\NVP_nanoCAD_Platform_NET.*" "bin\Debug\net6.0\NVP_Data\" /Y /I
+::Copy NVP_nBIM_NET
+xcopy "bin\Debug\net6.0\NVP_nBIM_NET.*" "bin\Debug\net6.0\NVP_Data\" /Y /I
 ::Copy all *.nodeitem
 xcopy "bin\Debug\net6.0\*.nodeitem" "bin\Debug\net6.0\NVP_Data\" /Y /I
 ::Copy all data to NVP dir
@@ -49,6 +53,8 @@ xcopy "bin\Debug\net48\NVP_COM_Common.*" "bin\Debug\net48\NVP_Data\" /Y /I
 xcopy "bin\Debug\net48\NVP_Common.*" "bin\Debug\net48\NVP_Data\" /Y /I
 ::Copy NVP_Renga_COM
 xcopy "bin\Debug\net48\NVP_Renga_COM.*" "bin\Debug\net48\NVP_Data\" /Y /I
+::Copy NVP_nanoCAD_Platform_NET
+xcopy "bin\Debug\net48\NVP_nanoCAD_Platform_NET.*" "bin\Debug\net48\NVP_Data\" /Y /I
 ::Copy all *.nodeitem
 xcopy "bin\Debug\net48\*.nodeitem" "bin\Debug\net48\NVP_Data\" /Y /I
 ::Copy all data to NVP dir

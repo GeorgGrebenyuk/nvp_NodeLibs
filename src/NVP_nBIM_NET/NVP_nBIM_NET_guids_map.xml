@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Auxiliary_Guids_Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ElementsMap>
+    <Auxiliary_Guids_Map_Item>
+      <Path>Common.LibraryService.LibraryService_Constructor</Path>
+      <Id>1EA92024-5E53-40E7-B9E1-2FCD0AE42919</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>Common.LibraryService.AddObject</Path>
+      <Id>04C17411-6BE5-4A1C-B56C-7F2402D926F8</Id>
+    </Auxiliary_Guids_Map_Item>
+  </ElementsMap>
+</Auxiliary_Guids_Map>

@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net6.0</TargetFrameworks>
+    <OutputPath>$(SolutionDir)bin\$(Configuration)</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="nanoCAD.BIM.NET" Version="24.1.27165.194">
+      <ExcludeAssets>runtime</ExcludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NVP_COM_Common\NVP_COM_Common.csproj" />
+    <ProjectReference Include="..\NVP_Manifest_Creator\NVP_Manifest_Creator.csproj" />
+    <ProjectReference Include="..\NVP_nanoCAD_Platform_NET\NVP_nanoCAD_Platform_NET.csproj" />
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(TargetFramework)' == 'net6.0'">
+    <Reference Include="NVP.Core.API">
+      <HintPath>C:\Program Files\NVP\net6.0\NVP.Core.API.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(TargetFramework)' == 'net48'">
+    <Reference Include="NVP.Core.API">
+      <HintPath>C:\Program Files\NVP\framework4.8\NVP.API.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

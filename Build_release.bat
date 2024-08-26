@@ -30,6 +30,10 @@ xcopy "bin\Release\net6.0\NVP_COM_Common.*" "bin\Release\net6.0\NVP_Data\" /Y /I
 xcopy "bin\Release\net6.0\NVP_Common.*" "bin\Release\net6.0\NVP_Data\" /Y /I
 ::Copy NVP_Renga_COM
 xcopy "bin\Release\net6.0\NVP_Renga_COM.*" "bin\Release\net6.0\NVP_Data\" /Y /I
+::Copy NVP_nanoCAD_Platform_NET
+xcopy "bin\Release\net6.0\NVP_nanoCAD_Platform_NET.*" "bin\Release\net6.0\NVP_Data\" /Y /I
+::Copy NVP_nBIM_NET
+xcopy "bin\Release\net6.0\NVP_nBIM_NET.*" "bin\Release\net6.0\NVP_Data\" /Y /I
 ::Copy all *.nodeitem
 xcopy "bin\Release\net6.0\*.nodeitem" "bin\Release\net6.0\NVP_Data\" /Y /I
 ::Move all data to ZIP in root of repository
@@ -51,6 +55,8 @@ xcopy "bin\Release\net48\NVP_COM_Common.*" "bin\Release\net48\NVP_Data\" /Y /I
 xcopy "bin\Release\net48\NVP_Common.*" "bin\Release\net48\NVP_Data\" /Y /I
 ::Copy NVP_Renga_COM
 xcopy "bin\Release\net48\NVP_Renga_COM.*" "bin\Release\net48\NVP_Data\" /Y /I
+::Copy NVP_nanoCAD_Platform_NET
+xcopy "bin\Release\net48\NVP_nanoCAD_Platform_NET.*" "bin\Release\net48\NVP_Data\" /Y /I
 ::Copy all *.nodeitem
 xcopy "bin\Release\net48\*.nodeitem" "bin\Release\net48\NVP_Data\" /Y /I
 ::Move all data to ZIP in root of repository

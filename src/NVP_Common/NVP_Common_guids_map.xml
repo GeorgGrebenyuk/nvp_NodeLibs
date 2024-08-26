@@ -125,5 +125,17 @@
       <Path>List.AddItems</Path>
       <Id>8DECEABF-937F-40E8-A8A3-04954DE3B521</Id>
     </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>Common.StringToNumber_Double</Path>
+      <Id>A65F0BB2-35D5-45BA-9F4E-32ACEDC1FCA6</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>Common.StringToNumber_Int64</Path>
+      <Id>B53AD250-D30F-4C45-AB09-7A75B630FAEA</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>Common.ToString</Path>
+      <Id>28617B14-C8B1-45D9-B25B-1F0DA6857145</Id>
+    </Auxiliary_Guids_Map_Item>
   </ElementsMap>
 </Auxiliary_Guids_Map>
