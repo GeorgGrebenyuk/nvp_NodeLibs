@@ -233,14 +233,14 @@ namespace NVP_Manifest_Creator
                         foreach (var node in folder_nodes.Value)
                         {
                             lib_md_doc.AppendLine("### Нод " + node.NodeName + Environment.NewLine);
-                            lib_md_doc.AppendLine("**Имя нода** = " + node.NodeName + ";");
-                            if (node.Text != "") lib_md_doc.AppendLine("**Описание** = " + node.Text + ";");
+                            lib_md_doc.AppendLine("**Имя нода** = " + node.NodeName + ";" + Environment.NewLine);
+                            if (node.Text != "") lib_md_doc.AppendLine("**Описание** = " + node.Text + ";" + Environment.NewLine);
 
                             //lib_md_doc.AppendLine("Id = " + node.Id + ";");
                             //lib_md_doc.AppendLine("* PathAssembly = " + node.PathAssembly);
                             //lib_md_doc.AppendLine("* PathExecuteClass = " + node.PathExecuteClass); 
-                            lib_md_doc.AppendLine("**Автор** = " + node.CoderName + ";");
-                            lib_md_doc.AppendLine("**Папка** = " + node.Folder + ";");
+                            lib_md_doc.AppendLine("**Автор** = " + node.CoderName + ";" + Environment.NewLine);
+                            lib_md_doc.AppendLine("**Папка** = " + node.Folder + ";" + Environment.NewLine);
                             
                             //lib_md_doc.AppendLine("* NodeType = " + node.NodeType);
                             //lib_md_doc.AppendLine("**CADType** = " + node.CADType + ";");
@@ -249,7 +249,7 @@ namespace NVP_Manifest_Creator
 
                             if (node.Arguments.Length > 0)
                             {
-                                lib_md_doc.AppendLine("**Входные данные**:");
+                                lib_md_doc.AppendLine("**Входные данные**:" + Environment.NewLine);
                                 foreach (var arg in node.Arguments)
                                 {
                                     lib_md_doc.AppendLine("* " + arg + ";");
