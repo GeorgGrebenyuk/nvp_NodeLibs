@@ -137,5 +137,29 @@
       <Path>Common.ToString</Path>
       <Id>28617B14-C8B1-45D9-B25B-1F0DA6857145</Id>
     </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>Wait.Wait_2</Path>
+      <Id>F6876F8C-2F8F-48BF-9B35-BEE3713B6B48</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>Wait.Wait_3</Path>
+      <Id>D6BCFA3D-DE05-40F0-A5C5-23C60EB65551</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>Wait.Wait_4</Path>
+      <Id>4A52D48F-A12B-46B5-8C28-FCDCCFC99F1F</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>Wait.Wait_5</Path>
+      <Id>41733F61-BF00-4C05-BF80-FF86D493AC2A</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>Wait.Wait_6</Path>
+      <Id>E9C40186-57E4-4018-B0B1-E81549D12017</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>Wait.Wait_7</Path>
+      <Id>AD535B2B-2502-4B19-BD02-849B122091C1</Id>
+    </Auxiliary_Guids_Map_Item>
   </ElementsMap>
 </Auxiliary_Guids_Map>
