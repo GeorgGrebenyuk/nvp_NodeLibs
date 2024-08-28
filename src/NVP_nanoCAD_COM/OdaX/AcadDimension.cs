@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///The common interface for TeighaX dimensions
 ///</summary>
-namespace OdaX.AcadDimension 
+namespace NVP_nanoCAD_COM._OdaX.AcadDimension 
 {
 
 	[NVP_Manifest(

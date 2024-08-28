@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///
 ///</summary>
-namespace Renga.DataExporter 
+namespace NVP_Renga_COM._Renga.DataExporter 
 {
 
 	[NVP_Manifest(

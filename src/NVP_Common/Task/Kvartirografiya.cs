@@ -6,7 +6,7 @@ using NVP_Manifest_Creator;
 using System.Collections;
 
 
-namespace Task.Kvartirografiya
+namespace NVP_Common.Task.Kvartirografiya
 {
     [NVP_Manifest(
             Text = "Возвращает список ЖИЛЫХ помещений по умолчанию",

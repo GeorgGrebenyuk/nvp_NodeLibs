@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Графическое представление анкерной опоры
 ///</summary>
-namespace mdsLINEComLib.MDSLAncerSketch 
+namespace NVP_ModelStudio_COM._mdsLINEComLib.MDSLAncerSketch 
 {
 
 	[NVP_Manifest(

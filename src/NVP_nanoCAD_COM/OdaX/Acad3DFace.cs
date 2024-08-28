@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of a 3D triangle or quadrilateral plane section
 ///</summary>
-namespace OdaX.Acad3DFace 
+namespace NVP_nanoCAD_COM._OdaX.Acad3DFace 
 {
 
 	[NVP_Manifest(

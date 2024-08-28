@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 using NVP_Manifest_Creator;
 
-namespace Wait
+namespace NVP_Common.Wait
 {
     [NVP_Manifest(
         Text = "Задержка для двух значений",

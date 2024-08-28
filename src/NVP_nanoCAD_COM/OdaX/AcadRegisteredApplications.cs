@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of the collection of all registered applications in the drawing
 ///</summary>
-namespace OdaX.AcadRegisteredApplications 
+namespace NVP_nanoCAD_COM._OdaX.AcadRegisteredApplications 
 {
 
 	[NVP_Manifest(
@@ -109,10 +109,10 @@ namespace OdaX.AcadRegisteredApplications
         public NodeResult Execute(INVPData context, List<NodeResult> inputs)
         {
             var _input0 = ((dynamic)inputs[0].Value)._i as OdaX.IAcadRegisteredApplications;
-            List<OdaX.AcadRegisteredApplication.AcadRegisteredApplication_Constructor> items = new List<OdaX.AcadRegisteredApplication.AcadRegisteredApplication_Constructor>();
+            List<_OdaX.AcadRegisteredApplication.AcadRegisteredApplication_Constructor> items = new List<_OdaX.AcadRegisteredApplication.AcadRegisteredApplication_Constructor>();
             for (int item_counter = 0; item_counter < _input0.Count; item_counter++)
             {
-                OdaX.AcadRegisteredApplication.AcadRegisteredApplication_Constructor item = new OdaX.AcadRegisteredApplication.AcadRegisteredApplication_Constructor();
+                _OdaX.AcadRegisteredApplication.AcadRegisteredApplication_Constructor item = new _OdaX.AcadRegisteredApplication.AcadRegisteredApplication_Constructor();
                 item._i = _input0.Item(item_counter);
                 items.Add(item);
             }

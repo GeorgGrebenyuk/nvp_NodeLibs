@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IMDSLAngleDialogWrap Interface
 ///</summary>
-namespace mdsLINEComLib.MDSLAngleDialogWrap 
+namespace NVP_ModelStudio_COM._mdsLINEComLib.MDSLAngleDialogWrap 
 {
 
 	[NVP_Manifest(

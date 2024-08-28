@@ -7,7 +7,7 @@ using System.Security;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Common
+namespace NVP_COM_Common.Common
 {
     public static class Marshal2
     {

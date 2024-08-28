@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of an external application that has been added to the drawing
 ///</summary>
-namespace OdaX.AcadRegisteredApplication 
+namespace NVP_nanoCAD_COM._OdaX.AcadRegisteredApplication 
 {
 
 	[NVP_Manifest(

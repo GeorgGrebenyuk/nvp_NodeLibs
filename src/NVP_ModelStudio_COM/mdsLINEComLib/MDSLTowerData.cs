@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TowerData Interface
 ///</summary>
-namespace mdsLINEComLib.MDSLTowerData 
+namespace NVP_ModelStudio_COM._mdsLINEComLib.MDSLTowerData 
 {
 
 	[NVP_Manifest(

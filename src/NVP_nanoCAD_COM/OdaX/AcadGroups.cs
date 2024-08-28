@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of the collection of all groups in the drawing
 ///</summary>
-namespace OdaX.AcadGroups 
+namespace NVP_nanoCAD_COM._OdaX.AcadGroups 
 {
 
 	[NVP_Manifest(
@@ -108,10 +108,10 @@ namespace OdaX.AcadGroups
         public NodeResult Execute(INVPData context, List<NodeResult> inputs)
         {
             var _input0 = ((dynamic)inputs[0].Value)._i as OdaX.IAcadGroups;
-            List<OdaX.AcadGroup.AcadGroup_Constructor> items = new List<OdaX.AcadGroup.AcadGroup_Constructor>();
+            List<_OdaX.AcadGroup.AcadGroup_Constructor> items = new List<_OdaX.AcadGroup.AcadGroup_Constructor>();
             for (int item_counter = 0; item_counter < _input0.Count; item_counter++)
             {
-                OdaX.AcadGroup.AcadGroup_Constructor item = new OdaX.AcadGroup.AcadGroup_Constructor();
+                _OdaX.AcadGroup.AcadGroup_Constructor item = new _OdaX.AcadGroup.AcadGroup_Constructor();
                 item._i = _input0.Item(item_counter);
                 items.Add(item);
             }

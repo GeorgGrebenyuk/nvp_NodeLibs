@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///
 ///</summary>
-namespace Renga.PolyCurve3D 
+namespace NVP_Renga_COM._Renga.PolyCurve3D 
 {
 
 	[NVP_Manifest(

@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Drawing bound interface
 ///</summary>
-namespace McCOM2.SymFrame 
+namespace NVP_nanoCAD_COM._McCOM2.SymFrame 
 {
 
 	[NVP_Manifest(

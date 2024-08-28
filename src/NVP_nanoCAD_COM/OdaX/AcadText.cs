@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of a single line of alphanumeric characters
 ///</summary>
-namespace OdaX.AcadText 
+namespace NVP_nanoCAD_COM._OdaX.AcadText 
 {
 
 	[NVP_Manifest(

@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///WrOverpassaxis Interface
 ///</summary>
-namespace vCSViperCSObjComLib.WrOverpassAxis 
+namespace NVP_ModelStudio_COM._vCSViperCSObjComLib.WrOverpassAxis 
 {
 
 	[NVP_Manifest(

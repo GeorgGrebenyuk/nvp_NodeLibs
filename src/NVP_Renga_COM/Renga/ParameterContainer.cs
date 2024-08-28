@@ -3,12 +3,12 @@ using System;
 using System.Collections.Generic;
 
 using NVP_Manifest_Creator;
-using Renga.Parameter;
+using NVP_Renga_COM._Renga.Parameter;
 
 ///<summary>
 ///
 ///</summary>
-namespace Renga.ParameterContainer 
+namespace NVP_Renga_COM._Renga.ParameterContainer 
 {
 
 	[NVP_Manifest(
@@ -178,13 +178,13 @@ namespace Renga.ParameterContainer
 				object param_value = null;
 				switch (param.ValueType)
 				{
-					case ParameterValueType.ParameterValueType_Bool:
+					case Renga.ParameterValueType.ParameterValueType_Bool:
 						param_value = param.GetBoolValue(); break;
-                    case ParameterValueType.ParameterValueType_Int:
+                    case Renga.ParameterValueType.ParameterValueType_Int:
 						param_value = param.GetIntValue();break;
-					case ParameterValueType.ParameterValueType_Double:
+					case Renga.ParameterValueType.ParameterValueType_Double:
 						param_value = param.GetDoubleValue(); break;
-					case ParameterValueType.ParameterValueType_String:
+					case Renga.ParameterValueType.ParameterValueType_String:
 						param_value = param.GetStringValue(); break;
 
                 }

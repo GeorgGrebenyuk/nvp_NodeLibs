@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Plane level mark
 ///</summary>
-namespace McCOM2.SymSpdsPlaneLevel 
+namespace NVP_nanoCAD_COM._McCOM2.SymSpdsPlaneLevel 
 {
 
 	[NVP_Manifest(

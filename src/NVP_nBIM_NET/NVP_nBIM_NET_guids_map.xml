@@ -2,288 +2,408 @@
 <Auxiliary_Guids_Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ElementsMap>
     <Auxiliary_Guids_Map_Item>
-      <Path>Common.LibraryService.LibraryService_Constructor</Path>
+      <Path>NVP_nBIM_NET.Common.LibraryService.LibraryService_Constructor</Path>
       <Id>1EA92024-5E53-40E7-B9E1-2FCD0AE42919</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>Common.LibraryService.AddObject</Path>
+      <Path>NVP_nBIM_NET.Common.LibraryService.AddObject</Path>
       <Id>04C17411-6BE5-4A1C-B56C-7F2402D926F8</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>Parameters.ElementData.ElementData_Constructor</Path>
+      <Path>NVP_nBIM_NET.Parameters.ElementData.ElementData_Constructor</Path>
       <Id>B73E45DF-05D0-42FD-958B-9F852B4BCFF7</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>Parameters.ElementData.ElementData_CreateEmpty_Constructor</Path>
+      <Path>NVP_nBIM_NET.Parameters.ElementData.ElementData_CreateEmpty_Constructor</Path>
       <Id>A050F0BD-81E0-4950-A6A0-9611C2BFE53C</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>Parameters.ElementData.ElementData_CopyFrom_Constructor</Path>
+      <Path>NVP_nBIM_NET.Parameters.ElementData.ElementData_CopyFrom_Constructor</Path>
       <Id>E7C0938C-57CD-4A28-84BF-5E5544961D2F</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>Parameters.ElementData.GetParameters</Path>
+      <Path>NVP_nBIM_NET.Parameters.ElementData.GetParameters</Path>
       <Id>B2751A59-D3A6-48E8-AE93-B0C53D417D93</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>Parameters.ElementData.GetParametersForCategory</Path>
+      <Path>NVP_nBIM_NET.Parameters.ElementData.GetParametersForCategory</Path>
       <Id>C9015E9E-64AC-41C7-8EED-0B77D67F0505</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>Parameters.ElementData.GetCategories</Path>
+      <Path>NVP_nBIM_NET.Parameters.ElementData.GetCategories</Path>
       <Id>2BA9FC9F-4AE1-4B0B-BE1E-DE671BA288AE</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>Parameters.ElementData.SetParameters</Path>
+      <Path>NVP_nBIM_NET.Parameters.ElementData.SetParameters</Path>
       <Id>3A5CD8EC-B23D-44DD-BC7C-70995C0932DA</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Type_ArcBuildingWall</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Type_ArcBuildingWall</Path>
       <Id>AF136A3B-AFB8-4EEB-8467-ED19468E2E72</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Type_BuildingOpening</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Type_BuildingOpening</Path>
       <Id>A0466627-8FB4-4D39-92AB-B441669D1BF1</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Type_BuildingSlab</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Type_BuildingSlab</Path>
       <Id>FEBBA2CD-F63F-4C0F-AFC7-24213F66AA74</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Type_BuildingWallBase</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Type_BuildingWallBase</Path>
       <Id>991B41C9-6BE0-402E-BD05-926051A2C905</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Type_ConcreteBeam</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Type_ConcreteBeam</Path>
       <Id>5F431E44-E8F2-4903-AE81-839876A3859D</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Type_ConcreteColumn</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Type_ConcreteColumn</Path>
       <Id>64A3320D-5705-42D1-B383-DA3863D7E760</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Type_ConcreteElement</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Type_ConcreteElement</Path>
       <Id>94FB9605-259D-4B9A-AD71-216DF7BD1C8D</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Type_ConstructionAssemblyRef</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Type_ConstructionAssemblyRef</Path>
       <Id>60764992-A535-466A-B61F-FB118DC969D2</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Type_ConstructionBlockRef</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Type_ConstructionBlockRef</Path>
       <Id>A5863032-D863-4728-BBDF-D3884DFA3E7D</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Type_CoordinateGrid</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Type_CoordinateGrid</Path>
       <Id>8E49BA5D-D939-4D30-A926-D4A5CFBDCEED</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Type_ContinuousConcreteElement</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Type_ContinuousConcreteElement</Path>
       <Id>BA4EF5BA-1347-436C-BF65-86704EAAA94D</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Type_CoordinateGridRef</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Type_CoordinateGridRef</Path>
       <Id>2F6A44D7-86A8-4D58-A6C9-730A414D7522</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Type_LinearBuildingWall</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Type_LinearBuildingWall</Path>
       <Id>3A225CFC-87EA-46AF-A390-057B3E244BCB</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Type_MetalAxisEntity</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Type_MetalAxisEntity</Path>
       <Id>E12389CA-3FF2-433B-89C1-BF51B041573B</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Type_MetalConstructionNode</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Type_MetalConstructionNode</Path>
       <Id>72D58566-65E0-43B4-BBFB-C4E2D21D6845</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Type_MetalEntityBase</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Type_MetalEntityBase</Path>
       <Id>4F806872-3BDB-4E79-924C-875C2B05BAE6</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Type_MetalPlate</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Type_MetalPlate</Path>
       <Id>B9A75F84-8651-46AF-80D3-D19D512BB13C</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Type_ParametricEntBase</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Type_ParametricEntBase</Path>
       <Id>8DABA84C-8A2F-4918-B9F7-D928F1F87FB8</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Type_ParametricEntity</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Type_ParametricEntity</Path>
       <Id>4750F747-5E52-42EF-ADCE-05427AE05109</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Type_Reinforcement</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Type_Reinforcement</Path>
       <Id>E5A72A5C-6555-44CE-9F62-6EF3F34071DA</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Type_Hook</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Type_Hook</Path>
       <Id>B4006A5F-BEC0-46B0-92FD-5B4F08CD9975</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Type_ReinforcementBinder</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Type_ReinforcementBinder</Path>
       <Id>D4E3B025-D5AE-4FC2-B85E-6C39ECD0F814</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Type_ReinforcementDetail</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Type_ReinforcementDetail</Path>
       <Id>3E81E358-B4E7-4084-B243-FCBEC568263F</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Type_ReinforcementSpiral</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Type_ReinforcementSpiral</Path>
       <Id>335DEE79-CCE5-4BA4-A5CF-88FCFBBA0119</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Type_SpaceEntity</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Type_SpaceEntity</Path>
       <Id>81EDBF50-362F-4AD1-B7A8-4BEB11FD53D5</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Type_StructuralArcSurface</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Type_StructuralArcSurface</Path>
       <Id>DFC8F88E-238A-4520-AD7B-E79F7ADC078E</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Type_StructuralPart</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Type_StructuralPart</Path>
       <Id>4FCF2200-C626-4E17-9BE4-514BDEA42E03</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Type_StructuralPlate</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Type_StructuralPlate</Path>
       <Id>83F2A0E4-9B7C-4C64-B5D0-64D0DDC20393</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Type_StructuralSurface</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Type_StructuralSurface</Path>
       <Id>D7B5047C-6526-4167-B5E3-6C920108311D</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Type_IParametricObject</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Type_IParametricObject</Path>
       <Id>879202F9-C6BD-4499-A3AF-489DABC591CC</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>Library.LibraryService.LibraryService_Constructor</Path>
+      <Path>NVP_nBIM_NET.Library.LibraryService.LibraryService_Constructor</Path>
       <Id>858A3829-3A88-4952-8307-647ABA7518BF</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>Library.LibraryService.AddObject</Path>
+      <Path>NVP_nBIM_NET.Library.LibraryService.AddObject</Path>
       <Id>4CFEAD59-D09D-4F75-A406-303FCBCA0367</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Common.Type_ArcBuildingWall</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Common.Type_ArcBuildingWall</Path>
       <Id>12C1ADAE-C226-464B-B99F-A614F6005A84</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Common.Type_BuildingOpening</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Common.Type_BuildingOpening</Path>
       <Id>8649B5C2-0617-486D-B289-055F3B5FBAC8</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Common.Type_BuildingSlab</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Common.Type_BuildingSlab</Path>
       <Id>3B44088D-62B4-49A2-A12D-4C54E50763DF</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Common.Type_BuildingWallBase</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Common.Type_BuildingWallBase</Path>
       <Id>15C2445F-559B-4AF2-99AA-322998AF3B61</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Common.Type_ConcreteBeam</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Common.Type_ConcreteBeam</Path>
       <Id>FD7B9D7E-1CF0-4944-813B-40A707B8A52D</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Common.Type_ConcreteColumn</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Common.Type_ConcreteColumn</Path>
       <Id>AC79BDCA-5CA9-4BA9-AFA0-11AA99483E57</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Common.Type_ConcreteElement</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Common.Type_ConcreteElement</Path>
       <Id>D82BB3C1-9993-4EA3-9242-106288D8BBC5</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Common.Type_ConstructionAssemblyRef</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Common.Type_ConstructionAssemblyRef</Path>
       <Id>8EEC697E-20D1-4640-97EF-5883089CADE1</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Common.Type_ConstructionBlockRef</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Common.Type_ConstructionBlockRef</Path>
       <Id>5DB31F0C-6C5F-4FCE-9EDE-918A971616FF</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Common.Type_CoordinateGrid</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Common.Type_CoordinateGrid</Path>
       <Id>82092DB0-64C6-452B-8675-F135BE15A22A</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Common.Type_ContinuousConcreteElement</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Common.Type_ContinuousConcreteElement</Path>
       <Id>00E71593-1950-407B-BADD-7B87947DA5D4</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Common.Type_CoordinateGridRef</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Common.Type_CoordinateGridRef</Path>
       <Id>529A961C-15AD-4E6C-AAEB-1A64DB29B26E</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Common.Type_LinearBuildingWall</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Common.Type_LinearBuildingWall</Path>
       <Id>44519743-03FB-4914-BA6A-8F88BD314F61</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Common.Type_MetalAxisEntity</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Common.Type_MetalAxisEntity</Path>
       <Id>D426186C-4BA2-4DEF-B95E-2A587D72DE28</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Common.Type_MetalConstructionNode</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Common.Type_MetalConstructionNode</Path>
       <Id>6C4B0E04-55C0-4C57-A262-29C479E8130F</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Common.Type_MetalEntityBase</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Common.Type_MetalEntityBase</Path>
       <Id>F75FA826-6834-4289-813E-E86D24471E50</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Common.Type_MetalPlate</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Common.Type_MetalPlate</Path>
       <Id>5A958773-CACA-420F-BDE0-D8476DA0A6DC</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Common.Type_ParametricEntBase</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Common.Type_ParametricEntBase</Path>
       <Id>818F1B39-17DF-43E1-8CE2-9E7437B79138</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Common.Type_ParametricEntity</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Common.Type_ParametricEntity</Path>
       <Id>A31E32CC-39A5-42A2-A54E-045094A3C1BD</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Common.Type_Reinforcement</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Common.Type_Reinforcement</Path>
       <Id>597A9175-0560-4850-9C54-8C587E44BEAF</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Common.Type_Hook</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Common.Type_Hook</Path>
       <Id>807DC8B7-A458-4BAE-BE46-EC6619117F0F</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Common.Type_ReinforcementBinder</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Common.Type_ReinforcementBinder</Path>
       <Id>81328924-59E8-4FAE-9DBB-9381E7FB4674</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Common.Type_ReinforcementDetail</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Common.Type_ReinforcementDetail</Path>
       <Id>0B01CC21-537D-45AD-9B64-65BB9C5C23B1</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Common.Type_ReinforcementSpiral</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Common.Type_ReinforcementSpiral</Path>
       <Id>E991D815-07DD-45B7-949F-CAE50DE2366A</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Common.Type_SpaceEntity</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Common.Type_SpaceEntity</Path>
       <Id>1BE35512-1C9B-418B-9146-933ED0B1564D</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Common.Type_StructuralArcSurface</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Common.Type_StructuralArcSurface</Path>
       <Id>2D3DB77D-52AE-435A-934A-2FF215FFE95C</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Common.Type_StructuralPart</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Common.Type_StructuralPart</Path>
       <Id>CBB115F1-8AB3-4AF4-A610-D10FFE47A113</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Common.Type_StructuralPlate</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Common.Type_StructuralPlate</Path>
       <Id>E0287858-04B7-4790-B8F0-5485E1EBC240</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Common.Type_StructuralSurface</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Common.Type_StructuralSurface</Path>
       <Id>DB709FF4-0976-49F7-92C5-FE2F2C7900D9</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_nBIM_NET.Common.Type_IParametricObject</Path>
+      <Path>NVP_nBIM_NET.NVP_nBIM_NET.Common.Type_IParametricObject</Path>
       <Id>0428FDFB-54CD-4652-A557-8D4B3A82AE85</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>NVP_nBIM_NET.Common.Type_ArcBuildingWall</Path>
+      <Id>535C454D-9098-493D-B385-6701B4E28ED1</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>NVP_nBIM_NET.Common.Type_BuildingOpening</Path>
+      <Id>62F73AE9-084F-4BEA-89BA-3F5DD72CE0C0</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>NVP_nBIM_NET.Common.Type_BuildingSlab</Path>
+      <Id>570DF859-63CC-40F0-AA81-1D944A3C9F6F</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>NVP_nBIM_NET.Common.Type_BuildingWallBase</Path>
+      <Id>7A5DB7B7-6509-4EE8-ACEF-E04B4CF713D8</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>NVP_nBIM_NET.Common.Type_ConcreteBeam</Path>
+      <Id>B6D04C96-AF2C-4A48-8635-B4C12F4C3787</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>NVP_nBIM_NET.Common.Type_ConcreteColumn</Path>
+      <Id>031ED1C8-97AD-422A-B94F-96A1DC3D7588</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>NVP_nBIM_NET.Common.Type_ConcreteElement</Path>
+      <Id>FC62500D-048B-40CD-90F5-069A78E8BF98</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>NVP_nBIM_NET.Common.Type_ConstructionAssemblyRef</Path>
+      <Id>55574E34-FB02-455E-9567-1FA91475D6BB</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>NVP_nBIM_NET.Common.Type_ConstructionBlockRef</Path>
+      <Id>3F849FC4-829F-4ED1-A992-038F3276DCC0</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>NVP_nBIM_NET.Common.Type_CoordinateGrid</Path>
+      <Id>7BF38CB1-4985-447A-96D4-753D9731FF76</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>NVP_nBIM_NET.Common.Type_ContinuousConcreteElement</Path>
+      <Id>CE1B0102-FDF5-48A9-B339-18E8C85A1DD8</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>NVP_nBIM_NET.Common.Type_CoordinateGridRef</Path>
+      <Id>A58074E0-2010-4957-A4D6-6C886336BBB5</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>NVP_nBIM_NET.Common.Type_LinearBuildingWall</Path>
+      <Id>2E5073D1-3A6C-42BB-8409-C27680401ED8</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>NVP_nBIM_NET.Common.Type_MetalAxisEntity</Path>
+      <Id>ED0608CC-497F-4184-A6D1-899DC976341E</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>NVP_nBIM_NET.Common.Type_MetalConstructionNode</Path>
+      <Id>00000195-36A4-4E31-A5E0-7AA67805F7FB</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>NVP_nBIM_NET.Common.Type_MetalEntityBase</Path>
+      <Id>C7553C39-A0C7-4EED-98DC-022BE826D907</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>NVP_nBIM_NET.Common.Type_MetalPlate</Path>
+      <Id>20526567-2750-4D81-A229-EE86F14FCF54</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>NVP_nBIM_NET.Common.Type_ParametricEntBase</Path>
+      <Id>5EC8B75A-B2AA-49DF-A5BC-DBB9FD9804BE</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>NVP_nBIM_NET.Common.Type_ParametricEntity</Path>
+      <Id>2376B113-A2EC-477A-9217-679462EDF113</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>NVP_nBIM_NET.Common.Type_Reinforcement</Path>
+      <Id>DAA9A93B-DCE9-4B36-8B0E-EBFAB2D87D67</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>NVP_nBIM_NET.Common.Type_Hook</Path>
+      <Id>959F8B79-6785-4C5A-984C-10F64311DA80</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>NVP_nBIM_NET.Common.Type_ReinforcementBinder</Path>
+      <Id>A41B0D58-33DD-4322-8198-F60236AEF634</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>NVP_nBIM_NET.Common.Type_ReinforcementDetail</Path>
+      <Id>445CBF4C-19FB-404B-AEB2-A724CBCD79EE</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>NVP_nBIM_NET.Common.Type_ReinforcementSpiral</Path>
+      <Id>4436657D-80C5-484B-A5BB-AA8F2D0005B4</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>NVP_nBIM_NET.Common.Type_SpaceEntity</Path>
+      <Id>C5BF6597-34C2-4A32-8A59-EA315DA0A520</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>NVP_nBIM_NET.Common.Type_StructuralArcSurface</Path>
+      <Id>E2746517-3276-4B71-B1D6-10FC7653F55B</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>NVP_nBIM_NET.Common.Type_StructuralPart</Path>
+      <Id>F9B2EBD2-6E28-4C10-895F-3CC05EFE5A9B</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>NVP_nBIM_NET.Common.Type_StructuralPlate</Path>
+      <Id>A9EAD76E-E0E9-4154-B5F5-2B24DA5DA53F</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>NVP_nBIM_NET.Common.Type_StructuralSurface</Path>
+      <Id>8D35200E-2F5E-46FD-B45A-A019472E9D15</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>NVP_nBIM_NET.Common.Type_IParametricObject</Path>
+      <Id>D2377D76-F30B-49D0-B9F3-163029A232D8</Id>
     </Auxiliary_Guids_Map_Item>
   </ElementsMap>
 </Auxiliary_Guids_Map>

@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of the collection of all dimension styles in the drawing
 ///</summary>
-namespace OdaX.AcadDimStyles 
+namespace NVP_nanoCAD_COM._OdaX.AcadDimStyles 
 {
 
 	[NVP_Manifest(

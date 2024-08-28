@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IWrSubSegment Interface
 ///</summary>
-namespace vCSViperCSObjComLib.WrSubSegment 
+namespace NVP_ModelStudio_COM._vCSViperCSObjComLib.WrSubSegment 
 {
 
 	[NVP_Manifest(

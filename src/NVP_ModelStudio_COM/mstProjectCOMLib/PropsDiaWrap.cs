@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IPropsDiaWrap Interface
 ///</summary>
-namespace mstProjectCOMLib.PropsDiaWrap 
+namespace NVP_ModelStudio_COM._mstProjectCOMLib.PropsDiaWrap 
 {
 
 	[NVP_Manifest(

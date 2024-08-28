@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of Helix entity
 ///</summary>
-namespace OdaX.AcadHelix 
+namespace NVP_nanoCAD_COM._OdaX.AcadHelix 
 {
 
 	[NVP_Manifest(

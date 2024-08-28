@@ -9,7 +9,7 @@ using System.Linq;
 ///<summary>
 /// Вспомогательные ноды
 ///</summary>
-namespace Renga.Utilities
+namespace NVP_Renga_COM._Renga.Utilities
 {
     //public class BaseI_Renga
     //{
@@ -24,28 +24,28 @@ namespace Renga.Utilities
             object prop_value = null;
             switch (_property.Type)
             {
-                case PropertyType.PropertyType_Angle:
-                    prop_value = _property.GetAngleValue(AngleUnit.AngleUnit_Degrees); break;
-                case PropertyType.PropertyType_Area:
-                    prop_value = _property.GetAreaValue(AreaUnit.AreaUnit_Meters2); break;
-                case PropertyType.PropertyType_Boolean:
+                case Renga.PropertyType.PropertyType_Angle:
+                    prop_value = _property.GetAngleValue(Renga.AngleUnit.AngleUnit_Degrees); break;
+                case Renga.PropertyType.PropertyType_Area:
+                    prop_value = _property.GetAreaValue(Renga.AreaUnit.AreaUnit_Meters2); break;
+                case Renga.PropertyType.PropertyType_Boolean:
                     prop_value = _property.GetBooleanValue(); break;
-                case PropertyType.PropertyType_Double:
+                case Renga.PropertyType.PropertyType_Double:
                     prop_value = _property.GetDoubleValue(); break;
-                case PropertyType.PropertyType_Enumeration:
+                case Renga.PropertyType.PropertyType_Enumeration:
                     prop_value = _property.GetEnumerationValue(); break;
-                case PropertyType.PropertyType_Integer:
+                case Renga.PropertyType.PropertyType_Integer:
                     prop_value = _property.GetIntegerValue(); break;
-                case PropertyType.PropertyType_Length:
-                    prop_value = _property.GetLengthValue(LengthUnit.LengthUnit_Meters); break;
-                case PropertyType.PropertyType_Logical:
+                case Renga.PropertyType.PropertyType_Length:
+                    prop_value = _property.GetLengthValue(Renga.LengthUnit.LengthUnit_Meters); break;
+                case Renga.PropertyType.PropertyType_Logical:
                     prop_value = _property.GetLogicalValue(); break;
-                case PropertyType.PropertyType_Mass:
-                    prop_value = _property.GetMassValue(MassUnit.MassUnit_Kilograms); break;
-                case PropertyType.PropertyType_String:
+                case Renga.PropertyType.PropertyType_Mass:
+                    prop_value = _property.GetMassValue(Renga.MassUnit.MassUnit_Kilograms); break;
+                case Renga.PropertyType.PropertyType_String:
                     prop_value = _property.GetStringValue(); break;
-                case PropertyType.PropertyType_Volume:
-                    prop_value = _property.GetVolumeValue(VolumeUnit.VolumeUnit_Meters3); break;
+                case Renga.PropertyType.PropertyType_Volume:
+                    prop_value = _property.GetVolumeValue(Renga.VolumeUnit.VolumeUnit_Meters3); break;
             }
             return prop_value;
         }
@@ -53,33 +53,33 @@ namespace Renga.Utilities
         {
             switch (_property.Type)
             {
-                case PropertyType.PropertyType_Angle:
-                    _property.SetAngleValue((double)_value, AngleUnit.AngleUnit_Degrees); break;
-                case PropertyType.PropertyType_Area:
-                    _property.SetAreaValue((double)_value, AreaUnit.AreaUnit_Meters2); break;
-                case PropertyType.PropertyType_Boolean:
+                case Renga.PropertyType.PropertyType_Angle:
+                    _property.SetAngleValue((double)_value, Renga.AngleUnit.AngleUnit_Degrees); break;
+                case Renga.PropertyType.PropertyType_Area:
+                    _property.SetAreaValue((double)_value, Renga.AreaUnit.AreaUnit_Meters2); break;
+                case Renga.PropertyType.PropertyType_Boolean:
                     _property.SetBooleanValue((bool)_value); break;
-                case PropertyType.PropertyType_Double:
+                case Renga.PropertyType.PropertyType_Double:
                     _property.SetDoubleValue((double)_value); break;
-                case PropertyType.PropertyType_Enumeration:
+                case Renga.PropertyType.PropertyType_Enumeration:
                     _property.SetEnumerationValue((string)_value); break;
-                case PropertyType.PropertyType_Integer:
+                case Renga.PropertyType.PropertyType_Integer:
                     _property.SetIntegerValue((int)_value); break;
-                case PropertyType.PropertyType_Length:
-                    _property.SetLengthValue((double)_value, LengthUnit.LengthUnit_Meters); break;
-                case PropertyType.PropertyType_Logical:
+                case Renga.PropertyType.PropertyType_Length:
+                    _property.SetLengthValue((double)_value, Renga.LengthUnit.LengthUnit_Meters); break;
+                case Renga.PropertyType.PropertyType_Logical:
                     {
-                        if ((bool)_value == true) _property.SetLogicalValue(Logical.Logical_True);
-                        else if ((bool)_value == false) _property.SetLogicalValue(Logical.Logical_False);
-                        else _property.SetLogicalValue(Logical.Logical_Indeterminate);
+                        if ((bool)_value == true) _property.SetLogicalValue(Renga.Logical.Logical_True);
+                        else if ((bool)_value == false) _property.SetLogicalValue(Renga.Logical.Logical_False);
+                        else _property.SetLogicalValue(Renga.Logical.Logical_Indeterminate);
                         break;
                     }
-                case PropertyType.PropertyType_Mass:
-                    _property.SetMassValue((double)_value, MassUnit.MassUnit_Kilograms); break;
-                case PropertyType.PropertyType_String:
+                case Renga.PropertyType.PropertyType_Mass:
+                    _property.SetMassValue((double)_value, Renga.MassUnit.MassUnit_Kilograms); break;
+                case Renga.PropertyType.PropertyType_String:
                     _property.SetStringValue((string)_value); break;
-                case PropertyType.PropertyType_Volume:
-                    _property.SetVolumeValue((double)_value, VolumeUnit.VolumeUnit_Meters3); break;
+                case Renga.PropertyType.PropertyType_Volume:
+                    _property.SetVolumeValue((double)_value, Renga.VolumeUnit.VolumeUnit_Meters3); break;
             }
 
             //object prop_value = Utils.GetPropertyValue(_property);
@@ -99,7 +99,7 @@ namespace Renga.Utilities
             for (int item_counter = 0; item_counter < guids.Count; item_counter++)
             {
                 Guid id = guids.Get(item_counter);
-                IProperty property = prop_defs.Get(id);
+                Renga.IProperty property = prop_defs.Get(id);
                 if (_prop_ids2.Contains(id))
                 {
                     int prop_index = _prop_ids.IndexOf(property.IdS);
@@ -117,7 +117,7 @@ namespace Renga.Utilities
             for (int item_counter = 0; item_counter < guids.Count; item_counter++)
             {
                 Guid id = guids.Get(item_counter);
-                IProperty property = prop_defs.Get(id);
+                Renga.IProperty property = prop_defs.Get(id);
                 if (_prop_names.Contains(property.Name))
                 {
                     int prop_index = _prop_names.IndexOf(property.Name);
@@ -150,7 +150,7 @@ namespace Renga.Utilities
         }
         public static Dictionary<string, List<Renga.IModelObject>> GetObjectsOnLevelsByTypes(Renga.IModel _model, Guid[] _ids)
         {
-            var Levels = Renga.Utilities.Utils.GetObjectsFromModelByTypes(_model, new Guid[] { Renga.ObjectTypes.RengaObjectTypes.Level });
+            var Levels = _Renga.Utilities.Utils.GetObjectsFromModelByTypes(_model, new Guid[] { _Renga.ObjectTypes.RengaObjectTypes.Level });
             Dictionary<int, Renga.ILevel> Level2Name = new Dictionary<int, Renga.ILevel>();
             foreach (var level in Levels)
             {
@@ -176,7 +176,7 @@ namespace Renga.Utilities
                             {
 
                                 //List<BaseI_Renga> objects_one = new List<BaseI_Renga>() { inst };
-                                List<Renga.IModelObject> objects_one = new List<IModelObject> { single_object };
+                                List<Renga.IModelObject> objects_one = new List<Renga.IModelObject> { single_object };
                                 objects.Add(level.LevelName, objects_one);
                             }
                             else objects[level.LevelName].Add(single_object); //inst
@@ -192,7 +192,7 @@ namespace Renga.Utilities
             for (int prop_counter = 0; prop_counter < _names.Count; prop_counter++)
             {
                 string prop_name = _names[prop_counter];
-                PropertyType prop_type = (PropertyType)_types[prop_counter];
+                Renga.PropertyType prop_type = (Renga.PropertyType)_types[prop_counter];
                 List<object> prop_to_types = _to_types[prop_counter];
                 Guid guid = Guid.NewGuid();
                 if (_guids != null)

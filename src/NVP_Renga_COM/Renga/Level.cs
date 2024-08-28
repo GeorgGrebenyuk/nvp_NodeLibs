@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///
 ///</summary>
-namespace Renga.Level 
+namespace NVP_Renga_COM._Renga.Level 
 {
 
 	[NVP_Manifest(

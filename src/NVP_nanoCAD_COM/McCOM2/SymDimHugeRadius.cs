@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Huge radius dimension
 ///</summary>
-namespace McCOM2.SymDimHugeRadius 
+namespace NVP_nanoCAD_COM._McCOM2.SymDimHugeRadius 
 {
 
 	[NVP_Manifest(

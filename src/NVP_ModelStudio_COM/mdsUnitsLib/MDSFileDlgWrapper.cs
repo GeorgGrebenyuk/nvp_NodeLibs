@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IMDSFileDlgWrapper Interface
 ///</summary>
-namespace mdsUnitsLib.MDSFileDlgWrapper 
+namespace NVP_ModelStudio_COM._mdsUnitsLib.MDSFileDlgWrapper 
 {
 
 	[NVP_Manifest(

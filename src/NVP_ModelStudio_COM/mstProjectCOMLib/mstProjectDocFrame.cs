@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///ImstProjectDocFrame Interface
 ///</summary>
-namespace mstProjectCOMLib.mstProjectDocFrame 
+namespace NVP_ModelStudio_COM._mstProjectCOMLib.mstProjectDocFrame 
 {
 
 	[NVP_Manifest(

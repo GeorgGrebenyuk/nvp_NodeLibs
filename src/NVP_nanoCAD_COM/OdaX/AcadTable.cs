@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of table object
 ///</summary>
-namespace OdaX.AcadTable 
+namespace NVP_nanoCAD_COM._OdaX.AcadTable 
 {
 
 	[NVP_Manifest(

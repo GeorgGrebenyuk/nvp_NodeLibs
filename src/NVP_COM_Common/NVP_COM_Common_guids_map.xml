@@ -2,76 +2,148 @@
 <Auxiliary_Guids_Map xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ElementsMap>
     <Auxiliary_Guids_Map_Item>
-      <Path>Common.GetInterface</Path>
+      <Path>NVP_Common.Common.GetInterface</Path>
       <Id>BEF5FB18-6C25-4FEC-80ED-989FA1DD9036</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>Common.GetROT</Path>
+      <Path>NVP_Common.Common.GetROT</Path>
       <Id>CD4A7926-7820-4ABC-92C4-B0C8D4A1EA9F</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>Common.IsNull</Path>
+      <Path>NVP_Common.Common.IsNull</Path>
       <Id>56A96CF6-4D48-4549-A7CA-1F0A8595DF14</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>Common.CreateInstance</Path>
+      <Path>NVP_Common.Common.CreateInstance</Path>
       <Id>9B8B645A-E1EC-40FA-A201-0109D562691D</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>ProgIds.ProgID_LibManager_CADLibrary</Path>
+      <Path>NVP_Common.ProgIds.ProgID_LibManager_CADLibrary</Path>
       <Id>0D87203D-F884-47B0-87B0-76E85939B519</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>ProgIds.ProgID_McCOM2</Path>
+      <Path>NVP_Common.ProgIds.ProgID_McCOM2</Path>
       <Id>0D87203D-F884-47B0-87B0-76E85939B519</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>ProgIds.ProgID_nanoCAD_Universal</Path>
+      <Path>NVP_Common.ProgIds.ProgID_nanoCAD_Universal</Path>
       <Id>308B52DD-E4CD-4E1B-9AEA-14EC6432B6FA</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>ProgIds.ProgID_nanoCAD_3_5</Path>
+      <Path>NVP_Common.ProgIds.ProgID_nanoCAD_3_5</Path>
       <Id>4A566A5E-A238-450F-B5DC-1C0693DB3535</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>ProgIds.ProgID_nanoCAD_9_0</Path>
+      <Path>NVP_Common.ProgIds.ProgID_nanoCAD_9_0</Path>
       <Id>D96D5B16-AD70-470E-8EB0-4C4F51CB65DF</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>ProgIds.ProgID_nanoCAD_10_0</Path>
+      <Path>NVP_Common.ProgIds.ProgID_nanoCAD_10_0</Path>
       <Id>1CFA7A11-F3C9-4F6F-B4FA-7B9CA5F72E55</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>ProgIds.ProgID_nanoCAD_11_0</Path>
+      <Path>NVP_Common.ProgIds.ProgID_nanoCAD_11_0</Path>
       <Id>53B844D2-EB56-4DCE-B2BE-C80CC16FCD82</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>ProgIds.ProgID_nanoCAD_12_0</Path>
+      <Path>NVP_Common.ProgIds.ProgID_nanoCAD_12_0</Path>
       <Id>97697CBF-152B-4ABB-920D-9DEA9FFDEBCC</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>ProgIds.ProgID_nanoCAD_21_0</Path>
+      <Path>NVP_Common.ProgIds.ProgID_nanoCAD_21_0</Path>
       <Id>0BDB6C5B-5D21-4B48-BE5A-C0127C90B2E1</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>ProgIds.ProgID_nanoCAD_22_0</Path>
+      <Path>NVP_Common.ProgIds.ProgID_nanoCAD_22_0</Path>
       <Id>0E0A1C95-2BD8-4895-BC7E-DEF9694146B3</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>ProgIds.ProgID_nanoCAD_23_0</Path>
+      <Path>NVP_Common.ProgIds.ProgID_nanoCAD_23_0</Path>
       <Id>D5F46567-ACF6-4C76-BBD0-B5A2EBCEE59E</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>ProgIds.ProgID_nanoCAD_24_0</Path>
+      <Path>NVP_Common.ProgIds.ProgID_nanoCAD_24_0</Path>
       <Id>AFCBDF8F-E1A6-45AC-B8E8-9B121E004374</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>ProgIds.ProgID_nanoCAD_24_1</Path>
+      <Path>NVP_Common.ProgIds.ProgID_nanoCAD_24_1</Path>
       <Id>1DB8227C-3EE4-41A5-AF92-AE126990DD44</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>ProgIds.ProgID_Renga</Path>
+      <Path>NVP_Common.ProgIds.ProgID_Renga</Path>
       <Id>EB58B46D-B47E-4E4C-933E-3BE0B30361F1</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>NVP_COM_Common.ProgIds.ProgID_LibManager_CADLibrary</Path>
+      <Id>1CB75861-6C56-42B3-B327-6059EAB1313F</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>NVP_COM_Common.ProgIds.ProgID_McCOM2</Path>
+      <Id>E2D15907-803E-46A2-B14E-46FEACAF9034</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>NVP_COM_Common.ProgIds.ProgID_nanoCAD_Universal</Path>
+      <Id>46AE76DF-60CC-4055-8F5A-3C910FA0E935</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>NVP_COM_Common.ProgIds.ProgID_nanoCAD_3_5</Path>
+      <Id>5A96E722-F79E-450E-9D0A-38081B955D68</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>NVP_COM_Common.ProgIds.ProgID_nanoCAD_9_0</Path>
+      <Id>8F6CA90A-17B1-4E5A-8ECD-A0A4BC0CD350</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>NVP_COM_Common.ProgIds.ProgID_nanoCAD_10_0</Path>
+      <Id>46D29A2D-BD87-4385-980E-01BBCC918FE7</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>NVP_COM_Common.ProgIds.ProgID_nanoCAD_11_0</Path>
+      <Id>EF995879-486A-49D8-91F2-CFBF4ED59A87</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>NVP_COM_Common.ProgIds.ProgID_nanoCAD_12_0</Path>
+      <Id>FB011E81-4424-4F0A-A48E-616C3419027E</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>NVP_COM_Common.ProgIds.ProgID_nanoCAD_21_0</Path>
+      <Id>6E4AA128-79BF-4A4E-BAA4-BB52ECB4479C</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>NVP_COM_Common.ProgIds.ProgID_nanoCAD_22_0</Path>
+      <Id>A68770EE-A62F-4B0A-AA9A-8C28F31EB339</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>NVP_COM_Common.ProgIds.ProgID_nanoCAD_23_0</Path>
+      <Id>39E5C7BB-9505-44B5-A1A5-40CDABDF7228</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>NVP_COM_Common.ProgIds.ProgID_nanoCAD_24_0</Path>
+      <Id>E30D9900-DC78-48AD-AB43-02126BAEC575</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>NVP_COM_Common.ProgIds.ProgID_nanoCAD_24_1</Path>
+      <Id>3CC2513B-4772-480A-A403-8DF7C71FC409</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>NVP_COM_Common.ProgIds.ProgID_Renga</Path>
+      <Id>A8CC4E00-1EAA-4637-89CB-8FEB5AD2DDC4</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>NVP_COM_Common.Common.GetInterface</Path>
+      <Id>E4D30921-4051-47FC-9006-66B474189C4F</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>NVP_COM_Common.Common.GetROT</Path>
+      <Id>CD09D1CE-7FD1-41B9-9A86-EF168F353603</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>NVP_COM_Common.Common.IsNull</Path>
+      <Id>18B6BA3D-75EE-4558-93DE-F5E7E99C1ADF</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>NVP_COM_Common.Common.CreateInstance</Path>
+      <Id>BE54D709-1FA5-4340-A33C-48B75398D1D3</Id>
     </Auxiliary_Guids_Map_Item>
   </ElementsMap>
 </Auxiliary_Guids_Map>

@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Provides an interface to the database resident objects in an TeighaX document
 ///</summary>
-namespace OdaX.AcadDatabase 
+namespace NVP_nanoCAD_COM._OdaX.AcadDatabase 
 {
 
 	[NVP_Manifest(

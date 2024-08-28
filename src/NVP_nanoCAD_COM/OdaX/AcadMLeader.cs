@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Multi-Leader Interface
 ///</summary>
-namespace OdaX.AcadMLeader 
+namespace NVP_nanoCAD_COM._OdaX.AcadMLeader 
 {
 
 	[NVP_Manifest(

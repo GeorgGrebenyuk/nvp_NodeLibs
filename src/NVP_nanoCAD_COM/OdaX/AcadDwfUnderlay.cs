@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///
 ///</summary>
-namespace OdaX.AcadDwfUnderlay 
+namespace NVP_nanoCAD_COM._OdaX.AcadDwfUnderlay 
 {
 
 	[NVP_Manifest(

@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///ISymWeld interface
 ///</summary>
-namespace McCOM2.SymWeld 
+namespace NVP_nanoCAD_COM._McCOM2.SymWeld 
 {
 
 	[NVP_Manifest(

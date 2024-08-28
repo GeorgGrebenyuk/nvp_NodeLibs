@@ -4,10 +4,9 @@ using System.Collections.Generic;
 
 using NVP_Manifest_Creator;
 using Teigha.DatabaseServices;
-using ncCommon;
 
 
-namespace Application.Database
+namespace NVP_nanoCAD_Platform_NET.Application.Database
 {
 
     [NVP_Manifest(

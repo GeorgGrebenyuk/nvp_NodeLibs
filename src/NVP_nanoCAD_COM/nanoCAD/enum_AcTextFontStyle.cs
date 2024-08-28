@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///
 ///</summary>
-namespace nanoCAD.enum_AcTextFontStyle 
+namespace NVP_nanoCAD_COM._nanoCAD.enum_AcTextFontStyle 
 {
 
 

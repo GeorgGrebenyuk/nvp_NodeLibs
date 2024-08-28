@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of the render material characteristics
 ///</summary>
-namespace OdaX.AcadMaterial 
+namespace NVP_nanoCAD_COM._OdaX.AcadMaterial 
 {
 
 	[NVP_Manifest(

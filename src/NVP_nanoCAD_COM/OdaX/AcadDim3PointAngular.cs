@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of a dimension measuring the angular distance between three points
 ///</summary>
-namespace OdaX.AcadDim3PointAngular 
+namespace NVP_nanoCAD_COM._OdaX.AcadDim3PointAngular 
 {
 
 	[NVP_Manifest(

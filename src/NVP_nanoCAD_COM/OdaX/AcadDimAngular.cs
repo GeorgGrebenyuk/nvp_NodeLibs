@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of a dimension measuring the angular distance between two lines or between the angle of a circular arc
 ///</summary>
-namespace OdaX.AcadDimAngular 
+namespace NVP_nanoCAD_COM._OdaX.AcadDimAngular 
 {
 
 	[NVP_Manifest(

@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///LinkData Interface
 ///</summary>
-namespace mdsLINEComLib.MDSLLinkData 
+namespace NVP_ModelStudio_COM._mdsLINEComLib.MDSLLinkData 
 {
 
 	[NVP_Manifest(

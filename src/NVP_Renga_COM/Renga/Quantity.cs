@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///
 ///</summary>
-namespace Renga.Quantity 
+namespace NVP_Renga_COM._Renga.Quantity 
 {
 
 	[NVP_Manifest(

@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///The collection of all drawings open in the current session
 ///</summary>
-namespace nanoCAD.nanoCADDocuments 
+namespace NVP_nanoCAD_COM._nanoCAD.nanoCADDocuments 
 {
 
 	[NVP_Manifest(
@@ -168,10 +168,10 @@ namespace nanoCAD.nanoCADDocuments
         public NodeResult Execute(INVPData context, List<NodeResult> inputs)
         {
             var _input0 = ((dynamic)inputs[0].Value)._i as nanoCAD.InanoCADDocuments;
-            List<nanoCAD.nanoCADDocument.nanoCADDocument_Constructor> items = new List<nanoCAD.nanoCADDocument.nanoCADDocument_Constructor>();
+            List<_nanoCAD.nanoCADDocument.nanoCADDocument_Constructor> items = new List<_nanoCAD.nanoCADDocument.nanoCADDocument_Constructor>();
             for (int item_counter = 0; item_counter < _input0.Count; item_counter++)
             {
-                nanoCAD.nanoCADDocument.nanoCADDocument_Constructor item = new nanoCAD.nanoCADDocument.nanoCADDocument_Constructor();
+                _nanoCAD.nanoCADDocument.nanoCADDocument_Constructor item = new _nanoCAD.nanoCADDocument.nanoCADDocument_Constructor();
                 item._i = _input0[item_counter];
                 items.Add(item);
             }

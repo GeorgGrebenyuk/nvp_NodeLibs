@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Break designation
 ///</summary>
-namespace McCOM2.SymBreak 
+namespace NVP_nanoCAD_COM._McCOM2.SymBreak 
 {
 
 	[NVP_Manifest(

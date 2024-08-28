@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///
 ///</summary>
-namespace Renga.RebarStyle 
+namespace NVP_Renga_COM._Renga.RebarStyle 
 {
 
 	[NVP_Manifest(

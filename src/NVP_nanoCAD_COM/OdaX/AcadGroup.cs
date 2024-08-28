@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of a named SelectionSet object
 ///</summary>
-namespace OdaX.AcadGroup 
+namespace NVP_nanoCAD_COM._OdaX.AcadGroup 
 {
 
 	[NVP_Manifest(

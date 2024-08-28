@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of a dimension measuring the length of an arc
 ///</summary>
-namespace OdaX.AcadDimArcLength 
+namespace NVP_nanoCAD_COM._OdaX.AcadDimArcLength 
 {
 
 	[NVP_Manifest(

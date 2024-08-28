@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IMcCOMReportManager Interface
 ///</summary>
-namespace McCOM2.McCOMReportManager 
+namespace NVP_nanoCAD_COM._McCOM2.McCOMReportManager 
 {
 
 	[NVP_Manifest(

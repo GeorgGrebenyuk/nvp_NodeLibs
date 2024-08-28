@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of an object comprising lines, arcs, and circles defined in an SHX file
 ///</summary>
-namespace OdaX.AcadShape 
+namespace NVP_nanoCAD_COM._OdaX.AcadShape 
 {
 
 	[NVP_Manifest(

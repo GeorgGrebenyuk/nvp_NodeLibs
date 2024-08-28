@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IWrAECSection Interface
 ///</summary>
-namespace ironObjComLib.WrAECSection 
+namespace NVP_ModelStudio_COM._ironObjComLib.WrAECSection 
 {
 
 	[NVP_Manifest(

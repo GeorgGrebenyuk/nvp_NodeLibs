@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Standard detail
 ///</summary>
-namespace McCOM2.SymPart 
+namespace NVP_nanoCAD_COM._McCOM2.SymPart 
 {
 
 	[NVP_Manifest(

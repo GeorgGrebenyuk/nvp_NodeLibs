@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of a URL and URL description
 ///</summary>
-namespace OdaX.AcadHyperlink 
+namespace NVP_nanoCAD_COM._OdaX.AcadHyperlink 
 {
 
 	[NVP_Manifest(

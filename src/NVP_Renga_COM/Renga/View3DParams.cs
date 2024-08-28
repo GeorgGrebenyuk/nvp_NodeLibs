@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///
 ///</summary>
-namespace Renga.View3DParams 
+namespace NVP_Renga_COM._Renga.View3DParams 
 {
 
 	[NVP_Manifest(

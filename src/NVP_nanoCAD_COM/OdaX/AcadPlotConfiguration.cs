@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of a named collection of plot settings
 ///</summary>
-namespace OdaX.AcadPlotConfiguration 
+namespace NVP_nanoCAD_COM._OdaX.AcadPlotConfiguration 
 {
 
 	[NVP_Manifest(

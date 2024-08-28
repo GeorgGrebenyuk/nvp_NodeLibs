@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Leader points interface
 ///</summary>
-namespace McCOM2.Leader 
+namespace NVP_nanoCAD_COM._McCOM2.Leader 
 {
 
 	[NVP_Manifest(

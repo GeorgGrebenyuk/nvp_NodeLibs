@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of a 3D polyline of straight line segments entity
 ///</summary>
-namespace OdaX.Acad3DPolyline 
+namespace NVP_nanoCAD_COM._OdaX.Acad3DPolyline 
 {
 
 	[NVP_Manifest(

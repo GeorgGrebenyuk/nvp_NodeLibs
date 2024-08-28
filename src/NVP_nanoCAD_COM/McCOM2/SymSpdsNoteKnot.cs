@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///ISymSpdsNoteKnot interface
 ///</summary>
-namespace McCOM2.SymSpdsNoteKnot 
+namespace NVP_nanoCAD_COM._McCOM2.SymSpdsNoteKnot 
 {
 
 	[NVP_Manifest(

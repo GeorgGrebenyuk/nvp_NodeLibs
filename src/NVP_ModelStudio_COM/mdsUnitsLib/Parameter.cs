@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IParameter Interface
 ///</summary>
-namespace mdsUnitsLib.Parameter 
+namespace NVP_ModelStudio_COM._mdsUnitsLib.Parameter 
 {
 
 	[NVP_Manifest(

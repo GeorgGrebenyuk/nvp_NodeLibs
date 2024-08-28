@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IMDSELCollision Interface
 ///</summary>
-namespace mdsUnitsLib.MDSELCollision 
+namespace NVP_ModelStudio_COM._mdsUnitsLib.MDSELCollision 
 {
 
 	[NVP_Manifest(

@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IURSApplication Interface
 ///</summary>
-namespace mdsURSLib.URSApplication 
+namespace NVP_ModelStudio_COM._mdsURSLib.URSApplication 
 {
 
 	[NVP_Manifest(

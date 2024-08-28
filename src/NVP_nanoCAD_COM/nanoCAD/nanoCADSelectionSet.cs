@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///A group of one or more objects specified for processing as a single unit
 ///</summary>
-namespace nanoCAD.nanoCADSelectionSet 
+namespace NVP_nanoCAD_COM._nanoCAD.nanoCADSelectionSet 
 {
 
 	[NVP_Manifest(

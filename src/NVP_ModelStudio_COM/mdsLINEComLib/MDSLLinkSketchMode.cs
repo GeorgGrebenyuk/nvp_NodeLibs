@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IMDSLLinkSketchMode Interface
 ///</summary>
-namespace mdsLINEComLib.MDSLLinkSketchMode 
+namespace NVP_ModelStudio_COM._mdsLINEComLib.MDSLLinkSketchMode 
 {
 
 	[NVP_Manifest(

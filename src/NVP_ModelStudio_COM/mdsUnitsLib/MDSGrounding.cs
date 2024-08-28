@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///
 ///</summary>
-namespace mdsUnitsLib.MDSGrounding 
+namespace NVP_ModelStudio_COM._mdsUnitsLib.MDSGrounding 
 {
 
 	[NVP_Manifest(

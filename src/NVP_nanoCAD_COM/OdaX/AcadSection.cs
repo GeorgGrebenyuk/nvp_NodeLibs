@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of a section plane entity created at the intersection of a plane and a solid
 ///</summary>
-namespace OdaX.AcadSection 
+namespace NVP_nanoCAD_COM._OdaX.AcadSection 
 {
 
 	[NVP_Manifest(

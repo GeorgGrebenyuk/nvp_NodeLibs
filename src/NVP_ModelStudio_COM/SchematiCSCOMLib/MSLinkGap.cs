@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IMSLinkGap Interface
 ///</summary>
-namespace SchematiCSCOMLib.MSLinkGap 
+namespace NVP_ModelStudio_COM._SchematiCSCOMLib.MSLinkGap 
 {
 
 	[NVP_Manifest(

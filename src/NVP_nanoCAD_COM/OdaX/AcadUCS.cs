@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of a user-defined coordinate system that determines the orientation of the X, Y, and Z axes in 3D space
 ///</summary>
-namespace OdaX.AcadUCS 
+namespace NVP_nanoCAD_COM._OdaX.AcadUCS 
 {
 
 	[NVP_Manifest(

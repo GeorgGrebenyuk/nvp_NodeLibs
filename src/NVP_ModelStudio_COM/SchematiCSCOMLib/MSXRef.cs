@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IMSXRef Interface
 ///</summary>
-namespace SchematiCSCOMLib.MSXRef 
+namespace NVP_ModelStudio_COM._SchematiCSCOMLib.MSXRef 
 {
 
 	[NVP_Manifest(

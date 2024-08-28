@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IMDSLEarth Interface
 ///</summary>
-namespace mdsLINEComLib.MDSLEarth 
+namespace NVP_ModelStudio_COM._mdsLINEComLib.MDSLEarth 
 {
 
 	[NVP_Manifest(

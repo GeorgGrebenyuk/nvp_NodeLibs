@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface to provide an access to drawing properties such as the Title, Subject, Author, and Keywords properties
 ///</summary>
-namespace OdaX.AcadSummaryInfo 
+namespace NVP_nanoCAD_COM._OdaX.AcadSummaryInfo 
 {
 
 	[NVP_Manifest(

@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///
 ///</summary>
-namespace Renga.ObjectReinforcementModel 
+namespace NVP_Renga_COM._Renga.ObjectReinforcementModel 
 {
 
 	[NVP_Manifest(

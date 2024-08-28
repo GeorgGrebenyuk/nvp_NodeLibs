@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IWrAECRoofSurf Interface
 ///</summary>
-namespace ironObjComLib.WrAECRoofSurf 
+namespace NVP_ModelStudio_COM._ironObjComLib.WrAECRoofSurf 
 {
 
 	[NVP_Manifest(

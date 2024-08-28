@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of a circular arc entity
 ///</summary>
-namespace OdaX.AcadArc 
+namespace NVP_nanoCAD_COM._OdaX.AcadArc 
 {
 
 	[NVP_Manifest(

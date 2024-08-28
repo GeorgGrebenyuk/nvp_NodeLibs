@@ -4,7 +4,7 @@ using Teigha.Geometry;
 using System;
 using System.Collections.Generic;
 
-namespace ncCommon
+namespace NVP_nanoCAD_Platform_NET
 {
     public class CommonData
     {

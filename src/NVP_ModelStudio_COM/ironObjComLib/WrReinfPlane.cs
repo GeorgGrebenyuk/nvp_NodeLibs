@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IWrReinfPlane Interface
 ///</summary>
-namespace ironObjComLib.WrReinfPlane 
+namespace NVP_ModelStudio_COM._ironObjComLib.WrReinfPlane 
 {
 
 	[NVP_Manifest(

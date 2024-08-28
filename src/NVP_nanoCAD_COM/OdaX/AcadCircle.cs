@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of a full circle entity
 ///</summary>
-namespace OdaX.AcadCircle 
+namespace NVP_nanoCAD_COM._OdaX.AcadCircle 
 {
 
 	[NVP_Manifest(

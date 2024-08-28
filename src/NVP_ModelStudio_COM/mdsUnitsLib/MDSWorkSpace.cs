@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IMDSWorkSpace Interface
 ///</summary>
-namespace mdsUnitsLib.MDSWorkSpace 
+namespace NVP_ModelStudio_COM._mdsUnitsLib.MDSWorkSpace 
 {
 
 	[NVP_Manifest(

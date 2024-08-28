@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 using NVP_Manifest_Creator;
 
-namespace mdsUnitsLib.Selection
+namespace NVP_ModelStudio_COM._mdsUnitsLib.Selection
 {
     public class Test
     {
@@ -20,7 +20,7 @@ namespace mdsUnitsLib.Selection
         public NodeResult Execute(INVPData context, List<NodeResult> inputs)
         {
             var _input0 = ((dynamic)inputs[0].Value)._i as OdaX.IAcadBlock;
-            List<mdsUnitsLib.Element.Element_Constructor> items = new List<mdsUnitsLib.Element.Element_Constructor>();
+            List<_mdsUnitsLib.Element.Element_Constructor> items = new List<_mdsUnitsLib.Element.Element_Constructor>();
             for (int item_counter = 0; item_counter < _input0.Count; item_counter++)
             {
                 var item = new Test();
@@ -36,7 +36,7 @@ namespace mdsUnitsLib.Selection
 
                 if (can_add)
                 {
-                    mdsUnitsLib.Element.Element_Constructor elem = new Element.Element_Constructor();
+                    _mdsUnitsLib.Element.Element_Constructor elem = new Element.Element_Constructor();
                     elem._i = item._i.Element;
                     items.Add(elem);
                 }

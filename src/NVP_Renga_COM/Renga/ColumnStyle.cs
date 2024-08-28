@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///
 ///</summary>
-namespace Renga.ColumnStyle 
+namespace NVP_Renga_COM._Renga.ColumnStyle 
 {
 
 	[NVP_Manifest(

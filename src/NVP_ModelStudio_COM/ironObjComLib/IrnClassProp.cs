@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IIrnClassProp Interface
 ///</summary>
-namespace ironObjComLib.IrnClassProp 
+namespace NVP_ModelStudio_COM._ironObjComLib.IrnClassProp 
 {
 
 	[NVP_Manifest(

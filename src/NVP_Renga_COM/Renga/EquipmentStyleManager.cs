@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///
 ///</summary>
-namespace Renga.EquipmentStyleManager 
+namespace NVP_Renga_COM._Renga.EquipmentStyleManager 
 {
 
 	[NVP_Manifest(

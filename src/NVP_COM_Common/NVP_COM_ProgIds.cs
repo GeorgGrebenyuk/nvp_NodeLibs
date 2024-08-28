@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProgIds
+namespace NVP_COM_Common.ProgIds
 {
     #region ModelStudio CS
     [NVP_Manifest(

@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///The collection of all selection sets in the drawing
 ///</summary>
-namespace nanoCAD.nanoCADSelectionSets 
+namespace NVP_nanoCAD_COM._nanoCAD.nanoCADSelectionSets 
 {
 
 	[NVP_Manifest(
@@ -127,10 +127,10 @@ namespace nanoCAD.nanoCADSelectionSets
         public NodeResult Execute(INVPData context, List<NodeResult> inputs)
         {
             var _input0 = ((dynamic)inputs[0].Value)._i as nanoCAD.InanoCADSelectionSets;
-            List<nanoCAD.nanoCADSelectionSet.nanoCADSelectionSet_Constructor> items = new List<nanoCAD.nanoCADSelectionSet.nanoCADSelectionSet_Constructor>();
+            List<_nanoCAD.nanoCADSelectionSet.nanoCADSelectionSet_Constructor> items = new List<_nanoCAD.nanoCADSelectionSet.nanoCADSelectionSet_Constructor>();
             for (int item_counter = 0; item_counter < _input0.Count; item_counter++)
             {
-                nanoCAD.nanoCADSelectionSet.nanoCADSelectionSet_Constructor item = new nanoCAD.nanoCADSelectionSet.nanoCADSelectionSet_Constructor();
+                _nanoCAD.nanoCADSelectionSet.nanoCADSelectionSet_Constructor item = new _nanoCAD.nanoCADSelectionSet.nanoCADSelectionSet_Constructor();
                 item._i = _input0[item_counter];
                 items.Add(item);
             }

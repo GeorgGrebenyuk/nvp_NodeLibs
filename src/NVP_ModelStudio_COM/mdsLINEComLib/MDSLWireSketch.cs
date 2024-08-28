@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Провод
 ///</summary>
-namespace mdsLINEComLib.MDSLWireSketch 
+namespace NVP_ModelStudio_COM._mdsLINEComLib.MDSLWireSketch 
 {
 
 	[NVP_Manifest(

@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///
 ///</summary>
-namespace OdaX.enum_AcCoordinateSystem 
+namespace NVP_nanoCAD_COM._OdaX.enum_AcCoordinateSystem 
 {
 
 

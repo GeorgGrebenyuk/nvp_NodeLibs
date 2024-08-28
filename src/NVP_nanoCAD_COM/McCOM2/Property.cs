@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Object property interface
 ///</summary>
-namespace McCOM2.Property 
+namespace NVP_nanoCAD_COM._McCOM2.Property 
 {
 
 	[NVP_Manifest(

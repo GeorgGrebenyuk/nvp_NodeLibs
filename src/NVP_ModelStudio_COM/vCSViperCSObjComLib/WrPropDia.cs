@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IWrPropDia Interface
 ///</summary>
-namespace vCSViperCSObjComLib.WrPropDia 
+namespace NVP_ModelStudio_COM._vCSViperCSObjComLib.WrPropDia 
 {
 
 	[NVP_Manifest(

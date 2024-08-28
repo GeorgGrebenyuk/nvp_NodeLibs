@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///ILocalHoleProp Interface
 ///</summary>
-namespace mdsURSLib.LocalHoleProp 
+namespace NVP_ModelStudio_COM._mdsURSLib.LocalHoleProp 
 {
 
 	[NVP_Manifest(

@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///
 ///</summary>
-namespace Renga.Placement2D 
+namespace NVP_Renga_COM._Renga.Placement2D 
 {
 
 	[NVP_Manifest(

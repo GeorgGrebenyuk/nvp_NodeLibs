@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of a solid object with free-form surface support
 ///</summary>
-namespace OdaX.Acad3DSolid 
+namespace NVP_nanoCAD_COM._OdaX.Acad3DSolid 
 {
 
 	[NVP_Manifest(

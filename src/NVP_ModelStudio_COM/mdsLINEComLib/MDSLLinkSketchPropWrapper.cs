@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IMDSLLinkSketchPropWrapper Interface
 ///</summary>
-namespace mdsLINEComLib.MDSLLinkSketchPropWrapper 
+namespace NVP_ModelStudio_COM._mdsLINEComLib.MDSLLinkSketchPropWrapper 
 {
 
 	[NVP_Manifest(

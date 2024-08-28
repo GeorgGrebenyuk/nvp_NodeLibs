@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Angle dimension
 ///</summary>
-namespace McCOM2.SymDimAngle 
+namespace NVP_nanoCAD_COM._McCOM2.SymDimAngle 
 {
 
 	[NVP_Manifest(

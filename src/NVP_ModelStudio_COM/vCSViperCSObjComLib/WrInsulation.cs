@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IWrInsulation Interface
 ///</summary>
-namespace vCSViperCSObjComLib.WrInsulation 
+namespace NVP_ModelStudio_COM._vCSViperCSObjComLib.WrInsulation 
 {
 
 	[NVP_Manifest(

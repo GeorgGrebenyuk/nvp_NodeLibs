@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///McCOM application object
 ///</summary>
-namespace McCOM2.Server2 
+namespace NVP_nanoCAD_COM._McCOM2.Server2 
 {
 
 	[NVP_Manifest(

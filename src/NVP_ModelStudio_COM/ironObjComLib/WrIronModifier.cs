@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IWrIronModifier Interface
 ///</summary>
-namespace ironObjComLib.WrIronModifier 
+namespace NVP_ModelStudio_COM._ironObjComLib.WrIronModifier 
 {
 
 	[NVP_Manifest(

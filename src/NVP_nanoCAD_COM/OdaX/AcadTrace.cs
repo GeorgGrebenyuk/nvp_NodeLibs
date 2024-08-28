@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of a 2D solid line of specified width
 ///</summary>
-namespace OdaX.AcadTrace 
+namespace NVP_nanoCAD_COM._OdaX.AcadTrace 
 {
 
 	[NVP_Manifest(

@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IMDSDataObject Interface
 ///</summary>
-namespace mdsUnitsLib.MDSDataObject 
+namespace NVP_ModelStudio_COM._mdsUnitsLib.MDSDataObject 
 {
 
 	[NVP_Manifest(

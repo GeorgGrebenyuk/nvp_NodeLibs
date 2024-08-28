@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Single line of SymTolerance designation
 ///</summary>
-namespace McCOM2.ToleranceRecord 
+namespace NVP_nanoCAD_COM._McCOM2.ToleranceRecord 
 {
 
 	[NVP_Manifest(

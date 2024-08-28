@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Polyface mesh extended interface
 ///</summary>
-namespace OdaX.OdaPolyfaceMesh 
+namespace NVP_nanoCAD_COM._OdaX.OdaPolyfaceMesh 
 {
 
 	[NVP_Manifest(

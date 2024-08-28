@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///
 ///</summary>
-namespace Renga.Region2D 
+namespace NVP_Renga_COM._Renga.Region2D 
 {
 
 	[NVP_Manifest(

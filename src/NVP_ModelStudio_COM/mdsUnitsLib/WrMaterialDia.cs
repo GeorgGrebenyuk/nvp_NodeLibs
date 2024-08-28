@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IWrMaterialDia Interface
 ///</summary>
-namespace mdsUnitsLib.WrMaterialDia 
+namespace NVP_ModelStudio_COM._mdsUnitsLib.WrMaterialDia 
 {
 
 	[NVP_Manifest(

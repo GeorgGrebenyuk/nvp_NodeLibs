@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///
 ///</summary>
-namespace Renga.Camera3D 
+namespace NVP_Renga_COM._Renga.Camera3D 
 {
 
 	[NVP_Manifest(

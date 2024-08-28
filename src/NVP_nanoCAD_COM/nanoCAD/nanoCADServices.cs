@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///application specific services collection
 ///</summary>
-namespace nanoCAD.nanoCADServices 
+namespace NVP_nanoCAD_COM._nanoCAD.nanoCADServices 
 {
 
 	[NVP_Manifest(

@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IMSLink Interface
 ///</summary>
-namespace SchematiCSCOMLib.MSLink 
+namespace NVP_ModelStudio_COM._SchematiCSCOMLib.MSLink 
 {
 
 	[NVP_Manifest(

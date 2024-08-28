@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of an object containing the properties of a dynamic block
 ///</summary>
-namespace OdaX.AcadDynamicBlockReferenceProperty 
+namespace NVP_nanoCAD_COM._OdaX.AcadDynamicBlockReferenceProperty 
 {
 
 	[NVP_Manifest(

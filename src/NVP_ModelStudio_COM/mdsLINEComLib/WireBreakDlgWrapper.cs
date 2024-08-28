@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IWireBreakDlgWrapper Interface
 ///</summary>
-namespace mdsLINEComLib.WireBreakDlgWrapper 
+namespace NVP_ModelStudio_COM._mdsLINEComLib.WireBreakDlgWrapper 
 {
 
 	[NVP_Manifest(

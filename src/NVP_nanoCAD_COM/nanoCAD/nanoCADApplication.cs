@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Application interface
 ///</summary>
-namespace nanoCAD.nanoCADApplication 
+namespace NVP_nanoCAD_COM._nanoCAD.nanoCADApplication 
 {
 
 	[NVP_Manifest(

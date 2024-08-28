@@ -9,7 +9,7 @@ using NVP_nanoCAD_COM;
 ///<summary>
 ///TeighaX Interface of a block definition containing a name and a set of objects
 ///</summary>
-namespace OdaX.AcadBlock 
+namespace NVP_nanoCAD_COM._OdaX.AcadBlock 
 {
 
 	[NVP_Manifest(
@@ -1740,10 +1740,10 @@ namespace OdaX.AcadBlock
         public NodeResult Execute(INVPData context, List<NodeResult> inputs)
         {
             var _input0 = ((dynamic)inputs[0].Value)._i as OdaX.IAcadBlock;
-            List<OdaX.AcadEntity.AcadEntity_Constructor> items = new List<OdaX.AcadEntity.AcadEntity_Constructor>();
+            List<_OdaX.AcadEntity.AcadEntity_Constructor> items = new List<_OdaX.AcadEntity.AcadEntity_Constructor>();
             for (int item_counter = 0; item_counter < _input0.Count; item_counter++)
             {
-                OdaX.AcadEntity.AcadEntity_Constructor item = new OdaX.AcadEntity.AcadEntity_Constructor();
+                _OdaX.AcadEntity.AcadEntity_Constructor item = new _OdaX.AcadEntity.AcadEntity_Constructor();
                 item._i = _input0.Item(item_counter);
                 items.Add(item);
             }
@@ -1767,10 +1767,10 @@ namespace OdaX.AcadBlock
             var _input0 = ((dynamic)inputs[0].Value)._i as OdaX.IAcadBlock;
 			string _input1 = inputs[1].Value.ToString();
 			bool _input2 = (bool)inputs[2].Value;
-            List<OdaX.AcadEntity.AcadEntity_Constructor> items = new List<OdaX.AcadEntity.AcadEntity_Constructor>();
+            List<_OdaX.AcadEntity.AcadEntity_Constructor> items = new List<_OdaX.AcadEntity.AcadEntity_Constructor>();
             for (int item_counter = 0; item_counter < _input0.Count; item_counter++)
             {
-                OdaX.AcadEntity.AcadEntity_Constructor item = new OdaX.AcadEntity.AcadEntity_Constructor();
+                _OdaX.AcadEntity.AcadEntity_Constructor item = new _OdaX.AcadEntity.AcadEntity_Constructor();
                 item._i = _input0.Item(item_counter);
 
 				bool can_add = false;
@@ -1799,10 +1799,10 @@ namespace OdaX.AcadBlock
             var _input0 = ((dynamic)inputs[0].Value)._i as OdaX.IAcadBlock;
             List<string> _input1 = inputs[1].Value as List<string>;
             bool _input2 = (bool)inputs[2].Value;
-            List<OdaX.AcadEntity.AcadEntity_Constructor> items = new List<OdaX.AcadEntity.AcadEntity_Constructor>();
+            List<_OdaX.AcadEntity.AcadEntity_Constructor> items = new List<_OdaX.AcadEntity.AcadEntity_Constructor>();
             for (int item_counter = 0; item_counter < _input0.Count; item_counter++)
             {
-                OdaX.AcadEntity.AcadEntity_Constructor item = new OdaX.AcadEntity.AcadEntity_Constructor();
+                _OdaX.AcadEntity.AcadEntity_Constructor item = new _OdaX.AcadEntity.AcadEntity_Constructor();
                 item._i = _input0.Item(item_counter);
 
                 bool can_add = false;
@@ -1831,7 +1831,7 @@ namespace OdaX.AcadBlock
         public NodeResult Execute(INVPData context, List<NodeResult> inputs)
         {
             var _input0 = ((dynamic)inputs[0].Value)._i as OdaX.IAcadBlock;
-            List<OdaX.AcadEntity.AcadEntity_Constructor> items = new List<OdaX.AcadEntity.AcadEntity_Constructor>();
+            List<_OdaX.AcadEntity.AcadEntity_Constructor> items = new List<_OdaX.AcadEntity.AcadEntity_Constructor>();
             for (int item_counter = 0; item_counter < _input0.Count; item_counter++)
             {
                 var item = new BaseClass();
@@ -1847,7 +1847,7 @@ namespace OdaX.AcadBlock
 
                 if (can_add)
                 {
-                    OdaX.AcadEntity.AcadEntity_Constructor elem = new OdaX.AcadEntity.AcadEntity_Constructor();
+                    _OdaX.AcadEntity.AcadEntity_Constructor elem = new _OdaX.AcadEntity.AcadEntity_Constructor();
                     elem._i = item._i;
                     items.Add(elem);
                 }

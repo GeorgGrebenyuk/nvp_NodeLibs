@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Base surface for tolerance designation
 ///</summary>
-namespace McCOM2.SymBase 
+namespace NVP_nanoCAD_COM._McCOM2.SymBase 
 {
 
 	[NVP_Manifest(

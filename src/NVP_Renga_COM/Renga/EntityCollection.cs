@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///
 ///</summary>
-namespace Renga.EntityCollection 
+namespace NVP_Renga_COM._Renga.EntityCollection 
 {
 
 	[NVP_Manifest(

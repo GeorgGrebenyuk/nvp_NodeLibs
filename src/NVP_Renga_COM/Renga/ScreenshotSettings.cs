@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///
 ///</summary>
-namespace Renga.ScreenshotSettings 
+namespace NVP_Renga_COM._Renga.ScreenshotSettings 
 {
 
 	[NVP_Manifest(

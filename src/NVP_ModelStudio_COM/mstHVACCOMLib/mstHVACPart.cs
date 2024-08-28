@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///ImstHVACPart Interface
 ///</summary>
-namespace mstHVACCOMLib.mstHVACPart 
+namespace NVP_ModelStudio_COM._mstHVACCOMLib.mstHVACPart 
 {
 
 	[NVP_Manifest(

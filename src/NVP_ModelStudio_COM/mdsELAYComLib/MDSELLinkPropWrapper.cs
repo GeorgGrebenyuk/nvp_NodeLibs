@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IMDSELLinkPropWrapper Interface
 ///</summary>
-namespace mdsELAYComLib.MDSELLinkPropWrapper 
+namespace NVP_ModelStudio_COM._mdsELAYComLib.MDSELLinkPropWrapper 
 {
 
 	[NVP_Manifest(

@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IWrAxis Interface
 ///</summary>
-namespace vCSViperCSObjComLib.WrAxis 
+namespace NVP_ModelStudio_COM._vCSViperCSObjComLib.WrAxis 
 {
 
 	[NVP_Manifest(

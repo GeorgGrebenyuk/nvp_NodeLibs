@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IWrDiameter1Dia Interface
 ///</summary>
-namespace vCSViperCSObjComLib.WrDiameter1Dia 
+namespace NVP_ModelStudio_COM._vCSViperCSObjComLib.WrDiameter1Dia 
 {
 
 	[NVP_Manifest(

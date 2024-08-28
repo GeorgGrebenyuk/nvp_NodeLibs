@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///
 ///</summary>
-namespace Renga.Image 
+namespace NVP_Renga_COM._Renga.Image 
 {
 
 	[NVP_Manifest(

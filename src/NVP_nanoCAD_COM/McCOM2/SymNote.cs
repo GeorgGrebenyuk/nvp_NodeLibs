@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Note mark
 ///</summary>
-namespace McCOM2.SymNote 
+namespace NVP_nanoCAD_COM._McCOM2.SymNote 
 {
 
 	[NVP_Manifest(

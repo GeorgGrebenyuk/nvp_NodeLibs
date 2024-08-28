@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IMDSParametersDlg Interface
 ///</summary>
-namespace mdsUnitsLib.MDSParametersDlg 
+namespace NVP_ModelStudio_COM._mdsUnitsLib.MDSParametersDlg 
 {
 
 	[NVP_Manifest(

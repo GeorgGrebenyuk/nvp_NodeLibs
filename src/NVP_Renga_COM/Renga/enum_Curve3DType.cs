@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///
 ///</summary>
-namespace Renga.enum_Curve3DType 
+namespace NVP_Renga_COM._Renga.enum_Curve3DType 
 {
 
 

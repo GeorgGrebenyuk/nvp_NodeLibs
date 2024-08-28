@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IMDSAxis Interface
 ///</summary>
-namespace mdsURSLib.MDSAxis 
+namespace NVP_ModelStudio_COM._mdsURSLib.MDSAxis 
 {
 
 	[NVP_Manifest(

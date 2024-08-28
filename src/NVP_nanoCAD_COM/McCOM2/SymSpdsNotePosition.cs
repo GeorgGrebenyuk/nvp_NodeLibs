@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///ISymSpdsNotePosition interface
 ///</summary>
-namespace McCOM2.SymSpdsNotePosition 
+namespace NVP_nanoCAD_COM._McCOM2.SymSpdsNotePosition 
 {
 
 	[NVP_Manifest(

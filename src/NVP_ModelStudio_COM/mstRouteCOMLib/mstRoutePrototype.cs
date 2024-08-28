@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///ImstRoutePrototype Interface
 ///</summary>
-namespace mstRouteCOMLib.mstRoutePrototype 
+namespace NVP_ModelStudio_COM._mstRouteCOMLib.mstRoutePrototype 
 {
 
 	[NVP_Manifest(

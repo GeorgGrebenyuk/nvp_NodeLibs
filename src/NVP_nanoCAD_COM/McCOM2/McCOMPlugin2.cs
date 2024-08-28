@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IMcCOMPlugin Interface
 ///</summary>
-namespace McCOM2.McCOMPlugin2 
+namespace NVP_nanoCAD_COM._McCOM2.McCOMPlugin2 
 {
 
 	[NVP_Manifest(

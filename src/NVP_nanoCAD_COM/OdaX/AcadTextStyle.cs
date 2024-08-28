@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of a named, saved collection of settings that determines the appearance of text characters
 ///</summary>
-namespace OdaX.AcadTextStyle 
+namespace NVP_nanoCAD_COM._OdaX.AcadTextStyle 
 {
 
 	[NVP_Manifest(

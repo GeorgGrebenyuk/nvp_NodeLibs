@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Single position of ISymBOMLeader mark
 ///</summary>
-namespace McCOM2.BOMLeaderPosition 
+namespace NVP_nanoCAD_COM._McCOM2.BOMLeaderPosition 
 {
 
 	[NVP_Manifest(

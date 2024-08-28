@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IMSSymbol Interface
 ///</summary>
-namespace SchematiCSCOMLib.MSSymbol 
+namespace NVP_ModelStudio_COM._SchematiCSCOMLib.MSSymbol 
 {
 
 	[NVP_Manifest(

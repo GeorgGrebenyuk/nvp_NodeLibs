@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///
 ///</summary>
-namespace Renga.IfcExportSettings 
+namespace NVP_Renga_COM._Renga.IfcExportSettings 
 {
 
 	[NVP_Manifest(

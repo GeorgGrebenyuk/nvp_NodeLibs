@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface to define a style for multiple parallel lines
 ///</summary>
-namespace OdaX.OdaMLineStyle 
+namespace NVP_nanoCAD_COM._OdaX.OdaMLineStyle 
 {
 
 	[NVP_Manifest(

@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IMSSituation Interface
 ///</summary>
-namespace SchematiCSCOMLib.MSSituation 
+namespace NVP_ModelStudio_COM._SchematiCSCOMLib.MSSituation 
 {
 
 	[NVP_Manifest(

@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///+); or as a combination of these
 ///</summary>
-namespace OdaX.AcadPoint 
+namespace NVP_nanoCAD_COM._OdaX.AcadPoint 
 {
 
 	[NVP_Manifest(

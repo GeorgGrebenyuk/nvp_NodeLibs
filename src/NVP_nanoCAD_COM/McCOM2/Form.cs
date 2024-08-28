@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IForm interface
 ///</summary>
-namespace McCOM2.Form 
+namespace NVP_nanoCAD_COM._McCOM2.Form 
 {
 
 	[NVP_Manifest(

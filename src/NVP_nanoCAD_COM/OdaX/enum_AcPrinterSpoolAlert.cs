@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///
 ///</summary>
-namespace OdaX.enum_AcPrinterSpoolAlert 
+namespace NVP_nanoCAD_COM._OdaX.enum_AcPrinterSpoolAlert 
 {
 
 

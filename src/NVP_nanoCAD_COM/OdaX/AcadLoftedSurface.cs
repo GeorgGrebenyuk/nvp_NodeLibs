@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of a surface created by lofting through a set of two or more curves
 ///</summary>
-namespace OdaX.AcadLoftedSurface 
+namespace NVP_nanoCAD_COM._OdaX.AcadLoftedSurface 
 {
 
 	[NVP_Manifest(

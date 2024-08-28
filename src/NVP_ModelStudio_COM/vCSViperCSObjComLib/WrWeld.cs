@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IWrWeld Interface
 ///</summary>
-namespace vCSViperCSObjComLib.WrWeld 
+namespace NVP_ModelStudio_COM._vCSViperCSObjComLib.WrWeld 
 {
 
 	[NVP_Manifest(

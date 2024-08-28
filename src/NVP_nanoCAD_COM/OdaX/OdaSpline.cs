@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///ODA extended spline interface, for roundtrip purposes
 ///</summary>
-namespace OdaX.OdaSpline 
+namespace NVP_nanoCAD_COM._OdaX.OdaSpline 
 {
 
 	[NVP_Manifest(

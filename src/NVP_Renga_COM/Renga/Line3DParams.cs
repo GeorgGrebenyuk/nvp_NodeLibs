@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///
 ///</summary>
-namespace Renga.Line3DParams 
+namespace NVP_Renga_COM._Renga.Line3DParams 
 {
 
 	[NVP_Manifest(

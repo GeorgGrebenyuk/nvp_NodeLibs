@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Specifies the settings that affect the use of various external files.
 ///</summary>
-namespace nanoCAD.nanoCADPreferencesFiles 
+namespace NVP_nanoCAD_COM._nanoCAD.nanoCADPreferencesFiles 
 {
 
 	[NVP_Manifest(

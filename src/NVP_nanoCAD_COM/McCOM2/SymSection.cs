@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Section or cut designation mark
 ///</summary>
-namespace McCOM2.SymSection 
+namespace NVP_nanoCAD_COM._McCOM2.SymSection 
 {
 
 	[NVP_Manifest(

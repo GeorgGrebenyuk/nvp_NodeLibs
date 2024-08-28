@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///A series of methods provided for utility purposes
 ///</summary>
-namespace nanoCAD.nanoCADUtility 
+namespace NVP_nanoCAD_COM._nanoCAD.nanoCADUtility 
 {
 
 	[NVP_Manifest(

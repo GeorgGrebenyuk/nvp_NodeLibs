@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IMDSLevelMark Interface
 ///</summary>
-namespace mdsURSLib.MDSLevelMark 
+namespace NVP_ModelStudio_COM._mdsURSLib.MDSLevelMark 
 {
 
 	[NVP_Manifest(

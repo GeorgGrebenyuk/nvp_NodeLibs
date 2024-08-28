@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Коллекция объектов
 ///</summary>
-namespace mdsLINEComLib.MDSLObjects 
+namespace NVP_ModelStudio_COM._mdsLINEComLib.MDSLObjects 
 {
 
 	[NVP_Manifest(

@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///
 ///</summary>
-namespace Renga.ParameterDefinition 
+namespace NVP_Renga_COM._Renga.ParameterDefinition 
 {
 
 	[NVP_Manifest(

@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of a collection of named plot settings
 ///</summary>
-namespace OdaX.AcadPlotConfigurations 
+namespace NVP_nanoCAD_COM._OdaX.AcadPlotConfigurations 
 {
 
 	[NVP_Manifest(
@@ -109,10 +109,10 @@ namespace OdaX.AcadPlotConfigurations
         public NodeResult Execute(INVPData context, List<NodeResult> inputs)
         {
             var _input0 = ((dynamic)inputs[0].Value)._i as OdaX.IAcadPlotConfigurations;
-            List<OdaX.AcadPlotConfiguration.AcadPlotConfiguration_Constructor> items = new List<OdaX.AcadPlotConfiguration.AcadPlotConfiguration_Constructor>();
+            List<_OdaX.AcadPlotConfiguration.AcadPlotConfiguration_Constructor> items = new List<_OdaX.AcadPlotConfiguration.AcadPlotConfiguration_Constructor>();
             for (int item_counter = 0; item_counter < _input0.Count; item_counter++)
             {
-                OdaX.AcadPlotConfiguration.AcadPlotConfiguration_Constructor item = new OdaX.AcadPlotConfiguration.AcadPlotConfiguration_Constructor();
+                _OdaX.AcadPlotConfiguration.AcadPlotConfiguration_Constructor item = new _OdaX.AcadPlotConfiguration.AcadPlotConfiguration_Constructor();
                 item._i = _input0.Item(item_counter);
                 items.Add(item);
             }

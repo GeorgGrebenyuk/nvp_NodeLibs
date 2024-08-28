@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Table item formatter
 ///</summary>
-namespace McCOM2.SymTableFormat 
+namespace NVP_nanoCAD_COM._McCOM2.SymTableFormat 
 {
 
 	[NVP_Manifest(

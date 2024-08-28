@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IWrNodeTerminator Interface
 ///</summary>
-namespace vCSViperCSObjComLib.WrNodeTerminator 
+namespace NVP_ModelStudio_COM._vCSViperCSObjComLib.WrNodeTerminator 
 {
 
 	[NVP_Manifest(

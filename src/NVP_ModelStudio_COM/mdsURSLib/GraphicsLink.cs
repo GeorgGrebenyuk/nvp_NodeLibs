@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IGraphicsLink Interface
 ///</summary>
-namespace mdsURSLib.GraphicsLink 
+namespace NVP_ModelStudio_COM._mdsURSLib.GraphicsLink 
 {
 
 	[NVP_Manifest(

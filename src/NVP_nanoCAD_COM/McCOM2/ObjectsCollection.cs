@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Interafce of object collection
 ///</summary>
-namespace McCOM2.ObjectsCollection 
+namespace NVP_nanoCAD_COM._McCOM2.ObjectsCollection 
 {
 
 	[NVP_Manifest(

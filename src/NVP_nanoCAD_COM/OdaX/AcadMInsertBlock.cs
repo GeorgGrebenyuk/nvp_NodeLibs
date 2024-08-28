@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of a rectangular array of block references
 ///</summary>
-namespace OdaX.AcadMInsertBlock 
+namespace NVP_nanoCAD_COM._OdaX.AcadMInsertBlock 
 {
 
 	[NVP_Manifest(

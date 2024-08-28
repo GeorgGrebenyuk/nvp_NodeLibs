@@ -4,9 +4,8 @@ using System.Collections.Generic;
 
 using NVP_Manifest_Creator;
 using Teigha.DatabaseServices;
-using ncCommon;
 
-namespace Teigha
+namespace NVP_nanoCAD_Platform_NET._Teigha
 {
     [NVP_Manifest(
         Text = "Возвращает Entity (режим чтения) по строковому значению Handle",

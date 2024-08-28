@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Пересечение
 ///</summary>
-namespace mdsLINEComLib.MDSLCros 
+namespace NVP_ModelStudio_COM._mdsLINEComLib.MDSLCros 
 {
 
 	[NVP_Manifest(

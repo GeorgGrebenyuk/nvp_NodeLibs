@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IcsLightningProtectionWrp Interface
 ///</summary>
-namespace CSMSStormComLib.csLightningProtectionWrp 
+namespace NVP_ModelStudio_COM._CSMSStormComLib.csLightningProtectionWrp 
 {
 
 	[NVP_Manifest(

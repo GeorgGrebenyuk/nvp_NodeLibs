@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of a bounded planar face consisting of lines, circles, arcs, elliptical arcs, and spline curves
 ///</summary>
-namespace OdaX.AcadRegion 
+namespace NVP_nanoCAD_COM._OdaX.AcadRegion 
 {
 
 	[NVP_Manifest(

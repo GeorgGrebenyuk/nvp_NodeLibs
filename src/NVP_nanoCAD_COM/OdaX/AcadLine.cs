@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of a single line segment
 ///</summary>
-namespace OdaX.AcadLine 
+namespace NVP_nanoCAD_COM._OdaX.AcadLine 
 {
 
 	[NVP_Manifest(

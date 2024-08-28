@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///ISymSpdsNoteSecant interface
 ///</summary>
-namespace McCOM2.SymSpdsNoteSecant 
+namespace NVP_nanoCAD_COM._McCOM2.SymSpdsNoteSecant 
 {
 
 	[NVP_Manifest(

@@ -3,12 +3,11 @@ using System;
 using System.Collections.Generic;
 
 using NVP_Manifest_Creator;
-using Renga.Drawing;
-
+using NVP_Renga_COM._Renga.Drawing;
 ///<summary>
 ///
 ///</summary>
-namespace Renga.DrawingCollection 
+namespace NVP_Renga_COM._Renga.DrawingCollection 
 {
 
 	[NVP_Manifest(

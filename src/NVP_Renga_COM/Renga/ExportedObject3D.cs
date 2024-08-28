@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///
 ///</summary>
-namespace Renga.ExportedObject3D 
+namespace NVP_Renga_COM._Renga.ExportedObject3D 
 {
 
 	[NVP_Manifest(

@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IIrnDiaProp Interface
 ///</summary>
-namespace ironObjComLib.IrnDiaProp 
+namespace NVP_ModelStudio_COM._ironObjComLib.IrnDiaProp 
 {
 
 	[NVP_Manifest(

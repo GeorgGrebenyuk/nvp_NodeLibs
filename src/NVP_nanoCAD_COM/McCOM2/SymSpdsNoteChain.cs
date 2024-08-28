@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///ISymSpdsNoteChain interface
 ///</summary>
-namespace McCOM2.SymSpdsNoteChain 
+namespace NVP_nanoCAD_COM._McCOM2.SymSpdsNoteChain 
 {
 
 	[NVP_Manifest(

@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IWrBoundingBox Interface
 ///</summary>
-namespace mdsUnitsLib.MDSBoundingBox 
+namespace NVP_ModelStudio_COM._mdsUnitsLib.MDSBoundingBox 
 {
 
 	[NVP_Manifest(

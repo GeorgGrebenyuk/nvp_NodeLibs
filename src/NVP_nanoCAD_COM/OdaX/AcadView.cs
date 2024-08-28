@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///viewpoint) in space
 ///</summary>
-namespace OdaX.AcadView 
+namespace NVP_nanoCAD_COM._OdaX.AcadView 
 {
 
 	[NVP_Manifest(

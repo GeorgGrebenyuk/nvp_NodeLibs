@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///
 ///</summary>
-namespace OdaX.enum_AcDrawingAreaSCMCommand 
+namespace NVP_nanoCAD_COM._OdaX.enum_AcDrawingAreaSCMCommand 
 {
 
 

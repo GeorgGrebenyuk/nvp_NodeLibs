@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of an object containing text that links to a block
 ///</summary>
-namespace OdaX.AcadAttributeReference 
+namespace NVP_nanoCAD_COM._OdaX.AcadAttributeReference 
 {
 
 	[NVP_Manifest(

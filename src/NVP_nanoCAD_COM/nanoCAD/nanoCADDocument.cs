@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///A drawing
 ///</summary>
-namespace nanoCAD.nanoCADDocument 
+namespace NVP_nanoCAD_COM._nanoCAD.nanoCADDocument 
 {
 
 	[NVP_Manifest(

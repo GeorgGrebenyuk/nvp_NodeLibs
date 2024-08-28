@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///The set of methods and properties used for plotting layouts
 ///</summary>
-namespace nanoCAD.nanoCADPlotArea 
+namespace NVP_nanoCAD_COM._nanoCAD.nanoCADPlotArea 
 {
 
 	[NVP_Manifest(

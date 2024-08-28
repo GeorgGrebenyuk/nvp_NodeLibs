@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of a dimension measuring a large radius, also known as a jogged radius dimension
 ///</summary>
-namespace OdaX.AcadDimRadialLarge 
+namespace NVP_nanoCAD_COM._OdaX.AcadDimRadialLarge 
 {
 
 	[NVP_Manifest(

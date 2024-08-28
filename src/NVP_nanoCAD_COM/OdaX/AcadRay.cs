@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of a semi-infinite line entity
 ///</summary>
-namespace OdaX.AcadRay 
+namespace NVP_nanoCAD_COM._OdaX.AcadRay 
 {
 
 	[NVP_Manifest(

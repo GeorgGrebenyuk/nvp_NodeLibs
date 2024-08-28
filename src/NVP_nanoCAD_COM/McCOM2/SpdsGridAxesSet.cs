@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Set of axes with the same properites
 ///</summary>
-namespace McCOM2.SpdsGridAxesSet 
+namespace NVP_nanoCAD_COM._McCOM2.SpdsGridAxesSet 
 {
 
 	[NVP_Manifest(

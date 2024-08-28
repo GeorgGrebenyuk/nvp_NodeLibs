@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///The standard interface for a basic TeighaX object
 ///</summary>
-namespace OdaX.AcadObject 
+namespace NVP_nanoCAD_COM._OdaX.AcadObject 
 {
 
 	[NVP_Manifest(

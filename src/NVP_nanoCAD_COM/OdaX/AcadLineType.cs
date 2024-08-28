@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of the line characteristics consisting of combinations of dashes, dots, and spaces
 ///</summary>
-namespace OdaX.AcadLineType 
+namespace NVP_nanoCAD_COM._OdaX.AcadLineType 
 {
 
 	[NVP_Manifest(

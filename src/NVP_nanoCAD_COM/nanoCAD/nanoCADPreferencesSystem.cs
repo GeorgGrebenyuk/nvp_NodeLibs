@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Specifies system settings.
 ///</summary>
-namespace nanoCAD.nanoCADPreferencesSystem 
+namespace NVP_nanoCAD_COM._nanoCAD.nanoCADPreferencesSystem 
 {
 
 	[NVP_Manifest(

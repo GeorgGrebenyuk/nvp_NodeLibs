@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface to contain and manipulate draw order information
 ///</summary>
-namespace OdaX.AcadSortentsTable 
+namespace NVP_nanoCAD_COM._OdaX.AcadSortentsTable 
 {
 
 	[NVP_Manifest(

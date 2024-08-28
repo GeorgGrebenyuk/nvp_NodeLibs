@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IMDSNodes Interface
 ///</summary>
-namespace mdsUnitsLib.MDSNodes 
+namespace NVP_ModelStudio_COM._mdsUnitsLib.MDSNodes 
 {
 
 	[NVP_Manifest(

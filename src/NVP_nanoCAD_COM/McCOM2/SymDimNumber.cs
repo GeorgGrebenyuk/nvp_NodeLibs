@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Cutted surface index mark
 ///</summary>
-namespace McCOM2.SymDimNumber 
+namespace NVP_nanoCAD_COM._McCOM2.SymDimNumber 
 {
 
 	[NVP_Manifest(

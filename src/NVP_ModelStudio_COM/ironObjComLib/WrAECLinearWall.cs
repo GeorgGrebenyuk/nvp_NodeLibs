@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IWrAECLinearWall Interface
 ///</summary>
-namespace ironObjComLib.WrAECLinearWall 
+namespace NVP_ModelStudio_COM._ironObjComLib.WrAECLinearWall 
 {
 
 	[NVP_Manifest(

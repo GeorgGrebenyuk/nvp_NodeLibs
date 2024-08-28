@@ -4,12 +4,12 @@ using System.Linq;
 using System.Collections.Generic;
 
 using NVP_Manifest_Creator;
-using Renga.Quantity;
+using NVP_Renga_COM._Renga.Quantity;
 
 ///<summary>
 ///
 ///</summary>
-namespace Renga.QuantityContainer 
+namespace NVP_Renga_COM._Renga.QuantityContainer 
 {
     [NVP_Manifest(
 		Text = "Идентификаторы всех расчетных свойств (Dictionary: string, Guid)",
@@ -292,16 +292,16 @@ namespace Renga.QuantityContainer
                     double quantity_value = -1.0;
 					switch (quantity.Type)
 					{
-                        case QuantityType.QuantityType_Area:
-                            quantity_value = quantity.AsArea(AreaUnit.AreaUnit_Meters2); break;
-                        case QuantityType.QuantityType_Count:
+                        case Renga.QuantityType.QuantityType_Area:
+                            quantity_value = quantity.AsArea(Renga.AreaUnit.AreaUnit_Meters2); break;
+                        case Renga.QuantityType.QuantityType_Count:
                             quantity_value = quantity.AsCount(); break;
-                        case QuantityType.QuantityType_Length:
-                            quantity_value = quantity.AsLength(LengthUnit.LengthUnit_Meters); break;
-                        case QuantityType.QuantityType_Mass:
-                            quantity_value = quantity.AsMass(MassUnit.MassUnit_Kilograms); break;
-                        case QuantityType.QuantityType_Volume:
-                            quantity_value = quantity.AsVolume(VolumeUnit.VolumeUnit_Meters3); break;
+                        case Renga.QuantityType.QuantityType_Length:
+                            quantity_value = quantity.AsLength(Renga.LengthUnit.LengthUnit_Meters); break;
+                        case Renga.QuantityType.QuantityType_Mass:
+                            quantity_value = quantity.AsMass(Renga.MassUnit.MassUnit_Kilograms); break;
+                        case Renga.QuantityType.QuantityType_Volume:
+                            quantity_value = quantity.AsVolume(Renga.VolumeUnit.VolumeUnit_Meters3); break;
 
                     }
 

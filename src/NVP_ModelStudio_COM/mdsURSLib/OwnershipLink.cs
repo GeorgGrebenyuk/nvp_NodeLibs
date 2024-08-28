@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IOwnershipLink Interface
 ///</summary>
-namespace mdsURSLib.OwnershipLink 
+namespace NVP_ModelStudio_COM._mdsURSLib.OwnershipLink 
 {
 
 	[NVP_Manifest(

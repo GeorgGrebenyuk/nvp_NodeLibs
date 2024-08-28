@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IPropsDiaWrap Interface
 ///</summary>
-namespace mstRouteCOMLib.PropsDiaWrap 
+namespace NVP_ModelStudio_COM._mstRouteCOMLib.PropsDiaWrap 
 {
 
 	[NVP_Manifest(

@@ -2,163 +2,163 @@
 <Auxiliary_Guids_Map xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ElementsMap>
     <Auxiliary_Guids_Map_Item>
-      <Path>List.FilterByBoolMask</Path>
+      <Path>NVP_Common.List.FilterByBoolMask</Path>
       <Id>D78F59DD-ED4D-421F-8AEB-36A333BFEF47</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>List.FilterByCondition</Path>
+      <Path>NVP_Common.List.FilterByCondition</Path>
       <Id>262F95AC-33D4-4E18-94AF-F333FD94BA37</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>Dictionary.Dictionary_CreateEmpty</Path>
+      <Path>NVP_Common.Dictionary.Dictionary_CreateEmpty</Path>
       <Id>00E1B294-AE8B-4418-915A-6255B7777A1D</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>Dictionary.Dictionary_CreateFromData</Path>
+      <Path>NVP_Common.Dictionary.Dictionary_CreateFromData</Path>
       <Id>F18354E7-06F4-4118-81B7-5BC32EED7104</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>Dictionary.Dictionary_RemoveKeys</Path>
+      <Path>NVP_Common.Dictionary.Dictionary_RemoveKeys</Path>
       <Id>E49C45FB-A146-4235-8F87-E626DFED09F9</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>Dictionary.Dictionary_SetValueAtKey</Path>
+      <Path>NVP_Common.Dictionary.Dictionary_SetValueAtKey</Path>
       <Id>6824CBBA-8113-4F0F-982A-BA97644ABE16</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>Dictionary.Dictionary_SetValuesAtKeys</Path>
+      <Path>NVP_Common.Dictionary.Dictionary_SetValuesAtKeys</Path>
       <Id>21E1F9F6-8048-4FEA-BA49-D57EB4CEB3FE</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>Dictionary.Dictionary_GetValueAtKey</Path>
+      <Path>NVP_Common.Dictionary.Dictionary_GetValueAtKey</Path>
       <Id>C8E4CAFE-3FB6-4086-B24A-F3F1A8D8EC82</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>Dictionary.Dictionary_GetValuesAtKeys</Path>
+      <Path>NVP_Common.Dictionary.Dictionary_GetValuesAtKeys</Path>
       <Id>0B044E73-EC9E-421E-B5C8-452F9212A0BA</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>Dictionary.Dictionary_GetKeys</Path>
+      <Path>NVP_Common.Dictionary.Dictionary_GetKeys</Path>
       <Id>7C2DBD24-5419-4BBD-8618-87A228F4D439</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>Dictionary.Dictionary_GetValues</Path>
+      <Path>NVP_Common.Dictionary.Dictionary_GetValues</Path>
       <Id>59512683-1BB8-426B-ACA7-05D820B12AA5</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>Dictionary.Dictionary_GetCount</Path>
+      <Path>NVP_Common.Dictionary.Dictionary_GetCount</Path>
       <Id>DB38DE4D-ED07-4606-A17B-DEBF94BBB14E</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>List.CreateByCycleObject</Path>
+      <Path>NVP_Common.List.CreateByCycleObject</Path>
       <Id>DA73ED51-3D8E-40E0-B0F3-E2FFD2EA90B6</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_Common.Task.Kvartirografiya.Kvartirografiya_Rooms_Living</Path>
+      <Path>NVP_Common.NVP_Common.Task.Kvartirografiya.Kvartirografiya_Rooms_Living</Path>
       <Id>196ECA50-E5FC-486E-BFFE-552466576991</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_Common.Task.Kvartirografiya.Kvartirografiya_Rooms_NonLiving</Path>
+      <Path>NVP_Common.NVP_Common.Task.Kvartirografiya.Kvartirografiya_Rooms_NonLiving</Path>
       <Id>A47705B9-6BA5-4986-A98F-24958BE02A9D</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_Common.Task.Kvartirografiya.Kvartirografiya_Rooms_Other</Path>
+      <Path>NVP_Common.NVP_Common.Task.Kvartirografiya.Kvartirografiya_Rooms_Other</Path>
       <Id>770500D3-2552-48DF-A6D7-20346C0351BD</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_Common.Task.Kvartirografiya.Kvartirografiya_Rooms_WithoutOtd</Path>
+      <Path>NVP_Common.NVP_Common.Task.Kvartirografiya.Kvartirografiya_Rooms_WithoutOtd</Path>
       <Id>14352D81-BD02-46BD-98F5-764D8C32B9F2</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_Common.Task.Kvartirografiya.Kvartirografiya_Rooms_Coefficients2Areas</Path>
+      <Path>NVP_Common.NVP_Common.Task.Kvartirografiya.Kvartirografiya_Rooms_Coefficients2Areas</Path>
       <Id>E1CFD528-EE8F-4BA9-945C-47B8EB25B3F2</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_Common.Task.Kvartirografiya.Kvartirografiya_Calculate</Path>
+      <Path>NVP_Common.NVP_Common.Task.Kvartirografiya.Kvartirografiya_Calculate</Path>
       <Id>334AC806-DEEB-4BC7-ACCA-54401449D012</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_Common.Common.Null</Path>
+      <Path>NVP_Common.NVP_Common.Common.Null</Path>
       <Id>E33F3FF4-8B06-42AA-BE85-67D14978F0CB</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>NVP_Common.Common.IsNull</Path>
+      <Path>NVP_Common.NVP_Common.Common.IsNull</Path>
       <Id>1514CD32-14E6-4159-881E-6C97881B1A76</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>Task.Kvartirografiya.Kvartirografiya_Rooms_Living</Path>
+      <Path>NVP_Common.Task.Kvartirografiya.Kvartirografiya_Rooms_Living</Path>
       <Id>01A38E5B-AE2F-484D-83EF-84A618315E60</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>Task.Kvartirografiya.Kvartirografiya_Rooms_NonLiving</Path>
+      <Path>NVP_Common.Task.Kvartirografiya.Kvartirografiya_Rooms_NonLiving</Path>
       <Id>88A9FDD9-FE8A-429A-B7C0-8DEA0F5F935C</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>Task.Kvartirografiya.Kvartirografiya_Rooms_Other</Path>
+      <Path>NVP_Common.Task.Kvartirografiya.Kvartirografiya_Rooms_Other</Path>
       <Id>7A3F5C02-8390-4D1B-BB3F-B2773E5629C0</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>Task.Kvartirografiya.Kvartirografiya_Rooms_WithoutOtd</Path>
+      <Path>NVP_Common.Task.Kvartirografiya.Kvartirografiya_Rooms_WithoutOtd</Path>
       <Id>70CEA510-713E-42D6-8C35-653B6D478A42</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>Task.Kvartirografiya.Kvartirografiya_Rooms_Coefficients2Areas</Path>
+      <Path>NVP_Common.Task.Kvartirografiya.Kvartirografiya_Rooms_Coefficients2Areas</Path>
       <Id>781A4CF3-03DD-44A3-BB69-94670B9921EB</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>Task.Kvartirografiya.Kvartirografiya_Calculate</Path>
+      <Path>NVP_Common.Task.Kvartirografiya.Kvartirografiya_Calculate</Path>
       <Id>A6F4AECC-1799-441A-8385-13A21E5DB24F</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>Common.Null</Path>
+      <Path>NVP_Common.Common.Null</Path>
       <Id>A78F7EC0-6952-4971-85C6-CF840B173496</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>Common.IsNull</Path>
+      <Path>NVP_Common.Common.IsNull</Path>
       <Id>B5300EE9-74FB-4692-AB96-440E8ED48307</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>List.AddItem</Path>
+      <Path>NVP_Common.List.AddItem</Path>
       <Id>4D971388-D447-4939-B873-A9480C735A18</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>List.AddItems</Path>
+      <Path>NVP_Common.List.AddItems</Path>
       <Id>8DECEABF-937F-40E8-A8A3-04954DE3B521</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>Common.StringToNumber_Double</Path>
+      <Path>NVP_Common.Common.StringToNumber_Double</Path>
       <Id>A65F0BB2-35D5-45BA-9F4E-32ACEDC1FCA6</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>Common.StringToNumber_Int64</Path>
+      <Path>NVP_Common.Common.StringToNumber_Int64</Path>
       <Id>B53AD250-D30F-4C45-AB09-7A75B630FAEA</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>Common.ToString</Path>
+      <Path>NVP_Common.Common.ToString</Path>
       <Id>28617B14-C8B1-45D9-B25B-1F0DA6857145</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>Wait.Wait_2</Path>
+      <Path>NVP_Common.Wait.Wait_2</Path>
       <Id>F6876F8C-2F8F-48BF-9B35-BEE3713B6B48</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>Wait.Wait_3</Path>
+      <Path>NVP_Common.Wait.Wait_3</Path>
       <Id>D6BCFA3D-DE05-40F0-A5C5-23C60EB65551</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>Wait.Wait_4</Path>
+      <Path>NVP_Common.Wait.Wait_4</Path>
       <Id>4A52D48F-A12B-46B5-8C28-FCDCCFC99F1F</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>Wait.Wait_5</Path>
+      <Path>NVP_Common.Wait.Wait_5</Path>
       <Id>41733F61-BF00-4C05-BF80-FF86D493AC2A</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>Wait.Wait_6</Path>
+      <Path>NVP_Common.Wait.Wait_6</Path>
       <Id>E9C40186-57E4-4018-B0B1-E81549D12017</Id>
     </Auxiliary_Guids_Map_Item>
     <Auxiliary_Guids_Map_Item>
-      <Path>Wait.Wait_7</Path>
+      <Path>NVP_Common.Wait.Wait_7</Path>
       <Id>AD535B2B-2502-4B19-BD02-849B122091C1</Id>
     </Auxiliary_Guids_Map_Item>
   </ElementsMap>

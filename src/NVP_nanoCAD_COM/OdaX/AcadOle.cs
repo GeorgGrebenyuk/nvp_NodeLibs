@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of Ole object
 ///</summary>
-namespace OdaX.AcadOle 
+namespace NVP_nanoCAD_COM._OdaX.AcadOle 
 {
 
 	[NVP_Manifest(

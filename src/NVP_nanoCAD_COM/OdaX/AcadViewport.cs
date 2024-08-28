@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of a bounded area that displays some portion of a drawing's model space
 ///</summary>
-namespace OdaX.AcadViewport 
+namespace NVP_nanoCAD_COM._OdaX.AcadViewport 
 {
 
 	[NVP_Manifest(

@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Графическое представление промежуточной опоры
 ///</summary>
-namespace mdsLINEComLib.MDSLIntermSketch 
+namespace NVP_ModelStudio_COM._mdsLINEComLib.MDSLIntermSketch 
 {
 
 	[NVP_Manifest(

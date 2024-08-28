@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Correction mark
 ///</summary>
-namespace McCOM2.SymSpdsCorrection 
+namespace NVP_nanoCAD_COM._McCOM2.SymSpdsCorrection 
 {
 
 	[NVP_Manifest(

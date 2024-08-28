@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Polymorph mark
 ///</summary>
-namespace McCOM2.SymSpdsPolymorph 
+namespace NVP_nanoCAD_COM._McCOM2.SymSpdsPolymorph 
 {
 
 	[NVP_Manifest(

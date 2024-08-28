@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IMDSLPropertyDialogWrap Interface
 ///</summary>
-namespace mdsLINEComLib.MDSLPropertyDialogWrap 
+namespace NVP_ModelStudio_COM._mdsLINEComLib.MDSLPropertyDialogWrap 
 {
 
 	[NVP_Manifest(

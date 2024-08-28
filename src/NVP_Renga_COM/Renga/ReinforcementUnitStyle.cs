@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///
 ///</summary>
-namespace Renga.ReinforcementUnitStyle 
+namespace NVP_Renga_COM._Renga.ReinforcementUnitStyle 
 {
 
 	[NVP_Manifest(

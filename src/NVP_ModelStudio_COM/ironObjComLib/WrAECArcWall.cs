@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IWrAECArcWall Interface
 ///</summary>
-namespace ironObjComLib.WrAECArcWall 
+namespace NVP_ModelStudio_COM._ironObjComLib.WrAECArcWall 
 {
 
 	[NVP_Manifest(

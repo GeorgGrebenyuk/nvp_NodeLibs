@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///
 ///</summary>
-namespace McCOM2.enum_PropertyType 
+namespace NVP_nanoCAD_COM._McCOM2.enum_PropertyType 
 {
 
 

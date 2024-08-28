@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IWrIronAxis Interface
 ///</summary>
-namespace ironObjComLib.WrIronAxis 
+namespace NVP_ModelStudio_COM._ironObjComLib.WrIronAxis 
 {
 
 	[NVP_Manifest(

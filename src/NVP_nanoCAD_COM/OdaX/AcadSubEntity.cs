@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///SubEntity Interface
 ///</summary>
-namespace OdaX.AcadSubEntity 
+namespace NVP_nanoCAD_COM._OdaX.AcadSubEntity 
 {
 
 	[NVP_Manifest(

@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of an object appearing as a text string that describes the characteristics of an attribute reference
 ///</summary>
-namespace OdaX.AcadAttribute 
+namespace NVP_nanoCAD_COM._OdaX.AcadAttribute 
 {
 
 	[NVP_Manifest(

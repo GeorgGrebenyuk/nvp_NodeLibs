@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IMDSSectionDef Interface
 ///</summary>
-namespace mdsMetalLib.MDSSectionDef 
+namespace NVP_ModelStudio_COM._mdsMetalLib.MDSSectionDef 
 {
 
 	[NVP_Manifest(

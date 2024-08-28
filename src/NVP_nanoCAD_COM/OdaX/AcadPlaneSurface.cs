@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of a planar surface entity
 ///</summary>
-namespace OdaX.AcadPlaneSurface 
+namespace NVP_nanoCAD_COM._OdaX.AcadPlaneSurface 
 {
 
 	[NVP_Manifest(

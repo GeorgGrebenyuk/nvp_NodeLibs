@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of multiple parallel lines
 ///</summary>
-namespace OdaX.AcadMLine 
+namespace NVP_nanoCAD_COM._OdaX.AcadMLine 
 {
 
 	[NVP_Manifest(

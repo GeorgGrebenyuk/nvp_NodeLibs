@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of a geometric tolerance contained in a feature control frame
 ///</summary>
-namespace OdaX.AcadTolerance 
+namespace NVP_nanoCAD_COM._OdaX.AcadTolerance 
 {
 
 	[NVP_Manifest(

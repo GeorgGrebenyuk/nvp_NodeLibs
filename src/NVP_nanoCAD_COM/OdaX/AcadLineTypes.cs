@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of the collection of all linetypes in the drawing
 ///</summary>
-namespace OdaX.AcadLineTypes 
+namespace NVP_nanoCAD_COM._OdaX.AcadLineTypes 
 {
 
 	[NVP_Manifest(
@@ -129,10 +129,10 @@ namespace OdaX.AcadLineTypes
         public NodeResult Execute(INVPData context, List<NodeResult> inputs)
         {
             var _input0 = ((dynamic)inputs[0].Value)._i as OdaX.IAcadLineTypes;
-            List<OdaX.AcadLineType.AcadLineType_Constructor> items = new List<OdaX.AcadLineType.AcadLineType_Constructor>();
+            List<_OdaX.AcadLineType.AcadLineType_Constructor> items = new List<_OdaX.AcadLineType.AcadLineType_Constructor>();
             for (int item_counter = 0; item_counter < _input0.Count; item_counter++)
             {
-                OdaX.AcadLineType.AcadLineType_Constructor item = new OdaX.AcadLineType.AcadLineType_Constructor();
+                _OdaX.AcadLineType.AcadLineType_Constructor item = new _OdaX.AcadLineType.AcadLineType_Constructor();
                 item._i = _input0.Item(item_counter);
                 items.Add(item);
             }

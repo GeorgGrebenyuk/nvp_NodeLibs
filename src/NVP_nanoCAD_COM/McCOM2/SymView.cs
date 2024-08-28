@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///ISymView interface
 ///</summary>
-namespace McCOM2.SymView 
+namespace NVP_nanoCAD_COM._McCOM2.SymView 
 {
 
 	[NVP_Manifest(

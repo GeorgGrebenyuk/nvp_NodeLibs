@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of an elliptical arc or complete ellipse entity
 ///</summary>
-namespace OdaX.AcadEllipse 
+namespace NVP_nanoCAD_COM._OdaX.AcadEllipse 
 {
 
 	[NVP_Manifest(

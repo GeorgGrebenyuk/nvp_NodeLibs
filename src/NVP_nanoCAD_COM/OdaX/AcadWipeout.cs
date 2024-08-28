@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Interface for an Wipeout Raster Image
 ///</summary>
-namespace OdaX.AcadWipeout 
+namespace NVP_nanoCAD_COM._OdaX.AcadWipeout 
 {
 
 	[NVP_Manifest(

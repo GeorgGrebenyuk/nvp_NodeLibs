@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of a 2D line of adjustable width or a 3D line or mesh of nonadjustable width composed of line and arc segments
 ///</summary>
-namespace OdaX.AcadPolyline 
+namespace NVP_nanoCAD_COM._OdaX.AcadPolyline 
 {
 
 	[NVP_Manifest(

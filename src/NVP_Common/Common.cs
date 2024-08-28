@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using NVP_Manifest_Creator;
 
 
-namespace Common
+namespace NVP_Common.Common
 {
     [NVP_Manifest(
             Text = "Возвращает значение null",

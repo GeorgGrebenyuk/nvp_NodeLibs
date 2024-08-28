@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IWrAECSurface Interface
 ///</summary>
-namespace ironObjComLib.WrAECSurface 
+namespace NVP_ModelStudio_COM._ironObjComLib.WrAECSurface 
 {
 
 	[NVP_Manifest(

@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IWrIronNode Interface
 ///</summary>
-namespace ironObjComLib.WrIronNode 
+namespace NVP_ModelStudio_COM._ironObjComLib.WrIronNode 
 {
 
 	[NVP_Manifest(

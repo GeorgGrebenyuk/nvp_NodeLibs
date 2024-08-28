@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///ISymSpdsNoteComb interface
 ///</summary>
-namespace McCOM2.SymSpdsNoteComb 
+namespace NVP_nanoCAD_COM._McCOM2.SymSpdsNoteComb 
 {
 
 	[NVP_Manifest(

@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///ICADLibObject Interface
 ///</summary>
-namespace mdsLibManagerLib.CADLibObject 
+namespace NVP_ModelStudio_COM._mdsLibManagerLib.CADLibObject 
 {
 
 	[NVP_Manifest(

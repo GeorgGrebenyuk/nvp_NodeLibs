@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of a construction line that is infinite in both directions
 ///</summary>
-namespace OdaX.AcadXline 
+namespace NVP_nanoCAD_COM._OdaX.AcadXline 
 {
 
 	[NVP_Manifest(

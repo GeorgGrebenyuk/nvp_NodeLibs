@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///
 ///</summary>
-namespace Renga.View 
+namespace NVP_Renga_COM._Renga.View 
 {
 
 	[NVP_Manifest(

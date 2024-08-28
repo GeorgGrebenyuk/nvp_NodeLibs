@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///
 ///</summary>
-namespace Renga.GuidCollection 
+namespace NVP_Renga_COM._Renga.GuidCollection 
 {
 
 	[NVP_Manifest(

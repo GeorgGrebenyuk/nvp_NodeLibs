@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///An interface for a TeighaX true color object
 ///</summary>
-namespace OdaX.AcadAcCmColor 
+namespace NVP_nanoCAD_COM._OdaX.AcadAcCmColor 
 {
 
 	[NVP_Manifest(

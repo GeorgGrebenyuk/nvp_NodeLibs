@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Drawing dimension
 ///</summary>
-namespace McCOM2.SymDimension 
+namespace NVP_nanoCAD_COM._McCOM2.SymDimension 
 {
 
 	[NVP_Manifest(

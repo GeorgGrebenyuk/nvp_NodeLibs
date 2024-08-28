@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Specifies output settings.
 ///</summary>
-namespace nanoCAD.nanoCADPreferencesOutput 
+namespace NVP_nanoCAD_COM._nanoCAD.nanoCADPreferencesOutput 
 {
 
 	[NVP_Manifest(

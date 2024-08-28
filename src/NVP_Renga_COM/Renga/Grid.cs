@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///
 ///</summary>
-namespace Renga.Grid 
+namespace NVP_Renga_COM._Renga.Grid 
 {
 
 	[NVP_Manifest(

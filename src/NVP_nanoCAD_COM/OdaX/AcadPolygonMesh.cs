@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of a free-form 3D mesh entity
 ///</summary>
-namespace OdaX.AcadPolygonMesh 
+namespace NVP_nanoCAD_COM._OdaX.AcadPolygonMesh 
 {
 
 	[NVP_Manifest(

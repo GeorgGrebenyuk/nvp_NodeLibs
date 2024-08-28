@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///
 ///</summary>
-namespace Renga.TitleBlockInstance 
+namespace NVP_Renga_COM._Renga.TitleBlockInstance 
 {
 
 	[NVP_Manifest(

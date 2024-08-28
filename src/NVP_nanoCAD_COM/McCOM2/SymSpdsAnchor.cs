@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///ISymSpdsAnchor interface
 ///</summary>
-namespace McCOM2.SymSpdsAnchor 
+namespace NVP_nanoCAD_COM._McCOM2.SymSpdsAnchor 
 {
 
 	[NVP_Manifest(

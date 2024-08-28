@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IIrnParentProp Interface
 ///</summary>
-namespace ironObjComLib.IrnParentProp 
+namespace NVP_ModelStudio_COM._ironObjComLib.IrnParentProp 
 {
 
 	[NVP_Manifest(

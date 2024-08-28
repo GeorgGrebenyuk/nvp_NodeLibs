@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Specifies open and save settings.
 ///</summary>
-namespace nanoCAD.nanoCADPreferencesOpenSave 
+namespace NVP_nanoCAD_COM._nanoCAD.nanoCADPreferencesOpenSave 
 {
 
 	[NVP_Manifest(

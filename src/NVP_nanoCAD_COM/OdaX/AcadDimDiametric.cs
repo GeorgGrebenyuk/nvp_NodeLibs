@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of a dimension measuring the diameter of a circle or arc
 ///</summary>
-namespace OdaX.AcadDimDiametric 
+namespace NVP_nanoCAD_COM._OdaX.AcadDimDiametric 
 {
 
 	[NVP_Manifest(

@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Table column
 ///</summary>
-namespace McCOM2.SymTableCol 
+namespace NVP_nanoCAD_COM._McCOM2.SymTableCol 
 {
 
 	[NVP_Manifest(

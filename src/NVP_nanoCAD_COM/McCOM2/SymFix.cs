@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Permanent connection mark
 ///</summary>
-namespace McCOM2.SymFix 
+namespace NVP_nanoCAD_COM._McCOM2.SymFix 
 {
 
 	[NVP_Manifest(

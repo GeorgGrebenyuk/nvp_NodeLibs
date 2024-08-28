@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IDataLink Interface
 ///</summary>
-namespace mdsURSLib.DataLink 
+namespace NVP_ModelStudio_COM._mdsURSLib.DataLink 
 {
 
 	[NVP_Manifest(

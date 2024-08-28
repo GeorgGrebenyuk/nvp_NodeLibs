@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Specifies profile settings.
 ///</summary>
-namespace nanoCAD.nanoCADPreferencesProfiles 
+namespace NVP_nanoCAD_COM._nanoCAD.nanoCADPreferencesProfiles 
 {
 
 	[NVP_Manifest(

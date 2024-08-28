@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface for an additional Raster Image funtionality
 ///</summary>
-namespace OdaX.OdaRasterImage 
+namespace NVP_nanoCAD_COM._OdaX.OdaRasterImage 
 {
 
 	[NVP_Manifest(

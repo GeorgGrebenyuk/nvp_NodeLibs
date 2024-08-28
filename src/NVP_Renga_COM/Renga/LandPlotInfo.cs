@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///
 ///</summary>
-namespace Renga.LandPlotInfo 
+namespace NVP_Renga_COM._Renga.LandPlotInfo 
 {
 
 	[NVP_Manifest(

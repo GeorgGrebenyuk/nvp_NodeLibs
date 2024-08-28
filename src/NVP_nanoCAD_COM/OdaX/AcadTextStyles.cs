@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of the collection of all text styles in the drawing
 ///</summary>
-namespace OdaX.AcadTextStyles 
+namespace NVP_nanoCAD_COM._OdaX.AcadTextStyles 
 {
 
 	[NVP_Manifest(

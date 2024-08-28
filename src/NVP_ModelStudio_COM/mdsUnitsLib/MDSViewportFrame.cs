@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IMDSViewportFrame Interface
 ///</summary>
-namespace mdsUnitsLib.MDSViewportFrame 
+namespace NVP_ModelStudio_COM._mdsUnitsLib.MDSViewportFrame 
 {
 
 	[NVP_Manifest(

@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using NVP_Manifest_Creator;
 using System.Collections;
 
-namespace Dictionary
+namespace NVP_Common.Dictionary
 {
     [NVP_Manifest(
             Text = "Создает пустой словарь",

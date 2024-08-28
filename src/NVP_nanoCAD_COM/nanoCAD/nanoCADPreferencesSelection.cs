@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Specifies selection settings.
 ///</summary>
-namespace nanoCAD.nanoCADPreferencesSelection 
+namespace NVP_nanoCAD_COM._nanoCAD.nanoCADPreferencesSelection 
 {
 
 	[NVP_Manifest(

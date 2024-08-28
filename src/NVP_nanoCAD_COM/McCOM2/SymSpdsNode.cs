@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Node mark
 ///</summary>
-namespace McCOM2.SymSpdsNode 
+namespace NVP_nanoCAD_COM._McCOM2.SymSpdsNode 
 {
 
 	[NVP_Manifest(

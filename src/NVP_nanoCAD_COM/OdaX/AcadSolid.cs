@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of a solid-filled polygon entity
 ///</summary>
-namespace OdaX.AcadSolid 
+namespace NVP_nanoCAD_COM._OdaX.AcadSolid 
 {
 
 	[NVP_Manifest(

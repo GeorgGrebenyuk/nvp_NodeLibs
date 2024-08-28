@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IMDSFunctionDlgWrapper Interface
 ///</summary>
-namespace mdsUnitsLib.MDSFunctionDlgWrapper 
+namespace NVP_ModelStudio_COM._mdsUnitsLib.MDSFunctionDlgWrapper 
 {
 
 	[NVP_Manifest(

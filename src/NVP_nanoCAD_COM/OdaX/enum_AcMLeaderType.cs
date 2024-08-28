@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///
 ///</summary>
-namespace OdaX.enum_AcMLeaderType 
+namespace NVP_nanoCAD_COM._OdaX.enum_AcMLeaderType 
 {
 
 

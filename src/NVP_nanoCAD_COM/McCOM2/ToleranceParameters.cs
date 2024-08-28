@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Set of SymToleranceParameter values
 ///</summary>
-namespace McCOM2.ToleranceParameters 
+namespace NVP_nanoCAD_COM._McCOM2.ToleranceParameters 
 {
 
 	[NVP_Manifest(

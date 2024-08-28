@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Technical requirements
 ///</summary>
-namespace McCOM2.SymTT 
+namespace NVP_nanoCAD_COM._McCOM2.SymTT 
 {
 
 	[NVP_Manifest(

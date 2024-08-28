@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IWrSupport Interface
 ///</summary>
-namespace vCSViperCSObjComLib.WrSupport 
+namespace NVP_ModelStudio_COM._vCSViperCSObjComLib.WrSupport 
 {
 
 	[NVP_Manifest(

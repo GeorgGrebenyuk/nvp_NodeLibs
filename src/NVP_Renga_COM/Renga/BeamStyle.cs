@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///
 ///</summary>
-namespace Renga.BeamStyle 
+namespace NVP_Renga_COM._Renga.BeamStyle 
 {
 
 	[NVP_Manifest(

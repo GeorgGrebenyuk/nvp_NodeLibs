@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Range mark
 ///</summary>
-namespace McCOM2.SymSpdsRange 
+namespace NVP_nanoCAD_COM._McCOM2.SymSpdsRange 
 {
 
 	[NVP_Manifest(

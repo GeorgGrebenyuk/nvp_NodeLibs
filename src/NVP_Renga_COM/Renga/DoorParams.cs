@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///
 ///</summary>
-namespace Renga.DoorParams 
+namespace NVP_Renga_COM._Renga.DoorParams 
 {
 
 	[NVP_Manifest(

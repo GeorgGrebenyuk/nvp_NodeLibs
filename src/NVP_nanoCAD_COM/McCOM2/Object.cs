@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Drawing object
 ///</summary>
-namespace McCOM2.Object 
+namespace NVP_nanoCAD_COM._McCOM2.Object 
 {
 
 	[NVP_Manifest(

@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///
 ///</summary>
-namespace Renga.Placement3DCollection 
+namespace NVP_Renga_COM._Renga.Placement3DCollection 
 {
 
 	[NVP_Manifest(

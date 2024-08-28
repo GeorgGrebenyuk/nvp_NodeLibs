@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Construction axis interface
 ///</summary>
-namespace McCOM2.SymSpdsGrid 
+namespace NVP_nanoCAD_COM._McCOM2.SymSpdsGrid 
 {
 
 	[NVP_Manifest(

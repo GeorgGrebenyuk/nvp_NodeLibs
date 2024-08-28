@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///ImstProjectDummy Interface
 ///</summary>
-namespace mstProjectCOMLib.mstProjectDummy 
+namespace NVP_ModelStudio_COM._mstProjectCOMLib.mstProjectDummy 
 {
 
 	[NVP_Manifest(

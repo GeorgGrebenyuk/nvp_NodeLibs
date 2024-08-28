@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///
 ///</summary>
-namespace Renga.Curve2D 
+namespace NVP_Renga_COM._Renga.Curve2D 
 {
 
 	[NVP_Manifest(

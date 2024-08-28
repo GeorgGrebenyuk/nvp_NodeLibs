@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///or raster) of small squares or dots known as pixels
 ///</summary>
-namespace OdaX.AcadRasterImage 
+namespace NVP_nanoCAD_COM._OdaX.AcadRasterImage 
 {
 
 	[NVP_Manifest(

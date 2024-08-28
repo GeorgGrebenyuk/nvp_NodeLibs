@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///The standard interface for a basic TeighaX entity
 ///</summary>
-namespace OdaX.AcadEntity 
+namespace NVP_nanoCAD_COM._OdaX.AcadEntity 
 {
 
 	[NVP_Manifest(

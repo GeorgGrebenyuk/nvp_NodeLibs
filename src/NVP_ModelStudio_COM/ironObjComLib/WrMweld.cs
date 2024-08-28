@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IWrMweld Interface
 ///</summary>
-namespace ironObjComLib.WrMweld 
+namespace NVP_ModelStudio_COM._ironObjComLib.WrMweld 
 {
 
 	[NVP_Manifest(

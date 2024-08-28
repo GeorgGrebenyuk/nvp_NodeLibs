@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of an object that specifies the settings for the current TeighaX drawing
 ///</summary>
-namespace OdaX.AcadDatabasePreferences 
+namespace NVP_nanoCAD_COM._OdaX.AcadDatabasePreferences 
 {
 
 	[NVP_Manifest(

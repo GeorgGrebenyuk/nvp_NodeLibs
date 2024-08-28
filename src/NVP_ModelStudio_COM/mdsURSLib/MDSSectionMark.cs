@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IMDSSectionMark Interface
 ///</summary>
-namespace mdsURSLib.MDSSectionMark 
+namespace NVP_ModelStudio_COM._mdsURSLib.MDSSectionMark 
 {
 
 	[NVP_Manifest(

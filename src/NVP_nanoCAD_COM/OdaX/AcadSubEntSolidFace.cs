@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Interface for a face on an AcDb3dSolid
 ///</summary>
-namespace OdaX.AcadSubEntSolidFace 
+namespace NVP_nanoCAD_COM._OdaX.AcadSubEntSolidFace 
 {
 
 	[NVP_Manifest(

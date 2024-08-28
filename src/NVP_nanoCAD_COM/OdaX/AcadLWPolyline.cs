@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of 2D line with adjustable width composed of line and arc segments entity
 ///</summary>
-namespace OdaX.AcadLWPolyline 
+namespace NVP_nanoCAD_COM._OdaX.AcadLWPolyline 
 {
 
 	[NVP_Manifest(

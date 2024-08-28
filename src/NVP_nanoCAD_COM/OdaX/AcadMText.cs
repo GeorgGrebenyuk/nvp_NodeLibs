@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of a paragraph of alphanumeric characters that fits within a nonprinting text boundary
 ///</summary>
-namespace OdaX.AcadMText 
+namespace NVP_nanoCAD_COM._OdaX.AcadMText 
 {
 
 	[NVP_Manifest(

@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of a special Block object containing all model space entities
 ///</summary>
-namespace OdaX.AcadModelSpace 
+namespace NVP_nanoCAD_COM._OdaX.AcadModelSpace 
 {
 
 	[NVP_Manifest(

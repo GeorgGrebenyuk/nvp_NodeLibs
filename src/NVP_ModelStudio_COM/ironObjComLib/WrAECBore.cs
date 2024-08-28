@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IWrAECBore Interface
 ///</summary>
-namespace ironObjComLib.WrAECBore 
+namespace NVP_ModelStudio_COM._ironObjComLib.WrAECBore 
 {
 
 	[NVP_Manifest(

@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IParameters Interface
 ///</summary>
-namespace mdsLINEComLib.Parameters 
+namespace NVP_ModelStudio_COM._mdsLINEComLib.Parameters 
 {
 
 	[NVP_Manifest(

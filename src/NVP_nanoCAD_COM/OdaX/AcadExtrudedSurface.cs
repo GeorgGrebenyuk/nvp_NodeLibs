@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of a surface created by extruding an object or a planar face a specified distance and direction
 ///</summary>
-namespace OdaX.AcadExtrudedSurface 
+namespace NVP_nanoCAD_COM._OdaX.AcadExtrudedSurface 
 {
 
 	[NVP_Manifest(

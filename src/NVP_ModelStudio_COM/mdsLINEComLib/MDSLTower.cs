@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Опора ЛЭП
 ///</summary>
-namespace mdsLINEComLib.MDSLTower 
+namespace NVP_ModelStudio_COM._mdsLINEComLib.MDSLTower 
 {
 
 	[NVP_Manifest(

@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Recent values container interface
 ///</summary>
-namespace McCOM2.Recent 
+namespace NVP_nanoCAD_COM._McCOM2.Recent 
 {
 
 	[NVP_Manifest(

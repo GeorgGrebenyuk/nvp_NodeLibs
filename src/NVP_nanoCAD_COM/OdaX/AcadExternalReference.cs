@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of an instance of an external reference inserted into a drawing
 ///</summary>
-namespace OdaX.AcadExternalReference 
+namespace NVP_nanoCAD_COM._OdaX.AcadExternalReference 
 {
 
 	[NVP_Manifest(

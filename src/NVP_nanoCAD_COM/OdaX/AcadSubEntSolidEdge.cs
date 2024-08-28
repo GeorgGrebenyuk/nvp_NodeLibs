@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Interface for a edge on an AcDb3dSolid
 ///</summary>
-namespace OdaX.AcadSubEntSolidEdge 
+namespace NVP_nanoCAD_COM._OdaX.AcadSubEntSolidEdge 
 {
 
 	[NVP_Manifest(

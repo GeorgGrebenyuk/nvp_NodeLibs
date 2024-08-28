@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IMDSELLink Interface
 ///</summary>
-namespace mdsELAYComLib.MDSELLink 
+namespace NVP_ModelStudio_COM._mdsELAYComLib.MDSELLink 
 {
 
 	[NVP_Manifest(

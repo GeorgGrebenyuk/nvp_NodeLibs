@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Interface for a vertex on an AcDb3dSolid
 ///</summary>
-namespace OdaX.AcadSubEntSolidVertex 
+namespace NVP_nanoCAD_COM._OdaX.AcadSubEntSolidVertex 
 {
 
 	[NVP_Manifest(

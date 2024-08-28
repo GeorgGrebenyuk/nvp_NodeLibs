@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///AutoCAD Interface for Multi-Leader's Leader Line
 ///</summary>
-namespace OdaX.AcadMLeaderLeader 
+namespace NVP_nanoCAD_COM._OdaX.AcadMLeaderLeader 
 {
 
 	[NVP_Manifest(

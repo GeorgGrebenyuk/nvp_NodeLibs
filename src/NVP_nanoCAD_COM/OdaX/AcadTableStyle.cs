@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface for adding, modifing and deleting table styles
 ///</summary>
-namespace OdaX.AcadTableStyle 
+namespace NVP_nanoCAD_COM._OdaX.AcadTableStyle 
 {
 
 	[NVP_Manifest(

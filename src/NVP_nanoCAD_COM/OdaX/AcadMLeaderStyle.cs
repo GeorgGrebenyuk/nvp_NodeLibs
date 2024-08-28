@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///MLeaderStyle Interface
 ///</summary>
-namespace OdaX.AcadMLeaderStyle 
+namespace NVP_nanoCAD_COM._OdaX.AcadMLeaderStyle 
 {
 
 	[NVP_Manifest(

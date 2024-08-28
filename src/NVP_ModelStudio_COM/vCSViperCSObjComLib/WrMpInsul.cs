@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IWrMpInsul Interface
 ///</summary>
-namespace vCSViperCSObjComLib.WrMpInsul 
+namespace NVP_ModelStudio_COM._vCSViperCSObjComLib.WrMpInsul 
 {
 
 	[NVP_Manifest(

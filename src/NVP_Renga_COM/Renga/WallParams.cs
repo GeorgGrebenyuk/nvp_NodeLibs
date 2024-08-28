@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///
 ///</summary>
-namespace Renga.WallParams 
+namespace NVP_Renga_COM._Renga.WallParams 
 {
 
 	[NVP_Manifest(

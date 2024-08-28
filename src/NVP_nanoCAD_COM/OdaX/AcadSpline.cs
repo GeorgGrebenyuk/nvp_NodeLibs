@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///nonuniform rational B-spline) curve entity
 ///</summary>
-namespace OdaX.AcadSpline 
+namespace NVP_nanoCAD_COM._OdaX.AcadSpline 
 {
 
 	[NVP_Manifest(

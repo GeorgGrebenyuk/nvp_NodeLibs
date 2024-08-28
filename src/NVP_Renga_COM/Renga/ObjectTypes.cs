@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 using NVP_Manifest_Creator;
 
-namespace Renga.ObjectTypes
+namespace NVP_Renga_COM._Renga.ObjectTypes
 {
     public class RengaObjectTypes
     {

@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Linear dimension
 ///</summary>
-namespace McCOM2.SymDimLinear 
+namespace NVP_nanoCAD_COM._McCOM2.SymDimLinear 
 {
 
 	[NVP_Manifest(

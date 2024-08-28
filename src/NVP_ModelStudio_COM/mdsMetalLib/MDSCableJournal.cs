@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IMDSCableJournal Interface
 ///</summary>
-namespace mdsMetalLib.MDSCableJournal 
+namespace NVP_ModelStudio_COM._mdsMetalLib.MDSCableJournal 
 {
 
 	[NVP_Manifest(

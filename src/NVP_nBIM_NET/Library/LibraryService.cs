@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 using NVP_Manifest_Creator;
 
-namespace Library.LibraryService
+namespace NVP_nBIM_NET.Library.LibraryService
 {
     [NVP_Manifest(
         Text = "Инициализирует подключение к Библиотеке компонентов для начала работы",

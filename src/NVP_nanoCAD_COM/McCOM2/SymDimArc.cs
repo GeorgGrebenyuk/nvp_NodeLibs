@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Arc dimension
 ///</summary>
-namespace McCOM2.SymDimArc 
+namespace NVP_nanoCAD_COM._McCOM2.SymDimArc 
 {
 
 	[NVP_Manifest(

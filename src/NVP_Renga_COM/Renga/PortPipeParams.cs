@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///
 ///</summary>
-namespace Renga.PortPipeParams 
+namespace NVP_Renga_COM._Renga.PortPipeParams 
 {
 
 	[NVP_Manifest(

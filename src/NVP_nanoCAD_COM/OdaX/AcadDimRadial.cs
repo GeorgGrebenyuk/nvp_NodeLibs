@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of a dimension measuring the radius of a circle or arc
 ///</summary>
-namespace OdaX.AcadDimRadial 
+namespace NVP_nanoCAD_COM._OdaX.AcadDimRadial 
 {
 
 	[NVP_Manifest(

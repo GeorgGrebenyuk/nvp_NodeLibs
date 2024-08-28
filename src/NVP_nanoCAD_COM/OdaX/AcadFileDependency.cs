@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface to provide information about entries in the File Dependency List of a drawing file
 ///</summary>
-namespace OdaX.AcadFileDependency 
+namespace NVP_nanoCAD_COM._OdaX.AcadFileDependency 
 {
 
 	[NVP_Manifest(

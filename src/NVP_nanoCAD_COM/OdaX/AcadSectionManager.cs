@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface for controls which property is constrained when editing other property values
 ///</summary>
-namespace OdaX.AcadSectionManager 
+namespace NVP_nanoCAD_COM._OdaX.AcadSectionManager 
 {
 
 	[NVP_Manifest(

@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface for creating, updating, retrieving and removing items in the File Dependency List
 ///</summary>
-namespace OdaX.AcadFileDependencies 
+namespace NVP_nanoCAD_COM._OdaX.AcadFileDependencies 
 {
 
 	[NVP_Manifest(

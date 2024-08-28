@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///s)
 ///</summary>
-namespace McCOM2.McTransaction 
+namespace NVP_nanoCAD_COM._McCOM2.McTransaction 
 {
 
 	[NVP_Manifest(

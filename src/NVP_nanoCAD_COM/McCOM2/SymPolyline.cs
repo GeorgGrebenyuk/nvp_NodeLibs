@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Polyline based symbol
 ///</summary>
-namespace McCOM2.SymPolyline 
+namespace NVP_nanoCAD_COM._McCOM2.SymPolyline 
 {
 
 	[NVP_Manifest(

@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///
 ///</summary>
-namespace Renga.RouteParams 
+namespace NVP_Renga_COM._Renga.RouteParams 
 {
 
 	[NVP_Manifest(

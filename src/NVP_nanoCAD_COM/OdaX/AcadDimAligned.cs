@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of a linear dimension, measuring the distance between two points, that is displayed parallel to the points being measured
 ///</summary>
-namespace OdaX.AcadDimAligned 
+namespace NVP_nanoCAD_COM._OdaX.AcadDimAligned 
 {
 
 	[NVP_Manifest(

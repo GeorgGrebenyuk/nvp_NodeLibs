@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///
 ///</summary>
-namespace Renga.Arc3D 
+namespace NVP_Renga_COM._Renga.Arc3D 
 {
 
 	[NVP_Manifest(

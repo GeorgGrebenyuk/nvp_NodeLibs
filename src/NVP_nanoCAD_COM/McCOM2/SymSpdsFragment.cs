@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Fragment mark
 ///</summary>
-namespace McCOM2.SymSpdsFragment 
+namespace NVP_nanoCAD_COM._McCOM2.SymSpdsFragment 
 {
 
 	[NVP_Manifest(

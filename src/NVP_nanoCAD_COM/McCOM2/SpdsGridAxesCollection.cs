@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Collection of SpdsGridAxesSet objects
 ///</summary>
-namespace McCOM2.SpdsGridAxesCollection 
+namespace NVP_nanoCAD_COM._McCOM2.SpdsGridAxesCollection 
 {
 
 	[NVP_Manifest(

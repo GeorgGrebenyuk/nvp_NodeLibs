@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IWrIronReinf Interface
 ///</summary>
-namespace ironObjComLib.WrIronReinf 
+namespace NVP_ModelStudio_COM._ironObjComLib.WrIronReinf 
 {
 
 	[NVP_Manifest(

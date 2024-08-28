@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of a logical grouping of data, similar to overlays.
 ///</summary>
-namespace OdaX.AcadLayer 
+namespace NVP_nanoCAD_COM._OdaX.AcadLayer 
 {
 
 	[NVP_Manifest(

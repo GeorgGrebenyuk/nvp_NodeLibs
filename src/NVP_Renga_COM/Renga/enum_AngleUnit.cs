@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///
 ///</summary>
-namespace Renga.enum_AngleUnit 
+namespace NVP_Renga_COM._Renga.enum_AngleUnit 
 {
 
 

@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Radius dimension
 ///</summary>
-namespace McCOM2.SymDimRadius 
+namespace NVP_nanoCAD_COM._McCOM2.SymDimRadius 
 {
 
 	[NVP_Manifest(

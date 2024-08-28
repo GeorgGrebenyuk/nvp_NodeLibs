@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///
 ///</summary>
-namespace Renga.RebarUsageCollection 
+namespace NVP_Renga_COM._Renga.RebarUsageCollection 
 {
 
 	[NVP_Manifest(

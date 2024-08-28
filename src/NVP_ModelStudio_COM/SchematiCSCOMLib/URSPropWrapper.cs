@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IURSPropWrapper Interface
 ///</summary>
-namespace SchematiCSCOMLib.URSPropWrapper 
+namespace NVP_ModelStudio_COM._SchematiCSCOMLib.URSPropWrapper 
 {
 
 	[NVP_Manifest(

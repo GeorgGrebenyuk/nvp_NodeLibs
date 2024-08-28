@@ -4,14 +4,14 @@ using System.Collections;
 using System.Collections.Generic;
 
 using NVP_Manifest_Creator;
-using Renga.ModelObject;
+using NVP_Renga_COM._Renga.ModelObject;
 using System.Linq;
-using Renga.Utilities;
+using NVP_Renga_COM._Renga.Utilities;
 
 ///<summary>
 ///
 ///</summary>
-namespace Renga.Selection 
+namespace NVP_Renga_COM._Renga.Selection 
 {
 	[NVP_Manifest(
         Text = "Возвращает набор объектов, выделенных в модели",
@@ -292,7 +292,7 @@ namespace Renga.Selection
             dynamic _input0 = inputs[0].Value;
             Guid sel_type = (Guid)inputs[1].Value;
             Renga.IModel model = _input0._i as Renga.IModel;
-            var need_objects = Renga.Utilities.Utils.GetObjectsFromModelByTypes(model, new Guid[] { sel_type });
+            var need_objects = _Renga.Utilities.Utils.GetObjectsFromModelByTypes(model, new Guid[] { sel_type });
 
             List<ModelObject_Constructor> objects = new List<ModelObject_Constructor>();
             foreach (var obj in need_objects)

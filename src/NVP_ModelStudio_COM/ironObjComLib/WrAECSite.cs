@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IWrAECSite Interface
 ///</summary>
-namespace ironObjComLib.WrAECSite 
+namespace NVP_ModelStudio_COM._ironObjComLib.WrAECSite 
 {
 
 	[NVP_Manifest(

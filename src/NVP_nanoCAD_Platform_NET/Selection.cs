@@ -6,13 +6,13 @@ using System.Collections;
 
 using NVP_Manifest_Creator;
 using Teigha.DatabaseServices;
-using ncCommon;
+using NVP_nanoCAD_Platform_NET._Teigha;
 
 using Teigha;
 
 
 
-namespace Selection
+namespace NVP_nanoCAD_Platform_NET.Selection
 {
     [NVP_Manifest(
         Text = "Возвращает Entity (режим чтения) по строковому значению Handle",

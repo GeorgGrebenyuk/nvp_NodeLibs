@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IWrmplate Interface
 ///</summary>
-namespace ironObjComLib.WrMplate 
+namespace NVP_ModelStudio_COM._ironObjComLib.WrMplate 
 {
 
 	[NVP_Manifest(

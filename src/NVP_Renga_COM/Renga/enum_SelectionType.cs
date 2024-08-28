@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 using NVP_Manifest_Creator;
 
-namespace Renga.enum_SelectionType
+namespace NVP_Renga_COM._Renga.enum_SelectionType
 {
     public enum SelectionType
     {

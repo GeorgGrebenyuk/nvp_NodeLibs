@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IMSBlockXRef Interface
 ///</summary>
-namespace SchematiCSCOMLib.MSBlockXRef 
+namespace NVP_ModelStudio_COM._SchematiCSCOMLib.MSBlockXRef 
 {
 
 	[NVP_Manifest(

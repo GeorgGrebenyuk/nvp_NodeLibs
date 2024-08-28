@@ -3,14 +3,14 @@ using System;
 using System.Collections.Generic;
 
 using NVP_Manifest_Creator;
-using Renga.PropertyContainer;
-using Renga.QuantityContainer;
-using Renga.ParameterContainer;
+using NVP_Renga_COM._Renga.PropertyContainer;
+using NVP_Renga_COM._Renga.QuantityContainer;
+using NVP_Renga_COM._Renga.ParameterContainer;
 
 ///<summary>
 ///
 ///</summary>
-namespace Renga.ModelObject 
+namespace NVP_Renga_COM._Renga.ModelObject 
 {
 
 	[NVP_Manifest(

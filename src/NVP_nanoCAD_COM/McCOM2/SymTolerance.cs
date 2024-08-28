@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Surface and dimension tolerance designation
 ///</summary>
-namespace McCOM2.SymTolerance 
+namespace NVP_nanoCAD_COM._McCOM2.SymTolerance 
 {
 
 	[NVP_Manifest(

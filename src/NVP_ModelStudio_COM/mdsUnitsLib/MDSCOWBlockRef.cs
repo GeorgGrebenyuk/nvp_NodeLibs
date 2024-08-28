@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IMDSCOWBlockRef Interface
 ///</summary>
-namespace mdsUnitsLib.MDSCOWBlockRef 
+namespace NVP_ModelStudio_COM._mdsUnitsLib.MDSCOWBlockRef 
 {
 
 	[NVP_Manifest(

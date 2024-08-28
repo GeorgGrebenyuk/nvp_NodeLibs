@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///
 ///</summary>
-namespace mdsUnitsLib.MDSUnitsFactory 
+namespace NVP_ModelStudio_COM._mdsUnitsLib.MDSUnitsFactory 
 {
 
 	[NVP_Manifest(

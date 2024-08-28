@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of a dimension measuring the absolute X or Y position of a point from the origin
 ///</summary>
-namespace OdaX.AcadDimOrdinate 
+namespace NVP_nanoCAD_COM._OdaX.AcadDimOrdinate 
 {
 
 	[NVP_Manifest(

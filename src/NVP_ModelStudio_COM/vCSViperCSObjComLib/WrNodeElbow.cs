@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IWrNodeElbow Interface
 ///</summary>
-namespace vCSViperCSObjComLib.WrNodeElbow 
+namespace NVP_ModelStudio_COM._vCSViperCSObjComLib.WrNodeElbow 
 {
 
 	[NVP_Manifest(

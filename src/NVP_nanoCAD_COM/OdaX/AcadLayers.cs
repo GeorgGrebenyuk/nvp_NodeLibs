@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of the collection of all layers in the drawing
 ///</summary>
-namespace OdaX.AcadLayers 
+namespace NVP_nanoCAD_COM._OdaX.AcadLayers 
 {
 
 	[NVP_Manifest(
@@ -127,10 +127,10 @@ namespace OdaX.AcadLayers
         public NodeResult Execute(INVPData context, List<NodeResult> inputs)
         {
             var _input0 = ((dynamic)inputs[0].Value)._i as OdaX.IAcadLayers;
-            List<OdaX.AcadLayer.AcadLayer_Constructor> items = new List<OdaX.AcadLayer.AcadLayer_Constructor>();
+            List<_OdaX.AcadLayer.AcadLayer_Constructor> items = new List<_OdaX.AcadLayer.AcadLayer_Constructor>();
             for (int item_counter = 0; item_counter < _input0.Count; item_counter++)
             {
-                OdaX.AcadLayer.AcadLayer_Constructor item = new OdaX.AcadLayer.AcadLayer_Constructor();
+                _OdaX.AcadLayer.AcadLayer_Constructor item = new _OdaX.AcadLayer.AcadLayer_Constructor();
                 item._i = _input0.Item(item_counter);
                 items.Add(item);
             }

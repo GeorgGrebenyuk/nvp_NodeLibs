@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface for the collection of all materials in the drawing
 ///</summary>
-namespace OdaX.AcadMaterials 
+namespace NVP_nanoCAD_COM._OdaX.AcadMaterials 
 {
 
 	[NVP_Manifest(
@@ -108,10 +108,10 @@ namespace OdaX.AcadMaterials
         public NodeResult Execute(INVPData context, List<NodeResult> inputs)
         {
             var _input0 = ((dynamic)inputs[0].Value)._i as OdaX.IAcadMaterials;
-            List<OdaX.AcadMaterial.AcadMaterial_Constructor> items = new List<OdaX.AcadMaterial.AcadMaterial_Constructor>();
+            List<_OdaX.AcadMaterial.AcadMaterial_Constructor> items = new List<_OdaX.AcadMaterial.AcadMaterial_Constructor>();
             for (int item_counter = 0; item_counter < _input0.Count; item_counter++)
             {
-                OdaX.AcadMaterial.AcadMaterial_Constructor item = new OdaX.AcadMaterial.AcadMaterial_Constructor();
+                _OdaX.AcadMaterial.AcadMaterial_Constructor item = new _OdaX.AcadMaterial.AcadMaterial_Constructor();
                 item._i = _input0.Item(item_counter);
                 items.Add(item);
             }

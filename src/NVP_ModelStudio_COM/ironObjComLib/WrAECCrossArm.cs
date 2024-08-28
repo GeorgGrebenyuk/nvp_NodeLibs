@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IWrAECCrossArm Interface
 ///</summary>
-namespace ironObjComLib.WrAECCrossArm 
+namespace NVP_ModelStudio_COM._ironObjComLib.WrAECCrossArm 
 {
 
 	[NVP_Manifest(

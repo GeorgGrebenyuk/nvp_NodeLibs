@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface for the collection of all mline styles in the drawing
 ///</summary>
-namespace OdaX.OdaMLineStyles 
+namespace NVP_nanoCAD_COM._OdaX.OdaMLineStyles 
 {
 
 	[NVP_Manifest(

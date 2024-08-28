@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IElement Interface
 ///</summary>
-namespace mdsUnitsLib.Element 
+namespace NVP_ModelStudio_COM._mdsUnitsLib.Element 
 {
 
 	[NVP_Manifest(
@@ -425,7 +425,7 @@ namespace mdsUnitsLib.Element
             mdsUnitsLib.IParameters parameters = element.Parameters;
 
 			Dictionary<string, string> o_params = new Dictionary<string, string>();
-			foreach (parameter param in parameters)
+			foreach (mdsUnitsLib.parameter param in parameters)
 			{
 				if (!o_params.ContainsKey(param.Name))
 				{

@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IMDSMetalParamsDlg Interface
 ///</summary>
-namespace mdsMetalLib.MDSMetalParamsDlg 
+namespace NVP_ModelStudio_COM._mdsMetalLib.MDSMetalParamsDlg 
 {
 
 	[NVP_Manifest(

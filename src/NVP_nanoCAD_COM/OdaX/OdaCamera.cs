@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Interface for a Camera entity
 ///</summary>
-namespace OdaX.OdaCamera 
+namespace NVP_nanoCAD_COM._OdaX.OdaCamera 
 {
 
 	[NVP_Manifest(

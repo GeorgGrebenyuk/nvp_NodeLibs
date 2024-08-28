@@ -5,7 +5,7 @@ using NVP_Manifest_Creator;
 using System.Collections;
 using System.Linq;
 
-namespace List
+namespace NVP_Common.List
 {
     #region Constructors
     [NVP_Manifest(

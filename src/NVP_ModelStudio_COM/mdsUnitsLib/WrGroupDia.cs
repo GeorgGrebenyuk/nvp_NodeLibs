@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IWrGroupDia Interface
 ///</summary>
-namespace mdsUnitsLib.WrGroupDia 
+namespace NVP_ModelStudio_COM._mdsUnitsLib.WrGroupDia 
 {
 
 	[NVP_Manifest(

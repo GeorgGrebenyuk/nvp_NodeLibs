@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Gradient or taper designation
 ///</summary>
-namespace McCOM2.SymGradient 
+namespace NVP_nanoCAD_COM._McCOM2.SymGradient 
 {
 
 	[NVP_Manifest(

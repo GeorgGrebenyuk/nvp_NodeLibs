@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of the collection of all layouts in the drawing
 ///</summary>
-namespace OdaX.AcadLayouts 
+namespace NVP_nanoCAD_COM._OdaX.AcadLayouts 
 {
 
 	[NVP_Manifest(
@@ -108,10 +108,10 @@ namespace OdaX.AcadLayouts
         public NodeResult Execute(INVPData context, List<NodeResult> inputs)
         {
             var _input0 = ((dynamic)inputs[0].Value)._i as OdaX.IAcadLayouts;
-            List<OdaX.AcadLayout.AcadLayout_Constructor> items = new List<OdaX.AcadLayout.AcadLayout_Constructor>();
+            List<_OdaX.AcadLayout.AcadLayout_Constructor> items = new List<_OdaX.AcadLayout.AcadLayout_Constructor>();
             for (int item_counter = 0; item_counter < _input0.Count; item_counter++)
             {
-                OdaX.AcadLayout.AcadLayout_Constructor item = new OdaX.AcadLayout.AcadLayout_Constructor();
+                _OdaX.AcadLayout.AcadLayout_Constructor item = new _OdaX.AcadLayout.AcadLayout_Constructor();
                 item._i = _input0.Item(item_counter);
                 items.Add(item);
             }

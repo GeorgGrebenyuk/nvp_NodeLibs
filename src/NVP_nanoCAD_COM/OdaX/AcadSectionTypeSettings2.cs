@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IAcadSectionTypeSettings2 Interface
 ///</summary>
-namespace OdaX.AcadSectionTypeSettings2 
+namespace NVP_nanoCAD_COM._OdaX.AcadSectionTypeSettings2 
 {
 
 	[NVP_Manifest(

@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of rectangular object created in paper space that display view
 ///</summary>
-namespace OdaX.AcadPViewport 
+namespace NVP_nanoCAD_COM._OdaX.AcadPViewport 
 {
 
 	[NVP_Manifest(

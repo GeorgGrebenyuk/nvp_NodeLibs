@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///
 ///</summary>
-namespace Renga.Room 
+namespace NVP_Renga_COM._Renga.Room 
 {
 
 	[NVP_Manifest(

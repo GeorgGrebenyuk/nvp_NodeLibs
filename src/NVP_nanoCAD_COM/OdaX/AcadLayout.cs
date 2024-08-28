@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of the plot settings and visual properties of a model space or paper space block
 ///</summary>
-namespace OdaX.AcadLayout 
+namespace NVP_nanoCAD_COM._OdaX.AcadLayout 
 {
 
 	[NVP_Manifest(

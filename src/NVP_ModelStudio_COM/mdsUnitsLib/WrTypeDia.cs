@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IWrTypeDia Interface
 ///</summary>
-namespace mdsUnitsLib.WrTypeDia 
+namespace NVP_ModelStudio_COM._mdsUnitsLib.WrTypeDia 
 {
 
 	[NVP_Manifest(

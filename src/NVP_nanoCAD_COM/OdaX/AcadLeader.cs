@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of an object composed of an arrowhead attached to splines or straight line segments
 ///</summary>
-namespace OdaX.AcadLeader 
+namespace NVP_nanoCAD_COM._OdaX.AcadLeader 
 {
 
 	[NVP_Manifest(

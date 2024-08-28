@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IMSLinkSegment Interface
 ///</summary>
-namespace SchematiCSCOMLib.MSLinkSegment 
+namespace NVP_ModelStudio_COM._SchematiCSCOMLib.MSLinkSegment 
 {
 
 	[NVP_Manifest(

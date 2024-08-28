@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of a special Block object containing all the entities in the active paper space layout
 ///</summary>
-namespace OdaX.AcadPaperSpace 
+namespace NVP_nanoCAD_COM._OdaX.AcadPaperSpace 
 {
 
 	[NVP_Manifest(

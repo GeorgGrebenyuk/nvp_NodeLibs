@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///An additional TeighaX Interface to the line characteristics
 ///</summary>
-namespace OdaX.OdaLineType 
+namespace NVP_nanoCAD_COM._OdaX.OdaLineType 
 {
 
 	[NVP_Manifest(

@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IMDSLProfile Interface
 ///</summary>
-namespace mdsLINEComLib.MDSLProfile 
+namespace NVP_ModelStudio_COM._mdsLINEComLib.MDSLProfile 
 {
 
 	[NVP_Manifest(

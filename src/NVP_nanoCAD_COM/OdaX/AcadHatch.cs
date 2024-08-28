@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of an area fill consisting of a pattern of lines
 ///</summary>
-namespace OdaX.AcadHatch 
+namespace NVP_nanoCAD_COM._OdaX.AcadHatch 
 {
 
 	[NVP_Manifest(

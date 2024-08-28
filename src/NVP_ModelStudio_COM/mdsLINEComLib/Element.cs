@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IElement Interface
 ///</summary>
-namespace mdsLINEComLib.Element 
+namespace NVP_ModelStudio_COM._mdsLINEComLib.Element 
 {
 
 	[NVP_Manifest(

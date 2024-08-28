@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Roughness of surface
 ///</summary>
-namespace McCOM2.SymRoughness 
+namespace NVP_nanoCAD_COM._McCOM2.SymRoughness 
 {
 
 	[NVP_Manifest(

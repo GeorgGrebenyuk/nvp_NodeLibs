@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 using NVP_Manifest_Creator;
 using Teigha.DatabaseServices;
-using ncCommon;
+
 using BIMStructureMgd.DatabaseObjects;
 using static BIMStructureMgd.DatabaseObjects.Reinforcement;
 using BIMStructureMgd.ObjectProperties;

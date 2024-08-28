@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IWrInLine Interface
 ///</summary>
-namespace vCSViperCSObjComLib.WrInLine 
+namespace NVP_ModelStudio_COM._vCSViperCSObjComLib.WrInLine 
 {
 
 	[NVP_Manifest(

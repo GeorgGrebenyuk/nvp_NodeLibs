@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IPropsDiaWrap Interface
 ///</summary>
-namespace mstHVACCOMLib.PropsDiaWrap 
+namespace NVP_ModelStudio_COM._mstHVACCOMLib.PropsDiaWrap 
 {
 
 	[NVP_Manifest(

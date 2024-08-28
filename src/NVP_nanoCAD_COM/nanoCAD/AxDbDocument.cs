@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Provides access to database without document.
 ///</summary>
-namespace nanoCAD.AxDbDocument 
+namespace NVP_nanoCAD_COM._nanoCAD.AxDbDocument 
 {
 
 	[NVP_Manifest(

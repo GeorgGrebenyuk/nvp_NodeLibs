@@ -4,10 +4,9 @@ using System.Collections.Generic;
 
 using NVP_Manifest_Creator;
 using Teigha.DatabaseServices;
-using ncCommon;
 
 
-namespace Application.Document
+namespace NVP_nanoCAD_Platform_NET.Application.Document
 {
     [NVP_Manifest(
         Text = "Возвращает текущий активный документ (модель) nanoCAD",

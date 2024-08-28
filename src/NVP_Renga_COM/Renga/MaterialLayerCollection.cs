@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///
 ///</summary>
-namespace Renga.MaterialLayerCollection 
+namespace NVP_Renga_COM._Renga.MaterialLayerCollection 
 {
 
 	[NVP_Manifest(

@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Specifies drafting settings.
 ///</summary>
-namespace nanoCAD.nanoCADPreferencesDrafting 
+namespace NVP_nanoCAD_COM._nanoCAD.nanoCADPreferencesDrafting 
 {
 
 	[NVP_Manifest(

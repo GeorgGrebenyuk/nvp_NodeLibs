@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IWrAECTrench Interface
 ///</summary>
-namespace ironObjComLib.WrAECTrench 
+namespace NVP_ModelStudio_COM._ironObjComLib.WrAECTrench 
 {
 
 	[NVP_Manifest(

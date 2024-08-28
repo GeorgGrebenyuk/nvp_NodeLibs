@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///
 ///</summary>
-namespace mstRouteCOMLib.mstRouteShelf 
+namespace NVP_ModelStudio_COM._mstRouteCOMLib.mstRouteShelf 
 {
 
 	[NVP_Manifest(

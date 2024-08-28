@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///ISymSpdsBoundForm interface
 ///</summary>
-namespace McCOM2.SymSpdsBoundForm 
+namespace NVP_nanoCAD_COM._McCOM2.SymSpdsBoundForm 
 {
 
 	[NVP_Manifest(

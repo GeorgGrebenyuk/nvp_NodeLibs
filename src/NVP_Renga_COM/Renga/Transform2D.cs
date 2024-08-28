@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///
 ///</summary>
-namespace Renga.Transform2D 
+namespace NVP_Renga_COM._Renga.Transform2D 
 {
 
 	[NVP_Manifest(

@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of an instance of a block definition inserted into a drawing
 ///</summary>
-namespace OdaX.AcadBlockReference 
+namespace NVP_nanoCAD_COM._OdaX.AcadBlockReference 
 {
 
 	[NVP_Manifest(

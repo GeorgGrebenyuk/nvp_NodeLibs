@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface for an additional block functionality
 ///</summary>
-namespace OdaX.OdaBlock 
+namespace NVP_nanoCAD_COM._OdaX.OdaBlock 
 {
 
 	[NVP_Manifest(

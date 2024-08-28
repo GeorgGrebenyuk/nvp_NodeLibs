@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///A special object to use in monitoring the state of App from out-of-process applications.
 ///</summary>
-namespace nanoCAD.nanoCADState 
+namespace NVP_nanoCAD_COM._nanoCAD.nanoCADState 
 {
 
 	[NVP_Manifest(

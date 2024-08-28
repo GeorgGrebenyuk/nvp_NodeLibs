@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of a dimension that measures the distance between two points and is displayed at a given rotation
 ///</summary>
-namespace OdaX.AcadDimRotated 
+namespace NVP_nanoCAD_COM._OdaX.AcadDimRotated 
 {
 
 	[NVP_Manifest(

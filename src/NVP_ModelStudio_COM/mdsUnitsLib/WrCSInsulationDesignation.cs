@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///IWrCSInsulationDesignation Interface
 ///</summary>
-namespace mdsUnitsLib.WrCSInsulationDesignation 
+namespace NVP_ModelStudio_COM._mdsUnitsLib.WrCSInsulationDesignation 
 {
 
 	[NVP_Manifest(

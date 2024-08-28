@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///
 ///</summary>
-namespace Renga.OpeningParams 
+namespace NVP_Renga_COM._Renga.OpeningParams 
 {
 
 	[NVP_Manifest(

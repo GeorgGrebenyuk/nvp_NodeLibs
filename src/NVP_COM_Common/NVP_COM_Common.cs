@@ -11,7 +11,7 @@ using System.Linq;
 using System.Diagnostics;
 using NVP_Manifest_Creator;
 
-namespace Common
+namespace NVP_COM_Common.Common
 {
     /// <summary>
     /// Get _i object (COM-interface)

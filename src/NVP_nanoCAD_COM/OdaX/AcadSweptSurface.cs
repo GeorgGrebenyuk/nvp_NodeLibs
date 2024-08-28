@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of a surface created by sweeping a 2D curve along a path
 ///</summary>
-namespace OdaX.AcadSweptSurface 
+namespace NVP_nanoCAD_COM._OdaX.AcadSweptSurface 
 {
 
 	[NVP_Manifest(

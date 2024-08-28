@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///Interface for a Light entity
 ///</summary>
-namespace OdaX.OdaLight 
+namespace NVP_nanoCAD_COM._OdaX.OdaLight 
 {
 
 	[NVP_Manifest(

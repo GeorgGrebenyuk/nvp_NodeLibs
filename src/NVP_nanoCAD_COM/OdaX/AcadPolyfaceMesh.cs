@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of a three-dimensional polyface mesh
 ///</summary>
-namespace OdaX.AcadPolyfaceMesh 
+namespace NVP_nanoCAD_COM._OdaX.AcadPolyfaceMesh 
 {
 
 	[NVP_Manifest(

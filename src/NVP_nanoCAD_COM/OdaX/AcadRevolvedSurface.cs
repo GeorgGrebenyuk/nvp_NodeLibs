@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of a surface created by revolving one or more 2D objects about an axis
 ///</summary>
-namespace OdaX.AcadRevolvedSurface 
+namespace NVP_nanoCAD_COM._OdaX.AcadRevolvedSurface 
 {
 
 	[NVP_Manifest(

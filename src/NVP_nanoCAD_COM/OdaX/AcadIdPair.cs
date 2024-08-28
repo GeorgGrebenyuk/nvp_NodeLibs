@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of a special object for use with the CopyObjects method that contains the object IDs of both the source and destination objects
 ///</summary>
-namespace OdaX.AcadIdPair 
+namespace NVP_nanoCAD_COM._OdaX.AcadIdPair 
 {
 
 	[NVP_Manifest(

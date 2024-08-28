@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of a container object for storing and retrieving objects
 ///</summary>
-namespace OdaX.AcadDictionary 
+namespace NVP_nanoCAD_COM._OdaX.AcadDictionary 
 {
 
 	[NVP_Manifest(

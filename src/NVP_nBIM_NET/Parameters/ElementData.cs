@@ -5,12 +5,11 @@ using System.Collections.Generic;
 
 using NVP_Manifest_Creator;
 using Teigha.DatabaseServices;
-using ncCommon;
 using BIMStructureMgd.ObjectProperties;
 using System.Collections;
 
 
-namespace Parameters.ElementData
+namespace NVP_nBIM_NET.Parameters.ElementData
 {
     internal class ElementDataContainer
     {

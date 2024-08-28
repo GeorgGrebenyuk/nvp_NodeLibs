@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///
 ///</summary>
-namespace Renga.FloorParams 
+namespace NVP_Renga_COM._Renga.FloorParams 
 {
 
 	[NVP_Manifest(

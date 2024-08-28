@@ -107,19 +107,19 @@ namespace NVP_Manifest_Creator
                         NVP_Manifest NVP_Manifest_attrs_need = NVP_Manifest_attrs[0];
                         is_any_nodes = true;
 
-                        //get fill path
-                        string cs_path = type.Namespace;
+                        /*Если Namespace содержит имя dll, то оставляем. Если не содержит,*/
+
+                        //Получаем индекс нода от текущего полного пути класса, объявляющего нод в данной dll. Это значение равное namespace за минусом последней подгруппы
+                        string cs_path_index = type.Namespace;
+                        if (cs_path_index.Contains(".")) cs_path_index = cs_path_index.Substring(0, cs_path_index.LastIndexOf("."));
+                        else cs_path_index = dll_name;
+
                         string nvp_node_path = type.Namespace + "." + type.Name;
-                        if (cs_path.Contains("."))
-                        {
-                            cs_path = cs_path.Substring(0, cs_path.IndexOf("."));
-                        }
-                        else cs_path = dll_name;
 
 
                         NVP_Manifest_attrs_need.PathAssembly = dll_nameDLL;
                         NVP_Manifest_attrs_need.PathExecuteClass = nvp_node_path;
-                        NVP_Manifest_attrs_need.Folder = dll_name + "." + type.Namespace;
+                        NVP_Manifest_attrs_need.Folder = type.Namespace.Replace("._", ".");
                         NVP_Manifest_attrs_need.CoderName = _CoderName;
                         NVP_Manifest_attrs_need.NodeName = type.Name;
                         //исключение для нодов-конструкторов, делаем им префикс "_"
@@ -146,8 +146,8 @@ namespace NVP_Manifest_Creator
                         if (NVP_Manifest_attrs_need.Text == null) NVP_Manifest_attrs_need.Text = "";
 
 
-                        if (nodeitems.ContainsKey(cs_path)) nodeitems[cs_path].Add(NVP_Manifest_attrs_need);
-                        else nodeitems.Add(cs_path, new List<NVP_Manifest> { NVP_Manifest_attrs_need });
+                        if (nodeitems.ContainsKey(cs_path_index)) nodeitems[cs_path_index].Add(NVP_Manifest_attrs_need);
+                        else nodeitems.Add(cs_path_index, new List<NVP_Manifest> { NVP_Manifest_attrs_need });
                         //nodeitems.Add(NVP_Manifest_attrs_need);
                     }
                 }
@@ -182,8 +182,8 @@ namespace NVP_Manifest_Creator
                         }
 
                         //Сохраняем сразу во вложенной папке NVP_Data
-                        string file_name = Path.GetFileNameWithoutExtension(dll_path) + "_" + nodeitem_File.Key + ".nodeitem";
-                        if (nodeitem_File.Key == dll_name) file_name = Path.GetFileNameWithoutExtension(dll_path) + ".nodeitem";
+                        string file_name = nodeitem_File.Key + ".nodeitem";
+                        if (nodeitem_File.Key == dll_name) file_name = dll_name + ".nodeitem";
 
                         string nodeitemPath = Path.Combine(Path.GetDirectoryName(dll_path), file_name);
 

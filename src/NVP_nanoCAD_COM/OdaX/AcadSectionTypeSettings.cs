@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of the settings that apply to the various types of sections
 ///</summary>
-namespace OdaX.AcadSectionTypeSettings 
+namespace NVP_nanoCAD_COM._OdaX.AcadSectionTypeSettings 
 {
 
 	[NVP_Manifest(

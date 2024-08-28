@@ -7,7 +7,7 @@ using NVP_Manifest_Creator;
 ///<summary>
 ///TeighaX Interface of XRecord objects are used to store and manage arbitrary data
 ///</summary>
-namespace OdaX.AcadXRecord 
+namespace NVP_nanoCAD_COM._OdaX.AcadXRecord 
 {
 
 	[NVP_Manifest(
