@@ -5,6 +5,7 @@ using System.IO;
 using System.Collections.Generic;
 using System.Xml.Serialization;
 using System.Text;
+using NVP.API.Nodes;
 
 namespace NVP_Manifest_Creator
 {
@@ -72,6 +73,11 @@ namespace NVP_Manifest_Creator
         {
             string sade_directory = AppDomain.CurrentDomain.BaseDirectory;
             string root_repo_path = new DirectoryInfo(sade_directory).Parent.Parent.Parent.FullName;
+
+            string help_md_path = Path.Combine(root_repo_path, "docs", "help");
+            //if (Directory.Exists(help_md_path)) Directory.Delete(help_md_path, true);
+            Directory.CreateDirectory(help_md_path);
+
             foreach (string dll_path in Directory.GetFiles(AppDomain.CurrentDomain.BaseDirectory, "*.dll", SearchOption.TopDirectoryOnly))
             {
                 bool is_any_nodes = false;
@@ -79,9 +85,14 @@ namespace NVP_Manifest_Creator
                 string dll_name = Path.GetFileNameWithoutExtension(dll_path);
                 string dll_nameDLL = Path.GetFileName(dll_path);
                 string guids_map_path = Path.Combine(root_repo_path, "src", dll_name, dll_name + "_guids_map.xml");
+                string help_mdFile_path = Path.Combine(help_md_path, dll_name + "_help.md");
+
                 Auxiliary_Guids_Map guids_map = Auxiliary_Guids_Map.LoadFromFile(guids_map_path);
 
                 Dictionary<string, List<NVP_Manifest>> nodeitems = new Dictionary<string, List<NVP_Manifest>>();
+
+                //Тоже самое, что и в nodeitems, только сортировка идет по папкам (NVP_Manifest.Folder)
+                Dictionary<string, List<NVP_Manifest>> folder2nodes = new Dictionary<string, List<NVP_Manifest>>();
 
                 Assembly assembly = Assembly.LoadFrom(dll_path);
                 Type[] types = new Type[] { };
@@ -98,10 +109,12 @@ namespace NVP_Manifest_Creator
                 //                types = assembly.GetTypes();
 
                 //#endif
+                
 
                 foreach (Type type in types)
                 {
                     var NVP_Manifest_attrs = (NVP_Manifest[])type.GetCustomAttributes(typeof(NVP_Manifest), true);
+                    var NVP_NodeInput_attrs = (NVP.API.Nodes.NodeInputAttribute[])type.GetCustomAttributes(typeof(NodeInputAttribute), true);
                     if (NVP_Manifest_attrs.Length > 0)
                     {
                         NVP_Manifest NVP_Manifest_attrs_need = NVP_Manifest_attrs[0];
@@ -145,9 +158,26 @@ namespace NVP_Manifest_Creator
                         if (NVP_Manifest_attrs_need.ViewType == null) NVP_Manifest_attrs_need.ViewType = "Default";
                         if (NVP_Manifest_attrs_need.Text == null) NVP_Manifest_attrs_need.Text = "";
 
+                        if (NVP_NodeInput_attrs.Length > 0)
+                        {
+                            NVP_Manifest_attrs_need.Arguments = new string[NVP_NodeInput_attrs.Length];
+                            int arg_counter = 0;
+                            foreach (NVP.API.Nodes.NodeInputAttribute NVP_NodeInput_attrs_need in NVP_NodeInput_attrs)
+                            {
+                                NVP_Manifest_attrs_need.Arguments[arg_counter] = $"({NVP_NodeInput_attrs_need.InputType}){NVP_NodeInput_attrs_need.Name}";
+                                arg_counter++;
+                            }
+                        }
+                        else NVP_Manifest_attrs_need.Arguments = new string[0];
+
 
                         if (nodeitems.ContainsKey(cs_path_index)) nodeitems[cs_path_index].Add(NVP_Manifest_attrs_need);
                         else nodeitems.Add(cs_path_index, new List<NVP_Manifest> { NVP_Manifest_attrs_need });
+
+                        if (folder2nodes.ContainsKey(NVP_Manifest_attrs_need.Folder)) folder2nodes[NVP_Manifest_attrs_need.Folder].Add(NVP_Manifest_attrs_need);
+                        else folder2nodes.Add(NVP_Manifest_attrs_need.Folder, new List<NVP_Manifest> { NVP_Manifest_attrs_need });
+
+
                         //nodeitems.Add(NVP_Manifest_attrs_need);
                     }
                 }
@@ -192,6 +222,44 @@ namespace NVP_Manifest_Creator
 
                         Console.WriteLine(nodeitemPath);
                     }
+
+                    //Сохраняем справку
+                    StringBuilder lib_md_doc = new StringBuilder();
+                    lib_md_doc.AppendLine("# " + dll_name + Environment.NewLine);
+                    foreach (var folder_nodes in folder2nodes)
+                    {
+                        lib_md_doc.AppendLine("## Группа " + folder_nodes.Key + Environment.NewLine);
+
+                        foreach (var node in folder_nodes.Value)
+                        {
+                            lib_md_doc.AppendLine("### Нод " + node.NodeName + Environment.NewLine);
+                            lib_md_doc.AppendLine("**Имя нода** = " + node.NodeName + ";");
+                            if (node.Text != "") lib_md_doc.AppendLine("**Описание** = " + node.Text + ";");
+
+                            //lib_md_doc.AppendLine("Id = " + node.Id + ";");
+                            //lib_md_doc.AppendLine("* PathAssembly = " + node.PathAssembly);
+                            //lib_md_doc.AppendLine("* PathExecuteClass = " + node.PathExecuteClass); 
+                            lib_md_doc.AppendLine("**Автор** = " + node.CoderName + ";");
+                            lib_md_doc.AppendLine("**Папка** = " + node.Folder + ";");
+                            
+                            //lib_md_doc.AppendLine("* NodeType = " + node.NodeType);
+                            //lib_md_doc.AppendLine("**CADType** = " + node.CADType + ";");
+                            //lib_md_doc.AppendLine("* ViewType = " + node.ViewType);
+                            
+
+                            if (node.Arguments.Length > 0)
+                            {
+                                lib_md_doc.AppendLine("**Входные данные**:");
+                                foreach (var arg in node.Arguments)
+                                {
+                                    lib_md_doc.AppendLine("* " + arg + ";");
+                                }
+                            }
+                            lib_md_doc.AppendLine("");
+                        }
+                    }
+
+                    File.WriteAllText(help_mdFile_path, lib_md_doc.ToString(), Encoding.UTF8);
 
                     guids_map.Save(guids_map_path);
                     Console.WriteLine("guids map SAVE " + guids_map_path);

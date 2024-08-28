@@ -14,5 +14,8 @@ namespace NVP_Manifest_Creator
         public string CADType { get; set; }
         public string ViewType { get; set; }
         public string Text { get; set; }
+
+        //Временная конструкция для пометки всех входных аргументов нода NVP.API.Nodes.NodeInputAttribute
+        public string[] Arguments { get; set; }
     }
 }

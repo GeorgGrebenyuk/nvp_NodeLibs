@@ -14,16 +14,16 @@
     <DefineConstants>NET48</DefineConstants>
   </PropertyGroup>
 
-  <ItemGroup>
-    <COMReference Include="vCSViperCSObjComLib">
-      <WrapperTool>tlbimp</WrapperTool>
-      <VersionMinor>0</VersionMinor>
-      <VersionMajor>1</VersionMajor>
-      <Guid>f4a0d05f-a659-4eec-9021-dcf12867b9b8</Guid>
-      <Lcid>0</Lcid>
-      <Isolated>false</Isolated>
-      <EmbedInteropTypes>true</EmbedInteropTypes>
-    </COMReference>
+  <ItemGroup Condition="'$(TargetFramework)' == 'net6.0'">
+    <Reference Include="NVP.Core.API">
+      <HintPath>C:\Program Files\NVP\net6.0\NVP.Core.API.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(TargetFramework)' == 'net48'">
+    <Reference Include="NVP.Core.API">
+      <HintPath>C:\Program Files\NVP\framework4.8\NVP.API.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
   <ItemGroup>
