@@ -1,8 +1,10 @@
 ﻿using NVP.API.Nodes;
 using System;
 using System.Collections.Generic;
+using System.Collections;
 
 using NVP_Manifest_Creator;
+using System.Linq;
 
 ///<summary>
 ///TeighaX Interface of an area fill consisting of a pattern of lines
@@ -474,7 +476,7 @@ namespace NVP_nanoCAD_COM._OdaX.AcadHatch
 		Text = "Adds the outer loop (one entity) to a hatch.", 
 		ViewType = "Modifier")]
 	[NodeInput("AcadHatch", typeof(object))]
-	[NodeInput("AcadEntity", typeof(System.Object))]
+	[NodeInput("AcadEntity", typeof(object))]
 
 	///<summary>
 	///Adds the outer loop to a hatch for one entity
@@ -484,17 +486,18 @@ namespace NVP_nanoCAD_COM._OdaX.AcadHatch
 		public NodeResult Execute(INVPData context, List<NodeResult> inputs)
 		{
 			dynamic _input0 = inputs[0].Value;
-			object[] ents = new object[1] { inputs[1].Value };
+			dynamic _item = inputs[1].Value;
+			object[] ents = new object[1] { _item._i };
 			_input0._i.AppendOuterLoop(ents);
-			return null;
-		}
+            return new NodeResult(null);
+        }
 	}
 
     [NVP_Manifest(
     Text = "Adds the outer loop (some entities) to a hatch.",
     ViewType = "Modifier")]
     [NodeInput("AcadHatch", typeof(object))]
-    [NodeInput("The array of AcadEntity", typeof(System.Object))]
+    [NodeInput("Список AcadEntity", typeof(object))]
 
     ///<summary>
     ///Adds the outer loop to a hatch fro some entities
@@ -504,8 +507,16 @@ namespace NVP_nanoCAD_COM._OdaX.AcadHatch
         public NodeResult Execute(INVPData context, List<NodeResult> inputs)
         {
             dynamic _input0 = inputs[0].Value;
-            _input0._i.AppendOuterLoop(inputs[1].Value);
-            return null;
+			IList _items_raw = (IList)inputs[1].Value;
+			List<object> ents = new List<object>();
+			foreach (dynamic item in _items_raw)
+			{
+                ents.Add(item._i);
+
+            }
+			
+            _input0._i.AppendOuterLoop(ents.ToArray());
+            return new NodeResult(null);
         }
     }
 
