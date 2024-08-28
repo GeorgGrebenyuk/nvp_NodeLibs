@@ -1,8 +1,9 @@
 # nvp_NodeLibs
 
-Исходный код библиотек нодов NVP ([https://nvp-studio.ru/](https://nvp-studio.ru/)) для САПР с COM API (ActiveX) : Renga, nanoCAD, ModelStudioCS, а также других проектов.
+Исходный код библиотек нодов NVP ([https://nvp-studio.ru/](https://nvp-studio.ru/)) для САПР с COM API (ActiveX) : Renga, nanoCAD, ModelStudioCS, а также других проектов. Проекты, использующие COM созданы при помощи https://github.com/GeorgGrebenyuk/idl2nvp_converter.
 
-Проекты, использующие COM созданы при помощи https://github.com/GeorgGrebenyuk/idl2nvp_converter.
+Web-версию см. на [https://georggrebenyuk.github.io/nvp_NodeLibs/](https://georggrebenyuk.github.io/nvp_NodeLibs/).
+
 
 # Пользователю
 
