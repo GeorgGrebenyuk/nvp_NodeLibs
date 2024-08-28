@@ -5,7 +5,6 @@ using System.Collections.Generic;
 using NVP_Manifest_Creator;
 using Teigha.DatabaseServices;
 using ncCommon;
-using Application.Database;
 
 
 namespace Application.Document
@@ -69,7 +68,7 @@ namespace Application.Document
             dynamic _input0 = inputs[0].Value;
             HostMgd.ApplicationServices.Document doc = (HostMgd.ApplicationServices.Document)_input0._o;
 
-            Database_Constructor db_C = new Database_Constructor();
+            Application.Database.Database_Constructor db_C = new Application.Database.Database_Constructor();
             db_C._o = doc.Database;
 
             return new NodeResult(db_C);

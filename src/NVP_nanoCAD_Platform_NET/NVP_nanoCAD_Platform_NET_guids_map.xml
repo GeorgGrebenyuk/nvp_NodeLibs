@@ -41,5 +41,13 @@
       <Path>Application.Database.Get_Filename</Path>
       <Id>709AE8A1-EE18-4FC3-8A9B-E13DEE19388A</Id>
     </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>Selection.GetEntitiesByClassType</Path>
+      <Id>DF7877C9-CCD4-45F9-A686-0CE23F820F0B</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>Selection.GetEntitiesByClassTypes</Path>
+      <Id>23D4F6B5-73A9-4065-9071-A51680B16C55</Id>
+    </Auxiliary_Guids_Map_Item>
   </ElementsMap>
 </Auxiliary_Guids_Map>

@@ -33,7 +33,7 @@ namespace ncCommon
             return to_out;
         }
 
-        public static List<DBObject> GetObjectsByTypes (Database db, List<string> types, bool modeRead, bool asEntity)
+        public static List<DBObject> GetObjectsByTypes (Database db, List<Type> types, bool modeRead, bool asEntity)
         {
             OpenMode _mode = OpenMode.ForRead;
             if (!modeRead) _mode = OpenMode.ForWrite;
@@ -56,7 +56,7 @@ namespace ncCommon
                     var ent = acTrans.GetObject(oId, _mode);
                     if (asEntity) ent = ent as Entity;
 
-                    if (types.Contains(ent.GetType().Name)) to_out.Add(ent);
+                    if (types.Contains(ent.GetType())) to_out.Add(ent);
                 }
                 acTrans.Commit();
             }

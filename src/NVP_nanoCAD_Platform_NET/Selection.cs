@@ -1,13 +1,15 @@
 ﻿using NVP.API.Nodes;
 using System;
+using System.Linq;
 using System.Collections.Generic;
+using System.Collections;
 
 using NVP_Manifest_Creator;
 using Teigha.DatabaseServices;
 using ncCommon;
-using Application.Database;
+
 using Teigha;
-using System.Security.Cryptography;
+
 
 
 namespace Selection
@@ -63,13 +65,13 @@ namespace Selection
     }
 
     [NVP_Manifest(
-        Text = "Возвращает список Entity для заданного названия типа",
+        Text = "Возвращает список Entity для заданного типа объекта",
         CADType = "Nanocad",
         ViewType = "Data")]
     [NodeInput("Document", typeof(object))]
-    [NodeInput("Имя класса", typeof(string))]
+    [NodeInput("Тип (ноды ObjectTypes)", typeof(string))]
     [NodeInput("Для чтения", typeof(bool))]
-    public class GetEntitiesByClassName : INode
+    public class GetEntitiesByClassType : INode
     {
         public NodeResult Execute(INVPData context, List<NodeResult> inputs)
         {
@@ -77,11 +79,42 @@ namespace Selection
             HostMgd.ApplicationServices.Document doc = (HostMgd.ApplicationServices.Document)_input0._o;
 
             bool openMode = (bool)inputs[1].Value;
-            string needClass = (string)inputs[2].Value;
-            List<string> types = new List<string>() { needClass };
+            Type needClass = (Type)inputs[2].Value;
+            List<Type> types = new List<Type>() { needClass };
 
             List<Entity_Constructor> to_out = new List<Entity_Constructor>();
             var ents = CommonData.GetObjectsByTypes(doc.Database, types, openMode, true) ;
+            foreach (var ent in ents)
+            {
+                Entity_Constructor ent2 = new Entity_Constructor();
+                ent2._o = ent as Teigha.DatabaseServices.Entity;
+                to_out.Add(ent2);
+            }
+
+            return new NodeResult(to_out);
+        }
+    }
+
+    [NVP_Manifest(
+        Text = "Возвращает список Entity для заданных типов объектов",
+        CADType = "Nanocad",
+        ViewType = "Data")]
+    [NodeInput("Document", typeof(object))]
+    [NodeInput("Список типов (ноды ObjectTypes)", typeof(IList))]
+    [NodeInput("Для чтения", typeof(bool))]
+    public class GetEntitiesByClassTypes : INode
+    {
+        public NodeResult Execute(INVPData context, List<NodeResult> inputs)
+        {
+            dynamic _input0 = inputs[0].Value;
+            HostMgd.ApplicationServices.Document doc = (HostMgd.ApplicationServices.Document)_input0._o;
+
+            bool openMode = (bool)inputs[1].Value;
+            IList needClasses = (IList)inputs[2].Value;
+            List<Type> types = needClasses.Cast<Type>().ToList();
+
+            List<Entity_Constructor> to_out = new List<Entity_Constructor>();
+            var ents = CommonData.GetObjectsByTypes(doc.Database, types, openMode, true);
             foreach (var ent in ents)
             {
                 Entity_Constructor ent2 = new Entity_Constructor();
