@@ -233,18 +233,18 @@ namespace NVP_Manifest_Creator
                         foreach (var node in folder_nodes.Value)
                         {
                             lib_md_doc.AppendLine("### Нод " + node.NodeName + Environment.NewLine);
-                            lib_md_doc.AppendLine("**Имя нода** = " + node.NodeName + ";" + Environment.NewLine);
+                            //lib_md_doc.AppendLine("**Имя нода** = " + node.NodeName + ";" + Environment.NewLine);
                             if (node.Text != "") lib_md_doc.AppendLine("**Описание** = " + node.Text + ";" + Environment.NewLine);
 
-                            //lib_md_doc.AppendLine("Id = " + node.Id + ";");
-                            //lib_md_doc.AppendLine("* PathAssembly = " + node.PathAssembly);
-                            //lib_md_doc.AppendLine("* PathExecuteClass = " + node.PathExecuteClass); 
-                            lib_md_doc.AppendLine("**Автор** = " + node.CoderName + ";" + Environment.NewLine);
+                            //lib_md_doc.AppendLine("**Id** = " + node.Id + ";");
+                            //lib_md_doc.AppendLine("**PathAssembly** = " + node.PathAssembly);
+                            //lib_md_doc.AppendLine("**PathExecuteClass** = " + node.PathExecuteClass); 
+                            //lib_md_doc.AppendLine("**Автор** = " + node.CoderName + ";" + Environment.NewLine);
                             lib_md_doc.AppendLine("**Папка** = " + node.Folder + ";" + Environment.NewLine);
                             
-                            //lib_md_doc.AppendLine("* NodeType = " + node.NodeType);
+                            //lib_md_doc.AppendLine("**NodeType** = " + node.NodeType);
                             //lib_md_doc.AppendLine("**CADType** = " + node.CADType + ";");
-                            //lib_md_doc.AppendLine("* ViewType = " + node.ViewType);
+                            //lib_md_doc.AppendLine("**ViewType** = " + node.ViewType);
                             
 
                             if (node.Arguments.Length > 0)
