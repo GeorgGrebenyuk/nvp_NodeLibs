@@ -13,7 +13,14 @@
 * Информация о пакетах и особенностях их использования приведена см. [здесь](./docs/UserGuide.md);
 * Примеры скриптов см. [здесь](./samples/SAMPLES_README.md);
 * Готовые сценарии (скрипты) под рабочие задачи и об их применении см. [здесь](./docs/UserGuide_common_Tasks.md);
-* Краткая справка по всем нодам [см. каталог](./docs/help);
+* Краткая справка по всем пакетам нодов:
+  * [NVP_COM_Common](./docs/help/NVP_COM_Common_help.md);
+  * [NVP_Common](./docs/help/NVP_Common_help.md);
+  * [NVP_ModelStudio_COM](./docs/help/NVP_ModelStudio_COM_help.md);
+  * [NVP_nanoCAD_COM](./docs/help/NVP_nanoCAD_COM_help.md);
+  * [NVP_nanoCAD_Platform_NET](./docs/help/NVP_nanoCAD_Platform_NET_help.md);
+  * [NVP_nBIM_NET](./docs/help/NVP_nBIM_NET_help.md);
+  * [NVP_Renga_COM](./docs/help/NVP_Renga_COM_help.md);
 
 ## История обновлений
 
