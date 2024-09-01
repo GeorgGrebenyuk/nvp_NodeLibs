@@ -87,6 +87,8 @@ namespace NVP_Manifest_Creator
                 string guids_map_path = Path.Combine(root_repo_path, "src", dll_name, dll_name + "_guids_map.xml");
                 string help_mdFile_path = Path.Combine(help_md_path, dll_name + "_help.md");
 
+
+
                 Auxiliary_Guids_Map guids_map = Auxiliary_Guids_Map.LoadFromFile(guids_map_path);
 
                 Dictionary<string, List<NVP_Manifest>> nodeitems = new Dictionary<string, List<NVP_Manifest>>();
@@ -96,20 +98,15 @@ namespace NVP_Manifest_Creator
 
                 Assembly assembly = Assembly.LoadFrom(dll_path);
                 Type[] types = new Type[] { };
+                Exception ex_save = new Exception();
                 try
                 {
                     types = assembly.GetTypes();
                 }
-                catch { }
-                //#if NET6_0 
-                //                assembly = Assembly.LoadFrom(dll_path);
-                //                types = assembly.GetTypes();
-                //#elif NET48
-                //                assembly = Assembly.ReflectionOnlyLoadFrom(dll_path);
-                //                types = assembly.GetTypes();
-
-                //#endif
-                
+                catch (Exception ex) 
+                {
+                    ex_save = ex;
+                }  
 
                 foreach (Type type in types)
                 {
