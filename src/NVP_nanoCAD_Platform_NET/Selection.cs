@@ -31,9 +31,9 @@ namespace NVP_nanoCAD_Platform_NET.Selection
             string _input1 = inputs[1].Value.ToString();
             bool _input1_mode = (bool)inputs[2].Value;
 
-            ObjectId id = CommonData.GetObjectIdFromHandle(_input1);
+            ObjectId id = new ObjectId(CommonData.GetObjectIdFromHandle(_input1));
             Entity_Constructor ent = new Entity_Constructor();
-            ent._o = CommonData.GetObject(doc.Database, id, _input1_mode, true) as Teigha.DatabaseServices.Entity;
+            ent._o = id.OldIdPtr;
 
             return new NodeResult(ent);
         }
@@ -58,7 +58,7 @@ namespace NVP_nanoCAD_Platform_NET.Selection
 
             ObjectId id = new ObjectId(new IntPtr(_input1));
             Entity_Constructor ent = new Entity_Constructor();
-            ent._o = CommonData.GetObject(doc.Database, id, _input2_mode, true) as Teigha.DatabaseServices.Entity;
+            ent._o = id.OldIdPtr;
 
             return new NodeResult(this);
         }
@@ -87,7 +87,7 @@ namespace NVP_nanoCAD_Platform_NET.Selection
             foreach (var ent in ents)
             {
                 Entity_Constructor ent2 = new Entity_Constructor();
-                ent2._o = ent as Teigha.DatabaseServices.Entity;
+                ent2._o = ent;
                 to_out.Add(ent2);
             }
 
@@ -118,7 +118,7 @@ namespace NVP_nanoCAD_Platform_NET.Selection
             foreach (var ent in ents)
             {
                 Entity_Constructor ent2 = new Entity_Constructor();
-                ent2._o = ent as Teigha.DatabaseServices.Entity;
+                ent2._o = ent;
                 to_out.Add(ent2);
             }
 

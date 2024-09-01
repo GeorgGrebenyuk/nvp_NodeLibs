@@ -8,15 +8,15 @@ namespace NVP_nanoCAD_Platform_NET
 {
     public class CommonData
     {
-        public static Document ThisDocument
+        public static IntPtr ThisDocument
         {
             get
             {
-                return HostMgd.ApplicationServices.Application.DocumentManager.MdiActiveDocument;
+                return HostMgd.ApplicationServices.Application.DocumentManager.MdiActiveDocument.UnmanagedObject;
             }
         }
 
-        public static DBObject GetObject(Database db, ObjectId id, bool modeRead, bool asEntity)
+        public static IntPtr GetObject(Database db, ObjectId id, bool modeRead, bool asEntity)
         {
             OpenMode _mode = OpenMode.ForRead;
             if (!modeRead) _mode = OpenMode.ForWrite;
@@ -30,14 +30,14 @@ namespace NVP_nanoCAD_Platform_NET
                 acTrans.Commit();
             }
 
-            return to_out;
+            return to_out.UnmanagedObject;
         }
 
-        public static List<DBObject> GetObjectsByTypes (Database db, List<Type> types, bool modeRead, bool asEntity)
+        public static List<IntPtr> GetObjectsByTypes (Database db, List<Type> types, bool modeRead, bool asEntity)
         {
             OpenMode _mode = OpenMode.ForRead;
             if (!modeRead) _mode = OpenMode.ForWrite;
-            List<DBObject> to_out = new List<DBObject>();
+            List<IntPtr> to_out = new List<IntPtr>();
 
             using (Transaction acTrans = db.TransactionManager.StartTransaction())
             {
@@ -56,7 +56,7 @@ namespace NVP_nanoCAD_Platform_NET
                     var ent = acTrans.GetObject(oId, _mode);
                     if (asEntity) ent = ent as Entity;
 
-                    if (types.Contains(ent.GetType())) to_out.Add(ent);
+                    if (types.Contains(ent.GetType())) to_out.Add(ent.UnmanagedObject);
                 }
                 acTrans.Commit();
             }
@@ -64,7 +64,7 @@ namespace NVP_nanoCAD_Platform_NET
             return to_out;
         }
 
-        public static ObjectId GetObjectIdFromHandle(string _handle)
+        public static IntPtr GetObjectIdFromHandle(string _handle)
         {
             //Convert Hexadecimal string to 64 bit integer
             long entityHandleLongInt = Convert.ToInt64(_handle, 16);
@@ -73,9 +73,9 @@ namespace NVP_nanoCAD_Platform_NET
             Handle handle = new Handle(entityHandleLongInt);
 
             //Get Object Id for Handle
-            ObjectId objectId = ThisDocument.Database.GetObjectId(false, handle, 0);
+            ObjectId objectId = Document.Create(ThisDocument).Database.GetObjectId(false, handle, 0);
 
-            return objectId;
+            return objectId.OldIdPtr;
         }
     }
 }
