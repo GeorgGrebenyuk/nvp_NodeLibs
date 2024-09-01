@@ -74,7 +74,7 @@ namespace NVP_Common.Task.Kvartirografiya
     }
 
     [NVP_Manifest(
-            Text = "Расчитывает параметры квартирографии для заданных условий (см. справку)",
+            Text = "Расчитывает параметры квартирографии для заданных условий (см. справку). Вариант 1",
             ViewType = "Modifier")]
     /*0*/[NodeInput("Свойства помещений", typeof(IList))] //List<Dictionary>
     /*1*/[NodeInput("Уровень2Помещения", typeof(IDictionary))] //Dictionary<string, string[]> 
@@ -164,8 +164,8 @@ namespace NVP_Common.Task.Kvartirografiya
             {
                 IDictionary RoomProps = (IDictionary)input_0_props[room_counter];
                 string RoomName = (string)RoomProps[input_3_prop_Name_RoomName];
-                double RoomArea = (double)RoomProps[input_5_prop_Name_Area];
-                double RoomAreaOtd = (double)RoomProps[input_6_prop_Name_AreaOtd];
+                double RoomArea = Convert.ToDouble(RoomProps[input_5_prop_Name_Area]);
+                double RoomAreaOtd = Convert.ToDouble(RoomProps[input_6_prop_Name_AreaOtd]);
 
                 string FlatNum = RoomProps[input_4_prop_Name_FlatId].ToString();
                 string FlatPrefix = "";
@@ -181,7 +181,7 @@ namespace NVP_Common.Task.Kvartirografiya
                     throw new Exception("Неопределенное наименование помещения " + RoomName);
                 }
                 double Room_AreaK = 1.0; 
-                if (input_15_AreasKoefs.Contains(RoomName)) Room_AreaK = (double)input_15_AreasKoefs[RoomName];
+                if (input_15_AreasKoefs.Contains(RoomName)) Room_AreaK = Convert.ToDouble(input_15_AreasKoefs[RoomName]);
                 //Определение ЖИЛОЙ площади
                 double RoomArea_Living = 0.0;
                 if (RoomType == "Жилое") RoomArea_Living = RoomAreaOtd * Room_AreaK; //TODO: верно для случая коэффициента?
@@ -232,6 +232,149 @@ namespace NVP_Common.Task.Kvartirografiya
                 double FlatArea_Living = Math.Round(FlatData[0], input_16_Accuracy);
                 double FlatArea_NonResidential = Math.Round(FlatData[1], input_16_Accuracy);
                 double FlatArea_SummerRooms = Math.Round(FlatData[2], input_16_Accuracy);
+                int RoomsCount = Convert.ToInt32(FlatData[3]);
+                //Заполнение свойств на выход
+                double temp_total_Common = FlatArea_Living + FlatArea_NonResidential;
+                double temp_total_All = temp_total_Common + FlatArea_SummerRooms;
+
+                OutData_Areas_Names.Add(new string[4] { input_7_prop_Name_FinishLiving_Area , input_8_prop_Name_FinishNonLiving_Area,
+                    input_9_prop_Name_FinishSummer_Area, input_10_prop_Name_FinishRooms_Area});
+                OutData_Areas_Values.Add(new object[4] { FlatArea_Living, temp_total_Common, temp_total_All, RoomsCount });
+                OutData_Areas_Spec.Add(new string[4] { FlatArea_Living.ToString(), temp_total_Common.ToString(), temp_total_All.ToString(), RoomsCount.ToString() });
+            }
+
+            return new NodeResult(new object[3] { OutData_Areas_Names, OutData_Areas_Values, OutData_Areas_Spec });
+        }
+    }
+
+    [NVP_Manifest(
+            Text = "Расчитывает параметры квартирографии для заданных условий (см. справку). Вариант 2",
+            ViewType = "Modifier")]
+    /*0*/[NodeInput("Свойства помещений", typeof(IList))] //List<Dictionary>
+    /*1*/[NodeInput("Уровень2Помещения", typeof(IDictionary))] //Dictionary<string, string[]> 
+    /*2*/[NodeInput("Свойство Идентификатор", typeof(string))]
+    /*3*/[NodeInput("Свойство Квартира", typeof(string))]
+    /*4*/[NodeInput("Свойство Жилая площадь", typeof(string))]
+    /*5*/[NodeInput("Свойство Нежилая площадь", typeof(string))]
+    /*6*/[NodeInput("Свойство Площадь летних пом.", typeof(string))]
+    /*7*/[NodeInput("Итог.Площадь Жилая", typeof(string))]
+    /*8*/[NodeInput("Итог.Площадь Общая", typeof(string))]
+    /*9*/[NodeInput("Итог.Площадь Квартиры", typeof(string))]
+    /*10*/[NodeInput("Итог.Число помещений", typeof(string))]
+    /*11*/[NodeInput("Точность округления", typeof(int))]
+    /*12*/[NodeInput("Игнорировать", typeof(int))]
+    public class Kvartirografiya_Calculate2 : INode
+    {
+        public NodeResult Execute(INVPData context, List<NodeResult> inputs)
+        {
+            //Шаг 1 -- инициация исходных данных
+            IList input_0_props = (IList)inputs[0].Value;
+            IDictionary input_1_level2rooms = (IDictionary)inputs[1].Value;
+
+            string input_2_prop_Name_Id = (string)inputs[2].Value;
+            string input_3_prop_Name_FlatId = (string)inputs[3].Value;
+            string input_4_prop_Name_AreaLiving = (string)inputs[4].Value;
+            string input_5_prop_Name_AreaNoLiving = (string)inputs[5].Value;
+            string input_6_prop_Name_AreaSummer = (string)inputs[6].Value;
+
+            string input_7_prop_Name_FinishLiving_Area = (string)inputs[7].Value;
+            string input_8_prop_Name_FinishNonLiving_Area = (string)inputs[8].Value;
+            string input_9_prop_Name_FinishSummer_Area = (string)inputs[9].Value;
+            string input_10_prop_Name_FinishRooms_Area = (string)inputs[10].Value;
+
+            int input_11_Accuracy = Convert.ToInt32(inputs[16].Value);
+
+            string input_12_ignore_Rule = (string)inputs[17].Value;
+            string input_12_PropName = "";
+            string input_12_PropValue = "";
+            bool input_12 = false;
+            if (input_12_ignore_Rule != null && input_12_ignore_Rule.Contains(":"))
+            {
+                input_12 = true;
+                input_12_PropName = input_12_ignore_Rule.Split(':')[0];
+                input_12_PropValue = input_12_ignore_Rule.Split(':')[1];
+            }
+            //Шаг 2 -- Первичный расчет метрик
+            //Если есть данные по уровням, то в качестве номера квадртира использовать префикс в виде уровня
+            Dictionary<int, string> roomIndex2prefix = new Dictionary<int, string>();
+            if (input_1_level2rooms != null)
+            {
+                int counter = 0;
+                for (int room_counter = 0; room_counter < input_0_props.Count; room_counter++)
+                {
+                    IDictionary RoomProps = (IDictionary)input_0_props[room_counter];
+                    object roomId = RoomProps[input_2_prop_Name_Id];
+
+                    var need_delevel = "";
+                    foreach (DictionaryEntry level2rooms_raw in input_1_level2rooms)
+                    {
+                        //KeyValuePair<string, IList>
+                        if (((IList)level2rooms_raw.Value).Contains(roomId))
+                        {
+                            need_delevel = (string)level2rooms_raw.Key;
+                            break;
+                        }
+                    }
+                    roomIndex2prefix.Add(counter, need_delevel);
+                    counter++;
+                }
+            }
+
+            //Шаг 3 -- Подсчет параметров для каждого помещения
+            Dictionary<string, double[]> TempRoomData = new Dictionary<string, double[]>();
+            string[] room2flat = new string[input_0_props.Count];
+            for (int room_counter = 0; room_counter < input_0_props.Count; room_counter++)
+            {
+                IDictionary RoomProps = (IDictionary)input_0_props[room_counter];
+
+                string FlatNum = RoomProps[input_3_prop_Name_FlatId].ToString();
+                string FlatPrefix = "";
+                if (roomIndex2prefix.TryGetValue(room_counter, out FlatPrefix)) FlatNum = FlatPrefix + FlatNum;
+                room2flat[room_counter] = FlatNum;
+
+                //Определение ЖИЛОЙ площади
+                double RoomArea_Living = (double)RoomProps[input_4_prop_Name_AreaLiving];
+               
+                //Определение НЕЖИЛОЙ площади
+                double RoomArea_NonResidential = (double)RoomProps[input_5_prop_Name_AreaNoLiving];
+                
+                //Определение площади летних помещений
+                double RoomArea_SummerRooms = (double)RoomProps[input_6_prop_Name_AreaSummer];
+
+                //Занесение в память
+                //Если настроено игнорирование площади, то её не считаем
+                if (input_12 && (string)RoomProps[input_12_PropName] == input_12_PropValue)
+                {
+                    RoomArea_Living = 0.0;
+                    RoomArea_NonResidential = 0.0;
+                    RoomArea_SummerRooms = 0.0;
+                }
+                double[] temp_existed_values = new double[4];
+                if (!TempRoomData.TryGetValue(FlatNum, out temp_existed_values))
+                    TempRoomData[FlatNum] = new double[4] { RoomArea_Living, RoomArea_NonResidential, RoomArea_SummerRooms, 1.0 };
+                else
+                {
+                    temp_existed_values[0] += RoomArea_Living;
+                    temp_existed_values[1] += RoomArea_NonResidential;
+                    temp_existed_values[2] += RoomArea_SummerRooms;
+                    temp_existed_values[3] += 1.0;
+                    TempRoomData[FlatNum] = temp_existed_values;
+                }
+            }
+
+            //Этап 2: Заполнение общей площади для каждой комнаты:
+            List<string[]> OutData_Areas_Names = new List<string[]>();
+            List<object[]> OutData_Areas_Values = new List<object[]>();
+            List<string[]> OutData_Areas_Spec = new List<string[]>();
+            OutData_Areas_Spec.Add(new string[] { "Наименование кв с уровнем", "Площадь жилая", "Площадь общая", "Площадь квартиры", "Число помещений" });
+
+            for (int room_counter = 0; room_counter < input_0_props.Count; room_counter++)
+            {
+                string FlatNum = room2flat[room_counter];
+                double[] FlatData = TempRoomData[FlatNum];
+                double FlatArea_Living = Math.Round(FlatData[0], input_11_Accuracy);
+                double FlatArea_NonResidential = Math.Round(FlatData[1], input_11_Accuracy);
+                double FlatArea_SummerRooms = Math.Round(FlatData[2], input_11_Accuracy);
                 int RoomsCount = Convert.ToInt32(FlatData[3]);
                 //Заполнение свойств на выход
                 double temp_total_Common = FlatArea_Living + FlatArea_NonResidential;
