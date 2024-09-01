@@ -14642,6 +14642,16 @@
 
 * (System.Object)dynamic;
 
+### Нод _Element_ConstructorCast2
+
+**Описание** = Приведение из AcadEntity;
+
+**Папка** = NVP_ModelStudio_COM.mdsUnitsLib.Element;
+
+**Входные данные**:
+
+* (System.Object)dynamic;
+
 ### Нод Name
 
 **Описание** = Имя элемента;
@@ -24401,6 +24411,34 @@
 
 * (System.Object)WrAECSection;
 * (System.Object)pVal;
+
+## Группа NVP_ModelStudio_COM.ironObjComLib.WrAECRoom
+
+### Нод _WrAECRoom_Constructor
+
+**Папка** = NVP_ModelStudio_COM.ironObjComLib.WrAECRoom;
+
+**Входные данные**:
+
+* (System.Object)dynamic;
+
+### Нод _WrAECRoom_ConstructorCast
+
+**Папка** = NVP_ModelStudio_COM.ironObjComLib.WrAECRoom;
+
+**Входные данные**:
+
+* (System.Object)dynamic;
+
+### Нод Element
+
+**Описание** = Параметры;
+
+**Папка** = NVP_ModelStudio_COM.ironObjComLib.WrAECRoom;
+
+**Входные данные**:
+
+* (System.Object)WrAECRoom;
 
 ## Группа NVP_ModelStudio_COM.ironObjComLib.WrAECRoofSurf
 

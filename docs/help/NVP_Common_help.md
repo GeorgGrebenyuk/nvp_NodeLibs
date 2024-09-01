@@ -122,7 +122,7 @@
 
 ### Нод Kvartirografiya_Calculate
 
-**Описание** = Расчитывает параметры квартирографии для заданных условий (см. справку);
+**Описание** = Расчитывает параметры квартирографии для заданных условий (см. справку). Вариант 1;
 
 **Папка** = NVP_Common.Task.Kvartirografiya;
 
@@ -144,6 +144,28 @@
 * (System.Collections.IList)Летние помещения;
 * (System.Collections.IList)Помещения без отделки;
 * (System.Collections.IDictionary)Коэффициенты площади;
+* (System.Int32)Точность округления;
+* (System.Int32)Игнорировать;
+
+### Нод Kvartirografiya_Calculate2
+
+**Описание** = Расчитывает параметры квартирографии для заданных условий (см. справку). Вариант 2;
+
+**Папка** = NVP_Common.Task.Kvartirografiya;
+
+**Входные данные**:
+
+* (System.Collections.IList)Свойства помещений;
+* (System.Collections.IDictionary)Уровень2Помещения;
+* (System.String)Свойство Идентификатор;
+* (System.String)Свойство Квартира;
+* (System.String)Свойство Жилая площадь;
+* (System.String)Свойство Нежилая площадь;
+* (System.String)Свойство Площадь летних пом.;
+* (System.String)Итог.Площадь Жилая;
+* (System.String)Итог.Площадь Общая;
+* (System.String)Итог.Площадь Квартиры;
+* (System.String)Итог.Число помещений;
 * (System.Int32)Точность округления;
 * (System.Int32)Игнорировать;
 
