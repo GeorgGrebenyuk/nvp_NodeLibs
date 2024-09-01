@@ -40,8 +40,24 @@ namespace NVP_ModelStudio_COM._mdsUnitsLib.Element
 		}
 	}
 
+    [NVP_Manifest(
+		Text = "Приведение из AcadEntity",
+		ViewType = "Modifier")]
+    [NodeInput("dynamic", typeof(object))]
+    public class Element_ConstructorCast2 : INode
+    {
+        public mdsUnitsLib.IElement _i;
+        public NodeResult Execute(INVPData context, List<NodeResult> inputs)
+        {
+            dynamic _input0 = inputs[0].Value;
+            this._i = _input0._i.Element as mdsUnitsLib.IElement;
+            if (this._i == null) throw new Exception("Invalid casting2");
+            return new NodeResult(this);
+        }
+    }
 
-	[NVP_Manifest(
+
+    [NVP_Manifest(
 		Text = "Имя элемента", 
 		ViewType = "Data")]
 	[NodeInput("Element", typeof(object))]
