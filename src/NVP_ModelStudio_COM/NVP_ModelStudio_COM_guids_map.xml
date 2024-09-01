@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Auxiliary_Guids_Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<?xml version="1.0"?>
+<Auxiliary_Guids_Map xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ElementsMap>
     <Auxiliary_Guids_Map_Item>
       <Path>NVP_ModelStudio_COM._vCSViperCSObjComLib.WrWeld.WrWeld_Constructor</Path>
@@ -10576,6 +10576,22 @@
     <Auxiliary_Guids_Map_Item>
       <Path>NVP_ModelStudio_COM._mdsUnitsLib.Selection.GetAll_EntitiesMST3</Path>
       <Id>6796EFF1-2E04-4872-ABCC-D22BCA0035B7</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>NVP_ModelStudio_COM._mdsUnitsLib.Element.Element_ConstructorCast2</Path>
+      <Id>621DBE28-A5F5-4B50-A30C-58B8218E2153</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>NVP_ModelStudio_COM._ironObjComLib.WrAECRoom.WrAECRoom_Constructor</Path>
+      <Id>55818760-27FD-4212-A724-90FFD3538A60</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>NVP_ModelStudio_COM._ironObjComLib.WrAECRoom.WrAECRoom_ConstructorCast</Path>
+      <Id>D2B87684-AC65-43AA-9E72-067932D5E792</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>NVP_ModelStudio_COM._ironObjComLib.WrAECRoom.Element</Path>
+      <Id>3659BD92-6F96-4B6F-B795-051C0FE0215F</Id>
     </Auxiliary_Guids_Map_Item>
   </ElementsMap>
 </Auxiliary_Guids_Map>
