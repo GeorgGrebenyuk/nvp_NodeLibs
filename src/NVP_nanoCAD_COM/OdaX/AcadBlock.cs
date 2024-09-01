@@ -1768,10 +1768,11 @@ namespace NVP_nanoCAD_COM._OdaX.AcadBlock
 			string _input1 = inputs[1].Value.ToString();
 			bool _input2 = (bool)inputs[2].Value;
             List<_OdaX.AcadEntity.AcadEntity_Constructor> items = new List<_OdaX.AcadEntity.AcadEntity_Constructor>();
-            for (int item_counter = 0; item_counter < _input0.Count; item_counter++)
+			foreach (OdaX.AcadEntity ent in _input0)
+            //for (int item_counter = 0; item_counter < _input0.Count; item_counter++)
             {
                 _OdaX.AcadEntity.AcadEntity_Constructor item = new _OdaX.AcadEntity.AcadEntity_Constructor();
-                item._i = _input0.Item(item_counter);
+				item._i = ent;// _input0.Item(item_counter);
 
 				bool can_add = false;
 				string entName = item._i.EntityName;
@@ -1831,26 +1832,31 @@ namespace NVP_nanoCAD_COM._OdaX.AcadBlock
         public NodeResult Execute(INVPData context, List<NodeResult> inputs)
         {
             var _input0 = ((dynamic)inputs[0].Value)._i as OdaX.IAcadBlock;
-            List<_OdaX.AcadEntity.AcadEntity_Constructor> items = new List<_OdaX.AcadEntity.AcadEntity_Constructor>();
+            List<BaseClass> items = new List<BaseClass>();
             for (int item_counter = 0; item_counter < _input0.Count; item_counter++)
             {
                 var item = new BaseClass();
                 item._i = _input0.Item(item_counter);
-                bool can_add = false;
+                //bool can_add = false;
                 try
                 {
                     var mst_elem = item._i.Element;
-                    if (mst_elem != null) can_add = true;
+                    if (mst_elem != null)
+					{
+						item._i = mst_elem;
+                        items.Add(item);
+                        // can_add = true;
+                    }
 
                 }
                 catch { }
 
-                if (can_add)
-                {
-                    _OdaX.AcadEntity.AcadEntity_Constructor elem = new _OdaX.AcadEntity.AcadEntity_Constructor();
-                    elem._i = item._i;
-                    items.Add(elem);
-                }
+                //if (can_add)
+                //{
+                //    _OdaX.AcadEntity.AcadEntity_Constructor elem = new _OdaX.AcadEntity.AcadEntity_Constructor();
+                //    elem._i = item._i.Element;
+                    
+                //}
 
             }
             return new NodeResult(items);
