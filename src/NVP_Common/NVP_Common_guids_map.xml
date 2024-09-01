@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Auxiliary_Guids_Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<?xml version="1.0"?>
+<Auxiliary_Guids_Map xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ElementsMap>
     <Auxiliary_Guids_Map_Item>
       <Path>NVP_Common.List.FilterByBoolMask</Path>
@@ -160,6 +160,10 @@
     <Auxiliary_Guids_Map_Item>
       <Path>NVP_Common.Wait.Wait_7</Path>
       <Id>AD535B2B-2502-4B19-BD02-849B122091C1</Id>
+    </Auxiliary_Guids_Map_Item>
+    <Auxiliary_Guids_Map_Item>
+      <Path>NVP_Common.Task.Kvartirografiya.Kvartirografiya_Calculate2</Path>
+      <Id>3C0D7ADD-8189-45C7-9778-BA1B355C966C</Id>
     </Auxiliary_Guids_Map_Item>
   </ElementsMap>
 </Auxiliary_Guids_Map>
